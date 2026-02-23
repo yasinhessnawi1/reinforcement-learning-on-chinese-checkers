@@ -91,13 +91,15 @@ class Pin:
         if self.board.cells[new_axialindex].occupied == True:
             print("Cannot place pin here; position occupied.")
             return False
-        if self.board.cells[new_axialindex].postype!='board':
-            if self.board.cells[new_axialindex].postype != self.board.colour_opposites[self.color] or  self.board.cells[new_axialindex].postype != self.color:
+        '''if self.board.cells[new_axialindex].postype!='board':
+            if self.board.cells[new_axialindex].postype != self.board.colour_opposites[self.color] and self.board.cells[new_axialindex].postype != self.color:
                 print("Cannot place pin here; Other colour position.", self.board.cells[new_axialindex].postype)
-                return False
+                return False'''
+        #removed above rule to let pins move anywhere
         
         self.board.cells[self.axialindex].occupied = False
         self.axialindex = int(new_axialindex)
         self.board.cells[int(new_axialindex)].occupied = True
         print('Pin placed successfully.')
         return True
+
