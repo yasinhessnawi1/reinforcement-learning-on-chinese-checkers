@@ -1,0 +1,7 @@
+torch>=2.0
+gymnasium>=0.29
+numpy>=1.24
+sb3-contrib>=2.3
+stable-baselines3>=2.3
+pyyaml>=6.0
+matplotlib>=3.7

@@ -1,0 +1,40 @@
+# Environment
+board_radius: 4
+num_cells: 121
+grid_size: 17
+num_channels: 10
+num_actions: 1210
+num_pins: 10
+
+# ResNet
+resnet_blocks: 6
+resnet_filters: 64
+
+# PPO
+learning_rate: 0.0003
+n_steps: 2048
+batch_size: 64
+n_epochs: 10
+gamma: 0.99
+gae_lambda: 0.95
+clip_range: 0.2
+ent_coef: 0.01
+vf_coef: 0.5
+max_grad_norm: 0.5
+
+# Training
+num_envs: 16
+total_timesteps: 1_000_000
+
+# Reward shaping
+reward_forward_progress: 0.01
+reward_goal_entry: 1.0
+reward_goal_exit: -2.0
+reward_win: 10.0
+reward_lose: -5.0
+reward_draw: -1.0
+
+# Self-play
+checkpoint_interval: 10000
+checkpoint_pool_size: 20
+self_play_ratio: 0.7
