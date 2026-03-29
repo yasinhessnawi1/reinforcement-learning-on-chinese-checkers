@@ -5,3 +5,4 @@ sb3-contrib>=2.3
 stable-baselines3>=2.3
 pyyaml>=6.0
 matplotlib>=3.7
+tensorboard>=2.14
