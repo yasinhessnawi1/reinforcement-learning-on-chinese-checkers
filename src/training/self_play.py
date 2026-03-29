@@ -54,7 +54,7 @@ def make_checkpoint_opponent(checkpoint_path):
         mask = mapper.build_action_mask(legal)
 
         action, _ = model.predict(obs_tensor, action_masks=np.expand_dims(mask, 0), deterministic=False)
-        pin_id, dest = mapper.decode(int(action))
+        pin_id, dest = mapper.decode(int(action[0]))
         return pin_id, dest
 
     return policy
