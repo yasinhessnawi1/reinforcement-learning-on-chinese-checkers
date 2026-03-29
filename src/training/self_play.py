@@ -60,23 +60,30 @@ def make_checkpoint_opponent(checkpoint_path):
     return policy
 
 
-def make_self_play_opponent(pool, greedy_fallback_ratio=0.3):
+def make_self_play_opponent(pool, greedy_fallback_ratio=0.3, reload_every=1000):
     """Return an opponent policy that samples from checkpoint pool or greedy.
 
-    Each call to the returned function picks a fresh strategy:
-    - With probability greedy_fallback_ratio: use greedy heuristic
-    - Otherwise: load a random checkpoint from the pool
-    - If pool is empty: always use greedy
+    Loads a checkpoint once and reuses it for `reload_every` steps before
+    sampling a new one. This avoids reloading from disk on every step.
     """
-    def opponent(board_wrapper, colour):
+    state = {"policy": None, "steps": 0}
+
+    def _refresh():
         if random.random() < greedy_fallback_ratio or pool.size() == 0:
-            return greedy_policy(board_wrapper, colour)
+            state["policy"] = greedy_policy
+        else:
+            checkpoint_path = pool.sample()
+            if checkpoint_path is None:
+                state["policy"] = greedy_policy
+            else:
+                state["policy"] = make_checkpoint_opponent(checkpoint_path)
 
-        checkpoint_path = pool.sample()
-        if checkpoint_path is None:
-            return greedy_policy(board_wrapper, colour)
+    _refresh()
 
-        policy = make_checkpoint_opponent(checkpoint_path)
-        return policy(board_wrapper, colour)
+    def opponent(board_wrapper, colour):
+        state["steps"] += 1
+        if state["steps"] % reload_every == 0:
+            _refresh()
+        return state["policy"](board_wrapper, colour)
 
     return opponent
