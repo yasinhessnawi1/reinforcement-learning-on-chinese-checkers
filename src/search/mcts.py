@@ -140,8 +140,16 @@ class MCTS:
         self.dirichlet_alpha = dirichlet_alpha
         self.dirichlet_epsilon = dirichlet_epsilon
 
-    def _select(self, node: MCTSNode) -> MCTSNode:
-        """Traverse tree using PUCT until a leaf node is reached."""
+    def _select(self, node: MCTSNode, sim_env) -> tuple[MCTSNode, bool]:
+        """Traverse tree using PUCT until a leaf node is reached.
+
+        Also steps sim_env through each action so it matches the leaf state.
+
+        Returns
+        -------
+        (node, terminal) — leaf node and whether the env reached terminal state.
+        """
+        terminal = False
         while node.is_expanded and node.children:
             parent_N = node.N
             best_score = -float('inf')
@@ -151,8 +159,13 @@ class MCTS:
                 if score > best_score:
                     best_score = score
                     best_child = child
+            # Step the sim env to match the tree traversal
+            _, reward, terminated, truncated, _ = sim_env.step(best_child.action)
             node = best_child
-        return node
+            if terminated or truncated:
+                terminal = True
+                break
+        return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
         """Expand a leaf node using the policy network.
@@ -220,11 +233,16 @@ class MCTS:
             # 1. Clone env for this simulation
             sim_env = env.clone()
 
-            # 2. Selection: follow PUCT until leaf
-            node = self._select(root)
+            # 2. Selection: follow PUCT until leaf (also steps sim_env)
+            node, terminal = self._select(root, sim_env)
 
-            # 3. Expansion + evaluation
-            value = self._expand(node, sim_env)
+            if terminal:
+                # Game ended during tree traversal — use actual outcome
+                agent_won = sim_env._board.check_win(sim_env._AGENT_COLOUR) if sim_env._board is not None else False
+                value = 1.0 if agent_won else -1.0
+            else:
+                # 3. Expansion + evaluation
+                value = self._expand(node, sim_env)
 
             # 4. Backup
             self._backup(node, value)
