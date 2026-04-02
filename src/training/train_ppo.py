@@ -96,8 +96,8 @@ def parse_args(argv=None):
     )
 
     # Environment
-    parser.add_argument("--opponent", choices=["random", "greedy", "self"], default="greedy",
-                        help="Opponent policy: 'random', 'greedy', or 'self' (default: greedy)")
+    parser.add_argument("--opponent", choices=["none", "random", "greedy", "self"], default="greedy",
+                        help="Opponent policy: 'none' (solo), 'random', 'greedy', or 'self' (default: greedy)")
     parser.add_argument("--self-play-pool-dir", type=str, default=None,
                         help="Directory for self-play checkpoint pool (default: <model_dir>/pool)")
     parser.add_argument("--self-play-save-freq", type=int, default=500_000,
@@ -142,16 +142,28 @@ def parse_args(argv=None):
                         help="Random seed (default: 0)")
 
     # Network
-    parser.add_argument("--policy", choices=["mlp", "resnet"], default="resnet",
-                        help="Policy type: 'mlp' or 'resnet' (default: resnet)")
+    parser.add_argument("--policy", choices=["mlp", "resnet", "vit", "masked-vit"], default="resnet",
+                        help="Policy type: 'mlp', 'resnet', 'vit', or 'masked-vit' (default: resnet)")
     parser.add_argument("--num-blocks", type=int, default=6,
                         help="ResNet blocks (default: 6, only used with --policy resnet)")
     parser.add_argument("--num-filters", type=int, default=64,
                         help="ResNet filters (default: 64, only used with --policy resnet)")
+    parser.add_argument("--vit-d-model", type=int, default=128,
+                        help="Transformer width (default: 128, only used with --policy vit/masked-vit)")
+    parser.add_argument("--vit-n-heads", type=int, default=4,
+                        help="Transformer attention heads (default: 4)")
+    parser.add_argument("--vit-n-layers", type=int, default=4,
+                        help="Transformer layers (default: 4)")
+    parser.add_argument("--vit-features-dim", type=int, default=256,
+                        help="Transformer output features dim (default: 256)")
 
     # Resume / fine-tune
     parser.add_argument("--resume", type=str, default=None,
                         help="Path to a saved model (.zip) to resume training or fine-tune from")
+
+    # Visualization
+    parser.add_argument("--viz-freq", type=int, default=10_000,
+                        help="Steps between eval visualizations. 0 = disabled (default: 10000)")
 
     return parser.parse_args(argv)
 
@@ -178,7 +190,9 @@ def main(argv=None):
         print(f"Resuming from: {args.resume}")
 
     # --- Resolve opponent policy ---
-    if args.opponent == "greedy":
+    if args.opponent == "none":
+        opponent_policy = "none"  # solo mode — no opponent moves
+    elif args.opponent == "greedy":
         opponent_policy = greedy_policy
     elif args.opponent == "self":
         pool_dir = args.self_play_pool_dir or os.path.join(model_dir, "pool")
@@ -202,8 +216,8 @@ def main(argv=None):
         seed=args.seed,
     )
 
-    # --- Eval env (single, DummyVecEnv) — always vs greedy for consistent signal ---
-    eval_opponent = greedy_policy if args.opponent in ("greedy", "self") else None
+    # --- Eval env (single, DummyVecEnv) — solo when training solo, else vs greedy ---
+    eval_opponent = "none" if args.opponent == "none" else (greedy_policy if args.opponent in ("greedy", "self") else None)
     eval_env = DummyVecEnv([
         make_env(opponent_policy=eval_opponent, max_steps=args.max_steps, rank=99, seed=args.seed)
     ])
@@ -227,6 +241,14 @@ def main(argv=None):
     )
 
     callbacks = [checkpoint_cb, eval_cb]
+
+    if args.viz_freq > 0:
+        from src.visualization.viz_callback import VizCallback
+        from src.visualization.replay_gui import start_viz_thread
+        viz_queue = start_viz_thread()
+        viz_opponent = "none" if args.opponent == "none" else eval_opponent
+        callbacks.append(VizCallback(viz_queue, eval_freq=args.viz_freq, opponent_policy=viz_opponent))
+
     if args.opponent == "self":
         pool_cb = SelfPlayPoolCallback(
             pool=pool,
@@ -264,6 +286,21 @@ def main(argv=None):
                 features_extractor_kwargs=dict(
                     num_blocks=args.num_blocks,
                     num_filters=args.num_filters,
+                ),
+                share_features_extractor=True,
+                net_arch=dict(pi=[256], vf=[256]),
+            )
+        elif args.policy in ("vit", "masked-vit"):
+            from src.network.transformer_extractor import StandardViT, MaskedViT
+            vit_class = StandardViT if args.policy == "vit" else MaskedViT
+            policy_str = "MlpPolicy"  # MlpPolicy accepts flat features — avoids triple-extractor bug
+            policy_kwargs = dict(
+                features_extractor_class=vit_class,
+                features_extractor_kwargs=dict(
+                    d_model=args.vit_d_model,
+                    n_heads=args.vit_n_heads,
+                    n_layers=args.vit_n_layers,
+                    features_dim=args.vit_features_dim,
                 ),
                 share_features_extractor=True,
                 net_arch=dict(pi=[256], vf=[256]),

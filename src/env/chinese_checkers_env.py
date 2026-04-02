@@ -63,8 +63,12 @@ class ChineseCheckersEnv(gym.Env):
         self._encoder = StateEncoder(grid_size=17, num_channels=10)
         self._mapper = ActionMapper(num_pins=10, num_cells=121)
 
-        # Opponent policy
-        self._opponent_policy = opponent_policy if opponent_policy is not None else self._random_opponent
+        # Opponent policy — None means no opponent (solo mode)
+        self._no_opponent = (opponent_policy == "none")
+        if self._no_opponent:
+            self._opponent_policy = None
+        else:
+            self._opponent_policy = opponent_policy if opponent_policy is not None else self._random_opponent
 
         # Runtime state (initialised in reset())
         self._board: BoardWrapper | None = None
@@ -86,7 +90,8 @@ class ChineseCheckersEnv(gym.Env):
         """
         super().reset(seed=seed)
 
-        self._board = BoardWrapper([self._AGENT_COLOUR, self._OPPONENT_COLOUR])
+        colours = [self._AGENT_COLOUR] if self._no_opponent else [self._AGENT_COLOUR, self._OPPONENT_COLOUR]
+        self._board = BoardWrapper(colours)
         self._step_count = 0
         self._terminated = False
         self._truncated = False
@@ -148,13 +153,14 @@ class ChineseCheckersEnv(gym.Env):
             return obs, reward, True, False, info
 
         # --- 5. Opponent moves ---
-        opponent_legal = self._board.get_legal_moves(self._OPPONENT_COLOUR)
-        if opponent_legal:
-            opp_pin_id, opp_dest = self._opponent_policy(self._board, self._OPPONENT_COLOUR)
-            self._board.apply_move(self._OPPONENT_COLOUR, opp_pin_id, opp_dest)
+        if not self._no_opponent:
+            opponent_legal = self._board.get_legal_moves(self._OPPONENT_COLOUR)
+            if opponent_legal:
+                opp_pin_id, opp_dest = self._opponent_policy(self._board, self._OPPONENT_COLOUR)
+                self._board.apply_move(self._OPPONENT_COLOUR, opp_pin_id, opp_dest)
 
         # --- 6. Check opponent win ---
-        opponent_won = self._board.check_win(self._OPPONENT_COLOUR)
+        opponent_won = False if self._no_opponent else self._board.check_win(self._OPPONENT_COLOUR)
 
         # --- 7. Check agent draw (no legal moves after opponent turn) ---
         agent_drawn = self._board.check_draw(self._AGENT_COLOUR)
@@ -220,6 +226,28 @@ class ChineseCheckersEnv(gym.Env):
         policy_fn : callable(board_wrapper, colour) -> (pin_id, dest_index)
         """
         self._opponent_policy = policy_fn
+
+    def clone(self) -> "ChineseCheckersEnv":
+        """Return a lightweight clone of this environment for MCTS tree branching.
+
+        The clone shares the same opponent policy and configuration but has an
+        independent board state.  Only valid after reset() has been called.
+        """
+        assert self._board is not None, "Call reset() before clone()."
+        new_env = ChineseCheckersEnv.__new__(ChineseCheckersEnv)
+        new_env.render_mode = self.render_mode
+        new_env.max_steps = self.max_steps
+        new_env.observation_space = self.observation_space
+        new_env.action_space = self.action_space
+        new_env._encoder = self._encoder      # stateless — safe to share
+        new_env._mapper = self._mapper        # stateless — safe to share
+        new_env._no_opponent = self._no_opponent
+        new_env._opponent_policy = self._opponent_policy
+        new_env._board = self._board.clone()
+        new_env._step_count = self._step_count
+        new_env._terminated = self._terminated
+        new_env._truncated = self._truncated
+        return new_env
 
     # ------------------------------------------------------------------
     # Private helpers
