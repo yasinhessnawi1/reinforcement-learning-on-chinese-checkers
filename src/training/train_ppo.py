@@ -24,6 +24,7 @@ from sb3_contrib.common.maskable.evaluation import evaluate_policy
 
 from src.env.chinese_checkers_env import ChineseCheckersEnv
 from src.agents.greedy_agent import greedy_policy
+from src.agents.advanced_heuristic import advanced_heuristic_policy
 from src.network.feature_extractor import ResNetFeaturesExtractor
 from src.training.self_play import CheckpointPool, make_self_play_opponent
 
@@ -96,8 +97,8 @@ def parse_args(argv=None):
     )
 
     # Environment
-    parser.add_argument("--opponent", choices=["none", "random", "greedy", "self"], default="greedy",
-                        help="Opponent policy: 'none' (solo), 'random', 'greedy', or 'self' (default: greedy)")
+    parser.add_argument("--opponent", choices=["none", "random", "greedy", "advanced", "self"], default="greedy",
+                        help="Opponent policy: 'none' (solo), 'random', 'greedy', 'advanced', or 'self' (default: greedy)")
     parser.add_argument("--self-play-pool-dir", type=str, default=None,
                         help="Directory for self-play checkpoint pool (default: <model_dir>/pool)")
     parser.add_argument("--self-play-save-freq", type=int, default=500_000,
@@ -194,6 +195,8 @@ def main(argv=None):
         opponent_policy = "none"  # solo mode — no opponent moves
     elif args.opponent == "greedy":
         opponent_policy = greedy_policy
+    elif args.opponent == "advanced":
+        opponent_policy = advanced_heuristic_policy
     elif args.opponent == "self":
         pool_dir = args.self_play_pool_dir or os.path.join(model_dir, "pool")
         pool = CheckpointPool(pool_dir, max_size=20)
@@ -217,7 +220,7 @@ def main(argv=None):
     )
 
     # --- Eval env (single, DummyVecEnv) — solo when training solo, else vs greedy ---
-    eval_opponent = "none" if args.opponent == "none" else (greedy_policy if args.opponent in ("greedy", "self") else None)
+    eval_opponent = "none" if args.opponent == "none" else (greedy_policy if args.opponent in ("greedy", "advanced", "self") else None)
     eval_env = DummyVecEnv([
         make_env(opponent_policy=eval_opponent, max_steps=args.max_steps, rank=99, seed=args.seed)
     ])
