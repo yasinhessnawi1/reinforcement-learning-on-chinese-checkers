@@ -87,27 +87,25 @@ def print_results_table(all_results: list):
 
 
 def main():
-    num_games = 20
-    max_steps = 1000
+    import argparse
+    parser = argparse.ArgumentParser(description="Arena evaluation for PPO models.")
+    parser.add_argument('--model', type=str, required=True, help='Path to MaskablePPO .zip model')
+    parser.add_argument('--num-games', type=int, default=20, help='Games per matchup (default: 20)')
+    parser.add_argument('--max-steps', type=int, default=1000, help='Max steps per game (default: 1000)')
+    args = parser.parse_args()
 
-    best_model_path = os.path.join(
-        PROJECT_ROOT, "models", "exp004b_v3rewards_vs_greedy_10M", "best", "best_model.zip"
-    )
-    final_model_path = os.path.join(
-        PROJECT_ROOT, "models", "exp004b_v3rewards_vs_greedy_10M", "final_model.zip"
-    )
+    from src.agents.advanced_heuristic import advanced_heuristic_policy
 
-    print(f"Loading best model from: {best_model_path}")
-    best_policy = make_ppo_policy(best_model_path)
+    num_games = args.num_games
+    max_steps = args.max_steps
 
-    print(f"Loading final model from: {final_model_path}")
-    final_policy = make_ppo_policy(final_model_path)
+    print(f"Loading model from: {args.model}")
+    model_policy = make_ppo_policy(args.model)
 
     matchups = [
-        ("Best PPO vs Greedy", best_policy, greedy_policy),
-        ("Best PPO vs Random", best_policy, random_policy),
-        ("Final PPO vs Greedy", final_policy, greedy_policy),
-        ("Final PPO vs Random", final_policy, random_policy),
+        ("Model vs Greedy", model_policy, greedy_policy),
+        ("Model vs Random", model_policy, random_policy),
+        ("Model vs Advanced", model_policy, advanced_heuristic_policy),
         ("Greedy vs Random", greedy_policy, random_policy),
     ]
 

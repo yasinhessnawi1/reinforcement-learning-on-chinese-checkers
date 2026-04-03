@@ -6,6 +6,12 @@ evaluation of two policies.
 """
 
 import math
+import os
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'multi system single machine minimal'))
+
 from src.env.chinese_checkers_env import ChineseCheckersEnv
 
 
