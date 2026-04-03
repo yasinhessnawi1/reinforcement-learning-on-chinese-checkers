@@ -23,10 +23,11 @@ Output format (saved as .npz):
 import argparse
 import os
 import sys
+import time
 import multiprocessing as mp
-from functools import partial
 
 import numpy as np
+import torch
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'multi system single machine minimal'))
@@ -41,38 +42,46 @@ _TEMP_THRESHOLD = 20
 _HIGH_TEMP = 1.0
 _LOW_TEMP = 0.1
 
+# --- Per-worker globals (initialised once per worker process) ---
+_worker_model = None
+_worker_mcts = None
+_worker_sym = None
+_worker_max_steps = None
 
-def _play_single_game(
-    game_idx: int,
-    model_path: str,
-    num_simulations: int,
-    max_steps: int,
-    use_symmetry: bool,
-    c_puct: float,
-    dirichlet_alpha: float,
-    dirichlet_epsilon: float,
-) -> list[tuple[np.ndarray, np.ndarray, float, int]]:
-    """Play one MCTS self-play game in a worker process.
 
-    Returns list of (obs, probs, outcome, game_idx) tuples.
-    """
-    # Each worker loads its own model copy (avoids pickling issues)
-    model = MaskablePPO.load(model_path, device='cpu')
-    mcts = MCTS(
-        model,
+def _init_worker(model_path, num_simulations, c_puct, dirichlet_alpha,
+                 dirichlet_epsilon, use_symmetry, max_steps):
+    """Called once when each worker process starts.  Loads the model."""
+    global _worker_model, _worker_mcts, _worker_sym, _worker_max_steps
+    # Prevent OpenMP/BLAS thread contention across workers
+    torch.set_num_threads(1)
+    _worker_model = MaskablePPO.load(model_path, device='cpu')
+    _worker_mcts = MCTS(
+        _worker_model,
         num_simulations=num_simulations,
         c_puct=c_puct,
         dirichlet_alpha=dirichlet_alpha,
         dirichlet_epsilon=dirichlet_epsilon,
     )
-    sym = ReflectionSymmetry() if use_symmetry else None
+    _worker_sym = ReflectionSymmetry() if use_symmetry else None
+    _worker_max_steps = max_steps
 
-    env = ChineseCheckersEnv(opponent_policy=None, max_steps=max_steps)
+
+def _play_single_game(game_idx: int) -> list[tuple[np.ndarray, np.ndarray, float, int]]:
+    """Play one MCTS self-play game using the per-worker cached model.
+
+    Returns list of (obs, probs, outcome, game_idx) tuples.
+    """
+    mcts = _worker_mcts
+    sym = _worker_sym
+
+    env = ChineseCheckersEnv(opponent_policy=None, max_steps=_worker_max_steps)
     obs, info = env.reset()
 
     step_data: list[tuple[np.ndarray, np.ndarray]] = []
     step = 0
     terminated = truncated = False
+    t0 = time.time()
 
     while not (terminated or truncated):
         temp = _HIGH_TEMP if step < _TEMP_THRESHOLD else _LOW_TEMP
@@ -83,8 +92,16 @@ def _play_single_game(
         obs, reward, terminated, truncated, info = env.step(action)
         step += 1
 
+        # Progress every 25 moves
+        if step % 25 == 0:
+            elapsed = time.time() - t0
+            print(f"    [Game {game_idx}] step {step}, {elapsed:.0f}s elapsed", flush=True)
+
+    elapsed = time.time() - t0
     agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
     outcome = 1.0 if agent_won else -1.0
+    print(f"    [Game {game_idx}] finished: {step} steps, "
+          f"{'WON' if agent_won else 'LOST'}, {elapsed:.1f}s", flush=True)
 
     results = []
     for s_obs, s_probs in step_data:
@@ -106,7 +123,7 @@ def generate_games_parallel(
     model_path: str,
     num_games: int = 100,
     num_simulations: int = 200,
-    max_steps: int = 1000,
+    max_steps: int = 300,
     use_symmetry: bool = True,
     c_puct: float = 1.5,
     dirichlet_alpha: float = 0.3,
@@ -115,26 +132,25 @@ def generate_games_parallel(
 ) -> dict[str, np.ndarray]:
     """Generate self-play games in parallel and return a dataset dict."""
 
-    worker_fn = partial(
-        _play_single_game,
-        model_path=model_path,
-        num_simulations=num_simulations,
-        max_steps=max_steps,
-        use_symmetry=use_symmetry,
-        c_puct=c_puct,
-        dirichlet_alpha=dirichlet_alpha,
-        dirichlet_epsilon=dirichlet_epsilon,
-    )
+    # Cap workers at num_games — no point having idle processes
+    workers = min(workers, num_games)
 
     all_states = []
     all_policies = []
     all_values = []
     all_game_ids = []
 
-    print(f"  Launching {workers} workers for {num_games} games ...")
+    print(f"  Launching {workers} workers for {num_games} games "
+          f"({num_simulations} sims/move, max {max_steps} steps) ...")
 
-    with mp.Pool(processes=workers) as pool:
-        results_iter = pool.imap_unordered(worker_fn, range(num_games))
+    init_args = (model_path, num_simulations, c_puct, dirichlet_alpha,
+                 dirichlet_epsilon, use_symmetry, max_steps)
+
+    # Use 'spawn' to avoid fork+PyTorch deadlock on Linux
+    ctx = mp.get_context('spawn')
+    with ctx.Pool(processes=workers, initializer=_init_worker,
+                  initargs=init_args) as pool:
+        results_iter = pool.imap_unordered(_play_single_game, range(num_games))
         completed = 0
         for game_results in results_iter:
             for obs, probs, value, gid in game_results:
@@ -143,8 +159,8 @@ def generate_games_parallel(
                 all_values.append(value)
                 all_game_ids.append(gid)
             completed += 1
-            if completed % 10 == 0 or completed == num_games:
-                print(f"  {completed}/{num_games} games done — {len(all_states)} samples")
+            print(f"  {completed}/{num_games} games done — "
+                  f"{len(all_states)} samples so far", flush=True)
 
     return {
         'states':   np.array(all_states,   dtype=np.float32),
@@ -158,7 +174,7 @@ def generate_games(
     model,
     num_games: int = 100,
     num_simulations: int = 200,
-    max_steps: int = 1000,
+    max_steps: int = 300,
     use_symmetry: bool = True,
     c_puct: float = 1.5,
     dirichlet_alpha: float = 0.3,
@@ -185,6 +201,7 @@ def generate_games(
         step_data = []
         step = 0
         terminated = truncated = False
+        t0 = time.time()
 
         while not (terminated or truncated):
             temp = _HIGH_TEMP if step < _TEMP_THRESHOLD else _LOW_TEMP
@@ -194,8 +211,15 @@ def generate_games(
             obs, reward, terminated, truncated, info = env.step(action)
             step += 1
 
+            if step % 25 == 0:
+                elapsed = time.time() - t0
+                print(f"    [Game {game_idx}] step {step}, {elapsed:.0f}s", flush=True)
+
         agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
         outcome = 1.0 if agent_won else -1.0
+        elapsed = time.time() - t0
+        print(f"    [Game {game_idx}] finished: {step} steps, "
+              f"{'WON' if agent_won else 'LOST'}, {elapsed:.1f}s", flush=True)
 
         for s_obs, s_probs in step_data:
             all_states.append(s_obs)
@@ -215,8 +239,7 @@ def generate_games(
                 all_values.append(outcome)
                 all_game_ids.append(game_idx)
 
-        if (game_idx + 1) % 10 == 0:
-            print(f"  Game {game_idx + 1}/{num_games} — {len(all_states)} samples so far")
+        print(f"  Game {game_idx + 1}/{num_games} — {len(all_states)} samples so far")
 
     return {
         'states':   np.array(all_states,   dtype=np.float32),
@@ -231,7 +254,7 @@ def main(argv=None):
     parser.add_argument('--model', type=str, required=True, help='Path to MaskablePPO .zip checkpoint')
     parser.add_argument('--num-games', type=int, default=100, help='Number of self-play games (default: 100)')
     parser.add_argument('--simulations', type=int, default=200, help='MCTS simulations per move (default: 200)')
-    parser.add_argument('--max-steps', type=int, default=1000, help='Max game steps (default: 1000)')
+    parser.add_argument('--max-steps', type=int, default=300, help='Max game steps (default: 300)')
     parser.add_argument('--out', type=str, default='data/mcts_games.npz', help='Output .npz file path')
     parser.add_argument('--no-symmetry', action='store_true', help='Disable reflection augmentation')
     parser.add_argument('--c-puct', type=float, default=1.5)
@@ -275,7 +298,7 @@ def main(argv=None):
     os.makedirs(os.path.dirname(args.out) or '.', exist_ok=True)
     np.savez_compressed(args.out, **dataset)
     n = len(dataset['states'])
-    print(f"Saved {n} samples to {args.out}")
+    print(f"\nSaved {n} samples to {args.out}")
     print(f"  states:   {dataset['states'].shape}")
     print(f"  policies: {dataset['policies'].shape}")
     print(f"  values:   {dataset['values'].shape}")
