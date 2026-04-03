@@ -103,8 +103,10 @@ def _get_policy_value(model, obs: np.ndarray, action_mask: np.ndarray):
         logits = logits.masked_fill(~mask_t, -1e9)
         priors = torch.softmax(logits, dim=-1).squeeze(0).cpu().numpy()
 
-        # Value
-        value = policy.value_net(latent_vf).squeeze().item()
+        # Value — PPO value head predicts cumulative reward, not win prob.
+        # Squash to [-1, 1] with tanh so MCTS backup works correctly.
+        raw_value = policy.value_net(latent_vf).squeeze().item()
+        value = float(np.tanh(raw_value / 10.0))
 
     return priors, value
 
