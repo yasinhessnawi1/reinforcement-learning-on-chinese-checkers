@@ -227,11 +227,19 @@ class ChineseCheckersEnv(gym.Env):
         """
         self._opponent_policy = policy_fn
 
-    def clone(self) -> "ChineseCheckersEnv":
+    def clone(self, strip_opponent: bool = True) -> "ChineseCheckersEnv":
         """Return a lightweight clone of this environment for MCTS tree branching.
 
-        The clone shares the same opponent policy and configuration but has an
-        independent board state.  Only valid after reset() has been called.
+        Parameters
+        ----------
+        strip_opponent : bool
+            If True (default), the clone has no opponent so each step() is a
+            single deterministic agent move.  This is essential for MCTS — the
+            tree must be deterministic so each edge maps to exactly one
+            resulting state.  The real opponent move happens outside the tree.
+
+        The clone shares the same configuration but has an independent board
+        state.  Only valid after reset() has been called.
         """
         assert self._board is not None, "Call reset() before clone()."
         new_env = ChineseCheckersEnv.__new__(ChineseCheckersEnv)
@@ -241,8 +249,12 @@ class ChineseCheckersEnv(gym.Env):
         new_env.action_space = self.action_space
         new_env._encoder = self._encoder      # stateless — safe to share
         new_env._mapper = self._mapper        # stateless — safe to share
-        new_env._no_opponent = self._no_opponent
-        new_env._opponent_policy = self._opponent_policy
+        if strip_opponent:
+            new_env._no_opponent = True
+            new_env._opponent_policy = None
+        else:
+            new_env._no_opponent = self._no_opponent
+            new_env._opponent_policy = self._opponent_policy
         new_env._board = self._board.clone()
         new_env._step_count = self._step_count
         new_env._terminated = self._terminated
