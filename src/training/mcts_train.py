@@ -40,27 +40,46 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'multi sy
 from sb3_contrib import MaskablePPO
 
 
-def _policy_loss(logits: torch.Tensor, target_probs: torch.Tensor) -> torch.Tensor:
-    """Cross-entropy loss between masked network logits and MCTS target distribution.
+def _policy_loss(
+    logits: torch.Tensor,
+    target_probs: torch.Tensor,
+    ref_logits: torch.Tensor,
+    kl_coef: float = 0.5,
+) -> tuple[torch.Tensor, torch.Tensor]:
+    """KL-regularized cross-entropy loss.
+
+    Combines:
+      1. Cross-entropy toward MCTS visit-count distribution (learn better moves)
+      2. KL penalty against the reference (original) model (prevent catastrophic forgetting)
 
     Parameters
     ----------
-    logits : (B, num_actions) — raw logits from action_net
+    logits : (B, num_actions) — current model logits
     target_probs : (B, num_actions) — MCTS visit-count probabilities (zeros = illegal)
+    ref_logits : (B, num_actions) — frozen reference model logits (original PPO policy)
+    kl_coef : float — weight on KL divergence penalty (higher = more conservative)
 
     Returns
     -------
-    scalar loss
+    (ce_loss, kl_loss) — both scalar tensors
     """
-    # Mask illegal actions (MCTS assigns 0 probability to them)
-    # so the model isn't penalised for its logits on illegal actions.
+    # Mask illegal actions so model isn't penalised for logits on illegal actions
     action_mask = target_probs > 0  # (B, num_actions)
     masked_logits = logits.masked_fill(~action_mask, -1e9)
+    masked_ref = ref_logits.masked_fill(~action_mask, -1e9)
 
     log_probs = torch.log_softmax(masked_logits, dim=-1)
-    # KL divergence / cross-entropy: -sum(target * log_pred)
-    loss = -(target_probs * log_probs).sum(dim=-1).mean()
-    return loss
+
+    # Cross-entropy toward MCTS target: -sum(target * log_pred)
+    ce_loss = -(target_probs * log_probs).sum(dim=-1).mean()
+
+    # KL(current || reference): sum(current * (log_current - log_ref))
+    # This penalizes the model for drifting from its original predictions.
+    current_probs = torch.softmax(masked_logits, dim=-1)
+    log_ref = torch.log_softmax(masked_ref, dim=-1)
+    kl_div = (current_probs * (log_probs - log_ref)).sum(dim=-1).mean()
+
+    return ce_loss, kl_div
 
 
 def _value_loss(pred_values: torch.Tensor, target_values: torch.Tensor) -> torch.Tensor:
@@ -77,16 +96,17 @@ def train_on_dataset(
     batch_size: int = 256,
     lr: float = 1e-5,
     weight_decay: float = 1e-4,
-    policy_coef: float = 0.2,
+    policy_coef: float = 1.0,
     value_coef: float = 0.0,
+    kl_coef: float = 0.5,
     freeze_backbone: bool = True,
     verbose: bool = True,
 ) -> list[dict]:
-    """Fine-tune model on MCTS-generated data.
+    """Fine-tune model on MCTS-generated data with KL-regularized policy loss.
 
     Key design decisions to prevent catastrophic forgetting:
-      - freeze_backbone: only train action_net and value_net heads, not the
-        ResNet feature extractor (which PPO spent millions of steps training)
+      - KL penalty against reference (original) model prevents policy collapse
+      - freeze_backbone: only train action_net head, not the ResNet backbone
       - low default lr (1e-5): gentle nudge, not wholesale replacement
       - small number of epochs: early stopping before overfitting
 
@@ -100,10 +120,11 @@ def train_on_dataset(
     batch_size : int
     lr : float
     weight_decay : float
-    policy_coef : float — weight for policy loss (default 0.2 for gentle nudging)
+    policy_coef : float — weight for cross-entropy policy loss
     value_coef : float — weight for value loss (default 0.0: PPO value head
-        predicts cumulative reward ~4-10, not win probability [-1,1], so
-        training it on MCTS heuristic values causes catastrophic loss)
+        predicts cumulative reward ~4-10, not win probability [-1,1])
+    kl_coef : float — weight for KL divergence penalty against the original
+        model. Higher = more conservative (prevents catastrophic forgetting).
     freeze_backbone : bool — if True, freeze features_extractor + mlp_extractor
 
     Returns
@@ -145,6 +166,30 @@ def train_on_dataset(
     dataset = TensorDataset(states_t, policies_t, values_t)
     loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, drop_last=False)
 
+    # Precompute reference logits from the ORIGINAL model before any training.
+    # These are used for KL regularization to prevent catastrophic forgetting.
+    print("  Precomputing reference logits from original model ...")
+    policy.eval()
+    ref_logits_list = []
+    with torch.no_grad():
+        ref_loader = DataLoader(
+            TensorDataset(states_t), batch_size=batch_size, shuffle=False,
+        )
+        for (batch_s,) in ref_loader:
+            batch_s = batch_s.to(device)
+            feats = policy.extract_features(batch_s)
+            if policy.share_features_extractor:
+                lat_pi, _ = policy.mlp_extractor(feats)
+            else:
+                pi_f, _ = feats
+                lat_pi = policy.mlp_extractor.forward_actor(pi_f)
+            ref_logits_list.append(policy.action_net(lat_pi).cpu())
+    ref_logits_all = torch.cat(ref_logits_list, dim=0)  # (N, num_actions)
+
+    # Build dataset with reference logits included
+    dataset = TensorDataset(states_t, policies_t, values_t, ref_logits_all)
+    loader = DataLoader(dataset, batch_size=batch_size, shuffle=True, drop_last=False)
+
     history = []
     policy.train()
 
@@ -152,14 +197,16 @@ def train_on_dataset(
     patience_counter = 0
 
     for epoch in range(epochs):
-        epoch_policy_loss = 0.0
+        epoch_ce_loss = 0.0
+        epoch_kl_loss = 0.0
         epoch_value_loss = 0.0
         n_batches = 0
 
-        for batch_states, batch_policies, batch_values in loader:
+        for batch_states, batch_policies, batch_values, batch_ref_logits in loader:
             batch_states = batch_states.to(device)
             batch_policies = batch_policies.to(device)
             batch_values = batch_values.to(device)
+            batch_ref_logits = batch_ref_logits.to(device)
 
             optimizer.zero_grad()
 
@@ -174,33 +221,34 @@ def train_on_dataset(
 
             logits = policy.action_net(latent_pi)          # (B, num_actions)
 
-            p_loss = _policy_loss(logits, batch_policies)
+            ce_loss, kl_loss = _policy_loss(logits, batch_policies, batch_ref_logits, kl_coef)
 
-            # Only compute value loss if value_coef > 0. The PPO value head
-            # predicts cumulative reward (~4-10), not [-1,1] win probability,
-            # so training it on MCTS heuristic targets causes catastrophic loss.
+            # Only compute value loss if value_coef > 0.
             if value_coef > 0:
                 pred_values = policy.value_net(latent_vf)  # (B, 1)
                 v_loss = _value_loss(pred_values, batch_values)
             else:
                 v_loss = torch.tensor(0.0, device=device)
 
-            total = policy_coef * p_loss + value_coef * v_loss
+            total = policy_coef * ce_loss + kl_coef * kl_loss + value_coef * v_loss
 
             total.backward()
             nn.utils.clip_grad_norm_(trainable, max_norm=1.0)
             optimizer.step()
 
-            epoch_policy_loss += p_loss.item()
+            epoch_ce_loss += ce_loss.item()
+            epoch_kl_loss += kl_loss.item()
             epoch_value_loss += v_loss.item()
             n_batches += 1
 
-        avg_p = epoch_policy_loss / max(n_batches, 1)
+        avg_ce = epoch_ce_loss / max(n_batches, 1)
+        avg_kl = epoch_kl_loss / max(n_batches, 1)
         avg_v = epoch_value_loss / max(n_batches, 1)
-        avg_total = policy_coef * avg_p + value_coef * avg_v
+        avg_total = policy_coef * avg_ce + kl_coef * avg_kl + value_coef * avg_v
         record = {
             'epoch': epoch + 1,
-            'policy_loss': avg_p,
+            'ce_loss': avg_ce,
+            'kl_loss': avg_kl,
             'value_loss': avg_v,
             'total_loss': avg_total,
         }
@@ -209,7 +257,7 @@ def train_on_dataset(
         if verbose:
             print(
                 f"  Epoch {epoch + 1}/{epochs} — "
-                f"policy={avg_p:.4f}  value={avg_v:.4f}  total={avg_total:.4f}"
+                f"ce={avg_ce:.4f}  kl={avg_kl:.4f}  value={avg_v:.4f}  total={avg_total:.4f}"
             )
 
         # Early stopping: if total loss hasn't improved for 5 epochs, stop
@@ -244,8 +292,9 @@ def main(argv=None):
     parser.add_argument('--lr', type=float, default=1e-5, help='Learning rate (default: 1e-5)')
     parser.add_argument('--no-freeze', action='store_true', help='Train all params (default: freeze backbone)')
     parser.add_argument('--weight-decay', type=float, default=1e-4, help='L2 weight decay (default: 1e-4)')
-    parser.add_argument('--policy-coef', type=float, default=0.2, help='Policy loss coefficient (default: 0.2)')
+    parser.add_argument('--policy-coef', type=float, default=1.0, help='Policy CE loss coefficient (default: 1.0)')
     parser.add_argument('--value-coef', type=float, default=0.0, help='Value loss coefficient (default: 0.0, disabled)')
+    parser.add_argument('--kl-coef', type=float, default=0.5, help='KL divergence penalty coefficient (default: 0.5)')
     args = parser.parse_args(argv)
 
     print(f"Loading model: {args.model}")
@@ -258,7 +307,9 @@ def main(argv=None):
     values   = data['values']
     print(f"  {len(states)} samples loaded")
 
-    print(f"\nTraining for {args.epochs} epochs (lr={args.lr}, freeze={'OFF' if args.no_freeze else 'ON'}) ...")
+    print(f"\nTraining for {args.epochs} epochs "
+          f"(lr={args.lr}, freeze={'OFF' if args.no_freeze else 'ON'}, "
+          f"kl_coef={args.kl_coef}) ...")
     history = train_on_dataset(
         model,
         states, policies, values,
@@ -268,6 +319,7 @@ def main(argv=None):
         weight_decay=args.weight_decay,
         policy_coef=args.policy_coef,
         value_coef=args.value_coef,
+        kl_coef=args.kl_coef,
         freeze_backbone=not args.no_freeze,
         verbose=True,
     )
@@ -282,7 +334,8 @@ def main(argv=None):
     np.savez(
         hist_path,
         epochs=np.array([h['epoch'] for h in history]),
-        policy_loss=np.array([h['policy_loss'] for h in history]),
+        ce_loss=np.array([h['ce_loss'] for h in history]),
+        kl_loss=np.array([h['kl_loss'] for h in history]),
         value_loss=np.array([h['value_loss'] for h in history]),
         total_loss=np.array([h['total_loss'] for h in history]),
     )
