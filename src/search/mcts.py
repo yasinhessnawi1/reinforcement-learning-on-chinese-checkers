@@ -66,8 +66,8 @@ class MCTSNode:
         return self.parent is None
 
 
-def _get_policy_value(model, obs: np.ndarray, action_mask: np.ndarray):
-    """Run the policy/value network on a single observation.
+def _get_policy_priors(model, obs: np.ndarray, action_mask: np.ndarray) -> np.ndarray:
+    """Run the policy network to get action priors.
 
     Parameters
     ----------
@@ -78,7 +78,6 @@ def _get_policy_value(model, obs: np.ndarray, action_mask: np.ndarray):
     Returns
     -------
     priors : np.ndarray, shape (num_actions,) — softmax policy probabilities
-    value  : float — value estimate in [-1, 1]
     """
     import torch
     policy = model.policy
@@ -88,27 +87,47 @@ def _get_policy_value(model, obs: np.ndarray, action_mask: np.ndarray):
     mask_t = torch.tensor(action_mask[np.newaxis], dtype=torch.bool, device=device)
 
     with torch.no_grad():
-        # Get features
         features = policy.extract_features(obs_t)
         if policy.share_features_extractor:
-            latent_pi, latent_vf = policy.mlp_extractor(features)
+            latent_pi, _ = policy.mlp_extractor(features)
         else:
-            pi_features, vf_features = features
+            pi_features, _ = features
             latent_pi = policy.mlp_extractor.forward_actor(pi_features)
-            latent_vf = policy.mlp_extractor.forward_critic(vf_features)
 
-        # Policy logits → masked softmax
-        logits = policy.action_net(latent_pi)  # (1, num_actions)
-        # Mask illegal actions with large negative value
+        logits = policy.action_net(latent_pi)
         logits = logits.masked_fill(~mask_t, -1e9)
         priors = torch.softmax(logits, dim=-1).squeeze(0).cpu().numpy()
 
-        # Value — PPO value head predicts cumulative reward, not win prob.
-        # Squash to [-1, 1] with tanh so MCTS backup works correctly.
-        raw_value = policy.value_net(latent_vf).squeeze().item()
-        value = float(np.tanh(raw_value / 10.0))
+    return priors
 
-    return priors, value
+
+def _heuristic_value(env) -> float:
+    """Evaluate board position using game heuristics.
+
+    Returns value in [-1, 1] where 1.0 = all pins in goal, -1.0 = worst.
+    Uses pins_in_goal and distance_to_goal which directly correlate with winning.
+    """
+    board = env._board
+    if board is None:
+        return 0.0
+
+    colour = env._AGENT_COLOUR
+    pins_in_goal = board.pins_in_goal(colour)
+    total_dist = board.total_distance_to_goal(colour)
+
+    if pins_in_goal == 10:
+        return 1.0
+
+    # Max possible distance ~120 (10 pins × ~12 avg distance at start).
+    # Normalize: more pins in goal and less distance = higher value.
+    # pins_in_goal: 0-10 → 0.0-1.0
+    # distance: 0-120 → 1.0-0.0
+    pin_score = pins_in_goal / 10.0
+    dist_score = max(0.0, 1.0 - total_dist / 120.0)
+
+    # Combine: weighted average, map to [-1, 1]
+    raw = 0.6 * pin_score + 0.4 * dist_score  # range [0, 1]
+    return raw * 2.0 - 1.0  # map to [-1, 1]
 
 
 class MCTS:
@@ -170,19 +189,19 @@ class MCTS:
         return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
-        """Expand a leaf node using the policy network.
+        """Expand a leaf node: policy network for priors, heuristic for value.
 
-        Returns the value estimate from the value network.
+        Returns the heuristic value estimate in [-1, 1].
         """
-        obs, info = env._get_obs(), {'action_mask': env.action_masks()}
-        action_mask = info['action_mask']
+        obs = env._get_obs()
+        action_mask = env.action_masks()
 
         if action_mask.sum() == 0:
-            # Terminal or no-move state
             node.is_expanded = True
             return 0.0
 
-        priors, value = _get_policy_value(self.model, obs, action_mask)
+        priors = _get_policy_priors(self.model, obs, action_mask)
+        value = _heuristic_value(env)
 
         # Add Dirichlet noise to root node for exploration diversity
         if node.is_root() and self.dirichlet_epsilon > 0:
