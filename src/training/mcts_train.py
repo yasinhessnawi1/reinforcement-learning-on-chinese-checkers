@@ -70,36 +70,57 @@ def train_on_dataset(
     values: np.ndarray,
     epochs: int = 10,
     batch_size: int = 256,
-    lr: float = 1e-4,
+    lr: float = 1e-5,
     weight_decay: float = 1e-4,
     policy_coef: float = 1.0,
     value_coef: float = 1.0,
+    freeze_backbone: bool = True,
     verbose: bool = True,
 ) -> list[dict]:
     """Fine-tune model on MCTS-generated data.
+
+    Key design decisions to prevent catastrophic forgetting:
+      - freeze_backbone: only train action_net and value_net heads, not the
+        ResNet feature extractor (which PPO spent millions of steps training)
+      - low default lr (1e-5): gentle nudge, not wholesale replacement
+      - small number of epochs: early stopping before overfitting
 
     Parameters
     ----------
     model : MaskablePPO — the model to update (in place)
     states : (N, C, H, W) float32
-    policies : (N, num_actions) float32
-    values : (N,) float32
+    policies : (N, num_actions) float32 — MCTS visit-count distributions
+    values : (N,) float32 — heuristic position values in [-1, 1]
     epochs : int
     batch_size : int
     lr : float
     weight_decay : float
     policy_coef : float — weight for policy loss
     value_coef : float — weight for value loss
+    freeze_backbone : bool — if True, freeze features_extractor + mlp_extractor
 
     Returns
     -------
-    List of per-epoch loss dicts: {'epoch', 'policy_loss', 'value_loss', 'total_loss'}
+    List of per-epoch loss dicts
     """
     policy = model.policy
     device = next(policy.parameters()).device
 
+    # Optionally freeze the backbone to prevent catastrophic forgetting.
+    # Only the action_net (policy head) and value_net (value head) are trained.
+    if freeze_backbone:
+        for param in policy.features_extractor.parameters():
+            param.requires_grad = False
+        for param in policy.mlp_extractor.parameters():
+            param.requires_grad = False
+        trainable = list(policy.action_net.parameters()) + list(policy.value_net.parameters())
+        print(f"  Backbone frozen. Training {sum(p.numel() for p in trainable):,} head params only.")
+    else:
+        trainable = list(policy.parameters())
+        print(f"  Training all {sum(p.numel() for p in trainable):,} params.")
+
     optimizer = torch.optim.Adam(
-        policy.parameters(),
+        trainable,
         lr=lr,
         weight_decay=weight_decay,
     )
@@ -114,6 +135,9 @@ def train_on_dataset(
 
     history = []
     policy.train()
+
+    best_loss = float('inf')
+    patience_counter = 0
 
     for epoch in range(epochs):
         epoch_policy_loss = 0.0
@@ -144,7 +168,7 @@ def train_on_dataset(
             total = policy_coef * p_loss + value_coef * v_loss
 
             total.backward()
-            nn.utils.clip_grad_norm_(policy.parameters(), max_norm=1.0)
+            nn.utils.clip_grad_norm_(trainable, max_norm=1.0)
             optimizer.step()
 
             epoch_policy_loss += p_loss.item()
@@ -168,6 +192,24 @@ def train_on_dataset(
                 f"policy={avg_p:.4f}  value={avg_v:.4f}  total={avg_total:.4f}"
             )
 
+        # Early stopping: if total loss hasn't improved for 5 epochs, stop
+        if avg_total < best_loss - 1e-4:
+            best_loss = avg_total
+            patience_counter = 0
+        else:
+            patience_counter += 1
+            if patience_counter >= 5:
+                if verbose:
+                    print(f"  Early stopping at epoch {epoch + 1} (no improvement for 5 epochs)")
+                break
+
+    # Unfreeze backbone after training
+    if freeze_backbone:
+        for param in policy.features_extractor.parameters():
+            param.requires_grad = True
+        for param in policy.mlp_extractor.parameters():
+            param.requires_grad = True
+
     policy.set_training_mode(False)
     return history
 
@@ -179,7 +221,8 @@ def main(argv=None):
     parser.add_argument('--out', type=str, required=True, help='Output directory for updated model')
     parser.add_argument('--epochs', type=int, default=10, help='Training epochs (default: 10)')
     parser.add_argument('--batch-size', type=int, default=256, help='Batch size (default: 256)')
-    parser.add_argument('--lr', type=float, default=1e-4, help='Learning rate (default: 1e-4)')
+    parser.add_argument('--lr', type=float, default=1e-5, help='Learning rate (default: 1e-5)')
+    parser.add_argument('--no-freeze', action='store_true', help='Train all params (default: freeze backbone)')
     parser.add_argument('--weight-decay', type=float, default=1e-4, help='L2 weight decay (default: 1e-4)')
     parser.add_argument('--policy-coef', type=float, default=1.0, help='Policy loss coefficient (default: 1.0)')
     parser.add_argument('--value-coef', type=float, default=1.0, help='Value loss coefficient (default: 1.0)')
@@ -195,7 +238,7 @@ def main(argv=None):
     values   = data['values']
     print(f"  {len(states)} samples loaded")
 
-    print(f"\nTraining for {args.epochs} epochs ...")
+    print(f"\nTraining for {args.epochs} epochs (lr={args.lr}, freeze={'OFF' if args.no_freeze else 'ON'}) ...")
     history = train_on_dataset(
         model,
         states, policies, values,
@@ -205,6 +248,7 @@ def main(argv=None):
         weight_decay=args.weight_decay,
         policy_coef=args.policy_coef,
         value_coef=args.value_coef,
+        freeze_backbone=not args.no_freeze,
         verbose=True,
     )
 
