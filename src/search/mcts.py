@@ -102,32 +102,77 @@ def _get_policy_priors(model, obs: np.ndarray, action_mask: np.ndarray) -> np.nd
 
 
 def _heuristic_value(env) -> float:
-    """Evaluate board position using game heuristics.
+    """Evaluate board position using rich game heuristics.
 
-    Returns value in [-1, 1] where 1.0 = all pins in goal, -1.0 = worst.
-    Uses pins_in_goal and distance_to_goal which directly correlate with winning.
+    Returns value in [-1, 1] where 1.0 = won, -1.0 = opponent won.
+
+    Components:
+      1. pins_in_goal      — most important, direct win progress
+      2. distance_to_goal   — how far remaining pins are
+      3. straggler_penalty  — punish pins far behind the pack
+      4. near_goal_bonus    — pins within 2 steps are almost scored
+      5. opponent_comparison — relative advantage over opponent
     """
     board = env._board
     if board is None:
         return 0.0
 
     colour = env._AGENT_COLOUR
-    pins_in_goal = board.pins_in_goal(colour)
-    total_dist = board.total_distance_to_goal(colour)
+    opp_colour = env._OPPONENT_COLOUR
 
-    if pins_in_goal == 10:
+    # --- Agent evaluation ---
+    agent_pins_in_goal = board.pins_in_goal(colour)
+    if agent_pins_in_goal == 10:
         return 1.0
 
-    # Max possible distance ~120 (10 pins × ~12 avg distance at start).
-    # Normalize: more pins in goal and less distance = higher value.
-    # pins_in_goal: 0-10 → 0.0-1.0
-    # distance: 0-120 → 1.0-0.0
-    pin_score = pins_in_goal / 10.0
-    dist_score = max(0.0, 1.0 - total_dist / 120.0)
+    # Check opponent win
+    if not env._no_opponent and board.check_win(opp_colour):
+        return -1.0
 
-    # Combine: weighted average, map to [-1, 1]
-    raw = 0.6 * pin_score + 0.4 * dist_score  # range [0, 1]
-    return raw * 2.0 - 1.0  # map to [-1, 1]
+    goal_indices = board.get_goal_indices(colour)
+    goal_set = set(goal_indices)
+
+    # Per-pin distances
+    pin_dists = []
+    for pin in board.pins[colour]:
+        if pin.axialindex in goal_set:
+            pin_dists.append(0)
+        else:
+            min_d = min(board.axial_distance(pin.axialindex, g) for g in goal_indices)
+            pin_dists.append(min_d)
+
+    total_dist = sum(pin_dists)
+    max_dist = max(pin_dists) if pin_dists else 0
+
+    # 1. Pins in goal (0-10 → 0-0.5)
+    pin_score = agent_pins_in_goal / 10.0 * 0.5
+
+    # 2. Distance reduction (0-120 → 0-0.25)
+    dist_score = max(0.0, 1.0 - total_dist / 120.0) * 0.25
+
+    # 3. Straggler penalty — worst pin drags the team down
+    # Max single-pin distance ~16. Penalty scales with how far behind.
+    straggler_penalty = min(max_dist / 16.0, 1.0) * 0.08
+
+    # 4. Near-goal bonus — pins within distance 2 are almost scored
+    near_count = sum(1 for d in pin_dists if 0 < d <= 2)
+    near_bonus = near_count / 10.0 * 0.07
+
+    # 5. Opponent comparison — relative advantage
+    opp_advantage = 0.0
+    if not env._no_opponent and opp_colour in board.pins:
+        opp_pins_in_goal = board.pins_in_goal(opp_colour)
+        opp_dist = board.total_distance_to_goal(opp_colour)
+        # Pin lead: each pin ahead is worth something
+        pin_lead = (agent_pins_in_goal - opp_pins_in_goal) / 10.0
+        # Distance lead: being closer is good
+        dist_lead = (opp_dist - total_dist) / 120.0
+        opp_advantage = (pin_lead * 0.06 + dist_lead * 0.04)
+
+    raw = pin_score + dist_score - straggler_penalty + near_bonus + opp_advantage
+    # Clamp to [0, 1] then map to [-1, 1]
+    raw = max(0.0, min(1.0, raw + 0.3))  # +0.3 offset so starting position ≈ 0
+    return raw * 2.0 - 1.0
 
 
 class MCTS:

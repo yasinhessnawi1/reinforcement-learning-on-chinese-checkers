@@ -34,7 +34,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'multi sy
 
 from sb3_contrib import MaskablePPO
 from src.env.chinese_checkers_env import ChineseCheckersEnv
-from src.search.mcts import MCTS
+from src.search.mcts import MCTS, _heuristic_value
 from src.training.symmetry import ReflectionSymmetry
 
 # Temperature schedule
@@ -99,9 +99,11 @@ def _play_single_game(game_idx: int) -> list[tuple[np.ndarray, np.ndarray, float
 
     elapsed = time.time() - t0
     agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
-    outcome = 1.0 if agent_won else -1.0
+    outcome = 1.0 if agent_won else _heuristic_value(env)
+    pins = env._board.pins_in_goal(env._AGENT_COLOUR)
     print(f"    [Game {game_idx}] finished: {step} steps, "
-          f"{'WON' if agent_won else 'LOST'}, {elapsed:.1f}s", flush=True)
+          f"{'WON' if agent_won else 'LOST'}, outcome={outcome:.2f}, "
+          f"pins={pins}, {elapsed:.1f}s", flush=True)
 
     results = []
     for s_obs, s_probs in step_data:
@@ -216,10 +218,12 @@ def generate_games(
                 print(f"    [Game {game_idx}] step {step}, {elapsed:.0f}s", flush=True)
 
         agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
-        outcome = 1.0 if agent_won else -1.0
+        outcome = 1.0 if agent_won else _heuristic_value(env)
+        pins = env._board.pins_in_goal(env._AGENT_COLOUR)
         elapsed = time.time() - t0
         print(f"    [Game {game_idx}] finished: {step} steps, "
-              f"{'WON' if agent_won else 'LOST'}, {elapsed:.1f}s", flush=True)
+              f"{'WON' if agent_won else 'LOST'}, outcome={outcome:.2f}, "
+              f"pins={pins}, {elapsed:.1f}s", flush=True)
 
         for s_obs, s_probs in step_data:
             all_states.append(s_obs)
