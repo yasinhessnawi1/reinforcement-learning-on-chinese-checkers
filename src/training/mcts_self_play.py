@@ -78,7 +78,8 @@ def _play_single_game(game_idx: int) -> list[tuple[np.ndarray, np.ndarray, float
     env = ChineseCheckersEnv(opponent_policy=None, max_steps=_worker_max_steps)
     obs, info = env.reset()
 
-    step_data: list[tuple[np.ndarray, np.ndarray]] = []
+    # Store (obs, action_probs, heuristic_value) per step
+    step_data: list[tuple[np.ndarray, np.ndarray, float]] = []
     step = 0
     terminated = truncated = False
     t0 = time.time()
@@ -86,28 +87,28 @@ def _play_single_game(game_idx: int) -> list[tuple[np.ndarray, np.ndarray, float
     while not (terminated or truncated):
         temp = _HIGH_TEMP if step < _TEMP_THRESHOLD else _LOW_TEMP
         action_probs = mcts.get_action_probs(env, temperature=temp)
-        step_data.append((obs.copy(), action_probs.copy()))
+        value = _heuristic_value(env)  # value of THIS position
+        step_data.append((obs.copy(), action_probs.copy(), value))
 
         action = int(np.random.choice(len(action_probs), p=action_probs))
         obs, reward, terminated, truncated, info = env.step(action)
         step += 1
 
-        # Progress every 25 moves
         if step % 25 == 0:
             elapsed = time.time() - t0
-            print(f"    [Game {game_idx}] step {step}, {elapsed:.0f}s elapsed", flush=True)
+            print(f"    [Game {game_idx}] step {step}, v={value:.2f}, {elapsed:.0f}s elapsed", flush=True)
 
     elapsed = time.time() - t0
     agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
-    outcome = 1.0 if agent_won else _heuristic_value(env)
+    final_value = 1.0 if agent_won else _heuristic_value(env)
     pins = env._board.pins_in_goal(env._AGENT_COLOUR)
     print(f"    [Game {game_idx}] finished: {step} steps, "
-          f"{'WON' if agent_won else 'LOST'}, outcome={outcome:.2f}, "
+          f"{'WON' if agent_won else 'LOST'}, final_v={final_value:.2f}, "
           f"pins={pins}, {elapsed:.1f}s", flush=True)
 
     results = []
-    for s_obs, s_probs in step_data:
-        results.append((s_obs, s_probs, outcome, game_idx))
+    for s_obs, s_probs, s_value in step_data:
+        results.append((s_obs, s_probs, s_value, game_idx))
         if sym is not None:
             mirror_obs = sym.reflect_obs(s_obs)
             mirror_probs = sym.reflect_action_mask(s_probs.astype(bool)).astype(np.float32)
@@ -116,7 +117,7 @@ def _play_single_game(game_idx: int) -> list[tuple[np.ndarray, np.ndarray, float
                 mirror_probs = mirror_probs / total
             else:
                 mirror_probs = s_probs.copy()
-            results.append((mirror_obs, mirror_probs, outcome, game_idx))
+            results.append((mirror_obs, mirror_probs, s_value, game_idx))
 
     return results
 
@@ -208,27 +209,28 @@ def generate_games(
         while not (terminated or truncated):
             temp = _HIGH_TEMP if step < _TEMP_THRESHOLD else _LOW_TEMP
             action_probs = mcts.get_action_probs(env, temperature=temp)
-            step_data.append((obs.copy(), action_probs.copy()))
+            value = _heuristic_value(env)
+            step_data.append((obs.copy(), action_probs.copy(), value))
             action = int(np.random.choice(len(action_probs), p=action_probs))
             obs, reward, terminated, truncated, info = env.step(action)
             step += 1
 
             if step % 25 == 0:
                 elapsed = time.time() - t0
-                print(f"    [Game {game_idx}] step {step}, {elapsed:.0f}s", flush=True)
+                print(f"    [Game {game_idx}] step {step}, v={value:.2f}, {elapsed:.0f}s", flush=True)
 
         agent_won = env._board.check_win(env._AGENT_COLOUR) if env._board is not None else False
-        outcome = 1.0 if agent_won else _heuristic_value(env)
+        final_value = 1.0 if agent_won else _heuristic_value(env)
         pins = env._board.pins_in_goal(env._AGENT_COLOUR)
         elapsed = time.time() - t0
         print(f"    [Game {game_idx}] finished: {step} steps, "
-              f"{'WON' if agent_won else 'LOST'}, outcome={outcome:.2f}, "
+              f"{'WON' if agent_won else 'LOST'}, final_v={final_value:.2f}, "
               f"pins={pins}, {elapsed:.1f}s", flush=True)
 
-        for s_obs, s_probs in step_data:
+        for s_obs, s_probs, s_value in step_data:
             all_states.append(s_obs)
             all_policies.append(s_probs)
-            all_values.append(outcome)
+            all_values.append(s_value)
             all_game_ids.append(game_idx)
             if use_symmetry:
                 mirror_obs = sym.reflect_obs(s_obs)
@@ -240,7 +242,7 @@ def generate_games(
                     mirror_probs = s_probs.copy()
                 all_states.append(mirror_obs)
                 all_policies.append(mirror_probs)
-                all_values.append(outcome)
+                all_values.append(s_value)
                 all_game_ids.append(game_idx)
 
         print(f"  Game {game_idx + 1}/{num_games} — {len(all_states)} samples so far")
