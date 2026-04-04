@@ -41,18 +41,23 @@ from sb3_contrib import MaskablePPO
 
 
 def _policy_loss(logits: torch.Tensor, target_probs: torch.Tensor) -> torch.Tensor:
-    """Cross-entropy loss between network logits and MCTS target distribution.
+    """Cross-entropy loss between masked network logits and MCTS target distribution.
 
     Parameters
     ----------
     logits : (B, num_actions) — raw logits from action_net
-    target_probs : (B, num_actions) — MCTS visit-count probabilities
+    target_probs : (B, num_actions) — MCTS visit-count probabilities (zeros = illegal)
 
     Returns
     -------
     scalar loss
     """
-    log_probs = torch.log_softmax(logits, dim=-1)
+    # Mask illegal actions (MCTS assigns 0 probability to them)
+    # so the model isn't penalised for its logits on illegal actions.
+    action_mask = target_probs > 0  # (B, num_actions)
+    masked_logits = logits.masked_fill(~action_mask, -1e9)
+
+    log_probs = torch.log_softmax(masked_logits, dim=-1)
     # KL divergence / cross-entropy: -sum(target * log_pred)
     loss = -(target_probs * log_probs).sum(dim=-1).mean()
     return loss
@@ -72,8 +77,8 @@ def train_on_dataset(
     batch_size: int = 256,
     lr: float = 1e-5,
     weight_decay: float = 1e-4,
-    policy_coef: float = 1.0,
-    value_coef: float = 1.0,
+    policy_coef: float = 0.2,
+    value_coef: float = 0.0,
     freeze_backbone: bool = True,
     verbose: bool = True,
 ) -> list[dict]:
@@ -95,8 +100,10 @@ def train_on_dataset(
     batch_size : int
     lr : float
     weight_decay : float
-    policy_coef : float — weight for policy loss
-    value_coef : float — weight for value loss
+    policy_coef : float — weight for policy loss (default 0.2 for gentle nudging)
+    value_coef : float — weight for value loss (default 0.0: PPO value head
+        predicts cumulative reward ~4-10, not win probability [-1,1], so
+        training it on MCTS heuristic values causes catastrophic loss)
     freeze_backbone : bool — if True, freeze features_extractor + mlp_extractor
 
     Returns
@@ -107,14 +114,19 @@ def train_on_dataset(
     device = next(policy.parameters()).device
 
     # Optionally freeze the backbone to prevent catastrophic forgetting.
-    # Only the action_net (policy head) and value_net (value head) are trained.
     if freeze_backbone:
         for param in policy.features_extractor.parameters():
             param.requires_grad = False
         for param in policy.mlp_extractor.parameters():
             param.requires_grad = False
-        trainable = list(policy.action_net.parameters()) + list(policy.value_net.parameters())
-        print(f"  Backbone frozen. Training {sum(p.numel() for p in trainable):,} head params only.")
+
+    # Select trainable params: skip value_net when value_coef == 0
+    if freeze_backbone:
+        trainable = list(policy.action_net.parameters())
+        if value_coef > 0:
+            trainable += list(policy.value_net.parameters())
+        label = "policy head only" if value_coef == 0 else "policy + value heads"
+        print(f"  Backbone frozen. Training {sum(p.numel() for p in trainable):,} params ({label}).")
     else:
         trainable = list(policy.parameters())
         print(f"  Training all {sum(p.numel() for p in trainable):,} params.")
@@ -161,10 +173,18 @@ def train_on_dataset(
                 latent_vf = policy.mlp_extractor.forward_critic(vf_features)
 
             logits = policy.action_net(latent_pi)          # (B, num_actions)
-            pred_values = policy.value_net(latent_vf)      # (B, 1)
 
             p_loss = _policy_loss(logits, batch_policies)
-            v_loss = _value_loss(pred_values, batch_values)
+
+            # Only compute value loss if value_coef > 0. The PPO value head
+            # predicts cumulative reward (~4-10), not [-1,1] win probability,
+            # so training it on MCTS heuristic targets causes catastrophic loss.
+            if value_coef > 0:
+                pred_values = policy.value_net(latent_vf)  # (B, 1)
+                v_loss = _value_loss(pred_values, batch_values)
+            else:
+                v_loss = torch.tensor(0.0, device=device)
+
             total = policy_coef * p_loss + value_coef * v_loss
 
             total.backward()
@@ -224,8 +244,8 @@ def main(argv=None):
     parser.add_argument('--lr', type=float, default=1e-5, help='Learning rate (default: 1e-5)')
     parser.add_argument('--no-freeze', action='store_true', help='Train all params (default: freeze backbone)')
     parser.add_argument('--weight-decay', type=float, default=1e-4, help='L2 weight decay (default: 1e-4)')
-    parser.add_argument('--policy-coef', type=float, default=1.0, help='Policy loss coefficient (default: 1.0)')
-    parser.add_argument('--value-coef', type=float, default=1.0, help='Value loss coefficient (default: 1.0)')
+    parser.add_argument('--policy-coef', type=float, default=0.2, help='Policy loss coefficient (default: 0.2)')
+    parser.add_argument('--value-coef', type=float, default=0.0, help='Value loss coefficient (default: 0.0, disabled)')
     args = parser.parse_args(argv)
 
     print(f"Loading model: {args.model}")
