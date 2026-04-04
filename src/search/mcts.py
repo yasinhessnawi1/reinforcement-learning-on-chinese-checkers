@@ -2,18 +2,22 @@
 mcts.py — PUCT Monte Carlo Tree Search for Chinese Checkers.
 
 AlphaZero-style MCTS using the policy network to guide expansion and the
-value network to back up leaf evaluations.
+value network (or heuristic) to back up leaf evaluations.
+
+Supports min-max Q-value normalization (MuZero-style) so the value scale
+doesn't matter — works with both heuristic [-1,1] and PPO cumulative reward.
 
 Usage
 -----
-    from src.search.mcts import MCTSAgent
+    from src.search.mcts import MCTSAgent, MCTS
     agent = MCTSAgent(model, num_simulations=200)
     action = agent.select_action(env, temperature=1.0)
 
 Key design decisions:
   - Tree nodes store visit counts N, total value W, and prior probability P
-  - PUCT selection:  Q(s,a) + c_puct * P(s,a) * sqrt(sum_N) / (1 + N(s,a))
-  - Leaf evaluation: value network prediction (no rollouts)
+  - PUCT selection:  Q_norm(s,a) + c_puct * P(s,a) * sqrt(sum_N) / (1 + N(s,a))
+  - Q_norm uses min-max normalization across the tree (MuZero approach)
+  - Leaf evaluation: heuristic or PPO value network (configurable)
   - env.clone() enables tree branching without side effects
   - Temperature controls action sampling: temp=1 during training, temp→0 for tournament
 """
@@ -25,6 +29,28 @@ from typing import Optional
 
 # Default PUCT exploration constant
 _DEFAULT_C_PUCT = 1.5
+
+
+class MinMaxStats:
+    """Track min/max Q-values across the search tree for normalization.
+
+    MuZero-style: normalizes Q-values to [0, 1] so PUCT works regardless
+    of the value scale (heuristic [-1,1] or PPO cumulative [0,10+]).
+    """
+
+    def __init__(self):
+        self.min_value: float = float('inf')
+        self.max_value: float = float('-inf')
+
+    def update(self, value: float):
+        self.min_value = min(self.min_value, value)
+        self.max_value = max(self.max_value, value)
+
+    def normalize(self, value: float) -> float:
+        """Normalize value to [0, 1] based on observed range."""
+        if self.max_value > self.min_value:
+            return (value - self.min_value) / (self.max_value - self.min_value)
+        return 0.5  # No range yet — neutral
 
 
 class MCTSNode:
@@ -54,13 +80,14 @@ class MCTSNode:
 
     @property
     def Q(self) -> float:
-        """Mean action value."""
+        """Mean action value (raw, unnormalized)."""
         return self.W / self.N if self.N > 0 else 0.0
 
-    def puct_score(self, parent_N: int, c_puct: float) -> float:
-        """PUCT score for selecting this node from its parent."""
+    def puct_score(self, parent_N: int, c_puct: float, min_max: MinMaxStats) -> float:
+        """PUCT score with min-max normalized Q value."""
+        q_norm = min_max.normalize(self.Q) if self.N > 0 else 0.5
         u = c_puct * self.prior * math.sqrt(parent_N) / (1 + self.N)
-        return self.Q + u
+        return q_norm + u
 
     def is_root(self) -> bool:
         return self.parent is None
@@ -101,22 +128,98 @@ def _get_policy_priors(model, obs: np.ndarray, action_mask: np.ndarray) -> np.nd
     return priors
 
 
+def _get_network_value(model, obs: np.ndarray) -> float:
+    """Run the value network to get a state value estimate.
+
+    Parameters
+    ----------
+    model : MaskablePPO
+    obs : np.ndarray, shape (C, H, W)
+
+    Returns
+    -------
+    float — raw value estimate (scale depends on PPO training)
+    """
+    import torch
+    policy = model.policy
+    device = next(policy.parameters()).device
+
+    obs_t = torch.tensor(obs[np.newaxis], dtype=torch.float32, device=device)
+
+    with torch.no_grad():
+        features = policy.extract_features(obs_t)
+        if policy.share_features_extractor:
+            _, latent_vf = policy.mlp_extractor(features)
+        else:
+            _, vf_features = features
+            latent_vf = policy.mlp_extractor.forward_critic(vf_features)
+
+        value = policy.value_net(latent_vf).squeeze().cpu().item()
+
+    return value
+
+
+def _score_colour(board, colour: str) -> float:
+    """Score a colour's position: pins_in_goal * 100 + max(0, 200 - total_dist) + bonuses.
+
+    Returns raw score (not normalized). Used for both agent and opponent evaluation.
+    """
+    goal_indices = board.get_goal_indices(colour)
+    goal_set = set(goal_indices)
+    pins_in_goal = board.pins_in_goal(colour)
+
+    # Per-pin distances (only for pins not in goal)
+    pin_dists = []
+    for pin in board.pins[colour]:
+        if pin.axialindex in goal_set:
+            continue
+        min_d = min(board.axial_distance(pin.axialindex, g) for g in goal_indices)
+        pin_dists.append(min_d)
+
+    total_dist = sum(pin_dists)
+
+    # Base score (same as advanced_heuristic._score_position)
+    base = pins_in_goal * 100.0 + max(0.0, 200.0 - total_dist)
+
+    # Hop potential: pins with multi-hop moves can advance faster
+    hop_bonus = 0.0
+    legal = board.get_legal_moves(colour)
+    for pin_id, dests in legal.items():
+        pin = board._pin_by_id(colour, pin_id)
+        for dest in dests:
+            if board.axial_distance(pin.axialindex, dest) > 2:
+                hop_bonus += 3.0
+                break
+
+    # Near-goal bonus: pins within 2 steps are almost scored
+    near_count = sum(1 for d in pin_dists if d <= 2)
+    near_bonus = near_count * 8.0
+
+    # Straggler penalty: furthest pin holds back the win
+    straggler_penalty = 0.0
+    if pin_dists:
+        max_d = max(pin_dists)
+        if max_d > 10:
+            straggler_penalty = (max_d - 10) * 3.0
+
+    return base + hop_bonus + near_bonus - straggler_penalty
+
+
 def _heuristic_value(env) -> float:
     """Evaluate board position for MCTS value backup.
 
     Returns value in [-1, 1].
 
-    Uses the same scoring logic as the advanced heuristic agent:
-      score = pins_in_goal * 100 + max(0, 200 - total_distance)
+    Opponent-aware evaluation:
+      - Scores both agent and opponent positions
+      - Returns relative advantage: agent_score - opponent_score (normalized)
+      - This makes the heuristic responsive to blocking and competitive dynamics
 
-    Plus additional factors:
-      - hop_potential: how many pins have multi-hop moves available
-      - straggler: penalty for furthest-behind pin
+    Score components per colour:
+      - pins_in_goal * 100 + max(0, 200 - total_distance)
+      - hop_potential: pins with multi-hop moves available
       - near_goal: bonus for pins within 2 steps of goal
-
-    The score is normalized to [-1, 1] based on known min/max range.
-    Starting score ≈ 115 (0 pins, dist≈85 → 200-85=115)
-    Winning score = 1200 (10 pins × 100 + 200)
+      - straggler: penalty for furthest-behind pin
     """
     board = env._board
     if board is None:
@@ -133,54 +236,28 @@ def _heuristic_value(env) -> float:
         if opp_colour in board.pins and board.check_win(opp_colour):
             return -1.0
 
-    goal_indices = board.get_goal_indices(colour)
-    goal_set = set(goal_indices)
+    agent_score = _score_colour(board, colour)
 
-    # Per-pin distances (only for pins not in goal)
-    pin_dists = []
-    for pin in board.pins[colour]:
-        if pin.axialindex in goal_set:
-            continue
-        min_d = min(board.axial_distance(pin.axialindex, g) for g in goal_indices)
-        pin_dists.append(min_d)
+    # Opponent-aware: compute relative advantage.
+    # Check for opponent pins on the board regardless of _no_opponent flag,
+    # because MCTS clones strip the opponent policy but keep opponent pins.
+    opp_colour = env._OPPONENT_COLOUR
+    if opp_colour in board.pins and len(board.pins[opp_colour]) > 0:
+        opp_score = _score_colour(board, opp_colour)
+        # Relative advantage: positive = agent ahead, negative = behind
+        # Both scores are in range ~100-1200
+        # Difference range: ~-1100 to +1100
+        relative = agent_score - opp_score
+        normalized = relative / 1100.0
+        return max(-1.0, min(1.0, normalized))
 
-    total_dist = sum(pin_dists)
-
-    # Base score (same as advanced_heuristic._score_position)
-    base = agent_pins_in_goal * 100.0 + max(0.0, 200.0 - total_dist)
-
-    # Hop potential: pins with multi-hop moves can advance faster
-    hop_bonus = 0.0
-    legal = board.get_legal_moves(colour)
-    for pin_id, dests in legal.items():
-        pin = board._pin_by_id(colour, pin_id)
-        for dest in dests:
-            if board.axial_distance(pin.axialindex, dest) > 2:
-                hop_bonus += 3.0  # each long-range hop option is valuable
-                break  # count once per pin
-
-    # Near-goal bonus: pins within 2 steps are almost scored
-    near_count = sum(1 for d in pin_dists if d <= 2)
-    near_bonus = near_count * 8.0
-
-    # Straggler penalty: furthest pin holds back the win
-    straggler_penalty = 0.0
-    if pin_dists:
-        max_d = max(pin_dists)
-        if max_d > 10:
-            straggler_penalty = (max_d - 10) * 3.0
-
-    score = base + hop_bonus + near_bonus - straggler_penalty
-
-    # Normalize to [-1, 1]
-    # Observed range: ~100 (start) to ~1200 (win)
-    # Map 100 → -0.8, 650 → 0.0, 1200 → 1.0
-    normalized = (score - 650.0) / 550.0
+    # True solo mode (no opponent pins on board at all)
+    normalized = (agent_score - 650.0) / 550.0
     return max(-1.0, min(1.0, normalized))
 
 
 class MCTS:
-    """PUCT Monte Carlo Tree Search.
+    """PUCT Monte Carlo Tree Search with min-max Q-value normalization.
 
     Parameters
     ----------
@@ -194,6 +271,9 @@ class MCTS:
         Dirichlet noise alpha added to root priors (exploration during training).
     dirichlet_epsilon : float
         Fraction of Dirichlet noise mixed into root priors (0 = no noise).
+    use_network_value : bool
+        If True, use PPO value network for leaf evaluation (with min-max normalization).
+        If False (default), use heuristic evaluation.
     """
 
     def __init__(
@@ -203,14 +283,16 @@ class MCTS:
         c_puct: float = _DEFAULT_C_PUCT,
         dirichlet_alpha: float = 0.3,
         dirichlet_epsilon: float = 0.25,
+        use_network_value: bool = False,
     ):
         self.model = model
         self.num_simulations = num_simulations
         self.c_puct = c_puct
         self.dirichlet_alpha = dirichlet_alpha
         self.dirichlet_epsilon = dirichlet_epsilon
+        self.use_network_value = use_network_value
 
-    def _select(self, node: MCTSNode, sim_env) -> tuple[MCTSNode, bool]:
+    def _select(self, node: MCTSNode, sim_env, min_max: MinMaxStats) -> tuple[MCTSNode, bool]:
         """Traverse tree using PUCT until a leaf node is reached.
 
         Also steps sim_env through each action so it matches the leaf state.
@@ -225,7 +307,7 @@ class MCTS:
             best_score = -float('inf')
             best_child = None
             for child in node.children.values():
-                score = child.puct_score(parent_N, self.c_puct)
+                score = child.puct_score(parent_N, self.c_puct, min_max)
                 if score > best_score:
                     best_score = score
                     best_child = child
@@ -238,9 +320,9 @@ class MCTS:
         return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
-        """Expand a leaf node: policy network for priors, heuristic for value.
+        """Expand a leaf node: policy network for priors, heuristic/network for value.
 
-        Returns the heuristic value estimate in [-1, 1].
+        Returns the value estimate (scale handled by min-max normalization).
         """
         obs = env._get_obs()
         action_mask = env.action_masks()
@@ -250,7 +332,11 @@ class MCTS:
             return 0.0
 
         priors = _get_policy_priors(self.model, obs, action_mask)
-        value = _heuristic_value(env)
+
+        if self.use_network_value:
+            value = _get_network_value(self.model, obs)
+        else:
+            value = _heuristic_value(env)
 
         # Add Dirichlet noise to root node for exploration diversity
         if node.is_root() and self.dirichlet_epsilon > 0:
@@ -274,15 +360,13 @@ class MCTS:
         node.is_expanded = True
         return value
 
-    def _backup(self, node: MCTSNode, value: float):
-        """Propagate value back up the tree."""
+    def _backup(self, node: MCTSNode, value: float, min_max: MinMaxStats):
+        """Propagate value back up the tree and update min-max stats."""
         current = node
         while current is not None:
             current.N += 1
             current.W += value
-            # Flip sign at each level (alternating players)
-            # In self-play, the opponent's good state = our bad state.
-            # Since this is single-agent env, we keep sign consistent.
+            min_max.update(current.Q)
             current = current.parent
 
     def run(self, env) -> MCTSNode:
@@ -298,13 +382,14 @@ class MCTS:
         root : MCTSNode — the root node with visit counts populated.
         """
         root = MCTSNode(parent=None, action=None, prior=1.0)
+        min_max = MinMaxStats()
 
         for _ in range(self.num_simulations):
             # 1. Clone env for this simulation
             sim_env = env.clone()
 
             # 2. Selection: follow PUCT until leaf (also steps sim_env)
-            node, terminal = self._select(root, sim_env)
+            node, terminal = self._select(root, sim_env, min_max)
 
             if terminal:
                 # Game ended during tree traversal — use actual outcome
@@ -315,7 +400,7 @@ class MCTS:
                 value = self._expand(node, sim_env)
 
             # 4. Backup
-            self._backup(node, value)
+            self._backup(node, value, min_max)
 
         return root
 

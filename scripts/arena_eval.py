@@ -36,16 +36,18 @@ def make_ppo_policy(model_path: str):
     turn_order = ["red", "blue"]
 
     def policy(board_wrapper, colour):
-        # Build observation
+        # Build observation — add batch dimension for model.predict()
         obs = encoder.encode(board_wrapper, current_colour=colour, turn_order=turn_order)
+        obs_batch = np.expand_dims(obs, 0)  # (10,17,17) -> (1,10,17,17)
 
-        # Build action mask
+        # Build action mask — add batch dimension
         legal_moves = board_wrapper.get_legal_moves(colour)
         action_mask = mapper.build_action_mask(legal_moves)
+        mask_batch = np.expand_dims(action_mask, 0)  # (1210,) -> (1,1210)
 
         # Predict with masking (deterministic)
-        action, _ = model.predict(obs, action_masks=action_mask, deterministic=True)
-        action = int(action)
+        action, _ = model.predict(obs_batch, action_masks=mask_batch, deterministic=True)
+        action = int(action[0])
 
         pin_id, dest = mapper.decode(action)
         return (pin_id, dest)
