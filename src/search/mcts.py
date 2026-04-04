@@ -284,6 +284,7 @@ class MCTS:
         dirichlet_alpha: float = 0.3,
         dirichlet_epsilon: float = 0.25,
         use_network_value: bool = False,
+        opponent_in_tree: bool = False,
     ):
         self.model = model
         self.num_simulations = num_simulations
@@ -291,6 +292,7 @@ class MCTS:
         self.dirichlet_alpha = dirichlet_alpha
         self.dirichlet_epsilon = dirichlet_epsilon
         self.use_network_value = use_network_value
+        self.opponent_in_tree = opponent_in_tree
 
     def _select(self, node: MCTSNode, sim_env, min_max: MinMaxStats) -> tuple[MCTSNode, bool]:
         """Traverse tree using PUCT until a leaf node is reached.
@@ -385,8 +387,10 @@ class MCTS:
         min_max = MinMaxStats()
 
         for _ in range(self.num_simulations):
-            # 1. Clone env for this simulation
-            sim_env = env.clone()
+            # 1. Clone env for this simulation.
+            # If opponent_in_tree=True, keep the opponent so each step()
+            # includes the opponent's response (models blocking behavior).
+            sim_env = env.clone(strip_opponent=not self.opponent_in_tree)
 
             # 2. Selection: follow PUCT until leaf (also steps sim_env)
             node, terminal = self._select(root, sim_env, min_max)

@@ -37,24 +37,37 @@ mapper = ActionMapper(num_pins=10, num_cells=121)
 encoder = StateEncoder(grid_size=17, num_channels=10)
 
 
-def make_mcts_policy(num_sims):
-    """Create an MCTS inference policy that works with the arena."""
+def make_mcts_policy(num_sims, opponent_in_tree=False):
+    """Create an MCTS inference policy that works with the arena.
+
+    Parameters
+    ----------
+    num_sims : int — MCTS simulations per move
+    opponent_in_tree : bool — if True, include a greedy opponent model inside
+        the search tree so MCTS accounts for opponent blocking.
+    """
+    from src.agents.greedy_agent import greedy_policy as _greedy
+
     mcts = MCTS(
         model,
         num_simulations=num_sims,
         c_puct=1.5,
         dirichlet_epsilon=0.0,  # No noise for tournament
         use_network_value=False,  # Use heuristic value
+        opponent_in_tree=opponent_in_tree,
     )
 
     def policy(board_wrapper, colour):
-        # Build a temporary env matching the current board state
+        # Build a temporary env matching the current board state.
         # The arena calls policy(board_wrapper, colour) but MCTS needs a full env.
-        # We create a minimal env and inject the board state.
-        env = ChineseCheckersEnv(opponent_policy=None, max_steps=1000)
+        if opponent_in_tree:
+            env = ChineseCheckersEnv(opponent_policy=_greedy, max_steps=1000)
+        else:
+            env = ChineseCheckersEnv(opponent_policy=None, max_steps=1000)
         env.reset()
         env._board = board_wrapper
-        env._no_opponent = True
+        if not opponent_in_tree:
+            env._no_opponent = True
 
         action = mcts.select_action(env, temperature=0.0)
         pin_id, dest = mapper.decode(action)
@@ -95,15 +108,16 @@ print(f"Model: {args.model}")
 print(f"MCTS: {args.sims} sims, heuristic value, min-max normalization")
 print(f"Games: {args.num_games} per matchup, max_steps={args.max_steps}\n")
 
-mcts_policy = make_mcts_policy(args.sims)
+mcts_policy = make_mcts_policy(args.sims, opponent_in_tree=False)
+mcts_opp_policy = make_mcts_policy(args.sims, opponent_in_tree=True)
 ppo_policy = make_ppo_policy()
 
 matchups = [
     ("MCTS vs Random", mcts_policy, random_policy),
     ("MCTS vs Greedy", mcts_policy, greedy_policy),
-    ("MCTS vs Advanced", mcts_policy, advanced_heuristic_policy),
+    ("MCTS+OppTree vs Greedy", mcts_opp_policy, greedy_policy),
+    ("MCTS+OppTree vs Advanced", mcts_opp_policy, advanced_heuristic_policy),
     ("Pure PPO vs Random", ppo_policy, random_policy),
-    ("Pure PPO vs Greedy", ppo_policy, greedy_policy),
     ("Advanced vs Random", advanced_heuristic_policy, random_policy),
     ("Advanced vs Greedy", advanced_heuristic_policy, greedy_policy),
 ]
