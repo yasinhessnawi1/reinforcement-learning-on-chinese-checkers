@@ -1,12 +1,12 @@
-"""Arena evaluation with MCTS inference agent.
+"""Arena evaluation: hybrid agent that combines advanced heuristic with MCTS.
 
-The MCTS agent uses:
-  - PPO policy network as priors (guides tree search)
-  - Heuristic position evaluation (leaf values)
-  - Min-max Q-value normalization
+Strategy: Use advanced heuristic as the primary policy (proven 8 pins vs greedy).
+Use MCTS to search for better moves when time permits. If MCTS finds a move
+with significantly higher visit count than the heuristic's choice, use it.
 """
 import sys
 import os
+import time
 import numpy as np
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -18,9 +18,9 @@ for p in [PROJECT_ROOT, MULTI_SYSTEM_DIR]:
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--model', type=str, required=True)
-parser.add_argument('--sims', type=int, default=50, help='MCTS simulations per move')
-parser.add_argument('--num-games', type=int, default=5, help='Games per matchup')
-parser.add_argument('--max-steps', type=int, default=1000, help='Max steps per game')
+parser.add_argument('--sims', type=int, default=50)
+parser.add_argument('--num-games', type=int, default=5)
+parser.add_argument('--max-steps', type=int, default=1000)
 args = parser.parse_args()
 
 from sb3_contrib import MaskablePPO
@@ -37,53 +37,65 @@ mapper = ActionMapper(num_pins=10, num_cells=121)
 encoder = StateEncoder(grid_size=17, num_channels=10)
 
 
-def make_mcts_policy(num_sims, opponent_model=None):
-    """Create an MCTS inference policy that works with the arena.
-
-    Parameters
-    ----------
-    num_sims : int — MCTS simulations per move
-    opponent_model : callable or None — opponent policy for 2-player search.
-        If provided, MCTS models opponent blocking inside the tree.
-    """
+def make_hybrid_policy(num_sims, opponent_model=None):
+    """Advanced heuristic + MCTS override when search finds better move."""
     mcts = MCTS(
         model,
         num_simulations=num_sims,
         c_puct=1.5,
-        dirichlet_epsilon=0.0,  # No noise for tournament
-        use_network_value=False,  # Use heuristic value
+        dirichlet_epsilon=0.0,
+        use_network_value=False,
         opponent_policy=opponent_model,
     )
 
     def policy(board_wrapper, colour):
-        # Build a temporary env matching the current board state.
-        # The arena calls policy(board_wrapper, colour) but MCTS needs a full env.
+        # 1. Get advanced heuristic's choice (fast, proven)
+        heuristic_move = advanced_heuristic_policy(board_wrapper, colour)
+        heuristic_action = mapper.encode(heuristic_move[0], heuristic_move[1])
+
+        # 2. Run MCTS search
         env = ChineseCheckersEnv(opponent_policy=None, max_steps=1000)
         env.reset()
         env._board = board_wrapper
         env._no_opponent = True
 
-        action = mcts.select_action(env, temperature=0.0)
-        pin_id, dest = mapper.decode(action)
-        return (pin_id, dest)
+        root = mcts.run(env)
+
+        # 3. Compare: does MCTS strongly prefer a different move?
+        best_mcts_action = max(root.children, key=lambda a: root.children[a].N)
+        best_mcts_visits = root.children[best_mcts_action].N
+        heuristic_visits = root.children.get(heuristic_action, None)
+        heuristic_v = heuristic_visits.N if heuristic_visits else 0
+
+        # If MCTS strongly agrees with heuristic or heuristic has >30% of best visits, keep it
+        # Otherwise use MCTS's choice
+        if heuristic_v >= best_mcts_visits * 0.3:
+            return heuristic_move
+        else:
+            pin_id, dest = mapper.decode(best_mcts_action)
+            return (pin_id, dest)
 
     return policy
 
 
-def make_ppo_policy():
-    """Pure PPO policy (no MCTS)."""
-    turn_order = ["red", "blue"]
+def make_pure_mcts_policy(num_sims, opponent_model=None):
+    """Pure MCTS policy."""
+    mcts = MCTS(
+        model,
+        num_simulations=num_sims,
+        c_puct=1.5,
+        dirichlet_epsilon=0.0,
+        use_network_value=False,
+        opponent_policy=opponent_model,
+    )
 
     def policy(board_wrapper, colour):
-        obs = encoder.encode(board_wrapper, current_colour=colour, turn_order=turn_order)
-        legal_moves = board_wrapper.get_legal_moves(colour)
-        action_mask = mapper.build_action_mask(legal_moves)
-        action, _ = model.predict(
-            np.expand_dims(obs, 0),
-            action_masks=np.expand_dims(action_mask, 0),
-            deterministic=True,
-        )
-        pin_id, dest = mapper.decode(int(action[0]))
+        env = ChineseCheckersEnv(opponent_policy=None, max_steps=1000)
+        env.reset()
+        env._board = board_wrapper
+        env._no_opponent = True
+        action = mcts.select_action(env, temperature=0.0)
+        pin_id, dest = mapper.decode(action)
         return (pin_id, dest)
 
     return policy
@@ -99,19 +111,18 @@ def random_policy(board_wrapper, colour):
 
 
 print(f"Model: {args.model}")
-print(f"MCTS: {args.sims} sims, heuristic value, min-max normalization")
+print(f"MCTS: {args.sims} sims")
 print(f"Games: {args.num_games} per matchup, max_steps={args.max_steps}\n")
 
-mcts_solo = make_mcts_policy(args.sims, opponent_model=None)
-mcts_2p = make_mcts_policy(args.sims, opponent_model=greedy_policy)
-ppo_policy = make_ppo_policy()
+hybrid_2p = make_hybrid_policy(args.sims, opponent_model=greedy_policy)
+mcts_2p = make_pure_mcts_policy(args.sims, opponent_model=greedy_policy)
+mcts_solo = make_pure_mcts_policy(args.sims, opponent_model=None)
 
 matchups = [
+    ("Hybrid-2p vs Greedy", hybrid_2p, greedy_policy),
+    ("Hybrid-2p vs Random", hybrid_2p, random_policy),
     ("MCTS-2p vs Greedy", mcts_2p, greedy_policy),
-    ("MCTS-2p vs Random", mcts_2p, random_policy),
-    ("MCTS-2p vs Advanced", mcts_2p, advanced_heuristic_policy),
     ("MCTS-solo vs Greedy", mcts_solo, greedy_policy),
-    ("MCTS-solo vs Random", mcts_solo, random_policy),
     ("Advanced vs Greedy", advanced_heuristic_policy, greedy_policy),
     ("Advanced vs Random", advanced_heuristic_policy, random_policy),
 ]

@@ -7,6 +7,11 @@ value network (or heuristic) to back up leaf evaluations.
 Supports min-max Q-value normalization (MuZero-style) so the value scale
 doesn't matter — works with both heuristic [-1,1] and PPO cumulative reward.
 
+Two-player mode: after the agent's move, the opponent responds using a fast
+deterministic policy (greedy or advanced heuristic). This models blocking
+without exploding the tree — opponent moves are deterministic "chance" edges,
+not full PUCT subtrees.
+
 Usage
 -----
     from src.search.mcts import MCTSAgent, MCTS
@@ -20,6 +25,7 @@ Key design decisions:
   - Leaf evaluation: heuristic or PPO value network (configurable)
   - env.clone() enables tree branching without side effects
   - Temperature controls action sampling: temp=1 during training, temp→0 for tournament
+  - Two-player: opponent responds after each agent move using a fast policy
 """
 
 import math
@@ -91,6 +97,72 @@ class MCTSNode:
 
     def is_root(self) -> bool:
         return self.parent is None
+
+
+def _get_heuristic_priors(env) -> np.ndarray:
+    """Generate action priors from heuristic move scoring (no neural network).
+
+    Scores each legal move using the same components as the advanced heuristic
+    (immediate improvement + lookahead), then applies softmax to get a
+    probability distribution. This gives MCTS domain-informed priors without
+    depending on the PPO policy network.
+    """
+    from src.agents.advanced_heuristic import (
+        _score_position, _best_lookahead_score,
+    )
+
+    board = env._board
+    colour = env._AGENT_COLOUR
+    goal_indices = board.get_goal_indices(colour)
+    goal_set = set(goal_indices)
+
+    current_score = _score_position(board, colour, goal_indices, goal_set)
+
+    num_actions = env.action_space.n
+    scores = np.full(num_actions, -1e9, dtype=np.float32)
+
+    legal_moves = board.get_legal_moves(colour)
+    mapper = env._mapper
+
+    for pin_id, dests in legal_moves.items():
+        pin = board._pin_by_id(colour, pin_id)
+        current_pos = pin.axialindex
+        in_goal_now = current_pos in goal_set
+
+        for dest in dests:
+            action = mapper.encode(pin_id, dest)
+
+            if in_goal_now and dest not in goal_set:
+                scores[action] = -100.0
+                continue
+
+            pin.axialindex = dest
+            new_score = _score_position(board, colour, goal_indices, goal_set)
+            immediate = new_score - current_score
+
+            lookahead = _best_lookahead_score(board, colour, goal_indices, goal_set)
+            lookahead_gain = lookahead - new_score
+
+            move_dist = board.axial_distance(current_pos, dest)
+            hop_bonus = move_dist * 0.3 if move_dist > 1 else 0.0
+
+            pin.axialindex = current_pos
+
+            scores[action] = immediate * 1.0 + lookahead_gain * 0.6 + hop_bonus
+
+    # Softmax over legal actions only (temperature=1.0)
+    legal_mask = scores > -1e8
+    if not legal_mask.any():
+        # Fallback: uniform
+        action_mask = env.action_masks()
+        priors = action_mask.astype(np.float32)
+        return priors / priors.sum() if priors.sum() > 0 else priors
+
+    max_score = scores[legal_mask].max()
+    exp_scores = np.zeros(num_actions, dtype=np.float32)
+    exp_scores[legal_mask] = np.exp(scores[legal_mask] - max_score)
+    priors = exp_scores / exp_scores.sum()
+    return priors
 
 
 def _get_policy_priors(model, obs: np.ndarray, action_mask: np.ndarray) -> np.ndarray:
@@ -274,17 +346,23 @@ class MCTS:
     use_network_value : bool
         If True, use PPO value network for leaf evaluation (with min-max normalization).
         If False (default), use heuristic evaluation.
+    opponent_policy : callable or None
+        Policy for opponent moves inside the search tree.
+        callable(board_wrapper, colour) -> (pin_id, dest_index).
+        If provided, after each agent move in the tree the opponent responds
+        deterministically, modeling blocking. If None, solo search (no opponent).
     """
 
     def __init__(
         self,
-        model,
+        model=None,
         num_simulations: int = 200,
         c_puct: float = _DEFAULT_C_PUCT,
         dirichlet_alpha: float = 0.3,
         dirichlet_epsilon: float = 0.25,
         use_network_value: bool = False,
-        opponent_in_tree: bool = False,
+        opponent_policy=None,
+        use_heuristic_priors: bool = False,
     ):
         self.model = model
         self.num_simulations = num_simulations
@@ -292,12 +370,40 @@ class MCTS:
         self.dirichlet_alpha = dirichlet_alpha
         self.dirichlet_epsilon = dirichlet_epsilon
         self.use_network_value = use_network_value
-        self.opponent_in_tree = opponent_in_tree
+        self.opponent_policy = opponent_policy
+        self.use_heuristic_priors = use_heuristic_priors
+
+    def _apply_opponent_move(self, env):
+        """Apply a single deterministic opponent move on the board.
+
+        Unlike env.step() which bundles agent+opponent, this directly
+        manipulates the board so the tree sees the opponent's response
+        without conflating it with the agent's action edges.
+
+        Returns True if opponent won after their move.
+        """
+        if self.opponent_policy is None:
+            return False
+
+        board = env._board
+        opp_colour = env._OPPONENT_COLOUR
+
+        if opp_colour not in board.pins or len(board.pins[opp_colour]) == 0:
+            return False
+
+        opp_legal = board.get_legal_moves(opp_colour)
+        if not opp_legal:
+            return False
+
+        opp_pin_id, opp_dest = self.opponent_policy(board, opp_colour)
+        board.apply_move(opp_colour, opp_pin_id, opp_dest)
+        return board.check_win(opp_colour)
 
     def _select(self, node: MCTSNode, sim_env, min_max: MinMaxStats) -> tuple[MCTSNode, bool]:
         """Traverse tree using PUCT until a leaf node is reached.
 
         Also steps sim_env through each action so it matches the leaf state.
+        After each agent move, the opponent responds deterministically.
 
         Returns
         -------
@@ -313,12 +419,28 @@ class MCTS:
                 if score > best_score:
                     best_score = score
                     best_child = child
-            # Step the sim env to match the tree traversal
-            _, reward, terminated, truncated, _ = sim_env.step(best_child.action)
+
+            # Apply agent's move directly on the board (no opponent bundled)
+            pin_id, dest = sim_env._mapper.decode(best_child.action)
+            sim_env._board.apply_move(sim_env._AGENT_COLOUR, pin_id, dest)
+            sim_env._step_count += 1
             node = best_child
-            if terminated or truncated:
+
+            # Check if agent won
+            if sim_env._board.check_win(sim_env._AGENT_COLOUR):
                 terminal = True
                 break
+
+            # Check truncation
+            if sim_env._step_count >= sim_env.max_steps:
+                terminal = True
+                break
+
+            # Opponent responds
+            if self._apply_opponent_move(sim_env):
+                terminal = True
+                break
+
         return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
@@ -333,7 +455,10 @@ class MCTS:
             node.is_expanded = True
             return 0.0
 
-        priors = _get_policy_priors(self.model, obs, action_mask)
+        if self.use_heuristic_priors:
+            priors = _get_heuristic_priors(env)
+        else:
+            priors = _get_policy_priors(self.model, obs, action_mask)
 
         if self.use_network_value:
             value = _get_network_value(self.model, obs)
@@ -387,12 +512,11 @@ class MCTS:
         min_max = MinMaxStats()
 
         for _ in range(self.num_simulations):
-            # 1. Clone env for this simulation.
-            # If opponent_in_tree=True, keep the opponent so each step()
-            # includes the opponent's response (models blocking behavior).
-            sim_env = env.clone(strip_opponent=not self.opponent_in_tree)
+            # Clone env for this simulation — always strip the env's opponent
+            # since we handle opponent moves ourselves via _apply_opponent_move
+            sim_env = env.clone(strip_opponent=True)
 
-            # 2. Selection: follow PUCT until leaf (also steps sim_env)
+            # Selection: follow PUCT until leaf (also steps sim_env with opponent)
             node, terminal = self._select(root, sim_env, min_max)
 
             if terminal:
@@ -400,10 +524,10 @@ class MCTS:
                 agent_won = sim_env._board.check_win(sim_env._AGENT_COLOUR) if sim_env._board is not None else False
                 value = 1.0 if agent_won else -1.0
             else:
-                # 3. Expansion + evaluation
+                # Expansion + evaluation
                 value = self._expand(node, sim_env)
 
-            # 4. Backup
+            # Backup
             self._backup(node, value, min_max)
 
         return root
@@ -483,3 +607,200 @@ class MCTSAgent:
             "MCTSAgent cannot be called as a board_wrapper policy directly — "
             "it requires a full ChineseCheckersEnv.  Use MCTS.select_action(env) instead."
         )
+
+
+# ---------------------------------------------------------------------------
+# AlphaZero-compatible MCTS (uses AlphaZeroNet instead of SB3 model)
+# ---------------------------------------------------------------------------
+
+class AlphaZeroMCTS:
+    """PUCT MCTS that uses AlphaZeroNet for policy priors and value estimation.
+
+    Unlike the original MCTS class which depends on SB3 MaskablePPO internals,
+    this class uses the clean AlphaZeroNet.predict() interface.
+
+    Parameters
+    ----------
+    network : AlphaZeroNet
+        Neural network for policy priors and value estimation.
+    num_simulations : int
+        Number of MCTS simulations per move.
+    c_puct : float
+        Exploration constant in PUCT formula.
+    dirichlet_alpha : float
+        Dirichlet noise alpha for root exploration.
+    dirichlet_epsilon : float
+        Fraction of Dirichlet noise mixed into root priors (0 = no noise).
+    use_heuristic_value : bool
+        If True, use heuristic evaluation instead of network value head.
+    opponent_policy : callable or None
+        Deterministic opponent policy for 2-player search.
+    """
+
+    def __init__(
+        self,
+        network=None,
+        num_simulations: int = 50,
+        c_puct: float = 1.5,
+        dirichlet_alpha: float = 0.3,
+        dirichlet_epsilon: float = 0.25,
+        use_heuristic_value: bool = False,
+        opponent_policy=None,
+    ):
+        self.network = network
+        self.num_simulations = num_simulations
+        self.c_puct = c_puct
+        self.dirichlet_alpha = dirichlet_alpha
+        self.dirichlet_epsilon = dirichlet_epsilon
+        self.use_heuristic_value = use_heuristic_value
+        self.opponent_policy = opponent_policy
+
+    def _apply_opponent_move(self, env) -> bool:
+        """Apply opponent move. Returns True if opponent won."""
+        if self.opponent_policy is None:
+            return False
+
+        board = env._board
+        opp_colour = env._OPPONENT_COLOUR
+
+        if opp_colour not in board.pins or len(board.pins[opp_colour]) == 0:
+            return False
+
+        opp_legal = board.get_legal_moves(opp_colour)
+        if not opp_legal:
+            return False
+
+        opp_pin_id, opp_dest = self.opponent_policy(board, opp_colour)
+        board.apply_move(opp_colour, opp_pin_id, opp_dest)
+        return board.check_win(opp_colour)
+
+    def _select(self, node: MCTSNode, sim_env, min_max: MinMaxStats) -> tuple:
+        """Traverse tree using PUCT until a leaf node."""
+        terminal = False
+        while node.is_expanded and node.children:
+            parent_N = node.N
+            best_score = -float('inf')
+            best_child = None
+            for child in node.children.values():
+                score = child.puct_score(parent_N, self.c_puct, min_max)
+                if score > best_score:
+                    best_score = score
+                    best_child = child
+
+            pin_id, dest = sim_env._mapper.decode(best_child.action)
+            sim_env._board.apply_move(sim_env._AGENT_COLOUR, pin_id, dest)
+            sim_env._step_count += 1
+            node = best_child
+
+            if sim_env._board.check_win(sim_env._AGENT_COLOUR):
+                terminal = True
+                break
+
+            if sim_env._step_count >= sim_env.max_steps:
+                terminal = True
+                break
+
+            if self._apply_opponent_move(sim_env):
+                terminal = True
+                break
+
+        return node, terminal
+
+    def _expand(self, node: MCTSNode, env) -> float:
+        """Expand leaf node using AlphaZeroNet for priors and value."""
+        obs = env._get_obs()
+        action_mask = env.action_masks()
+
+        if action_mask.sum() == 0:
+            node.is_expanded = True
+            return 0.0
+
+        # Get policy priors and value from network
+        priors, value = self.network.predict(obs, action_mask)
+
+        if self.use_heuristic_value:
+            value = _heuristic_value(env)
+
+        # Dirichlet noise at root for exploration
+        if node.is_root() and self.dirichlet_epsilon > 0:
+            legal_actions = np.where(action_mask)[0]
+            noise = np.random.dirichlet([self.dirichlet_alpha] * len(legal_actions))
+            for i, a in enumerate(legal_actions):
+                priors[a] = (
+                    (1 - self.dirichlet_epsilon) * priors[a]
+                    + self.dirichlet_epsilon * noise[i]
+                )
+
+        # Create children for legal actions
+        legal_actions = np.where(action_mask)[0]
+        for action in legal_actions:
+            node.children[int(action)] = MCTSNode(
+                parent=node,
+                action=int(action),
+                prior=float(priors[action]),
+            )
+
+        node.is_expanded = True
+        return value
+
+    def _backup(self, node: MCTSNode, value: float, min_max: MinMaxStats):
+        """Propagate value up the tree."""
+        current = node
+        while current is not None:
+            current.N += 1
+            current.W += value
+            min_max.update(current.Q)
+            current = current.parent
+
+    def run(self, env) -> MCTSNode:
+        """Run MCTS simulations and return root node with visit counts."""
+        root = MCTSNode(parent=None, action=None, prior=1.0)
+        min_max = MinMaxStats()
+
+        for _ in range(self.num_simulations):
+            sim_env = env.clone(strip_opponent=True)
+            node, terminal = self._select(root, sim_env, min_max)
+
+            if terminal:
+                agent_won = (
+                    sim_env._board.check_win(sim_env._AGENT_COLOUR)
+                    if sim_env._board is not None
+                    else False
+                )
+                value = 1.0 if agent_won else _heuristic_value(sim_env)
+            else:
+                value = self._expand(node, sim_env)
+
+            self._backup(node, value, min_max)
+
+        return root
+
+    def get_action_probs(self, env, temperature: float = 1.0) -> np.ndarray:
+        """Run MCTS and return visit-count-based action distribution."""
+        root = self.run(env)
+        num_actions = env.action_space.n
+
+        visits = np.zeros(num_actions, dtype=np.float32)
+        for action, child in root.children.items():
+            visits[action] = child.N
+
+        if visits.sum() == 0:
+            mask = env.action_masks()
+            visits = mask.astype(np.float32)
+
+        if temperature == 0 or temperature < 1e-6:
+            probs = np.zeros(num_actions, dtype=np.float32)
+            probs[np.argmax(visits)] = 1.0
+        else:
+            counts_temp = visits ** (1.0 / temperature)
+            total = counts_temp.sum()
+            probs = counts_temp / total if total > 0 else counts_temp
+
+        return probs
+
+    def select_action(self, env, temperature: float = 1.0) -> int:
+        """Run MCTS and select an action."""
+        probs = self.get_action_probs(env, temperature)
+        if temperature == 0 or temperature < 1e-6:
+            return int(np.argmax(probs))
+        return int(np.random.choice(len(probs), p=probs))
