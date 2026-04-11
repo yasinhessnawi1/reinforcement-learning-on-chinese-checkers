@@ -117,7 +117,8 @@ def arena_summary(results: list) -> dict:
     -------
     dict with keys:
         num_games, agent_wins, opponent_wins, draws, truncated,
-        win_rate, avg_steps, avg_pins_in_goal, avg_tournament_score
+        win_rate, avg_steps, avg_pins_in_goal, avg_tournament_score,
+        avg_steps_win, min_steps_win, max_steps_win, avg_steps_truncated
     """
     num_games = len(results)
     if num_games == 0:
@@ -131,6 +132,10 @@ def arena_summary(results: list) -> dict:
             'avg_steps': 0.0,
             'avg_pins_in_goal': 0.0,
             'avg_tournament_score': 0.0,
+            'avg_steps_win': 0.0,
+            'min_steps_win': 0,
+            'max_steps_win': 0,
+            'avg_steps_truncated': 0.0,
         }
 
     agent_wins = sum(1 for r in results if r['winner'] == 'agent')
@@ -143,6 +148,14 @@ def arena_summary(results: list) -> dict:
     avg_pins_in_goal = sum(r['pins_in_goal'] for r in results) / num_games
     avg_tournament_score = sum(r['agent_score'] for r in results) / num_games
 
+    # Move-count breakdown by game outcome — tournament budget planning
+    win_steps = [r['steps'] for r in results if r['winner'] == 'agent']
+    trunc_steps = [r['steps'] for r in results if r['winner'] == 'truncated']
+    avg_steps_win = (sum(win_steps) / len(win_steps)) if win_steps else 0.0
+    avg_steps_truncated = (sum(trunc_steps) / len(trunc_steps)) if trunc_steps else 0.0
+    min_steps_win = min(win_steps) if win_steps else 0
+    max_steps_win = max(win_steps) if win_steps else 0
+
     return {
         'num_games': num_games,
         'agent_wins': agent_wins,
@@ -153,4 +166,8 @@ def arena_summary(results: list) -> dict:
         'avg_steps': avg_steps,
         'avg_pins_in_goal': avg_pins_in_goal,
         'avg_tournament_score': avg_tournament_score,
+        'avg_steps_win': avg_steps_win,
+        'min_steps_win': min_steps_win,
+        'max_steps_win': max_steps_win,
+        'avg_steps_truncated': avg_steps_truncated,
     }

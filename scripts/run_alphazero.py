@@ -185,8 +185,11 @@ def cmd_evaluate(args):
     # Use batched MCTS if requested
     use_batched = args.batched_mcts
 
+    value_src = "heuristic" if args.heuristic_value else "network"
     print(f"\nEvaluating ({args.num_games} games, max_steps={args.max_steps}, "
-          f"mcts={'batched' if use_batched else 'standard' if args.use_mcts else 'none'})...")
+          f"mcts={'batched' if use_batched else 'standard' if args.use_mcts else 'none'}, "
+          f"sims={args.sims}, value={value_src})...")
+    eval_start = time.time()
     results = evaluate_model(
         network,
         num_games=args.num_games,
@@ -194,19 +197,79 @@ def cmd_evaluate(args):
         use_mcts=args.use_mcts,
         mcts_sims=args.sims,
         use_batched_mcts=use_batched,
+        mcts_batch_size=args.mcts_batch_size,
+        use_heuristic_value=args.heuristic_value,
     )
+    eval_elapsed = time.time() - eval_start
 
-    print(f"\n  vs Random:   pins={results['vs_random']['avg_pins_in_goal']:.1f}, "
-          f"score={results['vs_random']['avg_tournament_score']:.1f}, "
-          f"wins={results['vs_random']['agent_wins']}/{args.num_games}")
-    print(f"  vs Greedy:   pins={results['vs_greedy']['avg_pins_in_goal']:.1f}, "
-          f"score={results['vs_greedy']['avg_tournament_score']:.1f}, "
-          f"wins={results['vs_greedy']['agent_wins']}/{args.num_games}")
-    print(f"  vs Advanced: pins={results['vs_advanced']['avg_pins_in_goal']:.1f}, "
-          f"score={results['vs_advanced']['avg_tournament_score']:.1f}, "
-          f"wins={results['vs_advanced']['agent_wins']}/{args.num_games}")
+    def _fmt_matchup(key: str, label: str) -> str:
+        m = results[key]
+        base = (
+            f"  {label}: pins={m['avg_pins_in_goal']:.1f}, "
+            f"score={m['avg_tournament_score']:.1f}, "
+            f"wins={m['agent_wins']}/{args.num_games}"
+        )
+        # Move-count breakdown (new arena_summary fields, backward compatible)
+        if m.get('agent_wins', 0) > 0 and 'avg_steps_win' in m:
+            steps_line = (
+                f" [win moves avg={m['avg_steps_win']:.0f}, "
+                f"range {m['min_steps_win']}-{m['max_steps_win']}]"
+            )
+        elif 'avg_steps_truncated' in m and m.get('truncated', 0) > 0:
+            steps_line = f" [truncated avg={m['avg_steps_truncated']:.0f}]"
+        else:
+            steps_line = f" [avg_steps={m.get('avg_steps', 0):.0f}]"
+        return base + steps_line
+
+    print()
+    print(_fmt_matchup('vs_random', 'vs Random  '))
+    print(_fmt_matchup('vs_greedy', 'vs Greedy  '))
+    print(_fmt_matchup('vs_advanced', 'vs Advanced'))
+
+    # Timing: total / per game / real per-move budget using observed move counts
+    total_games = args.num_games * 3  # 3 matchups
+    per_game = eval_elapsed / max(total_games, 1)
+
+    # Prefer observed avg_steps across all matchups for realistic per-move timing.
+    observed_steps = [
+        results[k].get('avg_steps', 0) for k in ('vs_random', 'vs_greedy', 'vs_advanced')
+    ]
+    observed_steps = [s for s in observed_steps if s > 0]
+    if observed_steps:
+        real_avg_moves = sum(observed_steps) / len(observed_steps)
+    else:
+        real_avg_moves = args.max_steps
+    per_move_ms = per_game / max(real_avg_moves, 1) * 1000
+
+    print(
+        f"\n  Timing: total={eval_elapsed:.1f}s, per_game={per_game:.2f}s, "
+        f"~per_move={per_move_ms:.1f}ms (based on avg {real_avg_moves:.0f} moves/game)"
+    )
+    if args.use_mcts or args.batched_mcts:
+        sims_per_sec = (args.sims / (per_move_ms / 1000)) if per_move_ms > 0 else 0.0
+        sims_in_10s = sims_per_sec * 10.0
+
+        # Tournament budget check: 60s / real_avg_moves per move
+        tournament_budget_ms = 60_000 / max(real_avg_moves, 1)
+        full_game_ms = per_move_ms * real_avg_moves
+        budget_status = "OK" if full_game_ms <= 60_000 else "OVER"
+        print(
+            f"  MCTS: {args.sims} sims/move @ ~{sims_per_sec:.0f} sims/sec "
+            f"(~{sims_in_10s:.0f} sims in 10s turn budget)"
+        )
+        print(
+            f"  Tournament budget: {full_game_ms/1000:.1f}s/game "
+            f"(budget=60s, per-move cap={tournament_budget_ms:.0f}ms) [{budget_status}]"
+        )
 
     # Save results
+    results["timing"] = {
+        "total_s": eval_elapsed,
+        "per_game_s": per_game,
+        "per_move_ms_estimate": per_move_ms,
+        "sims_per_move": args.sims if (args.use_mcts or args.batched_mcts) else 0,
+        "value_source": value_src,
+    }
     output = os.path.join(os.path.dirname(args.checkpoint), "eval_results.json")
     with open(output, "w") as f:
         json.dump(results, f, indent=2, default=str)
@@ -335,6 +398,9 @@ def main():
     ev.add_argument("--batched-mcts", action="store_true",
                     help="Use batched MCTS (faster on GPU)")
     ev.add_argument("--sims", type=int, default=50)
+    ev.add_argument("--heuristic-value", action="store_true",
+                    help="Use heuristic leaf evaluation instead of network value head")
+    ev.add_argument("--mcts-batch-size", type=int, default=8)
     _add_arch_args(ev)
     ev.add_argument("--cpu", action="store_true")
     ev.add_argument("--export-onnx", action="store_true", help="Export to ONNX format")

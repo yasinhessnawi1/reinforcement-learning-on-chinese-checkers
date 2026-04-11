@@ -96,7 +96,11 @@ class ReplayBuffer:
         return len(self.buffer)
 
 
-def _create_alphazero_arena_policy(network: AlphaZeroNet, num_sims: int = 50):
+def _create_alphazero_arena_policy(
+    network: AlphaZeroNet,
+    num_sims: int = 50,
+    use_heuristic_value: bool = False,
+):
     """Create an arena-compatible policy function using MCTS + network.
 
     Returns a callable(board_wrapper, colour) -> (pin_id, dest).
@@ -116,6 +120,7 @@ def _create_alphazero_arena_policy(network: AlphaZeroNet, num_sims: int = 50):
             network=network,
             num_simulations=num_sims,
             dirichlet_epsilon=0.0,  # no noise during eval
+            use_heuristic_value=use_heuristic_value,
         )
         action = mcts.select_action(env, temperature=0.0)
         pin_id, dest = env._mapper.decode(action)
@@ -149,7 +154,12 @@ def _create_raw_policy(network: AlphaZeroNet):
     return policy
 
 
-def _create_batched_mcts_arena_policy(network: AlphaZeroNet, num_sims: int = 50, batch_size: int = 8):
+def _create_batched_mcts_arena_policy(
+    network: AlphaZeroNet,
+    num_sims: int = 50,
+    batch_size: int = 8,
+    use_heuristic_value: bool = False,
+):
     """Create arena policy using batched MCTS for faster GPU inference."""
     from src.env.chinese_checkers_env import ChineseCheckersEnv
     from src.search.batched_mcts import BatchedAlphaZeroMCTS
@@ -167,6 +177,7 @@ def _create_batched_mcts_arena_policy(network: AlphaZeroNet, num_sims: int = 50,
             num_simulations=num_sims,
             batch_size=batch_size,
             dirichlet_epsilon=0.0,
+            use_heuristic_value=use_heuristic_value,
         )
         action = mcts.select_action(env, temperature=0.0)
         pin_id, dest = env._mapper.decode(action)
@@ -183,6 +194,7 @@ def evaluate_model(
     mcts_sims: int = 25,
     use_batched_mcts: bool = False,
     mcts_batch_size: int = 8,
+    use_heuristic_value: bool = False,
 ) -> dict:
     """Evaluate network against greedy and advanced heuristic.
 
@@ -190,10 +202,15 @@ def evaluate_model(
     """
     if use_batched_mcts:
         agent_policy = _create_batched_mcts_arena_policy(
-            network, num_sims=mcts_sims, batch_size=mcts_batch_size
+            network,
+            num_sims=mcts_sims,
+            batch_size=mcts_batch_size,
+            use_heuristic_value=use_heuristic_value,
         )
     elif use_mcts:
-        agent_policy = _create_alphazero_arena_policy(network, num_sims=mcts_sims)
+        agent_policy = _create_alphazero_arena_policy(
+            network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
+        )
     else:
         agent_policy = _create_raw_policy(network)
 
@@ -228,32 +245,44 @@ def _compare_models(
     new_network: AlphaZeroNet,
     best_network: AlphaZeroNet,
     num_games: int = 20,
-    max_steps: int = 200,
+    max_steps: int = 300,
 ) -> float:
     """Play new model vs best model and return new model's win fraction.
 
-    Win fraction is based on tournament score (higher = win).
+    Both sides play from the agent seat (half the games each), and the side
+    with the higher tournament score in that game wins. Draws (equal score,
+    including mirrored deterministic-argmax games) count as 0.5 to avoid
+    the old "always 0.50" artefact where a score threshold was symmetric.
     """
     new_policy = _create_raw_policy(new_network)
     best_policy = _create_raw_policy(best_network)
 
-    new_wins = 0
-    for _ in range(num_games):
-        result = play_game(new_policy, best_policy, max_steps=max_steps)
-        # Compare tournament scores: if agent_score > 500 (midpoint), consider it a "win"
-        if result["agent_score"] > 300:
-            new_wins += 1
+    new_points = 0.0
+    total = 0
 
-    # Also play reversed (best as agent)
-    best_wins = 0
+    # Half the games: new as agent, best as opponent
     for _ in range(num_games):
-        result = play_game(best_policy, new_policy, max_steps=max_steps)
-        if result["agent_score"] > 300:
-            best_wins += 1
+        new_result = play_game(new_policy, best_policy, max_steps=max_steps)
+        best_result = play_game(best_policy, new_policy, max_steps=max_steps)
 
-    total_games = 2 * num_games
-    new_total = new_wins + (num_games - best_wins)  # new model's perspective
-    return new_total / total_games
+        # Head-to-head on the same seat comparison: higher tournament score wins.
+        # new-as-agent vs best-as-agent — whichever got more score wins that pairing.
+        if new_result["agent_score"] > best_result["agent_score"]:
+            new_points += 1.0
+        elif new_result["agent_score"] < best_result["agent_score"]:
+            pass
+        else:
+            new_points += 0.5  # tie
+
+        # Also credit terminal wins directly (winner='agent' strictly > truncated)
+        if new_result["winner"] == "agent" and best_result["winner"] != "agent":
+            new_points += 0.25
+        elif best_result["winner"] == "agent" and new_result["winner"] != "agent":
+            new_points -= 0.25
+
+        total += 1
+
+    return max(0.0, min(1.0, new_points / max(total, 1)))
 
 
 def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Optional[str] = None):
