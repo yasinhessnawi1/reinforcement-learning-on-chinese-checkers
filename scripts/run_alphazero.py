@@ -162,7 +162,12 @@ def cmd_train(args):
     print(f"  Iterations: {args.iterations}")
     print(f"  Resume from: {args.resume or 'scratch'}")
 
-    train_alphazero(train_config, resume_from=args.resume)
+    train_alphazero(
+        train_config,
+        resume_from=args.resume,
+        warmstart_data_path=args.warmstart_data,
+        use_true_self_play=not args.legacy_self_play,
+    )
 
 
 def cmd_evaluate(args):
@@ -386,6 +391,10 @@ def main():
     tr.add_argument("--eval-games", type=int, default=20)
     tr.add_argument("--win-threshold", type=float, default=0.55)
     tr.add_argument("--checkpoint-dir", type=str, default="experiments/exp_d1_alphazero")
+    tr.add_argument("--warmstart-data", type=str, default=None,
+                    help="Path to warm-start .npz for replay buffer reservoir (20%% of batches)")
+    tr.add_argument("--legacy-self-play", action="store_true",
+                    help="Use legacy single-agent self-play (agent vs random) instead of true 2-player")
     _add_arch_args(tr)
     tr.add_argument("--cpu", action="store_true")
 

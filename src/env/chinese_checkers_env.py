@@ -255,6 +255,9 @@ class ChineseCheckersEnv(gym.Env):
         else:
             new_env._no_opponent = self._no_opponent
             new_env._opponent_policy = self._opponent_policy
+        new_env._AGENT_COLOUR = self._AGENT_COLOUR
+        new_env._OPPONENT_COLOUR = self._OPPONENT_COLOUR
+        new_env._TURN_ORDER = self._TURN_ORDER
         new_env._board = self._board.clone()
         new_env._step_count = self._step_count
         new_env._terminated = self._terminated

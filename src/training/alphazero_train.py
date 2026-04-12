@@ -25,6 +25,7 @@ from src.training.alphazero_self_play import (
     generate_self_play_data,
     play_one_game,
 )
+from src.training.true_self_play import generate_true_self_play_data
 from src.search.mcts import AlphaZeroMCTS
 from src.evaluation.arena import play_game, arena_summary
 from src.agents.greedy_agent import greedy_policy
@@ -62,15 +63,29 @@ class TrainingConfig:
 
 
 class ReplayBuffer:
-    """Circular replay buffer for training samples."""
+    """Circular replay buffer with optional warm-start reservoir.
 
-    def __init__(self, max_size: int):
+    The reservoir holds a fixed set of warm-start samples that are never
+    evicted.  When sampling a batch, `reservoir_ratio` of the batch is drawn
+    from the reservoir (if non-empty), and the rest from the main buffer.
+    This prevents the warm-start grounding signal from being lost as
+    self-play data fills the buffer.
+    """
+
+    def __init__(self, max_size: int, reservoir_ratio: float = 0.2):
         self.max_size = max_size
+        self.reservoir_ratio = reservoir_ratio
         self.buffer: list[TrainingSample] = []
         self._idx = 0
+        self._reservoir: list[TrainingSample] = []
+
+    def seed_reservoir(self, samples: list[TrainingSample]):
+        """Load warm-start samples into the reservoir (called once at startup)."""
+        self._reservoir = list(samples)
+        print(f"  Reservoir seeded with {len(self._reservoir)} warm-start samples")
 
     def add(self, samples: list[TrainingSample]):
-        """Add samples to the buffer."""
+        """Add samples to the main buffer (circular)."""
         for sample in samples:
             if len(self.buffer) < self.max_size:
                 self.buffer.append(sample)
@@ -79,21 +94,42 @@ class ReplayBuffer:
             self._idx = (self._idx + 1) % self.max_size
 
     def sample_batch(self, batch_size: int) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-        """Sample a random batch.
+        """Sample a random batch, mixing main buffer and reservoir.
 
         Returns (obs_batch, mask_batch, policy_batch, value_batch).
         """
-        indices = np.random.randint(0, len(self.buffer), size=batch_size)
+        # Split batch between reservoir and main buffer
+        if self._reservoir and self.reservoir_ratio > 0:
+            n_reservoir = max(1, int(batch_size * self.reservoir_ratio))
+            n_main = batch_size - n_reservoir
+        else:
+            n_reservoir = 0
+            n_main = batch_size
 
-        obs = np.stack([self.buffer[i].obs for i in indices])
-        masks = np.stack([self.buffer[i].action_mask for i in indices])
-        policies = np.stack([self.buffer[i].policy_target for i in indices])
-        values = np.array([self.buffer[i].value_target for i in indices], dtype=np.float32)
+        all_samples = []
+
+        # Sample from main buffer
+        if n_main > 0 and len(self.buffer) > 0:
+            main_indices = np.random.randint(0, len(self.buffer), size=n_main)
+            all_samples.extend(self.buffer[i] for i in main_indices)
+
+        # Sample from reservoir
+        if n_reservoir > 0 and len(self._reservoir) > 0:
+            res_indices = np.random.randint(0, len(self._reservoir), size=n_reservoir)
+            all_samples.extend(self._reservoir[i] for i in res_indices)
+
+        # Shuffle so reservoir samples aren't always at the end
+        np.random.shuffle(all_samples)
+
+        obs = np.stack([s.obs for s in all_samples])
+        masks = np.stack([s.action_mask for s in all_samples])
+        policies = np.stack([s.policy_target for s in all_samples])
+        values = np.array([s.value_target for s in all_samples], dtype=np.float32)
 
         return obs, masks, policies, values
 
     def __len__(self) -> int:
-        return len(self.buffer)
+        return len(self.buffer) + len(self._reservoir)
 
 
 def _create_alphazero_arena_policy(
@@ -285,7 +321,12 @@ def _compare_models(
     return max(0.0, min(1.0, new_points / max(total, 1)))
 
 
-def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Optional[str] = None):
+def train_alphazero(
+    config: TrainingConfig = TrainingConfig(),
+    resume_from: Optional[str] = None,
+    warmstart_data_path: Optional[str] = None,
+    use_true_self_play: bool = True,
+):
     """Main AlphaZero training loop.
 
     Parameters
@@ -293,6 +334,13 @@ def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Opti
     config : TrainingConfig
     resume_from : str or None
         Path to checkpoint to resume from.
+    warmstart_data_path : str or None
+        Path to warm-start .npz data to seed the replay buffer reservoir.
+        If provided, 20% of each training batch is drawn from this data.
+    use_true_self_play : bool
+        If True (default), use true 2-player self-play where both sides
+        use MCTS + network.  If False, use legacy single-agent mode
+        (agent vs random opponent).
     """
     checkpoint_dir = Path(config.checkpoint_dir)
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
@@ -315,6 +363,7 @@ def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Opti
 
     print(f"Network: {current_net.parameter_count():,} parameters")
     print(f"Device: {config.device}")
+    print(f"Self-play: {'true 2-player' if use_true_self_play else 'legacy (agent vs random)'}")
     print(f"Config: {config.games_per_iteration} games/iter, "
           f"{config.self_play.num_simulations} sims, "
           f"{config.num_iterations} iterations")
@@ -327,7 +376,27 @@ def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Opti
     )
     scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=config.lr_decay)
 
-    replay_buffer = ReplayBuffer(config.replay_buffer_size)
+    replay_buffer = ReplayBuffer(config.replay_buffer_size, reservoir_ratio=0.2 if warmstart_data_path else 0.0)
+
+    # Seed reservoir with warm-start data if provided
+    if warmstart_data_path:
+        from src.training.warmstart_generator import load_warmstart_data
+        from src.training.alphazero_self_play import TrainingSample as TS
+        ws_data = load_warmstart_data(warmstart_data_path)
+        reservoir_samples = []
+        n = ws_data["obs"].shape[0]
+        # Sample up to 10k from warm-start to keep reservoir manageable
+        max_reservoir = min(n, 10_000)
+        indices = np.random.choice(n, size=max_reservoir, replace=False) if n > max_reservoir else np.arange(n)
+        for idx in indices:
+            reservoir_samples.append(TS(
+                obs=ws_data["obs"][idx],
+                action_mask=ws_data["action_masks"][idx],
+                policy_target=ws_data["policies"][idx],
+                value_target=float(ws_data["values"][idx]),
+            ))
+        replay_buffer.seed_reservoir(reservoir_samples)
+
     training_log: list[dict] = []
 
     for iteration in range(start_iteration, config.num_iterations):
@@ -340,12 +409,20 @@ def train_alphazero(config: TrainingConfig = TrainingConfig(), resume_from: Opti
         print(f"\n[1/3] Self-play: generating {config.games_per_iteration} games...")
         sp_start = time.time()
 
-        samples = generate_self_play_data(
-            network=current_net,
-            num_games=config.games_per_iteration,
-            config=config.self_play,
-            verbose=True,
-        )
+        if use_true_self_play:
+            samples = generate_true_self_play_data(
+                network=current_net,
+                num_games=config.games_per_iteration,
+                config=config.self_play,
+                verbose=True,
+            )
+        else:
+            samples = generate_self_play_data(
+                network=current_net,
+                num_games=config.games_per_iteration,
+                config=config.self_play,
+                verbose=True,
+            )
 
         replay_buffer.add(samples)
         sp_time = time.time() - sp_start
