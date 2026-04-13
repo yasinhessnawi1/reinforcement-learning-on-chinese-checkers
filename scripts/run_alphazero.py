@@ -113,6 +113,65 @@ def cmd_warmstart(args):
         json.dump({"pretrain_log": log, "eval_results": results}, f, indent=2, default=str)
 
 
+def cmd_finetune(args):
+    """Fine-tune an existing checkpoint on a .npz dataset (e.g. endgame data)."""
+    device = "cuda" if torch.cuda.is_available() and not args.cpu else "cpu"
+
+    net_config = NetworkConfig(
+        num_blocks=args.num_blocks,
+        num_filters=args.num_filters,
+        architecture=args.architecture,
+        d_model=args.d_model,
+        n_heads=args.n_heads,
+        use_auxiliary_head=args.use_auxiliary_head,
+    )
+    network = AlphaZeroNet(net_config, device=device)
+    network.load_checkpoint(args.resume)
+    print(f"Loaded checkpoint: {args.resume}")
+    print(f"Network: {network.parameter_count():,} parameters")
+
+    data = load_warmstart_data(args.data)
+    n = data["obs"].shape[0]
+    print(f"Loaded {n} samples from {args.data}")
+
+    # Optionally mix in original warmstart data to prevent forgetting
+    if args.mix_warmstart:
+        ws_data = load_warmstart_data(args.mix_warmstart)
+        mix_n = min(ws_data["obs"].shape[0], n // 2)  # at most 50% original
+        idx = np.random.choice(ws_data["obs"].shape[0], mix_n, replace=False)
+        for key in data:
+            data[key] = np.concatenate([data[key], ws_data[key][idx]], axis=0)
+        print(f"Mixed in {mix_n} samples from {args.mix_warmstart} "
+              f"(total: {data['obs'].shape[0]})")
+
+    log = pretrain_on_warmstart(
+        network,
+        data,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        lr=args.lr,
+        early_stop_patience=args.patience,
+    )
+
+    os.makedirs(args.output, exist_ok=True)
+    out_path = os.path.join(args.output, "finetuned_model.pt")
+    network.save_checkpoint(out_path, iteration=0, extra={"finetune_log": log})
+    print(f"\nSaved fine-tuned model to {out_path}")
+
+    print("\nEvaluating fine-tuned model...")
+    results = evaluate_model(network, num_games=10, max_steps=300, use_mcts=False)
+    n_games = 10
+    print(f"  vs Random:   pins={results['vs_random']['avg_pins_in_goal']:.1f}, "
+          f"wins={results['vs_random']['agent_wins']}/{n_games}")
+    print(f"  vs Greedy:   pins={results['vs_greedy']['avg_pins_in_goal']:.1f}, "
+          f"wins={results['vs_greedy']['agent_wins']}/{n_games}")
+    print(f"  vs Advanced: pins={results['vs_advanced']['avg_pins_in_goal']:.1f}, "
+          f"wins={results['vs_advanced']['agent_wins']}/{n_games}")
+
+    with open(os.path.join(args.output, "finetune_log.json"), "w") as f:
+        json.dump({"finetune_log": log, "eval_results": results}, f, indent=2, default=str)
+
+
 def cmd_train(args):
     """Run full AlphaZero training loop."""
     device = "cuda" if torch.cuda.is_available() and not args.cpu else "cpu"
@@ -383,6 +442,20 @@ def main():
     ew.add_argument("--output", type=str, default="experiments/enhanced_warmstart")
     ew.add_argument("--no-augment", action="store_true")
 
+    # --- finetune ---
+    ft = subparsers.add_parser("finetune", help="Fine-tune a checkpoint on a .npz dataset")
+    ft.add_argument("--resume", type=str, required=True, help="Checkpoint to fine-tune from")
+    ft.add_argument("--data", type=str, required=True, help="Path to .npz dataset")
+    ft.add_argument("--output", type=str, default="experiments/exp_finetune")
+    ft.add_argument("--epochs", type=int, default=30)
+    ft.add_argument("--batch-size", type=int, default=256)
+    ft.add_argument("--lr", type=float, default=1e-4, help="Lower LR for fine-tuning (default 1e-4)")
+    ft.add_argument("--patience", type=int, default=5)
+    ft.add_argument("--mix-warmstart", type=str, default=None,
+                    help="Optional original warmstart .npz to mix in (prevents forgetting)")
+    _add_arch_args(ft)
+    ft.add_argument("--cpu", action="store_true")
+
     # --- train ---
     tr = subparsers.add_parser("train", help="Run AlphaZero training loop")
     tr.add_argument("--resume", type=str, default=None, help="Checkpoint to resume from")
@@ -451,6 +524,8 @@ def main():
         cmd_warmstart(args)
     elif args.command == "enhanced-warmstart":
         cmd_enhanced_warmstart(args)
+    elif args.command == "finetune":
+        cmd_finetune(args)
     elif args.command == "train":
         cmd_train(args)
     elif args.command == "evaluate":

@@ -451,8 +451,8 @@ def _compare_models(
     for _ in range(num_games):
         new_r = play_game(new_policy, greedy_policy, max_steps=max_steps)
         best_r = play_game(best_policy, greedy_policy, max_steps=max_steps)
-        new_greedy_scores.append(new_r["agent_pins"])
-        best_greedy_scores.append(best_r["agent_pins"])
+        new_greedy_scores.append(new_r["pins_in_goal"])
+        best_greedy_scores.append(best_r["pins_in_goal"])
 
     new_avg = float(np.mean(new_greedy_scores))
     best_avg = float(np.mean(best_greedy_scores))
