@@ -427,22 +427,25 @@ def evaluate_model(
 def _compare_models(
     new_network: AlphaZeroNet,
     best_network: AlphaZeroNet,
-    num_games: int = 20,
+    num_games: int = 10,
     max_steps: int = 300,
+    mcts_sims: int = 16,
+    use_heuristic_value: bool = True,
 ) -> float:
-    """Compare new model vs best model using a stable anchor-based evaluation.
+    """Compare new model vs best model using MCTS-based anchor evaluation.
 
-    Instead of pure head-to-head (which is too noisy when both models play
-    near-identically from warm-start), we compare both models vs greedy as a
-    stable anchor. The new model wins if it scores meaningfully better vs greedy.
-
-    Also requires a minimum quality gate: new model must score ≥ best model's
-    avg pins vs greedy to be considered an improvement.
+    Both models play vs greedy using MCTS (not raw policy) as the anchor.
+    Raw policy evaluation is misleading after self-play training softens
+    the policy distribution — MCTS evaluation reflects actual play strength.
 
     Returns float in [0, 1] representing new model's relative quality score.
     """
-    new_policy = _create_raw_policy(new_network)
-    best_policy = _create_raw_policy(best_network)
+    new_policy = _create_alphazero_arena_policy(
+        new_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
+    )
+    best_policy = _create_alphazero_arena_policy(
+        best_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
+    )
 
     # Evaluate both vs greedy (stable external anchor)
     new_greedy_scores = []
@@ -459,17 +462,17 @@ def _compare_models(
 
     # Also do head-to-head for tiebreaking (but weighted less)
     h2h_points = 0.0
-    for _ in range(num_games // 2):
+    h2h_games = max(num_games // 2, 2)
+    for _ in range(h2h_games):
         new_r = play_game(new_policy, best_policy, max_steps=max_steps)
         best_r = play_game(best_policy, new_policy, max_steps=max_steps)
         if new_r["agent_score"] > best_r["agent_score"]:
             h2h_points += 1.0
         elif new_r["agent_score"] == best_r["agent_score"]:
             h2h_points += 0.5
-    h2h_rate = h2h_points / max(num_games // 2, 1)
+    h2h_rate = h2h_points / h2h_games
 
     # New model score: 70% anchor improvement + 30% h2h
-    # Anchor improvement: 1.0 if new beats best by ≥1 pin, 0.5 if equal, 0.0 if worse
     if new_avg > best_avg + 0.5:
         anchor_score = 1.0
     elif new_avg >= best_avg - 0.5:
@@ -479,8 +482,8 @@ def _compare_models(
 
     combined = 0.7 * anchor_score + 0.3 * h2h_rate
 
-    print(f"    Gatekeeper: new_avg_pins={new_avg:.2f}, best_avg_pins={best_avg:.2f}, "
-          f"h2h={h2h_rate:.2f}, combined={combined:.2f}")
+    print(f"    Gatekeeper (MCTS {mcts_sims}sims): new_avg_pins={new_avg:.2f}, "
+          f"best_avg_pins={best_avg:.2f}, h2h={h2h_rate:.2f}, combined={combined:.2f}")
 
     return combined
 
@@ -658,12 +661,14 @@ def train_alphazero(
         print(f"\n[3/3] Evaluating...")
         eval_start = time.time()
 
-        # Quick eval with raw policy (no MCTS — fast)
+        # MCTS-based eval (raw policy misleading after self-play training)
         eval_results = evaluate_model(
             current_net,
-            num_games=config.eval_games,
+            num_games=max(config.eval_games // 4, 5),  # fewer games since MCTS is slower
             max_steps=300,
-            use_mcts=False,
+            use_mcts=True,
+            mcts_sims=16,
+            use_heuristic_value=config.self_play.use_heuristic_value,
         )
 
         vs_random = eval_results["vs_random"]
@@ -671,19 +676,24 @@ def train_alphazero(
         vs_advanced = eval_results["vs_advanced"]
         eval_time = time.time() - eval_start
 
+        mcts_eval_n = max(config.eval_games // 4, 5)
+        print(f"  [MCTS 16-sim eval, {mcts_eval_n} games each]")
         print(f"  vs Random:   pins={vs_random['avg_pins_in_goal']:.1f}, "
               f"score={vs_random['avg_tournament_score']:.1f}, "
-              f"wins={vs_random['agent_wins']}/{config.eval_games}")
+              f"wins={vs_random['agent_wins']}/{mcts_eval_n}")
         print(f"  vs Greedy:   pins={vs_greedy['avg_pins_in_goal']:.1f}, "
               f"score={vs_greedy['avg_tournament_score']:.1f}, "
-              f"wins={vs_greedy['agent_wins']}/{config.eval_games}")
+              f"wins={vs_greedy['agent_wins']}/{mcts_eval_n}")
         print(f"  vs Advanced: pins={vs_advanced['avg_pins_in_goal']:.1f}, "
               f"score={vs_advanced['avg_tournament_score']:.1f}, "
-              f"wins={vs_advanced['agent_wins']}/{config.eval_games}")
+              f"wins={vs_advanced['agent_wins']}/{mcts_eval_n}")
         print(f"  Eval time: {eval_time:.1f}s")
 
-        # Compare with best model
-        win_rate = _compare_models(current_net, best_net, num_games=10, max_steps=200)
+        # Compare with best model (using MCTS, not raw policy)
+        win_rate = _compare_models(
+            current_net, best_net, num_games=6, max_steps=300,
+            mcts_sims=16, use_heuristic_value=config.self_play.use_heuristic_value,
+        )
         print(f"  vs Best model: win_rate={win_rate:.2f}")
 
         if win_rate > config.win_threshold:
