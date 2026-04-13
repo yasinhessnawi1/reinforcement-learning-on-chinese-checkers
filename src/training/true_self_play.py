@@ -13,6 +13,7 @@ Key differences from the original:
      the single-agent assumption baked into ChineseCheckersEnv.
 """
 
+import math
 import numpy as np
 from dataclasses import dataclass
 from typing import Optional
@@ -71,9 +72,48 @@ def _get_action_mask(board: BoardWrapper, colour: str) -> np.ndarray:
     return _MAPPER.build_action_mask(legal_moves)
 
 
+def _tournament_score(board: BoardWrapper, colour: str, move_count: int,
+                      time_sec: float = 30.0) -> float:
+    """Compute tournament score for a colour using the official formula.
+
+    Score = pin_score + distance_score + time_score + move_score
+
+    Components (from game.py):
+      pin_score:      pins_in_goal * 100.0  (max 1000)
+      distance_score: max(0, 200 - total_dist)  (max 200)
+      time_score:     max(0, 100 - time_sec)  (max 100)
+      move_score:     Gaussian(move_count, center=45, sigma=4/18)  (max 1.0)
+    """
+    pins_in_goal = board.pins_in_goal(colour)
+    pin_score = pins_in_goal * 100.0
+
+    goal_indices = board.get_goal_indices(colour)
+    goal_set = set(goal_indices)
+    total_dist = 0
+    for pin in board.pins[colour]:
+        if pin.axialindex not in goal_set:
+            min_d = min(board.axial_distance(pin.axialindex, g) for g in goal_indices)
+            total_dist += min_d
+    distance_score = max(0.0, 200.0 - total_dist)
+
+    time_score = max(0.0, 100.0 - time_sec)
+
+    sigma = 4 if move_count < 45 else 18
+    move_score = math.exp(-((move_count - 45) ** 2) / (2 * sigma ** 2)) if move_count > 0 else 0.0
+
+    return pin_score + distance_score + time_score + move_score
+
+
 def _compute_game_values(board: BoardWrapper, red_won: bool, blue_won: bool,
-                          step_count: int, max_steps: int) -> dict[str, float]:
-    """Compute value targets for both players.
+                          step_count: int, max_steps: int,
+                          move_counts: dict[str, int] | None = None) -> dict[str, float]:
+    """Compute value targets for both players using tournament-aligned scoring.
+
+    Uses the official tournament formula to compute scores for both players,
+    then normalizes the differential to [-1, 1].
+
+    Terminal wins still get +1/-1 to provide clear signal.
+    Truncated games use normalized tournament score differential.
 
     Returns dict: {'red': float, 'blue': float} in [-1, 1].
     """
@@ -82,12 +122,21 @@ def _compute_game_values(board: BoardWrapper, red_won: bool, blue_won: bool,
     if blue_won:
         return {"red": -1.0, "blue": 1.0}
 
-    # Truncated: use normalized score differential
-    red_score = _score_colour(board, "red")
-    blue_score = _score_colour(board, "blue")
-    diff = (red_score - blue_score) / max(red_score + blue_score, 1.0)
-    # Small truncation penalty
-    trunc_pen = 0.1 * (step_count / max(max_steps, 1))
+    # Use tournament scoring for truncated games
+    red_moves = move_counts["red"] if move_counts else step_count // 2
+    blue_moves = move_counts["blue"] if move_counts else step_count // 2
+
+    red_score = _tournament_score(board, "red", red_moves)
+    blue_score = _tournament_score(board, "blue", blue_moves)
+
+    # Normalize differential to [-1, 1]
+    # Max possible score is ~1301 (1000 + 200 + 100 + 1), min is 0
+    max_score = 1301.0
+    diff = (red_score - blue_score) / max_score
+
+    # Truncation penalty: games that don't finish are worse than games that do
+    trunc_pen = 0.05 * (step_count / max(max_steps, 1))
+
     red_val = max(-1.0, min(1.0, diff - trunc_pen))
     blue_val = max(-1.0, min(1.0, -diff - trunc_pen))
     return {"red": red_val, "blue": blue_val}
@@ -189,7 +238,8 @@ def play_one_game_true_selfplay(
     # Compute value targets for both sides
     red_won = (winner == "red")
     blue_won = (winner == "blue")
-    values = _compute_game_values(board, red_won, blue_won, step_count, max_total_steps)
+    values = _compute_game_values(board, red_won, blue_won, step_count, max_total_steps,
+                                   move_counts=move_counts)
 
     # Check for degenerate games
     red_pins = board.pins_in_goal("red")
@@ -332,6 +382,7 @@ def play_one_game_vs_heuristic(
     trajectories: list[dict] = []
     step_count = 0
     agent_moves = 0
+    opp_moves = 0
     winner = None
 
     while step_count < max_total_steps:
@@ -368,6 +419,7 @@ def play_one_game_vs_heuristic(
             # Opponent's turn — use heuristic policy directly
             opp_pin_id, opp_dest = opponent_policy_fn(board, "blue")
             board.apply_move("blue", opp_pin_id, opp_dest)
+            opp_moves += 1
 
         step_count += 1
 
@@ -378,7 +430,9 @@ def play_one_game_vs_heuristic(
     # Compute value target for the agent (red)
     red_won = (winner == "red")
     blue_won = (winner == "blue")
-    values = _compute_game_values(board, red_won, blue_won, step_count, max_total_steps)
+    mc = {"red": agent_moves, "blue": opp_moves}
+    values = _compute_game_values(board, red_won, blue_won, step_count, max_total_steps,
+                                   move_counts=mc)
     agent_value = values["red"]
 
     # Check for degenerate games

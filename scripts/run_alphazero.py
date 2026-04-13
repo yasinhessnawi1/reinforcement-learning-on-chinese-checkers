@@ -329,9 +329,17 @@ def cmd_evaluate(args):
         sims_per_sec = (args.sims / (per_move_ms / 1000)) if per_move_ms > 0 else 0.0
         sims_in_10s = sims_per_sec * 10.0
 
-        # Tournament budget check: 60s / real_avg_moves per move
-        tournament_budget_ms = 60_000 / max(real_avg_moves, 1)
-        full_game_ms = per_move_ms * real_avg_moves
+        # Tournament budget check: use advanced win move count if available
+        # (that's the realistic tournament game length), otherwise fall back to avg.
+        adv = results.get('vs_advanced', {})
+        if adv.get('agent_wins', 0) > 0 and 'avg_steps_win' in adv:
+            tournament_moves = adv['avg_steps_win']
+            budget_basis = f"advanced win avg={tournament_moves:.0f} moves"
+        else:
+            tournament_moves = real_avg_moves
+            budget_basis = f"all-game avg={tournament_moves:.0f} moves"
+
+        full_game_ms = per_move_ms * tournament_moves
         budget_status = "OK" if full_game_ms <= 60_000 else "OVER"
         print(
             f"  MCTS: {args.sims} sims/move @ ~{sims_per_sec:.0f} sims/sec "
@@ -339,7 +347,7 @@ def cmd_evaluate(args):
         )
         print(
             f"  Tournament budget: {full_game_ms/1000:.1f}s/game "
-            f"(budget=60s, per-move cap={tournament_budget_ms:.0f}ms) [{budget_status}]"
+            f"(basis: {budget_basis}, budget=60s) [{budget_status}]"
         )
 
     # Save results
