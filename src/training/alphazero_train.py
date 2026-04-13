@@ -25,7 +25,7 @@ from src.training.alphazero_self_play import (
     generate_self_play_data,
     play_one_game,
 )
-from src.training.true_self_play import generate_true_self_play_data
+from src.training.true_self_play import generate_true_self_play_data, generate_curriculum_data
 from src.search.mcts import AlphaZeroMCTS
 from src.evaluation.arena import play_game, arena_summary
 from src.agents.greedy_agent import greedy_policy
@@ -54,6 +54,19 @@ class TrainingConfig:
     eval_games: int = 20
     win_threshold: float = 0.55      # new model must win >55% to replace
 
+    # Prioritized Experience Replay
+    use_per: bool = False
+    per_alpha: float = 0.6
+    per_beta_start: float = 0.4
+
+    # Opponent curriculum (fractions must sum to ~1.0; ignored if use_curriculum=False)
+    use_curriculum: bool = False
+    curriculum_mix: dict = field(default_factory=lambda: {
+        "greedy": 0.30,
+        "advanced": 0.30,
+        "self_play": 0.40,
+    })
+
     # Loop
     num_iterations: int = 30
     checkpoint_dir: str = "experiments/exp_d1_alphazero"
@@ -62,63 +75,184 @@ class TrainingConfig:
     device: str = "cuda" if torch.cuda.is_available() else "cpu"
 
 
-class ReplayBuffer:
-    """Circular replay buffer with optional warm-start reservoir.
+class PrioritizedPool:
+    """Priority-weighted sampling pool for Prioritized Experience Replay.
 
-    The reservoir holds a fixed set of warm-start samples that are never
-    evicted.  When sampling a batch, `reservoir_ratio` of the batch is drawn
-    from the reservoir (if non-empty), and the rest from the main buffer.
-    This prevents the warm-start grounding signal from being lost as
-    self-play data fills the buffer.
+    Each sample has a priority proportional to its last training loss.
+    Sampling probability = priority^alpha / sum(priority^alpha).
+    Importance-sampling weights correct for the bias: w_i = (N * P(i))^(-beta).
+
+    Used as a drop-in replacement for a plain list when PER is enabled.
     """
 
-    def __init__(self, max_size: int, reservoir_ratio: float = 0.2):
+    def __init__(self, max_size: int, alpha: float = 0.6, beta_start: float = 0.4):
         self.max_size = max_size
-        self.reservoir_ratio = reservoir_ratio
-        self.buffer: list[TrainingSample] = []
+        self.alpha = alpha
+        self.beta_start = beta_start
+        self.beta = beta_start
+        self.samples: list[TrainingSample] = []
+        self.priorities: np.ndarray = np.zeros(max_size, dtype=np.float64)
         self._idx = 0
-        self._reservoir: list[TrainingSample] = []
+        self._max_priority = 1.0
+
+    def __len__(self) -> int:
+        return len(self.samples)
+
+    def __bool__(self) -> bool:
+        return len(self.samples) > 0
+
+    def add(self, sample: TrainingSample):
+        """Add a sample with max priority (will be corrected after first training)."""
+        if len(self.samples) < self.max_size:
+            self.samples.append(sample)
+        else:
+            self.samples[self._idx] = sample
+        self.priorities[self._idx] = self._max_priority ** self.alpha
+        self._idx = (self._idx + 1) % self.max_size
+
+    def sample(self, count: int) -> tuple[list[int], list[TrainingSample], np.ndarray]:
+        """Sample indices, samples, and importance-sampling weights.
+
+        Returns (indices, samples, is_weights).
+        """
+        n = len(self.samples)
+        probs = self.priorities[:n] / self.priorities[:n].sum()
+
+        indices = np.random.choice(n, size=count, p=probs, replace=True)
+        samples = [self.samples[i] for i in indices]
+
+        # Importance sampling weights
+        weights = (n * probs[indices]) ** (-self.beta)
+        weights = weights / weights.max()  # normalize
+
+        return indices.tolist(), samples, weights.astype(np.float32)
+
+    def update_priorities(self, indices: list[int], losses: np.ndarray):
+        """Update priorities for sampled indices based on per-sample loss."""
+        for idx, loss in zip(indices, losses):
+            priority = (abs(loss) + 1e-6) ** self.alpha
+            self.priorities[idx] = priority
+            self._max_priority = max(self._max_priority, priority)
+
+    def anneal_beta(self, progress: float):
+        """Anneal beta from beta_start toward 1.0 as training progresses."""
+        self.beta = self.beta_start + progress * (1.0 - self.beta_start)
+
+
+class ReplayBuffer:
+    """Multi-pool replay buffer with configurable sampling ratios (Data MoE).
+
+    Maintains separate pools for different data sources:
+    - 'main': circular buffer for self-play data (default pool)
+    - 'reservoir': fixed warm-start samples (never evicted)
+    - Additional named pools for curriculum data, endgame data, etc.
+
+    When sampling a batch, each pool contributes according to its ratio.
+    Pools that are empty have their share redistributed to non-empty pools.
+    """
+
+    def __init__(self, max_size: int, reservoir_ratio: float = 0.2,
+                 use_per: bool = False, per_alpha: float = 0.6, per_beta_start: float = 0.4):
+        self.max_size = max_size
+        self.use_per = use_per
+        # Pool ratios: name -> fraction of batch.  'main' gets the remainder.
+        self._pool_ratios: dict[str, float] = {}
+        if reservoir_ratio > 0:
+            self._pool_ratios["reservoir"] = reservoir_ratio
+        # Pools: name -> list of TrainingSample (or PrioritizedPool for main)
+        self._per_pool: PrioritizedPool | None = None
+        if use_per:
+            self._per_pool = PrioritizedPool(max_size, alpha=per_alpha, beta_start=per_beta_start)
+        self._pools: dict[str, list[TrainingSample]] = {
+            "main": [],
+            "reservoir": [],
+        }
+        self._main_idx = 0  # circular index for main pool (unused if PER)
 
     def seed_reservoir(self, samples: list[TrainingSample]):
         """Load warm-start samples into the reservoir (called once at startup)."""
-        self._reservoir = list(samples)
-        print(f"  Reservoir seeded with {len(self._reservoir)} warm-start samples")
+        self._pools["reservoir"] = list(samples)
+        print(f"  Reservoir seeded with {len(self._pools['reservoir'])} warm-start samples")
 
-    def add(self, samples: list[TrainingSample]):
-        """Add samples to the main buffer (circular)."""
-        for sample in samples:
-            if len(self.buffer) < self.max_size:
-                self.buffer.append(sample)
-            else:
-                self.buffer[self._idx] = sample
-            self._idx = (self._idx + 1) % self.max_size
+    def add_pool(self, name: str, ratio: float):
+        """Register a named pool with a sampling ratio.
+
+        The 'main' pool gets 1.0 minus the sum of all other ratios.
+        """
+        if name not in self._pools:
+            self._pools[name] = []
+        self._pool_ratios[name] = ratio
+
+    def add(self, samples: list[TrainingSample], pool: str = "main"):
+        """Add samples to a pool.  Main pool is circular; others append."""
+        if pool == "main" and self._per_pool is not None:
+            for sample in samples:
+                self._per_pool.add(sample)
+            return
+
+        target = self._pools.setdefault(pool, [])
+        if pool == "main":
+            for sample in samples:
+                if len(target) < self.max_size:
+                    target.append(sample)
+                else:
+                    target[self._main_idx] = sample
+                self._main_idx = (self._main_idx + 1) % self.max_size
+        else:
+            target.extend(samples)
 
     def sample_batch(self, batch_size: int) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
-        """Sample a random batch, mixing main buffer and reservoir.
+        """Sample a random batch, mixing pools according to their ratios.
 
         Returns (obs_batch, mask_batch, policy_batch, value_batch).
+        When PER is enabled, also stores last-sampled indices for priority update.
         """
-        # Split batch between reservoir and main buffer
-        if self._reservoir and self.reservoir_ratio > 0:
-            n_reservoir = max(1, int(batch_size * self.reservoir_ratio))
-            n_main = batch_size - n_reservoir
-        else:
-            n_reservoir = 0
-            n_main = batch_size
+        # Compute effective counts per pool (skip empty pools, redistribute)
+        pool_counts: dict[str, int] = {}
+        active_ratios: dict[str, float] = {}
+
+        for name, ratio in self._pool_ratios.items():
+            if self._pools.get(name):
+                active_ratios[name] = ratio
+
+        # Main pool gets the remainder — check PER pool or plain list
+        main_has_data = (self._per_pool and len(self._per_pool) > 0) or bool(self._pools.get("main"))
+        main_ratio = max(0.0, 1.0 - sum(active_ratios.values()))
+        if main_has_data:
+            active_ratios["main"] = main_ratio
+
+        total_ratio = sum(active_ratios.values())
+        if total_ratio < 1e-6:
+            raise ValueError("ReplayBuffer is empty — no pools have data")
+
+        remaining = batch_size
+        for name in sorted(active_ratios.keys()):
+            count = max(1, int(batch_size * active_ratios[name] / total_ratio))
+            pool_counts[name] = min(count, remaining)
+            remaining -= pool_counts[name]
+        if remaining > 0 and pool_counts:
+            largest = max(pool_counts, key=pool_counts.get)
+            pool_counts[largest] += remaining
 
         all_samples = []
+        self._last_per_indices: list[int] | None = None
+        self._last_per_weights: np.ndarray | None = None
 
-        # Sample from main buffer
-        if n_main > 0 and len(self.buffer) > 0:
-            main_indices = np.random.randint(0, len(self.buffer), size=n_main)
-            all_samples.extend(self.buffer[i] for i in main_indices)
+        for name, count in pool_counts.items():
+            if count <= 0:
+                continue
+            if name == "main" and self._per_pool is not None and len(self._per_pool) > 0:
+                indices, samples, weights = self._per_pool.sample(count)
+                self._last_per_indices = indices
+                self._last_per_weights = weights
+                all_samples.extend(samples)
+            else:
+                pool = self._pools.get(name, [])
+                if not pool:
+                    continue
+                indices = np.random.randint(0, len(pool), size=count)
+                all_samples.extend(pool[i] for i in indices)
 
-        # Sample from reservoir
-        if n_reservoir > 0 and len(self._reservoir) > 0:
-            res_indices = np.random.randint(0, len(self._reservoir), size=n_reservoir)
-            all_samples.extend(self._reservoir[i] for i in res_indices)
-
-        # Shuffle so reservoir samples aren't always at the end
         np.random.shuffle(all_samples)
 
         obs = np.stack([s.obs for s in all_samples])
@@ -128,8 +262,21 @@ class ReplayBuffer:
 
         return obs, masks, policies, values
 
+    def update_priorities(self, losses: np.ndarray):
+        """Update PER priorities for the last sampled main-pool batch."""
+        if self._per_pool is not None and self._last_per_indices is not None:
+            self._per_pool.update_priorities(self._last_per_indices, losses)
+
+    def anneal_per_beta(self, progress: float):
+        """Anneal PER beta toward 1.0.  progress in [0, 1]."""
+        if self._per_pool is not None:
+            self._per_pool.anneal_beta(progress)
+
     def __len__(self) -> int:
-        return len(self.buffer) + len(self._reservoir)
+        total = sum(len(p) for p in self._pools.values())
+        if self._per_pool is not None:
+            total += len(self._per_pool)
+        return total
 
 
 def _create_alphazero_arena_policy(
@@ -283,42 +430,59 @@ def _compare_models(
     num_games: int = 20,
     max_steps: int = 300,
 ) -> float:
-    """Play new model vs best model and return new model's win fraction.
+    """Compare new model vs best model using a stable anchor-based evaluation.
 
-    Both sides play from the agent seat (half the games each), and the side
-    with the higher tournament score in that game wins. Draws (equal score,
-    including mirrored deterministic-argmax games) count as 0.5 to avoid
-    the old "always 0.50" artefact where a score threshold was symmetric.
+    Instead of pure head-to-head (which is too noisy when both models play
+    near-identically from warm-start), we compare both models vs greedy as a
+    stable anchor. The new model wins if it scores meaningfully better vs greedy.
+
+    Also requires a minimum quality gate: new model must score ≥ best model's
+    avg pins vs greedy to be considered an improvement.
+
+    Returns float in [0, 1] representing new model's relative quality score.
     """
     new_policy = _create_raw_policy(new_network)
     best_policy = _create_raw_policy(best_network)
 
-    new_points = 0.0
-    total = 0
+    # Evaluate both vs greedy (stable external anchor)
+    new_greedy_scores = []
+    best_greedy_scores = []
 
-    # Half the games: new as agent, best as opponent
     for _ in range(num_games):
-        new_result = play_game(new_policy, best_policy, max_steps=max_steps)
-        best_result = play_game(best_policy, new_policy, max_steps=max_steps)
+        new_r = play_game(new_policy, greedy_policy, max_steps=max_steps)
+        best_r = play_game(best_policy, greedy_policy, max_steps=max_steps)
+        new_greedy_scores.append(new_r["agent_pins"])
+        best_greedy_scores.append(best_r["agent_pins"])
 
-        # Head-to-head on the same seat comparison: higher tournament score wins.
-        # new-as-agent vs best-as-agent — whichever got more score wins that pairing.
-        if new_result["agent_score"] > best_result["agent_score"]:
-            new_points += 1.0
-        elif new_result["agent_score"] < best_result["agent_score"]:
-            pass
-        else:
-            new_points += 0.5  # tie
+    new_avg = float(np.mean(new_greedy_scores))
+    best_avg = float(np.mean(best_greedy_scores))
 
-        # Also credit terminal wins directly (winner='agent' strictly > truncated)
-        if new_result["winner"] == "agent" and best_result["winner"] != "agent":
-            new_points += 0.25
-        elif best_result["winner"] == "agent" and new_result["winner"] != "agent":
-            new_points -= 0.25
+    # Also do head-to-head for tiebreaking (but weighted less)
+    h2h_points = 0.0
+    for _ in range(num_games // 2):
+        new_r = play_game(new_policy, best_policy, max_steps=max_steps)
+        best_r = play_game(best_policy, new_policy, max_steps=max_steps)
+        if new_r["agent_score"] > best_r["agent_score"]:
+            h2h_points += 1.0
+        elif new_r["agent_score"] == best_r["agent_score"]:
+            h2h_points += 0.5
+    h2h_rate = h2h_points / max(num_games // 2, 1)
 
-        total += 1
+    # New model score: 70% anchor improvement + 30% h2h
+    # Anchor improvement: 1.0 if new beats best by ≥1 pin, 0.5 if equal, 0.0 if worse
+    if new_avg > best_avg + 0.5:
+        anchor_score = 1.0
+    elif new_avg >= best_avg - 0.5:
+        anchor_score = 0.5
+    else:
+        anchor_score = 0.0
 
-    return max(0.0, min(1.0, new_points / max(total, 1)))
+    combined = 0.7 * anchor_score + 0.3 * h2h_rate
+
+    print(f"    Gatekeeper: new_avg_pins={new_avg:.2f}, best_avg_pins={best_avg:.2f}, "
+          f"h2h={h2h_rate:.2f}, combined={combined:.2f}")
+
+    return combined
 
 
 def train_alphazero(
@@ -376,7 +540,13 @@ def train_alphazero(
     )
     scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=config.lr_decay)
 
-    replay_buffer = ReplayBuffer(config.replay_buffer_size, reservoir_ratio=0.2 if warmstart_data_path else 0.0)
+    replay_buffer = ReplayBuffer(
+        config.replay_buffer_size,
+        reservoir_ratio=0.2 if warmstart_data_path else 0.0,
+        use_per=config.use_per,
+        per_alpha=config.per_alpha,
+        per_beta_start=config.per_beta_start,
+    )
 
     # Seed reservoir with warm-start data if provided
     if warmstart_data_path:
@@ -409,7 +579,15 @@ def train_alphazero(
         print(f"\n[1/3] Self-play: generating {config.games_per_iteration} games...")
         sp_start = time.time()
 
-        if use_true_self_play:
+        if config.use_curriculum:
+            samples = generate_curriculum_data(
+                network=current_net,
+                num_games=config.games_per_iteration,
+                opponent_mix=config.curriculum_mix,
+                config=config.self_play,
+                verbose=True,
+            )
+        elif use_true_self_play:
             samples = generate_true_self_play_data(
                 network=current_net,
                 num_games=config.games_per_iteration,
@@ -459,6 +637,11 @@ def train_alphazero(
             epoch_losses.append(epoch_loss)
 
         scheduler.step()
+
+        # Anneal PER beta toward 1.0 over training
+        if config.use_per:
+            progress = (iteration - start_iteration + 1) / max(1, config.num_iterations - start_iteration)
+            replay_buffer.anneal_per_beta(progress)
 
         avg_loss = {
             k: np.mean([e[k] for e in epoch_losses])

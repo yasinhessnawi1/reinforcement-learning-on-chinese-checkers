@@ -293,3 +293,216 @@ def generate_true_self_play_data(
         )
 
     return all_samples
+
+
+def play_one_game_vs_heuristic(
+    network,
+    opponent_policy_fn,
+    config: SelfPlayConfig = SelfPlayConfig(),
+) -> list[TrainingSample]:
+    """Play one game: network+MCTS (red) vs a heuristic opponent (blue).
+
+    Only the agent's (red's) trajectory is recorded for training.  The
+    heuristic opponent provides a strong learning signal without needing
+    MCTS on the blue side.
+
+    Parameters
+    ----------
+    network : AlphaZeroNet
+    opponent_policy_fn : callable(board_wrapper, colour) -> (pin_id, dest)
+        Heuristic policy for the opponent (blue).
+    config : SelfPlayConfig
+
+    Returns
+    -------
+    list[TrainingSample] — training samples from the agent's perspective.
+    """
+    board = BoardWrapper(["red", "blue"])
+    max_total_steps = config.max_moves * 2
+
+    engine = AlphaZeroMCTS(
+        network=network,
+        num_simulations=config.num_simulations,
+        c_puct=config.c_puct,
+        dirichlet_alpha=config.dirichlet_alpha,
+        dirichlet_epsilon=config.dirichlet_epsilon,
+        use_heuristic_value=config.use_heuristic_value,
+    )
+
+    trajectories: list[dict] = []
+    step_count = 0
+    agent_moves = 0
+    winner = None
+
+    while step_count < max_total_steps:
+        colour = _COLOURS[step_count % 2]
+
+        legal_moves = board.get_legal_moves(colour)
+        if not legal_moves:
+            break
+
+        if colour == "red":
+            # Agent's turn — use MCTS + network
+            obs = _encode_obs(board, "red")
+            action_mask = _get_action_mask(board, "red")
+            temp = 1.0 if agent_moves < config.temperature_moves else config.temperature_low
+
+            proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
+            action_probs = engine.get_action_probs(proxy, temperature=temp)
+
+            trajectories.append({
+                "obs": obs.copy(),
+                "action_mask": action_mask.copy(),
+                "policy_target": action_probs.copy(),
+            })
+
+            if temp < 1e-6:
+                action = int(np.argmax(action_probs))
+            else:
+                action = int(np.random.choice(len(action_probs), p=action_probs))
+
+            pin_id, dest = _MAPPER.decode(action)
+            board.apply_move("red", pin_id, dest)
+            agent_moves += 1
+        else:
+            # Opponent's turn — use heuristic policy directly
+            opp_pin_id, opp_dest = opponent_policy_fn(board, "blue")
+            board.apply_move("blue", opp_pin_id, opp_dest)
+
+        step_count += 1
+
+        if board.check_win(colour):
+            winner = colour
+            break
+
+    # Compute value target for the agent (red)
+    red_won = (winner == "red")
+    blue_won = (winner == "blue")
+    values = _compute_game_values(board, red_won, blue_won, step_count, max_total_steps)
+    agent_value = values["red"]
+
+    # Check for degenerate games
+    if board.pins_in_goal("red") < config.min_pins_to_keep:
+        return []
+
+    samples = []
+    for step_data in trajectories:
+        samples.append(TrainingSample(
+            obs=step_data["obs"],
+            action_mask=step_data["action_mask"],
+            policy_target=step_data["policy_target"],
+            value_target=agent_value,
+        ))
+
+    # Symmetry augmentation
+    if config.augment_symmetry:
+        sym = ReflectionSymmetry()
+        augmented = []
+        for sample in samples:
+            reflected_obs = sym.reflect_obs(sample.obs)
+            reflected_mask = sym.reflect_action_mask(sample.action_mask)
+            reflected_policy = sym.reflect_action_mask(sample.policy_target)
+            total = reflected_policy.sum()
+            if total > 0:
+                reflected_policy = reflected_policy / total
+                augmented.append(TrainingSample(
+                    obs=reflected_obs,
+                    action_mask=reflected_mask,
+                    policy_target=reflected_policy,
+                    value_target=sample.value_target,
+                ))
+        samples.extend(augmented)
+
+    return samples
+
+
+def generate_curriculum_data(
+    network,
+    num_games: int,
+    opponent_mix: dict[str, float],
+    config: SelfPlayConfig = SelfPlayConfig(),
+    verbose: bool = True,
+) -> list[TrainingSample]:
+    """Generate training data using a curriculum of mixed opponents.
+
+    Parameters
+    ----------
+    network : AlphaZeroNet
+    num_games : int
+        Total games to generate across all opponent types.
+    opponent_mix : dict[str, float]
+        Mapping of opponent type to fraction of games. Keys:
+        - 'self_play': true 2-player self-play (both sides MCTS+network)
+        - 'greedy': greedy heuristic opponent
+        - 'advanced': advanced heuristic opponent
+        Fractions should sum to ~1.0.
+    config : SelfPlayConfig
+    verbose : bool
+
+    Returns
+    -------
+    list[TrainingSample]
+    """
+    from src.agents.greedy_agent import greedy_policy
+    from src.agents.advanced_heuristic import advanced_heuristic_policy
+
+    opponent_policies = {
+        "greedy": greedy_policy,
+        "advanced": advanced_heuristic_policy,
+    }
+
+    # Compute per-type game counts
+    game_counts = {}
+    remaining = num_games
+    for opp_type, fraction in sorted(opponent_mix.items(), key=lambda x: x[1]):
+        count = max(1, int(num_games * fraction)) if fraction > 0 else 0
+        game_counts[opp_type] = min(count, remaining)
+        remaining -= game_counts[opp_type]
+    # Give any rounding remainder to the largest bucket
+    if remaining > 0:
+        largest = max(opponent_mix, key=opponent_mix.get)
+        game_counts[largest] += remaining
+
+    all_samples: list[TrainingSample] = []
+    stats = {t: {"played": 0, "discarded": 0, "samples": 0} for t in game_counts}
+
+    for opp_type, count in game_counts.items():
+        if count <= 0:
+            continue
+
+        if verbose:
+            print(f"  Curriculum: {count} games vs {opp_type}...")
+
+        for i in range(count):
+            if opp_type == "self_play":
+                samples = play_one_game_true_selfplay(
+                    network=network,
+                    config=config,
+                )
+            else:
+                samples = play_one_game_vs_heuristic(
+                    network=network,
+                    opponent_policy_fn=opponent_policies[opp_type],
+                    config=config,
+                )
+
+            if samples:
+                all_samples.extend(samples)
+                stats[opp_type]["played"] += 1
+                stats[opp_type]["samples"] += len(samples)
+            else:
+                stats[opp_type]["discarded"] += 1
+
+    if verbose:
+        parts = []
+        total_played = 0
+        total_discarded = 0
+        for opp_type, s in stats.items():
+            parts.append(f"{opp_type}={s['played']}g/{s['samples']}s")
+            total_played += s["played"]
+            total_discarded += s["discarded"]
+        print(f"  Curriculum complete: {total_played} games, "
+              f"{len(all_samples)} samples, "
+              f"{total_discarded} discarded [{', '.join(parts)}]")
+
+    return all_samples

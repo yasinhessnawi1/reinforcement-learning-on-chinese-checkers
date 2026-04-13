@@ -138,6 +138,13 @@ def cmd_train(args):
         augment_symmetry=not args.no_augment,
     )
 
+    # Curriculum config
+    curriculum_mix = {
+        "greedy": args.curriculum_greedy,
+        "advanced": args.curriculum_advanced,
+        "self_play": args.curriculum_selfplay,
+    }
+
     train_config = TrainingConfig(
         network=net_config,
         self_play=sp_config,
@@ -152,6 +159,11 @@ def cmd_train(args):
         win_threshold=args.win_threshold,
         checkpoint_dir=args.checkpoint_dir,
         device=device,
+        use_per=args.per,
+        per_alpha=args.per_alpha,
+        per_beta_start=args.per_beta_start,
+        use_curriculum=args.curriculum,
+        curriculum_mix=curriculum_mix,
     )
 
     print("AlphaZero Training Configuration:")
@@ -160,6 +172,10 @@ def cmd_train(args):
     print(f"  MCTS: {args.mcts} with {args.sims} simulations")
     print(f"  Games/iteration: {args.games_per_iter}")
     print(f"  Iterations: {args.iterations}")
+    if args.curriculum:
+        print(f"  Curriculum: greedy={args.curriculum_greedy:.0%}, "
+              f"advanced={args.curriculum_advanced:.0%}, "
+              f"self_play={args.curriculum_selfplay:.0%}")
     print(f"  Resume from: {args.resume or 'scratch'}")
 
     train_alphazero(
@@ -395,6 +411,20 @@ def main():
                     help="Path to warm-start .npz for replay buffer reservoir (20%% of batches)")
     tr.add_argument("--legacy-self-play", action="store_true",
                     help="Use legacy single-agent self-play (agent vs random) instead of true 2-player")
+    tr.add_argument("--per", action="store_true",
+                    help="Enable Prioritized Experience Replay")
+    tr.add_argument("--per-alpha", type=float, default=0.6,
+                    help="PER priority exponent (default 0.6)")
+    tr.add_argument("--per-beta-start", type=float, default=0.4,
+                    help="PER importance-sampling start beta (default 0.4)")
+    tr.add_argument("--curriculum", action="store_true",
+                    help="Use opponent curriculum (mixed greedy/advanced/self-play)")
+    tr.add_argument("--curriculum-greedy", type=float, default=0.30,
+                    help="Fraction of curriculum games vs greedy (default 0.30)")
+    tr.add_argument("--curriculum-advanced", type=float, default=0.30,
+                    help="Fraction of curriculum games vs advanced (default 0.30)")
+    tr.add_argument("--curriculum-selfplay", type=float, default=0.40,
+                    help="Fraction of curriculum games as self-play (default 0.40)")
     _add_arch_args(tr)
     tr.add_argument("--cpu", action="store_true")
 
