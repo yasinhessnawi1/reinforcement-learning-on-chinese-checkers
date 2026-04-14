@@ -134,8 +134,19 @@ def _compute_game_values(board: BoardWrapper, red_won: bool, blue_won: bool,
     max_score = 1301.0
     diff = (red_score - blue_score) / max_score
 
-    # Truncation penalty: games that don't finish are worse than games that do
-    trunc_pen = 0.05 * (step_count / max(max_steps, 1))
+    # Stronger truncation penalty: failing to win is bad, not neutral.
+    # Base penalty scales with how far through the game we are.
+    # Additional "draw penalty" when scores are close (both failed to win).
+    trunc_pen = 0.15 * (step_count / max(max_steps, 1))
+
+    # If neither side has >7 pins in goal, both are doing poorly — penalize harder
+    red_pins = board.pins_in_goal("red")
+    blue_pins = board.pins_in_goal("blue")
+    if red_pins < 8 and blue_pins < 8:
+        # Scale penalty by how far from winning (10 pins) both sides are
+        avg_missing = (10 - red_pins + 10 - blue_pins) / 2.0
+        draw_pen = 0.05 * (avg_missing / 10.0)  # up to 0.05 extra penalty
+        trunc_pen += draw_pen
 
     red_val = max(-1.0, min(1.0, diff - trunc_pen))
     blue_val = max(-1.0, min(1.0, -diff - trunc_pen))
@@ -518,7 +529,8 @@ def generate_curriculum_data(
         game_counts[largest] += remaining
 
     all_samples: list[TrainingSample] = []
-    stats = {t: {"played": 0, "discarded": 0, "samples": 0} for t in game_counts}
+    stats = {t: {"played": 0, "discarded": 0, "samples": 0, "wins": 0, "truncated": 0}
+             for t in game_counts}
 
     for opp_type, count in game_counts.items():
         if count <= 0:
@@ -544,6 +556,12 @@ def generate_curriculum_data(
                 all_samples.extend(samples)
                 stats[opp_type]["played"] += 1
                 stats[opp_type]["samples"] += len(samples)
+                # Track win vs truncation for diagnostics
+                val = samples[0].value_target
+                if abs(val) > 0.5:
+                    stats[opp_type]["wins"] += 1
+                else:
+                    stats[opp_type]["truncated"] += 1
             else:
                 stats[opp_type]["discarded"] += 1
 
@@ -552,7 +570,8 @@ def generate_curriculum_data(
         total_played = 0
         total_discarded = 0
         for opp_type, s in stats.items():
-            parts.append(f"{opp_type}={s['played']}g/{s['samples']}s")
+            parts.append(f"{opp_type}={s['played']}g/{s['samples']}s"
+                         f"(W{s['wins']}/T{s['truncated']})")
             total_played += s["played"]
             total_discarded += s["discarded"]
         print(f"  Curriculum complete: {total_played} games, "

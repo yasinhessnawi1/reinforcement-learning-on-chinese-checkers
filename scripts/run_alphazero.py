@@ -475,7 +475,7 @@ def main():
     tr.add_argument("--dirichlet-alpha", type=float, default=0.3)
     tr.add_argument("--dirichlet-epsilon", type=float, default=0.25)
     tr.add_argument("--temp-moves", type=int, default=30)
-    tr.add_argument("--max-moves", type=int, default=200)
+    tr.add_argument("--max-moves", type=int, default=100)
     tr.add_argument("--heuristic-value", action="store_true")
     tr.add_argument("--no-augment", action="store_true")
     tr.add_argument("--games-per-iter", type=int, default=100)
@@ -500,12 +500,12 @@ def main():
                     help="PER importance-sampling start beta (default 0.4)")
     tr.add_argument("--curriculum", action="store_true",
                     help="Use opponent curriculum (mixed greedy/advanced/self-play)")
-    tr.add_argument("--curriculum-greedy", type=float, default=0.30,
-                    help="Fraction of curriculum games vs greedy (default 0.30)")
-    tr.add_argument("--curriculum-advanced", type=float, default=0.30,
-                    help="Fraction of curriculum games vs advanced (default 0.30)")
-    tr.add_argument("--curriculum-selfplay", type=float, default=0.40,
-                    help="Fraction of curriculum games as self-play (default 0.40)")
+    tr.add_argument("--curriculum-greedy", type=float, default=0.35,
+                    help="Fraction of curriculum games vs greedy (default 0.35)")
+    tr.add_argument("--curriculum-advanced", type=float, default=0.40,
+                    help="Fraction of curriculum games vs advanced (default 0.40)")
+    tr.add_argument("--curriculum-selfplay", type=float, default=0.25,
+                    help="Fraction of curriculum games as self-play (default 0.25)")
     _add_arch_args(tr)
     tr.add_argument("--cpu", action="store_true")
 

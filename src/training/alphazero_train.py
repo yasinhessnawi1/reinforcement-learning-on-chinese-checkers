@@ -62,9 +62,9 @@ class TrainingConfig:
     # Opponent curriculum (fractions must sum to ~1.0; ignored if use_curriculum=False)
     use_curriculum: bool = False
     curriculum_mix: dict = field(default_factory=lambda: {
-        "greedy": 0.30,
-        "advanced": 0.30,
-        "self_play": 0.40,
+        "greedy": 0.35,
+        "advanced": 0.40,
+        "self_play": 0.25,
     })
 
     # Loop
