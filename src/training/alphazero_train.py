@@ -318,15 +318,14 @@ def _create_raw_policy(network: AlphaZeroNet):
 
     Returns a callable(board_wrapper, colour) -> (pin_id, dest).
     """
-    from src.env.chinese_checkers_env import ChineseCheckersEnv
     from src.env.action_mapper import ActionMapper
+    from src.env.state_encoder import StateEncoder
 
     mapper = ActionMapper(num_pins=10, num_cells=121)
+    encoder = StateEncoder(grid_size=17, num_channels=10)
 
     def policy(board_wrapper, colour):
-        from src.env.state_encoder import StateEncoder
-        encoder = StateEncoder(grid_size=17, num_channels=10)
-        obs = encoder.encode(board_wrapper, current_colour="red", turn_order=["red", "blue"])
+        obs = encoder.encode(board_wrapper, current_colour=colour, turn_order=["red", "blue"])
         legal_moves = board_wrapper.get_legal_moves(colour)
         action_mask = mapper.build_action_mask(legal_moves)
 
@@ -566,7 +565,7 @@ def train_alphazero(
 
     replay_buffer = ReplayBuffer(
         config.replay_buffer_size,
-        reservoir_ratio=0.2 if warmstart_data_path else 0.0,
+        reservoir_ratio=0.05 if warmstart_data_path else 0.0,
         use_per=config.use_per,
         per_alpha=config.per_alpha,
         per_beta_start=config.per_beta_start,

@@ -35,7 +35,7 @@ class SelfPlayConfig:
     temperature_moves: int = 30      # play with temp=1 for first N moves
     temperature_low: float = 0.1     # then switch to low temperature
     max_moves: int = 200             # max moves per player (400 total steps)
-    min_pins_to_keep: int = 0        # discard games where both score < this (0 = keep all)
+    min_pins_to_keep: int = 3        # discard games where both score < this (filter low-quality)
     use_heuristic_value: bool = True  # use heuristic for leaf eval (essential early training)
     augment_symmetry: bool = True     # double data via reflection
     use_batched_mcts: bool = False    # use BatchedAlphaZeroMCTS for faster GPU inference

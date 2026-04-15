@@ -73,7 +73,7 @@ class MCTSNode:
     is_expanded : bool
     """
 
-    __slots__ = ('parent', 'action', 'prior', 'N', 'W', 'children', 'is_expanded')
+    __slots__ = ('parent', 'action', 'prior', 'N', 'W', 'children', 'is_expanded', 'colour')
 
     def __init__(self, parent: Optional["MCTSNode"], action: Optional[int], prior: float):
         self.parent = parent
@@ -83,6 +83,7 @@ class MCTSNode:
         self.W: float = 0.0
         self.children: dict[int, "MCTSNode"] = {}
         self.is_expanded: bool = False
+        self.colour: str = ""  # Set by two-player MCTS to track whose turn
 
     @property
     def Q(self) -> float:
@@ -649,8 +650,10 @@ class MCTSAgent:
 class AlphaZeroMCTS:
     """PUCT MCTS that uses AlphaZeroNet for policy priors and value estimation.
 
-    Unlike the original MCTS class which depends on SB3 MaskablePPO internals,
-    this class uses the clean AlphaZeroNet.predict() interface.
+    Supports proper two-player search: each node stores whose turn it is,
+    children represent moves by the current player, and values are negated
+    during backup at player-change boundaries. This is essential for
+    competitive play — the tree must model the opponent's responses.
 
     Parameters
     ----------
@@ -667,7 +670,11 @@ class AlphaZeroMCTS:
     use_heuristic_value : bool
         If True, use heuristic evaluation instead of network value head.
     opponent_policy : callable or None
-        Deterministic opponent policy for 2-player search.
+        Deterministic opponent policy for 2-player search (legacy mode).
+        When two_player=True, this is ignored — the network plays both sides.
+    two_player : bool
+        If True, use proper alternating two-player MCTS where both sides
+        are searched using the network. Values are negated at each level.
     """
 
     def __init__(
@@ -679,6 +686,7 @@ class AlphaZeroMCTS:
         dirichlet_epsilon: float = 0.25,
         use_heuristic_value: bool = False,
         opponent_policy=None,
+        two_player: bool = False,
     ):
         self.network = network
         self.num_simulations = num_simulations
@@ -687,6 +695,7 @@ class AlphaZeroMCTS:
         self.dirichlet_epsilon = dirichlet_epsilon
         self.use_heuristic_value = use_heuristic_value
         self.opponent_policy = opponent_policy
+        self.two_player = two_player
 
     def _apply_opponent_move(self, env) -> bool:
         """Apply opponent move. Returns True if opponent won."""
@@ -707,8 +716,185 @@ class AlphaZeroMCTS:
         board.apply_move(opp_colour, opp_pin_id, opp_dest)
         return board.check_win(opp_colour)
 
+    # ------------------------------------------------------------------
+    # Two-player alternating MCTS (proper AlphaZero approach)
+    # ------------------------------------------------------------------
+
+    def _select_two_player(self, node: MCTSNode, board, mapper, min_max: MinMaxStats,
+                           colours: list[str], max_steps: int, step_count: int) -> tuple:
+        """Traverse tree using PUCT, alternating players at each level.
+
+        Each node stores the colour of the player who moved to reach it via
+        node.colour. Children represent moves by the OTHER player.
+
+        Returns (node, terminal, leaf_colour, step_count).
+        leaf_colour is the colour whose turn it is at the leaf.
+        """
+        terminal = False
+        # Determine whose turn at root level: root.colour is the player
+        # who will move from this position (set in run_two_player)
+        current_colour_idx = colours.index(node.colour) if hasattr(node, 'colour') else 0
+
+        while node.is_expanded and node.children:
+            parent_N = node.N
+            best_score = -float('inf')
+            best_child = None
+            for child in node.children.values():
+                score = child.puct_score(parent_N, self.c_puct, min_max)
+                if score > best_score:
+                    best_score = score
+                    best_child = child
+
+            # The node's colour is whose turn it is — apply their move
+            moving_colour = colours[current_colour_idx]
+            pin_id, dest = mapper.decode(best_child.action)
+            board.apply_move(moving_colour, pin_id, dest)
+            step_count += 1
+            node = best_child
+
+            if board.check_win(moving_colour):
+                terminal = True
+                break
+
+            if step_count >= max_steps:
+                terminal = True
+                break
+
+            # Alternate to other player
+            current_colour_idx = 1 - current_colour_idx
+
+        leaf_colour = colours[current_colour_idx]
+        return node, terminal, leaf_colour, step_count
+
+    def _expand_two_player(self, node: MCTSNode, board, mapper, encoder,
+                           colour: str, turn_order: list[str]) -> float:
+        """Expand leaf node for two-player MCTS.
+
+        Evaluates position from `colour`'s perspective.
+        Returns value from `colour`'s perspective.
+        """
+        obs = encoder.encode(board, current_colour=colour, turn_order=turn_order)
+        legal_moves = board.get_legal_moves(colour)
+        action_mask = mapper.build_action_mask(legal_moves)
+
+        if action_mask.sum() == 0:
+            node.is_expanded = True
+            return 0.0
+
+        priors, value = self.network.predict(obs, action_mask)
+
+        if self.use_heuristic_value:
+            # Heuristic from this colour's perspective
+            agent_score = _score_colour(board, colour)
+            opp_colour = turn_order[1] if colour == turn_order[0] else turn_order[0]
+            if opp_colour in board.pins and len(board.pins[opp_colour]) > 0:
+                opp_score = _score_colour(board, opp_colour)
+                relative = agent_score - opp_score
+                value = max(-1.0, min(1.0, relative / 1100.0))
+            else:
+                value = max(-1.0, min(1.0, (agent_score - 650.0) / 550.0))
+
+        # Dirichlet noise at root
+        if node.is_root() and self.dirichlet_epsilon > 0:
+            legal_actions = np.where(action_mask)[0]
+            noise = np.random.dirichlet([self.dirichlet_alpha] * len(legal_actions))
+            for i, a in enumerate(legal_actions):
+                priors[a] = (
+                    (1 - self.dirichlet_epsilon) * priors[a]
+                    + self.dirichlet_epsilon * noise[i]
+                )
+
+        legal_actions = np.where(action_mask)[0]
+        for action in legal_actions:
+            node.children[int(action)] = MCTSNode(
+                parent=node,
+                action=int(action),
+                prior=float(priors[action]),
+            )
+
+        node.is_expanded = True
+        return value
+
+    def _backup_two_player(self, node: MCTSNode, value: float, min_max: MinMaxStats):
+        """Propagate value up the tree, negating at each level.
+
+        In a proper two-player alternating tree, every level represents
+        a different player. Value from the leaf's perspective is negated
+        at each step up — what's good for one player is bad for the other.
+        """
+        current = node
+        current_value = value
+        while current is not None:
+            current.N += 1
+            current.W += current_value
+            min_max.update(current.Q)
+            if current.parent is not None:
+                current_value = -current_value
+            current = current.parent
+
+    def run_two_player(self, board, mapper, encoder, root_colour: str,
+                       turn_order: list[str], step_count: int = 0,
+                       max_steps: int = 200) -> MCTSNode:
+        """Run proper two-player alternating MCTS.
+
+        Parameters
+        ----------
+        board : BoardWrapper — the current game state (will be cloned per sim).
+        mapper : ActionMapper
+        encoder : StateEncoder
+        root_colour : str — whose turn it is at the root.
+        turn_order : list[str] — e.g. ["red", "blue"]
+        step_count : int — current total half-moves
+        max_steps : int — truncation limit (total half-moves)
+
+        Returns
+        -------
+        MCTSNode — root node with visit counts.
+        """
+        root = MCTSNode(parent=None, action=None, prior=1.0)
+        root.colour = root_colour  # Track whose turn at root
+        min_max = MinMaxStats()
+        colours = list(turn_order)
+
+        for _ in range(self.num_simulations):
+            sim_board = board.clone()
+            sim_step = step_count
+
+            node, terminal, leaf_colour, sim_step = self._select_two_player(
+                root, sim_board, mapper, min_max, colours, max_steps, sim_step
+            )
+
+            if terminal:
+                # Determine who won from root_colour's perspective
+                root_idx = colours.index(root_colour)
+                opp_colour = colours[1 - root_idx]
+                if sim_board.check_win(root_colour):
+                    value = 1.0
+                elif sim_board.check_win(opp_colour):
+                    value = -1.0
+                else:
+                    # Truncated — use heuristic
+                    agent_score = _score_colour(sim_board, root_colour)
+                    opp_score = _score_colour(sim_board, opp_colour)
+                    value = max(-1.0, min(1.0, (agent_score - opp_score) / 1100.0))
+                # Convert to leaf_colour's perspective for backup
+                if leaf_colour != root_colour:
+                    value = -value
+            else:
+                value = self._expand_two_player(
+                    node, sim_board, mapper, encoder, leaf_colour, turn_order
+                )
+
+            self._backup_two_player(node, value, min_max)
+
+        return root
+
+    # ------------------------------------------------------------------
+    # Legacy single-player MCTS (kept for backward compatibility)
+    # ------------------------------------------------------------------
+
     def _select(self, node: MCTSNode, sim_env, min_max: MinMaxStats) -> tuple:
-        """Traverse tree using PUCT until a leaf node."""
+        """Traverse tree using PUCT until a leaf node (legacy single-player)."""
         terminal = False
         while node.is_expanded and node.children:
             parent_N = node.N
@@ -740,7 +926,7 @@ class AlphaZeroMCTS:
         return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
-        """Expand leaf node using AlphaZeroNet for priors and value."""
+        """Expand leaf node using AlphaZeroNet for priors and value (legacy)."""
         obs = env._get_obs()
         action_mask = env.action_masks()
 
@@ -748,13 +934,11 @@ class AlphaZeroMCTS:
             node.is_expanded = True
             return 0.0
 
-        # Get policy priors and value from network
         priors, value = self.network.predict(obs, action_mask)
 
         if self.use_heuristic_value:
             value = _heuristic_value(env)
 
-        # Dirichlet noise at root for exploration
         if node.is_root() and self.dirichlet_epsilon > 0:
             legal_actions = np.where(action_mask)[0]
             noise = np.random.dirichlet([self.dirichlet_alpha] * len(legal_actions))
@@ -764,7 +948,6 @@ class AlphaZeroMCTS:
                     + self.dirichlet_epsilon * noise[i]
                 )
 
-        # Create children for legal actions
         legal_actions = np.where(action_mask)[0]
         for action in legal_actions:
             node.children[int(action)] = MCTSNode(
@@ -777,7 +960,7 @@ class AlphaZeroMCTS:
         return value
 
     def _backup(self, node: MCTSNode, value: float, min_max: MinMaxStats):
-        """Propagate value up the tree."""
+        """Propagate value up the tree (legacy, no negation)."""
         current = node
         while current is not None:
             current.N += 1
@@ -786,7 +969,24 @@ class AlphaZeroMCTS:
             current = current.parent
 
     def run(self, env) -> MCTSNode:
-        """Run MCTS simulations and return root node with visit counts."""
+        """Run MCTS simulations — dispatches to two_player or legacy mode."""
+        if self.two_player and not env._no_opponent or (
+            self.two_player and hasattr(env, '_board') and env._board is not None
+            and env._OPPONENT_COLOUR in env._board.pins
+        ):
+            # Two-player mode: both colours must be on the board
+            board = env._board
+            mapper = env._mapper
+            encoder = env._encoder
+            root_colour = env._AGENT_COLOUR
+            turn_order = env._TURN_ORDER
+            step_count = env._step_count
+            max_steps = env.max_steps
+            return self.run_two_player(
+                board, mapper, encoder, root_colour, turn_order,
+                step_count, max_steps,
+            )
+
         root = MCTSNode(parent=None, action=None, prior=1.0)
         min_max = MinMaxStats()
 
@@ -808,18 +1008,15 @@ class AlphaZeroMCTS:
 
         return root
 
-    def get_action_probs(self, env, temperature: float = 1.0) -> np.ndarray:
-        """Run MCTS and return visit-count-based action distribution."""
-        root = self.run(env)
-        num_actions = env.action_space.n
-
+    def _visits_to_probs(self, root: MCTSNode, num_actions: int,
+                         action_mask: np.ndarray, temperature: float) -> np.ndarray:
+        """Convert root visit counts to action probabilities."""
         visits = np.zeros(num_actions, dtype=np.float32)
         for action, child in root.children.items():
             visits[action] = child.N
 
         if visits.sum() == 0:
-            mask = env.action_masks()
-            visits = mask.astype(np.float32)
+            visits = action_mask.astype(np.float32)
 
         if temperature == 0 or temperature < 1e-6:
             probs = np.zeros(num_actions, dtype=np.float32)
@@ -831,26 +1028,19 @@ class AlphaZeroMCTS:
 
         return probs
 
+    def get_action_probs(self, env, temperature: float = 1.0) -> np.ndarray:
+        """Run MCTS and return visit-count-based action distribution."""
+        root = self.run(env)
+        num_actions = env.action_space.n
+        mask = env.action_masks()
+        return self._visits_to_probs(root, num_actions, mask, temperature)
+
     def get_action_probs_and_value(self, env, temperature: float = 1.0) -> tuple[np.ndarray, float]:
         """Run MCTS and return (action_probs, root_value)."""
         root = self.run(env)
         num_actions = env.action_space.n
-
-        visits = np.zeros(num_actions, dtype=np.float32)
-        for action, child in root.children.items():
-            visits[action] = child.N
-
-        if visits.sum() == 0:
-            mask = env.action_masks()
-            visits = mask.astype(np.float32)
-
-        if temperature == 0 or temperature < 1e-6:
-            probs = np.zeros(num_actions, dtype=np.float32)
-            probs[np.argmax(visits)] = 1.0
-        else:
-            counts_temp = visits ** (1.0 / temperature)
-            total = counts_temp.sum()
-            probs = counts_temp / total if total > 0 else counts_temp
+        mask = env.action_masks()
+        probs = self._visits_to_probs(root, num_actions, mask, temperature)
 
         total_n = sum(c.N for c in root.children.values())
         if total_n > 0:

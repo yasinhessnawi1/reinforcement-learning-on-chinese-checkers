@@ -62,8 +62,16 @@ def _make_proxy_env(board: BoardWrapper, colour: str, step_count: int, max_steps
     return proxy
 
 
-def _create_mcts_engine(network, config: SelfPlayConfig):
-    """Create MCTS engine based on config (standard or batched)."""
+def _create_mcts_engine(network, config: SelfPlayConfig, two_player: bool = True):
+    """Create MCTS engine based on config (standard or batched).
+
+    Parameters
+    ----------
+    two_player : bool
+        If True (default), creates proper alternating two-player MCTS where
+        both sides are searched using the network with negated value backup.
+        This is essential for competitive self-play training.
+    """
     if config.use_batched_mcts:
         return BatchedAlphaZeroMCTS(
             network=network,
@@ -73,6 +81,7 @@ def _create_mcts_engine(network, config: SelfPlayConfig):
             dirichlet_alpha=config.dirichlet_alpha,
             dirichlet_epsilon=config.dirichlet_epsilon,
             use_heuristic_value=config.use_heuristic_value,
+            two_player=two_player,
         )
     return AlphaZeroMCTS(
         network=network,
@@ -81,6 +90,7 @@ def _create_mcts_engine(network, config: SelfPlayConfig):
         dirichlet_alpha=config.dirichlet_alpha,
         dirichlet_epsilon=config.dirichlet_epsilon,
         use_heuristic_value=config.use_heuristic_value,
+        two_player=two_player,
     )
 
 
@@ -221,11 +231,12 @@ def play_one_game_true_selfplay(
     board = BoardWrapper(["red", "blue"])
     max_total_steps = config.max_moves * 2  # total half-moves (both sides)
 
-    # Create MCTS engines for each colour
+    # Create MCTS engines for each colour — two_player=True so the search
+    # alternates between both players with negated value backup
     if mcts_engine_factory is not None:
         engines = {c: mcts_engine_factory(c) for c in _COLOURS}
     else:
-        engines = {c: _create_mcts_engine(network, config) for c in _COLOURS}
+        engines = {c: _create_mcts_engine(network, config, two_player=True) for c in _COLOURS}
 
     # Trajectories: list of (colour, obs, action_mask, mcts_policy) per half-move
     trajectories: list[dict] = []
@@ -258,7 +269,7 @@ def play_one_game_true_selfplay(
             elif entropy > config.entropy_high:
                 # Confused position — deep search (3x sims)
                 proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
-                deep_engine = _create_mcts_engine(network, config)
+                deep_engine = _create_mcts_engine(network, config, two_player=True)
                 deep_engine.num_simulations = config.num_simulations * config.deep_sims_multiplier
                 action_probs, mcts_value = deep_engine.get_action_probs_and_value(proxy, temperature=temp)
             else:
@@ -439,7 +450,8 @@ def play_one_game_vs_heuristic(
     board = BoardWrapper(["red", "blue"])
     max_total_steps = config.max_moves * 2
 
-    engine = _create_mcts_engine(network, config)
+    # Use two_player=True so MCTS models the opponent's responses
+    engine = _create_mcts_engine(network, config, two_player=True)
 
     trajectories: list[dict] = []
     step_count = 0
@@ -467,7 +479,7 @@ def play_one_game_vs_heuristic(
                     action_probs, mcts_value = _raw_policy_action(network, obs, action_mask, temp)
                 elif entropy > config.entropy_high:
                     proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
-                    deep_engine = _create_mcts_engine(network, config)
+                    deep_engine = _create_mcts_engine(network, config, two_player=True)
                     deep_engine.num_simulations = config.num_simulations * config.deep_sims_multiplier
                     action_probs, mcts_value = deep_engine.get_action_probs_and_value(proxy, temperature=temp)
                 else:
