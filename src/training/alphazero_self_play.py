@@ -38,6 +38,13 @@ class SelfPlayConfig:
     min_pins_to_keep: int = 0        # discard games where both score < this (0 = keep all)
     use_heuristic_value: bool = True  # use heuristic for leaf eval (essential early training)
     augment_symmetry: bool = True     # double data via reflection
+    use_batched_mcts: bool = False    # use BatchedAlphaZeroMCTS for faster GPU inference
+    mcts_batch_size: int = 8          # batch size for batched MCTS leaf evaluation
+    value_target_lambda: float = 0.6  # blend: lambda*game_outcome + (1-lambda)*mcts_value
+    entropy_routing: bool = False     # route search depth by policy entropy (Search MoE)
+    entropy_low: float = 0.5         # below this: skip MCTS, use raw policy (0 sims)
+    entropy_high: float = 2.0        # above this: use 3x sims (deep search)
+    deep_sims_multiplier: int = 3    # multiplier for high-entropy positions
 
 
 def _compute_game_value(env: ChineseCheckersEnv, agent_won: bool, opponent_won: bool) -> float:

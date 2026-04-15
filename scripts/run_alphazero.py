@@ -195,6 +195,13 @@ def cmd_train(args):
         max_moves=args.max_moves,
         use_heuristic_value=args.heuristic_value,
         augment_symmetry=not args.no_augment,
+        use_batched_mcts=args.batched_mcts_selfplay,
+        mcts_batch_size=args.mcts_batch_size,
+        value_target_lambda=args.value_target_lambda,
+        entropy_routing=args.entropy_routing,
+        entropy_low=args.entropy_low,
+        entropy_high=args.entropy_high,
+        deep_sims_multiplier=args.deep_sims_multiplier,
     )
 
     # Curriculum config
@@ -228,19 +235,31 @@ def cmd_train(args):
     print("AlphaZero Training Configuration:")
     print(f"  Device: {device}")
     print(f"  Architecture: ResNet {args.num_blocks}x{args.num_filters}")
-    print(f"  MCTS: {args.mcts} with {args.sims} simulations")
+    print(f"  MCTS: {args.mcts} with {args.sims} simulations"
+          f"{' (batched, batch_size=' + str(args.mcts_batch_size) + ')' if args.batched_mcts_selfplay else ''}")
     print(f"  Games/iteration: {args.games_per_iter}")
     print(f"  Iterations: {args.iterations}")
     if args.curriculum:
         print(f"  Curriculum: greedy={args.curriculum_greedy:.0%}, "
               f"advanced={args.curriculum_advanced:.0%}, "
               f"self_play={args.curriculum_selfplay:.0%}")
+    print(f"  Value target: {args.value_target_lambda:.0%} game outcome + "
+          f"{1-args.value_target_lambda:.0%} MCTS root value")
+    if args.entropy_routing:
+        print(f"  Search MoE: entropy<{args.entropy_low}=raw, "
+              f">{args.entropy_high}={args.sims*args.deep_sims_multiplier}sims, "
+              f"else={args.sims}sims")
+    if args.warmstart_data:
+        print(f"  Reservoir: {args.warmstart_data} (20% of batches)")
+    if args.endgame_data:
+        print(f"  Endgame pool: {args.endgame_data} (10% of batches)")
     print(f"  Resume from: {args.resume or 'scratch'}")
 
     train_alphazero(
         train_config,
         resume_from=args.resume,
         warmstart_data_path=args.warmstart_data,
+        endgame_data_path=args.endgame_data,
         use_true_self_play=not args.legacy_self_play,
     )
 
@@ -477,6 +496,18 @@ def main():
     tr.add_argument("--temp-moves", type=int, default=30)
     tr.add_argument("--max-moves", type=int, default=100)
     tr.add_argument("--heuristic-value", action="store_true")
+    tr.add_argument("--batched-mcts-selfplay", action="store_true",
+                    help="Use batched MCTS for self-play data generation (2-4x faster on GPU)")
+    tr.add_argument("--value-target-lambda", type=float, default=0.6,
+                    help="Blend: lambda*game_outcome + (1-lambda)*mcts_value (default 0.6)")
+    tr.add_argument("--entropy-routing", action="store_true",
+                    help="Search MoE: route MCTS depth by policy entropy")
+    tr.add_argument("--entropy-low", type=float, default=0.5,
+                    help="Below this entropy: skip MCTS (default 0.5)")
+    tr.add_argument("--entropy-high", type=float, default=2.0,
+                    help="Above this entropy: deep search 3x sims (default 2.0)")
+    tr.add_argument("--deep-sims-multiplier", type=int, default=3,
+                    help="Sim multiplier for high-entropy positions (default 3)")
     tr.add_argument("--no-augment", action="store_true")
     tr.add_argument("--games-per-iter", type=int, default=100)
     tr.add_argument("--batch-size", type=int, default=256)
@@ -490,6 +521,8 @@ def main():
     tr.add_argument("--checkpoint-dir", type=str, default="experiments/exp_d1_alphazero")
     tr.add_argument("--warmstart-data", type=str, default=None,
                     help="Path to warm-start .npz for replay buffer reservoir (20%% of batches)")
+    tr.add_argument("--endgame-data", type=str, default=None,
+                    help="Path to endgame .npz data for dedicated pool (10%% of batches)")
     tr.add_argument("--legacy-self-play", action="store_true",
                     help="Use legacy single-agent self-play (agent vs random) instead of true 2-player")
     tr.add_argument("--per", action="store_true",

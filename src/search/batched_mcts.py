@@ -251,6 +251,35 @@ class BatchedAlphaZeroMCTS:
 
         return probs
 
+    def get_action_probs_and_value(self, env, temperature: float = 1.0) -> tuple[np.ndarray, float]:
+        """Run batched MCTS and return (action_probs, root_value)."""
+        root = self.run(env)
+        num_actions = env.action_space.n
+
+        visits = np.zeros(num_actions, dtype=np.float32)
+        for action, child in root.children.items():
+            visits[action] = child.N
+
+        if visits.sum() == 0:
+            mask = env.action_masks()
+            visits = mask.astype(np.float32)
+
+        if temperature == 0 or temperature < 1e-6:
+            probs = np.zeros(num_actions, dtype=np.float32)
+            probs[np.argmax(visits)] = 1.0
+        else:
+            counts_temp = visits ** (1.0 / temperature)
+            total = counts_temp.sum()
+            probs = counts_temp / total if total > 0 else counts_temp
+
+        total_n = sum(c.N for c in root.children.values())
+        if total_n > 0:
+            root_value = sum(c.Q * c.N for c in root.children.values()) / total_n
+        else:
+            root_value = 0.0
+
+        return probs, float(root_value)
+
     def select_action(self, env, temperature: float = 1.0) -> int:
         """Run batched MCTS and select an action."""
         probs = self.get_action_probs(env, temperature)

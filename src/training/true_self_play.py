@@ -23,6 +23,7 @@ from src.env.state_encoder import StateEncoder
 from src.env.action_mapper import ActionMapper
 from src.env.chinese_checkers_env import ChineseCheckersEnv
 from src.search.mcts import AlphaZeroMCTS, _heuristic_value, _score_colour
+from src.search.batched_mcts import BatchedAlphaZeroMCTS
 from src.training.symmetry import ReflectionSymmetry
 from src.training.alphazero_self_play import TrainingSample, SelfPlayConfig
 
@@ -59,6 +60,48 @@ def _make_proxy_env(board: BoardWrapper, colour: str, step_count: int, max_steps
     proxy._terminated = False
     proxy._truncated = False
     return proxy
+
+
+def _create_mcts_engine(network, config: SelfPlayConfig):
+    """Create MCTS engine based on config (standard or batched)."""
+    if config.use_batched_mcts:
+        return BatchedAlphaZeroMCTS(
+            network=network,
+            num_simulations=config.num_simulations,
+            batch_size=config.mcts_batch_size,
+            c_puct=config.c_puct,
+            dirichlet_alpha=config.dirichlet_alpha,
+            dirichlet_epsilon=config.dirichlet_epsilon,
+            use_heuristic_value=config.use_heuristic_value,
+        )
+    return AlphaZeroMCTS(
+        network=network,
+        num_simulations=config.num_simulations,
+        c_puct=config.c_puct,
+        dirichlet_alpha=config.dirichlet_alpha,
+        dirichlet_epsilon=config.dirichlet_epsilon,
+        use_heuristic_value=config.use_heuristic_value,
+    )
+
+
+def _compute_policy_entropy(network, obs: np.ndarray, action_mask: np.ndarray) -> float:
+    """Compute entropy of the raw policy distribution (no MCTS).
+
+    Used by Search MoE to route search depth by position difficulty.
+    Low entropy = confident position (skip MCTS), high = confused (deep search).
+    """
+    probs, _ = network.predict(obs, action_mask)
+    # Entropy: -sum(p * log(p)) for p > 0
+    valid = probs > 1e-8
+    entropy = -np.sum(probs[valid] * np.log(probs[valid]))
+    return float(entropy)
+
+
+def _raw_policy_action(network, obs: np.ndarray, action_mask: np.ndarray,
+                       temperature: float) -> tuple[np.ndarray, float]:
+    """Get action probs from raw network policy (no MCTS). Returns (probs, value)."""
+    probs, value = network.predict(obs, action_mask)
+    return probs, float(value)
 
 
 def _encode_obs(board: BoardWrapper, colour: str) -> np.ndarray:
@@ -182,16 +225,7 @@ def play_one_game_true_selfplay(
     if mcts_engine_factory is not None:
         engines = {c: mcts_engine_factory(c) for c in _COLOURS}
     else:
-        engines = {}
-        for colour in _COLOURS:
-            engines[colour] = AlphaZeroMCTS(
-                network=network,
-                num_simulations=config.num_simulations,
-                c_puct=config.c_puct,
-                dirichlet_alpha=config.dirichlet_alpha,
-                dirichlet_epsilon=config.dirichlet_epsilon,
-                use_heuristic_value=config.use_heuristic_value,
-            )
+        engines = {c: _create_mcts_engine(network, config) for c in _COLOURS}
 
     # Trajectories: list of (colour, obs, action_mask, mcts_policy) per half-move
     trajectories: list[dict] = []
@@ -215,18 +249,34 @@ def play_one_game_true_selfplay(
         # Temperature schedule based on this colour's move count
         temp = 1.0 if move_counts[colour] < config.temperature_moves else config.temperature_low
 
-        # Create proxy env for MCTS (MCTS reads env._board, env._AGENT_COLOUR, etc.)
-        proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
+        # Search MoE: route search depth by policy entropy
+        if config.entropy_routing:
+            entropy = _compute_policy_entropy(network, obs, action_mask)
+            if entropy < config.entropy_low:
+                # Confident position — use raw policy, skip MCTS
+                action_probs, mcts_value = _raw_policy_action(network, obs, action_mask, temp)
+            elif entropy > config.entropy_high:
+                # Confused position — deep search (3x sims)
+                proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
+                deep_engine = _create_mcts_engine(network, config)
+                deep_engine.num_simulations = config.num_simulations * config.deep_sims_multiplier
+                action_probs, mcts_value = deep_engine.get_action_probs_and_value(proxy, temperature=temp)
+            else:
+                # Normal position — standard search
+                proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
+                action_probs, mcts_value = engines[colour].get_action_probs_and_value(proxy, temperature=temp)
+        else:
+            # No routing — always use standard engine
+            proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
+            action_probs, mcts_value = engines[colour].get_action_probs_and_value(proxy, temperature=temp)
 
-        # Run MCTS
-        action_probs = engines[colour].get_action_probs(proxy, temperature=temp)
-
-        # Record sample (value filled in after game ends)
+        # Record sample (game outcome value filled in after game ends)
         trajectories.append({
             "colour": colour,
             "obs": obs.copy(),
             "action_mask": action_mask.copy(),
             "policy_target": action_probs.copy(),
+            "mcts_value": mcts_value,
         })
 
         # Sample action
@@ -258,15 +308,23 @@ def play_one_game_true_selfplay(
     if red_pins < config.min_pins_to_keep and blue_pins < config.min_pins_to_keep:
         return []
 
-    # Build training samples with perspective-correct value targets
+    # Build training samples with blended value targets.
+    # Blend MCTS per-step value with game outcome to give the value head
+    # useful per-position signal (especially in truncated games where
+    # game outcome ≈ 0 for all positions).
+    lam = config.value_target_lambda
     samples = []
     for step_data in trajectories:
         colour = step_data["colour"]
+        game_val = values[colour]
+        mcts_val = step_data["mcts_value"]
+        blended = lam * game_val + (1.0 - lam) * mcts_val
+        blended = max(-1.0, min(1.0, blended))
         samples.append(TrainingSample(
             obs=step_data["obs"],
             action_mask=step_data["action_mask"],
             policy_target=step_data["policy_target"],
-            value_target=values[colour],
+            value_target=blended,
         ))
 
     # Symmetry augmentation
@@ -381,14 +439,7 @@ def play_one_game_vs_heuristic(
     board = BoardWrapper(["red", "blue"])
     max_total_steps = config.max_moves * 2
 
-    engine = AlphaZeroMCTS(
-        network=network,
-        num_simulations=config.num_simulations,
-        c_puct=config.c_puct,
-        dirichlet_alpha=config.dirichlet_alpha,
-        dirichlet_epsilon=config.dirichlet_epsilon,
-        use_heuristic_value=config.use_heuristic_value,
-    )
+    engine = _create_mcts_engine(network, config)
 
     trajectories: list[dict] = []
     step_count = 0
@@ -409,13 +460,28 @@ def play_one_game_vs_heuristic(
             action_mask = _get_action_mask(board, "red")
             temp = 1.0 if agent_moves < config.temperature_moves else config.temperature_low
 
-            proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
-            action_probs = engine.get_action_probs(proxy, temperature=temp)
+            # Search MoE: route by entropy
+            if config.entropy_routing:
+                entropy = _compute_policy_entropy(network, obs, action_mask)
+                if entropy < config.entropy_low:
+                    action_probs, mcts_value = _raw_policy_action(network, obs, action_mask, temp)
+                elif entropy > config.entropy_high:
+                    proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
+                    deep_engine = _create_mcts_engine(network, config)
+                    deep_engine.num_simulations = config.num_simulations * config.deep_sims_multiplier
+                    action_probs, mcts_value = deep_engine.get_action_probs_and_value(proxy, temperature=temp)
+                else:
+                    proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
+                    action_probs, mcts_value = engine.get_action_probs_and_value(proxy, temperature=temp)
+            else:
+                proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
+                action_probs, mcts_value = engine.get_action_probs_and_value(proxy, temperature=temp)
 
             trajectories.append({
                 "obs": obs.copy(),
                 "action_mask": action_mask.copy(),
                 "policy_target": action_probs.copy(),
+                "mcts_value": mcts_value,
             })
 
             if temp < 1e-6:
@@ -450,13 +516,18 @@ def play_one_game_vs_heuristic(
     if board.pins_in_goal("red") < config.min_pins_to_keep:
         return []
 
+    # Blend MCTS per-step value with game outcome
+    lam = config.value_target_lambda
     samples = []
     for step_data in trajectories:
+        mcts_val = step_data["mcts_value"]
+        blended = lam * agent_value + (1.0 - lam) * mcts_val
+        blended = max(-1.0, min(1.0, blended))
         samples.append(TrainingSample(
             obs=step_data["obs"],
             action_mask=step_data["action_mask"],
             policy_target=step_data["policy_target"],
-            value_target=agent_value,
+            value_target=blended,
         ))
 
     # Symmetry augmentation

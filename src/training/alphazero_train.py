@@ -12,6 +12,7 @@ Supports warm-start from supervised pre-training on heuristic data.
 
 import time
 import json
+import threading
 import numpy as np
 import torch
 from pathlib import Path
@@ -431,6 +432,8 @@ def _compare_models(
     max_steps: int = 300,
     mcts_sims: int = 16,
     use_heuristic_value: bool = True,
+    use_batched_mcts: bool = False,
+    mcts_batch_size: int = 8,
 ) -> float:
     """Compare new model vs best model using MCTS-based anchor evaluation.
 
@@ -440,12 +443,25 @@ def _compare_models(
 
     Returns float in [0, 1] representing new model's relative quality score.
     """
-    new_policy = _create_alphazero_arena_policy(
-        new_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
-    )
-    best_policy = _create_alphazero_arena_policy(
-        best_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
-    )
+    if mcts_sims <= 0:
+        new_policy = _create_raw_policy(new_network)
+        best_policy = _create_raw_policy(best_network)
+    elif use_batched_mcts:
+        new_policy = _create_batched_mcts_arena_policy(
+            new_network, num_sims=mcts_sims, batch_size=mcts_batch_size,
+            use_heuristic_value=use_heuristic_value,
+        )
+        best_policy = _create_batched_mcts_arena_policy(
+            best_network, num_sims=mcts_sims, batch_size=mcts_batch_size,
+            use_heuristic_value=use_heuristic_value,
+        )
+    else:
+        new_policy = _create_alphazero_arena_policy(
+            new_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
+        )
+        best_policy = _create_alphazero_arena_policy(
+            best_network, num_sims=mcts_sims, use_heuristic_value=use_heuristic_value
+        )
 
     # Evaluate both vs greedy (stable external anchor)
     new_greedy_scores = []
@@ -482,7 +498,8 @@ def _compare_models(
 
     combined = 0.7 * anchor_score + 0.3 * h2h_rate
 
-    print(f"    Gatekeeper (MCTS {mcts_sims}sims): new_avg_pins={new_avg:.2f}, "
+    mode_str = "raw policy" if mcts_sims <= 0 else f"MCTS {mcts_sims}sims"
+    print(f"    Gatekeeper ({mode_str}): new_avg_pins={new_avg:.2f}, "
           f"best_avg_pins={best_avg:.2f}, h2h={h2h_rate:.2f}, combined={combined:.2f}")
 
     return combined
@@ -492,6 +509,7 @@ def train_alphazero(
     config: TrainingConfig = TrainingConfig(),
     resume_from: Optional[str] = None,
     warmstart_data_path: Optional[str] = None,
+    endgame_data_path: Optional[str] = None,
     use_true_self_play: bool = True,
 ):
     """Main AlphaZero training loop.
@@ -504,6 +522,9 @@ def train_alphazero(
     warmstart_data_path : str or None
         Path to warm-start .npz data to seed the replay buffer reservoir.
         If provided, 20% of each training batch is drawn from this data.
+    endgame_data_path : str or None
+        Path to endgame .npz data for a dedicated pool.
+        If provided, 10% of each training batch is drawn from endgame data.
     use_true_self_play : bool
         If True (default), use true 2-player self-play where both sides
         use MCTS + network.  If False, use legacy single-agent mode
@@ -570,7 +591,67 @@ def train_alphazero(
             ))
         replay_buffer.seed_reservoir(reservoir_samples)
 
+    # Seed endgame pool if provided
+    if endgame_data_path:
+        from src.training.warmstart_generator import load_warmstart_data
+        from src.training.alphazero_self_play import TrainingSample as TS
+        eg_data = load_warmstart_data(endgame_data_path)
+        endgame_samples = []
+        n = eg_data["obs"].shape[0]
+        max_endgame = min(n, 10_000)
+        indices = np.random.choice(n, size=max_endgame, replace=False) if n > max_endgame else np.arange(n)
+        for idx in indices:
+            endgame_samples.append(TS(
+                obs=eg_data["obs"][idx],
+                action_mask=eg_data["action_masks"][idx],
+                policy_target=eg_data["policies"][idx],
+                value_target=float(eg_data["values"][idx]),
+            ))
+        replay_buffer.add_pool("endgame", ratio=0.1)
+        replay_buffer.add(endgame_samples, pool="endgame")
+        print(f"  Endgame pool seeded with {len(endgame_samples)} samples (10% of batches)")
+
     training_log: list[dict] = []
+
+    def _run_self_play(network, config, use_curriculum, use_true_self_play, verbose=True):
+        """Run self-play data generation (can be called from main or background thread)."""
+        if use_curriculum:
+            return generate_curriculum_data(
+                network=network,
+                num_games=config.games_per_iteration,
+                opponent_mix=config.curriculum_mix,
+                config=config.self_play,
+                verbose=verbose,
+            )
+        elif use_true_self_play:
+            return generate_true_self_play_data(
+                network=network,
+                num_games=config.games_per_iteration,
+                config=config.self_play,
+                verbose=verbose,
+            )
+        else:
+            return generate_self_play_data(
+                network=network,
+                num_games=config.games_per_iteration,
+                config=config.self_play,
+                verbose=verbose,
+            )
+
+    # Pipeline state: prefetched samples from background thread
+    prefetch_result = {"samples": None, "error": None, "sp_time": 0.0}
+    prefetch_thread = None
+
+    def _prefetch_self_play(network_snapshot, config, use_curriculum, use_true_sp):
+        """Background thread: generate next iteration's data using a frozen network copy."""
+        try:
+            sp_start = time.time()
+            prefetch_result["samples"] = _run_self_play(
+                network_snapshot, config, use_curriculum, use_true_sp, verbose=False
+            )
+            prefetch_result["sp_time"] = time.time() - sp_start
+        except Exception as e:
+            prefetch_result["error"] = e
 
     for iteration in range(start_iteration, config.num_iterations):
         iter_start = time.time()
@@ -579,37 +660,51 @@ def train_alphazero(
         print(f"{'='*60}")
 
         # ----- 1. Self-Play -----
-        print(f"\n[1/3] Self-play: generating {config.games_per_iteration} games...")
-        sp_start = time.time()
+        if prefetch_thread is not None:
+            # Wait for prefetched data from background thread
+            print(f"\n[1/3] Waiting for prefetched self-play data...")
+            sp_start = time.time()
+            prefetch_thread.join()
+            prefetch_thread = None
 
-        if config.use_curriculum:
-            samples = generate_curriculum_data(
-                network=current_net,
-                num_games=config.games_per_iteration,
-                opponent_mix=config.curriculum_mix,
-                config=config.self_play,
-                verbose=True,
-            )
-        elif use_true_self_play:
-            samples = generate_true_self_play_data(
-                network=current_net,
-                num_games=config.games_per_iteration,
-                config=config.self_play,
-                verbose=True,
-            )
+            if prefetch_result["error"] is not None:
+                print(f"  Prefetch failed: {prefetch_result['error']}, regenerating...")
+                sp_start = time.time()
+                samples = _run_self_play(current_net, config, config.use_curriculum, use_true_self_play)
+                sp_time = time.time() - sp_start
+            else:
+                samples = prefetch_result["samples"]
+                sp_time = prefetch_result["sp_time"]
+                print(f"  Prefetched {len(samples)} samples (generated in {sp_time:.1f}s, "
+                      f"wait: {time.time() - sp_start:.1f}s)")
+            prefetch_result = {"samples": None, "error": None, "sp_time": 0.0}
         else:
-            samples = generate_self_play_data(
-                network=current_net,
-                num_games=config.games_per_iteration,
-                config=config.self_play,
-                verbose=True,
-            )
+            # First iteration or fallback: generate synchronously
+            print(f"\n[1/3] Self-play: generating {config.games_per_iteration} games...")
+            sp_start = time.time()
+            samples = _run_self_play(current_net, config, config.use_curriculum, use_true_self_play)
+            sp_time = time.time() - sp_start
 
         replay_buffer.add(samples)
-        sp_time = time.time() - sp_start
         print(f"  Self-play: {len(samples)} new samples, "
               f"buffer: {len(replay_buffer)}, "
               f"time: {sp_time:.1f}s")
+
+        # ----- Start prefetch for NEXT iteration (runs during training+eval) -----
+        next_iter = iteration + 1
+        if next_iter < config.num_iterations:
+            snapshot_net = AlphaZeroNet(config.network, device=config.device)
+            snapshot_net.copy_weights_from(current_net)
+            snapshot_net.model.eval()
+
+            prefetch_result = {"samples": None, "error": None, "sp_time": 0.0}
+            prefetch_thread = threading.Thread(
+                target=_prefetch_self_play,
+                args=(snapshot_net, config, config.use_curriculum, use_true_self_play),
+                daemon=True,
+            )
+            prefetch_thread.start()
+            print(f"  [Pipeline] Prefetching iter {next_iter + 1} self-play in background")
 
         # ----- 2. Training -----
         if len(replay_buffer) < config.batch_size:
@@ -661,13 +756,14 @@ def train_alphazero(
         print(f"\n[3/3] Evaluating...")
         eval_start = time.time()
 
-        # MCTS-based eval (raw policy misleading after self-play training)
+        # Raw policy eval: fast, stable, and reliable for tracking progress.
+        # MCTS eval (16-sim) was tested but proved too noisy at low sim counts
+        # and actually weaker than raw policy for sharp warm-started models.
         eval_results = evaluate_model(
             current_net,
-            num_games=max(config.eval_games // 4, 5),  # fewer games since MCTS is slower
+            num_games=config.eval_games,
             max_steps=300,
-            use_mcts=True,
-            mcts_sims=16,
+            use_mcts=False,
             use_heuristic_value=config.self_play.use_heuristic_value,
         )
 
@@ -676,23 +772,24 @@ def train_alphazero(
         vs_advanced = eval_results["vs_advanced"]
         eval_time = time.time() - eval_start
 
-        mcts_eval_n = max(config.eval_games // 4, 5)
-        print(f"  [MCTS 16-sim eval, {mcts_eval_n} games each]")
+        eval_n = config.eval_games
+        print(f"  [Raw policy eval, {eval_n} games each]")
         print(f"  vs Random:   pins={vs_random['avg_pins_in_goal']:.1f}, "
               f"score={vs_random['avg_tournament_score']:.1f}, "
-              f"wins={vs_random['agent_wins']}/{mcts_eval_n}")
+              f"wins={vs_random['agent_wins']}/{eval_n}")
         print(f"  vs Greedy:   pins={vs_greedy['avg_pins_in_goal']:.1f}, "
               f"score={vs_greedy['avg_tournament_score']:.1f}, "
-              f"wins={vs_greedy['agent_wins']}/{mcts_eval_n}")
+              f"wins={vs_greedy['agent_wins']}/{eval_n}")
         print(f"  vs Advanced: pins={vs_advanced['avg_pins_in_goal']:.1f}, "
               f"score={vs_advanced['avg_tournament_score']:.1f}, "
-              f"wins={vs_advanced['agent_wins']}/{mcts_eval_n}")
+              f"wins={vs_advanced['agent_wins']}/{eval_n}")
         print(f"  Eval time: {eval_time:.1f}s")
 
-        # Compare with best model (using MCTS, not raw policy)
+        # Compare with best model using raw policy (fast, consistent with eval)
         win_rate = _compare_models(
-            current_net, best_net, num_games=6, max_steps=300,
-            mcts_sims=16, use_heuristic_value=config.self_play.use_heuristic_value,
+            current_net, best_net, num_games=10, max_steps=300,
+            mcts_sims=0, use_heuristic_value=config.self_play.use_heuristic_value,
+            use_batched_mcts=False, mcts_batch_size=8,
         )
         print(f"  vs Best model: win_rate={win_rate:.2f}")
 
@@ -743,6 +840,10 @@ def train_alphazero(
             json.dump(training_log, f, indent=2)
 
         print(f"\n  Iteration {iteration + 1} complete in {iter_time:.1f}s")
+
+    # Wait for any remaining prefetch thread
+    if prefetch_thread is not None:
+        prefetch_thread.join()
 
     # Final save
     best_net.save_checkpoint(checkpoint_dir / "final_best.pt", iteration=config.num_iterations)
