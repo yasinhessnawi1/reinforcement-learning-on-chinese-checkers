@@ -210,10 +210,10 @@ class BatchedAlphaZeroMCTS:
             current = current.parent
 
     def run(self, env) -> MCTSNode:
-        """Run batched MCTS — dispatches to two_player or legacy."""
-        if self.two_player and hasattr(env, '_board') and env._board is not None \
-                and env._OPPONENT_COLOUR in env._board.pins:
-            return self._run_two_player(env)
+        """Run batched MCTS using the legacy single-player tree.
+
+        Opponent responses are modeled via opponent_policy (if set).
+        """
         return self._run_legacy(env)
 
     def _run_two_player(self, env) -> MCTSNode:

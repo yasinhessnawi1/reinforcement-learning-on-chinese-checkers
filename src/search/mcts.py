@@ -969,24 +969,16 @@ class AlphaZeroMCTS:
             current = current.parent
 
     def run(self, env) -> MCTSNode:
-        """Run MCTS simulations — dispatches to two_player or legacy mode."""
-        if self.two_player and not env._no_opponent or (
-            self.two_player and hasattr(env, '_board') and env._board is not None
-            and env._OPPONENT_COLOUR in env._board.pins
-        ):
-            # Two-player mode: both colours must be on the board
-            board = env._board
-            mapper = env._mapper
-            encoder = env._encoder
-            root_colour = env._AGENT_COLOUR
-            turn_order = env._TURN_ORDER
-            step_count = env._step_count
-            max_steps = env.max_steps
-            return self.run_two_player(
-                board, mapper, encoder, root_colour, turn_order,
-                step_count, max_steps,
-            )
+        """Run MCTS simulations using the legacy single-player tree.
 
+        If opponent_policy is set, opponent responses are applied after each
+        agent move in the tree via _apply_opponent_move. This models blocking
+        without requiring alternating-perspective evaluation.
+
+        The two_player mode (run_two_player) is available for direct calls
+        but not used by default — it requires the network to evaluate from
+        both perspectives, which needs symmetric training data.
+        """
         root = MCTSNode(parent=None, action=None, prior=1.0)
         min_max = MinMaxStats()
 
