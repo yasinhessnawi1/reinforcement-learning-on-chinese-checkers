@@ -41,15 +41,19 @@ class TrainingConfig:
 
     # Self-play
     self_play: SelfPlayConfig = field(default_factory=SelfPlayConfig)
-    games_per_iteration: int = 100
+    games_per_iteration: int = 40
 
-    # Training
+    # Training — conservative defaults for warm-start fine-tuning.
+    # The warm-start model is already strong; aggressive training destroys it.
     batch_size: int = 256
-    epochs_per_iteration: int = 10
+    epochs_per_iteration: int = 3        # was 10 — fewer epochs prevents memorizing noisy MCTS
     replay_buffer_size: int = 50_000
-    lr: float = 1e-3
-    lr_decay: float = 0.99           # per iteration
+    lr: float = 2e-4                     # was 1e-3 — 5x lower to avoid catastrophic forgetting
+    lr_decay: float = 0.995              # was 0.99 — slower decay
     weight_decay: float = 1e-4
+
+    # Loss weighting
+    value_loss_weight: float = 0.5   # scale value loss down (weak signal from truncated games)
 
     # Evaluation
     eval_games: int = 20
@@ -61,11 +65,14 @@ class TrainingConfig:
     per_beta_start: float = 0.4
 
     # Opponent curriculum (fractions must sum to ~1.0; ignored if use_curriculum=False)
-    use_curriculum: bool = False
+    # Default: curriculum ON, playing against heuristic opponents.
+    # Pure self-play is excluded — both sides use the same weak network,
+    # producing low-quality data. Greedy+advanced provide strong blocking.
+    use_curriculum: bool = True
     curriculum_mix: dict = field(default_factory=lambda: {
-        "greedy": 0.35,
-        "advanced": 0.40,
-        "self_play": 0.25,
+        "greedy": 0.50,
+        "advanced": 0.50,
+        "self_play": 0.0,
     })
 
     # Loop
@@ -565,7 +572,7 @@ def train_alphazero(
 
     replay_buffer = ReplayBuffer(
         config.replay_buffer_size,
-        reservoir_ratio=0.05 if warmstart_data_path else 0.0,
+        reservoir_ratio=0.20 if warmstart_data_path else 0.0,
         use_per=config.use_per,
         per_alpha=config.per_alpha,
         per_beta_start=config.per_beta_start,
@@ -724,7 +731,8 @@ def train_alphazero(
                     config.batch_size
                 )
                 losses = current_net.train_step(
-                    obs_b, mask_b, policy_b, value_b, optimizer
+                    obs_b, mask_b, policy_b, value_b, optimizer,
+                    value_loss_weight=config.value_loss_weight,
                 )
                 for k in epoch_loss:
                     epoch_loss[k] += losses[k]

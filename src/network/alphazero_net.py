@@ -168,8 +168,9 @@ class AlphaZeroNet:
         target_value: np.ndarray,
         optimizer: torch.optim.Optimizer,
         target_pins_in_goal: np.ndarray | None = None,
+        value_loss_weight: float = 1.0,
     ) -> dict[str, float]:
-        """One training step: CE(policy) + MSE(value) + optional auxiliary loss.
+        """One training step: CE(policy) + value_loss_weight*MSE(value) + optional auxiliary loss.
 
         Parameters
         ----------
@@ -179,6 +180,7 @@ class AlphaZeroNet:
         target_value : (B,) — game outcomes in [-1, 1]
         optimizer : torch.optim.Optimizer
         target_pins_in_goal : (B,) or None — normalized pins in goal [0, 1]
+        value_loss_weight : float — scale value loss (default 1.0, use <1 for weak value signal)
 
         Returns
         -------
@@ -215,8 +217,8 @@ class AlphaZeroNet:
         # Value loss: MSE between predicted value and game outcome
         value_loss = F.mse_loss(values.squeeze(-1), target_v)
 
-        # Combined loss
-        total_loss = policy_loss + value_loss
+        # Combined loss — value loss scaled down when signal is weak
+        total_loss = policy_loss + value_loss_weight * value_loss
 
         result = {
             "policy_loss": policy_loss.item(),

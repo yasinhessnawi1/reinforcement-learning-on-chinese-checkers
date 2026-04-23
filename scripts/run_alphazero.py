@@ -220,6 +220,7 @@ def cmd_train(args):
         replay_buffer_size=args.buffer_size,
         lr=args.lr,
         lr_decay=args.lr_decay,
+        value_loss_weight=args.value_loss_weight,
         num_iterations=args.iterations,
         eval_games=args.eval_games,
         win_threshold=args.win_threshold,
@@ -487,19 +488,21 @@ def main():
     tr = subparsers.add_parser("train", help="Run AlphaZero training loop")
     tr.add_argument("--resume", type=str, default=None, help="Checkpoint to resume from")
     tr.add_argument("--mcts", type=str, default="puct", choices=["puct", "gumbel", "batched"])
-    tr.add_argument("--sims", type=int, default=50, help="MCTS simulations per move")
-    tr.add_argument("--mcts-batch-size", type=int, default=8,
-                    help="Leaf batch size for batched MCTS")
+    tr.add_argument("--sims", type=int, default=200, help="MCTS simulations per move")
+    tr.add_argument("--mcts-batch-size", type=int, default=16,
+                    help="Leaf batch size for batched MCTS (default 16, increase for big GPUs)")
     tr.add_argument("--c-puct", type=float, default=1.5)
     tr.add_argument("--dirichlet-alpha", type=float, default=0.3)
     tr.add_argument("--dirichlet-epsilon", type=float, default=0.25)
     tr.add_argument("--temp-moves", type=int, default=30)
     tr.add_argument("--max-moves", type=int, default=100)
     tr.add_argument("--heuristic-value", action="store_true")
-    tr.add_argument("--batched-mcts-selfplay", action="store_true",
-                    help="Use batched MCTS for self-play data generation (2-4x faster on GPU)")
-    tr.add_argument("--value-target-lambda", type=float, default=0.6,
-                    help="Blend: lambda*game_outcome + (1-lambda)*mcts_value (default 0.6)")
+    tr.add_argument("--batched-mcts-selfplay", action="store_true", default=True,
+                    help="Use batched MCTS for self-play (default: ON, 4-8x faster on GPU)")
+    tr.add_argument("--no-batched-mcts", dest="batched_mcts_selfplay", action="store_false",
+                    help="Disable batched MCTS, use single-inference MCTS")
+    tr.add_argument("--value-target-lambda", type=float, default=0.8,
+                    help="Blend: lambda*game_outcome + (1-lambda)*mcts_value (default 0.8)")
     tr.add_argument("--entropy-routing", action="store_true",
                     help="Search MoE: route MCTS depth by policy entropy")
     tr.add_argument("--entropy-low", type=float, default=0.5,
@@ -509,12 +512,14 @@ def main():
     tr.add_argument("--deep-sims-multiplier", type=int, default=3,
                     help="Sim multiplier for high-entropy positions (default 3)")
     tr.add_argument("--no-augment", action="store_true")
-    tr.add_argument("--games-per-iter", type=int, default=100)
+    tr.add_argument("--games-per-iter", type=int, default=40)
     tr.add_argument("--batch-size", type=int, default=256)
-    tr.add_argument("--epochs-per-iter", type=int, default=10)
+    tr.add_argument("--epochs-per-iter", type=int, default=3)
     tr.add_argument("--buffer-size", type=int, default=50000)
-    tr.add_argument("--lr", type=float, default=1e-3)
-    tr.add_argument("--lr-decay", type=float, default=0.99)
+    tr.add_argument("--lr", type=float, default=2e-4)
+    tr.add_argument("--lr-decay", type=float, default=0.995)
+    tr.add_argument("--value-loss-weight", type=float, default=0.5,
+                    help="Scale value loss (default 0.5, lower = trust policy more)")
     tr.add_argument("--iterations", type=int, default=30)
     tr.add_argument("--eval-games", type=int, default=20)
     tr.add_argument("--win-threshold", type=float, default=0.55)
@@ -531,14 +536,16 @@ def main():
                     help="PER priority exponent (default 0.6)")
     tr.add_argument("--per-beta-start", type=float, default=0.4,
                     help="PER importance-sampling start beta (default 0.4)")
-    tr.add_argument("--curriculum", action="store_true",
-                    help="Use opponent curriculum (mixed greedy/advanced/self-play)")
-    tr.add_argument("--curriculum-greedy", type=float, default=0.35,
-                    help="Fraction of curriculum games vs greedy (default 0.35)")
-    tr.add_argument("--curriculum-advanced", type=float, default=0.40,
-                    help="Fraction of curriculum games vs advanced (default 0.40)")
-    tr.add_argument("--curriculum-selfplay", type=float, default=0.25,
-                    help="Fraction of curriculum games as self-play (default 0.25)")
+    tr.add_argument("--curriculum", action="store_true", default=True,
+                    help="Use opponent curriculum (default: ON)")
+    tr.add_argument("--no-curriculum", dest="curriculum", action="store_false",
+                    help="Disable curriculum, use pure self-play")
+    tr.add_argument("--curriculum-greedy", type=float, default=0.50,
+                    help="Fraction of curriculum games vs greedy (default 0.50)")
+    tr.add_argument("--curriculum-advanced", type=float, default=0.50,
+                    help="Fraction of curriculum games vs advanced (default 0.50)")
+    tr.add_argument("--curriculum-selfplay", type=float, default=0.0,
+                    help="Fraction of curriculum games as self-play (default 0.0)")
     _add_arch_args(tr)
     tr.add_argument("--cpu", action="store_true")
 
