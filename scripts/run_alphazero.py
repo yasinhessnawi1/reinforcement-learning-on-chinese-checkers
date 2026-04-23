@@ -221,6 +221,7 @@ def cmd_train(args):
         lr=args.lr,
         lr_decay=args.lr_decay,
         value_loss_weight=args.value_loss_weight,
+        num_workers=args.num_workers,
         num_iterations=args.iterations,
         eval_games=args.eval_games,
         win_threshold=args.win_threshold,
@@ -239,6 +240,8 @@ def cmd_train(args):
     print(f"  MCTS: {args.mcts} with {args.sims} simulations"
           f"{' (batched, batch_size=' + str(args.mcts_batch_size) + ')' if args.batched_mcts_selfplay else ''}")
     print(f"  Games/iteration: {args.games_per_iter}")
+    workers_str = f"{args.num_workers}" if args.num_workers > 0 else "auto"
+    print(f"  Parallel workers: {workers_str}")
     print(f"  Iterations: {args.iterations}")
     if args.curriculum:
         print(f"  Curriculum: greedy={args.curriculum_greedy:.0%}, "
@@ -521,6 +524,8 @@ def main():
     tr.add_argument("--value-loss-weight", type=float, default=0.5,
                     help="Scale value loss (default 0.5, lower = trust policy more)")
     tr.add_argument("--iterations", type=int, default=30)
+    tr.add_argument("--num-workers", type=int, default=0,
+                    help="Parallel game workers (0=auto, 1=serial). Uses ProcessPoolExecutor.")
     tr.add_argument("--eval-games", type=int, default=20)
     tr.add_argument("--win-threshold", type=float, default=0.55)
     tr.add_argument("--checkpoint-dir", type=str, default="experiments/exp_d1_alphazero")

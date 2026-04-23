@@ -26,7 +26,11 @@ from src.training.alphazero_self_play import (
     generate_self_play_data,
     play_one_game,
 )
-from src.training.true_self_play import generate_true_self_play_data, generate_curriculum_data
+from src.training.true_self_play import (
+    generate_true_self_play_data,
+    generate_curriculum_data,
+    generate_curriculum_data_parallel,
+)
 from src.search.mcts import AlphaZeroMCTS
 from src.evaluation.arena import play_game, arena_summary
 from src.agents.greedy_agent import greedy_policy
@@ -74,6 +78,9 @@ class TrainingConfig:
         "advanced": 0.50,
         "self_play": 0.0,
     })
+
+    # Parallelism
+    num_workers: int = 0                # 0 = auto (cpu_count - 1), 1 = serial
 
     # Loop
     num_iterations: int = 30
@@ -622,6 +629,15 @@ def train_alphazero(
     def _run_self_play(network, config, use_curriculum, use_true_self_play, verbose=True):
         """Run self-play data generation (can be called from main or background thread)."""
         if use_curriculum:
+            if config.num_workers != 1:
+                return generate_curriculum_data_parallel(
+                    network=network,
+                    num_games=config.games_per_iteration,
+                    opponent_mix=config.curriculum_mix,
+                    config=config.self_play,
+                    num_workers=config.num_workers,
+                    verbose=verbose,
+                )
             return generate_curriculum_data(
                 network=network,
                 num_games=config.games_per_iteration,

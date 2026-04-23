@@ -11,10 +11,17 @@ Key differences from the original:
   3. Value targets are perspective-correct: +1 for winner, -1 for loser.
   4. No env.step() — we apply moves directly on the board to avoid
      the single-agent assumption baked into ChineseCheckersEnv.
+
+Supports parallel game generation via ProcessPoolExecutor for multi-core
+servers. Each worker loads a fresh network from shared state_dict bytes,
+avoiding PyTorch pickling issues.
 """
 
+import io
 import math
+import os
 import numpy as np
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass
 from typing import Optional
 
@@ -727,6 +734,203 @@ def generate_curriculum_data(
             total_played += s["played"]
             total_discarded += s["discarded"]
         print(f"  Curriculum complete: {total_played} games, "
+              f"{len(all_samples)} samples, "
+              f"{total_discarded} discarded [{', '.join(parts)}]")
+
+    return all_samples
+
+
+# ---------------------------------------------------------------------------
+# Parallel game generation via ProcessPoolExecutor
+# ---------------------------------------------------------------------------
+
+def _worker_play_game(
+    model_state_bytes: bytes,
+    net_config_dict: dict,
+    sp_config_dict: dict,
+    opp_type: str,
+) -> list[dict] | None:
+    """Worker function: loads network from bytes, plays one game, returns raw sample dicts.
+
+    Runs in a subprocess. Returns list of dicts (numpy arrays + float) which
+    are picklable, or None for discarded games.
+    """
+    import torch
+    from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
+
+    # Reconstruct network in this process (CPU — avoids GPU contention)
+    nc = NetworkConfig(**net_config_dict)
+    net = AlphaZeroNet(nc, device="cpu")
+    state_dict = torch.load(io.BytesIO(model_state_bytes), map_location="cpu", weights_only=True)
+    net.model.load_state_dict(state_dict)
+    net.model.eval()
+
+    # Reconstruct SelfPlayConfig
+    config = SelfPlayConfig(**sp_config_dict)
+
+    if opp_type == "self_play":
+        samples = play_one_game_true_selfplay(network=net, config=config)
+    else:
+        from src.agents.greedy_agent import greedy_policy
+        from src.agents.advanced_heuristic import advanced_heuristic_policy
+        opp_policies = {"greedy": greedy_policy, "advanced": advanced_heuristic_policy}
+        samples = play_one_game_vs_heuristic(
+            network=net, opponent_policy_fn=opp_policies[opp_type], config=config,
+        )
+
+    if not samples:
+        return None
+
+    return [
+        {
+            "obs": s.obs,
+            "action_mask": s.action_mask,
+            "policy_target": s.policy_target,
+            "value_target": s.value_target,
+        }
+        for s in samples
+    ]
+
+
+def _serialize_model_weights(network) -> bytes:
+    """Serialize model state_dict to bytes for passing to worker processes."""
+    import torch
+    buf = io.BytesIO()
+    torch.save(network.model.state_dict(), buf)
+    return buf.getvalue()
+
+
+def _net_config_to_dict(config) -> dict:
+    """Convert NetworkConfig to a plain dict for pickling."""
+    from dataclasses import asdict
+    return asdict(config)
+
+
+def _sp_config_to_dict(config: SelfPlayConfig) -> dict:
+    """Convert SelfPlayConfig to a plain dict for pickling."""
+    from dataclasses import asdict
+    return asdict(config)
+
+
+def generate_curriculum_data_parallel(
+    network,
+    num_games: int,
+    opponent_mix: dict[str, float],
+    config: SelfPlayConfig = SelfPlayConfig(),
+    num_workers: int = 0,
+    verbose: bool = True,
+) -> list[TrainingSample]:
+    """Generate curriculum data using multiple processes.
+
+    Each worker gets a copy of the model weights (serialized to bytes),
+    reconstructs the network on CPU, and plays one game independently.
+
+    Parameters
+    ----------
+    network : AlphaZeroNet
+    num_games : int
+    opponent_mix : dict[str, float]
+    config : SelfPlayConfig
+    num_workers : int
+        Number of parallel workers. 0 = auto (min(num_games, cpu_count - 1)).
+    verbose : bool
+
+    Returns
+    -------
+    list[TrainingSample]
+    """
+    if num_workers <= 0:
+        num_workers = min(num_games, max(1, os.cpu_count() - 1))
+
+    # For very few games or if parallelism isn't worth it, fall back to serial
+    if num_workers <= 1 or num_games <= 2:
+        return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
+
+    # Serialize model weights once (shared across all workers)
+    if verbose:
+        print(f"  Parallel self-play: {num_workers} workers, serializing model...")
+    model_bytes = _serialize_model_weights(network)
+    net_config_dict = _net_config_to_dict(network.config)
+
+    # Force CPU + non-batched MCTS for workers (each worker is CPU-only)
+    sp_dict = _sp_config_to_dict(config)
+    sp_dict["use_batched_mcts"] = False
+
+    # Build task list
+    tasks: list[str] = []
+    game_counts: dict[str, int] = {}
+    remaining = num_games
+    for opp_type, fraction in sorted(opponent_mix.items(), key=lambda x: x[1]):
+        count = max(1, int(num_games * fraction)) if fraction > 0 else 0
+        game_counts[opp_type] = min(count, remaining)
+        remaining -= game_counts[opp_type]
+    if remaining > 0:
+        largest = max(opponent_mix, key=opponent_mix.get)
+        game_counts[largest] += remaining
+    for opp_type, count in game_counts.items():
+        tasks.extend([opp_type] * count)
+
+    if verbose:
+        counts_str = ", ".join(f"{k}={v}" for k, v in game_counts.items() if v > 0)
+        print(f"  Dispatching {len(tasks)} games ({counts_str}) to {num_workers} workers...")
+
+    all_samples: list[TrainingSample] = []
+    stats = {t: {"played": 0, "discarded": 0, "samples": 0, "wins": 0, "truncated": 0}
+             for t in game_counts}
+    completed = 0
+
+    with ProcessPoolExecutor(max_workers=num_workers) as executor:
+        futures = {
+            executor.submit(_worker_play_game, model_bytes, net_config_dict, sp_dict, opp_type): opp_type
+            for opp_type in tasks
+        }
+
+        for future in as_completed(futures):
+            opp_type = futures[future]
+            completed += 1
+            try:
+                result = future.result()
+            except Exception as e:
+                if verbose:
+                    print(f"  Worker error ({opp_type}): {e}")
+                stats[opp_type]["discarded"] += 1
+                continue
+
+            if result is None:
+                stats[opp_type]["discarded"] += 1
+            else:
+                samples = [
+                    TrainingSample(
+                        obs=d["obs"],
+                        action_mask=d["action_mask"],
+                        policy_target=d["policy_target"],
+                        value_target=d["value_target"],
+                    )
+                    for d in result
+                ]
+                all_samples.extend(samples)
+                stats[opp_type]["played"] += 1
+                stats[opp_type]["samples"] += len(samples)
+                val = samples[0].value_target
+                if abs(val) > 0.5:
+                    stats[opp_type]["wins"] += 1
+                else:
+                    stats[opp_type]["truncated"] += 1
+
+            if verbose and completed % 5 == 0:
+                print(f"  Progress: {completed}/{len(tasks)} games, {len(all_samples)} samples")
+
+    if verbose:
+        parts = []
+        total_played = 0
+        total_discarded = 0
+        for opp_type, s in stats.items():
+            if game_counts.get(opp_type, 0) > 0:
+                parts.append(f"{opp_type}={s['played']}g/{s['samples']}s"
+                             f"(W{s['wins']}/T{s['truncated']})")
+            total_played += s["played"]
+            total_discarded += s["discarded"]
+        print(f"  Parallel curriculum complete: {total_played} games, "
               f"{len(all_samples)} samples, "
               f"{total_discarded} discarded [{', '.join(parts)}]")
 
