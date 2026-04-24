@@ -744,6 +744,15 @@ def generate_curriculum_data(
 # Parallel game generation via ProcessPoolExecutor
 # ---------------------------------------------------------------------------
 
+def _worker_init() -> None:
+    """Initializer called once per worker process before any tasks.
+
+    Sets CUDA_VISIBLE_DEVICES="" BEFORE torch is imported so CUDA
+    is never initialized in worker processes.
+    """
+    os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
+
 def _worker_play_game(
     model_state_bytes: bytes,
     net_config_dict: dict,
@@ -755,7 +764,7 @@ def _worker_play_game(
     Runs in a subprocess. Returns list of dicts (numpy arrays + float) which
     are picklable, or None for discarded games.
     """
-    # Hide CUDA from workers — prevents CUDA init issues on fork/spawn
+    # Belt-and-suspenders: also set here in case initializer didn't run
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
     import torch
     from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
@@ -843,6 +852,8 @@ def generate_curriculum_data_parallel(
     """
     if num_workers <= 0:
         num_workers = min(num_games, max(1, os.cpu_count() - 1))
+    # Cap workers — too many processes loading models causes memory/startup issues
+    num_workers = min(num_workers, 16)
 
     # For very few games or if parallelism isn't worth it, fall back to serial
     if num_workers <= 1 or num_games <= 2:
@@ -853,9 +864,22 @@ def generate_curriculum_data_parallel(
     import multiprocessing as mp
     mp_context = mp.get_context("spawn")
 
+    # Smoke-test: spawn one trivial worker to verify multiprocessing works.
+    # If this hangs or fails, fall back to serial immediately.
+    try:
+        with ProcessPoolExecutor(max_workers=1, mp_context=mp_context, initializer=_worker_init) as test_pool:
+            ping = test_pool.submit(os.getpid)
+            ping.result(timeout=30)  # 30s to spawn one process
+        if verbose:
+            print("  Multiprocessing smoke-test passed.", flush=True)
+    except Exception as e:
+        if verbose:
+            print(f"  Multiprocessing smoke-test FAILED ({e}), falling back to serial.", flush=True)
+        return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
+
     # Serialize model weights once (shared across all workers)
     if verbose:
-        print(f"  Parallel self-play: {num_workers} workers, serializing model...")
+        print(f"  Parallel self-play: {num_workers} workers, serializing model...", flush=True)
     model_bytes = _serialize_model_weights(network)
     net_config_dict = _net_config_to_dict(network.config)
 
@@ -879,14 +903,18 @@ def generate_curriculum_data_parallel(
 
     if verbose:
         counts_str = ", ".join(f"{k}={v}" for k, v in game_counts.items() if v > 0)
-        print(f"  Dispatching {len(tasks)} games ({counts_str}) to {num_workers} workers...")
+        print(f"  Dispatching {len(tasks)} games ({counts_str}) to {num_workers} workers...", flush=True)
 
     all_samples: list[TrainingSample] = []
     stats = {t: {"played": 0, "discarded": 0, "samples": 0, "wins": 0, "truncated": 0}
              for t in game_counts}
     completed = 0
 
-    with ProcessPoolExecutor(max_workers=num_workers, mp_context=mp_context) as executor:
+    with ProcessPoolExecutor(
+        max_workers=num_workers,
+        mp_context=mp_context,
+        initializer=_worker_init,
+    ) as executor:
         futures = {
             executor.submit(_worker_play_game, model_bytes, net_config_dict, sp_dict, opp_type): opp_type
             for opp_type in tasks
@@ -896,7 +924,13 @@ def generate_curriculum_data_parallel(
             opp_type = futures[future]
             completed += 1
             try:
-                result = future.result()
+                # 20 min timeout per game — prevents infinite hangs
+                result = future.result(timeout=1200)
+            except TimeoutError:
+                if verbose:
+                    print(f"  Worker TIMEOUT ({opp_type}): game took >20min, discarding")
+                stats[opp_type]["discarded"] += 1
+                continue
             except Exception as e:
                 if verbose:
                     print(f"  Worker error ({opp_type}): {e}")
@@ -925,7 +959,7 @@ def generate_curriculum_data_parallel(
                     stats[opp_type]["truncated"] += 1
 
             if verbose and completed % 5 == 0:
-                print(f"  Progress: {completed}/{len(tasks)} games, {len(all_samples)} samples")
+                print(f"  Progress: {completed}/{len(tasks)} games, {len(all_samples)} samples", flush=True)
 
     if verbose:
         parts = []
