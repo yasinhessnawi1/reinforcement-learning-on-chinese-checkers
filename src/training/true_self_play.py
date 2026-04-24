@@ -755,6 +755,8 @@ def _worker_play_game(
     Runs in a subprocess. Returns list of dicts (numpy arrays + float) which
     are picklable, or None for discarded games.
     """
+    # Hide CUDA from workers — prevents CUDA init issues on fork/spawn
+    os.environ["CUDA_VISIBLE_DEVICES"] = ""
     import torch
     from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
 
