@@ -753,6 +753,20 @@ def _worker_init() -> None:
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 
+def _worker_smoke_test() -> int:
+    """Heavy smoke-test: imports everything the real worker needs.
+
+    If this hangs, the real workers will too — lets us detect the issue
+    during method selection rather than mid-training.
+    """
+    os.environ["CUDA_VISIBLE_DEVICES"] = ""
+    import torch  # noqa: F401
+    from src.network.alphazero_net import AlphaZeroNet, NetworkConfig  # noqa: F401
+    from src.agents.greedy_agent import greedy_policy  # noqa: F401
+    from src.agents.advanced_heuristic import advanced_heuristic_policy  # noqa: F401
+    return os.getpid()
+
+
 def _worker_play_game(
     model_state_bytes: bytes,
     net_config_dict: dict,
@@ -859,22 +873,50 @@ def generate_curriculum_data_parallel(
     if num_workers <= 1 or num_games <= 2:
         return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
 
-    # Use 'spawn' context to avoid CUDA fork deadlocks on Linux.
-    # 'spawn' creates fresh processes (no inherited CUDA state).
+    # Pick a multiprocessing start method.  We try several because:
+    #   - 'spawn' is safest (no inherited CUDA state) but hangs on some
+    #     JupyterHub / cgroup-restricted servers during heavy imports.
+    #   - 'forkserver' forks from a clean server process — avoids CUDA
+    #     inheritance AND the heavy-import hang.
+    #   - 'fork' is fastest but can deadlock if CUDA was initialized in
+    #     the parent.  Our workers set CUDA_VISIBLE_DEVICES="" and import
+    #     torch fresh, so fork is safe here since top-level imports don't
+    #     pull in torch.
     import multiprocessing as mp
-    mp_context = mp.get_context("spawn")
+    import platform
 
-    # Smoke-test: spawn one trivial worker to verify multiprocessing works.
-    # If this hangs or fails, fall back to serial immediately.
-    try:
-        with ProcessPoolExecutor(max_workers=1, mp_context=mp_context, initializer=_worker_init) as test_pool:
-            ping = test_pool.submit(os.getpid)
-            ping.result(timeout=30)  # 30s to spawn one process
+    mp_context = None
+    if platform.system() != "Windows":
+        # On Linux/Mac try forkserver first, then fork, then spawn
+        for method in ("forkserver", "fork", "spawn"):
+            try:
+                ctx = mp.get_context(method)
+                with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init) as test_pool:
+                    ping = test_pool.submit(_worker_smoke_test)
+                    ping.result(timeout=30)
+                mp_context = ctx
+                if verbose:
+                    print(f"  Multiprocessing: using '{method}' (smoke-test passed).", flush=True)
+                break
+            except Exception:
+                if verbose:
+                    print(f"  Multiprocessing: '{method}' failed, trying next...", flush=True)
+    else:
+        # Windows only supports spawn
+        try:
+            ctx = mp.get_context("spawn")
+            with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init) as test_pool:
+                ping = test_pool.submit(_worker_smoke_test)
+                ping.result(timeout=30)
+            mp_context = ctx
+            if verbose:
+                print("  Multiprocessing: using 'spawn' (smoke-test passed).", flush=True)
+        except Exception:
+            pass
+
+    if mp_context is None:
         if verbose:
-            print("  Multiprocessing smoke-test passed.", flush=True)
-    except Exception as e:
-        if verbose:
-            print(f"  Multiprocessing smoke-test FAILED ({e}), falling back to serial.", flush=True)
+            print("  All multiprocessing methods failed, falling back to serial.", flush=True)
         return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
 
     # Serialize model weights once (shared across all workers)
