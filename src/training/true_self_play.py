@@ -386,7 +386,7 @@ def play_one_game_true_selfplay(
                 kl = 0.0
             # Skip samples where MCTS barely changed the policy (KL < 0.1)
             # These are positions where MCTS confirms the prior — no learning signal.
-            if kl < 0.1:
+            if kl < 0.5:
                 continue
 
         samples.append(TrainingSample(
@@ -608,7 +608,7 @@ def play_one_game_vs_heuristic(
                 kl = np.sum(mcts_policy[valid] * np.log(mcts_policy[valid] / raw_policy[valid]))
             else:
                 kl = 0.0
-            if kl < 0.1:
+            if kl < 0.5:
                 continue
 
         samples.append(TrainingSample(
@@ -846,6 +846,11 @@ def generate_curriculum_data_parallel(
     if num_workers <= 1 or num_games <= 2:
         return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
 
+    # Use 'spawn' context to avoid CUDA fork deadlocks on Linux.
+    # 'spawn' creates fresh processes (no inherited CUDA state).
+    import multiprocessing as mp
+    mp_context = mp.get_context("spawn")
+
     # Serialize model weights once (shared across all workers)
     if verbose:
         print(f"  Parallel self-play: {num_workers} workers, serializing model...")
@@ -879,7 +884,7 @@ def generate_curriculum_data_parallel(
              for t in game_counts}
     completed = 0
 
-    with ProcessPoolExecutor(max_workers=num_workers) as executor:
+    with ProcessPoolExecutor(max_workers=num_workers, mp_context=mp_context) as executor:
         futures = {
             executor.submit(_worker_play_game, model_bytes, net_config_dict, sp_dict, opp_type): opp_type
             for opp_type in tasks

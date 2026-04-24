@@ -779,14 +779,17 @@ def train_alphazero(
         print(f"\n[3/3] Evaluating...")
         eval_start = time.time()
 
-        # Raw policy eval: fast, stable, and reliable for tracking progress.
-        # MCTS eval (16-sim) was tested but proved too noisy at low sim counts
-        # and actually weaker than raw policy for sharp warm-started models.
+        # MCTS eval: the network is trained to produce MCTS-compatible priors,
+        # not sharp argmax policies. Raw policy eval penalizes the softer
+        # distributions that MCTS training produces. Use MCTS eval to measure
+        # actual play strength (what matters at tournament time).
+        eval_sims = 50  # fast eval, not full 200
         eval_results = evaluate_model(
             current_net,
             num_games=config.eval_games,
             max_steps=300,
-            use_mcts=False,
+            use_mcts=True,
+            mcts_sims=eval_sims,
             use_heuristic_value=config.self_play.use_heuristic_value,
         )
 
@@ -796,7 +799,7 @@ def train_alphazero(
         eval_time = time.time() - eval_start
 
         eval_n = config.eval_games
-        print(f"  [Raw policy eval, {eval_n} games each]")
+        print(f"  [MCTS eval ({eval_sims} sims), {eval_n} games each]")
         print(f"  vs Random:   pins={vs_random['avg_pins_in_goal']:.1f}, "
               f"score={vs_random['avg_tournament_score']:.1f}, "
               f"wins={vs_random['agent_wins']}/{eval_n}")
@@ -808,10 +811,10 @@ def train_alphazero(
               f"wins={vs_advanced['agent_wins']}/{eval_n}")
         print(f"  Eval time: {eval_time:.1f}s")
 
-        # Compare with best model using raw policy (fast, consistent with eval)
+        # Compare with best model using MCTS (consistent with eval)
         win_rate = _compare_models(
             current_net, best_net, num_games=10, max_steps=300,
-            mcts_sims=0, use_heuristic_value=config.self_play.use_heuristic_value,
+            mcts_sims=eval_sims, use_heuristic_value=config.self_play.use_heuristic_value,
             use_batched_mcts=False, mcts_batch_size=8,
         )
         print(f"  vs Best model: win_rate={win_rate:.2f}")
