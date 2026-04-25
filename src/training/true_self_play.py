@@ -1121,27 +1121,30 @@ def generate_curriculum_data_subprocess(
             proc = subprocess.Popen(
                 cmd,
                 stdout=subprocess.DEVNULL,
-                stderr=subprocess.PIPE,
+                stderr=subprocess.DEVNULL,  # avoid pipe buffer deadlock
                 env={**os.environ, "CUDA_VISIBLE_DEVICES": ""},
             )
             procs.append((proc, opp_type, output_path))
 
-        # Wait for all in this wave
+        # Wait for all in this wave (they run in parallel)
+        wave_start_time = __import__("time").time()
+        # Timeout: generous per-game estimate (sims * max_moves * 0.5s + 60s startup)
+        wave_timeout = config.num_simulations * config.max_moves * 0.5 + 120
         for proc, opp_type, output_path in procs:
+            remaining_timeout = max(60, wave_timeout - (__import__("time").time() - wave_start_time))
             try:
-                _, stderr = proc.communicate(timeout=1800)  # 30 min timeout
+                proc.wait(timeout=remaining_timeout)
             except subprocess.TimeoutExpired:
                 proc.kill()
                 if verbose:
-                    print(f"  Worker TIMEOUT ({opp_type})", flush=True)
+                    print(f"  Worker TIMEOUT ({opp_type}, >{remaining_timeout:.0f}s)", flush=True)
                 stats[opp_type]["discarded"] += 1
                 completed += 1
                 continue
 
             if proc.returncode != 0:
                 if verbose:
-                    err_msg = stderr.decode()[-200:] if stderr else "unknown"
-                    print(f"  Worker error ({opp_type}): {err_msg}", flush=True)
+                    print(f"  Worker error ({opp_type}): rc={proc.returncode}", flush=True)
                 stats[opp_type]["discarded"] += 1
                 completed += 1
                 continue
