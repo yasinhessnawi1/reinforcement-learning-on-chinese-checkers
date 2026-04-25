@@ -224,6 +224,8 @@ def cmd_train(args):
         num_workers=args.num_workers,
         num_iterations=args.iterations,
         eval_games=args.eval_games,
+        eval_interval=args.eval_interval,
+        eval_sims=args.eval_sims,
         win_threshold=args.win_threshold,
         checkpoint_dir=args.checkpoint_dir,
         device=device,
@@ -243,6 +245,7 @@ def cmd_train(args):
     workers_str = f"{args.num_workers}" if args.num_workers > 0 else "auto"
     print(f"  Parallel workers: {workers_str}")
     print(f"  Iterations: {args.iterations}")
+    print(f"  Eval: every {args.eval_interval} iters, {args.eval_games} games, {args.eval_sims} sims")
     if args.curriculum:
         print(f"  Curriculum: greedy={args.curriculum_greedy:.0%}, "
               f"advanced={args.curriculum_advanced:.0%}, "
@@ -526,7 +529,11 @@ def main():
     tr.add_argument("--iterations", type=int, default=30)
     tr.add_argument("--num-workers", type=int, default=0,
                     help="Parallel game workers (0=auto, 1=serial). Uses ProcessPoolExecutor.")
-    tr.add_argument("--eval-games", type=int, default=20)
+    tr.add_argument("--eval-games", type=int, default=10)
+    tr.add_argument("--eval-interval", type=int, default=3,
+                    help="Run eval every N iterations (default 3)")
+    tr.add_argument("--eval-sims", type=int, default=25,
+                    help="MCTS sims for eval games (default 25)")
     tr.add_argument("--win-threshold", type=float, default=0.55)
     tr.add_argument("--checkpoint-dir", type=str, default="experiments/exp_d1_alphazero")
     tr.add_argument("--warmstart-data", type=str, default=None,

@@ -30,6 +30,7 @@ from src.training.true_self_play import (
     generate_true_self_play_data,
     generate_curriculum_data,
     generate_curriculum_data_parallel,
+    generate_curriculum_data_subprocess,
 )
 from src.search.mcts import AlphaZeroMCTS
 from src.evaluation.arena import play_game, arena_summary
@@ -60,7 +61,9 @@ class TrainingConfig:
     value_loss_weight: float = 0.5   # scale value loss down (weak signal from truncated games)
 
     # Evaluation
-    eval_games: int = 20
+    eval_games: int = 10
+    eval_interval: int = 3           # evaluate every N iterations (saves ~50% time)
+    eval_sims: int = 25              # MCTS sims for eval (lower = faster)
     win_threshold: float = 0.55      # new model must win >55% to replace
 
     # Prioritized Experience Replay
@@ -625,6 +628,7 @@ def train_alphazero(
         print(f"  Endgame pool seeded with {len(endgame_samples)} samples (10% of batches)")
 
     training_log: list[dict] = []
+    best_greedy_pins: float = 0.0  # track best model by greedy eval pins
 
     def _run_self_play(network, config, use_curriculum, use_true_self_play, verbose=True):
         """Run self-play data generation (can be called from main or background thread)."""
@@ -775,60 +779,59 @@ def train_alphazero(
               f"lr={scheduler.get_last_lr()[0]:.6f}, "
               f"time: {train_time:.1f}s")
 
-        # ----- 3. Evaluation -----
-        print(f"\n[3/3] Evaluating...")
-        eval_start = time.time()
+        # ----- 3. Evaluation (every N iterations) -----
+        run_eval = (iteration % config.eval_interval == 0) or (iteration == config.num_iterations)
+        eval_time = 0.0
+        eval_results = None
+        win_rate = 0.0
 
-        # MCTS eval: the network is trained to produce MCTS-compatible priors,
-        # not sharp argmax policies. Raw policy eval penalizes the softer
-        # distributions that MCTS training produces. Use MCTS eval to measure
-        # actual play strength (what matters at tournament time).
-        eval_sims = 50  # fast eval, not full 200
-        eval_results = evaluate_model(
-            current_net,
-            num_games=config.eval_games,
-            max_steps=300,
-            use_mcts=True,
-            mcts_sims=eval_sims,
-            use_heuristic_value=config.self_play.use_heuristic_value,
-        )
+        if run_eval:
+            print(f"\n[3/3] Evaluating...")
+            eval_start = time.time()
 
-        vs_random = eval_results["vs_random"]
-        vs_greedy = eval_results["vs_greedy"]
-        vs_advanced = eval_results["vs_advanced"]
-        eval_time = time.time() - eval_start
-
-        eval_n = config.eval_games
-        print(f"  [MCTS eval ({eval_sims} sims), {eval_n} games each]")
-        print(f"  vs Random:   pins={vs_random['avg_pins_in_goal']:.1f}, "
-              f"score={vs_random['avg_tournament_score']:.1f}, "
-              f"wins={vs_random['agent_wins']}/{eval_n}")
-        print(f"  vs Greedy:   pins={vs_greedy['avg_pins_in_goal']:.1f}, "
-              f"score={vs_greedy['avg_tournament_score']:.1f}, "
-              f"wins={vs_greedy['agent_wins']}/{eval_n}")
-        print(f"  vs Advanced: pins={vs_advanced['avg_pins_in_goal']:.1f}, "
-              f"score={vs_advanced['avg_tournament_score']:.1f}, "
-              f"wins={vs_advanced['agent_wins']}/{eval_n}")
-        print(f"  Eval time: {eval_time:.1f}s")
-
-        # Compare with best model using MCTS (consistent with eval)
-        win_rate = _compare_models(
-            current_net, best_net, num_games=10, max_steps=300,
-            mcts_sims=eval_sims, use_heuristic_value=config.self_play.use_heuristic_value,
-            use_batched_mcts=False, mcts_batch_size=8,
-        )
-        print(f"  vs Best model: win_rate={win_rate:.2f}")
-
-        if win_rate > config.win_threshold:
-            print(f"  ** New best model! (win_rate {win_rate:.2f} > {config.win_threshold})")
-            best_net.copy_weights_from(current_net)
-            best_net.save_checkpoint(
-                checkpoint_dir / "best_model.pt",
-                iteration=iteration,
-                extra={"eval_results": eval_results, "win_rate": win_rate},
+            eval_sims = config.eval_sims
+            eval_results = evaluate_model(
+                current_net,
+                num_games=config.eval_games,
+                max_steps=300,
+                use_mcts=True,
+                mcts_sims=eval_sims,
+                use_heuristic_value=config.self_play.use_heuristic_value,
             )
+
+            vs_random = eval_results["vs_random"]
+            vs_greedy = eval_results["vs_greedy"]
+            vs_advanced = eval_results["vs_advanced"]
+            eval_time = time.time() - eval_start
+
+            eval_n = config.eval_games
+            print(f"  [MCTS eval ({eval_sims} sims), {eval_n} games each]")
+            print(f"  vs Random:   pins={vs_random['avg_pins_in_goal']:.1f}, "
+                  f"score={vs_random['avg_tournament_score']:.1f}, "
+                  f"wins={vs_random['agent_wins']}/{eval_n}")
+            print(f"  vs Greedy:   pins={vs_greedy['avg_pins_in_goal']:.1f}, "
+                  f"score={vs_greedy['avg_tournament_score']:.1f}, "
+                  f"wins={vs_greedy['agent_wins']}/{eval_n}")
+            print(f"  vs Advanced: pins={vs_advanced['avg_pins_in_goal']:.1f}, "
+                  f"score={vs_advanced['avg_tournament_score']:.1f}, "
+                  f"wins={vs_advanced['agent_wins']}/{eval_n}")
+            print(f"  Eval time: {eval_time:.1f}s")
+
+            # Track best model by greedy pins (most meaningful metric)
+            greedy_pins = vs_greedy["avg_pins_in_goal"]
+            if greedy_pins > best_greedy_pins:
+                print(f"  ** New best model! (greedy pins {greedy_pins:.1f} > {best_greedy_pins:.1f})")
+                best_greedy_pins = greedy_pins
+                best_net.copy_weights_from(current_net)
+                best_net.save_checkpoint(
+                    checkpoint_dir / "best_model.pt",
+                    iteration=iteration,
+                    extra={"eval_results": eval_results, "greedy_pins": greedy_pins},
+                )
+            else:
+                print(f"  Model not improved (greedy pins {greedy_pins:.1f} <= {best_greedy_pins:.1f})")
         else:
-            print(f"  Model not improved (win_rate {win_rate:.2f} <= {config.win_threshold})")
+            print(f"\n[3/3] Skipping eval (next eval at iteration {iteration + config.eval_interval - iteration % config.eval_interval})")
 
         # Save iteration checkpoint
         current_net.save_checkpoint(
@@ -843,22 +846,19 @@ def train_alphazero(
             "samples": len(samples),
             "buffer_size": len(replay_buffer),
             "avg_loss": avg_loss,
-            "vs_random_pins": vs_random["avg_pins_in_goal"],
-            "vs_random_score": vs_random["avg_tournament_score"],
-            "vs_random_wins": vs_random["agent_wins"],
-            "vs_greedy_pins": vs_greedy["avg_pins_in_goal"],
-            "vs_greedy_score": vs_greedy["avg_tournament_score"],
-            "vs_greedy_wins": vs_greedy["agent_wins"],
-            "vs_advanced_pins": vs_advanced["avg_pins_in_goal"],
-            "vs_advanced_score": vs_advanced["avg_tournament_score"],
-            "vs_advanced_wins": vs_advanced["agent_wins"],
-            "win_rate_vs_best": win_rate,
+            "eval_ran": run_eval,
             "lr": scheduler.get_last_lr()[0],
             "time_self_play": sp_time,
             "time_train": train_time,
             "time_eval": eval_time,
             "time_total": iter_time,
         }
+        if eval_results:
+            log_entry.update({
+                "vs_random_pins": eval_results["vs_random"]["avg_pins_in_goal"],
+                "vs_greedy_pins": eval_results["vs_greedy"]["avg_pins_in_goal"],
+                "vs_advanced_pins": eval_results["vs_advanced"]["avg_pins_in_goal"],
+            })
         training_log.append(log_entry)
 
         # Save training log

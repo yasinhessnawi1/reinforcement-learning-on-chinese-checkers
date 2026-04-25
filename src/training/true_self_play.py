@@ -916,8 +916,10 @@ def generate_curriculum_data_parallel(
 
     if mp_context is None:
         if verbose:
-            print("  All multiprocessing methods failed, falling back to serial.", flush=True)
-        return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
+            print("  All multiprocessing methods failed, trying subprocess-based parallelism...", flush=True)
+        return generate_curriculum_data_subprocess(
+            network, num_games, opponent_mix, config, num_workers, verbose,
+        )
 
     # Serialize model weights once (shared across all workers)
     if verbose:
@@ -1016,5 +1018,181 @@ def generate_curriculum_data_parallel(
         print(f"  Parallel curriculum complete: {total_played} games, "
               f"{len(all_samples)} samples, "
               f"{total_discarded} discarded [{', '.join(parts)}]")
+
+    return all_samples
+
+
+# ---------------------------------------------------------------------------
+# Subprocess-based parallel game generation (fallback for restricted containers)
+# ---------------------------------------------------------------------------
+
+def generate_curriculum_data_subprocess(
+    network,
+    num_games: int,
+    opponent_mix: dict[str, float],
+    config: SelfPlayConfig = SelfPlayConfig(),
+    num_workers: int = 0,
+    verbose: bool = True,
+) -> list[TrainingSample]:
+    """Generate curriculum data using subprocesses (not ProcessPoolExecutor).
+
+    Launches separate Python scripts via subprocess.Popen. Works in container
+    environments that block fork/spawn multiprocessing.
+
+    Each subprocess loads model weights from a temp file, plays one game on CPU,
+    and writes results to a temp .npz file.
+    """
+    import subprocess
+    import tempfile
+    import sys
+
+    if num_workers <= 0:
+        num_workers = min(num_games, max(1, os.cpu_count() - 1))
+    num_workers = min(num_workers, 16)
+
+    # Find worker script
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    worker_script = os.path.join(project_root, "scripts", "worker_play_game.py")
+    if not os.path.exists(worker_script):
+        if verbose:
+            print(f"  Worker script not found at {worker_script}, falling back to serial.", flush=True)
+        return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
+
+    # Save model weights to temp file
+    tmpdir = tempfile.mkdtemp(prefix="az_selfplay_")
+    model_path = os.path.join(tmpdir, "model_weights.pt")
+    import torch
+    torch.save(network.model.state_dict(), model_path)
+
+    if verbose:
+        print(f"  Subprocess parallel: {num_workers} workers, temp dir: {tmpdir}", flush=True)
+
+    # Build task list
+    tasks: list[str] = []
+    game_counts: dict[str, int] = {}
+    remaining = num_games
+    for opp_type, fraction in sorted(opponent_mix.items(), key=lambda x: x[1]):
+        count = max(1, int(num_games * fraction)) if fraction > 0 else 0
+        game_counts[opp_type] = min(count, remaining)
+        remaining -= game_counts[opp_type]
+    if remaining > 0:
+        largest = max(opponent_mix, key=opponent_mix.get)
+        game_counts[largest] += remaining
+    for opp_type, count in game_counts.items():
+        tasks.extend([opp_type] * count)
+
+    if verbose:
+        counts_str = ", ".join(f"{k}={v}" for k, v in game_counts.items() if v > 0)
+        print(f"  Dispatching {len(tasks)} games ({counts_str}) to {num_workers} workers...", flush=True)
+
+    # Build common args
+    net_cfg = network.config
+    common_args = [
+        "--num-blocks", str(net_cfg.num_blocks),
+        "--num-filters", str(net_cfg.num_filters),
+        "--in-channels", str(net_cfg.in_channels),
+        "--num-actions", str(net_cfg.num_actions),
+        "--sims", str(config.num_simulations),
+        "--batch-size", str(config.mcts_batch_size),
+    ]
+    if config.use_heuristic_value:
+        common_args.append("--heuristic-value")
+
+    python_exe = sys.executable
+
+    # Launch subprocesses in batches of num_workers
+    all_samples: list[TrainingSample] = []
+    stats = {t: {"played": 0, "discarded": 0, "samples": 0, "wins": 0, "truncated": 0}
+             for t in game_counts}
+    completed = 0
+
+    # Process in waves
+    for wave_start in range(0, len(tasks), num_workers):
+        wave_tasks = tasks[wave_start:wave_start + num_workers]
+        procs = []
+
+        for i, opp_type in enumerate(wave_tasks):
+            output_path = os.path.join(tmpdir, f"game_{wave_start + i}.npz")
+            cmd = [
+                python_exe, worker_script,
+                model_path, opp_type, output_path,
+            ] + common_args
+            proc = subprocess.Popen(
+                cmd,
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.PIPE,
+                env={**os.environ, "CUDA_VISIBLE_DEVICES": ""},
+            )
+            procs.append((proc, opp_type, output_path))
+
+        # Wait for all in this wave
+        for proc, opp_type, output_path in procs:
+            try:
+                _, stderr = proc.communicate(timeout=1800)  # 30 min timeout
+            except subprocess.TimeoutExpired:
+                proc.kill()
+                if verbose:
+                    print(f"  Worker TIMEOUT ({opp_type})", flush=True)
+                stats[opp_type]["discarded"] += 1
+                completed += 1
+                continue
+
+            if proc.returncode != 0:
+                if verbose:
+                    err_msg = stderr.decode()[-200:] if stderr else "unknown"
+                    print(f"  Worker error ({opp_type}): {err_msg}", flush=True)
+                stats[opp_type]["discarded"] += 1
+                completed += 1
+                continue
+
+            # Load results
+            try:
+                data = np.load(output_path)
+                if "empty" in data:
+                    stats[opp_type]["discarded"] += 1
+                else:
+                    n = len(data["value_target"])
+                    for j in range(n):
+                        all_samples.append(TrainingSample(
+                            obs=data["obs"][j],
+                            action_mask=data["action_mask"][j],
+                            policy_target=data["policy_target"][j],
+                            value_target=float(data["value_target"][j]),
+                        ))
+                    stats[opp_type]["played"] += 1
+                    stats[opp_type]["samples"] += n
+                    val = float(data["value_target"][0])
+                    if abs(val) > 0.5:
+                        stats[opp_type]["wins"] += 1
+                    else:
+                        stats[opp_type]["truncated"] += 1
+                data.close()
+            except Exception as e:
+                if verbose:
+                    print(f"  Failed to load result ({opp_type}): {e}", flush=True)
+                stats[opp_type]["discarded"] += 1
+
+            completed += 1
+
+        if verbose:
+            print(f"  Progress: {completed}/{len(tasks)} games, {len(all_samples)} samples", flush=True)
+
+    # Cleanup temp files
+    import shutil
+    shutil.rmtree(tmpdir, ignore_errors=True)
+
+    if verbose:
+        parts = []
+        total_played = 0
+        total_discarded = 0
+        for opp_type, s in stats.items():
+            if game_counts.get(opp_type, 0) > 0:
+                parts.append(f"{opp_type}={s['played']}g/{s['samples']}s"
+                             f"(W{s['wins']}/T{s['truncated']})")
+            total_played += s["played"]
+            total_discarded += s["discarded"]
+        print(f"  Subprocess curriculum complete: {total_played} games, "
+              f"{len(all_samples)} samples, "
+              f"{total_discarded} discarded [{', '.join(parts)}]", flush=True)
 
     return all_samples
