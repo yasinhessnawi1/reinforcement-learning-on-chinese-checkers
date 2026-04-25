@@ -50,6 +50,7 @@ def main():
     parser.add_argument("--sims", type=int, default=200)
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--heuristic-value", action="store_true")
+    parser.add_argument("--max-moves", type=int, default=100)
     args = parser.parse_args()
 
     # Build network on CPU
@@ -73,6 +74,7 @@ def main():
         use_batched_mcts=False,  # CPU workers use non-batched
         mcts_batch_size=args.batch_size,
         use_heuristic_value=args.heuristic_value,
+        max_moves=args.max_moves,
     )
 
     # Play game

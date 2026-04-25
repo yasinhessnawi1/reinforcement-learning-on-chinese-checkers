@@ -1094,6 +1094,7 @@ def generate_curriculum_data_subprocess(
         "--num-actions", str(net_cfg.num_actions),
         "--sims", str(config.num_simulations),
         "--batch-size", str(config.mcts_batch_size),
+        "--max-moves", str(config.max_moves),
     ]
     if config.use_heuristic_value:
         common_args.append("--heuristic-value")
