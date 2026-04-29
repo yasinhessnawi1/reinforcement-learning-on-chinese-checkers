@@ -858,7 +858,7 @@ def _detect_gpu_workers(num_workers: int, verbose: bool = True) -> tuple[bool, i
 
     # GPU available — use a small pool of GPU workers with batched MCTS.
     # Each CUDA context costs ~1GB; 8 workers × 1GB = 8GB out of typical 16-32GB.
-    gpu_mem_gb = torch.cuda.get_device_properties(0).total_mem / (1024**3)
+    gpu_mem_gb = torch.cuda.get_device_properties(0).total_memory / (1024**3)
     max_gpu_workers = min(8, int(gpu_mem_gb // 2))  # ~2GB headroom per worker
     gpu_workers = min(num_workers, max_gpu_workers)
 
