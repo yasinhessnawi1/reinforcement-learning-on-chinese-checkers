@@ -46,24 +46,24 @@ class TrainingConfig:
 
     # Self-play
     self_play: SelfPlayConfig = field(default_factory=SelfPlayConfig)
-    games_per_iteration: int = 40
+    games_per_iteration: int = 100
 
     # Training — conservative defaults for warm-start fine-tuning.
     # The warm-start model is already strong; aggressive training destroys it.
     batch_size: int = 256
-    epochs_per_iteration: int = 3        # was 10 — fewer epochs prevents memorizing noisy MCTS
+    epochs_per_iteration: int = 8         # 200-sim MCTS produces good targets; train more aggressively
     replay_buffer_size: int = 50_000
     lr: float = 2e-4                     # was 1e-3 — 5x lower to avoid catastrophic forgetting
     lr_decay: float = 0.995              # was 0.99 — slower decay
     weight_decay: float = 1e-4
 
     # Loss weighting
-    value_loss_weight: float = 0.5   # scale value loss down (weak signal from truncated games)
+    value_loss_weight: float = 0.25  # value head unused at inference (heuristic); minimize wasted gradient
 
     # Evaluation
-    eval_games: int = 10
+    eval_games: int = 20
     eval_interval: int = 3           # evaluate every N iterations (saves ~50% time)
-    eval_sims: int = 25              # MCTS sims for eval (lower = faster)
+    eval_sims: int = 100             # MCTS sims for eval (must be high enough for reliable gating)
     win_threshold: float = 0.55      # new model must win >55% to replace
 
     # Prioritized Experience Replay
@@ -830,6 +830,15 @@ def train_alphazero(
                 )
             else:
                 print(f"  Model not improved (greedy pins {greedy_pins:.1f} <= {best_greedy_pins:.1f})")
+                # Revert to best model to prevent death spiral:
+                # without this, a degraded model generates bad data for the
+                # next iteration, which degrades it further.
+                current_net.copy_weights_from(best_net)
+                optimizer_state = optimizer.state_dict()
+                for group in optimizer_state['param_groups']:
+                    group['lr'] = scheduler.get_last_lr()[0]
+                optimizer.load_state_dict(optimizer_state)
+                print(f"  Reverted to best model (preventing degradation spiral)")
         else:
             print(f"\n[3/3] Skipping eval (next eval at iteration {iteration + config.eval_interval - iteration % config.eval_interval})")
 

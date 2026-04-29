@@ -32,8 +32,8 @@ class SelfPlayConfig:
     c_puct: float = 1.5
     dirichlet_alpha: float = 0.3
     dirichlet_epsilon: float = 0.25
-    temperature_moves: int = 30      # play with temp=1 for first N moves
-    temperature_low: float = 0.1     # then switch to low temperature
+    temperature_moves: int = 15      # play with temp=1 for first N moves (was 30, too much for 45-move games)
+    temperature_low: float = 0.3     # then switch to moderate temperature (was 0.1, too greedy)
     max_moves: int = 200             # max moves per player (400 total steps)
     min_pins_to_keep: int = 3        # discard games where both score < this (filter low-quality)
     use_heuristic_value: bool = True  # use heuristic for leaf eval (essential early training)

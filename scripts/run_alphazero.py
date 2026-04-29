@@ -500,7 +500,7 @@ def main():
     tr.add_argument("--c-puct", type=float, default=1.5)
     tr.add_argument("--dirichlet-alpha", type=float, default=0.3)
     tr.add_argument("--dirichlet-epsilon", type=float, default=0.25)
-    tr.add_argument("--temp-moves", type=int, default=30)
+    tr.add_argument("--temp-moves", type=int, default=15)
     tr.add_argument("--max-moves", type=int, default=100)
     tr.add_argument("--heuristic-value", action="store_true")
     tr.add_argument("--batched-mcts-selfplay", action="store_true", default=True,
@@ -518,22 +518,22 @@ def main():
     tr.add_argument("--deep-sims-multiplier", type=int, default=3,
                     help="Sim multiplier for high-entropy positions (default 3)")
     tr.add_argument("--no-augment", action="store_true")
-    tr.add_argument("--games-per-iter", type=int, default=40)
+    tr.add_argument("--games-per-iter", type=int, default=100)
     tr.add_argument("--batch-size", type=int, default=256)
-    tr.add_argument("--epochs-per-iter", type=int, default=3)
+    tr.add_argument("--epochs-per-iter", type=int, default=8)
     tr.add_argument("--buffer-size", type=int, default=50000)
     tr.add_argument("--lr", type=float, default=2e-4)
     tr.add_argument("--lr-decay", type=float, default=0.995)
-    tr.add_argument("--value-loss-weight", type=float, default=0.5,
-                    help="Scale value loss (default 0.5, lower = trust policy more)")
+    tr.add_argument("--value-loss-weight", type=float, default=0.25,
+                    help="Scale value loss (default 0.25, lower = focus gradient on policy)")
     tr.add_argument("--iterations", type=int, default=30)
     tr.add_argument("--num-workers", type=int, default=0,
                     help="Parallel game workers (0=auto, 1=serial). Uses ProcessPoolExecutor.")
-    tr.add_argument("--eval-games", type=int, default=10)
+    tr.add_argument("--eval-games", type=int, default=20)
     tr.add_argument("--eval-interval", type=int, default=3,
                     help="Run eval every N iterations (default 3)")
-    tr.add_argument("--eval-sims", type=int, default=25,
-                    help="MCTS sims for eval games (default 25)")
+    tr.add_argument("--eval-sims", type=int, default=100,
+                    help="MCTS sims for eval games (default 100, must be reliable)")
     tr.add_argument("--win-threshold", type=float, default=0.55)
     tr.add_argument("--checkpoint-dir", type=str, default="experiments/exp_d1_alphazero")
     tr.add_argument("--warmstart-data", type=str, default=None,

@@ -316,17 +316,12 @@ def play_one_game_true_selfplay(
             proxy = _make_proxy_env(board, colour, step_count, max_total_steps)
             action_probs, mcts_value = engines[colour].get_action_probs_and_value(proxy, temperature=temp)
 
-        # Record raw network policy for KL-based filtering later.
-        # One extra forward pass per position — cheap vs MCTS cost.
-        raw_probs, _ = network.predict(obs, action_mask)
-
         # Record sample (game outcome value filled in after game ends)
         trajectories.append({
             "colour": colour,
             "obs": obs.copy(),
             "action_mask": action_mask.copy(),
             "policy_target": action_probs.copy(),
-            "raw_policy": raw_probs.copy(),
             "mcts_value": mcts_value,
         })
 
@@ -372,22 +367,7 @@ def play_one_game_true_selfplay(
         blended = lam * game_val + (1.0 - lam) * mcts_val
         blended = max(-1.0, min(1.0, blended))
 
-        # Policy improvement filter: only use MCTS policy if it meaningfully
-        # differs from the raw network policy. If MCTS just confirms the
-        # network prior, training on it adds noise and smooths the policy.
         mcts_policy = step_data["policy_target"]
-        if "raw_policy" in step_data:
-            raw_policy = step_data["raw_policy"]
-            # KL divergence: sum(mcts * log(mcts / raw)) over valid entries
-            valid = (mcts_policy > 1e-8) & (raw_policy > 1e-8)
-            if valid.any():
-                kl = np.sum(mcts_policy[valid] * np.log(mcts_policy[valid] / raw_policy[valid]))
-            else:
-                kl = 0.0
-            # Skip samples where MCTS barely changed the policy (KL < 0.1)
-            # These are positions where MCTS confirms the prior — no learning signal.
-            if kl < 0.5:
-                continue
 
         samples.append(TrainingSample(
             obs=step_data["obs"],
@@ -548,14 +528,10 @@ def play_one_game_vs_heuristic(
                 proxy = _make_proxy_env(board, "red", step_count, max_total_steps)
                 action_probs, mcts_value = engine.get_action_probs_and_value(proxy, temperature=temp)
 
-            # Record raw policy for KL-based filtering
-            raw_probs, _ = network.predict(obs, action_mask)
-
             trajectories.append({
                 "obs": obs.copy(),
                 "action_mask": action_mask.copy(),
                 "policy_target": action_probs.copy(),
-                "raw_policy": raw_probs.copy(),
                 "mcts_value": mcts_value,
             })
 
@@ -599,17 +575,7 @@ def play_one_game_vs_heuristic(
         blended = lam * agent_value + (1.0 - lam) * mcts_val
         blended = max(-1.0, min(1.0, blended))
 
-        # Policy improvement filter (same as true_selfplay)
         mcts_policy = step_data["policy_target"]
-        if "raw_policy" in step_data:
-            raw_policy = step_data["raw_policy"]
-            valid = (mcts_policy > 1e-8) & (raw_policy > 1e-8)
-            if valid.any():
-                kl = np.sum(mcts_policy[valid] * np.log(mcts_policy[valid] / raw_policy[valid]))
-            else:
-                kl = 0.0
-            if kl < 0.5:
-                continue
 
         samples.append(TrainingSample(
             obs=step_data["obs"],
