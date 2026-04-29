@@ -832,8 +832,9 @@ def generate_curriculum_data_parallel(
     """
     if num_workers <= 0:
         num_workers = min(num_games, max(1, os.cpu_count() - 1))
-    # Cap workers — too many processes loading models causes memory/startup issues
-    num_workers = min(num_workers, 16)
+    # Cap at 48 — each worker loads a ~9MB model on CPU; 48 × 9MB = ~430MB (trivial).
+    # On a 96-core server, 48 workers leaves headroom for OS + training thread.
+    num_workers = min(num_workers, 48)
 
     # For very few games or if parallelism isn't worth it, fall back to serial
     if num_workers <= 1 or num_games <= 2:
