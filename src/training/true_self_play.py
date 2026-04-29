@@ -719,6 +719,11 @@ def _worker_init() -> None:
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 
+def _worker_init_gpu() -> None:
+    """Initializer for GPU workers — does NOT hide CUDA."""
+    pass
+
+
 def _worker_smoke_test() -> int:
     """Heavy smoke-test: imports everything the real worker needs.
 
@@ -733,6 +738,17 @@ def _worker_smoke_test() -> int:
     return os.getpid()
 
 
+def _worker_smoke_test_gpu() -> int:
+    """Smoke-test for GPU workers — verifies CUDA is accessible."""
+    import torch
+    if not torch.cuda.is_available():
+        raise RuntimeError("CUDA not available in worker")
+    from src.network.alphazero_net import AlphaZeroNet, NetworkConfig  # noqa: F401
+    from src.agents.greedy_agent import greedy_policy  # noqa: F401
+    from src.agents.advanced_heuristic import advanced_heuristic_policy  # noqa: F401
+    return os.getpid()
+
+
 def _worker_play_game(
     model_state_bytes: bytes,
     net_config_dict: dict,
@@ -741,24 +757,49 @@ def _worker_play_game(
 ) -> list[dict] | None:
     """Worker function: loads network from bytes, plays one game, returns raw sample dicts.
 
-    Runs in a subprocess. Returns list of dicts (numpy arrays + float) which
-    are picklable, or None for discarded games.
+    Runs in a subprocess on CPU. Returns list of dicts (numpy arrays + float)
+    which are picklable, or None for discarded games.
     """
-    # Belt-and-suspenders: also set here in case initializer didn't run
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
     import torch
     from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
 
-    # Reconstruct network in this process (CPU — avoids GPU contention)
     nc = NetworkConfig(**net_config_dict)
     net = AlphaZeroNet(nc, device="cpu")
     state_dict = torch.load(io.BytesIO(model_state_bytes), map_location="cpu", weights_only=True)
     net.model.load_state_dict(state_dict)
     net.model.eval()
 
-    # Reconstruct SelfPlayConfig
     config = SelfPlayConfig(**sp_config_dict)
+    return _worker_play_one(net, config, opp_type)
 
+
+def _worker_play_game_gpu(
+    model_state_bytes: bytes,
+    net_config_dict: dict,
+    sp_config_dict: dict,
+    opp_type: str,
+) -> list[dict] | None:
+    """Worker function using GPU with batched MCTS for much faster inference.
+
+    Each worker gets its own CUDA context (~1GB) but inference is 10-20x
+    faster than CPU. Use with small number of workers (4-8).
+    """
+    import torch
+    from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
+
+    nc = NetworkConfig(**net_config_dict)
+    net = AlphaZeroNet(nc, device="cuda")
+    state_dict = torch.load(io.BytesIO(model_state_bytes), map_location="cuda", weights_only=True)
+    net.model.load_state_dict(state_dict)
+    net.model.eval()
+
+    config = SelfPlayConfig(**sp_config_dict)
+    return _worker_play_one(net, config, opp_type)
+
+
+def _worker_play_one(net, config: SelfPlayConfig, opp_type: str) -> list[dict] | None:
+    """Shared game logic for both CPU and GPU workers."""
     if opp_type == "self_play":
         samples = play_one_game_true_selfplay(network=net, config=config)
     else:
@@ -803,6 +844,32 @@ def _sp_config_to_dict(config: SelfPlayConfig) -> dict:
     return asdict(config)
 
 
+def _detect_gpu_workers(num_workers: int, verbose: bool = True) -> tuple[bool, int]:
+    """Decide whether to use GPU workers and how many.
+
+    Returns (use_gpu, effective_num_workers).
+
+    GPU mode: up to 8 workers sharing one GPU via separate CUDA contexts.
+    CPU mode: up to 48 workers on CPU cores.
+    """
+    import torch
+    if not torch.cuda.is_available():
+        return False, min(num_workers, 48)
+
+    # GPU available — use a small pool of GPU workers with batched MCTS.
+    # Each CUDA context costs ~1GB; 8 workers × 1GB = 8GB out of typical 16-32GB.
+    gpu_mem_gb = torch.cuda.get_device_properties(0).total_mem / (1024**3)
+    max_gpu_workers = min(8, int(gpu_mem_gb // 2))  # ~2GB headroom per worker
+    gpu_workers = min(num_workers, max_gpu_workers)
+
+    if gpu_workers >= 2:
+        if verbose:
+            print(f"  GPU detected ({gpu_mem_gb:.0f}GB) — using {gpu_workers} GPU workers with batched MCTS", flush=True)
+        return True, gpu_workers
+
+    return False, min(num_workers, 48)
+
+
 def generate_curriculum_data_parallel(
     network,
     num_games: int,
@@ -813,8 +880,9 @@ def generate_curriculum_data_parallel(
 ) -> list[TrainingSample]:
     """Generate curriculum data using multiple processes.
 
-    Each worker gets a copy of the model weights (serialized to bytes),
-    reconstructs the network on CPU, and plays one game independently.
+    Automatically selects GPU or CPU workers:
+    - GPU available: small pool (4-8) of GPU workers with batched MCTS (~10-20x faster)
+    - CPU only: large pool (up to 48) of CPU workers with sequential MCTS
 
     Parameters
     ----------
@@ -823,7 +891,7 @@ def generate_curriculum_data_parallel(
     opponent_mix : dict[str, float]
     config : SelfPlayConfig
     num_workers : int
-        Number of parallel workers. 0 = auto (min(num_games, cpu_count - 1)).
+        Number of parallel workers. 0 = auto.
     verbose : bool
 
     Returns
@@ -832,54 +900,67 @@ def generate_curriculum_data_parallel(
     """
     if num_workers <= 0:
         num_workers = min(num_games, max(1, os.cpu_count() - 1))
-    # Cap at 48 — each worker loads a ~9MB model on CPU; 48 × 9MB = ~430MB (trivial).
-    # On a 96-core server, 48 workers leaves headroom for OS + training thread.
-    num_workers = min(num_workers, 48)
 
     # For very few games or if parallelism isn't worth it, fall back to serial
     if num_workers <= 1 or num_games <= 2:
         return generate_curriculum_data(network, num_games, opponent_mix, config, verbose)
 
-    # Pick a multiprocessing start method.  We try several because:
-    #   - 'spawn' is safest (no inherited CUDA state) but hangs on some
-    #     JupyterHub / cgroup-restricted servers during heavy imports.
-    #   - 'forkserver' forks from a clean server process — avoids CUDA
-    #     inheritance AND the heavy-import hang.
-    #   - 'fork' is fastest but can deadlock if CUDA was initialized in
-    #     the parent.  Our workers set CUDA_VISIBLE_DEVICES="" and import
-    #     torch fresh, so fork is safe here since top-level imports don't
-    #     pull in torch.
+    # Detect GPU and choose strategy
+    use_gpu, num_workers = _detect_gpu_workers(num_workers, verbose)
+
+    # Pick a multiprocessing start method
     import multiprocessing as mp
     import platform
 
     mp_context = None
-    if platform.system() != "Windows":
-        # On Linux/Mac try forkserver first, then fork, then spawn
-        for method in ("forkserver", "fork", "spawn"):
+    if use_gpu:
+        # GPU workers must use 'spawn' to get clean CUDA contexts
+        for method in ("spawn", "forkserver"):
             try:
                 ctx = mp.get_context(method)
+                with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init_gpu) as test_pool:
+                    ping = test_pool.submit(_worker_smoke_test_gpu)
+                    ping.result(timeout=60)
+                mp_context = ctx
+                if verbose:
+                    print(f"  Multiprocessing (GPU): using '{method}' (smoke-test passed).", flush=True)
+                break
+            except Exception as e:
+                if verbose:
+                    print(f"  Multiprocessing (GPU): '{method}' failed ({e}), trying next...", flush=True)
+
+        if mp_context is None:
+            if verbose:
+                print("  GPU workers failed, falling back to CPU workers...", flush=True)
+            use_gpu = False
+            num_workers = min(num_games, max(1, os.cpu_count() - 1), 48)
+
+    if not use_gpu and mp_context is None:
+        if platform.system() != "Windows":
+            for method in ("forkserver", "fork", "spawn"):
+                try:
+                    ctx = mp.get_context(method)
+                    with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init) as test_pool:
+                        ping = test_pool.submit(_worker_smoke_test)
+                        ping.result(timeout=30)
+                    mp_context = ctx
+                    if verbose:
+                        print(f"  Multiprocessing (CPU): using '{method}' (smoke-test passed).", flush=True)
+                    break
+                except Exception:
+                    if verbose:
+                        print(f"  Multiprocessing: '{method}' failed, trying next...", flush=True)
+        else:
+            try:
+                ctx = mp.get_context("spawn")
                 with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init) as test_pool:
                     ping = test_pool.submit(_worker_smoke_test)
                     ping.result(timeout=30)
                 mp_context = ctx
                 if verbose:
-                    print(f"  Multiprocessing: using '{method}' (smoke-test passed).", flush=True)
-                break
+                    print("  Multiprocessing (CPU): using 'spawn' (smoke-test passed).", flush=True)
             except Exception:
-                if verbose:
-                    print(f"  Multiprocessing: '{method}' failed, trying next...", flush=True)
-    else:
-        # Windows only supports spawn
-        try:
-            ctx = mp.get_context("spawn")
-            with ProcessPoolExecutor(max_workers=1, mp_context=ctx, initializer=_worker_init) as test_pool:
-                ping = test_pool.submit(_worker_smoke_test)
-                ping.result(timeout=30)
-            mp_context = ctx
-            if verbose:
-                print("  Multiprocessing: using 'spawn' (smoke-test passed).", flush=True)
-        except Exception:
-            pass
+                pass
 
     if mp_context is None:
         if verbose:
@@ -890,13 +971,14 @@ def generate_curriculum_data_parallel(
 
     # Serialize model weights once (shared across all workers)
     if verbose:
-        print(f"  Parallel self-play: {num_workers} workers, serializing model...", flush=True)
+        mode = "GPU+batched" if use_gpu else "CPU"
+        print(f"  Parallel self-play: {num_workers} {mode} workers, serializing model...", flush=True)
     model_bytes = _serialize_model_weights(network)
     net_config_dict = _net_config_to_dict(network.config)
 
-    # Force CPU + non-batched MCTS for workers (each worker is CPU-only)
     sp_dict = _sp_config_to_dict(config)
-    sp_dict["use_batched_mcts"] = False
+    if not use_gpu:
+        sp_dict["use_batched_mcts"] = False
 
     # Build task list
     tasks: list[str] = []
@@ -921,13 +1003,16 @@ def generate_curriculum_data_parallel(
              for t in game_counts}
     completed = 0
 
+    worker_fn = _worker_play_game_gpu if use_gpu else _worker_play_game
+    worker_init_fn = _worker_init_gpu if use_gpu else _worker_init
+
     with ProcessPoolExecutor(
         max_workers=num_workers,
         mp_context=mp_context,
-        initializer=_worker_init,
+        initializer=worker_init_fn,
     ) as executor:
         futures = {
-            executor.submit(_worker_play_game, model_bytes, net_config_dict, sp_dict, opp_type): opp_type
+            executor.submit(worker_fn, model_bytes, net_config_dict, sp_dict, opp_type): opp_type
             for opp_type in tasks
         }
 
