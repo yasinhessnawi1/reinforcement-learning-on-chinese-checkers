@@ -39,6 +39,9 @@ class StateEncoder:
         # is rotated 180° — without this, the policy head sees inconsistent
         # (rotated obs, raw action) pairs for blue/gray0/purple samples.
         self._cell_rot180: np.ndarray | None = None       # (num_cells,) int
+        # Precomputed full 1210-action permutation derived from _cell_rot180,
+        # used by rotate_action_distribution as a vectorised fancy-index.
+        self._action_rot_perm: np.ndarray | None = None   # (num_pins*num_cells,)
 
     # ------------------------------------------------------------------
     # Private helpers
@@ -75,6 +78,22 @@ class StateEncoder:
                 cell_rot180[idx] = index_of[mirror_key]
         self._cell_rot180 = cell_rot180
 
+        # Precompute the full 1210-action permutation so rotate_action_distribution
+        # is a single numpy fancy-index op instead of a Python double loop.
+        # action_dst[a] = action index whose value goes INTO position a.
+        # For action a = pin*121 + c, the rotated value lives at pin*121 + rot[c],
+        # so we need action_src[pin*121 + rot[c]] = pin*121 + c, i.e. inverse.
+        num_pins = 10
+        num_cells = n
+        action_perm = np.empty(num_pins * num_cells, dtype=np.int64)
+        for pin in range(num_pins):
+            base = pin * num_cells
+            for c in range(num_cells):
+                # value at action (pin, c) goes TO action (pin, rot[c])
+                action_perm[base + cell_rot180[c]] = base + c
+        # action_perm[i] = source index whose value lands at i
+        self._action_rot_perm = action_perm
+
     @staticmethod
     def _rotate180(grid: np.ndarray) -> np.ndarray:
         """Return a 180-degree-rotated copy of a 2-D array."""
@@ -98,33 +117,25 @@ class StateEncoder:
         absolute and must be mapped through `_cell_rot180` so that the
         action's spatial meaning matches the rotated observation.
 
-        Use this on policy targets and action masks for samples whose obs
-        was rotated (i.e. blue/gray0/purple). Without this, the policy head
-        learns inconsistent (rotated_obs, raw_action) pairs.
+        Vectorised: a single numpy fancy-index using a precomputed permutation
+        table. Called many times per MCTS sim, so the python double-loop
+        version is a measurable hot spot.
 
         Parameters
         ----------
         dist : np.ndarray, shape (num_pins * num_cells,)
             Action distribution or boolean mask in raw cell coordinates.
-        num_pins : int
-        num_cells : int
+        num_pins, num_cells : int (kept for API compat; rotation is precomputed)
 
         Returns
         -------
         np.ndarray, same shape and dtype, with cell indices remapped.
         """
-        if self._cell_rot180 is None:
+        if self._action_rot_perm is None:
             raise RuntimeError(
                 "Encoder maps not initialised — call encode() at least once first"
             )
-        out = np.zeros_like(dist)
-        rot = self._cell_rot180
-        for pin in range(num_pins):
-            base = pin * num_cells
-            # For each cell c, the value at action (pin, c) goes to (pin, rot[c]).
-            for c in range(num_cells):
-                out[base + rot[c]] = dist[base + c]
-        return out
+        return dist[self._action_rot_perm]
 
     def rotate_action(
         self, action: int, num_pins: int = 10, num_cells: int = 121
