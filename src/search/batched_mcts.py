@@ -313,16 +313,34 @@ class BatchedAlphaZeroMCTS:
         return root
 
     def _run_legacy(self, env) -> MCTSNode:
-        """Run legacy single-player batched MCTS."""
+        """Run legacy single-player batched MCTS.
+
+        Perspective handling: when env._AGENT_COLOUR is in the rotated set
+        (blue/gray0/purple), env._get_obs() returns a rotated obs and the
+        network outputs priors in the canonical (rotated) frame. We rotate
+        masks into canonical frame before predict, then rotate priors back
+        to raw frame so MCTS indexing matches action_mask / mapper.decode().
+        """
         root = MCTSNode(parent=None, action=None, prior=1.0)
         min_max = MinMaxStats()
 
+        encoder = env._encoder
+        rotated = encoder.needs_rotation(env._AGENT_COLOUR) if hasattr(encoder, 'needs_rotation') else False
+
         obs = env._get_obs()
-        action_mask = env.action_masks()
+        action_mask = env.action_masks()  # raw frame
         if action_mask.sum() == 0:
             return root
 
-        priors, root_value = self.network.predict(obs, action_mask)
+        if rotated:
+            mask_for_net = encoder.rotate_action_distribution(
+                action_mask.astype(np.bool_)
+            ).astype(np.bool_)
+            priors_canon, root_value = self.network.predict(obs, mask_for_net)
+            priors = encoder.rotate_action_distribution(priors_canon)
+        else:
+            priors, root_value = self.network.predict(obs, action_mask)
+
         if self.use_heuristic_value:
             root_value = _heuristic_value(env)
         self._expand_single(root, priors, root_value, action_mask)
@@ -337,7 +355,8 @@ class BatchedAlphaZeroMCTS:
 
             pending_leaves = []
             pending_obs = []
-            pending_masks = []
+            pending_masks_canon = []  # masks in canonical frame for network call
+            pending_masks_raw = []    # masks in raw frame for _expand_single
 
             for _ in range(current_batch):
                 sim_env = env.clone(strip_opponent=True)
@@ -354,15 +373,22 @@ class BatchedAlphaZeroMCTS:
                     sims_done += 1
                 else:
                     leaf_obs = sim_env._get_obs()
-                    leaf_mask = sim_env.action_masks()
-                    pending_leaves.append((node, sim_env, leaf_obs, leaf_mask))
+                    leaf_mask_raw = sim_env.action_masks()
+                    if rotated:
+                        leaf_mask_canon = encoder.rotate_action_distribution(
+                            leaf_mask_raw.astype(np.bool_)
+                        ).astype(np.bool_)
+                    else:
+                        leaf_mask_canon = leaf_mask_raw
+                    pending_leaves.append((node, sim_env, leaf_obs, leaf_mask_raw))
                     pending_obs.append(leaf_obs)
-                    pending_masks.append(leaf_mask)
+                    pending_masks_canon.append(leaf_mask_canon)
+                    pending_masks_raw.append(leaf_mask_raw)
                     sims_done += 1
 
             if pending_leaves:
                 obs_batch = np.stack(pending_obs)
-                mask_batch = np.stack(pending_masks)
+                mask_batch = np.stack(pending_masks_canon)
                 priors_batch, values_batch = self.network.predict_batch(obs_batch, mask_batch)
 
                 for i, (node, sim_env, leaf_obs, leaf_mask) in enumerate(pending_leaves):
@@ -370,6 +396,8 @@ class BatchedAlphaZeroMCTS:
                     if self.use_heuristic_value:
                         value = _heuristic_value(sim_env)
                     priors_i = priors_batch[i].copy()
+                    if rotated:
+                        priors_i = encoder.rotate_action_distribution(priors_i)
                     self._expand_single(node, priors_i, value, leaf_mask)
                     self._backup(node, value, min_max)
 

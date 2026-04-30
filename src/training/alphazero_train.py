@@ -334,6 +334,9 @@ def _create_raw_policy(network: AlphaZeroNet):
     """Create an arena-compatible policy using just the network (no MCTS).
 
     Returns a callable(board_wrapper, colour) -> (pin_id, dest).
+
+    Perspective: rotates action_mask into canonical frame before predict,
+    then rotates priors back to raw frame for argmax + decode.
     """
     from src.env.action_mapper import ActionMapper
     from src.env.state_encoder import StateEncoder
@@ -346,7 +349,14 @@ def _create_raw_policy(network: AlphaZeroNet):
         legal_moves = board_wrapper.get_legal_moves(colour)
         action_mask = mapper.build_action_mask(legal_moves)
 
-        probs, _ = network.predict(obs, action_mask)
+        if encoder.needs_rotation(colour):
+            mask_for_net = encoder.rotate_action_distribution(
+                action_mask.astype(np.bool_)
+            ).astype(np.bool_)
+            probs_canon, _ = network.predict(obs, mask_for_net)
+            probs = encoder.rotate_action_distribution(probs_canon)
+        else:
+            probs, _ = network.predict(obs, action_mask)
         action = int(np.argmax(probs))
         pin_id, dest = mapper.decode(action)
         return pin_id, dest

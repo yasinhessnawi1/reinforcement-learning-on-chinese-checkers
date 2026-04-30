@@ -926,15 +926,35 @@ class AlphaZeroMCTS:
         return node, terminal
 
     def _expand(self, node: MCTSNode, env) -> float:
-        """Expand leaf node using AlphaZeroNet for priors and value (legacy)."""
+        """Expand leaf node using AlphaZeroNet for priors and value (legacy).
+
+        Perspective handling: env._get_obs() returns the rotated obs for
+        rotated colours (blue/gray0/purple), so the network outputs priors in
+        the canonical (rotated) frame. We rotate the action_mask into the
+        canonical frame for masking, then rotate priors back to the raw
+        frame so the rest of MCTS (which uses raw cell indices) works
+        unchanged.
+        """
         obs = env._get_obs()
-        action_mask = env.action_masks()
+        action_mask = env.action_masks()  # raw frame
 
         if action_mask.sum() == 0:
             node.is_expanded = True
             return 0.0
 
-        priors, value = self.network.predict(obs, action_mask)
+        encoder = env._encoder
+        rotated = encoder.needs_rotation(env._AGENT_COLOUR) if hasattr(encoder, 'needs_rotation') else False
+
+        if rotated:
+            mask_for_net = encoder.rotate_action_distribution(
+                action_mask.astype(np.bool_)
+            ).astype(np.bool_)
+            priors_canon, value = self.network.predict(obs, mask_for_net)
+            # Rotate priors back to raw frame so MCTS indexing matches
+            # action_mask / legal_actions / mapper.decode().
+            priors = encoder.rotate_action_distribution(priors_canon)
+        else:
+            priors, value = self.network.predict(obs, action_mask)
 
         if self.use_heuristic_value:
             value = _heuristic_value(env)

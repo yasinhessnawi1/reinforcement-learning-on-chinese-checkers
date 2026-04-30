@@ -34,13 +34,18 @@ class StateEncoder:
         # construction time.
         self._valid_mask: np.ndarray | None = None        # (grid_size, grid_size)
         self._cell_to_grid: dict | None = None            # cell_idx -> (row, col)
+        # cell_rot180[i] = j where cell j is at axial (-q, -r) of cell i.
+        # Used to rotate action targets (cell indices) for colours whose obs
+        # is rotated 180° — without this, the policy head sees inconsistent
+        # (rotated obs, raw action) pairs for blue/gray0/purple samples.
+        self._cell_rot180: np.ndarray | None = None       # (num_cells,) int
 
     # ------------------------------------------------------------------
     # Private helpers
     # ------------------------------------------------------------------
 
     def _build_maps(self, board_wrapper: BoardWrapper) -> None:
-        """Populate _valid_mask and _cell_to_grid from the board."""
+        """Populate _valid_mask, _cell_to_grid, and _cell_rot180 from the board."""
         offset = self._offset
         gs = self.grid_size
 
@@ -57,6 +62,19 @@ class StateEncoder:
         self._valid_mask = valid_mask
         self._cell_to_grid = cell_to_grid
 
+        # Build the 180° cell-rotation table: cell i (q,r) maps to cell at (-q,-r).
+        # _rotate180 flips both axes of the grid, so a cell originally at
+        # grid position (row, col) ends up at (gs-1-row, gs-1-col). The cell
+        # whose home is that grid position is the one at axial (-q, -r).
+        index_of = board_wrapper.board.index_of  # (q, r) -> idx
+        n = len(board_wrapper.board.cells)
+        cell_rot180 = np.arange(n, dtype=np.int32)
+        for idx, cell in enumerate(board_wrapper.board.cells):
+            mirror_key = (-cell.q, -cell.r)
+            if mirror_key in index_of:
+                cell_rot180[idx] = index_of[mirror_key]
+        self._cell_rot180 = cell_rot180
+
     @staticmethod
     def _rotate180(grid: np.ndarray) -> np.ndarray:
         """Return a 180-degree-rotated copy of a 2-D array."""
@@ -64,6 +82,61 @@ class StateEncoder:
 
     def _needs_rotation(self, colour: str) -> bool:
         return colour in _ROTATE
+
+    def needs_rotation(self, colour: str) -> bool:
+        """Public accessor: True iff this colour's obs gets rotated 180°."""
+        return colour in _ROTATE
+
+    def rotate_action_distribution(
+        self, dist: np.ndarray, num_pins: int = 10, num_cells: int = 121
+    ) -> np.ndarray:
+        """Permute a 1210-dim action distribution to match a rotated obs.
+
+        Action layout: action = pin_id * num_cells + cell_index. The pin_id
+        is colour-relative (already perspective-correct — pin 0 is "my first
+        pin" regardless of colour), so it doesn't change. The cell_index is
+        absolute and must be mapped through `_cell_rot180` so that the
+        action's spatial meaning matches the rotated observation.
+
+        Use this on policy targets and action masks for samples whose obs
+        was rotated (i.e. blue/gray0/purple). Without this, the policy head
+        learns inconsistent (rotated_obs, raw_action) pairs.
+
+        Parameters
+        ----------
+        dist : np.ndarray, shape (num_pins * num_cells,)
+            Action distribution or boolean mask in raw cell coordinates.
+        num_pins : int
+        num_cells : int
+
+        Returns
+        -------
+        np.ndarray, same shape and dtype, with cell indices remapped.
+        """
+        if self._cell_rot180 is None:
+            raise RuntimeError(
+                "Encoder maps not initialised — call encode() at least once first"
+            )
+        out = np.zeros_like(dist)
+        rot = self._cell_rot180
+        for pin in range(num_pins):
+            base = pin * num_cells
+            # For each cell c, the value at action (pin, c) goes to (pin, rot[c]).
+            for c in range(num_cells):
+                out[base + rot[c]] = dist[base + c]
+        return out
+
+    def rotate_action(
+        self, action: int, num_pins: int = 10, num_cells: int = 121
+    ) -> int:
+        """Map a single action index through the 180° cell rotation."""
+        if self._cell_rot180 is None:
+            raise RuntimeError(
+                "Encoder maps not initialised — call encode() at least once first"
+            )
+        pin_id = action // num_cells
+        cell = action % num_cells
+        return int(pin_id * num_cells + self._cell_rot180[cell])
 
     # ------------------------------------------------------------------
     # Public API

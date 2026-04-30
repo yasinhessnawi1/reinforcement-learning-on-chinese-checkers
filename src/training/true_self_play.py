@@ -358,6 +358,14 @@ def play_one_game_true_selfplay(
     # Blend MCTS per-step value with game outcome to give the value head
     # useful per-position signal (especially in truncated games where
     # game outcome ≈ 0 for all positions).
+    #
+    # PERSPECTIVE FIX: blue/gray0/purple obs are rotated 180° by the encoder
+    # so the network always sees the board as if it's red's turn. The action
+    # space (1210 = 10 pins × 121 cells) uses absolute cell indices, so for
+    # rotated colours the action mask and policy target also need their
+    # cell indices rotated. Without this, the policy head learns inconsistent
+    # (rotated_obs, raw_action) pairs and self-play training degrades the
+    # warm-start model — see DEC-NEW-021 (perspective bug, 2026-04-30).
     lam = config.value_target_lambda
     samples = []
     for step_data in trajectories:
@@ -367,34 +375,32 @@ def play_one_game_true_selfplay(
         blended = lam * game_val + (1.0 - lam) * mcts_val
         blended = max(-1.0, min(1.0, blended))
 
+        obs = step_data["obs"]
+        action_mask = step_data["action_mask"]
         mcts_policy = step_data["policy_target"]
 
+        # Rotate action targets for colours whose obs the encoder rotated.
+        if _ENCODER.needs_rotation(colour):
+            action_mask = _ENCODER.rotate_action_distribution(
+                action_mask.astype(np.bool_)
+            ).astype(np.bool_)
+            mcts_policy = _ENCODER.rotate_action_distribution(mcts_policy)
+
         samples.append(TrainingSample(
-            obs=step_data["obs"],
-            action_mask=step_data["action_mask"],
+            obs=obs,
+            action_mask=action_mask,
             policy_target=mcts_policy,
             value_target=blended,
         ))
 
-    # Symmetry augmentation
-    if config.augment_symmetry:
-        sym = ReflectionSymmetry()
-        augmented = []
-        for sample in samples:
-            reflected_obs = sym.reflect_obs(sample.obs)
-            reflected_mask = sym.reflect_action_mask(sample.action_mask)
-            reflected_policy = sym.reflect_action_mask(sample.policy_target)
-
-            total = reflected_policy.sum()
-            if total > 0:
-                reflected_policy = reflected_policy / total
-                augmented.append(TrainingSample(
-                    obs=reflected_obs,
-                    action_mask=reflected_mask,
-                    policy_target=reflected_policy,
-                    value_target=sample.value_target,
-                ))
-        samples.extend(augmented)
+    # Symmetry augmentation: the q→-q reflection assumed by ReflectionSymmetry
+    # does NOT exist on this board — red's home (q∈{-4..-1}) doesn't mirror to
+    # itself, it mirrors into purple's home. So _action_reflect is all -1 and
+    # every "augmented" sample silently gets dropped. Disabled to avoid
+    # confusion. To bring it back, implement rotational (60°/120°) augmentation
+    # that respects the hex topology.
+    # if config.augment_symmetry:
+    #     ...
 
     return samples
 
@@ -584,24 +590,11 @@ def play_one_game_vs_heuristic(
             value_target=blended,
         ))
 
-    # Symmetry augmentation
-    if config.augment_symmetry:
-        sym = ReflectionSymmetry()
-        augmented = []
-        for sample in samples:
-            reflected_obs = sym.reflect_obs(sample.obs)
-            reflected_mask = sym.reflect_action_mask(sample.action_mask)
-            reflected_policy = sym.reflect_action_mask(sample.policy_target)
-            total = reflected_policy.sum()
-            if total > 0:
-                reflected_policy = reflected_policy / total
-                augmented.append(TrainingSample(
-                    obs=reflected_obs,
-                    action_mask=reflected_mask,
-                    policy_target=reflected_policy,
-                    value_target=sample.value_target,
-                ))
-        samples.extend(augmented)
+    # Symmetry augmentation disabled — see note in play_one_game_true_selfplay.
+    # The q→-q reflection assumed by ReflectionSymmetry doesn't exist on this
+    # board (red→purple, not red→red), so every "augmented" sample is silently
+    # dropped. Re-enable only after replacing with proper hex rotational
+    # augmentation.
 
     return samples
 
@@ -713,10 +706,28 @@ def generate_curriculum_data(
 def _worker_init() -> None:
     """Initializer called once per worker process before any tasks.
 
-    Sets CUDA_VISIBLE_DEVICES="" BEFORE torch is imported so CUDA
-    is never initialized in worker processes.
+    Sets each worker's thread count from AZ_WORKER_THREADS (default 1).
+    The right number depends on (num_cores // num_workers): too many threads
+    causes oversubscription (1000+ threads on 96 cores → context-switch hell);
+    too few wastes CPU. For 48 workers on 96 cores, AZ_WORKER_THREADS=2 is
+    the sweet spot. For 12 workers on 96 cores, use 8.
+
+    A single forward pass through the 9x96 ResNet is the bottleneck:
+      single-thread CPU: ~300 ms     (way too slow)
+      ~8-thread CPU:     ~40-60 ms   (usable)
     """
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
+    n_threads = os.environ.get("AZ_WORKER_THREADS", "1")
+    os.environ.setdefault("OMP_NUM_THREADS", n_threads)
+    os.environ.setdefault("MKL_NUM_THREADS", n_threads)
+    os.environ.setdefault("OPENBLAS_NUM_THREADS", n_threads)
+    os.environ.setdefault("NUMEXPR_NUM_THREADS", n_threads)
+    try:
+        import torch
+        torch.set_num_threads(int(n_threads))
+        torch.set_num_interop_threads(1)
+    except Exception:
+        pass
 
 
 def _worker_init_gpu() -> None:
@@ -760,8 +771,19 @@ def _worker_play_game(
     Runs in a subprocess on CPU. Returns list of dicts (numpy arrays + float)
     which are picklable, or None for discarded games.
     """
+    # Re-assert thread count (in case the worker was forked before _worker_init
+    # set these). Must precede the torch import.
     os.environ["CUDA_VISIBLE_DEVICES"] = ""
+    n_threads = os.environ.get("AZ_WORKER_THREADS", "1")
+    os.environ.setdefault("OMP_NUM_THREADS", n_threads)
+    os.environ.setdefault("MKL_NUM_THREADS", n_threads)
+    os.environ.setdefault("OPENBLAS_NUM_THREADS", n_threads)
     import torch
+    try:
+        torch.set_num_threads(int(n_threads))
+        torch.set_num_interop_threads(1)
+    except Exception:
+        pass
     from src.network.alphazero_net import AlphaZeroNet, NetworkConfig
 
     nc = NetworkConfig(**net_config_dict)
@@ -851,7 +873,15 @@ def _detect_gpu_workers(num_workers: int, verbose: bool = True) -> tuple[bool, i
 
     GPU mode: up to 8 workers sharing one GPU via separate CUDA contexts.
     CPU mode: up to 48 workers on CPU cores.
+
+    Override: set env AZ_CPU_WORKERS=1 to force CPU workers even if GPU exists.
+    Multiprocess GPU workers crash on spawn in some setups; CPU workers are
+    more reliable on big-CPU servers.
     """
+    if os.environ.get("AZ_CPU_WORKERS", "0") == "1":
+        if verbose:
+            print(f"  AZ_CPU_WORKERS=1 — forcing CPU workers (max 48).", flush=True)
+        return False, min(num_workers, 48)
     import torch
     if not torch.cuda.is_available():
         return False, min(num_workers, 48)
