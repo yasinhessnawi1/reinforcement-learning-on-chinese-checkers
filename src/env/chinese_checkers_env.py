@@ -269,7 +269,18 @@ class ChineseCheckersEnv(gym.Env):
     # ------------------------------------------------------------------
 
     def _get_obs(self) -> np.ndarray:
-        """Encode and return the current observation."""
+        """Encode and return the current observation.
+
+        Dispatches on the encoder's mode: legacy `encode()` (180° rotation,
+        single opponent in channel 1) or `encode_multicolour()` (60° hex
+        rotation per colour, all opponents merged into channel 1).
+        """
+        if getattr(self._encoder, "mode", "legacy") == "multicolour":
+            return self._encoder.encode_multicolour(
+                self._board,
+                current_colour=self._AGENT_COLOUR,
+                turn_order=self._TURN_ORDER,
+            )
         return self._encoder.encode(
             self._board,
             current_colour=self._AGENT_COLOUR,

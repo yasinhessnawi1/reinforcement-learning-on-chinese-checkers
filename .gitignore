@@ -20,9 +20,10 @@ venv/
 # Training artifacts
 experiments/*
 models/*
-*.onnx
 docs/*
 
 # OS
 .DS_Store
 Thumbs.db
+multi system single machine minimal/games/*
+multi system single machine minimal/__pycache__/

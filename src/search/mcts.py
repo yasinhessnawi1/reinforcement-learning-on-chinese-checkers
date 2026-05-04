@@ -943,9 +943,15 @@ class AlphaZeroMCTS:
             return 0.0
 
         encoder = env._encoder
-        rotated = encoder.needs_rotation(env._AGENT_COLOUR) if hasattr(encoder, 'needs_rotation') else False
-
-        if rotated:
+        mode = getattr(encoder, "mode", "legacy")
+        if mode == "multicolour":
+            k = encoder.k_to_red_frame(env._AGENT_COLOUR)
+            mask_for_net = encoder.rotate_action_distribution_k(
+                action_mask.astype(np.bool_), k
+            ).astype(np.bool_)
+            priors_canon, value = self.network.predict(obs, mask_for_net)
+            priors = encoder.rotate_action_distribution_k(priors_canon, (6 - k) % 6)
+        elif hasattr(encoder, 'needs_rotation') and encoder.needs_rotation(env._AGENT_COLOUR):
             mask_for_net = encoder.rotate_action_distribution(
                 action_mask.astype(np.bool_)
             ).astype(np.bool_)

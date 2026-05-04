@@ -494,9 +494,14 @@ def play_one_game_vs_heuristic(
     board = BoardWrapper(["red", "blue"])
     max_total_steps = config.max_moves * 2
 
-    # Use the ACTUAL heuristic opponent inside MCTS so the search tree
-    # anticipates the real opponent's blocking moves, not a weak network proxy.
-    engine = _create_mcts_engine(network, config, opponent_policy=opponent_policy_fn)
+    # MCTS uses greedy_policy as opponent inside the tree (cheap to call
+    # ~10-100us). The real opponent move outside the tree is still the
+    # provided opponent_policy_fn (e.g. advanced_heuristic_policy at ~30ms).
+    # Using advanced inside the tree is correct in spirit but ~300-1000x more
+    # expensive — at 100 sims × 60 moves we'd burn hours per game on the
+    # heuristic alone.
+    from src.agents.greedy_agent import greedy_policy as _greedy
+    engine = _create_mcts_engine(network, config, opponent_policy=_greedy)
 
     trajectories: list[dict] = []
     step_count = 0

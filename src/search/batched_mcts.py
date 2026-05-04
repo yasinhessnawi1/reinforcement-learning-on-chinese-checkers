@@ -325,14 +325,27 @@ class BatchedAlphaZeroMCTS:
         min_max = MinMaxStats()
 
         encoder = env._encoder
-        rotated = encoder.needs_rotation(env._AGENT_COLOUR) if hasattr(encoder, 'needs_rotation') else False
+        mode = getattr(encoder, "mode", "legacy")
+        rotated = (mode == "legacy" and hasattr(encoder, 'needs_rotation')
+                   and encoder.needs_rotation(env._AGENT_COLOUR))
+        # Multicolour mode: per-colour k×60° rotation. Cached so we don't
+        # recompute it for every leaf in the loop below.
+        mc_k = (encoder.k_to_red_frame(env._AGENT_COLOUR)
+                if mode == "multicolour" else None)
+        mc_k_inv = ((6 - mc_k) % 6) if mc_k is not None else None
 
         obs = env._get_obs()
         action_mask = env.action_masks()  # raw frame
         if action_mask.sum() == 0:
             return root
 
-        if rotated:
+        if mode == "multicolour":
+            mask_for_net = encoder.rotate_action_distribution_k(
+                action_mask.astype(np.bool_), mc_k
+            ).astype(np.bool_)
+            priors_canon, root_value = self.network.predict(obs, mask_for_net)
+            priors = encoder.rotate_action_distribution_k(priors_canon, mc_k_inv)
+        elif rotated:
             mask_for_net = encoder.rotate_action_distribution(
                 action_mask.astype(np.bool_)
             ).astype(np.bool_)
@@ -374,7 +387,11 @@ class BatchedAlphaZeroMCTS:
                 else:
                     leaf_obs = sim_env._get_obs()
                     leaf_mask_raw = sim_env.action_masks()
-                    if rotated:
+                    if mode == "multicolour":
+                        leaf_mask_canon = encoder.rotate_action_distribution_k(
+                            leaf_mask_raw.astype(np.bool_), mc_k
+                        ).astype(np.bool_)
+                    elif rotated:
                         leaf_mask_canon = encoder.rotate_action_distribution(
                             leaf_mask_raw.astype(np.bool_)
                         ).astype(np.bool_)
@@ -396,7 +413,9 @@ class BatchedAlphaZeroMCTS:
                     if self.use_heuristic_value:
                         value = _heuristic_value(sim_env)
                     priors_i = priors_batch[i].copy()
-                    if rotated:
+                    if mode == "multicolour":
+                        priors_i = encoder.rotate_action_distribution_k(priors_i, mc_k_inv)
+                    elif rotated:
                         priors_i = encoder.rotate_action_distribution(priors_i)
                     self._expand_single(node, priors_i, value, leaf_mask)
                     self._backup(node, value, min_max)

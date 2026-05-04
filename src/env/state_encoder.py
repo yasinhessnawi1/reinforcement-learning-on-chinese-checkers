@@ -1,6 +1,22 @@
 """
 StateEncoder: converts a BoardWrapper snapshot into a multi-channel float32
 grid observation suitable for RL.
+
+The encoder operates in one of two modes (selected at construction time):
+
+* mode="legacy" (default, kept for backward compat with d20 model):
+    Channel 1 holds ONE opponent's pins (first non-current colour in turn_order).
+    Rotation is 180° for {blue, gray0, purple} only; other colours are not rotated.
+    Works for 2-player games. Fails on 3+ players because:
+      (a) only one opponent is visible in the obs;
+      (b) the 180° rotation maps red→blue but doesn't normalise the other 4
+          colours (gray0/yellow/lawn green/purple end up in nonsense frames).
+
+* mode="multicolour":
+    Each colour is rotated by k×60° (k=0..5) so the playing colour's home
+    always lands where red's home would be. Channel 1 holds the UNION of all
+    opponents' pins. Channel 5 is a "next opponent" presence (the next active
+    colour in turn order, rotated). Works for any N=2..6 player layout.
 """
 import numpy as np
 from src.env.board_wrapper import BoardWrapper
@@ -9,6 +25,20 @@ from src.env.board_wrapper import BoardWrapper
 _NO_ROTATE = {'red', 'lawn green', 'yellow'}
 # Colours that DO need 180-degree rotation (home triangles at low r values).
 _ROTATE = {'blue', 'gray0', 'purple'}
+
+# 6-fold hex rotation: how many 60° clockwise rotations bring this colour's
+# home triangle into red's home position (i.e. the inverse rotation we apply
+# at encode time so the network always sees the playing colour's home where
+# red's was during training). Verified empirically against the actual hex
+# board geometry — see scripts/diagnose_d14_plateau.py for the test.
+_K_TO_RED_FRAME = {
+    'red':         0,
+    'gray0':       5,   # red→gray0 is 1×60° CW, so gray0→red is 5×60° CW
+    'yellow':      4,   # red→yellow is 2×60° CW, so yellow→red is 4×60° CW
+    'blue':        3,   # red→blue is 3×60° CW (==180°), self-inverse
+    'lawn green':  2,
+    'purple':      1,
+}
 
 
 class StateEncoder:
@@ -25,9 +55,12 @@ class StateEncoder:
         Total number of channels in the output tensor.  Default 10.
     """
 
-    def __init__(self, grid_size: int = 17, num_channels: int = 10):
+    def __init__(self, grid_size: int = 17, num_channels: int = 10,
+                 mode: str = "legacy"):
+        assert mode in ("legacy", "multicolour"), f"unknown mode: {mode}"
         self.grid_size = grid_size
         self.num_channels = num_channels
+        self.mode = mode
         self._offset = 8  # maps axial coord in [-8,8] -> [0,16]
 
         # Built lazily on first encode() call so that no HexBoard is needed at
@@ -42,6 +75,14 @@ class StateEncoder:
         # Precomputed full 1210-action permutation derived from _cell_rot180,
         # used by rotate_action_distribution as a vectorised fancy-index.
         self._action_rot_perm: np.ndarray | None = None   # (num_pins*num_cells,)
+
+        # Multicolour mode: per-rotation tables for k=0..5 (each k×60° CW).
+        # _cell_rot[k][i] = cell index that ends up where cell i used to be
+        # after rotating the board by k×60° clockwise. This is built so that
+        # encoding "from colour X's perspective" can use _cell_rot[K_TO_RED[X]]
+        # directly to map X's pins into red's frame.
+        self._cell_rot: list[np.ndarray] | None = None      # length 6
+        self._action_rot_perm_k: list[np.ndarray] | None = None  # length 6
 
     # ------------------------------------------------------------------
     # Private helpers
@@ -94,6 +135,34 @@ class StateEncoder:
         # action_perm[i] = source index whose value lands at i
         self._action_rot_perm = action_perm
 
+        # Multicolour mode: build per-k cell-rotation tables and matching
+        # action permutations. Hex rotation in axial coords: 60° CW maps
+        # (q, r) -> (-r, q+r). Apply k times for k×60°.
+        if self.mode == "multicolour":
+            cell_rot_list = []
+            action_perm_k_list = []
+            for k in range(6):
+                cell_rot_k = np.arange(n, dtype=np.int32)
+                for idx, cell in enumerate(board_wrapper.board.cells):
+                    q, r = cell.q, cell.r
+                    for _ in range(k):
+                        q, r = -r, q + r
+                    if (q, r) in index_of:
+                        cell_rot_k[idx] = index_of[(q, r)]
+                    # else: cell rotates off-board (shouldn't happen for valid
+                    # hex board cells). Leave as identity.
+                cell_rot_list.append(cell_rot_k)
+
+                ap = np.empty(num_pins * num_cells, dtype=np.int64)
+                for pin in range(num_pins):
+                    base = pin * num_cells
+                    for c in range(num_cells):
+                        ap[base + cell_rot_k[c]] = base + c
+                action_perm_k_list.append(ap)
+
+            self._cell_rot = cell_rot_list
+            self._action_rot_perm_k = action_perm_k_list
+
     @staticmethod
     def _rotate180(grid: np.ndarray) -> np.ndarray:
         """Return a 180-degree-rotated copy of a 2-D array."""
@@ -103,8 +172,28 @@ class StateEncoder:
         return colour in _ROTATE
 
     def needs_rotation(self, colour: str) -> bool:
-        """Public accessor: True iff this colour's obs gets rotated 180°."""
+        """Public accessor: True iff this colour's obs gets rotated 180° (legacy mode)."""
         return colour in _ROTATE
+
+    def k_to_red_frame(self, colour: str) -> int:
+        """How many 60° CW rotations bring this colour's home into red's frame.
+        Used by multicolour mode for both obs and action rotation.
+        """
+        return _K_TO_RED_FRAME.get(colour, 0)
+
+    def rotate_action_distribution_k(self, dist: np.ndarray, k: int) -> np.ndarray:
+        """Permute action dist by k×60° CW rotation (multicolour mode).
+
+        Use this to convert action targets between frames: if the obs was
+        rotated by k×60° to bring the playing colour into red's frame, the
+        action distribution must be rotated by the same k.
+        """
+        if self._action_rot_perm_k is None:
+            raise RuntimeError(
+                "Multicolour rotation tables not initialised — encoder must be "
+                "constructed with mode='multicolour' and encode() called once."
+            )
+        return dist[self._action_rot_perm_k[k % 6]]
 
     def rotate_action_distribution(
         self, dist: np.ndarray, num_pins: int = 10, num_cells: int = 121
@@ -230,5 +319,87 @@ class StateEncoder:
         if self._needs_rotation(current_colour):
             for ch in range(self.num_channels):
                 obs[ch] = self._rotate180(obs[ch])
+
+        return obs
+
+    def encode_multicolour(
+        self,
+        board_wrapper: BoardWrapper,
+        current_colour: str,
+        turn_order: list,
+    ) -> np.ndarray:
+        """Multi-colour-aware obs encoding.
+
+        Channels (all rotated into the playing colour's "red frame"):
+          0  : playing colour's pins
+          1  : UNION of all opponents' pins (every other active colour)
+          2  : playing colour's goal triangle
+          3  : playing colour's home triangle
+          4  : valid board mask
+          5  : next opponent in turn order (separate so the model can attend
+                to whose move comes after ours)
+          6-9: zeros (room for future features)
+        """
+        if self._cell_rot is None:
+            self._build_maps(board_wrapper)
+        if self._cell_rot is None:
+            raise RuntimeError("Multicolour mode requires mode='multicolour'.")
+
+        gs = self.grid_size
+        obs = np.zeros((self.num_channels, gs, gs), dtype=np.float32)
+
+        cell_to_grid = self._cell_to_grid
+        k = self.k_to_red_frame(current_colour)
+        rot = self._cell_rot[k]   # rotated_cell = rot[raw_cell]
+
+        # Channel 4: valid mask. Rotation of the mask is identity for all k.
+        obs[4] = self._valid_mask.copy()
+
+        # Channel 0: playing colour's pins
+        for pin in board_wrapper.pins[current_colour]:
+            mapped = int(rot[pin.axialindex])
+            if mapped in cell_to_grid:
+                r, c = cell_to_grid[mapped]
+                obs[0, r, c] = 1.0
+
+        # Channel 1: union of ALL opponents' pins
+        for c_name, plist in board_wrapper.pins.items():
+            if c_name == current_colour:
+                continue
+            for pin in plist:
+                mapped = int(rot[pin.axialindex])
+                if mapped in cell_to_grid:
+                    r, c = cell_to_grid[mapped]
+                    obs[1, r, c] = 1.0
+
+        # Channel 2: playing colour's goal triangle
+        for idx in board_wrapper.get_goal_indices(current_colour):
+            mapped = int(rot[idx])
+            if mapped in cell_to_grid:
+                r, c = cell_to_grid[mapped]
+                obs[2, r, c] = 1.0
+
+        # Channel 3: playing colour's home triangle
+        for idx in board_wrapper.get_home_indices(current_colour):
+            mapped = int(rot[idx])
+            if mapped in cell_to_grid:
+                r, c = cell_to_grid[mapped]
+                obs[3, r, c] = 1.0
+
+        # Channel 5: next opponent in turn order
+        next_opp = None
+        if turn_order and current_colour in turn_order:
+            i = turn_order.index(current_colour)
+            for off in range(1, len(turn_order)):
+                cand = turn_order[(i + off) % len(turn_order)]
+                if cand != current_colour and cand in board_wrapper.pins:
+                    next_opp = cand
+                    break
+        if next_opp is not None:
+            for pin in board_wrapper.pins[next_opp]:
+                mapped = int(rot[pin.axialindex])
+                if mapped in cell_to_grid:
+                    r, c = cell_to_grid[mapped]
+                    obs[5, r, c] = 1.0
 
         return obs

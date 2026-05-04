@@ -63,7 +63,16 @@ def _resolve_model_path() -> str:
         return env
     candidates = [
         os.path.join(_HERE, "tournament_model.pt"),
-        os.path.join(_HERE, "..", "experiments", "exp_d13_fast_cpu", "best_model.pt"),
+        # CHAMPION (multicolour): 9x96 pretrained on multi-colour warmstart data
+        # with proper 60° hex-rotation per colour and union-of-opponents in
+        # channel 1. Handles N=2..6 player layouts natively.
+        os.path.join(_HERE, "..", "experiments", "exp_d22_multicolour", "warmstart_model.pt"),
+        # 1v1 specialist (legacy 180°-rotation, single-opponent encoder):
+        # 7 pins vs greedy / 10-of-20 vs advanced at 50-sim eval. Used as a
+        # fallback if the multicolour checkpoint is missing.
+        os.path.join(_HERE, "..", "experiments", "exp_d20_sharpened", "warmstart_model.pt"),
+        os.path.join(_HERE, "..", "experiments", "exp_d17_higher_sims", "best_model.pt"),
+        os.path.join(_HERE, "..", "experiments", "exp_d14_perspective_fix", "best_model.pt"),
         os.path.join(_HERE, "..", "experiments", "exp_d11_server", "best_model.pt"),
         os.path.join(_HERE, "..", "experiments", "exp_d5_resnet9x96", "warmstart_model.pt"),
     ]
@@ -445,14 +454,25 @@ class TournamentAgent:
             if not os.path.exists(MODEL_PATH):
                 debug(f"Model file not found at {MODEL_PATH}; running heuristic-only")
                 return
-            net.load_checkpoint(MODEL_PATH)
+            ckpt = net.load_checkpoint(MODEL_PATH)
             net.model.eval()
 
+            # Encoder mode is stamped on the checkpoint by the trainer. Defaults
+            # to "legacy" (single-opp channel + 180° rotation only) for back-compat
+            # with d20. Multicolour models (d22+) carry "multicolour" so player.py
+            # routes inference through encode_multicolour.
+            self.encoder_mode = ckpt.get("encoder_mode", "legacy")
+            if not isinstance(self.encoder_mode, str):
+                self.encoder_mode = "legacy"
+
             self.network = net
-            self.encoder = StateEncoder(grid_size=17, num_channels=10)
+            self.encoder = StateEncoder(grid_size=17, num_channels=10,
+                                        mode=self.encoder_mode)
             self.mapper = ActionMapper(num_pins=10, num_cells=121)
             self.use_torch = True
-            debug(f"Loaded model from {MODEL_PATH} (device={device}, params={net.parameter_count()})")
+            debug(f"Loaded model from {MODEL_PATH} "
+                  f"(device={device}, params={net.parameter_count()}, "
+                  f"encoder_mode={self.encoder_mode})")
 
             # Calibrate forward-pass cost with one timed inference. Used by
             # choose_sims() to pick a sim count that fits the per-move budget.
@@ -466,6 +486,7 @@ class TournamentAgent:
             self.use_torch = False
             self.has_cuda = False
             self.forward_ms = 1000.0  # huge so MCTS path is avoided
+            self.encoder_mode = "legacy"
 
     def _calibrate_forward(self) -> float:
         """Time a single forward pass to budget MCTS sims at runtime.
@@ -493,7 +514,8 @@ class TournamentAgent:
     # ------------------------------------------------------------------
     # MCTS engines (created per move so we can adjust sim count / batch)
     # ------------------------------------------------------------------
-    def _make_proxy_env(self, board: JSONBoard, my_colour: str, opp_colour: str):
+    def _make_proxy_env(self, board: JSONBoard, my_colour: str, opp_colour: str,
+                        turn_order: Optional[List[str]] = None):
         """Build a minimal env-like object that MCTS expects.
 
         MCTS reads:
@@ -501,6 +523,11 @@ class TournamentAgent:
           env._TURN_ORDER, env._no_opponent, env._step_count, env.max_steps,
           env._terminated, env._truncated, env.action_space.n, env.clone(),
           env.action_masks() (used by some paths), env._get_obs() (some paths).
+
+        For multicolour encoder mode, turn_order matters because
+        encode_multicolour reads it to populate the "next opponent" channel.
+        Pass the real server turn_order for correctness; default falls back to
+        the 2-colour pair for legacy mode.
         """
         from src.env.chinese_checkers_env import ChineseCheckersEnv
         proxy = ChineseCheckersEnv.__new__(ChineseCheckersEnv)
@@ -512,7 +539,7 @@ class TournamentAgent:
         proxy._mapper = self.mapper
         proxy._AGENT_COLOUR = my_colour
         proxy._OPPONENT_COLOUR = opp_colour
-        proxy._TURN_ORDER = [my_colour, opp_colour]
+        proxy._TURN_ORDER = list(turn_order) if turn_order else [my_colour, opp_colour]
         proxy._no_opponent = True
         proxy._opponent_policy = None
         proxy._board = board
@@ -523,14 +550,15 @@ class TournamentAgent:
 
     # ------------------------------------------------------------------
     def select_with_mcts(self, board: JSONBoard, my_colour: str, opp_colour: str,
-                         sims: int, batch_size: int, deadline: float
+                         sims: int, batch_size: int, deadline: float,
+                         turn_order: Optional[List[str]] = None
                         ) -> Optional[Tuple[int, int]]:
         """Run batched MCTS with heuristic value. Returns (pin_id, dest) or None."""
         if not self.use_torch or self.network is None:
             return None
         try:
             from src.search.batched_mcts import BatchedAlphaZeroMCTS
-            env = self._make_proxy_env(board, my_colour, opp_colour)
+            env = self._make_proxy_env(board, my_colour, opp_colour, turn_order=turn_order)
             mcts = BatchedAlphaZeroMCTS(
                 network=self.network,
                 num_simulations=max(1, int(sims)),
@@ -547,7 +575,7 @@ class TournamentAgent:
             # Try standard MCTS as a backup
             try:
                 from src.search.mcts import AlphaZeroMCTS
-                env = self._make_proxy_env(board, my_colour, opp_colour)
+                env = self._make_proxy_env(board, my_colour, opp_colour, turn_order=turn_order)
                 mcts = AlphaZeroMCTS(
                     network=self.network,
                     num_simulations=max(1, int(sims)),
@@ -561,32 +589,47 @@ class TournamentAgent:
                 return None
 
     def select_with_raw_policy(self, board: JSONBoard, my_colour: str, opp_colour: str,
-                               legal_moves: Dict[int, List[int]]
+                               legal_moves: Dict[int, List[int]],
+                               turn_order: Optional[List[str]] = None
                               ) -> Optional[Tuple[int, int]]:
         """One forward pass; argmax over masked logits. Returns None on failure.
 
-        Perspective handling: for blue/gray0/purple, the encoder returns a
-        rotated obs and the policy head outputs in the canonical (rotated)
-        frame. We rotate the action mask into that frame before predict, then
-        rotate the priors back to raw frame for argmax + decode.
+        Perspective handling: for legacy mode, the encoder rotates obs 180° for
+        blue/gray0/purple and we rotate masks/priors with `rotate_action_distribution`.
+        For multicolour mode, the encoder rotates by k×60° per colour and we use
+        `rotate_action_distribution_k(., k)` instead.
         """
         if not self.use_torch or self.network is None:
             return None
         try:
             import numpy as np
-            obs = self.encoder.encode(board, current_colour=my_colour,
-                                      turn_order=[my_colour, opp_colour])
             mask_raw = self.mapper.build_action_mask(legal_moves)
             if not mask_raw.any():
                 return None
-            if self.encoder.needs_rotation(my_colour):
-                mask_canon = self.encoder.rotate_action_distribution(
-                    mask_raw.astype(np.bool_)
+
+            if self.encoder_mode == "multicolour":
+                # encode_multicolour rotates by k×60° for the playing colour;
+                # mask + priors must use the same k.
+                tor = turn_order or [my_colour, opp_colour]
+                obs = self.encoder.encode_multicolour(board, my_colour, tor)
+                k = self.encoder.k_to_red_frame(my_colour)
+                mask_canon = self.encoder.rotate_action_distribution_k(
+                    mask_raw.astype(np.bool_), k
                 ).astype(np.bool_)
                 probs_canon, _ = self.network.predict(obs, mask_canon)
-                probs = self.encoder.rotate_action_distribution(probs_canon)
+                # Rotate priors back to raw frame: k×60° + (6-k)×60° = identity.
+                probs = self.encoder.rotate_action_distribution_k(probs_canon, (6 - k) % 6)
             else:
-                probs, _ = self.network.predict(obs, mask_raw)
+                obs = self.encoder.encode(board, current_colour=my_colour,
+                                          turn_order=[my_colour, opp_colour])
+                if self.encoder.needs_rotation(my_colour):
+                    mask_canon = self.encoder.rotate_action_distribution(
+                        mask_raw.astype(np.bool_)
+                    ).astype(np.bool_)
+                    probs_canon, _ = self.network.predict(obs, mask_canon)
+                    probs = self.encoder.rotate_action_distribution(probs_canon)
+                else:
+                    probs, _ = self.network.predict(obs, mask_raw)
             action = int(np.argmax(probs))
             return self.mapper.decode(action)
         except Exception as e:
@@ -695,8 +738,17 @@ def select_move(agent: TournamentAgent,
                 my_colour: str,
                 legal_moves: Dict[int, List[int]],
                 time_used_sec: float,
-                moves_made: int) -> Tuple[int, int]:
-    """Top-level move selection with hierarchical fallbacks and time guard."""
+                moves_made: int,
+                recent_moves: Optional[List[Tuple[int, int]]] = None
+                ) -> Tuple[int, int]:
+    """Top-level move selection with hierarchical fallbacks and time guard.
+
+    Parameters
+    ----------
+    recent_moves : list of (pin_id, dest_cell) for our last few moves.
+        Used to detect 2-move cycles (we pingpong the same pin between two
+        cells). When the model would cycle, we pick a different move.
+    """
     if not legal_moves:
         return (0, 0)  # caller will see "no movable" and skip
 
@@ -738,6 +790,33 @@ def select_move(agent: TournamentAgent,
     sims = choose_sims(remaining, moves_made, forward_ms=forward_ms,
                        sims_ceiling=ceiling)
 
+    # Late-game heuristic-first override: past move 70 the model tends to
+    # oscillate (heuristic value gradient flat near board fill-up). The
+    # advanced heuristic with 1-ply lookahead picks decisive moves and
+    # respects the "don't leave goal" rule.
+    if moves_made >= 70:
+        try:
+            mv = advanced_choose(legal_moves, pin_positions, board.board, goal_indices)
+            if mv is not None and _is_legal(mv, legal_moves) and not _would_cycle(mv, recent_moves):
+                debug(f"Late-game heuristic chose pin {mv[0]} -> {mv[1]} (move {moves_made})")
+                return mv
+        except Exception as e:
+            debug(f"Late-game heuristic raised: {e}")
+
+    # Multiplayer (3+ active colours): only fall back to advanced heuristic if
+    # the loaded model is the legacy 2-player one (encoder mode != multicolour).
+    # The d22+ multicolour models handle N=2..6 natively.
+    n_active_colours = len([c for c in pins if pins[c]])
+    if n_active_colours >= 3 and getattr(agent, "encoder_mode", "legacy") != "multicolour":
+        try:
+            mv = advanced_choose(legal_moves, pin_positions, board.board, goal_indices)
+            if mv is not None and _is_legal(mv, legal_moves) and not _would_cycle(mv, recent_moves):
+                debug(f"Legacy-model multiplayer fallback: heuristic chose "
+                      f"pin {mv[0]} -> {mv[1]} ({n_active_colours} colours)")
+                return mv
+        except Exception as e:
+            debug(f"Multiplayer heuristic raised: {e}")
+
     # Per-move deadline relative to wall clock
     move_start = time.perf_counter()
     per_move_budget = min(PER_MOVE_HARD_CAP, max(0.5, remaining - 1.0))
@@ -755,8 +834,17 @@ def select_move(agent: TournamentAgent,
         try:
             mv = agent.select_with_mcts(board, my_colour, opp_colour,
                                         sims=sims_eff, batch_size=MCTS_BATCH_SIZE,
-                                        deadline=deadline)
+                                        deadline=deadline, turn_order=turn_order)
             if mv is not None and _is_legal(mv, legal_moves):
+                # Cycle guard: if this move would put us back where we just
+                # came from (2-move pingpong), try to pick a different move.
+                if _would_cycle(mv, recent_moves):
+                    alt = _alt_non_cycling_move(legal_moves, pin_positions,
+                                                board.board, goal_indices,
+                                                recent_moves, exclude=mv)
+                    if alt is not None:
+                        debug(f"MCTS chose {mv} but would cycle; using alt {alt}")
+                        return alt
                 debug(f"MCTS chose pin {mv[0]} -> {mv[1]} (sims={sims_eff}, "
                       f"t={time.perf_counter()-move_start:.2f}s)")
                 return mv
@@ -766,7 +854,8 @@ def select_move(agent: TournamentAgent,
     # 2) Raw policy fallback
     if agent.use_torch and (time.perf_counter() < deadline):
         try:
-            mv = agent.select_with_raw_policy(board, my_colour, opp_colour, legal_moves)
+            mv = agent.select_with_raw_policy(board, my_colour, opp_colour, legal_moves,
+                                              turn_order=turn_order)
             if mv is not None and _is_legal(mv, legal_moves):
                 debug(f"Raw policy chose pin {mv[0]} -> {mv[1]}")
                 return mv
@@ -801,6 +890,71 @@ def _is_legal(mv: Tuple[int, int], legal_moves: Dict[int, List[int]]) -> bool:
     if not dests:
         return False
     return int(dest) in dests
+
+
+def _would_cycle(mv: Tuple[int, int],
+                 recent_moves: Optional[List[Tuple[int, int]]]) -> bool:
+    """Detect cycles in the last few moves.
+
+    Flags `mv` as a cycle if:
+      (a) the same (pin, dest) tuple appears in the last 4 moves, OR
+      (b) the proposed move undoes the most recent move (i.e. pin would
+          return to where it was 2 plies ago).
+    """
+    if not recent_moves:
+        return False
+    # (a) exact repetition within recent window
+    if mv in recent_moves[-4:]:
+        return True
+    # (b) immediate undo: pin moved A→B last turn; now we'd move B→A
+    if len(recent_moves) >= 1:
+        last = recent_moves[-1]
+        if mv[0] == last[0] and mv[1] != last[1]:
+            # Same pin, different dest. If destination equals the cell the pin
+            # was AT before its last move we'd undo it — but we only know the
+            # "from" cell from the move pair. Approximation: if the same
+            # (pin, target) shows up in moves 2-3 ago, we're pingponging.
+            if len(recent_moves) >= 2 and mv == recent_moves[-2]:
+                return True
+    return False
+
+
+def _alt_non_cycling_move(legal_moves: Dict[int, List[int]],
+                          pin_positions: Dict[int, int],
+                          board: HexBoard,
+                          goal_indices: List[int],
+                          recent_moves: Optional[List[Tuple[int, int]]],
+                          exclude: Tuple[int, int]) -> Optional[Tuple[int, int]]:
+    """Find the next-best non-cycling move using greedy heuristic.
+
+    Falls back to any non-excluded legal move if no good alternative.
+    """
+    goal_set = set(goal_indices)
+    best = None
+    best_score = None
+    for pin_id, dests in legal_moves.items():
+        for dest in dests:
+            if (pin_id, dest) == exclude:
+                continue
+            if _would_cycle((pin_id, dest), recent_moves):
+                continue
+            cur = pin_positions.get(pin_id, 0)
+            d_cur = _min_dist_to_goal(board, cur, goal_indices)
+            d_dest = _min_dist_to_goal(board, dest, goal_indices)
+            score = d_cur - d_dest
+            if dest in goal_set:
+                score += 5.0
+            if best_score is None or score > best_score:
+                best_score = score
+                best = (pin_id, dest)
+    if best is not None:
+        return best
+    # Last resort: any move that isn't the excluded one
+    for pin_id, dests in legal_moves.items():
+        for dest in dests:
+            if (pin_id, dest) != exclude:
+                return (pin_id, dest)
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -850,16 +1004,24 @@ def main():
         print("Waiting for players...")
         time.sleep(0.5)
 
-    # In tournament mode you may want to auto-start: set CC_AUTOSTART=1
-    if os.getenv("CC_AUTOSTART", "0") not in ("0", "", "false", "False"):
+    # CC_NO_AUTOSTART skips sending start ourselves — useful when an external
+    # harness sends start for all N players simultaneously (otherwise the
+    # first 2 players to send start auto-launch the game before the rest
+    # have joined).
+    no_autostart = os.getenv("CC_NO_AUTOSTART", "0") not in ("0", "", "false", "False")
+    if no_autostart:
+        print(f"PLAYER_ID={player_id}", flush=True)  # for harness
+    elif os.getenv("CC_AUTOSTART", "0") not in ("0", "", "false", "False"):
         print("Auto-starting...")
+        rpc({"op": "start", "game_id": game_id, "player_id": player_id})
+        print("Sent START")
     else:
         try:
             input("Press ENTER to send START...")
         except EOFError:
             pass
-    rpc({"op": "start", "game_id": game_id, "player_id": player_id})
-    print("Sent START")
+        rpc({"op": "start", "game_id": game_id, "player_id": player_id})
+        print("Sent START")
 
     while True:
         st = rpc({"op": "get_state", "game_id": game_id})
@@ -873,6 +1035,9 @@ def main():
     timeoutnotice_move = -1
     my_time_used = 0.0
     my_moves_made = 0
+    # Track our recent moves for the cycle guard. Bounded ring buffer; the
+    # guard only reads the last 3-4 entries.
+    recent_moves: List[Tuple[int, int]] = []
 
     while True:
         st = rpc({"op": "get_state", "game_id": game_id})
@@ -951,6 +1116,7 @@ def main():
                     agent, state, colour, legal_moves,
                     time_used_sec=my_time_used,
                     moves_made=my_moves_made,
+                    recent_moves=recent_moves,
                 )
             except Exception as e:
                 print(f"select_move crashed: {e}; using random legal move", flush=True)
@@ -964,6 +1130,11 @@ def main():
                 debug(f"chosen move (pin {pid} -> {dest}) not in legal_moves; correcting")
                 pid = next(iter(legal_moves.keys()))
                 dest = legal_moves[pid][0]
+
+            # Update recent-moves ring buffer (cap at 6)
+            recent_moves.append((int(pid), int(dest)))
+            if len(recent_moves) > 6:
+                recent_moves.pop(0)
 
             decide_ms = (time.perf_counter() - move_t0) * 1000
             print(f"  -> pin {pid} to cell {dest}  ({decide_ms:.0f}ms decide)", flush=True)
