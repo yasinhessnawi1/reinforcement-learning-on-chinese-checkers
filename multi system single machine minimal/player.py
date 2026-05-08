@@ -32,7 +32,7 @@ from typing import Dict, Any, List, Tuple, Optional
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-HOST = os.getenv("CC_HOST", "127.0.0.1")
+HOST = os.getenv("CC_HOST", "10.245.30.229")
 PORT = int(os.getenv("CC_PORT", "50555"))
 
 # Per-move sim ceilings. Tuned at runtime based on detected hardware (see
@@ -63,9 +63,12 @@ def _resolve_model_path() -> str:
         return env
     candidates = [
         os.path.join(_HERE, "tournament_model.pt"),
-        # CHAMPION (multicolour): 9x96 pretrained on multi-colour warmstart data
-        # with proper 60° hex-rotation per colour and union-of-opponents in
-        # channel 1. Handles N=2..6 player layouts natively.
+        # CHAMPION (d35-best, win-only RL): 22/30 wins vs advanced @ sims=400.
+        # ResNet 9x96, multicolour encoder, trained from d22 with replay buffer
+        # + per-colour win filter (≥7 pins) + outcome-weighted loss + KL filter.
+        # Handles N=2..6 player layouts. See DEC-NEW-023 in docs/DECISIONS.md.
+        os.path.join(_HERE, "..", "experiments", "exp_d35_winonly", "best_so_far.pt"),
+        # Fallback: d22 warmstart-only (supervised). 19/30 wins vs advanced.
         os.path.join(_HERE, "..", "experiments", "exp_d22_multicolour", "warmstart_model.pt"),
         # 1v1 specialist (legacy 180°-rotation, single-opponent encoder):
         # 7 pins vs greedy / 10-of-20 vs advanced at 50-sim eval. Used as a
@@ -713,12 +716,14 @@ def choose_sims(remaining_game_budget: float, moves_made: int,
     sims_from_budget = int(usable_ms / max(forward_ms * 0.8, 1.0))
 
     if sims_ceiling <= 0:
-        # Auto ceiling: GPU can sustain ~1000+ sims/move easily; CPU much less.
-        # forward_ms < 8ms = GPU-class, allow up to 400.
-        # forward_ms < 25ms = decent CPU, allow 200.
-        # forward_ms >= 25ms = slow CPU, cap at 100.
+        # Auto ceiling, calibrated against actual V100 measurements:
+        #   sims=400  → 347ms/move  → 80 moves * 347ms = 27.8s  (well under 60s)
+        #   sims=800  → 661ms/move  → 80 moves * 661ms = 52.9s  (fits 60s budget)
+        #   sims=1600 → 1415ms/move → 80 moves * 1.4s = 113s    (overruns)
+        # GPU can comfortably do 800; CPU is much weaker and per-move cost
+        # scales poorly with batched MCTS (since batches don't fill).
         if forward_ms < 8:
-            sims_ceiling = 400
+            sims_ceiling = 800   # GPU-class: was 400, but profile shows 800 fits
         elif forward_ms < 25:
             sims_ceiling = 200
         else:
