@@ -1068,6 +1068,102 @@ class AlphaZeroMCTS:
 
         return probs, float(root_value)
 
+    def _extract_stats_from_root(
+        self, root: MCTSNode, num_actions: int,
+        action_mask: np.ndarray, raw_policy: np.ndarray,
+        turn_number: int,
+    ) -> "SearchStats":
+        """Extract SearchStats from a completed MCTS root node.
+
+        Parameters
+        ----------
+        root : MCTSNode — completed MCTS root with visit counts
+        num_actions : int — action space size (1210)
+        action_mask : np.ndarray (num_actions,) bool
+        raw_policy : np.ndarray (num_actions,) — network's raw softmax priors
+        turn_number : int — current turn in the game
+
+        Returns
+        -------
+        SearchStats from search_conditioned_modulator
+        """
+        from src.network.search_conditioned_modulator import SearchStats
+
+        visit_counts = np.zeros(num_actions, dtype=np.float32)
+        q_values = np.zeros(num_actions, dtype=np.float32)
+        max_depth = 0
+
+        for action, child in root.children.items():
+            visit_counts[action] = child.N
+            q_values[action] = child.Q
+            # Estimate depth by traversing deepest child
+            depth = self._subtree_depth(child)
+            if depth > max_depth:
+                max_depth = depth
+
+        total_visits = int(visit_counts.sum())
+        root_value = 0.0
+        if total_visits > 0:
+            root_value = float(
+                sum(c.Q * c.N for c in root.children.values()) / total_visits
+            )
+
+        return SearchStats(
+            visit_counts=visit_counts,
+            q_values=q_values,
+            raw_policy=raw_policy,
+            action_mask=action_mask,
+            root_value=root_value,
+            max_depth=max_depth,
+            total_visits=total_visits,
+            turn_number=turn_number,
+        )
+
+    @staticmethod
+    def _subtree_depth(node: MCTSNode, current_depth: int = 1) -> int:
+        """Get max depth of subtree (bounded to avoid deep recursion)."""
+        if not node.children or current_depth >= 20:
+            return current_depth
+        return max(
+            AlphaZeroMCTS._subtree_depth(child, current_depth + 1)
+            for child in node.children.values()
+            if child.N > 0
+        ) if any(c.N > 0 for c in node.children.values()) else current_depth
+
+    def get_action_probs_with_stats(
+        self, env, temperature: float = 1.0, turn_number: int = 0,
+    ) -> tuple[np.ndarray, "SearchStats"]:
+        """Run MCTS and return (action_probs, search_stats).
+
+        Like get_action_probs but also returns SearchStats for the SCM.
+        """
+        root = self.run(env)
+        num_actions = env.action_space.n
+        mask = env.action_masks()
+        probs = self._visits_to_probs(root, num_actions, mask, temperature)
+
+        # Get raw policy from network for KL computation
+        obs = env._get_obs()
+        encoder = env._encoder
+        rotated = (
+            encoder.needs_rotation(env._AGENT_COLOUR)
+            if hasattr(encoder, 'needs_rotation')
+            else False
+        )
+        if rotated:
+            mask_for_net = encoder.rotate_action_distribution(
+                mask.astype(np.bool_)
+            ).astype(np.bool_)
+            raw_policy, _ = self.network.predict(obs, mask_for_net)
+            raw_policy = encoder.rotate_action_distribution(raw_policy)
+        else:
+            raw_policy, _ = self.network.predict(obs, mask)
+
+        stats = self._extract_stats_from_root(
+            root, num_actions, mask, raw_policy, turn_number,
+        )
+        return probs, stats
+
     def select_action(self, env, temperature: float = 1.0) -> int:
         """Run MCTS and select an action."""
         probs = self.get_action_probs(env, temperature)

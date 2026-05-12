@@ -239,13 +239,20 @@ def generate_multicolour_warmstart_data(config: MultiColourWarmStartConfig) -> d
 
 
 def save_data(data: dict, path: str) -> None:
+    """Atomic write: save to a temp file then rename, so a crash mid-write
+    leaves either the old version or nothing — never a corrupt npz."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    np.savez_compressed(path, **data)
+    tmp = path + ".tmp"
+    np.savez_compressed(tmp, **data)
+    os.replace(tmp, path)
 
 
 def _worker_generate(args_tuple):
-    """Worker entry: receives (num_games, max_moves, seed) and returns the
-    data dict for those games."""
+    """Worker entry: receives (num_games, max_moves, seed, worker_idx,
+    chunks_dir) and SAVES its chunk to disk before returning. Saving from
+    the worker (not the master) means the data survives even if the master
+    is killed mid-run, which is what we actually want from "fault tolerance".
+    Returns the path of the saved chunk for the master to log."""
     import os
     for _v in ("OMP_NUM_THREADS", "MKL_NUM_THREADS", "OPENBLAS_NUM_THREADS",
                 "NUMEXPR_NUM_THREADS", "VECLIB_MAXIMUM_THREADS"):
@@ -255,11 +262,17 @@ def _worker_generate(args_tuple):
         threadpool_limits(limits=1)
     except Exception:
         pass
-    num_games, max_moves, seed = args_tuple
+    num_games, max_moves, seed, worker_idx, chunks_dir = args_tuple
     random.seed(seed)
     np.random.seed(seed)
     cfg = MultiColourWarmStartConfig(num_games=num_games, max_moves=max_moves)
-    return generate_multicolour_warmstart_data(cfg)
+    data = generate_multicolour_warmstart_data(cfg)
+    if chunks_dir:
+        os.makedirs(chunks_dir, exist_ok=True)
+        chunk_path = os.path.join(chunks_dir, f"chunk_{worker_idx:03d}.npz")
+        np.savez_compressed(chunk_path, **data)
+        return {"chunk_path": chunk_path, "n_samples": data["obs"].shape[0]}
+    return {"chunk_path": None, "n_samples": data["obs"].shape[0], "data": data}
 
 
 def generate_parallel(num_games: int, max_moves: int, num_workers: int,
@@ -272,19 +285,21 @@ def generate_parallel(num_games: int, max_moves: int, num_workers: int,
     """
     from concurrent.futures import ProcessPoolExecutor, as_completed
 
+    chunks_dir = os.path.join(output_dir, "chunks")
+    os.makedirs(chunks_dir, exist_ok=True)
+
     per_worker = max(1, num_games // num_workers)
     jobs = []
     remaining = num_games
     seed = base_seed
     for w in range(num_workers):
         n = per_worker if w < num_workers - 1 else remaining
-        jobs.append((n, max_moves, seed + w))
+        # Worker writes its own chunk to disk before returning, so killing
+        # the master can't lose completed work.
+        jobs.append((n, max_moves, seed + w, w, chunks_dir))
         remaining -= n
     print(f"[parallel] {num_workers} workers, {per_worker} games each "
-          f"(total {num_games})", flush=True)
-
-    chunks_dir = os.path.join(output_dir, "chunks")
-    os.makedirs(chunks_dir, exist_ok=True)
+          f"(total {num_games}); chunks → {chunks_dir}", flush=True)
 
     # Use 'spawn' so each worker re-runs module imports — that lets the
     # OMP/MKL/OPENBLAS env vars set at the top of this module take effect
@@ -293,26 +308,20 @@ def generate_parallel(num_games: int, max_moves: int, num_workers: int,
     import multiprocessing as mp
     mp_ctx = mp.get_context("spawn")
 
-    chunks = []
     with ProcessPoolExecutor(max_workers=num_workers, mp_context=mp_ctx) as ex:
         futs = {ex.submit(_worker_generate, j): i for i, j in enumerate(jobs)}
         done = 0
         for f in as_completed(futs):
             i = futs[f]
             try:
-                d = f.result()
+                r = f.result()
                 done += 1
-                # Persist this chunk immediately so a later crash doesn't lose it
-                chunk_path = os.path.join(chunks_dir, f"chunk_{i:03d}.npz")
-                np.savez_compressed(chunk_path, **d)
-                chunks.append(d)
                 print(f"[parallel] worker {i} done ({done}/{num_workers}); "
-                      f"+{d['obs'].shape[0]} samples → {chunk_path}",
+                      f"+{r['n_samples']} samples → {r['chunk_path']}",
                       flush=True)
             except Exception as e:
                 print(f"[parallel] worker {i} FAILED: {e}", flush=True)
 
-    # Concatenate everything (including any chunks left from previous runs)
     return _merge_chunks(chunks_dir)
 
 

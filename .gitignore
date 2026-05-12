@@ -19,6 +19,16 @@ venv/
 
 # Training artifacts
 experiments/*
+!experiments/scm_v2/
+!experiments/scm_v2/scm_model.pt
+!experiments/scm_v2/scm_eval_results.json
+!experiments/scm_v2/paper.md
+!experiments/scm_v2/README.md
+!experiments/scm_v2/plots/
+!experiments/scm_v2/plots/*.png
+!experiments/scm_v3_d37/
+!experiments/scm_v3_d37/scm_model.pt
+!experiments/scm_v3_d37/.gitkeep
 models/*
 docs/*
 

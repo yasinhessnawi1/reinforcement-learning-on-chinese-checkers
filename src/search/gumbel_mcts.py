@@ -327,6 +327,15 @@ class GumbelMCTS:
         For training data collection, we return the visit count distribution
         (which IS the improved policy under Gumbel AlphaZero).
         """
+        probs, _ = self.get_action_probs_and_value(env, temperature)
+        return probs
+
+    def get_action_probs_and_value(self, env, temperature: float = 1.0):
+        """Same as get_action_probs but also returns the MCTS root value
+        estimate (W/N at root). Used by training drivers that store both
+        the policy target AND a value blend (lambda * outcome + (1-lambda) * mcts_value).
+        Returns (probs, root_value).
+        """
         root, _ = self.run(env)
         num_actions = env.action_space.n
 
@@ -346,7 +355,9 @@ class GumbelMCTS:
             total = counts_temp.sum()
             probs = counts_temp / total if total > 0 else counts_temp
 
-        return probs
+        # Root value: average of accumulated W over visits at root.
+        root_value = (root.W / root.N) if root.N > 0 else 0.0
+        return probs, float(root_value)
 
     def select_action(self, env, temperature: float = 0.0) -> int:
         """Run Gumbel MCTS and select the best action.

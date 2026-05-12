@@ -27,6 +27,7 @@ from src.env.action_mapper import ActionMapper
 from src.env.chinese_checkers_env import ChineseCheckersEnv
 from src.search.mcts import AlphaZeroMCTS, _heuristic_value, _score_colour
 from src.search.batched_mcts import BatchedAlphaZeroMCTS
+from src.search.gumbel_mcts import GumbelMCTS
 from src.training.alphazero_self_play import TrainingSample, SelfPlayConfig
 
 
@@ -85,13 +86,28 @@ def _make_proxy_env_mc(board, colour: str, step_count: int, max_steps: int,
     return proxy
 
 
-def _create_mcts_engine_mc(network, sp_config: SelfPlayConfig):
+def _create_mcts_engine_mc(network, sp_config: SelfPlayConfig,
+                            use_gumbel: bool = False,
+                            num_considered_actions: int = 16):
     """MCTS for the multicolour encoder. NOTE: uses NO opponent_policy in the
     tree — opponents are just other agents whose moves happen outside the
     MCTS tree (single-player tree per move). This is the same simplification
     `play_one_game_true_selfplay` uses: each MCTS run searches the agent's
     next move as if no one else moves, and the outer game loop alternates
-    colours."""
+    colours.
+
+    When use_gumbel=True, returns GumbelMCTS (Sequential Halving at root +
+    completed-Q + Gumbel noise) — designed for sample-efficient exploration
+    at low simulation counts. Recommended sims=32-64 for Gumbel."""
+    if use_gumbel:
+        return GumbelMCTS(
+            network=network,
+            num_simulations=sp_config.num_simulations,
+            num_considered_actions=num_considered_actions,
+            c_puct=sp_config.c_puct,
+            use_heuristic_value=sp_config.use_heuristic_value,
+            opponent_policy=None,
+        )
     if sp_config.use_batched_mcts:
         return BatchedAlphaZeroMCTS(
             network=network,
