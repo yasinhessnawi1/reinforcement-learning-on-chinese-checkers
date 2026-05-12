@@ -431,6 +431,165 @@ def cmd_enhanced_warmstart(args):
         save_enhanced_data(data, config.output_dir, prefix="endgame")
 
 
+def cmd_scm(args):
+    """Train and evaluate Search-Conditioned Modulation (SCM)."""
+    device = "cuda" if torch.cuda.is_available() and not args.cpu else "cpu"
+    print(f"Device: {device}")
+    print(f"SCM Pipeline — phase: {args.phase}")
+
+    os.makedirs(args.output, exist_ok=True)
+    log_dir = os.path.join(args.output, "scm_logs")
+
+    # Load frozen policy network
+    net_config = NetworkConfig(
+        num_blocks=args.num_blocks,
+        num_filters=args.num_filters,
+        architecture=args.architecture,
+        d_model=args.d_model,
+        n_heads=args.n_heads,
+        use_auxiliary_head=args.use_auxiliary_head,
+    )
+    network = AlphaZeroNet(net_config, device=device)
+    network.load_checkpoint(args.checkpoint)
+    print(f"  Loaded policy: {network.parameter_count():,} params")
+    print(f"  Checkpoint: {args.checkpoint}")
+
+    from src.network.search_conditioned_modulator import SCMConfig, SearchConditionedModulator
+    from src.training.scm_trainer import SCMTrainConfig, SCMTrainer
+    from src.training.scm_self_play import (
+        collect_scm_training_data,
+        evaluate_with_scm,
+        load_traj_chunks,
+    )
+    from src.training.alphazero_self_play import SelfPlayConfig as SPConfig
+
+    # Build opponent for data collection / eval
+    from src.agents.greedy_agent import greedy_policy
+    opponent_policy = greedy_policy
+
+    sp_config = SPConfig(
+        num_simulations=args.sims,
+        use_heuristic_value=args.heuristic_value,
+        max_moves=args.max_moves,
+    )
+
+    # Create SCM
+    scm_config = SCMConfig(
+        hidden_dim=args.scm_hidden,
+        max_shift=args.max_shift,
+        identity_reg_weight=args.identity_reg,
+    )
+    scm = SearchConditionedModulator(scm_config)
+    print(f"  SCM GRU: {scm.param_count():,} params (hidden={args.scm_hidden})")
+
+    scm_ckpt_path = os.path.join(args.output, "scm_model.pt")
+
+    # Load existing SCM if provided
+    if args.scm_checkpoint:
+        trainer = SCMTrainer(scm, device=device)
+        trainer.load_checkpoint(args.scm_checkpoint)
+        print(f"  Resumed SCM from: {args.scm_checkpoint}")
+
+    # ---- Phase 1: Collect ----
+    traj_dir = os.path.join(args.output, "scm_trajectories")
+
+    if args.phase in ("collect", "all"):
+        num_w = getattr(args, "num_workers", 0)
+        print(f"\n{'='*60}")
+        print(f"Phase 1: Collecting SCM training data ({args.collect_games} games, workers={num_w or 'auto'})")
+        print(f"{'='*60}")
+
+        trajectories = collect_scm_training_data(
+            network=network,
+            num_games=args.collect_games,
+            config=sp_config,
+            opponent_policy=opponent_policy,
+            save_dir=traj_dir,
+            num_workers=num_w,
+            chunk_size=50,
+        )
+
+        total_steps = sum(len(t.steps) for t in trajectories)
+        print(f"  Collected {len(trajectories)} trajectories ({total_steps} steps)")
+        print(f"  Chunks saved to {traj_dir}/")
+
+    # ---- Phase 2: Train ----
+    if args.phase in ("train", "all"):
+        print(f"\n{'='*60}")
+        print(f"Phase 2: Training SCM GRU ({args.train_epochs} epochs)")
+        print(f"{'='*60}")
+
+        if not os.path.isdir(traj_dir):
+            print(f"  ERROR: No trajectory data at {traj_dir}/. Run 'collect' phase first.")
+            return
+
+        trajectories = load_traj_chunks(traj_dir)
+        print(f"  Loaded {len(trajectories)} trajectories from chunks")
+
+        train_config = SCMTrainConfig(
+            lr=args.scm_lr,
+            identity_reg_weight=args.identity_reg,
+            num_epochs=args.train_epochs,
+            log_interval=5,
+        )
+        trainer = SCMTrainer(scm, config=train_config, device=device)
+
+        losses = trainer.train_on_trajectories(trajectories, verbose=True)
+        print(f"\n  Final losses: {losses}")
+
+        trainer.save_checkpoint(scm_ckpt_path)
+        print(f"  Saved SCM checkpoint to {scm_ckpt_path}")
+
+    # ---- Phase 3: Evaluate ----
+    if args.phase in ("eval", "all"):
+        # Parse blend alphas
+        blend_alphas = [float(x) for x in args.blend_alphas.split(",")]
+
+        print(f"\n{'='*60}")
+        print(f"Phase 3: Evaluating SCM ({args.eval_games} games per condition)")
+        print(f"  Blend levels: {blend_alphas}")
+        print(f"{'='*60}")
+
+        if os.path.exists(scm_ckpt_path) and not args.scm_checkpoint:
+            trainer = SCMTrainer(scm, device=device)
+            trainer.load_checkpoint(scm_ckpt_path)
+            print(f"  Loaded SCM from {scm_ckpt_path}")
+
+        scm.to(torch.device(device))
+
+        results = evaluate_with_scm(
+            network=network,
+            scm=scm,
+            num_games=args.eval_games,
+            config=sp_config,
+            opponent_policy=opponent_policy,
+            log_dir=log_dir,
+            blend_alphas=blend_alphas,
+        )
+
+        # Save results
+        results_path = os.path.join(args.output, "scm_eval_results.json")
+        serializable = {}
+        for key, val in results.items():
+            if key == "conditions":
+                serializable["conditions"] = {}
+                for cond_name, cond_data in val.items():
+                    serializable["conditions"][cond_name] = {
+                        k: v for k, v in cond_data.items()
+                        if k != "pins_list"
+                    }
+                    serializable["conditions"][cond_name]["pins_list"] = cond_data.get("pins_list", [])
+            else:
+                serializable[key] = val
+        with open(results_path, "w") as f:
+            json.dump(serializable, f, indent=2)
+        print(f"  Results saved to {results_path}")
+
+    print(f"\n{'='*60}")
+    print("SCM pipeline complete!")
+    print(f"{'='*60}")
+
+
 def _add_arch_args(parser):
     """Add architecture arguments shared across subcommands."""
     parser.add_argument("--architecture", type=str, default="resnet",
@@ -578,6 +737,42 @@ def main():
     ev.add_argument("--export-onnx", action="store_true", help="Export to ONNX format")
     ev.add_argument("--export-torchscript", action="store_true", help="Export to TorchScript")
 
+    # --- scm (Search-Conditioned Modulation) ---
+    scm = subparsers.add_parser("scm", help="Train and evaluate SCM (Search-Conditioned Modulation)")
+    scm.add_argument("--checkpoint", type=str, required=True,
+                     help="Frozen policy checkpoint to modulate")
+    scm.add_argument("--phase", type=str, default="all",
+                     choices=["collect", "train", "eval", "all"],
+                     help="SCM pipeline phase: collect data, train GRU, evaluate, or all")
+    scm.add_argument("--collect-games", type=int, default=200,
+                     help="Number of games for SCM data collection (default 200)")
+    scm.add_argument("--train-epochs", type=int, default=20,
+                     help="SCM training epochs (default 20)")
+    scm.add_argument("--eval-games", type=int, default=50,
+                     help="Games per condition for evaluation (default 50)")
+    scm.add_argument("--sims", type=int, default=200,
+                     help="MCTS simulations per move (default 200)")
+    scm.add_argument("--scm-hidden", type=int, default=128,
+                     help="GRU hidden dimension (default 128)")
+    scm.add_argument("--scm-lr", type=float, default=1e-3,
+                     help="SCM learning rate (default 1e-3)")
+    scm.add_argument("--identity-reg", type=float, default=0.01,
+                     help="Identity regularization weight (default 0.01)")
+    scm.add_argument("--max-shift", type=float, default=2.0,
+                     help="Max shift magnitude (default 2.0)")
+    scm.add_argument("--blend-alphas", type=str, default="0.3,0.5,0.7,1.0",
+                     help="Comma-separated blend levels to test (default: 0.3,0.5,0.7,1.0)")
+    scm.add_argument("--output", type=str, default="experiments/scm",
+                     help="Output directory")
+    scm.add_argument("--scm-checkpoint", type=str, default=None,
+                     help="Resume SCM from existing checkpoint")
+    scm.add_argument("--heuristic-value", action="store_true")
+    scm.add_argument("--max-moves", type=int, default=100)
+    scm.add_argument("--num-workers", type=int, default=0,
+                     help="Parallel workers for collection (0=auto)")
+    _add_arch_args(scm)
+    scm.add_argument("--cpu", action="store_true")
+
     args = parser.parse_args()
 
     if args.command == "warmstart":
@@ -590,6 +785,8 @@ def main():
         cmd_train(args)
     elif args.command == "evaluate":
         cmd_evaluate(args)
+    elif args.command == "scm":
+        cmd_scm(args)
     else:
         parser.print_help()
 

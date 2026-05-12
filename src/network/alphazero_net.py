@@ -133,6 +133,31 @@ class AlphaZeroNet:
 
         return probs, value_scalar
 
+    def predict_raw_logits(
+        self, obs: np.ndarray, action_mask: np.ndarray
+    ) -> tuple[np.ndarray, np.ndarray, float]:
+        """Single-sample inference returning raw logits (before softmax).
+
+        Used by SCM to get logits for modulation.
+
+        Returns
+        -------
+        (raw_logits, masked_probs, value)
+        """
+        obs_t = torch.tensor(obs[np.newaxis], dtype=torch.float32, device=self.device)
+        mask_t = torch.tensor(
+            action_mask[np.newaxis], dtype=torch.bool, device=self.device
+        )
+
+        with torch.no_grad():
+            logits, value = self.model(obs_t)
+            raw_logits_np = logits.squeeze(0).cpu().numpy()
+            logits = logits.masked_fill(~mask_t, -1e9)
+            probs = F.softmax(logits, dim=-1).squeeze(0).cpu().numpy()
+            value_scalar = value.squeeze().cpu().item()
+
+        return raw_logits_np, probs, value_scalar
+
     def predict_batch(
         self, obs_batch: np.ndarray, mask_batch: np.ndarray
     ) -> tuple[np.ndarray, np.ndarray]:
