@@ -91,6 +91,37 @@ MODEL_PATH = _resolve_model_path()
 NUM_BLOCKS = int(os.getenv("CC_NUM_BLOCKS", "9"))
 NUM_FILTERS = int(os.getenv("CC_NUM_FILTERS", "96"))
 
+# Search-Conditioned Modulation (SCM): GRU that reads MCTS search stats
+# per turn and FiLM-modulates the policy logits across game phases.
+# Trained on 2-player vs greedy; pair with d35-best for 1v1.
+# CC_SCM_CHECKPOINT=""  disables SCM and falls back to plain MCTS.
+# CC_SCM_BLEND in [0,1]: how much to mix SCM-modulated probs into MCTS visit probs.
+def _resolve_scm_path() -> str:
+    env = os.getenv("CC_SCM_CHECKPOINT")
+    if env is not None:
+        return env  # explicit override (empty string = disabled)
+    candidates = [
+        os.path.join(_HERE, "scm_model.pt"),
+        os.path.join(_HERE, "..", "experiments", "scm_v3_d37", "scm_model.pt"),
+        os.path.join(_HERE, "..", "experiments", "scm_v2", "scm_model.pt"),
+    ]
+    for c in candidates:
+        if os.path.exists(c):
+            return c
+    return ""
+
+SCM_PATH = _resolve_scm_path()
+# Blend default tuned by multi-N arena, NOT by 1v1.
+# 1v1 vs greedy blend sweep (30 games each):
+#   0%=6.0 → 10%=7.0 → 20%=7.1 → 30%=7.1 → 50%=7.5 → 70%=6.4 → 100%=4.9
+# 4p arena (20 games, vs d35/d37/d38/adv/gr):
+#   blend=0.2: scm-d35 = 63.6% wins, 9.27 avg pins, 1195 avg score
+#   blend=0.5: scm-d35 = 36.4% wins, 8.73 avg pins, 1138 avg score
+# Higher blend wins more pins in 1v1 vs greedy but loses ground in 4p
+# against strong RL opponents. Tournament is multi-N → use 0.2.
+SCM_BLEND = float(os.getenv("CC_SCM_BLEND", "0.2"))
+SCM_SIMS_CEILING = int(os.getenv("CC_SCM_SIMS", "0"))  # 0 = follow normal ceiling
+
 DEBUG = os.getenv("CC_DEBUG", "0") not in ("0", "", "false", "False")
 DEBUG_NET = os.getenv("DEBUG_NET", "0") not in ("0", "", "false", "False")
 
@@ -440,6 +471,11 @@ class TournamentAgent:
         self.encoder = None
         self.mapper = None
         self.use_torch = False
+        # SCM state
+        self.scm = None              # SearchConditionedModulator or None
+        self.scm_hidden = None       # torch.Tensor or None (shape: 1, hidden_dim)
+        self.scm_config = None       # SCMConfig
+        self.scm_turn = 0            # turn counter inside current game
         self._load()
 
     def _load(self):
@@ -481,6 +517,12 @@ class TournamentAgent:
             # choose_sims() to pick a sim count that fits the per-move budget.
             self.forward_ms = self._calibrate_forward()
             debug(f"Calibrated forward pass: {self.forward_ms:.1f}ms ({device})")
+
+            # SCM (Search-Conditioned Modulation) — optional GRU that
+            # FiLM-modulates policy logits using MCTS search stats. Trained
+            # against 2-player vs greedy. Naturally pairs with the 1v1
+            # specialist (d35-best) but works in any N as a logit-shaping head.
+            self._load_scm(device)
         except Exception as e:
             debug(f"Network unavailable, falling back to heuristic-only: {e}")
             if DEBUG:
@@ -490,6 +532,68 @@ class TournamentAgent:
             self.has_cuda = False
             self.forward_ms = 1000.0  # huge so MCTS path is avoided
             self.encoder_mode = "legacy"
+
+    def _load_scm(self, device: str) -> None:
+        """Load the SCM module from SCM_PATH (best-effort).
+
+        Failure is non-fatal — agent runs without SCM modulation.
+        """
+        self.scm = None
+        self.scm_hidden = None
+        self.scm_config = None
+        if not SCM_PATH or not os.path.exists(SCM_PATH):
+            debug(f"SCM disabled (path: {SCM_PATH!r})")
+            return
+        try:
+            import torch
+            from src.network.search_conditioned_modulator import (
+                SearchConditionedModulator, SCMConfig,
+            )
+            ckpt = torch.load(SCM_PATH, map_location=device, weights_only=False)
+            # Try to pull SCMConfig from ckpt; fall back to defaults.
+            cfg_dict = ckpt.get("scm_config") if isinstance(ckpt, dict) else None
+            if isinstance(cfg_dict, dict):
+                cfg = SCMConfig(**{k: v for k, v in cfg_dict.items()
+                                   if k in SCMConfig.__dataclass_fields__})
+            else:
+                cfg = SCMConfig()
+            scm = SearchConditionedModulator(cfg).to(device)
+            state_dict = None
+            if isinstance(ckpt, dict):
+                state_dict = (ckpt.get("scm_state_dict")
+                              or ckpt.get("state_dict")
+                              or ckpt.get("model_state_dict"))
+            if state_dict is None and hasattr(ckpt, "state_dict"):
+                state_dict = ckpt.state_dict()
+            scm.load_state_dict(state_dict)
+            scm.eval()
+            self.scm = scm
+            self.scm_config = cfg
+            self.scm_hidden = scm.init_hidden(1, device=torch.device(device))
+            self.scm_turn = 0
+            debug(f"Loaded SCM from {SCM_PATH} (params={scm.param_count()}, blend={SCM_BLEND})")
+        except Exception as e:
+            debug(f"SCM load failed, continuing without it: {e}")
+            if DEBUG:
+                traceback.print_exc()
+            self.scm = None
+            self.scm_hidden = None
+            self.scm_config = None
+
+    def new_game(self) -> None:
+        """Reset per-game state (called after joining a new game).
+
+        Currently only resets the SCM GRU hidden state and turn counter so
+        successive games don't carry over each other's modulation context.
+        """
+        self.scm_turn = 0
+        if self.scm is not None:
+            try:
+                import torch
+                device = next(self.scm.parameters()).device
+                self.scm_hidden = self.scm.init_hidden(1, device=device)
+            except Exception:
+                self.scm_hidden = None
 
     def _calibrate_forward(self) -> float:
         """Time a single forward pass to budget MCTS sims at runtime.
@@ -590,6 +694,122 @@ class TournamentAgent:
             except Exception as e2:
                 debug(f"Standard MCTS also failed: {e2}")
                 return None
+
+    def select_with_scm_mcts(self, board: JSONBoard, my_colour: str, opp_colour: str,
+                              sims: int, deadline: float,
+                              turn_order: Optional[List[str]] = None,
+                              blend: float = SCM_BLEND
+                              ) -> Optional[Tuple[int, int]]:
+        """Standard MCTS + SCM-modulated logits, blended at `blend`.
+
+        Pipeline:
+          1) Run standard AlphaZeroMCTS to get (visit_probs, search_stats),
+             both in the agent's raw frame (mapper-decodable).
+          2) Compute raw policy logits via our own encode→predict_raw_logits
+             call (this side handles multicolour rotation correctly).
+          3) Modulate logits with SCM, advance hidden state.
+          4) Softmax → scm_probs in agent frame.
+          5) Combine final_probs = (1-blend)*visit_probs + blend*scm_probs,
+             argmax, decode to (pin_id, dest).
+
+        Falls back to raw MCTS visits if anything goes wrong.
+        """
+        if not self.use_torch or self.network is None or self.scm is None:
+            return None
+        try:
+            import numpy as np
+            import torch
+            from src.search.mcts import AlphaZeroMCTS
+            from src.network.search_conditioned_modulator import (
+                SearchStats, extract_search_features,
+            )
+
+            env = self._make_proxy_env(board, my_colour, opp_colour, turn_order=turn_order)
+            mcts = AlphaZeroMCTS(
+                network=self.network,
+                num_simulations=max(1, int(sims)),
+                dirichlet_epsilon=0.0,
+                use_heuristic_value=True,
+            )
+            visit_probs, stats = mcts.get_action_probs_with_stats(
+                env, temperature=0.0, turn_number=self.scm_turn,
+            )
+
+            # If MCTS yielded nothing legal, bail.
+            if visit_probs.sum() <= 0:
+                return None
+
+            # Re-extract raw logits in the agent (raw) frame, doing rotation
+            # correctly for both legacy and multicolour encoders.
+            mask_raw = env.action_masks().astype(np.bool_)
+            obs = env._get_obs()
+            if self.encoder_mode == "multicolour":
+                k = self.encoder.k_to_red_frame(my_colour)
+                mask_canon = self.encoder.rotate_action_distribution_k(
+                    mask_raw, k
+                ).astype(np.bool_)
+                raw_logits_canon, _, _ = self.network.predict_raw_logits(obs, mask_canon)
+                # Rotate logits back to raw frame so they align with mapper actions.
+                raw_logits = self.encoder.rotate_action_distribution_k(
+                    raw_logits_canon, (6 - k) % 6
+                )
+                # Override stats.raw_policy with a correctly-rotated policy
+                # (MCTS's stats.raw_policy uses the buggy non-rotated path for
+                # multicolour mode).
+                masked_logits = np.where(mask_raw, raw_logits, -1e9)
+                shifted = masked_logits - masked_logits.max()
+                exp_l = np.exp(shifted)
+                raw_policy_correct = exp_l / max(exp_l.sum(), 1e-12)
+                stats = SearchStats(
+                    visit_counts=stats.visit_counts,
+                    q_values=stats.q_values,
+                    raw_policy=raw_policy_correct.astype(np.float32),
+                    action_mask=mask_raw,
+                    root_value=stats.root_value,
+                    max_depth=stats.max_depth,
+                    total_visits=stats.total_visits,
+                    turn_number=stats.turn_number,
+                )
+            elif self.encoder.needs_rotation(my_colour):
+                mask_canon = self.encoder.rotate_action_distribution(mask_raw).astype(np.bool_)
+                raw_logits_canon, _, _ = self.network.predict_raw_logits(obs, mask_canon)
+                raw_logits = self.encoder.rotate_action_distribution(raw_logits_canon)
+            else:
+                raw_logits, _, _ = self.network.predict_raw_logits(obs, mask_raw)
+
+            # Build SCM search features (in agent frame, like SCM was trained).
+            feats_np = extract_search_features(stats, self.scm_config)
+            device = next(self.scm.parameters()).device
+            feats_t = torch.tensor(feats_np[np.newaxis], dtype=torch.float32, device=device)
+            raw_logits_t = torch.tensor(raw_logits[np.newaxis], dtype=torch.float32, device=device)
+
+            with torch.no_grad():
+                modulated, _, _, new_hidden = self.scm.modulate_logits(
+                    raw_logits_t, feats_t, self.scm_hidden, blend=1.0,
+                )
+                # Mask illegal actions before softmax.
+                mask_t = torch.tensor(mask_raw[np.newaxis], dtype=torch.bool, device=device)
+                modulated = modulated.masked_fill(~mask_t, -1e9)
+                scm_probs = torch.softmax(modulated, dim=-1).squeeze(0).cpu().numpy()
+
+            self.scm_hidden = new_hidden  # advance GRU state for next turn
+            self.scm_turn += 1
+
+            # Blend MCTS visit distribution with SCM-modulated policy.
+            b = max(0.0, min(1.0, float(blend)))
+            final_probs = (1.0 - b) * visit_probs + b * scm_probs
+            # Re-mask just in case blending hits a tiny illegal entry.
+            final_probs = np.where(mask_raw, final_probs, 0.0)
+            if final_probs.sum() <= 0:
+                final_probs = visit_probs  # safety: fall back to pure MCTS
+            action = int(np.argmax(final_probs))
+            mv = self.mapper.decode(action)
+            return mv
+        except Exception as e:
+            debug(f"SCM+MCTS failed: {e}")
+            if DEBUG:
+                traceback.print_exc()
+            return None
 
     def select_with_raw_policy(self, board: JSONBoard, my_colour: str, opp_colour: str,
                                legal_moves: Dict[int, List[int]],
@@ -827,15 +1047,40 @@ def select_move(agent: TournamentAgent,
     per_move_budget = min(PER_MOVE_HARD_CAP, max(0.5, remaining - 1.0))
     deadline = move_start + per_move_budget
 
-    # 1) Try batched MCTS
+    # Defensive: shrink sims if the per-move wall-clock budget is tight.
+    # Use measured forward-pass cost (already factored into choose_sims),
+    # but apply a per-move cap so a single slow position can't blow up.
+    ms_budget = per_move_budget * 1000 - 100  # 100ms overhead reserve
+    per_sim_ms = forward_ms * 0.8  # batched amortisation
+    capped = max(MIN_SIMS, int(ms_budget / max(per_sim_ms, 1.0)))
+    sims_eff = max(MIN_SIMS, min(sims, capped))
+
+    # 1a) SCM-modulated MCTS — preferred when SCM is loaded. Uses standard
+    # (non-batched) MCTS because only it exposes search-stat extraction.
+    if (remaining > RAW_POLICY_BUDGET_SEC and agent.use_torch
+            and getattr(agent, "scm", None) is not None):
+        try:
+            mv = agent.select_with_scm_mcts(board, my_colour, opp_colour,
+                                            sims=sims_eff, deadline=deadline,
+                                            turn_order=turn_order,
+                                            blend=SCM_BLEND)
+            if mv is not None and _is_legal(mv, legal_moves):
+                if _would_cycle(mv, recent_moves):
+                    alt = _alt_non_cycling_move(legal_moves, pin_positions,
+                                                board.board, goal_indices,
+                                                recent_moves, exclude=mv)
+                    if alt is not None:
+                        debug(f"SCM+MCTS chose {mv} but would cycle; using alt {alt}")
+                        return alt
+                debug(f"SCM+MCTS chose pin {mv[0]} -> {mv[1]} "
+                      f"(sims={sims_eff}, blend={SCM_BLEND}, "
+                      f"t={time.perf_counter()-move_start:.2f}s)")
+                return mv
+        except Exception as e:
+            debug(f"SCM layer raised: {e}")
+
+    # 1b) Batched MCTS (no SCM)
     if remaining > RAW_POLICY_BUDGET_SEC and agent.use_torch:
-        # Defensive: shrink sims if the per-move wall-clock budget is tight.
-        # Use measured forward-pass cost (already factored into choose_sims),
-        # but apply a per-move cap so a single slow position can't blow up.
-        ms_budget = per_move_budget * 1000 - 100  # 100ms overhead reserve
-        per_sim_ms = forward_ms * 0.8  # batched amortisation
-        capped = max(MIN_SIMS, int(ms_budget / max(per_sim_ms, 1.0)))
-        sims_eff = max(MIN_SIMS, min(sims, capped))
         try:
             mv = agent.select_with_mcts(board, my_colour, opp_colour,
                                         sims=sims_eff, batch_size=MCTS_BATCH_SIZE,
@@ -999,6 +1244,12 @@ def main():
     player_id = r["player_id"]
     colour = r["colour"]
     print(f"Joined game {game_id} as {colour}")
+
+    # Reset per-game state (SCM GRU hidden, turn counter)
+    try:
+        agent.new_game()
+    except Exception as e:
+        debug(f"agent.new_game() failed: {e}")
 
     # Wait for game to be ready
     while True:

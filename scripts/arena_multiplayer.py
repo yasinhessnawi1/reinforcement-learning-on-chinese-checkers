@@ -84,6 +84,115 @@ def _parse_agent_spec(spec: str, sp_cfg: SelfPlayConfig, device: str):
             action = int(np.argmax(ap))
             return _MAPPER.decode(action)
         return label, fn, net
+    if kind == "scm-ckpt":
+        # Spec: scm-ckpt:scm_path:net_path:blend:label
+        scm_path = parts[1]
+        net_path = parts[2]
+        blend = float(parts[3]) if len(parts) > 3 else 0.2
+        label = parts[4] if len(parts) > 4 else f"scm-{os.path.basename(net_path)}"
+        import torch
+        from src.search.mcts import AlphaZeroMCTS
+        from src.network.search_conditioned_modulator import (
+            SearchConditionedModulator, SCMConfig, extract_search_features,
+        )
+        # Load underlying policy net
+        net_cfg = NetworkConfig(num_blocks=9, num_filters=96)
+        net = AlphaZeroNet(net_cfg, device=device)
+        ckpt = net.load_checkpoint(net_path)
+        print(f"  loaded SCM agent {label}: net={net_path} "
+              f"(iter={ckpt.get('iteration')}), scm={scm_path}, blend={blend}",
+              flush=True)
+        # Load SCM
+        scm_ckpt = torch.load(scm_path, map_location=device, weights_only=False)
+        cfg_dict = scm_ckpt.get("scm_config") if isinstance(scm_ckpt, dict) else None
+        if isinstance(cfg_dict, dict):
+            scm_cfg = SCMConfig(**{k: v for k, v in cfg_dict.items()
+                                   if k in SCMConfig.__dataclass_fields__})
+        else:
+            scm_cfg = SCMConfig()
+        scm = SearchConditionedModulator(scm_cfg).to(device)
+        state_dict = None
+        if isinstance(scm_ckpt, dict):
+            state_dict = (scm_ckpt.get("scm_state_dict")
+                          or scm_ckpt.get("state_dict")
+                          or scm_ckpt.get("model_state_dict"))
+        scm.load_state_dict(state_dict)
+        scm.eval()
+        print(f"    SCM params: {scm.param_count():,}, hidden_dim={scm_cfg.hidden_dim}",
+              flush=True)
+        # Standard (non-batched) MCTS — only it exposes get_action_probs_with_stats
+        mcts = AlphaZeroMCTS(
+            network=net,
+            num_simulations=sp_cfg.num_simulations,
+            c_puct=sp_cfg.c_puct,
+            dirichlet_epsilon=0.0,
+            use_heuristic_value=sp_cfg.use_heuristic_value,
+        )
+        # Per-agent SCM state. Reset when step_count rewinds (new game starts at sc=0).
+        state = {"hidden": None, "last_sc": -1, "turn": 0}
+        def fn(board, colour, sc, max_steps, turn_order):
+            # Detect new game (step_count goes back to zero)
+            if sc < state["last_sc"] or state["hidden"] is None:
+                state["hidden"] = scm.init_hidden(1, device=torch.device(device))
+                state["turn"] = 0
+            state["last_sc"] = sc
+            proxy = _make_proxy_env_mc(board, colour, sc, max_steps,
+                                        turn_order=turn_order)
+            visit_probs, stats = mcts.get_action_probs_with_stats(
+                proxy, temperature=0.0, turn_number=state["turn"],
+            )
+            if visit_probs.sum() <= 0:
+                # No legal — fall through to greedy
+                return greedy_policy(board, colour)
+            # Re-extract raw logits in agent (raw) frame with correct multicolour
+            # rotation (get_action_probs_with_stats handles only legacy mode).
+            mask_raw = proxy.action_masks().astype(np.bool_)
+            obs = proxy._get_obs()
+            k = _ENCODER_MC.k_to_red_frame(colour)
+            mask_canon = _ENCODER_MC.rotate_action_distribution_k(
+                mask_raw, k
+            ).astype(np.bool_)
+            raw_logits_canon, _, _ = net.predict_raw_logits(obs, mask_canon)
+            raw_logits = _ENCODER_MC.rotate_action_distribution_k(
+                raw_logits_canon, (6 - k) % 6
+            )
+            # Correctly-rotated softmax for stats.raw_policy
+            masked_logits = np.where(mask_raw, raw_logits, -1e9)
+            shifted = masked_logits - masked_logits.max()
+            exp_l = np.exp(shifted)
+            raw_policy_correct = (exp_l / max(exp_l.sum(), 1e-12)).astype(np.float32)
+            from src.network.search_conditioned_modulator import SearchStats
+            stats = SearchStats(
+                visit_counts=stats.visit_counts,
+                q_values=stats.q_values,
+                raw_policy=raw_policy_correct,
+                action_mask=mask_raw,
+                root_value=stats.root_value,
+                max_depth=stats.max_depth,
+                total_visits=stats.total_visits,
+                turn_number=state["turn"],
+            )
+            # SCM modulation
+            feats_np = extract_search_features(stats, scm_cfg)
+            dev = torch.device(device)
+            feats_t = torch.tensor(feats_np[np.newaxis], dtype=torch.float32, device=dev)
+            raw_logits_t = torch.tensor(raw_logits[np.newaxis], dtype=torch.float32, device=dev)
+            with torch.no_grad():
+                modulated, _, _, new_hidden = scm.modulate_logits(
+                    raw_logits_t, feats_t, state["hidden"], blend=1.0,
+                )
+                mask_t = torch.tensor(mask_raw[np.newaxis], dtype=torch.bool, device=dev)
+                modulated = modulated.masked_fill(~mask_t, -1e9)
+                scm_probs = torch.softmax(modulated, dim=-1).squeeze(0).cpu().numpy()
+            state["hidden"] = new_hidden
+            state["turn"] += 1
+            final_probs = (1.0 - blend) * visit_probs + blend * scm_probs
+            final_probs = np.where(mask_raw, final_probs, 0.0)
+            if final_probs.sum() <= 0:
+                final_probs = visit_probs
+            action = int(np.argmax(final_probs))
+            return _MAPPER.decode(action)
+        return label, fn, net
     raise ValueError(f"unknown agent spec: {spec}")
 
 
