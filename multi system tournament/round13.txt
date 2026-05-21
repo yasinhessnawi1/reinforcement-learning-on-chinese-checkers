@@ -1,0 +1,3 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R13G1,277ae8d4-08a9-4046-8497-6973e4c9d188,B,D,E,NA,NA,NA,GAME_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R13G2,470cab68-3761-41bb-9fed-f20193dd9d77,C,A,NA,NA,NA,NA,CANCELLED,A:yellow;C:purple,A:279.7;C:274.0,A:71.7;C:60.9,A:208.0;C:212.0,A:0.0;C:0.0,A:0.0;C:1.1,A:25;C:33,A:43;C:35,None

@@ -1,0 +1,530 @@
+<!--
+Given files round1.txt, round2.txt,... with format:
+round1.txt
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,winner
+R1G1,1a1df780-dced-44fa-b6b2-8660ceeafa54,C,F,A,B,NA,NA,GAME_CREATED,NA,NA,NA,NA,NA,None
+R1G2,db98461f-214a-42c0-94cd-5257e200a701,D,E,NA,NA,NA,NA,FINISHED,D:yellow;E:purple;,D:286.1;E:291.8,D:72.1;E:71.8,D:214.0;E:220.0,D:0.0;E:0.0,None
+round2.txt
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,winner
+R2G1,NA,F,D,B,A,C,NA,WAITING_FOR_OTHER_PLAYER,D:yellow;B:purple;,NA,NA,NA,NA,None
+
+
+this file computes a leaderboard based on the scores in these files, and displays it in a table. 
+sort by Average Score in descending order, then by Games Played in ascending order (to break ties), then by Average Pins in Goal in descending order (to break further ties), then by Average Distance in descending order (to break further ties)
+Display all totals and averages for each player, and the number of games played. Also display number of times player is listed in 'winner'. Also display which game player is currently playing, or 'Finished Game xxx' for last game player has completed or 'Not Playing' if player has not played any game.
+
+at the bottom of the table, display total number of games played per round, display "Current games in progress: " followed by list of games currently in progress with players and game id and "Games waiting to start: " followed by a list of game_ids that are waiting to start along with players who have not joined those games.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Leaderboard</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  table { border-collapse: collapse; width: 90%; }
+  th, td { border: 1px solid #ccc; padding: 6px; text-align: right; }
+  th { background: #f0f0f0; }
+  th:first-child, td:first-child { text-align: left; }
+  tr:hover { background-color: #dada82; }
+</style>
+</head>
+<body>
+<!--python -m http.server-->
+<h2>Player Leaderboard</h2>
+<table>
+  <thead>
+    <tr>
+        <th>Rank</th>
+      <th>Player</th>
+      <th>Games</th>
+      <th>Norm.</th>
+
+      <th>Avg Final</th>
+      <th>Total Final</th>
+
+      <th>Avg Dist.</th>
+      <th>Total Dist.</th>
+
+      <th>Avg Pin</th>
+      <th>Total Pin</th>
+
+      <th>Avg Move</th>
+      <th>Total Move</th>
+
+      <th>Avg Time</th>
+      <th>Total Time</th>
+
+      <th>Wins</th>
+
+      <th>Status</th>
+      <th>Total Num. Moves</th>
+      <th>Avg Num. Moves</th>
+      <th>Total Skipped Turns</th>
+      <th>Avg Skipped Turns</th>
+    </tr>
+  </thead>
+  <tbody id="leaderboard"></tbody>
+</table>
+<div id="round-stats"></div>
+<div id="current-games"></div>
+<div id="waiting-games"></div>
+<div id = "Refresh-time"></div>
+<script>
+    //column header 'Norm.' italicized to indicate default sorting by normalized final score
+    document.querySelectorAll("th").forEach(header => {
+        if (header.innerText === "Norm.") {
+            header.style.fontStyle = "italic";
+        }
+    });
+
+    //add column sorting on click of header
+    document.querySelectorAll("th").forEach(header => {
+        header.addEventListener("click", () => {
+            const column = header.cellIndex;
+            const tbody = document.getElementById("leaderboard");
+            const rows = Array.from(tbody.querySelectorAll("tr"));
+            const sortedRows = rows.sort((a, b) => {
+                const cellA = a.cells[column].innerText;
+                const cellB = b.cells[column].innerText;
+                if (!isNaN(cellA) && !isNaN(cellB)) {
+                    return parseFloat(cellB) - parseFloat(cellA);
+                }
+                return cellA.localeCompare(cellB);
+            });
+            sortedRows.forEach(row => tbody.appendChild(row));
+            document.querySelectorAll("th").forEach(h => h.style.fontStyle = "normal");
+            header.style.fontStyle = "italic";
+        });
+        }
+    );
+
+
+    const ROUND_FILES = [
+    "round11.txt", "round12.txt", "round13.txt"
+    ];
+
+    async function loadAllData() {
+    const allRows = [];
+
+    for (const file of ROUND_FILES) {
+    try {
+    const res = await fetch(file);
+
+    if (!res.ok) {
+    console.error(`Failed to load ${file}: ${res.statusText}`);
+    continue;
+    } else {
+    const text = await res.text(); 
+    const rows = text.trim().split("\n").slice(1); // Skip header
+    allRows.push(...rows);
+    }
+    } catch (err) {
+    console.error(`Error loading ${file}:`, err);
+    }
+    }
+    return allRows;
+    }
+
+
+    async function loadGameLog(logFile, gameid, gamedetails) {
+        const gamerows = [];
+        moves = 0;
+        skipped = 0;
+        lastMovePlayer = {'playern': '', 'colour': '', 'movenumber': ''};
+        lastMoveCounter = 0;
+        lastSkippedMove = {'colour': '', 'movenumber': ''};
+        couldntParse={'colour': '', 'movenumber': ''};
+        colourmapping ={}
+        try {
+            const res = await fetch(logFile);
+            if (!res.ok) {
+                console.warn(`Log file not found: ${logFile}`);
+                return { moves: 0, skipped: 0, skipmoves: [] };
+            }
+            const text = await res.text();
+            gamerows.push(...text.trim().split("\n"));
+
+        } catch (err) {
+            console.warn(`Error loading log file ${logFile}:`, err);
+            return { moves: 0, skipped: 0, skipmoves: [] };
+        }
+        const game_id = gameid;
+        if (gamedetails[game_id] === undefined) {
+            gamedetails[game_id] = {};
+        }
+        gamerows.forEach(row => {
+            //[2026-05-08 09:30:14] PLAYER JOINED: The bandits as blue
+            if (row.includes("JOINED)"))
+        {
+        const joinMatch = row.match(/PLAYER JOINED: (.*) as (\w+)/);
+        if (joinMatch) {
+            const player = joinMatch[1];
+            const colour = joinMatch[2];
+            colourmapping[colour] = player;
+        }}
+
+        //[2026-05-11 10:59:42] MOVE 3: D (yellow) 35->56 [0.00ms]
+        if (row.includes("MOVE")) {
+        const moveMatch = row.match(/MOVE (\d+)\: (.*)? (\(.*\))? (.*)/);
+        //console.log("Checking for move in row:", row, "Move match:", moveMatch);
+        if (moveMatch) {
+            movecolour = moveMatch[3].replace(/[()]/g, '');
+            movenumber = moveMatch[1];
+            const player = colourmapping[movecolour];
+            if (gamedetails[game_id][player] === undefined) {
+                gamedetails[game_id][player] = { moves: 1, skipped: 0, skipmoves: [] };
+                lastMovePlayer = {'playern': player, 'colour': movecolour, 'movenumber': movenumber};
+            if (couldntParse.colour === movecolour) {
+                    gamedetails[game_id][player].skipped += 1;
+                    gamedetails[game_id][player].skipmoves.push(movenumber); // don't count the move if it was skipped due to timeout
+                    couldntParse = {'colour': '', 'movenumber': ''};
+                }
+            }
+            else {
+                gamedetails[game_id][player].moves += 1;
+                lastMovePlayer = {'playern': player, 'colour': movecolour, 'movenumber': movenumber};
+                if (couldntParse.colour === movecolour) {
+                    gamedetails[game_id][player].skipped += 1;
+                    gamedetails[game_id][player].skipmoves.push(movecolour + ":" + movenumber);
+                    couldntParse = {'colour': '', 'movenumber': ''};
+                }
+            }     
+        }
+    }       
+        if (row.includes("TURN TIMEOUT")) {
+        const timeoutMatch = row.match(/Player with colour (\w+) exceeded (\d+)s at move (\d+)\./);
+        //lastSkippedMove ={'colour': timeoutMatch ? timeoutMatch[1] : '', 'movenumber': timeoutMatch ? timeoutMatch[3] : ''};
+        if (timeoutMatch) {
+            const movecolour = timeoutMatch[1];
+            const movenumber = timeoutMatch[3];
+            const moveplayer = colourmapping[movecolour];
+            console.log(`Timeout detected for player ${moveplayer} with colour ${movecolour} at move ${movenumber} in game ${game_id}`);
+            //if lastSkippedMove is not empty and has same colour and movenumber as current timeout, skip to avoid double counting
+            if (lastMovePlayer.playern !== '') {
+                if (lastSkippedMove.colour === timeoutMatch[1] && lastSkippedMove.movenumber === timeoutMatch[3]) {
+                    console.log(`Skipping duplicate timeout for player with colour ${timeoutMatch[1]} at move ${timeoutMatch[3]} in game ${game_id}`);
+                    return;
+                }
+                else {
+                    if (colourmapping[movecolour]) {
+                        gamedetails[game_id][moveplayer].skipped += 1;
+                        gamedetails[game_id][moveplayer].skipmoves.push(movecolour + ":" + movenumber);
+                    }
+                    
+                    //console.log(`Player ${lastMovePlayer.playern} timed out in game ${game_id} at move ${timeoutMatch[3]} with colour ${timeoutMatch[1]}`);
+                    lastSkippedMove = {'colour': timeoutMatch ? movecolour : '', 'movenumber': timeoutMatch ? movenumber : ''};
+                    return;
+                }
+        }
+        else {
+            console.warn(`${game_id}Could not parse timeout information from row: ${row}`);
+            couldntParse = {'colour': timeoutMatch ? movecolour : '', 'movenumber': timeoutMatch ? movenumber : ''};
+
+        }
+                
+            }
+        }
+        
+    
+    });
+    return gamedetails;
+    }
+
+    async function loadGameDetails(round) {
+        round = round.replace("R", "");
+        gamedetails = {};
+        try {
+            const res = await fetch(`games_round_${round}/`);
+            if (!res.ok) {
+                console.warn(`Failed to load game details for round ${round}: ${res.statusText}`);
+                return gamedetails;
+            }
+            const text = await res.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, "text/html");
+            const links = doc.querySelectorAll("a");
+            for (const link of links) {
+                const href = link.getAttribute("href");
+                if (href.endsWith(".log")) {
+                    const gameId = href.replace(".log", "").replace("game_", "");
+                    gamedetails= await loadGameLog(`games_round_${round}/${href}`, gameId, gamedetails);
+                }
+            }
+        } catch (err) {
+            console.warn(`Error loading game details for round ${round}:`, err);
+        }
+        console.log(`Loaded details for round ${round}:`, gamedetails);
+        return gamedetails;
+    }
+
+
+    async function parseGameDetails(round, game_id, playerStats,gplayer) {
+        
+    round = round.replace("R", "");
+    const detailsFile = `games_round_${round}/game_${game_id}.log`;
+    const gamerows = [];
+    moves = 0;
+    skipped = 0;
+    try{
+    const fileContent = await fetch(detailsFile);
+    if (!fileContent.ok) {
+        console.warn(`Details file not found: ${detailsFile}`);
+        return playerStats;
+    }
+    else {
+        console.log(`Loaded details for game ${game_id} from ${detailsFile}`);
+        const gametext = await fileContent.text();
+        gamerows.push(...gametext.trim().split("\n"));
+        console.log(`Processing details for game ${game_id} with ${gamerows.length} rows`);
+    }
+    } catch (err) {
+        console.warn(`Error loading details for game ${game_id}:`, err);
+        return playerStats;
+    }
+    
+    gamerows.forEach(row => {
+        const moveMatch = row.match(/MOVE\s+(\d+):\s+(\w+)\s+\((\w+)\)/);
+        if (moveMatch) {
+            const player = moveMatch[2];
+            if (player === gplayer) {
+                moves+= 1;
+            }
+            
+            }            
+        
+        if (row.includes("TURN TIMEOUT")) {
+            const timeoutMatch = row.match(/Player with colour (\w+) exceeded/);
+            if (timeoutMatch) {
+                const player = timeoutMatch[1];
+                if (player === gplayer) {
+                    skipped += 1;
+                }
+                
+            }
+        }
+    }
+    );
+    console.log(`Game ${game_id} - Player ${gplayer} made ${moves} moves and skipped ${skipped} turns.`);
+    return { moves, skipped };
+};
+
+    function processData(rows) {
+    const playerStats = {};
+    const roundStats = {};
+    for (const row of rows) {
+    const [game_number, game_id, player1, player2, player3, player4, player5, player6, status, joined, final_scores, time_scores, distance_scores, pin_scores, move_scores, valid_moves,skipped_turns,winner] = row.split(",");
+    const players = [player1, player2, player3, player4, player5, player6].filter(p => p !== "NA");
+    const gamestatus = status;
+    const game_round = game_number.match(/R\d+/) ? game_number.match(/R\d+/)[0] : "Unknown Round";
+    console.log(`Processing game ${game_number} with players: ${players.join(", ")} and status: ${gamestatus}`);
+    if (!roundStats[game_number]) {
+    roundStats[game_number] = { players: [], status, game_id };
+    }
+    roundStats[game_number].players.push(...players);
+    for (const player of players) {
+    if (!playerStats[player]) {
+    playerStats[player] = {
+    gamesPlayed: 0,
+    totalFinal: 0,
+    totalDistance: 0,
+    totalPin: 0,
+    totalTime: 0,
+    totalMoveScore: 0,
+    wins: 0,
+    numMoves: 0,
+    skippedTurns: 0,
+    finishedstatus: "",
+    playingstatus: "",
+    notstartedstatus: "",
+    lastGame: null
+    };
+    }
+    }  
+    const finalScores = final_scores.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseFloat(score); return acc; }, {});
+    const distanceScores = distance_scores.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseFloat(score); return acc; }, {});
+    const pinScores = pin_scores.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseFloat(score); return acc; }, {});
+    const moveScores = move_scores.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseFloat(score); return acc; }, {});
+    console.log('Move Scores:', moveScores);
+    const timeScores = time_scores.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseFloat(score); return acc; }, {});
+    const validMoves = valid_moves.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseInt(score); return acc; }, {});
+    const skippedTurns = skipped_turns.split(";").reduce((acc, entry) => { const [p, score] = entry.split(":"); acc[p] = parseInt(score); return acc; }, {});
+    for (const player of players) {
+        
+        playerStats[player].totalFinal += finalScores[player] || 0;
+        playerStats[player].totalDistance += distanceScores[player] || 0;
+        playerStats[player].totalPin += pinScores[player] || 0;
+        playerStats[player].totalTime += timeScores[player] || 0;
+        playerStats[player].totalMoveScore += moveScores[player] || 0;
+        console.log("moveScores for player", player, ":", playerStats[player].totalMoveScore[player], moveScores[player] || 0);
+        console.log("time for player", player, ":", timeScores[player]);
+        playerStats[player].lastGame = game_number;
+        playerStats[player].numMoves += validMoves[player] || 0;
+        playerStats[player].skippedTurns += skippedTurns[player] || 0;
+        console.log(gamestatus, winner, player);
+        if (gamestatus === "FINISHED"){
+            if (finalScores[player] !== undefined) {
+            playerStats[player].finishedstatus+= `${game_round}, `;
+            playerStats[player].gamesPlayed += 1;}
+        } else if (gamestatus === "PLAYING" || gamestatus === "WAITING_FOR_OTHER_PLAYER") {
+            if (finalScores[player] !== undefined) {
+                playerStats[player].playingstatus+= `${game_number}, `;
+                playerStats[player].gamesPlayed += 1;
+            }
+            
+        } else {
+            playerStats[player].notstartedstatus+= `${game_round}, `;
+        }
+    if (winner === player) {
+        playerStats[player].wins += 1;
+    }
+    }
+    
+    }
+    console.log("Player Stats:", playerStats);
+    console.log("Round Stats:", roundStats);
+    return { playerStats, roundStats };
+    }
+
+    function renderLeaderboard(playerStats) {
+        console.log("Rendering leaderboard with player stats:", playerStats);
+    const tbody = document.getElementById("leaderboard");
+    tbody.innerHTML = "";
+
+    const sortedPlayers = Object.entries(playerStats).sort((a, b) => {
+    const [playerA, statsA] = a;
+    const [playerB, statsB] = b;
+    
+    if (statsA.gamesPlayed !== statsB.gamesPlayed) 
+    return statsB.gamesPlayed - statsA.gamesPlayed;
+    
+    const avgFinalA = statsA.gamesPlayed ? statsA.totalFinal / statsA.gamesPlayed : 0;
+    const avgFinalB = statsB.gamesPlayed ? statsB.totalFinal / statsB.gamesPlayed : 0;
+    if (avgFinalB !== avgFinalA) return avgFinalB - avgFinalA;
+    
+    const avgPinA = statsA.gamesPlayed ? statsA.totalPin / statsA.gamesPlayed : 0;
+    const avgPinB = statsB.gamesPlayed ? statsB.totalPin / statsB.gamesPlayed : 0;
+    if (avgPinB !== avgPinA) return avgPinB - avgPinA
+
+    const avgDistanceA = statsA.gamesPlayed ? statsA.totalDistance / statsA.gamesPlayed : 0;
+    const avgDistanceB = statsB.gamesPlayed ? statsB.totalDistance / statsB.gamesPlayed : 0;
+    if (avgDistanceB !== avgDistanceA) return avgDistanceB - avgDistanceA;
+
+    const avgTimeA = statsA.gamesPlayed ? statsA.totalTime / statsA.gamesPlayed : 0;
+    const avgTimeB = statsB.gamesPlayed ? statsB.totalTime / statsB.gamesPlayed : 0;
+    if (avgTimeB !== avgTimeA) return avgTimeB - avgTimeA;
+
+    const avgMoveScoreA = statsA.gamesPlayed ? statsA.totalMoveScore / statsA.gamesPlayed : 0;
+    const avgMoveScoreB = statsB.gamesPlayed ? statsB.totalMoveScore / statsB.gamesPlayed : 0;
+    if (avgMoveScoreB !== avgMoveScoreA) return avgMoveScoreB - avgMoveScoreA;
+
+    }
+    );
+    const maxFinalscore = sortedPlayers[0][1].totalFinal;
+    const minFinalscore = sortedPlayers[sortedPlayers.length - 1][1].totalFinal;
+    console.log("Max final score:", maxFinalscore, "Min final score:", minFinalscore);
+    rank = 0;
+    sortedPlayers.forEach(([player, stats]) => {
+    const avgFinal = stats.gamesPlayed ? (stats.totalFinal / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgDistance = stats.gamesPlayed ? (stats.totalDistance / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgPin = stats.gamesPlayed ? (stats.totalPin / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgTime = stats.gamesPlayed ? (stats.totalTime / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgMoveScore = stats.gamesPlayed ? (stats.totalMoveScore / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgNumMoves = stats.gamesPlayed ? (stats.numMoves / stats.gamesPlayed).toFixed(2) : "0.00";
+    const avgSkippedTurns = stats.gamesPlayed ? (stats.skippedTurns / stats.gamesPlayed).toFixed(2) : "0.00";
+    const status = stats.playingstatus ? `Playing: ${stats.playingstatus}` : (stats.finishedstatus ? `Finished: ${stats.finishedstatus}` : "Not Playing");
+    const totalNumMoves = stats.numMoves;
+    const totalSkippedTurns = stats.skippedTurns;
+    stats.totalFinal = stats.totalFinal.toFixed(2);
+    stats.totalDistance = stats.totalDistance.toFixed(2);
+    stats.totalPin = stats.totalPin.toFixed(2);
+    stats.totalTime = stats.totalTime.toFixed(2);
+    stats.totalMoveScore = stats.totalMoveScore.toFixed(2);
+    const normalizedFinal = 1 + (stats.totalFinal - minFinalscore) / (maxFinalscore - minFinalscore) * 99 || 0;
+    rank += 1;
+    tbody.innerHTML += `<tr>
+    <td>${rank}</td>
+    <td>${player}</td>
+    <td>${stats.gamesPlayed}</td>
+    <td>${normalizedFinal.toFixed(2)}</td>
+    <td>${avgFinal}</td>
+    <td>${stats.totalFinal}</td>
+    <td>${avgDistance}</td>
+    <td>${stats.totalDistance}</td>
+    <td>${avgPin}</td>
+    <td>${stats.totalPin}</td>
+    <td>${avgMoveScore}</td>
+    <td>${stats.totalMoveScore}</td>
+    <td>${avgTime}</td>
+    <td>${stats.totalTime}</td>
+    <td>${stats.wins}</td>
+    <td>${status}</td>
+    <td>${totalNumMoves}</td>
+    <td>${avgNumMoves}</td>
+    <td>${totalSkippedTurns}</td>
+    <td>${avgSkippedTurns}</td>
+    </tr>`;
+    });
+
+}
+
+    function renderroundStats(rows) {
+    const waitingGamesDiv = document.getElementById("waiting-games");
+    waitingGamesDiv.innerHTML = "";
+    const stats = {};
+    rows.forEach(row => {
+                const [game_number, game_id, player1, player2, player3, player4, player5, player6, playstatus, joined, final_scores, time_scores, distance_scores, pin_scores, move_scores, winner] = row.split(",");
+    const players = [player1, player2, player3, player4, player5, player6].filter(p => p !== "NA");
+    const status = playstatus;
+    if (status === "WAITING_FOR_OTHER_PLAYER")
+    {
+        const joinedPlayers = joined.split(";").map(entry => entry.split(":")[0]);
+        const notJoinedPlayers = players.filter(p => !joinedPlayers.includes(p));
+        
+        waitingGamesDiv.innerHTML += `<p>Game ${game_number} is waiting to start. Joined : ${joinedPlayers.join(", ")} . Not joined: ${notJoinedPlayers.join(", ")}</p>`;
+    }
+    else if (status === "GAME_CREATED") {
+        waitingGamesDiv.innerHTML += `<p>Game ${game_number} is currently not started.</p>`;
+
+    }
+    });
+
+}
+
+    async function refresh() {
+    const rows = await loadAllData();
+    const { playerStats, roundStats } = processData(rows);
+    renderLeaderboard(playerStats);
+    const refreshTime = new Date().toLocaleTimeString();
+    document.getElementById("Refresh-time").innerText = `Last refreshed at: ${refreshTime}`;
+    renderroundStats(rows);
+    }
+
+    
+
+refresh();
+setInterval(refresh, 50000);
+</script>
+<!--Button to export to CSV-->
+<button onclick="exportToCSV()">Export to CSV</button>
+<script>    
+function exportToCSV() {
+    const rows = document.querySelectorAll("table tr");
+    let csvContent = "";
+    rows.forEach(row => {
+        const cols = row.querySelectorAll("th, td");
+        const rowData = Array.from(cols).map(col => col.innerText.replace(/,/g, "")).join(",");
+        csvContent += rowData + "\n";
+    });
+    const blob = new Blob([csvContent], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "leaderboard.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>

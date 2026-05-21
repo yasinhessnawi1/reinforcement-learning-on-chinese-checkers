@@ -63,7 +63,12 @@ def _resolve_model_path() -> str:
         return env
     candidates = [
         os.path.join(_HERE, "tournament_model.pt"),
-        # CHAMPION (d35-best, win-only RL): 22/30 wins vs advanced @ sims=400.
+        # CURRENT (d41-multiN): paired with the native-d41 SCM in scm_d41_multi/.
+        # H2H eval at N=6 (tournament's heaviest weight): native SCM wins 11/20
+        # vs SCM v2's 5/20 (p=0.0007). Tournament-weighted (1,4,6,8,12 for N=2..6)
+        # gives +0.24 expected pins and +39% expected wins over the v2 pairing.
+        os.path.join(_HERE, "..", "experiments", "exp_d41_multiN", "best_so_far.pt"),
+        # PREVIOUS CHAMPION (d35-best, win-only RL): 22/30 wins vs advanced @ sims=400.
         # ResNet 9x96, multicolour encoder, trained from d22 with replay buffer
         # + per-colour win filter (≥7 pins) + outcome-weighted loss + KL filter.
         # Handles N=2..6 player layouts. See DEC-NEW-023 in docs/DECISIONS.md.
@@ -102,6 +107,11 @@ def _resolve_scm_path() -> str:
         return env  # explicit override (empty string = disabled)
     candidates = [
         os.path.join(_HERE, "scm_model.pt"),
+        # CURRENT (native-d41): trained on 1800 multiplayer trajectories from
+        # d41 itself, with tournament-matched player count weights (1,4,6,8,12
+        # for N=2..6). Wins decisively at N=6 vs SCM v2 (avg 9.35 vs 8.10 pins,
+        # 11 vs 5 wins, p=0.0007). Pair with experiments/exp_d41_multiN policy.
+        os.path.join(_HERE, "..", "experiments", "scm_d41_multi", "scm_model.pt"),
         os.path.join(_HERE, "..", "experiments", "scm_v3_d37", "scm_model.pt"),
         os.path.join(_HERE, "..", "experiments", "scm_v2", "scm_model.pt"),
     ]

@@ -1,0 +1,3 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R13G1,NA,B,D,E,NA,NA,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R13G2,NA,C,A,NA,NA,NA,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None

@@ -1,0 +1,3 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R12G1,5396125b-7849-4600-b6de-d1e23949a0f0,C,B,E,F,NA,NA,FINISHED,C:lawn green;B:gray0,C:286.3;B:286.0,C:84.3;B:72.0,C:202.0;B:214.0,C:0.0;B:0.0,C:0.0;B:0.0,C:13;B:24,C:24;B:13,None
+R12G2,ecc49435-9b61-4061-b59f-8f03a19db614,A,D,NA,NA,NA,NA,FINISHED,A:red;D:blue,A:287.1;D:282.8,A:79.1;D:76.8,A:208.0;D:206.0,A:0.0;D:0.0,A:0.0;D:0.0,A:18;D:19,A:19;D:18,None

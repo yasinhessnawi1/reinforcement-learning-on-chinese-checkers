@@ -1,0 +1,312 @@
+[2026-05-19 23:10:09] GAME CREATED
+[2026-05-19 23:10:17] PLAYER JOINED: A as red
+[2026-05-19 23:10:24] PLAYER JOINED: D as blue
+[2026-05-19 23:10:24] PLAYER START: A (red)
+[2026-05-19 23:10:24] PLAYER START: D (blue)
+[2026-05-19 23:10:24] GAME START — turn order ['red', 'blue']
+[2026-05-19 23:10:24] PLAYER START: A (red)
+[2026-05-19 23:10:24] PLAYER START: D (blue)
+[2026-05-19 23:10:25] MOVE 1: A (red) 115->104 [0.01ms]
+[2026-05-19 23:10:25] SCORE A (red): Final=282.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:25] SCORE D (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-19 23:10:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-19 23:10:26] MOVE 2: D (blue) 3->14 [0.01ms]
+[2026-05-19 23:10:26] SCORE A (red): Final=282.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:26] SCORE D (blue): Final=282.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-19 23:10:28] SCORE A (red): Final=282.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:28] SCORE D (blue): Final=282.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:28] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)']}
+[2026-05-19 23:10:28] TURN TIMEOUT: Player with colour red exceeded 2s at move 3. Turn skipped.
+[2026-05-19 23:10:29] MOVE 4: D (blue) 0->3 [0.00ms]
+[2026-05-19 23:10:29] SCORE A (red): Final=282.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-19 23:10:29] SCORE D (blue): Final=285.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:29] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)']}
+[2026-05-19 23:10:31] MOVE 5: A (red) 104->115 [0.00ms]
+[2026-05-19 23:10:31] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:31] SCORE D (blue): Final=285.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:31] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)']}
+[2026-05-19 23:10:33] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:33] SCORE D (blue): Final=285.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:33] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:33] TURN TIMEOUT: Player with colour blue exceeded 2s at move 6. Turn skipped.
+[2026-05-19 23:10:35] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:35] SCORE D (blue): Final=285.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:35] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:35] TURN TIMEOUT: Player with colour red exceeded 2s at move 7. Turn skipped.
+[2026-05-19 23:10:36] MOVE 8: D (blue) 9->17 [0.00ms]
+[2026-05-19 23:10:36] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:36] SCORE D (blue): Final=286.5, Time=96.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:36] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:38] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:38] SCORE D (blue): Final=286.5, Time=96.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:38] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:38] TURN TIMEOUT: Player with colour red exceeded 2s at move 9. Turn skipped.
+[2026-05-19 23:10:39] MOVE 10: D (blue) 14->13 [0.00ms]
+[2026-05-19 23:10:39] SCORE A (red): Final=277.4, Time=97.4, Moves(2)=0.0, Pins(0)=0.0, Dist=180.0, Win Bonus=0.0
+[2026-05-19 23:10:39] SCORE D (blue): Final=285.5, Time=95.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:39] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:40] MOVE 11: A (red) 114->106 [0.00ms]
+[2026-05-19 23:10:40] SCORE A (red): Final=278.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-19 23:10:40] SCORE D (blue): Final=285.5, Time=95.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:40] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)']}
+[2026-05-19 23:10:42] SCORE A (red): Final=278.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-19 23:10:42] SCORE D (blue): Final=285.5, Time=95.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:42] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)']}
+[2026-05-19 23:10:42] TURN TIMEOUT: Player with colour blue exceeded 2s at move 12. Turn skipped.
+[2026-05-19 23:10:43] MOVE 13: A (red) 116->107 [0.00ms]
+[2026-05-19 23:10:43] SCORE A (red): Final=281.2, Time=95.2, Moves(4)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-19 23:10:43] SCORE D (blue): Final=285.5, Time=95.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:43] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)']}
+[2026-05-19 23:10:45] MOVE 14: D (blue) 6->15 [0.00ms]
+[2026-05-19 23:10:45] SCORE A (red): Final=281.2, Time=95.2, Moves(4)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-19 23:10:45] SCORE D (blue): Final=286.1, Time=94.1, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:45] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)']}
+[2026-05-19 23:10:46] MOVE 15: A (red) 119->116 [0.00ms]
+[2026-05-19 23:10:46] SCORE A (red): Final=282.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:46] SCORE D (blue): Final=286.1, Time=94.1, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:46] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)']}
+[2026-05-19 23:10:48] SCORE A (red): Final=282.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:48] SCORE D (blue): Final=286.1, Time=94.1, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:48] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)']}
+[2026-05-19 23:10:48] TURN TIMEOUT: Player with colour blue exceeded 2s at move 16. Turn skipped.
+[2026-05-19 23:10:50] SCORE A (red): Final=282.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:50] SCORE D (blue): Final=286.1, Time=94.1, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:50] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)']}
+[2026-05-19 23:10:50] TURN TIMEOUT: Player with colour red exceeded 2s at move 17. Turn skipped.
+[2026-05-19 23:10:51] MOVE 18: D (blue) 13->12 [0.00ms]
+[2026-05-19 23:10:51] SCORE A (red): Final=282.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-19 23:10:51] SCORE D (blue): Final=284.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:51] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)']}
+[2026-05-19 23:10:52] MOVE 19: A (red) 107->94 [0.00ms]
+[2026-05-19 23:10:52] SCORE A (red): Final=282.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:52] SCORE D (blue): Final=284.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:52] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)']}
+[2026-05-19 23:10:54] SCORE A (red): Final=282.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:10:54] SCORE D (blue): Final=284.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:55] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:10:55] TURN TIMEOUT: Player with colour blue exceeded 2s at move 20. Turn skipped.
+[2026-05-19 23:10:56] MOVE 21: A (red) 117->114 [0.00ms]
+[2026-05-19 23:10:56] SCORE A (red): Final=283.8, Time=91.8, Moves(7)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:56] SCORE D (blue): Final=284.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:56] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:10:57] MOVE 22: D (blue) 7->9 [0.00ms]
+[2026-05-19 23:10:57] SCORE A (red): Final=283.8, Time=91.8, Moves(7)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:57] SCORE D (blue): Final=283.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:57] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:10:58] MOVE 23: A (red) 120->119 [0.00ms]
+[2026-05-19 23:10:58] SCORE A (red): Final=284.6, Time=90.6, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:10:58] SCORE D (blue): Final=283.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:10:58] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:10:59] MOVE 24: D (blue) 4->7 [0.00ms]
+[2026-05-19 23:10:59] SCORE A (red): Final=284.6, Time=90.6, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:10:59] SCORE D (blue): Final=284.2, Time=90.2, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:10:59] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:01] MOVE 25: A (red) 106->117 [0.00ms]
+[2026-05-19 23:11:01] SCORE A (red): Final=279.3, Time=89.3, Moves(9)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:11:01] SCORE D (blue): Final=284.2, Time=90.2, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:11:01] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:02] MOVE 26: D (blue) 12->25 [0.00ms]
+[2026-05-19 23:11:02] SCORE A (red): Final=279.3, Time=89.3, Moves(9)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-19 23:11:02] SCORE D (blue): Final=284.8, Time=88.8, Moves(9)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:02] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:03] MOVE 27: A (red) 114->105 [0.00ms]
+[2026-05-19 23:11:03] SCORE A (red): Final=280.1, Time=88.1, Moves(10)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:11:03] SCORE D (blue): Final=284.8, Time=88.8, Moves(9)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:03] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:05] MOVE 28: D (blue) 9->29 [0.01ms]
+[2026-05-19 23:11:05] SCORE A (red): Final=280.1, Time=88.1, Moves(10)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-19 23:11:05] SCORE D (blue): Final=287.5, Time=87.5, Moves(10)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:05] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:06] MOVE 29: A (red) 112->104 [0.00ms]
+[2026-05-19 23:11:06] SCORE A (red): Final=280.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:11:06] SCORE D (blue): Final=287.5, Time=87.5, Moves(10)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:06] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:07] MOVE 30: D (blue) 1->0 [0.00ms]
+[2026-05-19 23:11:07] SCORE A (red): Final=280.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:11:07] SCORE D (blue): Final=284.3, Time=86.3, Moves(11)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:07] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:09] SCORE A (red): Final=280.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:11:09] SCORE D (blue): Final=284.3, Time=86.3, Moves(11)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:09] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:09] TURN TIMEOUT: Player with colour red exceeded 2s at move 31. Turn skipped.
+[2026-05-19 23:11:10] MOVE 32: D (blue) 25->13 [0.00ms]
+[2026-05-19 23:11:10] SCORE A (red): Final=280.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-19 23:11:10] SCORE D (blue): Final=281.3, Time=85.3, Moves(12)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:10] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:11] MOVE 33: A (red) 115->102 [0.00ms]
+[2026-05-19 23:11:11] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:11] SCORE D (blue): Final=281.3, Time=85.3, Moves(12)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:11] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)']}
+[2026-05-19 23:11:13] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:13] SCORE D (blue): Final=281.3, Time=85.3, Moves(12)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:13] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)']}
+[2026-05-19 23:11:13] TURN TIMEOUT: Player with colour blue exceeded 2s at move 34. Turn skipped.
+[2026-05-19 23:11:15] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:15] SCORE D (blue): Final=281.3, Time=85.3, Moves(12)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:15] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)']}
+[2026-05-19 23:11:15] TURN TIMEOUT: Player with colour red exceeded 2s at move 35. Turn skipped.
+[2026-05-19 23:11:17] MOVE 36: D (blue) 0->1 [0.00ms]
+[2026-05-19 23:11:17] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:17] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:17] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)']}
+[2026-05-19 23:11:19] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:19] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:19] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)']}
+[2026-05-19 23:11:19] TURN TIMEOUT: Player with colour red exceeded 2s at move 37. Turn skipped.
+[2026-05-19 23:11:21] SCORE A (red): Final=283.6, Time=85.6, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:21] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:21] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)']}
+[2026-05-19 23:11:21] TURN TIMEOUT: Player with colour blue exceeded 2s at move 38. Turn skipped.
+[2026-05-19 23:11:22] MOVE 39: A (red) 104->91 [0.00ms]
+[2026-05-19 23:11:22] SCORE A (red): Final=284.6, Time=84.6, Moves(13)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:22] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:22] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)']}
+[2026-05-19 23:11:24] SCORE A (red): Final=284.6, Time=84.6, Moves(13)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:24] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:24] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)']}
+[2026-05-19 23:11:24] TURN TIMEOUT: Player with colour blue exceeded 2s at move 40. Turn skipped.
+[2026-05-19 23:11:26] SCORE A (red): Final=284.6, Time=84.6, Moves(13)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:26] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:26] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)']}
+[2026-05-19 23:11:26] TURN TIMEOUT: Player with colour red exceeded 2s at move 41. Turn skipped.
+[2026-05-19 23:11:28] SCORE A (red): Final=284.6, Time=84.6, Moves(13)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:28] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:28] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)']}
+[2026-05-19 23:11:28] TURN TIMEOUT: Player with colour blue exceeded 2s at move 42. Turn skipped.
+[2026-05-19 23:11:29] MOVE 43: A (red) 117->104 [0.00ms]
+[2026-05-19 23:11:29] SCORE A (red): Final=287.5, Time=83.5, Moves(14)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:29] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:29] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)']}
+[2026-05-19 23:11:31] SCORE A (red): Final=287.5, Time=83.5, Moves(14)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:31] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:31] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)']}
+[2026-05-19 23:11:31] TURN TIMEOUT: Player with colour blue exceeded 2s at move 44. Turn skipped.
+[2026-05-19 23:11:32] MOVE 45: A (red) 102->101 [0.00ms]
+[2026-05-19 23:11:32] SCORE A (red): Final=286.5, Time=82.5, Moves(15)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:32] SCORE D (blue): Final=281.8, Time=83.8, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-19 23:11:32] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)']}
+[2026-05-19 23:11:34] MOVE 46: D (blue) 2->0 [0.00ms]
+[2026-05-19 23:11:34] SCORE A (red): Final=286.5, Time=82.5, Moves(15)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:34] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:34] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)']}
+[2026-05-19 23:11:35] MOVE 47: A (red) 104->79 [0.00ms]
+[2026-05-19 23:11:35] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:35] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:35] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)']}
+[2026-05-19 23:11:37] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:37] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:37] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)']}
+[2026-05-19 23:11:37] TURN TIMEOUT: Player with colour blue exceeded 2s at move 48. Turn skipped.
+[2026-05-19 23:11:39] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:39] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:39] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)']}
+[2026-05-19 23:11:39] TURN TIMEOUT: Player with colour red exceeded 2s at move 49. Turn skipped.
+[2026-05-19 23:11:41] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:41] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:41] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)']}
+[2026-05-19 23:11:41] TURN TIMEOUT: Player with colour blue exceeded 2s at move 50. Turn skipped.
+[2026-05-19 23:11:43] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:43] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:43] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)']}
+[2026-05-19 23:11:43] TURN TIMEOUT: Player with colour red exceeded 2s at move 51. Turn skipped.
+[2026-05-19 23:11:45] SCORE A (red): Final=289.3, Time=81.3, Moves(16)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:45] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:45] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)']}
+[2026-05-19 23:11:45] TURN TIMEOUT: Player with colour blue exceeded 2s at move 52. Turn skipped.
+[2026-05-19 23:11:46] MOVE 53: A (red) 113->117 [0.00ms]
+[2026-05-19 23:11:46] SCORE A (red): Final=286.3, Time=80.3, Moves(17)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:11:46] SCORE D (blue): Final=278.5, Time=82.5, Moves(14)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-19 23:11:46] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)']}
+[2026-05-19 23:11:47] MOVE 54: D (blue) 5->12 [0.00ms]
+[2026-05-19 23:11:47] SCORE A (red): Final=286.3, Time=80.3, Moves(17)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:11:47] SCORE D (blue): Final=281.2, Time=81.2, Moves(15)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:47] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)']}
+[2026-05-19 23:11:49] SCORE A (red): Final=286.3, Time=80.3, Moves(17)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:11:49] SCORE D (blue): Final=281.2, Time=81.2, Moves(15)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:49] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)']}
+[2026-05-19 23:11:49] TURN TIMEOUT: Player with colour red exceeded 2s at move 55. Turn skipped.
+[2026-05-19 23:11:51] SCORE A (red): Final=286.3, Time=80.3, Moves(17)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:11:51] SCORE D (blue): Final=281.2, Time=81.2, Moves(15)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:51] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:51] TURN TIMEOUT: Player with colour blue exceeded 2s at move 56. Turn skipped.
+[2026-05-19 23:11:53] MOVE 57: A (red) 117->114 [0.00ms]
+[2026-05-19 23:11:53] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:53] SCORE D (blue): Final=281.2, Time=81.2, Moves(15)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:53] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:54] MOVE 58: D (blue) 17->16 [0.00ms]
+[2026-05-19 23:11:54] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:54] SCORE D (blue): Final=279.8, Time=79.8, Moves(16)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:54] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:56] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:56] SCORE D (blue): Final=279.8, Time=79.8, Moves(16)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-19 23:11:56] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:56] TURN TIMEOUT: Player with colour red exceeded 2s at move 59. Turn skipped.
+[2026-05-19 23:11:57] MOVE 60: D (blue) 16->41 [0.00ms]
+[2026-05-19 23:11:57] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:57] SCORE D (blue): Final=282.8, Time=78.8, Moves(17)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:57] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:59] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:11:59] SCORE D (blue): Final=282.8, Time=78.8, Moves(17)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:11:59] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:11:59] TURN TIMEOUT: Player with colour red exceeded 2s at move 61. Turn skipped.
+[2026-05-19 23:12:00] MOVE 62: D (blue) 15->17 [0.00ms]
+[2026-05-19 23:12:00] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:00] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:00] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:12:02] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:02] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:02] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)']}
+[2026-05-19 23:12:02] TURN TIMEOUT: Player with colour red exceeded 2s at move 63. Turn skipped.
+[2026-05-19 23:12:04] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:04] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:04] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)']}
+[2026-05-19 23:12:04] TURN TIMEOUT: Player with colour blue exceeded 2s at move 64. Turn skipped.
+[2026-05-19 23:12:06] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:06] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:06] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)']}
+[2026-05-19 23:12:06] TURN TIMEOUT: Player with colour red exceeded 2s at move 65. Turn skipped.
+[2026-05-19 23:12:08] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:08] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:08] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)']}
+[2026-05-19 23:12:08] TURN TIMEOUT: Player with colour blue exceeded 2s at move 66. Turn skipped.
+[2026-05-19 23:12:10] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:10] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:10] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)']}
+[2026-05-19 23:12:10] TURN TIMEOUT: Player with colour red exceeded 2s at move 67. Turn skipped.
+[2026-05-19 23:12:12] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:12] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:12] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-19 23:12:12] TURN TIMEOUT: Player with colour blue exceeded 2s at move 68. Turn skipped.
+[2026-05-19 23:12:14] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:14] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:14] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-19 23:12:14] TURN TIMEOUT: Player with colour red exceeded 2s at move 69. Turn skipped.
+[2026-05-19 23:12:16] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:16] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:16] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)']}
+[2026-05-19 23:12:16] TURN TIMEOUT: Player with colour blue exceeded 2s at move 70. Turn skipped.
+[2026-05-19 23:12:18] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:18] SCORE D (blue): Final=281.8, Time=77.8, Moves(18)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-19 23:12:18] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)']}
+[2026-05-19 23:12:18] TURN TIMEOUT: Player with colour red exceeded 2s at move 71. Turn skipped.
+[2026-05-19 23:12:19] MOVE 72: D (blue) 29->40 [0.00ms]
+[2026-05-19 23:12:19] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:19] SCORE D (blue): Final=282.8, Time=76.8, Moves(19)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:12:19] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)']}
+[2026-05-19 23:12:22] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:22] SCORE D (blue): Final=282.8, Time=76.8, Moves(19)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:12:22] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)', '73 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)']}
+[2026-05-19 23:12:22] TURN TIMEOUT: Player with colour red exceeded 2s at move 73. Turn skipped.
+[2026-05-19 23:12:24] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:24] SCORE D (blue): Final=282.8, Time=76.8, Moves(19)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:12:24] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)', '73 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)', '74 (turn timeout)']}
+[2026-05-19 23:12:24] TURN TIMEOUT: Player with colour blue exceeded 2s at move 74. Turn skipped.
+[2026-05-19 23:12:24] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:24] SCORE D (blue): Final=282.8, Time=76.8, Moves(19)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:12:24] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)', '73 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)', '74 (turn timeout)']}
+[2026-05-19 23:12:24] GAME TIME LIMIT REACHED.
+[2026-05-19 23:12:24] SCORE A (red): Final=287.1, Time=79.1, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-19 23:12:24] SCORE D (blue): Final=282.8, Time=76.8, Moves(19)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-19 23:12:24] ALL WRONG MOVES BY COLOUR: {'red': ['3 (turn timeout)', '7 (turn timeout)', '9 (turn timeout)', '17 (turn timeout)', '31 (turn timeout)', '35 (turn timeout)', '37 (turn timeout)', '41 (turn timeout)', '49 (turn timeout)', '51 (turn timeout)', '55 (turn timeout)', '59 (turn timeout)', '61 (turn timeout)', '63 (turn timeout)', '65 (turn timeout)', '67 (turn timeout)', '69 (turn timeout)', '71 (turn timeout)', '73 (turn timeout)'], 'blue': ['6 (turn timeout)', '12 (turn timeout)', '16 (turn timeout)', '20 (turn timeout)', '34 (turn timeout)', '38 (turn timeout)', '40 (turn timeout)', '42 (turn timeout)', '44 (turn timeout)', '48 (turn timeout)', '50 (turn timeout)', '52 (turn timeout)', '56 (turn timeout)', '64 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '70 (turn timeout)', '74 (turn timeout)']}
+[2026-05-19 23:12:24] GAME TIME LIMIT REACHED.

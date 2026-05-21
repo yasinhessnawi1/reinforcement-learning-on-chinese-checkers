@@ -590,6 +590,154 @@ def cmd_scm(args):
     print(f"{'='*60}")
 
 
+def cmd_scm_multi(args):
+    """Multiplayer SCM: collect, train, evaluate with 2-6 players."""
+    device = "cuda" if torch.cuda.is_available() and not args.cpu else "cpu"
+    print(f"Device: {device}")
+    print(f"Multiplayer SCM Pipeline — phase: {args.phase}")
+
+    os.makedirs(args.output, exist_ok=True)
+    log_dir = os.path.join(args.output, "scm_logs")
+
+    # Load frozen policy network
+    net_config = NetworkConfig(
+        num_blocks=args.num_blocks,
+        num_filters=args.num_filters,
+        architecture=args.architecture,
+        d_model=args.d_model,
+        n_heads=args.n_heads,
+        use_auxiliary_head=args.use_auxiliary_head,
+    )
+    network = AlphaZeroNet(net_config, device=device)
+    network.load_checkpoint(args.checkpoint)
+    print(f"  Loaded policy: {network.parameter_count():,} params")
+    print(f"  Checkpoint: {args.checkpoint}")
+
+    from src.network.search_conditioned_modulator import SCMConfig, SearchConditionedModulator
+    from src.training.scm_trainer import SCMTrainConfig, SCMTrainer
+    from src.training.scm_self_play import (
+        collect_scm_training_data_multi,
+        evaluate_with_scm_multi,
+        load_traj_chunks,
+    )
+    from src.training.alphazero_self_play import SelfPlayConfig as SPConfig
+
+    n_choices = tuple(int(x) for x in args.n_choices.split(","))
+    n_weights = tuple(int(x) for x in args.n_weights.split(","))
+
+    sp_config = SPConfig(
+        num_simulations=args.sims,
+        use_heuristic_value=args.heuristic_value,
+        max_moves=args.max_moves,
+    )
+
+    # Create SCM
+    scm_config = SCMConfig(
+        hidden_dim=args.scm_hidden,
+        max_shift=args.max_shift,
+        identity_reg_weight=args.identity_reg,
+    )
+    scm = SearchConditionedModulator(scm_config)
+    print(f"  SCM GRU: {scm.param_count():,} params (hidden={args.scm_hidden})")
+    print(f"  Player counts: {n_choices} (weights: {n_weights})")
+
+    scm_ckpt_path = os.path.join(args.output, "scm_model.pt")
+
+    if args.scm_checkpoint:
+        trainer = SCMTrainer(scm, device=device)
+        trainer.load_checkpoint(args.scm_checkpoint)
+        print(f"  Resumed SCM from: {args.scm_checkpoint}")
+
+    # ---- Phase 1: Collect ----
+    traj_dir = os.path.join(args.output, "scm_trajectories")
+
+    if args.phase in ("collect", "all"):
+        num_w = getattr(args, "num_workers", 0)
+        print(f"\n{'='*60}")
+        print(f"Phase 1: Collecting multiplayer SCM data ({args.collect_games} games)")
+        print(f"  Player counts: {n_choices}, weights: {n_weights}")
+        print(f"  Workers: {num_w or 'auto'}")
+        print(f"{'='*60}")
+
+        trajectories = collect_scm_training_data_multi(
+            network=network,
+            num_games=args.collect_games,
+            config=sp_config,
+            n_choices=n_choices,
+            n_weights=n_weights,
+            save_dir=traj_dir,
+            num_workers=num_w,
+            chunk_size=50,
+        )
+
+        total_steps = sum(len(t.steps) for t in trajectories)
+        print(f"  Collected {len(trajectories)} trajectories ({total_steps} steps)")
+        print(f"  Chunks saved to {traj_dir}/")
+
+    # ---- Phase 2: Train ----
+    if args.phase in ("train", "all"):
+        print(f"\n{'='*60}")
+        print(f"Phase 2: Training SCM GRU ({args.train_epochs} epochs)")
+        print(f"{'='*60}")
+
+        if not os.path.isdir(traj_dir):
+            print(f"  ERROR: No trajectory data at {traj_dir}/. Run 'collect' phase first.")
+            return
+
+        trajectories = load_traj_chunks(traj_dir)
+        print(f"  Loaded {len(trajectories)} trajectories from chunks")
+
+        train_config = SCMTrainConfig(
+            lr=args.scm_lr,
+            identity_reg_weight=args.identity_reg,
+            num_epochs=args.train_epochs,
+            log_interval=5,
+        )
+        trainer = SCMTrainer(scm, config=train_config, device=device)
+
+        losses = trainer.train_on_trajectories(trajectories, verbose=True)
+        print(f"\n  Final losses: {losses}")
+
+        trainer.save_checkpoint(scm_ckpt_path)
+        print(f"  Saved SCM checkpoint to {scm_ckpt_path}")
+
+    # ---- Phase 3: Evaluate ----
+    if args.phase in ("eval", "all"):
+        blend_alphas = [float(x) for x in args.blend_alphas.split(",")]
+
+        print(f"\n{'='*60}")
+        print(f"Phase 3: Evaluating SCM ({args.eval_games} games, {args.eval_players} players)")
+        print(f"  Blend levels: {blend_alphas}")
+        print(f"{'='*60}")
+
+        if os.path.exists(scm_ckpt_path) and not args.scm_checkpoint:
+            trainer = SCMTrainer(scm, device=device)
+            trainer.load_checkpoint(scm_ckpt_path)
+            print(f"  Loaded SCM from {scm_ckpt_path}")
+
+        scm.to(torch.device(device))
+
+        results = evaluate_with_scm_multi(
+            network=network,
+            scm=scm,
+            num_games=args.eval_games,
+            config=sp_config,
+            n_players=args.eval_players,
+            blend_alphas=blend_alphas,
+            log_dir=log_dir,
+        )
+
+        # Save results
+        results_path = os.path.join(args.output, "scm_multi_eval_results.json")
+        with open(results_path, "w") as f:
+            json.dump(results, f, indent=2)
+        print(f"  Results saved to {results_path}")
+
+    print(f"\n{'='*60}")
+    print("Multiplayer SCM pipeline complete!")
+    print(f"{'='*60}")
+
+
 def _add_arch_args(parser):
     """Add architecture arguments shared across subcommands."""
     parser.add_argument("--architecture", type=str, default="resnet",
@@ -773,6 +921,49 @@ def main():
     _add_arch_args(scm)
     scm.add_argument("--cpu", action="store_true")
 
+    # --- scm-multi (multiplayer SCM) ---
+    scm_m = subparsers.add_parser("scm-multi",
+                                  help="Multiplayer SCM: collect, train, eval with 2-6 players")
+    scm_m.add_argument("--checkpoint", type=str, required=True,
+                       help="Frozen policy checkpoint to modulate")
+    scm_m.add_argument("--phase", type=str, default="all",
+                       choices=["collect", "train", "eval", "all"],
+                       help="Pipeline phase")
+    scm_m.add_argument("--collect-games", type=int, default=200,
+                       help="Number of multiplayer games for data collection")
+    scm_m.add_argument("--train-epochs", type=int, default=50,
+                       help="SCM training epochs")
+    scm_m.add_argument("--eval-games", type=int, default=30,
+                       help="Games per condition for evaluation")
+    scm_m.add_argument("--eval-players", type=int, default=4,
+                       help="Number of players for evaluation games (default 4)")
+    scm_m.add_argument("--sims", type=int, default=200,
+                       help="MCTS simulations per move")
+    scm_m.add_argument("--scm-hidden", type=int, default=128,
+                       help="GRU hidden dimension")
+    scm_m.add_argument("--scm-lr", type=float, default=1e-3,
+                       help="SCM learning rate")
+    scm_m.add_argument("--identity-reg", type=float, default=0.01,
+                       help="Identity regularization weight")
+    scm_m.add_argument("--max-shift", type=float, default=2.0,
+                       help="Max shift magnitude")
+    scm_m.add_argument("--blend-alphas", type=str, default="0.1,0.2,0.3",
+                       help="Comma-separated blend levels to test")
+    scm_m.add_argument("--n-choices", type=str, default="2,3,4,5,6",
+                       help="Player counts to sample from (comma-separated)")
+    scm_m.add_argument("--n-weights", type=str, default="1,2,2,2,3",
+                       help="Relative weights for each player count")
+    scm_m.add_argument("--output", type=str, default="experiments/scm_multi",
+                       help="Output directory")
+    scm_m.add_argument("--scm-checkpoint", type=str, default=None,
+                       help="Resume SCM from existing checkpoint")
+    scm_m.add_argument("--heuristic-value", action="store_true")
+    scm_m.add_argument("--max-moves", type=int, default=100)
+    scm_m.add_argument("--num-workers", type=int, default=0,
+                       help="Parallel workers for collection (0=auto)")
+    _add_arch_args(scm_m)
+    scm_m.add_argument("--cpu", action="store_true")
+
     args = parser.parse_args()
 
     if args.command == "warmstart":
@@ -787,6 +978,8 @@ def main():
         cmd_evaluate(args)
     elif args.command == "scm":
         cmd_scm(args)
+    elif args.command == "scm-multi":
+        cmd_scm_multi(args)
     else:
         parser.print_help()
 
