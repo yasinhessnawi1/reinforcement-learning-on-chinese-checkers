@@ -1248,9 +1248,12 @@ def render_json_board(state):
 
 def main():
     print("==== Player ====")
-    name = input("Enter name: ").strip()
+    # Tournament team name — hard-coded. Override with CC_NAME env if needed
+    # (e.g. for the cloud-side smoke test where 2 players run on the same box).
+    name = os.getenv("CC_NAME", "group 99").strip()
+    print(f"Name: {name}")
     if not name:
-        name = "az_agent"
+        name = "group 99"
 
     print("Loading model...", flush=True)
     agent = TournamentAgent()
