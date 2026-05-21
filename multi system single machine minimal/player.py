@@ -46,8 +46,12 @@ MCTS_BATCH_SIZE = int(os.getenv("CC_BATCH", "8"))
 # Budget reserves (seconds). When time-left ≤ these thresholds, drop to faster
 # strategies. Numbers are conservative — a missed move hurts far more than a
 # slightly weaker one.
-PER_MOVE_HARD_CAP = float(os.getenv("CC_PER_MOVE_HARD_CAP", "8.5"))   # under 10s
-GAME_HARD_CAP = float(os.getenv("CC_GAME_HARD_CAP", "55.0"))          # under 60s
+PER_MOVE_HARD_CAP = float(os.getenv("CC_PER_MOVE_HARD_CAP", "1.6"))   # under 2s (tournament TURN_TIMEOUT_SEC=2)
+# GAME_HARD_CAP scales with player count: tournament rule is 60s * n_players.
+# We use 90% of that as our safety budget. Falls back to a flat default if
+# n_players isn't known yet (overridable via CC_GAME_HARD_CAP env).
+GAME_HARD_CAP_PER_PLAYER = float(os.getenv("CC_GAME_HARD_CAP_PER_PLAYER", "54.0"))  # 90% of 60s
+GAME_HARD_CAP = float(os.getenv("CC_GAME_HARD_CAP", "324.0"))         # default for 6p (54*6)
 RAW_POLICY_BUDGET_SEC = float(os.getenv("CC_RAW_POLICY_BUDGET", "1.0"))
 HEURISTIC_BUDGET_SEC = float(os.getenv("CC_HEURISTIC_BUDGET", "0.3"))
 
@@ -924,8 +928,14 @@ def pick_opponent(my_colour: str, turn_order: List[str],
     return other[0]
 
 
-def estimate_remaining_budget(time_used_sec: float) -> float:
-    return max(0.0, GAME_HARD_CAP - time_used_sec)
+def estimate_remaining_budget(time_used_sec: float, n_players: int = 0) -> float:
+    """Tournament rule: GAME_TIME_LIMIT_SEC = 60 * n_players (shared wall-clock).
+    Use 90% of that as our safety budget so we leave room for the final move."""
+    if n_players >= 2:
+        cap = GAME_HARD_CAP_PER_PLAYER * n_players
+    else:
+        cap = GAME_HARD_CAP
+    return max(0.0, cap - time_used_sec)
 
 
 def choose_sims(remaining_game_budget: float, moves_made: int,
@@ -946,18 +956,22 @@ def choose_sims(remaining_game_budget: float, moves_made: int,
     sims_from_budget = int(usable_ms / max(forward_ms * 0.8, 1.0))
 
     if sims_ceiling <= 0:
-        # Auto ceiling, calibrated against actual V100 measurements:
-        #   sims=400  → 347ms/move  → 80 moves * 347ms = 27.8s  (well under 60s)
-        #   sims=800  → 661ms/move  → 80 moves * 661ms = 52.9s  (fits 60s budget)
-        #   sims=1600 → 1415ms/move → 80 moves * 1.4s = 113s    (overruns)
-        # GPU can comfortably do 800; CPU is much weaker and per-move cost
-        # scales poorly with batched MCTS (since batches don't fill).
+        # Auto ceiling for tournament rules (TURN_TIMEOUT_SEC=2, GAME_TIME_LIMIT=60*n_players):
+        # The SCM+MCTS path uses *standard* (non-batched) MCTS, ~13ms/sim on GPU,
+        # so sims=100 → ~1.3s/move which fits the 1.6s per-move hard cap with
+        # a 200-300ms safety margin for encoding/JSON/SCM overhead.
+        # Empirical: sims=200 standard MCTS → 2.7s (over budget)
+        #            sims=100 standard MCTS → ~1.3s (safe)
+        # CPU class: per-sim cost is much higher (~95ms on a 4-thread server),
+        # so even sims=16 may not fit — fall back to raw policy.
         if forward_ms < 8:
-            sims_ceiling = 800   # GPU-class: was 400, but profile shows 800 fits
+            sims_ceiling = 100   # GPU-class: SCM+MCTS at ~13ms/sim, sims=100 ≈ 1.3s
         elif forward_ms < 25:
-            sims_ceiling = 200
+            sims_ceiling = 60    # Mid-class GPU/M-chip
+        elif forward_ms < 60:
+            sims_ceiling = 30    # Slow GPU / fast CPU
         else:
-            sims_ceiling = 100
+            sims_ceiling = 16    # Very slow CPU — MIN_SIMS floor
 
     target = min(sims_from_budget, sims_ceiling)
     target = max(target, MIN_SIMS)
@@ -1008,8 +1022,9 @@ def select_move(agent: TournamentAgent,
     turn_order = state.get("turn_order") or []
     opp_colour = pick_opponent(my_colour, turn_order, pins, board=board)
 
-    # Time budget
-    remaining = estimate_remaining_budget(time_used_sec)
+    # Time budget — scales with n_players (tournament: 60s × n_players shared wall clock)
+    n_active_colours_for_budget = len([c for c in pins if pins.get(c)])
+    remaining = estimate_remaining_budget(time_used_sec, n_active_colours_for_budget)
 
     # If we're cooked on time, drop to greedy or heuristic
     if remaining <= HEURISTIC_BUDGET_SEC:
