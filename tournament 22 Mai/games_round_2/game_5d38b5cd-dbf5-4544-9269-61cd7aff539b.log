@@ -1,0 +1,1201 @@
+[2026-05-22 10:19:52] GAME CREATED
+[2026-05-22 10:19:53] PLAYER JOINED: Group7 as red
+[2026-05-22 10:19:56] PLAYER JOINED: Robert as blue
+[2026-05-22 10:20:01] PLAYER JOINED: jat as lawn green
+[2026-05-22 10:20:30] PLAYER JOINED: Gruppe 69 as gray0
+[2026-05-22 10:21:01] PLAYER JOINED: Gruppe 10 as yellow
+[2026-05-22 10:21:01] PLAYER START: Group7 (red)
+[2026-05-22 10:21:01] PLAYER START: Robert (blue)
+[2026-05-22 10:21:01] PLAYER START: jat (lawn green)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 69 (gray0)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 10 (yellow)
+[2026-05-22 10:21:01] GAME START — turn order ['red', 'lawn green', 'yellow', 'blue', 'gray0']
+[2026-05-22 10:21:01] PLAYER START: Group7 (red)
+[2026-05-22 10:21:01] PLAYER START: Robert (blue)
+[2026-05-22 10:21:01] PLAYER START: jat (lawn green)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 69 (gray0)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 10 (yellow)
+[2026-05-22 10:21:01] PLAYER START: Group7 (red)
+[2026-05-22 10:21:01] PLAYER START: Robert (blue)
+[2026-05-22 10:21:01] PLAYER START: jat (lawn green)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 69 (gray0)
+[2026-05-22 10:21:01] PLAYER START: Gruppe 10 (yellow)
+[2026-05-22 10:21:01] MOVE 1: Group7 (red) 115->104 [0.00ms]
+[2026-05-22 10:21:01] SCORE Group7 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Robert (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE jat (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Gruppe 69 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:02] PLAYER START: Group7 (red)
+[2026-05-22 10:21:02] PLAYER START: Robert (blue)
+[2026-05-22 10:21:02] PLAYER START: jat (lawn green)
+[2026-05-22 10:21:02] PLAYER START: Gruppe 69 (gray0)
+[2026-05-22 10:21:02] PLAYER START: Gruppe 10 (yellow)
+[2026-05-22 10:21:03] MOVE 2: jat (lawn green) 55->54 [0.00ms]
+[2026-05-22 10:21:03] SCORE Group7 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Robert (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE jat (lawn green): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Gruppe 69 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:05] SCORE Group7 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Robert (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE jat (lawn green): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 69 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:05] TURN TIMEOUT: Player with colour yellow exceeded 2s at move 3. Turn skipped.
+[2026-05-22 10:21:05] MOVE 4: Robert (blue) 3->16 [0.00ms]
+[2026-05-22 10:21:05] SCORE Group7 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Robert (blue): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE jat (lawn green): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 69 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:05] MOVE 5: Gruppe 69 (gray0) 75->77 [0.00ms]
+[2026-05-22 10:21:05] SCORE Group7 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Robert (blue): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE jat (lawn green): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 69 (gray0): Final=284.0, Time=100.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:05] MOVE 6: Group7 (red) 120->102 [0.00ms]
+[2026-05-22 10:21:05] SCORE Group7 (red): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Robert (blue): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE jat (lawn green): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 69 (gray0): Final=284.0, Time=100.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:05] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:05] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:06] PLAYER START: Group7 (red)
+[2026-05-22 10:21:06] PLAYER START: Robert (blue)
+[2026-05-22 10:21:06] PLAYER START: jat (lawn green)
+[2026-05-22 10:21:06] PLAYER START: Gruppe 69 (gray0)
+[2026-05-22 10:21:06] PLAYER START: Gruppe 10 (yellow)
+[2026-05-22 10:21:07] MOVE 7: jat (lawn green) 34->53 [0.01ms]
+[2026-05-22 10:21:07] SCORE Group7 (red): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Robert (blue): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE jat (lawn green): Final=287.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 69 (gray0): Final=284.0, Time=100.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 10 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:07] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:07] MOVE 8: Gruppe 10 (yellow) 25->26 [0.01ms]
+[2026-05-22 10:21:07] SCORE Group7 (red): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Robert (blue): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE jat (lawn green): Final=287.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 69 (gray0): Final=284.0, Time=100.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 10 (yellow): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:07] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:07] MOVE 9: Robert (blue) 0->37 [0.00ms]
+[2026-05-22 10:21:07] SCORE Group7 (red): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Robert (blue): Final=295.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE jat (lawn green): Final=287.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 69 (gray0): Final=284.0, Time=100.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 10 (yellow): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:07] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:07] MOVE 10: Gruppe 69 (gray0) 77->78 [0.00ms]
+[2026-05-22 10:21:07] SCORE Group7 (red): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Robert (blue): Final=295.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE jat (lawn green): Final=287.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 69 (gray0): Final=285.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:07] SCORE Gruppe 10 (yellow): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:07] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:08] MOVE 11: Group7 (red) 111->68 [0.00ms]
+[2026-05-22 10:21:08] SCORE Group7 (red): Final=298.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Robert (blue): Final=295.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE jat (lawn green): Final=287.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Gruppe 69 (gray0): Final=285.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Gruppe 10 (yellow): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:08] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:09] MOVE 12: jat (lawn green) 20->62 [0.00ms]
+[2026-05-22 10:21:09] SCORE Group7 (red): Final=298.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Robert (blue): Final=295.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE jat (lawn green): Final=293.9, Time=95.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 69 (gray0): Final=285.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 10 (yellow): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:09] MOVE 13: Gruppe 10 (yellow) 36->38 [0.00ms]
+[2026-05-22 10:21:09] SCORE Group7 (red): Final=298.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Robert (blue): Final=295.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE jat (lawn green): Final=293.9, Time=95.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 69 (gray0): Final=285.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 10 (yellow): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:09] MOVE 14: Robert (blue) 37->48 [0.00ms]
+[2026-05-22 10:21:09] SCORE Group7 (red): Final=298.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Robert (blue): Final=297.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE jat (lawn green): Final=293.9, Time=95.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 69 (gray0): Final=285.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 10 (yellow): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:09] MOVE 15: Gruppe 69 (gray0) 100->77 [0.00ms]
+[2026-05-22 10:21:09] SCORE Group7 (red): Final=298.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Robert (blue): Final=297.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE jat (lawn green): Final=293.9, Time=95.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 69 (gray0): Final=289.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Gruppe 10 (yellow): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:10] MOVE 16: Group7 (red) 113->66 [0.00ms]
+[2026-05-22 10:21:10] SCORE Group7 (red): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Robert (blue): Final=297.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE jat (lawn green): Final=293.9, Time=95.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Gruppe 69 (gray0): Final=289.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Gruppe 10 (yellow): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:11] MOVE 17: jat (lawn green) 22->43 [0.01ms]
+[2026-05-22 10:21:11] SCORE Group7 (red): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Robert (blue): Final=297.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE jat (lawn green): Final=300.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 69 (gray0): Final=289.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 10 (yellow): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:11] MOVE 18: Gruppe 10 (yellow) 12->39 [0.00ms]
+[2026-05-22 10:21:11] SCORE Group7 (red): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Robert (blue): Final=297.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE jat (lawn green): Final=300.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 69 (gray0): Final=289.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 10 (yellow): Final=293.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:11] MOVE 19: Robert (blue) 5->58 [0.01ms]
+[2026-05-22 10:21:11] SCORE Group7 (red): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Robert (blue): Final=309.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE jat (lawn green): Final=300.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 69 (gray0): Final=289.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Gruppe 10 (yellow): Final=293.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:12] MOVE 20: Gruppe 69 (gray0) 87->75 [0.00ms]
+[2026-05-22 10:21:12] SCORE Group7 (red): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Robert (blue): Final=309.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE jat (lawn green): Final=300.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Gruppe 69 (gray0): Final=289.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Gruppe 10 (yellow): Final=293.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:12] MOVE 21: Group7 (red) 118->89 [0.00ms]
+[2026-05-22 10:21:12] SCORE Group7 (red): Final=313.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Robert (blue): Final=309.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE jat (lawn green): Final=300.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Gruppe 69 (gray0): Final=289.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Gruppe 10 (yellow): Final=293.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:13] MOVE 22: jat (lawn green) 45->37 [0.00ms]
+[2026-05-22 10:21:13] SCORE Group7 (red): Final=313.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Robert (blue): Final=309.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE jat (lawn green): Final=315.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Gruppe 69 (gray0): Final=289.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Gruppe 10 (yellow): Final=293.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:14] MOVE 23: Gruppe 10 (yellow) 35->56 [0.01ms]
+[2026-05-22 10:21:14] SCORE Group7 (red): Final=313.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Robert (blue): Final=309.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE jat (lawn green): Final=315.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 69 (gray0): Final=289.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 10 (yellow): Final=297.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:14] MOVE 24: Robert (blue) 8->90 [0.00ms]
+[2026-05-22 10:21:14] SCORE Group7 (red): Final=313.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Robert (blue): Final=325.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE jat (lawn green): Final=315.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 69 (gray0): Final=289.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 10 (yellow): Final=297.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:14] MOVE 25: Gruppe 69 (gray0) 65->8 [0.01ms]
+[2026-05-22 10:21:14] SCORE Group7 (red): Final=313.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Robert (blue): Final=325.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE jat (lawn green): Final=315.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 69 (gray0): Final=303.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 10 (yellow): Final=297.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:14] MOVE 26: Group7 (red) 112->92 [0.01ms]
+[2026-05-22 10:21:14] SCORE Group7 (red): Final=317.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Robert (blue): Final=325.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE jat (lawn green): Final=315.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 69 (gray0): Final=303.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Gruppe 10 (yellow): Final=297.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:16] MOVE 27: jat (lawn green) 44->61 [0.01ms]
+[2026-05-22 10:21:16] SCORE Group7 (red): Final=317.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Robert (blue): Final=325.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE jat (lawn green): Final=321.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 69 (gray0): Final=303.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 10 (yellow): Final=297.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:16] MOVE 28: Gruppe 10 (yellow) 38->59 [0.00ms]
+[2026-05-22 10:21:16] SCORE Group7 (red): Final=317.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Robert (blue): Final=325.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE jat (lawn green): Final=321.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 69 (gray0): Final=303.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 10 (yellow): Final=301.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:16] MOVE 29: Robert (blue) 7->29 [0.00ms]
+[2026-05-22 10:21:16] SCORE Group7 (red): Final=317.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Robert (blue): Final=329.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE jat (lawn green): Final=321.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 69 (gray0): Final=303.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 10 (yellow): Final=301.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:16] MOVE 30: Gruppe 69 (gray0) 86->30 [0.00ms]
+[2026-05-22 10:21:16] SCORE Group7 (red): Final=317.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Robert (blue): Final=329.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE jat (lawn green): Final=321.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 69 (gray0): Final=323.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Gruppe 10 (yellow): Final=301.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:17] MOVE 31: Group7 (red) 68->27 [0.01ms]
+[2026-05-22 10:21:17] SCORE Group7 (red): Final=324.6, Time=96.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Robert (blue): Final=329.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE jat (lawn green): Final=321.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Gruppe 69 (gray0): Final=323.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Gruppe 10 (yellow): Final=301.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:19] MOVE 32: jat (lawn green) 21->57 [0.00ms]
+[2026-05-22 10:21:19] SCORE Group7 (red): Final=324.6, Time=96.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Robert (blue): Final=329.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE jat (lawn green): Final=340.3, Time=90.3, Moves(7)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 69 (gray0): Final=323.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 10 (yellow): Final=301.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:19] MOVE 33: Gruppe 10 (yellow) 11->42 [0.01ms]
+[2026-05-22 10:21:19] SCORE Group7 (red): Final=324.6, Time=96.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Robert (blue): Final=329.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE jat (lawn green): Final=340.3, Time=90.3, Moves(7)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 69 (gray0): Final=323.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 10 (yellow): Final=317.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:19] MOVE 34: Robert (blue) 29->70 [0.00ms]
+[2026-05-22 10:21:19] SCORE Group7 (red): Final=324.6, Time=96.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Robert (blue): Final=336.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE jat (lawn green): Final=340.3, Time=90.3, Moves(7)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 69 (gray0): Final=323.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 10 (yellow): Final=317.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:19] MOVE 35: Gruppe 69 (gray0) 88->51 [0.00ms]
+[2026-05-22 10:21:19] SCORE Group7 (red): Final=324.6, Time=96.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Robert (blue): Final=336.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE jat (lawn green): Final=340.3, Time=90.3, Moves(7)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 69 (gray0): Final=335.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Gruppe 10 (yellow): Final=317.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:20] MOVE 36: Group7 (red) 116->115 [0.00ms]
+[2026-05-22 10:21:20] SCORE Group7 (red): Final=324.4, Time=96.4, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Robert (blue): Final=336.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE jat (lawn green): Final=340.3, Time=90.3, Moves(7)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 69 (gray0): Final=335.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 10 (yellow): Final=317.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:20] MOVE 37: jat (lawn green) 57->11 [0.00ms]
+[2026-05-22 10:21:20] SCORE Group7 (red): Final=324.4, Time=96.4, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Robert (blue): Final=336.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE jat (lawn green): Final=334.1, Time=90.1, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 69 (gray0): Final=335.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 10 (yellow): Final=317.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:20] MOVE 38: Gruppe 10 (yellow) 13->40 [0.01ms]
+[2026-05-22 10:21:20] SCORE Group7 (red): Final=324.4, Time=96.4, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Robert (blue): Final=336.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE jat (lawn green): Final=334.1, Time=90.1, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 69 (gray0): Final=335.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 10 (yellow): Final=324.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:20] MOVE 39: Robert (blue) 2->68 [0.01ms]
+[2026-05-22 10:21:20] SCORE Group7 (red): Final=324.4, Time=96.4, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Robert (blue): Final=352.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE jat (lawn green): Final=334.1, Time=90.1, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 69 (gray0): Final=335.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Gruppe 10 (yellow): Final=324.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:21] MOVE 40: Gruppe 69 (gray0) 76->17 [0.00ms]
+[2026-05-22 10:21:21] SCORE Group7 (red): Final=324.4, Time=96.4, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Robert (blue): Final=352.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE jat (lawn green): Final=334.1, Time=90.1, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Gruppe 69 (gray0): Final=350.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Gruppe 10 (yellow): Final=324.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:21] MOVE 41: Group7 (red) 104->3 [0.00ms]
+[2026-05-22 10:21:21] SCORE Group7 (red): Final=441.8, Time=95.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Robert (blue): Final=352.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE jat (lawn green): Final=334.1, Time=90.1, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Gruppe 69 (gray0): Final=350.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Gruppe 10 (yellow): Final=324.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:22] MOVE 42: jat (lawn green) 53->86 [0.01ms]
+[2026-05-22 10:21:22] SCORE Group7 (red): Final=441.8, Time=95.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:22] SCORE Robert (blue): Final=352.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:22] SCORE jat (lawn green): Final=448.8, Time=88.8, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:22] SCORE Gruppe 69 (gray0): Final=350.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:22] SCORE Gruppe 10 (yellow): Final=324.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:22] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:23] MOVE 43: Gruppe 10 (yellow) 56->47 [0.01ms]
+[2026-05-22 10:21:23] SCORE Group7 (red): Final=441.8, Time=95.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Robert (blue): Final=352.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE jat (lawn green): Final=448.8, Time=88.8, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 69 (gray0): Final=350.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 10 (yellow): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:23] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:23] MOVE 44: Robert (blue) 16->104 [0.01ms]
+[2026-05-22 10:21:23] SCORE Group7 (red): Final=441.8, Time=95.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Robert (blue): Final=368.0, Time=98.0, Moves(9)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE jat (lawn green): Final=448.8, Time=88.8, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 69 (gray0): Final=350.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 10 (yellow): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:23] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:23] MOVE 45: Gruppe 69 (gray0) 51->55 [0.01ms]
+[2026-05-22 10:21:23] SCORE Group7 (red): Final=441.8, Time=95.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Robert (blue): Final=368.0, Time=98.0, Moves(9)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE jat (lawn green): Final=448.8, Time=88.8, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 69 (gray0): Final=458.5, Time=98.5, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:23] SCORE Gruppe 10 (yellow): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:23] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:24] MOVE 46: Group7 (red) 117->106 [0.01ms]
+[2026-05-22 10:21:24] SCORE Group7 (red): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:24] SCORE Robert (blue): Final=368.0, Time=98.0, Moves(9)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:24] SCORE jat (lawn green): Final=448.8, Time=88.8, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:24] SCORE Gruppe 69 (gray0): Final=458.5, Time=98.5, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:24] SCORE Gruppe 10 (yellow): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:24] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:25] MOVE 47: jat (lawn green) 32->88 [0.01ms]
+[2026-05-22 10:21:25] SCORE Group7 (red): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Robert (blue): Final=368.0, Time=98.0, Moves(9)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE jat (lawn green): Final=567.4, Time=87.4, Moves(10)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Gruppe 69 (gray0): Final=458.5, Time=98.5, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Gruppe 10 (yellow): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:25] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:25] MOVE 48: Gruppe 10 (yellow) 47->49 [0.00ms]
+[2026-05-22 10:21:25] SCORE Group7 (red): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Robert (blue): Final=368.0, Time=98.0, Moves(9)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE jat (lawn green): Final=567.4, Time=87.4, Moves(10)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Gruppe 69 (gray0): Final=458.5, Time=98.5, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:25] SCORE Gruppe 10 (yellow): Final=328.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:25] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:26] MOVE 49: Robert (blue) 70->80 [0.00ms]
+[2026-05-22 10:21:26] SCORE Group7 (red): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Robert (blue): Final=369.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE jat (lawn green): Final=567.4, Time=87.4, Moves(10)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 69 (gray0): Final=458.5, Time=98.5, Moves(9)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 10 (yellow): Final=328.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:26] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:26] MOVE 50: Gruppe 69 (gray0) 101->15 [0.00ms]
+[2026-05-22 10:21:26] SCORE Group7 (red): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Robert (blue): Final=369.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE jat (lawn green): Final=567.4, Time=87.4, Moves(10)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 69 (gray0): Final=470.4, Time=98.4, Moves(10)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 10 (yellow): Final=328.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:26] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:26] MOVE 51: Group7 (red) 27->7 [0.01ms]
+[2026-05-22 10:21:26] SCORE Group7 (red): Final=548.8, Time=94.8, Moves(11)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Robert (blue): Final=369.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE jat (lawn green): Final=567.4, Time=87.4, Moves(10)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 69 (gray0): Final=470.4, Time=98.4, Moves(10)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:26] SCORE Gruppe 10 (yellow): Final=328.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:26] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:28] MOVE 52: jat (lawn green) 11->101 [0.00ms]
+[2026-05-22 10:21:28] SCORE Group7 (red): Final=548.8, Time=94.8, Moves(11)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Robert (blue): Final=369.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE jat (lawn green): Final=676.0, Time=86.0, Moves(11)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 69 (gray0): Final=470.4, Time=98.4, Moves(10)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 10 (yellow): Final=328.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:21:28] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:28] MOVE 53: Gruppe 10 (yellow) 23->52 [0.00ms]
+[2026-05-22 10:21:28] SCORE Group7 (red): Final=548.8, Time=94.8, Moves(11)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Robert (blue): Final=369.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE jat (lawn green): Final=676.0, Time=86.0, Moves(11)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 69 (gray0): Final=470.4, Time=98.4, Moves(10)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 10 (yellow): Final=344.4, Time=98.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:28] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:28] MOVE 54: Robert (blue) 6->71 [0.00ms]
+[2026-05-22 10:21:28] SCORE Group7 (red): Final=548.8, Time=94.8, Moves(11)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Robert (blue): Final=381.2, Time=97.2, Moves(11)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE jat (lawn green): Final=676.0, Time=86.0, Moves(11)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 69 (gray0): Final=470.4, Time=98.4, Moves(10)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 10 (yellow): Final=344.4, Time=98.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:28] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:28] MOVE 55: Gruppe 69 (gray0) 77->81 [0.01ms]
+[2026-05-22 10:21:28] SCORE Group7 (red): Final=548.8, Time=94.8, Moves(11)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Robert (blue): Final=381.2, Time=97.2, Moves(11)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE jat (lawn green): Final=676.0, Time=86.0, Moves(11)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 69 (gray0): Final=478.3, Time=98.3, Moves(11)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:28] SCORE Gruppe 10 (yellow): Final=344.4, Time=98.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:28] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:29] MOVE 56: Group7 (red) 102->12 [0.00ms]
+[2026-05-22 10:21:29] SCORE Group7 (red): Final=560.3, Time=94.3, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:29] SCORE Robert (blue): Final=381.2, Time=97.2, Moves(11)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:29] SCORE jat (lawn green): Final=676.0, Time=86.0, Moves(11)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:29] SCORE Gruppe 69 (gray0): Final=478.3, Time=98.3, Moves(11)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:29] SCORE Gruppe 10 (yellow): Final=344.4, Time=98.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:29] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:30] MOVE 57: jat (lawn green) 54->27 [0.01ms]
+[2026-05-22 10:21:30] SCORE Group7 (red): Final=560.3, Time=94.3, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:30] SCORE Robert (blue): Final=381.2, Time=97.2, Moves(11)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:30] SCORE jat (lawn green): Final=682.6, Time=84.6, Moves(12)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:30] SCORE Gruppe 69 (gray0): Final=478.3, Time=98.3, Moves(11)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:30] SCORE Gruppe 10 (yellow): Final=344.4, Time=98.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:30] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:31] MOVE 58: Gruppe 10 (yellow) 52->53 [0.01ms]
+[2026-05-22 10:21:31] SCORE Group7 (red): Final=560.3, Time=94.3, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Robert (blue): Final=381.2, Time=97.2, Moves(11)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE jat (lawn green): Final=682.6, Time=84.6, Moves(12)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 69 (gray0): Final=478.3, Time=98.3, Moves(11)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 10 (yellow): Final=346.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:31] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:31] MOVE 59: Robert (blue) 9->113 [0.01ms]
+[2026-05-22 10:21:31] SCORE Group7 (red): Final=560.3, Time=94.3, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Robert (blue): Final=500.9, Time=96.9, Moves(12)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE jat (lawn green): Final=682.6, Time=84.6, Moves(12)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 69 (gray0): Final=478.3, Time=98.3, Moves(11)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 10 (yellow): Final=346.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:31] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:31] MOVE 60: Gruppe 69 (gray0) 98->79 [0.01ms]
+[2026-05-22 10:21:31] SCORE Group7 (red): Final=560.3, Time=94.3, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Robert (blue): Final=500.9, Time=96.9, Moves(12)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE jat (lawn green): Final=682.6, Time=84.6, Moves(12)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 69 (gray0): Final=490.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:31] SCORE Gruppe 10 (yellow): Final=346.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:31] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:32] MOVE 61: Group7 (red) 89->9 [0.00ms]
+[2026-05-22 10:21:32] SCORE Group7 (red): Final=675.8, Time=93.8, Moves(13)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:32] SCORE Robert (blue): Final=500.9, Time=96.9, Moves(12)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:32] SCORE jat (lawn green): Final=682.6, Time=84.6, Moves(12)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:32] SCORE Gruppe 69 (gray0): Final=490.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:32] SCORE Gruppe 10 (yellow): Final=346.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:32] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:33] MOVE 62: jat (lawn green) 27->87 [0.00ms]
+[2026-05-22 10:21:33] SCORE Group7 (red): Final=675.8, Time=93.8, Moves(13)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Robert (blue): Final=500.9, Time=96.9, Moves(12)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE jat (lawn green): Final=791.4, Time=83.4, Moves(13)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 69 (gray0): Final=490.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 10 (yellow): Final=346.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:33] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:33] MOVE 63: Gruppe 10 (yellow) 42->63 [0.00ms]
+[2026-05-22 10:21:33] SCORE Group7 (red): Final=675.8, Time=93.8, Moves(13)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Robert (blue): Final=500.9, Time=96.9, Moves(12)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE jat (lawn green): Final=791.4, Time=83.4, Moves(13)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 69 (gray0): Final=490.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 10 (yellow): Final=350.2, Time=98.2, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:33] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:33] MOVE 64: Robert (blue) 71->82 [0.00ms]
+[2026-05-22 10:21:33] SCORE Group7 (red): Final=675.8, Time=93.8, Moves(13)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Robert (blue): Final=502.6, Time=96.6, Moves(13)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE jat (lawn green): Final=791.4, Time=83.4, Moves(13)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 69 (gray0): Final=490.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 10 (yellow): Final=350.2, Time=98.2, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:33] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:33] MOVE 65: Gruppe 69 (gray0) 99->38 [0.01ms]
+[2026-05-22 10:21:33] SCORE Group7 (red): Final=675.8, Time=93.8, Moves(13)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Robert (blue): Final=502.6, Time=96.6, Moves(13)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE jat (lawn green): Final=791.4, Time=83.4, Moves(13)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 69 (gray0): Final=502.0, Time=98.0, Moves(13)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:33] SCORE Gruppe 10 (yellow): Final=350.2, Time=98.2, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:33] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:34] MOVE 66: Group7 (red) 114->6 [0.00ms]
+[2026-05-22 10:21:34] SCORE Group7 (red): Final=795.4, Time=93.4, Moves(14)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:34] SCORE Robert (blue): Final=502.6, Time=96.6, Moves(13)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:21:34] SCORE jat (lawn green): Final=791.4, Time=83.4, Moves(13)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:34] SCORE Gruppe 69 (gray0): Final=502.0, Time=98.0, Moves(13)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:34] SCORE Gruppe 10 (yellow): Final=350.2, Time=98.2, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:34] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:35] MOVE 67: jat (lawn green) 33->32 [0.00ms]
+[2026-05-22 10:21:35] SCORE Group7 (red): Final=795.4, Time=93.4, Moves(14)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Robert (blue): Final=502.6, Time=96.6, Moves(13)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE jat (lawn green): Final=791.9, Time=81.9, Moves(14)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Gruppe 69 (gray0): Final=502.0, Time=98.0, Moves(13)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Gruppe 10 (yellow): Final=350.2, Time=98.2, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:35] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:35] MOVE 68: Gruppe 10 (yellow) 49->94 [0.00ms]
+[2026-05-22 10:21:35] SCORE Group7 (red): Final=795.4, Time=93.4, Moves(14)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Robert (blue): Final=502.6, Time=96.6, Moves(13)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE jat (lawn green): Final=791.9, Time=81.9, Moves(14)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Gruppe 69 (gray0): Final=502.0, Time=98.0, Moves(13)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:35] SCORE Gruppe 10 (yellow): Final=362.0, Time=98.0, Moves(13)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:35] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:36] MOVE 69: Robert (blue) 82->103 [0.01ms]
+[2026-05-22 10:21:36] SCORE Group7 (red): Final=795.4, Time=93.4, Moves(14)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Robert (blue): Final=506.1, Time=96.1, Moves(14)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE jat (lawn green): Final=791.9, Time=81.9, Moves(14)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Gruppe 69 (gray0): Final=502.0, Time=98.0, Moves(13)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Gruppe 10 (yellow): Final=362.0, Time=98.0, Moves(13)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:36] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:36] MOVE 70: Gruppe 69 (gray0) 75->77 [0.01ms]
+[2026-05-22 10:21:36] SCORE Group7 (red): Final=795.4, Time=93.4, Moves(14)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Robert (blue): Final=506.1, Time=96.1, Moves(14)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE jat (lawn green): Final=791.9, Time=81.9, Moves(14)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Gruppe 69 (gray0): Final=505.9, Time=97.9, Moves(14)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:36] SCORE Gruppe 10 (yellow): Final=362.0, Time=98.0, Moves(13)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:36] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:37] MOVE 71: Group7 (red) 92->28 [0.00ms]
+[2026-05-22 10:21:37] SCORE Group7 (red): Final=806.8, Time=92.8, Moves(15)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:37] SCORE Robert (blue): Final=506.1, Time=96.1, Moves(14)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:37] SCORE jat (lawn green): Final=791.9, Time=81.9, Moves(14)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:37] SCORE Gruppe 69 (gray0): Final=505.9, Time=97.9, Moves(14)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:37] SCORE Gruppe 10 (yellow): Final=362.0, Time=98.0, Moves(13)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:37] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:38] MOVE 72: jat (lawn green) 43->14 [0.00ms]
+[2026-05-22 10:21:38] SCORE Group7 (red): Final=806.8, Time=92.8, Moves(15)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Robert (blue): Final=506.1, Time=96.1, Moves(14)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE jat (lawn green): Final=798.8, Time=80.8, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 69 (gray0): Final=505.9, Time=97.9, Moves(14)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 10 (yellow): Final=362.0, Time=98.0, Moves(13)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:38] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:38] MOVE 73: Gruppe 10 (yellow) 94->95 [0.00ms]
+[2026-05-22 10:21:38] SCORE Group7 (red): Final=806.8, Time=92.8, Moves(15)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Robert (blue): Final=506.1, Time=96.1, Moves(14)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE jat (lawn green): Final=798.8, Time=80.8, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 69 (gray0): Final=505.9, Time=97.9, Moves(14)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 10 (yellow): Final=463.8, Time=97.8, Moves(14)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:38] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:38] MOVE 74: Robert (blue) 68->118 [0.00ms]
+[2026-05-22 10:21:38] SCORE Group7 (red): Final=806.8, Time=92.8, Moves(15)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Robert (blue): Final=613.8, Time=95.8, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE jat (lawn green): Final=798.8, Time=80.8, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 69 (gray0): Final=505.9, Time=97.9, Moves(14)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 10 (yellow): Final=463.8, Time=97.8, Moves(14)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:38] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:38] MOVE 75: Gruppe 69 (gray0) 81->71 [0.00ms]
+[2026-05-22 10:21:38] SCORE Group7 (red): Final=806.8, Time=92.8, Moves(15)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Robert (blue): Final=613.8, Time=95.8, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE jat (lawn green): Final=798.8, Time=80.8, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 69 (gray0): Final=507.8, Time=97.8, Moves(15)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:38] SCORE Gruppe 10 (yellow): Final=463.8, Time=97.8, Moves(14)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:38] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:39] MOVE 76: Group7 (red) 66->29 [0.00ms]
+[2026-05-22 10:21:39] SCORE Group7 (red): Final=814.4, Time=92.4, Moves(16)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:39] SCORE Robert (blue): Final=613.8, Time=95.8, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:39] SCORE jat (lawn green): Final=798.8, Time=80.8, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:39] SCORE Gruppe 69 (gray0): Final=507.8, Time=97.8, Moves(15)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:39] SCORE Gruppe 10 (yellow): Final=463.8, Time=97.8, Moves(14)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:39] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:40] MOVE 77: jat (lawn green) 32->31 [0.01ms]
+[2026-05-22 10:21:40] SCORE Group7 (red): Final=814.4, Time=92.4, Moves(16)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Robert (blue): Final=613.8, Time=95.8, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE jat (lawn green): Final=799.5, Time=79.5, Moves(16)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 69 (gray0): Final=507.8, Time=97.8, Moves(15)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 10 (yellow): Final=463.8, Time=97.8, Moves(14)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:40] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:40] MOVE 78: Gruppe 10 (yellow) 26->96 [0.00ms]
+[2026-05-22 10:21:40] SCORE Group7 (red): Final=814.4, Time=92.4, Moves(16)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Robert (blue): Final=613.8, Time=95.8, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE jat (lawn green): Final=799.5, Time=79.5, Moves(16)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 69 (gray0): Final=507.8, Time=97.8, Moves(15)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 10 (yellow): Final=581.7, Time=97.7, Moves(15)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:40] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:40] MOVE 79: Robert (blue) 48->111 [0.01ms]
+[2026-05-22 10:21:40] SCORE Group7 (red): Final=814.4, Time=92.4, Moves(16)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Robert (blue): Final=725.4, Time=95.4, Moves(16)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE jat (lawn green): Final=799.5, Time=79.5, Moves(16)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 69 (gray0): Final=507.8, Time=97.8, Moves(15)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:40] SCORE Gruppe 10 (yellow): Final=581.7, Time=97.7, Moves(15)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:40] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:41] MOVE 80: Gruppe 69 (gray0) 30->32 [0.00ms]
+[2026-05-22 10:21:41] SCORE Group7 (red): Final=814.4, Time=92.4, Moves(16)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Robert (blue): Final=725.4, Time=95.4, Moves(16)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE jat (lawn green): Final=799.5, Time=79.5, Moves(16)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Gruppe 69 (gray0): Final=611.7, Time=97.7, Moves(16)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Gruppe 10 (yellow): Final=581.7, Time=97.7, Moves(15)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:41] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:41] MOVE 81: Group7 (red) 115->75 [0.00ms]
+[2026-05-22 10:21:41] SCORE Group7 (red): Final=822.0, Time=92.0, Moves(17)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Robert (blue): Final=725.4, Time=95.4, Moves(16)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE jat (lawn green): Final=799.5, Time=79.5, Moves(16)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Gruppe 69 (gray0): Final=611.7, Time=97.7, Moves(16)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:41] SCORE Gruppe 10 (yellow): Final=581.7, Time=97.7, Moves(15)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:41] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:42] MOVE 82: jat (lawn green) 19->42 [0.00ms]
+[2026-05-22 10:21:42] SCORE Group7 (red): Final=822.0, Time=92.0, Moves(17)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Robert (blue): Final=725.4, Time=95.4, Moves(16)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE jat (lawn green): Final=802.2, Time=78.2, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Gruppe 69 (gray0): Final=611.7, Time=97.7, Moves(16)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Gruppe 10 (yellow): Final=581.7, Time=97.7, Moves(15)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:21:42] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:42] MOVE 83: Gruppe 10 (yellow) 53->54 [0.00ms]
+[2026-05-22 10:21:42] SCORE Group7 (red): Final=822.0, Time=92.0, Moves(17)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Robert (blue): Final=725.4, Time=95.4, Moves(16)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE jat (lawn green): Final=802.2, Time=78.2, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Gruppe 69 (gray0): Final=611.7, Time=97.7, Moves(16)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:42] SCORE Gruppe 10 (yellow): Final=583.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:42] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:43] MOVE 84: Robert (blue) 4->5 [0.00ms]
+[2026-05-22 10:21:43] SCORE Group7 (red): Final=822.0, Time=92.0, Moves(17)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Robert (blue): Final=725.1, Time=95.1, Moves(17)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE jat (lawn green): Final=802.2, Time=78.2, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 69 (gray0): Final=611.7, Time=97.7, Moves(16)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 10 (yellow): Final=583.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:43] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:43] MOVE 85: Gruppe 69 (gray0) 71->53 [0.00ms]
+[2026-05-22 10:21:43] SCORE Group7 (red): Final=822.0, Time=92.0, Moves(17)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Robert (blue): Final=725.1, Time=95.1, Moves(17)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE jat (lawn green): Final=802.2, Time=78.2, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 69 (gray0): Final=615.6, Time=97.6, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 10 (yellow): Final=583.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:43] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:43] MOVE 86: Group7 (red) 29->16 [0.00ms]
+[2026-05-22 10:21:43] SCORE Group7 (red): Final=823.6, Time=91.6, Moves(18)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Robert (blue): Final=725.1, Time=95.1, Moves(17)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE jat (lawn green): Final=802.2, Time=78.2, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 69 (gray0): Final=615.6, Time=97.6, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Gruppe 10 (yellow): Final=583.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:43] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:45] MOVE 87: jat (lawn green) 31->66 [0.00ms]
+[2026-05-22 10:21:45] SCORE Group7 (red): Final=823.6, Time=91.6, Moves(18)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Robert (blue): Final=725.1, Time=95.1, Moves(17)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE jat (lawn green): Final=816.7, Time=76.7, Moves(18)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 69 (gray0): Final=615.6, Time=97.6, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 10 (yellow): Final=583.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:45] MOVE 88: Gruppe 10 (yellow) 95->97 [0.00ms]
+[2026-05-22 10:21:45] SCORE Group7 (red): Final=823.6, Time=91.6, Moves(18)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Robert (blue): Final=725.1, Time=95.1, Moves(17)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE jat (lawn green): Final=816.7, Time=76.7, Moves(18)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 69 (gray0): Final=615.6, Time=97.6, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 10 (yellow): Final=583.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:45] MOVE 89: Robert (blue) 58->49 [0.00ms]
+[2026-05-22 10:21:45] SCORE Group7 (red): Final=823.6, Time=91.6, Moves(18)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Robert (blue): Final=722.8, Time=94.8, Moves(18)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE jat (lawn green): Final=816.7, Time=76.7, Moves(18)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 69 (gray0): Final=615.6, Time=97.6, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 10 (yellow): Final=583.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:45] MOVE 90: Gruppe 69 (gray0) 79->81 [0.00ms]
+[2026-05-22 10:21:45] SCORE Group7 (red): Final=823.6, Time=91.6, Moves(18)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Robert (blue): Final=722.8, Time=94.8, Moves(18)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE jat (lawn green): Final=816.7, Time=76.7, Moves(18)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 69 (gray0): Final=619.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Gruppe 10 (yellow): Final=583.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:46] MOVE 91: Group7 (red) 12->13 [0.00ms]
+[2026-05-22 10:21:46] SCORE Group7 (red): Final=825.1, Time=91.1, Moves(19)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:46] SCORE Robert (blue): Final=722.8, Time=94.8, Moves(18)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:46] SCORE jat (lawn green): Final=816.7, Time=76.7, Moves(18)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:46] SCORE Gruppe 69 (gray0): Final=619.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:46] SCORE Gruppe 10 (yellow): Final=583.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:46] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:47] MOVE 92: jat (lawn green) 62->58 [0.00ms]
+[2026-05-22 10:21:47] SCORE Group7 (red): Final=825.1, Time=91.1, Moves(19)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Robert (blue): Final=722.8, Time=94.8, Moves(18)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE jat (lawn green): Final=823.3, Time=75.3, Moves(19)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Gruppe 69 (gray0): Final=619.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Gruppe 10 (yellow): Final=583.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:47] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:47] MOVE 93: Gruppe 10 (yellow) 97->109 [0.00ms]
+[2026-05-22 10:21:47] SCORE Group7 (red): Final=825.1, Time=91.1, Moves(19)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Robert (blue): Final=722.8, Time=94.8, Moves(18)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE jat (lawn green): Final=823.3, Time=75.3, Moves(19)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Gruppe 69 (gray0): Final=619.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Gruppe 10 (yellow): Final=583.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:47] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:48] MOVE 94: Robert (blue) 49->112 [0.00ms]
+[2026-05-22 10:21:48] SCORE Group7 (red): Final=825.1, Time=91.1, Moves(19)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Robert (blue): Final=834.5, Time=94.5, Moves(19)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE jat (lawn green): Final=823.3, Time=75.3, Moves(19)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 69 (gray0): Final=619.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 10 (yellow): Final=583.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:48] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:48] MOVE 95: Gruppe 69 (gray0) 77->79 [0.00ms]
+[2026-05-22 10:21:48] SCORE Group7 (red): Final=825.1, Time=91.1, Moves(19)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Robert (blue): Final=834.5, Time=94.5, Moves(19)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE jat (lawn green): Final=823.3, Time=75.3, Moves(19)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 69 (gray0): Final=623.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 10 (yellow): Final=583.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:48] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:48] MOVE 96: Group7 (red) 13->26 [0.00ms]
+[2026-05-22 10:21:48] SCORE Group7 (red): Final=825.0, Time=91.0, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Robert (blue): Final=834.5, Time=94.5, Moves(19)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE jat (lawn green): Final=823.3, Time=75.3, Moves(19)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 69 (gray0): Final=623.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Gruppe 10 (yellow): Final=583.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:48] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 97: jat (lawn green) 42->52 [0.00ms]
+[2026-05-22 10:21:49] SCORE Group7 (red): Final=825.0, Time=91.0, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Robert (blue): Final=834.5, Time=94.5, Moves(19)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE jat (lawn green): Final=824.0, Time=74.0, Moves(20)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 69 (gray0): Final=623.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 10 (yellow): Final=583.4, Time=97.4, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 98: Gruppe 10 (yellow) 24->25 [0.00ms]
+[2026-05-22 10:21:49] SCORE Group7 (red): Final=825.0, Time=91.0, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Robert (blue): Final=834.5, Time=94.5, Moves(19)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE jat (lawn green): Final=824.0, Time=74.0, Moves(20)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 69 (gray0): Final=623.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 10 (yellow): Final=585.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 99: Robert (blue) 5->18 [0.00ms]
+[2026-05-22 10:21:49] SCORE Group7 (red): Final=825.0, Time=91.0, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Robert (blue): Final=838.2, Time=94.2, Moves(20)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE jat (lawn green): Final=824.0, Time=74.0, Moves(20)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 69 (gray0): Final=623.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Gruppe 10 (yellow): Final=585.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:50] MOVE 100: Gruppe 69 (gray0) 17->44 [0.00ms]
+[2026-05-22 10:21:50] SCORE Group7 (red): Final=825.0, Time=91.0, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Robert (blue): Final=838.2, Time=94.2, Moves(20)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE jat (lawn green): Final=824.0, Time=74.0, Moves(20)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Gruppe 69 (gray0): Final=727.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Gruppe 10 (yellow): Final=585.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:50] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:50] MOVE 101: Group7 (red) 16->5 [0.00ms]
+[2026-05-22 10:21:50] SCORE Group7 (red): Final=926.2, Time=90.2, Moves(21)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Robert (blue): Final=838.2, Time=94.2, Moves(20)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE jat (lawn green): Final=824.0, Time=74.0, Moves(20)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Gruppe 69 (gray0): Final=727.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:50] SCORE Gruppe 10 (yellow): Final=585.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:50] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 102: jat (lawn green) 52->89 [0.00ms]
+[2026-05-22 10:21:52] SCORE Group7 (red): Final=926.2, Time=90.2, Moves(21)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Robert (blue): Final=838.2, Time=94.2, Moves(20)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE jat (lawn green): Final=834.5, Time=72.5, Moves(21)=0.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 69 (gray0): Final=727.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 10 (yellow): Final=585.3, Time=97.3, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 103: Gruppe 10 (yellow) 25->50 [0.00ms]
+[2026-05-22 10:21:52] SCORE Group7 (red): Final=926.2, Time=90.2, Moves(21)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Robert (blue): Final=838.2, Time=94.2, Moves(20)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE jat (lawn green): Final=834.5, Time=72.5, Moves(21)=0.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 69 (gray0): Final=727.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 10 (yellow): Final=593.2, Time=97.2, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 104: Robert (blue) 1->4 [0.00ms]
+[2026-05-22 10:21:52] SCORE Group7 (red): Final=926.2, Time=90.2, Moves(21)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Robert (blue): Final=840.0, Time=94.0, Moves(21)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE jat (lawn green): Final=834.5, Time=72.5, Moves(21)=0.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 69 (gray0): Final=727.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 10 (yellow): Final=593.2, Time=97.2, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 105: Gruppe 69 (gray0) 8->17 [0.00ms]
+[2026-05-22 10:21:52] SCORE Group7 (red): Final=926.2, Time=90.2, Moves(21)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Robert (blue): Final=840.0, Time=94.0, Moves(21)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE jat (lawn green): Final=834.5, Time=72.5, Moves(21)=0.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 69 (gray0): Final=729.2, Time=97.2, Moves(21)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Gruppe 10 (yellow): Final=593.2, Time=97.2, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:53] MOVE 106: Group7 (red) 75->56 [0.01ms]
+[2026-05-22 10:21:53] SCORE Group7 (red): Final=929.8, Time=89.8, Moves(22)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE Robert (blue): Final=840.0, Time=94.0, Moves(21)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE jat (lawn green): Final=834.5, Time=72.5, Moves(21)=0.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE Gruppe 69 (gray0): Final=729.2, Time=97.2, Moves(21)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE Gruppe 10 (yellow): Final=593.2, Time=97.2, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:53] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:54] MOVE 107: jat (lawn green) 66->76 [0.00ms]
+[2026-05-22 10:21:54] SCORE Group7 (red): Final=929.8, Time=89.8, Moves(22)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Robert (blue): Final=840.0, Time=94.0, Moves(21)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE jat (lawn green): Final=935.1, Time=71.1, Moves(22)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Gruppe 69 (gray0): Final=729.2, Time=97.2, Moves(21)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Gruppe 10 (yellow): Final=593.2, Time=97.2, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:54] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:54] MOVE 108: Gruppe 10 (yellow) 50->68 [0.00ms]
+[2026-05-22 10:21:54] SCORE Group7 (red): Final=929.8, Time=89.8, Moves(22)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Robert (blue): Final=840.0, Time=94.0, Moves(21)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE jat (lawn green): Final=935.1, Time=71.1, Moves(22)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Gruppe 69 (gray0): Final=729.2, Time=97.2, Moves(21)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Gruppe 10 (yellow): Final=593.1, Time=97.1, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:54] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:55] MOVE 109: Robert (blue) 4->8 [0.00ms]
+[2026-05-22 10:21:55] SCORE Group7 (red): Final=929.8, Time=89.8, Moves(22)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Robert (blue): Final=841.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE jat (lawn green): Final=935.1, Time=71.1, Moves(22)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 69 (gray0): Final=729.2, Time=97.2, Moves(21)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 10 (yellow): Final=593.1, Time=97.1, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:55] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:55] MOVE 110: Gruppe 69 (gray0) 17->19 [0.00ms]
+[2026-05-22 10:21:55] SCORE Group7 (red): Final=929.8, Time=89.8, Moves(22)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Robert (blue): Final=841.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE jat (lawn green): Final=935.1, Time=71.1, Moves(22)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 69 (gray0): Final=833.0, Time=97.0, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 10 (yellow): Final=593.1, Time=97.1, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:55] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:55] MOVE 111: Group7 (red) 28->16 [0.01ms]
+[2026-05-22 10:21:55] SCORE Group7 (red): Final=931.3, Time=89.3, Moves(23)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Robert (blue): Final=841.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE jat (lawn green): Final=935.1, Time=71.1, Moves(22)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 69 (gray0): Final=833.0, Time=97.0, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Gruppe 10 (yellow): Final=593.1, Time=97.1, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:55] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 112: jat (lawn green) 61->70 [0.00ms]
+[2026-05-22 10:21:57] SCORE Group7 (red): Final=931.3, Time=89.3, Moves(23)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Robert (blue): Final=841.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE jat (lawn green): Final=935.7, Time=69.7, Moves(23)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 69 (gray0): Final=833.0, Time=97.0, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 10 (yellow): Final=593.1, Time=97.1, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 113: Gruppe 10 (yellow) 46->66 [0.00ms]
+[2026-05-22 10:21:57] SCORE Group7 (red): Final=931.3, Time=89.3, Moves(23)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Robert (blue): Final=841.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE jat (lawn green): Final=935.7, Time=69.7, Moves(23)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 69 (gray0): Final=833.0, Time=97.0, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 10 (yellow): Final=597.0, Time=97.0, Moves(22)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 114: Robert (blue) 8->92 [0.00ms]
+[2026-05-22 10:21:57] SCORE Group7 (red): Final=931.3, Time=89.3, Moves(23)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Robert (blue): Final=857.5, Time=93.5, Moves(23)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE jat (lawn green): Final=935.7, Time=69.7, Moves(23)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 69 (gray0): Final=833.0, Time=97.0, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 10 (yellow): Final=597.0, Time=97.0, Moves(22)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 115: Gruppe 69 (gray0) 15->17 [0.00ms]
+[2026-05-22 10:21:57] SCORE Group7 (red): Final=931.3, Time=89.3, Moves(23)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Robert (blue): Final=857.5, Time=93.5, Moves(23)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE jat (lawn green): Final=935.7, Time=69.7, Moves(23)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 69 (gray0): Final=836.9, Time=96.9, Moves(23)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 10 (yellow): Final=597.0, Time=97.0, Moves(22)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 116: Group7 (red) 26->8 [0.00ms]
+[2026-05-22 10:21:57] SCORE Group7 (red): Final=1034.8, Time=88.8, Moves(24)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Robert (blue): Final=857.5, Time=93.5, Moves(23)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE jat (lawn green): Final=935.7, Time=69.7, Moves(23)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 69 (gray0): Final=836.9, Time=96.9, Moves(23)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Gruppe 10 (yellow): Final=597.0, Time=97.0, Moves(22)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:59] MOVE 117: jat (lawn green) 70->91 [0.00ms]
+[2026-05-22 10:21:59] SCORE Group7 (red): Final=1034.8, Time=88.8, Moves(24)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Robert (blue): Final=857.5, Time=93.5, Moves(23)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE jat (lawn green): Final=938.3, Time=68.3, Moves(24)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 69 (gray0): Final=836.9, Time=96.9, Moves(23)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 10 (yellow): Final=597.0, Time=97.0, Moves(22)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:59] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:59] MOVE 118: Gruppe 10 (yellow) 10->11 [0.00ms]
+[2026-05-22 10:21:59] SCORE Group7 (red): Final=1034.8, Time=88.8, Moves(24)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Robert (blue): Final=857.5, Time=93.5, Moves(23)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE jat (lawn green): Final=938.3, Time=68.3, Moves(24)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 69 (gray0): Final=836.9, Time=96.9, Moves(23)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 10 (yellow): Final=598.8, Time=96.8, Moves(23)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:59] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:59] MOVE 119: Robert (blue) 18->62 [0.01ms]
+[2026-05-22 10:21:59] SCORE Group7 (red): Final=1034.8, Time=88.8, Moves(24)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Robert (blue): Final=865.3, Time=93.3, Moves(24)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE jat (lawn green): Final=938.3, Time=68.3, Moves(24)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 69 (gray0): Final=836.9, Time=96.9, Moves(23)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 10 (yellow): Final=598.8, Time=96.8, Moves(23)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:59] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:21:59] MOVE 120: Gruppe 69 (gray0) 53->43 [0.01ms]
+[2026-05-22 10:21:59] SCORE Group7 (red): Final=1034.8, Time=88.8, Moves(24)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Robert (blue): Final=865.3, Time=93.3, Moves(24)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE jat (lawn green): Final=938.3, Time=68.3, Moves(24)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 69 (gray0): Final=838.8, Time=96.8, Moves(24)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Gruppe 10 (yellow): Final=598.8, Time=96.8, Moves(23)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:59] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:00] MOVE 121: Group7 (red) 56->47 [0.01ms]
+[2026-05-22 10:22:00] SCORE Group7 (red): Final=1036.4, Time=88.4, Moves(25)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE Robert (blue): Final=865.3, Time=93.3, Moves(24)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE jat (lawn green): Final=938.3, Time=68.3, Moves(24)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE Gruppe 69 (gray0): Final=838.8, Time=96.8, Moves(24)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE Gruppe 10 (yellow): Final=598.8, Time=96.8, Moves(23)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:00] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:01] MOVE 122: jat (lawn green) 37->100 [0.00ms]
+[2026-05-22 10:22:01] SCORE Group7 (red): Final=1036.4, Time=88.4, Moves(25)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Robert (blue): Final=865.3, Time=93.3, Moves(24)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE jat (lawn green): Final=1043.0, Time=67.0, Moves(25)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Gruppe 69 (gray0): Final=838.8, Time=96.8, Moves(24)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Gruppe 10 (yellow): Final=598.8, Time=96.8, Moves(23)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:01] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:01] MOVE 123: Gruppe 10 (yellow) 59->60 [0.00ms]
+[2026-05-22 10:22:01] SCORE Group7 (red): Final=1036.4, Time=88.4, Moves(25)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Robert (blue): Final=865.3, Time=93.3, Moves(24)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE jat (lawn green): Final=1043.0, Time=67.0, Moves(25)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Gruppe 69 (gray0): Final=838.8, Time=96.8, Moves(24)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Gruppe 10 (yellow): Final=600.7, Time=96.7, Moves(24)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:01] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:02] MOVE 124: Robert (blue) 80->116 [0.00ms]
+[2026-05-22 10:22:02] SCORE Group7 (red): Final=1036.4, Time=88.4, Moves(25)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Robert (blue): Final=971.0, Time=93.0, Moves(25)=0.0, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE jat (lawn green): Final=1043.0, Time=67.0, Moves(25)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 69 (gray0): Final=838.8, Time=96.8, Moves(24)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 10 (yellow): Final=600.7, Time=96.7, Moves(24)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:02] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:02] MOVE 125: Gruppe 69 (gray0) 78->61 [0.00ms]
+[2026-05-22 10:22:02] SCORE Group7 (red): Final=1036.4, Time=88.4, Moves(25)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Robert (blue): Final=971.0, Time=93.0, Moves(25)=0.0, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE jat (lawn green): Final=1043.0, Time=67.0, Moves(25)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 69 (gray0): Final=846.7, Time=96.7, Moves(25)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 10 (yellow): Final=600.7, Time=96.7, Moves(24)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:02] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:02] MOVE 126: Group7 (red) 106->93 [0.00ms]
+[2026-05-22 10:22:02] SCORE Group7 (red): Final=1037.9, Time=87.9, Moves(26)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Robert (blue): Final=971.0, Time=93.0, Moves(25)=0.0, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE jat (lawn green): Final=1043.0, Time=67.0, Moves(25)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 69 (gray0): Final=846.7, Time=96.7, Moves(25)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Gruppe 10 (yellow): Final=600.7, Time=96.7, Moves(24)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:02] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:03] MOVE 127: jat (lawn green) 14->26 [0.00ms]
+[2026-05-22 10:22:03] SCORE Group7 (red): Final=1037.9, Time=87.9, Moves(26)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE Robert (blue): Final=971.0, Time=93.0, Moves(25)=0.0, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE jat (lawn green): Final=1043.6, Time=65.6, Moves(26)=0.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE Gruppe 69 (gray0): Final=846.7, Time=96.7, Moves(25)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE Gruppe 10 (yellow): Final=600.7, Time=96.7, Moves(24)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:03] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 128: Gruppe 10 (yellow) 54->70 [0.00ms]
+[2026-05-22 10:22:04] SCORE Group7 (red): Final=1037.9, Time=87.9, Moves(26)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Robert (blue): Final=971.0, Time=93.0, Moves(25)=0.0, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE jat (lawn green): Final=1043.6, Time=65.6, Moves(26)=0.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 69 (gray0): Final=846.7, Time=96.7, Moves(25)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 10 (yellow): Final=596.6, Time=96.6, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 129: Robert (blue) 92->105 [0.00ms]
+[2026-05-22 10:22:04] SCORE Group7 (red): Final=1037.9, Time=87.9, Moves(26)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Robert (blue): Final=972.9, Time=92.9, Moves(26)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE jat (lawn green): Final=1043.6, Time=65.6, Moves(26)=0.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 69 (gray0): Final=846.7, Time=96.7, Moves(25)=0.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 10 (yellow): Final=596.6, Time=96.6, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 130: Gruppe 69 (gray0) 79->14 [0.00ms]
+[2026-05-22 10:22:04] SCORE Group7 (red): Final=1037.9, Time=87.9, Moves(26)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Robert (blue): Final=972.9, Time=92.9, Moves(26)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE jat (lawn green): Final=1043.6, Time=65.6, Moves(26)=0.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 69 (gray0): Final=850.5, Time=96.5, Moves(26)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 10 (yellow): Final=596.6, Time=96.6, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 131: Group7 (red) 93->82 [0.00ms]
+[2026-05-22 10:22:04] SCORE Group7 (red): Final=1039.6, Time=87.6, Moves(27)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Robert (blue): Final=972.9, Time=92.9, Moves(26)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE jat (lawn green): Final=1043.6, Time=65.6, Moves(26)=0.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 69 (gray0): Final=850.5, Time=96.5, Moves(26)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Gruppe 10 (yellow): Final=596.6, Time=96.6, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:06] MOVE 132: jat (lawn green) 26->65 [0.00ms]
+[2026-05-22 10:22:06] SCORE Group7 (red): Final=1039.6, Time=87.6, Moves(27)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Robert (blue): Final=972.9, Time=92.9, Moves(26)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE jat (lawn green): Final=1150.2, Time=64.2, Moves(27)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 69 (gray0): Final=850.5, Time=96.5, Moves(26)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 10 (yellow): Final=596.6, Time=96.6, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:06] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:06] MOVE 133: Gruppe 10 (yellow) 40->41 [0.00ms]
+[2026-05-22 10:22:06] SCORE Group7 (red): Final=1039.6, Time=87.6, Moves(27)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Robert (blue): Final=972.9, Time=92.9, Moves(26)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE jat (lawn green): Final=1150.2, Time=64.2, Moves(27)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 69 (gray0): Final=850.5, Time=96.5, Moves(26)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 10 (yellow): Final=598.4, Time=96.4, Moves(26)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:06] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:06] MOVE 134: Robert (blue) 62->71 [0.00ms]
+[2026-05-22 10:22:06] SCORE Group7 (red): Final=1039.6, Time=87.6, Moves(27)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Robert (blue): Final=974.7, Time=92.7, Moves(27)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE jat (lawn green): Final=1150.2, Time=64.2, Moves(27)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 69 (gray0): Final=850.5, Time=96.5, Moves(26)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 10 (yellow): Final=598.4, Time=96.4, Moves(26)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:06] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:06] MOVE 135: Gruppe 69 (gray0) 81->45 [0.00ms]
+[2026-05-22 10:22:06] SCORE Group7 (red): Final=1039.6, Time=87.6, Moves(27)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Robert (blue): Final=974.7, Time=92.7, Moves(27)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE jat (lawn green): Final=1150.2, Time=64.2, Moves(27)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 69 (gray0): Final=960.5, Time=96.4, Moves(27)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 10 (yellow): Final=598.4, Time=96.4, Moves(26)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:06] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:06] MOVE 136: Group7 (red) 8->28 [0.00ms]
+[2026-05-22 10:22:06] SCORE Group7 (red): Final=935.5, Time=87.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Robert (blue): Final=974.7, Time=92.7, Moves(27)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE jat (lawn green): Final=1150.2, Time=64.2, Moves(27)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 69 (gray0): Final=960.5, Time=96.4, Moves(27)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:22:06] SCORE Gruppe 10 (yellow): Final=598.4, Time=96.4, Moves(26)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:06] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:07] MOVE 137: jat (lawn green) 58->98 [0.00ms]
+[2026-05-22 10:22:07] SCORE Group7 (red): Final=935.5, Time=87.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE Robert (blue): Final=974.7, Time=92.7, Moves(27)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE jat (lawn green): Final=1254.9, Time=62.9, Moves(28)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE Gruppe 69 (gray0): Final=960.5, Time=96.4, Moves(27)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE Gruppe 10 (yellow): Final=598.4, Time=96.4, Moves(26)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:07] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 138: Gruppe 10 (yellow) 60->83 [0.00ms]
+[2026-05-22 10:22:08] SCORE Group7 (red): Final=935.5, Time=87.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Robert (blue): Final=974.7, Time=92.7, Moves(27)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE jat (lawn green): Final=1254.9, Time=62.9, Moves(28)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 69 (gray0): Final=960.5, Time=96.4, Moves(27)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 10 (yellow): Final=606.3, Time=96.3, Moves(27)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 139: Robert (blue) 90->114 [0.00ms]
+[2026-05-22 10:22:08] SCORE Group7 (red): Final=935.5, Time=87.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Robert (blue): Final=1078.5, Time=92.5, Moves(28)=0.0, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE jat (lawn green): Final=1254.9, Time=62.9, Moves(28)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 69 (gray0): Final=960.5, Time=96.4, Moves(27)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 10 (yellow): Final=606.3, Time=96.3, Moves(27)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 140: Gruppe 69 (gray0) 38->42 [0.00ms]
+[2026-05-22 10:22:08] SCORE Group7 (red): Final=935.5, Time=87.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Robert (blue): Final=1078.5, Time=92.5, Moves(28)=0.0, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE jat (lawn green): Final=1254.9, Time=62.9, Moves(28)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 69 (gray0): Final=968.4, Time=96.4, Moves(28)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 10 (yellow): Final=606.3, Time=96.3, Moves(27)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 141: Group7 (red) 28->8 [0.00ms]
+[2026-05-22 10:22:08] SCORE Group7 (red): Final=1039.1, Time=87.0, Moves(29)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Robert (blue): Final=1078.5, Time=92.5, Moves(28)=0.0, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE jat (lawn green): Final=1254.9, Time=62.9, Moves(28)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 69 (gray0): Final=968.4, Time=96.4, Moves(28)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Gruppe 10 (yellow): Final=606.3, Time=96.3, Moves(27)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:09] MOVE 142: jat (lawn green) 101->99 [0.00ms]
+[2026-05-22 10:22:09] SCORE Group7 (red): Final=1039.1, Time=87.0, Moves(29)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Robert (blue): Final=1078.5, Time=92.5, Moves(28)=0.0, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE jat (lawn green): Final=1253.9, Time=61.8, Moves(29)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Gruppe 69 (gray0): Final=968.4, Time=96.4, Moves(28)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Gruppe 10 (yellow): Final=606.3, Time=96.3, Moves(27)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:09] MOVE 143: Gruppe 10 (yellow) 83->84 [0.00ms]
+[2026-05-22 10:22:09] SCORE Group7 (red): Final=1039.1, Time=87.0, Moves(29)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Robert (blue): Final=1078.5, Time=92.5, Moves(28)=0.0, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE jat (lawn green): Final=1253.9, Time=61.8, Moves(29)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Gruppe 69 (gray0): Final=968.4, Time=96.4, Moves(28)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:09] SCORE Gruppe 10 (yellow): Final=708.2, Time=96.2, Moves(28)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:09] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:10] MOVE 144: Robert (blue) 71->94 [0.01ms]
+[2026-05-22 10:22:10] SCORE Group7 (red): Final=1039.1, Time=87.0, Moves(29)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Robert (blue): Final=1082.3, Time=92.2, Moves(29)=0.0, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE jat (lawn green): Final=1253.9, Time=61.8, Moves(29)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 69 (gray0): Final=968.4, Time=96.4, Moves(28)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 10 (yellow): Final=708.2, Time=96.2, Moves(28)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:10] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:10] MOVE 145: Gruppe 69 (gray0) 14->15 [0.00ms]
+[2026-05-22 10:22:10] SCORE Group7 (red): Final=1039.1, Time=87.0, Moves(29)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Robert (blue): Final=1082.3, Time=92.2, Moves(29)=0.0, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE jat (lawn green): Final=1253.9, Time=61.8, Moves(29)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 69 (gray0): Final=970.3, Time=96.2, Moves(29)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 10 (yellow): Final=708.2, Time=96.2, Moves(28)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:10] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:10] MOVE 146: Group7 (red) 9->74 [0.01ms]
+[2026-05-22 10:22:10] SCORE Group7 (red): Final=927.0, Time=86.9, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Robert (blue): Final=1082.3, Time=92.2, Moves(29)=0.0, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE jat (lawn green): Final=1253.9, Time=61.8, Moves(29)=0.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 69 (gray0): Final=970.3, Time=96.2, Moves(29)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Gruppe 10 (yellow): Final=708.2, Time=96.2, Moves(28)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:10] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:11] MOVE 147: jat (lawn green) 89->101 [0.00ms]
+[2026-05-22 10:22:11] SCORE Group7 (red): Final=927.0, Time=86.9, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Robert (blue): Final=1082.3, Time=92.2, Moves(29)=0.0, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE jat (lawn green): Final=1354.7, Time=60.6, Moves(30)=0.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 69 (gray0): Final=970.3, Time=96.2, Moves(29)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 10 (yellow): Final=708.2, Time=96.2, Moves(28)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:11] MOVE 148: Gruppe 10 (yellow) 109->110 [0.00ms]
+[2026-05-22 10:22:11] SCORE Group7 (red): Final=927.0, Time=86.9, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Robert (blue): Final=1082.3, Time=92.2, Moves(29)=0.0, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE jat (lawn green): Final=1354.7, Time=60.6, Moves(30)=0.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 69 (gray0): Final=970.3, Time=96.2, Moves(29)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 10 (yellow): Final=708.1, Time=96.1, Moves(29)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:11] MOVE 149: Robert (blue) 94->106 [0.00ms]
+[2026-05-22 10:22:11] SCORE Group7 (red): Final=927.0, Time=86.9, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Robert (blue): Final=1084.1, Time=92.0, Moves(30)=0.1, Pins(6)=600.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE jat (lawn green): Final=1354.7, Time=60.6, Moves(30)=0.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 69 (gray0): Final=970.3, Time=96.2, Moves(29)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Gruppe 10 (yellow): Final=708.1, Time=96.1, Moves(29)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:11] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:12] MOVE 150: Gruppe 69 (gray0) 43->20 [0.00ms]
+[2026-05-22 10:22:12] SCORE Group7 (red): Final=927.0, Time=86.9, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Robert (blue): Final=1084.1, Time=92.0, Moves(30)=0.1, Pins(6)=600.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE jat (lawn green): Final=1354.7, Time=60.6, Moves(30)=0.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Gruppe 69 (gray0): Final=1072.2, Time=96.1, Moves(30)=0.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Gruppe 10 (yellow): Final=708.1, Time=96.1, Moves(29)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:12] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:12] MOVE 151: Group7 (red) 47->37 [0.00ms]
+[2026-05-22 10:22:12] SCORE Group7 (red): Final=928.8, Time=86.6, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Robert (blue): Final=1084.1, Time=92.0, Moves(30)=0.1, Pins(6)=600.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE jat (lawn green): Final=1354.7, Time=60.6, Moves(30)=0.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Gruppe 69 (gray0): Final=1072.2, Time=96.1, Moves(30)=0.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:12] SCORE Gruppe 10 (yellow): Final=708.1, Time=96.1, Moves(29)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:12] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:13] MOVE 152: jat (lawn green) 91->90 [0.00ms]
+[2026-05-22 10:22:13] SCORE Group7 (red): Final=928.8, Time=86.6, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Robert (blue): Final=1084.1, Time=92.0, Moves(30)=0.1, Pins(6)=600.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE jat (lawn green): Final=1355.4, Time=59.2, Moves(31)=0.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Gruppe 69 (gray0): Final=1072.2, Time=96.1, Moves(30)=0.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Gruppe 10 (yellow): Final=708.1, Time=96.1, Moves(29)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:13] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:13] MOVE 153: Gruppe 10 (yellow) 63->53 [0.01ms]
+[2026-05-22 10:22:13] SCORE Group7 (red): Final=928.8, Time=86.6, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Robert (blue): Final=1084.1, Time=92.0, Moves(30)=0.1, Pins(6)=600.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE jat (lawn green): Final=1355.4, Time=59.2, Moves(31)=0.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Gruppe 69 (gray0): Final=1072.2, Time=96.1, Moves(30)=0.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Gruppe 10 (yellow): Final=706.0, Time=96.0, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:13] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:14] MOVE 154: Robert (blue) 106->120 [0.00ms]
+[2026-05-22 10:22:14] SCORE Group7 (red): Final=928.8, Time=86.6, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Robert (blue): Final=1186.1, Time=91.9, Moves(31)=0.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE jat (lawn green): Final=1355.4, Time=59.2, Moves(31)=0.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 69 (gray0): Final=1072.2, Time=96.1, Moves(30)=0.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 10 (yellow): Final=706.0, Time=96.0, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:14] MOVE 155: Gruppe 69 (gray0) 17->18 [0.00ms]
+[2026-05-22 10:22:14] SCORE Group7 (red): Final=928.8, Time=86.6, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Robert (blue): Final=1186.1, Time=91.9, Moves(31)=0.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE jat (lawn green): Final=1355.4, Time=59.2, Moves(31)=0.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 69 (gray0): Final=1074.3, Time=96.1, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 10 (yellow): Final=706.0, Time=96.0, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:14] MOVE 156: Group7 (red) 82->83 [0.00ms]
+[2026-05-22 10:22:14] SCORE Group7 (red): Final=929.1, Time=86.5, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Robert (blue): Final=1186.1, Time=91.9, Moves(31)=0.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE jat (lawn green): Final=1355.4, Time=59.2, Moves(31)=0.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 69 (gray0): Final=1074.3, Time=96.1, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Gruppe 10 (yellow): Final=706.0, Time=96.0, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:14] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 157: jat (lawn green) 90->102 [0.00ms]
+[2026-05-22 10:22:15] SCORE Group7 (red): Final=929.1, Time=86.5, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Robert (blue): Final=1186.1, Time=91.9, Moves(31)=0.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE jat (lawn green): Final=1356.4, Time=57.9, Moves(32)=0.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 69 (gray0): Final=1074.3, Time=96.1, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 10 (yellow): Final=706.0, Time=96.0, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 158: Gruppe 10 (yellow) 53->51 [0.00ms]
+[2026-05-22 10:22:15] SCORE Group7 (red): Final=929.1, Time=86.5, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Robert (blue): Final=1186.1, Time=91.9, Moves(31)=0.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE jat (lawn green): Final=1356.4, Time=57.9, Moves(32)=0.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 69 (gray0): Final=1074.3, Time=96.1, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 10 (yellow): Final=702.0, Time=95.8, Moves(31)=0.2, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 159: Robert (blue) 104->115 [0.00ms]
+[2026-05-22 10:22:15] SCORE Group7 (red): Final=929.1, Time=86.5, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Robert (blue): Final=1288.2, Time=91.7, Moves(32)=0.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE jat (lawn green): Final=1356.4, Time=57.9, Moves(32)=0.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 69 (gray0): Final=1074.3, Time=96.1, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 10 (yellow): Final=702.0, Time=95.8, Moves(31)=0.2, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 160: Gruppe 69 (gray0) 15->17 [0.00ms]
+[2026-05-22 10:22:15] SCORE Group7 (red): Final=929.1, Time=86.5, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Robert (blue): Final=1288.2, Time=91.7, Moves(32)=0.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE jat (lawn green): Final=1356.4, Time=57.9, Moves(32)=0.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 69 (gray0): Final=1078.5, Time=96.0, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Gruppe 10 (yellow): Final=702.0, Time=95.8, Moves(31)=0.2, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:16] MOVE 161: Group7 (red) 83->64 [0.00ms]
+[2026-05-22 10:22:16] SCORE Group7 (red): Final=933.2, Time=86.0, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE Robert (blue): Final=1288.2, Time=91.7, Moves(32)=0.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE jat (lawn green): Final=1356.4, Time=57.9, Moves(32)=0.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE Gruppe 69 (gray0): Final=1078.5, Time=96.0, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE Gruppe 10 (yellow): Final=702.0, Time=95.8, Moves(31)=0.2, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:22:16] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:17] MOVE 162: jat (lawn green) 100->75 [0.00ms]
+[2026-05-22 10:22:17] SCORE Group7 (red): Final=933.2, Time=86.0, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Robert (blue): Final=1288.2, Time=91.7, Moves(32)=0.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE jat (lawn green): Final=1356.0, Time=56.8, Moves(33)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 69 (gray0): Final=1078.5, Time=96.0, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 10 (yellow): Final=702.0, Time=95.8, Moves(31)=0.2, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:22:17] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:17] MOVE 163: Gruppe 10 (yellow) 41->62 [0.00ms]
+[2026-05-22 10:22:17] SCORE Group7 (red): Final=933.2, Time=86.0, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Robert (blue): Final=1288.2, Time=91.7, Moves(32)=0.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE jat (lawn green): Final=1356.0, Time=56.8, Moves(33)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 69 (gray0): Final=1078.5, Time=96.0, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 10 (yellow): Final=706.3, Time=95.7, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:17] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:17] MOVE 164: Robert (blue) 114->117 [0.00ms]
+[2026-05-22 10:22:17] SCORE Group7 (red): Final=933.2, Time=86.0, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Robert (blue): Final=1288.6, Time=91.5, Moves(33)=1.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE jat (lawn green): Final=1356.0, Time=56.8, Moves(33)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 69 (gray0): Final=1078.5, Time=96.0, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 10 (yellow): Final=706.3, Time=95.7, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:17] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:17] MOVE 165: Gruppe 69 (gray0) 61->63 [0.00ms]
+[2026-05-22 10:22:17] SCORE Group7 (red): Final=933.2, Time=86.0, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Robert (blue): Final=1288.6, Time=91.5, Moves(33)=1.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE jat (lawn green): Final=1356.0, Time=56.8, Moves(33)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 69 (gray0): Final=1083.0, Time=95.9, Moves(33)=1.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Gruppe 10 (yellow): Final=706.3, Time=95.7, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:17] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:18] MOVE 166: Group7 (red) 7->9 [0.00ms]
+[2026-05-22 10:22:18] SCORE Group7 (red): Final=934.2, Time=85.9, Moves(34)=2.3, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Robert (blue): Final=1288.6, Time=91.5, Moves(33)=1.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE jat (lawn green): Final=1356.0, Time=56.8, Moves(33)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Gruppe 69 (gray0): Final=1083.0, Time=95.9, Moves(33)=1.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Gruppe 10 (yellow): Final=706.3, Time=95.7, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:18] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}
+[2026-05-22 10:22:18] MOVE 167: jat (lawn green) 102->100 [0.00ms]
+[2026-05-22 10:22:18] SCORE Group7 (red): Final=934.2, Time=85.9, Moves(34)=2.3, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Robert (blue): Final=1288.6, Time=91.5, Moves(33)=1.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE jat (lawn green): Final=2459.0, Time=56.7, Moves(34)=2.3, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:22:18] SCORE Gruppe 69 (gray0): Final=1083.0, Time=95.9, Moves(33)=1.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Gruppe 10 (yellow): Final=706.3, Time=95.7, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:22:18] ALL WRONG MOVES BY COLOUR: {'yellow': ['3 (turn timeout)']}

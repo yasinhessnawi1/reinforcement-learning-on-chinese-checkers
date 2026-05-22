@@ -1,0 +1,737 @@
+[2026-05-22 10:25:36] GAME CREATED
+[2026-05-22 10:25:40] PLAYER JOINED: AlphaZeroClue as red
+[2026-05-22 10:25:47] PLAYER JOINED: jat as blue
+[2026-05-22 10:27:59] PLAYER JOINED: Gruppe 2 as lawn green
+[2026-05-22 10:28:41] PLAYER START (FORCE): AlphaZeroClue (red)
+[2026-05-22 10:28:41] PLAYER START (FORCE): jat (blue)
+[2026-05-22 10:28:41] PLAYER START (FORCE): Gruppe 2 (lawn green)
+[2026-05-22 10:28:41] GAME FORCE-STARTED — turn order ['red', 'lawn green', 'blue']
+[2026-05-22 10:28:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 10:28:41] PLAYER START: jat (blue)
+[2026-05-22 10:28:41] PLAYER START: Gruppe 2 (lawn green)
+[2026-05-22 10:28:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 10:28:41] PLAYER START: jat (blue)
+[2026-05-22 10:28:41] PLAYER START: Gruppe 2 (lawn green)
+[2026-05-22 10:28:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 10:28:41] PLAYER START: jat (blue)
+[2026-05-22 10:28:41] PLAYER START: Gruppe 2 (lawn green)
+[2026-05-22 10:28:43] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:43] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:43] SCORE Gruppe 2 (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:43] TURN TIMEOUT: Player with colour red exceeded 2s at move 1. Turn skipped.
+[2026-05-22 10:28:43] MOVE 2: Gruppe 2 (lawn green) 33->31 [0.00ms]
+[2026-05-22 10:28:43] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:43] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:43] SCORE Gruppe 2 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:45] MOVE 3: jat (blue) 6->15 [0.01ms]
+[2026-05-22 10:28:45] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:28:45] SCORE jat (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:28:45] SCORE Gruppe 2 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:46] MOVE 4: AlphaZeroClue (red) 115->104 [0.00ms]
+[2026-05-22 10:28:46] SCORE AlphaZeroClue (red): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:46] SCORE jat (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:28:46] SCORE Gruppe 2 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:47] MOVE 5: Gruppe 2 (lawn green) 31->30 [0.00ms]
+[2026-05-22 10:28:47] SCORE AlphaZeroClue (red): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:47] SCORE jat (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:28:47] SCORE Gruppe 2 (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:28:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:48] MOVE 6: jat (blue) 1->28 [0.01ms]
+[2026-05-22 10:28:48] SCORE AlphaZeroClue (red): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:28:48] SCORE jat (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:28:48] SCORE Gruppe 2 (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:28:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:50] MOVE 7: AlphaZeroClue (red) 120->102 [0.01ms]
+[2026-05-22 10:28:50] SCORE AlphaZeroClue (red): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE jat (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE Gruppe 2 (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:28:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:50] MOVE 8: Gruppe 2 (lawn green) 20->41 [0.00ms]
+[2026-05-22 10:28:50] SCORE AlphaZeroClue (red): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE jat (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE Gruppe 2 (lawn green): Final=293.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:50] MOVE 9: jat (blue) 3->39 [0.01ms]
+[2026-05-22 10:28:50] SCORE AlphaZeroClue (red): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:50] SCORE Gruppe 2 (lawn green): Final=293.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:52] MOVE 10: AlphaZeroClue (red) 118->115 [0.01ms]
+[2026-05-22 10:28:52] SCORE AlphaZeroClue (red): Final=288.8, Time=94.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:52] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:52] SCORE Gruppe 2 (lawn green): Final=293.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:53] MOVE 11: Gruppe 2 (lawn green) 22->18 [0.01ms]
+[2026-05-22 10:28:53] SCORE AlphaZeroClue (red): Final=288.8, Time=94.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:53] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:53] SCORE Gruppe 2 (lawn green): Final=300.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:28:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:54] MOVE 12: jat (blue) 7->50 [0.01ms]
+[2026-05-22 10:28:54] SCORE AlphaZeroClue (red): Final=288.8, Time=94.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:28:54] SCORE jat (blue): Final=301.3, Time=95.3, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:28:54] SCORE Gruppe 2 (lawn green): Final=300.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:28:54] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:56] MOVE 13: AlphaZeroClue (red) 111->89 [0.01ms]
+[2026-05-22 10:28:56] SCORE AlphaZeroClue (red): Final=291.0, Time=93.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:56] SCORE jat (blue): Final=301.3, Time=95.3, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:28:56] SCORE Gruppe 2 (lawn green): Final=300.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:28:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:56] MOVE 14: Gruppe 2 (lawn green) 19->38 [0.01ms]
+[2026-05-22 10:28:56] SCORE AlphaZeroClue (red): Final=291.0, Time=93.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:56] SCORE jat (blue): Final=301.3, Time=95.3, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:28:56] SCORE Gruppe 2 (lawn green): Final=312.2, Time=98.2, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:28:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:28:58] MOVE 15: jat (blue) 2->52 [0.01ms]
+[2026-05-22 10:28:58] SCORE AlphaZeroClue (red): Final=291.0, Time=93.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:28:58] SCORE jat (blue): Final=312.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:28:58] SCORE Gruppe 2 (lawn green): Final=312.2, Time=98.2, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:28:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:00] MOVE 16: AlphaZeroClue (red) 116->78 [0.01ms]
+[2026-05-22 10:29:00] SCORE AlphaZeroClue (red): Final=297.3, Time=91.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:29:00] SCORE jat (blue): Final=312.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:29:00] SCORE Gruppe 2 (lawn green): Final=312.2, Time=98.2, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:29:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:00] MOVE 17: Gruppe 2 (lawn green) 44->59 [0.01ms]
+[2026-05-22 10:29:00] SCORE AlphaZeroClue (red): Final=297.3, Time=91.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:29:00] SCORE jat (blue): Final=312.0, Time=94.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:29:00] SCORE Gruppe 2 (lawn green): Final=324.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:29:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:01] MOVE 18: jat (blue) 4->61 [0.01ms]
+[2026-05-22 10:29:01] SCORE AlphaZeroClue (red): Final=297.3, Time=91.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:29:01] SCORE jat (blue): Final=323.2, Time=93.2, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:29:01] SCORE Gruppe 2 (lawn green): Final=324.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:29:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:02] MOVE 19: AlphaZeroClue (red) 119->116 [0.00ms]
+[2026-05-22 10:29:02] SCORE AlphaZeroClue (red): Final=297.6, Time=89.6, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:29:02] SCORE jat (blue): Final=323.2, Time=93.2, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:29:02] SCORE Gruppe 2 (lawn green): Final=324.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:29:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:03] MOVE 20: Gruppe 2 (lawn green) 38->48 [0.00ms]
+[2026-05-22 10:29:03] SCORE AlphaZeroClue (red): Final=297.6, Time=89.6, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:29:03] SCORE jat (blue): Final=323.2, Time=93.2, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:29:03] SCORE Gruppe 2 (lawn green): Final=325.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:04] MOVE 21: jat (blue) 9->29 [0.01ms]
+[2026-05-22 10:29:04] SCORE AlphaZeroClue (red): Final=297.6, Time=89.6, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:29:04] SCORE jat (blue): Final=325.8, Time=91.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:04] SCORE Gruppe 2 (lawn green): Final=325.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:06] MOVE 22: AlphaZeroClue (red) 117->106 [0.01ms]
+[2026-05-22 10:29:06] SCORE AlphaZeroClue (red): Final=299.8, Time=87.8, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:29:06] SCORE jat (blue): Final=325.8, Time=91.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:06] SCORE Gruppe 2 (lawn green): Final=325.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:06] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:06] MOVE 23: Gruppe 2 (lawn green) 30->47 [0.01ms]
+[2026-05-22 10:29:06] SCORE AlphaZeroClue (red): Final=299.8, Time=87.8, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:29:06] SCORE jat (blue): Final=325.8, Time=91.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:06] SCORE Gruppe 2 (lawn green): Final=337.0, Time=97.0, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:29:06] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:08] MOVE 24: jat (blue) 28->69 [0.00ms]
+[2026-05-22 10:29:08] SCORE AlphaZeroClue (red): Final=299.8, Time=87.8, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:29:08] SCORE jat (blue): Final=332.4, Time=90.4, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:29:08] SCORE Gruppe 2 (lawn green): Final=337.0, Time=97.0, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:29:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:10] MOVE 25: AlphaZeroClue (red) 102->37 [0.01ms]
+[2026-05-22 10:29:10] SCORE AlphaZeroClue (red): Final=310.0, Time=86.0, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:29:10] SCORE jat (blue): Final=332.4, Time=90.4, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:29:10] SCORE Gruppe 2 (lawn green): Final=337.0, Time=97.0, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:29:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:10] MOVE 26: Gruppe 2 (lawn green) 41->102 [0.01ms]
+[2026-05-22 10:29:10] SCORE AlphaZeroClue (red): Final=310.0, Time=86.0, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:29:10] SCORE jat (blue): Final=332.4, Time=90.4, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:29:10] SCORE Gruppe 2 (lawn green): Final=348.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:11] MOVE 27: jat (blue) 5->79 [0.02ms]
+[2026-05-22 10:29:11] SCORE AlphaZeroClue (red): Final=310.0, Time=86.0, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:29:11] SCORE jat (blue): Final=347.3, Time=89.3, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:29:11] SCORE Gruppe 2 (lawn green): Final=348.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:13] MOVE 28: AlphaZeroClue (red) 89->68 [0.01ms]
+[2026-05-22 10:29:13] SCORE AlphaZeroClue (red): Final=312.2, Time=84.2, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:13] SCORE jat (blue): Final=347.3, Time=89.3, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:29:13] SCORE Gruppe 2 (lawn green): Final=348.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:14] MOVE 29: Gruppe 2 (lawn green) 18->9 [0.01ms]
+[2026-05-22 10:29:14] SCORE AlphaZeroClue (red): Final=312.2, Time=84.2, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:14] SCORE jat (blue): Final=347.3, Time=89.3, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:29:14] SCORE Gruppe 2 (lawn green): Final=347.8, Time=95.8, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:15] MOVE 30: jat (blue) 0->1 [0.01ms]
+[2026-05-22 10:29:15] SCORE AlphaZeroClue (red): Final=312.2, Time=84.2, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:29:15] SCORE jat (blue): Final=347.9, Time=87.9, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:15] SCORE Gruppe 2 (lawn green): Final=347.8, Time=95.8, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:17] MOVE 31: AlphaZeroClue (red) 116->101 [0.01ms]
+[2026-05-22 10:29:17] SCORE AlphaZeroClue (red): Final=314.3, Time=82.3, Moves(10)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:29:17] SCORE jat (blue): Final=347.9, Time=87.9, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:17] SCORE Gruppe 2 (lawn green): Final=347.8, Time=95.8, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:18] MOVE 32: Gruppe 2 (lawn green) 102->100 [0.01ms]
+[2026-05-22 10:29:18] SCORE AlphaZeroClue (red): Final=314.3, Time=82.3, Moves(10)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:29:18] SCORE jat (blue): Final=347.9, Time=87.9, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:18] SCORE Gruppe 2 (lawn green): Final=449.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:29:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:19] MOVE 33: jat (blue) 1->4 [0.01ms]
+[2026-05-22 10:29:19] SCORE AlphaZeroClue (red): Final=314.3, Time=82.3, Moves(10)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:29:19] SCORE jat (blue): Final=348.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:19] SCORE Gruppe 2 (lawn green): Final=449.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:29:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:21] MOVE 34: AlphaZeroClue (red) 115->111 [0.01ms]
+[2026-05-22 10:29:21] SCORE AlphaZeroClue (red): Final=314.5, Time=80.5, Moves(11)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:21] SCORE jat (blue): Final=348.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:21] SCORE Gruppe 2 (lawn green): Final=449.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:29:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:21] MOVE 35: Gruppe 2 (lawn green) 9->27 [0.01ms]
+[2026-05-22 10:29:21] SCORE AlphaZeroClue (red): Final=314.5, Time=80.5, Moves(11)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:21] SCORE jat (blue): Final=348.8, Time=86.8, Moves(11)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:21] SCORE Gruppe 2 (lawn green): Final=456.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:22] MOVE 36: jat (blue) 4->57 [0.01ms]
+[2026-05-22 10:29:22] SCORE AlphaZeroClue (red): Final=314.5, Time=80.5, Moves(11)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:29:22] SCORE jat (blue): Final=359.5, Time=85.5, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:29:22] SCORE Gruppe 2 (lawn green): Final=456.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:24] MOVE 37: AlphaZeroClue (red) 112->92 [0.01ms]
+[2026-05-22 10:29:24] SCORE AlphaZeroClue (red): Final=316.7, Time=78.7, Moves(12)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:29:24] SCORE jat (blue): Final=359.5, Time=85.5, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:29:24] SCORE Gruppe 2 (lawn green): Final=456.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:29:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:24] MOVE 38: Gruppe 2 (lawn green) 59->103 [0.01ms]
+[2026-05-22 10:29:24] SCORE AlphaZeroClue (red): Final=316.7, Time=78.7, Moves(12)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:29:24] SCORE jat (blue): Final=359.5, Time=85.5, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:29:24] SCORE Gruppe 2 (lawn green): Final=460.8, Time=94.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:29:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:25] MOVE 39: jat (blue) 15->116 [0.01ms]
+[2026-05-22 10:29:25] SCORE AlphaZeroClue (red): Final=316.7, Time=78.7, Moves(12)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:29:25] SCORE jat (blue): Final=476.1, Time=84.1, Moves(13)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:29:25] SCORE Gruppe 2 (lawn green): Final=460.8, Time=94.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:29:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:27] MOVE 40: AlphaZeroClue (red) 78->4 [0.01ms]
+[2026-05-22 10:29:27] SCORE AlphaZeroClue (red): Final=428.8, Time=76.8, Moves(13)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:27] SCORE jat (blue): Final=476.1, Time=84.1, Moves(13)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:29:27] SCORE Gruppe 2 (lawn green): Final=460.8, Time=94.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:29:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:27] MOVE 41: Gruppe 2 (lawn green) 45->43 [0.01ms]
+[2026-05-22 10:29:27] SCORE AlphaZeroClue (red): Final=428.8, Time=76.8, Moves(13)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:27] SCORE jat (blue): Final=476.1, Time=84.1, Moves(13)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:29:27] SCORE Gruppe 2 (lawn green): Final=464.7, Time=94.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:29:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:28] MOVE 42: jat (blue) 69->119 [0.01ms]
+[2026-05-22 10:29:28] SCORE AlphaZeroClue (red): Final=428.8, Time=76.8, Moves(13)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:29:28] SCORE jat (blue): Final=583.4, Time=83.4, Moves(14)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:28] SCORE Gruppe 2 (lawn green): Final=464.7, Time=94.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:29:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:30] MOVE 43: AlphaZeroClue (red) 114->67 [0.01ms]
+[2026-05-22 10:29:30] SCORE AlphaZeroClue (red): Final=435.0, Time=75.0, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:30] SCORE jat (blue): Final=583.4, Time=83.4, Moves(14)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:30] SCORE Gruppe 2 (lawn green): Final=464.7, Time=94.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:29:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:30] MOVE 44: Gruppe 2 (lawn green) 32->26 [0.01ms]
+[2026-05-22 10:29:30] SCORE AlphaZeroClue (red): Final=435.0, Time=75.0, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:30] SCORE jat (blue): Final=583.4, Time=83.4, Moves(14)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:30] SCORE Gruppe 2 (lawn green): Final=476.5, Time=94.5, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:31] MOVE 45: jat (blue) 57->105 [0.01ms]
+[2026-05-22 10:29:31] SCORE AlphaZeroClue (red): Final=435.0, Time=75.0, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:29:31] SCORE jat (blue): Final=590.6, Time=82.6, Moves(15)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:29:31] SCORE Gruppe 2 (lawn green): Final=476.5, Time=94.5, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:33] MOVE 46: AlphaZeroClue (red) 111->91 [0.01ms]
+[2026-05-22 10:29:33] SCORE AlphaZeroClue (red): Final=437.2, Time=73.2, Moves(15)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:29:33] SCORE jat (blue): Final=590.6, Time=82.6, Moves(15)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:29:33] SCORE Gruppe 2 (lawn green): Final=476.5, Time=94.5, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:33] MOVE 47: Gruppe 2 (lawn green) 48->46 [0.01ms]
+[2026-05-22 10:29:33] SCORE AlphaZeroClue (red): Final=437.2, Time=73.2, Moves(15)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:29:33] SCORE jat (blue): Final=590.6, Time=82.6, Moves(15)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:29:33] SCORE Gruppe 2 (lawn green): Final=478.3, Time=94.3, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:34] MOVE 48: jat (blue) 8->16 [0.01ms]
+[2026-05-22 10:29:34] SCORE AlphaZeroClue (red): Final=437.2, Time=73.2, Moves(15)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:29:34] SCORE jat (blue): Final=591.2, Time=81.2, Moves(16)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:29:34] SCORE Gruppe 2 (lawn green): Final=478.3, Time=94.3, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:36] MOVE 49: AlphaZeroClue (red) 113->93 [0.01ms]
+[2026-05-22 10:29:36] SCORE AlphaZeroClue (red): Final=439.4, Time=71.4, Moves(16)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:29:36] SCORE jat (blue): Final=591.2, Time=81.2, Moves(16)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:29:36] SCORE Gruppe 2 (lawn green): Final=478.3, Time=94.3, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:37] MOVE 50: Gruppe 2 (lawn green) 27->48 [0.01ms]
+[2026-05-22 10:29:37] SCORE AlphaZeroClue (red): Final=439.4, Time=71.4, Moves(16)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:29:37] SCORE jat (blue): Final=591.2, Time=81.2, Moves(16)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:29:37] SCORE Gruppe 2 (lawn green): Final=481.7, Time=93.7, Moves(17)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:29:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:38] MOVE 51: jat (blue) 16->62 [0.01ms]
+[2026-05-22 10:29:38] SCORE AlphaZeroClue (red): Final=439.4, Time=71.4, Moves(16)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:29:38] SCORE jat (blue): Final=597.8, Time=79.8, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:29:38] SCORE Gruppe 2 (lawn green): Final=481.7, Time=93.7, Moves(17)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:29:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:40] MOVE 52: AlphaZeroClue (red) 106->81 [0.01ms]
+[2026-05-22 10:29:40] SCORE AlphaZeroClue (red): Final=441.8, Time=69.8, Moves(17)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:29:40] SCORE jat (blue): Final=597.8, Time=79.8, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:29:40] SCORE Gruppe 2 (lawn green): Final=481.7, Time=93.7, Moves(17)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:29:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:40] MOVE 53: Gruppe 2 (lawn green) 46->56 [0.01ms]
+[2026-05-22 10:29:40] SCORE AlphaZeroClue (red): Final=441.8, Time=69.8, Moves(17)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:29:40] SCORE jat (blue): Final=597.8, Time=79.8, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:29:40] SCORE Gruppe 2 (lawn green): Final=483.4, Time=93.4, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:41] MOVE 54: jat (blue) 52->72 [0.01ms]
+[2026-05-22 10:29:41] SCORE AlphaZeroClue (red): Final=441.8, Time=69.8, Moves(17)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:29:41] SCORE jat (blue): Final=600.5, Time=78.5, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:29:41] SCORE Gruppe 2 (lawn green): Final=483.4, Time=93.4, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:43] MOVE 55: AlphaZeroClue (red) 92->28 [0.01ms]
+[2026-05-22 10:29:43] SCORE AlphaZeroClue (red): Final=452.1, Time=68.1, Moves(18)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:43] SCORE jat (blue): Final=600.5, Time=78.5, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:29:43] SCORE Gruppe 2 (lawn green): Final=483.4, Time=93.4, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:43] MOVE 56: Gruppe 2 (lawn green) 100->88 [0.01ms]
+[2026-05-22 10:29:43] SCORE AlphaZeroClue (red): Final=452.1, Time=68.1, Moves(18)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:43] SCORE jat (blue): Final=600.5, Time=78.5, Moves(18)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:29:43] SCORE Gruppe 2 (lawn green): Final=483.1, Time=93.1, Moves(19)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:45] MOVE 57: jat (blue) 39->60 [0.01ms]
+[2026-05-22 10:29:45] SCORE AlphaZeroClue (red): Final=452.1, Time=68.1, Moves(18)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:29:45] SCORE jat (blue): Final=603.1, Time=77.1, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:29:45] SCORE Gruppe 2 (lawn green): Final=483.1, Time=93.1, Moves(19)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:47] MOVE 58: AlphaZeroClue (red) 37->58 [0.00ms]
+[2026-05-22 10:29:47] SCORE AlphaZeroClue (red): Final=446.2, Time=66.2, Moves(19)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:29:47] SCORE jat (blue): Final=603.1, Time=77.1, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:29:47] SCORE Gruppe 2 (lawn green): Final=483.1, Time=93.1, Moves(19)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:47] MOVE 59: Gruppe 2 (lawn green) 47->65 [0.01ms]
+[2026-05-22 10:29:47] SCORE AlphaZeroClue (red): Final=446.2, Time=66.2, Moves(19)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:29:47] SCORE jat (blue): Final=603.1, Time=77.1, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:29:47] SCORE Gruppe 2 (lawn green): Final=586.5, Time=92.5, Moves(20)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:29:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:49] MOVE 60: jat (blue) 29->40 [0.01ms]
+[2026-05-22 10:29:49] SCORE AlphaZeroClue (red): Final=446.2, Time=66.2, Moves(19)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:29:49] SCORE jat (blue): Final=603.8, Time=75.8, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:29:49] SCORE Gruppe 2 (lawn green): Final=586.5, Time=92.5, Moves(20)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:29:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:50] MOVE 61: AlphaZeroClue (red) 68->46 [0.01ms]
+[2026-05-22 10:29:50] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:50] SCORE jat (blue): Final=603.8, Time=75.8, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:29:50] SCORE Gruppe 2 (lawn green): Final=586.5, Time=92.5, Moves(20)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:29:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:51] MOVE 62: Gruppe 2 (lawn green) 56->75 [0.01ms]
+[2026-05-22 10:29:51] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:51] SCORE jat (blue): Final=603.8, Time=75.8, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:29:51] SCORE Gruppe 2 (lawn green): Final=688.3, Time=92.3, Moves(21)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:29:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:52] MOVE 63: jat (blue) 40->82 [0.01ms]
+[2026-05-22 10:29:52] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:52] SCORE jat (blue): Final=610.5, Time=74.5, Moves(21)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:29:52] SCORE Gruppe 2 (lawn green): Final=688.3, Time=92.3, Moves(21)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:29:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:29:54] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:54] SCORE jat (blue): Final=610.5, Time=74.5, Moves(21)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:29:54] SCORE Gruppe 2 (lawn green): Final=688.3, Time=92.3, Moves(21)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:29:54] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:29:54] TURN TIMEOUT: Player with colour red exceeded 2s at move 64. Turn skipped.
+[2026-05-22 10:29:54] MOVE 65: Gruppe 2 (lawn green) 48->66 [0.01ms]
+[2026-05-22 10:29:54] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:54] SCORE jat (blue): Final=610.5, Time=74.5, Moves(21)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:29:54] SCORE Gruppe 2 (lawn green): Final=692.0, Time=92.0, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:54] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:29:56] MOVE 66: jat (blue) 50->70 [0.01ms]
+[2026-05-22 10:29:56] SCORE AlphaZeroClue (red): Final=446.4, Time=64.4, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:29:56] SCORE jat (blue): Final=613.2, Time=73.2, Moves(22)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:29:56] SCORE Gruppe 2 (lawn green): Final=692.0, Time=92.0, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:29:58] MOVE 67: AlphaZeroClue (red) 101->57 [0.01ms]
+[2026-05-22 10:29:58] SCORE AlphaZeroClue (red): Final=452.6, Time=62.6, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:58] SCORE jat (blue): Final=613.2, Time=73.2, Moves(22)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:29:58] SCORE Gruppe 2 (lawn green): Final=692.0, Time=92.0, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:29:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:29:58] MOVE 68: Gruppe 2 (lawn green) 66->76 [0.01ms]
+[2026-05-22 10:29:58] SCORE AlphaZeroClue (red): Final=452.6, Time=62.6, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:58] SCORE jat (blue): Final=613.2, Time=73.2, Moves(22)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:29:58] SCORE Gruppe 2 (lawn green): Final=793.8, Time=91.8, Moves(23)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:29:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:29:59] MOVE 69: jat (blue) 61->80 [0.01ms]
+[2026-05-22 10:29:59] SCORE AlphaZeroClue (red): Final=452.6, Time=62.6, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:29:59] SCORE jat (blue): Final=615.9, Time=71.9, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:29:59] SCORE Gruppe 2 (lawn green): Final=793.8, Time=91.8, Moves(23)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:29:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:01] MOVE 70: AlphaZeroClue (red) 91->48 [0.00ms]
+[2026-05-22 10:30:01] SCORE AlphaZeroClue (red): Final=459.0, Time=61.0, Moves(22)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:01] SCORE jat (blue): Final=615.9, Time=71.9, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:01] SCORE Gruppe 2 (lawn green): Final=793.8, Time=91.8, Moves(23)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:30:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:01] MOVE 71: Gruppe 2 (lawn green) 21->20 [0.00ms]
+[2026-05-22 10:30:01] SCORE AlphaZeroClue (red): Final=459.0, Time=61.0, Moves(22)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:01] SCORE jat (blue): Final=615.9, Time=71.9, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:01] SCORE Gruppe 2 (lawn green): Final=795.4, Time=91.4, Moves(24)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:30:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:02] MOVE 72: jat (blue) 70->118 [0.01ms]
+[2026-05-22 10:30:02] SCORE AlphaZeroClue (red): Final=459.0, Time=61.0, Moves(22)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:02] SCORE jat (blue): Final=722.8, Time=70.8, Moves(24)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:02] SCORE Gruppe 2 (lawn green): Final=795.4, Time=91.4, Moves(24)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:30:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:04] MOVE 73: AlphaZeroClue (red) 48->50 [0.01ms]
+[2026-05-22 10:30:04] SCORE AlphaZeroClue (red): Final=457.2, Time=59.2, Moves(23)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:04] SCORE jat (blue): Final=722.8, Time=70.8, Moves(24)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:04] SCORE Gruppe 2 (lawn green): Final=795.4, Time=91.4, Moves(24)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:30:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:04] MOVE 74: Gruppe 2 (lawn green) 20->19 [0.01ms]
+[2026-05-22 10:30:04] SCORE AlphaZeroClue (red): Final=457.2, Time=59.2, Moves(23)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:04] SCORE jat (blue): Final=722.8, Time=70.8, Moves(24)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:04] SCORE Gruppe 2 (lawn green): Final=797.1, Time=91.1, Moves(25)=0.0, Pins(4)=400.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:05] MOVE 75: jat (blue) 62->83 [0.01ms]
+[2026-05-22 10:30:05] SCORE AlphaZeroClue (red): Final=457.2, Time=59.2, Moves(23)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:30:05] SCORE jat (blue): Final=725.5, Time=69.5, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:30:05] SCORE Gruppe 2 (lawn green): Final=797.1, Time=91.1, Moves(25)=0.0, Pins(4)=400.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:07] MOVE 76: AlphaZeroClue (red) 93->48 [0.01ms]
+[2026-05-22 10:30:07] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:07] SCORE jat (blue): Final=725.5, Time=69.5, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:30:07] SCORE Gruppe 2 (lawn green): Final=797.1, Time=91.1, Moves(25)=0.0, Pins(4)=400.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:08] MOVE 77: Gruppe 2 (lawn green) 19->18 [0.01ms]
+[2026-05-22 10:30:08] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:08] SCORE jat (blue): Final=725.5, Time=69.5, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:30:08] SCORE Gruppe 2 (lawn green): Final=798.8, Time=90.8, Moves(26)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:30:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:09] MOVE 78: jat (blue) 72->111 [0.01ms]
+[2026-05-22 10:30:09] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:09] SCORE jat (blue): Final=832.3, Time=68.3, Moves(26)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:30:09] SCORE Gruppe 2 (lawn green): Final=798.8, Time=90.8, Moves(26)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:30:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)']}
+[2026-05-22 10:30:11] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:11] SCORE jat (blue): Final=832.3, Time=68.3, Moves(26)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:30:11] SCORE Gruppe 2 (lawn green): Final=798.8, Time=90.8, Moves(26)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:30:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:11] TURN TIMEOUT: Player with colour red exceeded 2s at move 79. Turn skipped.
+[2026-05-22 10:30:11] MOVE 80: Gruppe 2 (lawn green) 55->64 [0.01ms]
+[2026-05-22 10:30:11] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:11] SCORE jat (blue): Final=832.3, Time=68.3, Moves(26)=0.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:30:11] SCORE Gruppe 2 (lawn green): Final=800.4, Time=90.4, Moves(27)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:30:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:12] MOVE 81: jat (blue) 105->113 [0.01ms]
+[2026-05-22 10:30:12] SCORE AlphaZeroClue (red): Final=463.5, Time=57.5, Moves(24)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:30:12] SCORE jat (blue): Final=933.1, Time=67.1, Moves(27)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:30:12] SCORE Gruppe 2 (lawn green): Final=800.4, Time=90.4, Moves(27)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:30:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:14] MOVE 82: AlphaZeroClue (red) 57->15 [0.01ms]
+[2026-05-22 10:30:14] SCORE AlphaZeroClue (red): Final=469.7, Time=55.7, Moves(25)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:14] SCORE jat (blue): Final=933.1, Time=67.1, Moves(27)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:30:14] SCORE Gruppe 2 (lawn green): Final=800.4, Time=90.4, Moves(27)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:30:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:15] MOVE 83: Gruppe 2 (lawn green) 18->17 [0.00ms]
+[2026-05-22 10:30:15] SCORE AlphaZeroClue (red): Final=469.7, Time=55.7, Moves(25)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:15] SCORE jat (blue): Final=933.1, Time=67.1, Moves(27)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:30:15] SCORE Gruppe 2 (lawn green): Final=802.1, Time=90.1, Moves(28)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:30:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:16] MOVE 84: jat (blue) 60->70 [0.01ms]
+[2026-05-22 10:30:16] SCORE AlphaZeroClue (red): Final=469.7, Time=55.7, Moves(25)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:16] SCORE jat (blue): Final=933.8, Time=65.7, Moves(28)=0.0, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:30:16] SCORE Gruppe 2 (lawn green): Final=802.1, Time=90.1, Moves(28)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:30:16] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:18] MOVE 85: AlphaZeroClue (red) 81->14 [0.01ms]
+[2026-05-22 10:30:18] SCORE AlphaZeroClue (red): Final=480.0, Time=54.0, Moves(26)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:18] SCORE jat (blue): Final=933.8, Time=65.7, Moves(28)=0.0, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:30:18] SCORE Gruppe 2 (lawn green): Final=802.1, Time=90.1, Moves(28)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:30:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:18] MOVE 86: Gruppe 2 (lawn green) 64->73 [0.01ms]
+[2026-05-22 10:30:18] SCORE AlphaZeroClue (red): Final=480.0, Time=54.0, Moves(26)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:18] SCORE jat (blue): Final=933.8, Time=65.7, Moves(28)=0.0, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:30:18] SCORE Gruppe 2 (lawn green): Final=803.7, Time=89.7, Moves(29)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:20] MOVE 87: jat (blue) 70->91 [0.01ms]
+[2026-05-22 10:30:20] SCORE AlphaZeroClue (red): Final=480.0, Time=54.0, Moves(26)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:20] SCORE jat (blue): Final=936.2, Time=64.1, Moves(29)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:30:20] SCORE Gruppe 2 (lawn green): Final=803.7, Time=89.7, Moves(29)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:22] MOVE 88: AlphaZeroClue (red) 28->6 [0.01ms]
+[2026-05-22 10:30:22] SCORE AlphaZeroClue (red): Final=582.0, Time=52.0, Moves(27)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:30:22] SCORE jat (blue): Final=936.2, Time=64.1, Moves(29)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:30:22] SCORE Gruppe 2 (lawn green): Final=803.7, Time=89.7, Moves(29)=0.0, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:30:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:22] MOVE 89: Gruppe 2 (lawn green) 26->37 [0.01ms]
+[2026-05-22 10:30:22] SCORE AlphaZeroClue (red): Final=582.0, Time=52.0, Moves(27)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:30:22] SCORE jat (blue): Final=936.2, Time=64.1, Moves(29)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:30:22] SCORE Gruppe 2 (lawn green): Final=805.2, Time=89.1, Moves(30)=0.1, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:24] MOVE 90: jat (blue) 80->92 [0.01ms]
+[2026-05-22 10:30:24] SCORE AlphaZeroClue (red): Final=582.0, Time=52.0, Moves(27)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:30:24] SCORE jat (blue): Final=936.9, Time=62.8, Moves(30)=0.1, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:30:24] SCORE Gruppe 2 (lawn green): Final=805.2, Time=89.1, Moves(30)=0.1, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:25] MOVE 91: AlphaZeroClue (red) 6->26 [0.01ms]
+[2026-05-22 10:30:25] SCORE AlphaZeroClue (red): Final=476.2, Time=50.2, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:25] SCORE jat (blue): Final=936.9, Time=62.8, Moves(30)=0.1, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:30:25] SCORE Gruppe 2 (lawn green): Final=805.2, Time=89.1, Moves(30)=0.1, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:26] MOVE 92: Gruppe 2 (lawn green) 43->54 [0.01ms]
+[2026-05-22 10:30:26] SCORE AlphaZeroClue (red): Final=476.2, Time=50.2, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:26] SCORE jat (blue): Final=936.9, Time=62.8, Moves(30)=0.1, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:30:26] SCORE Gruppe 2 (lawn green): Final=804.8, Time=88.5, Moves(31)=0.2, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:27] MOVE 93: jat (blue) 92->114 [0.01ms]
+[2026-05-22 10:30:27] SCORE AlphaZeroClue (red): Final=476.2, Time=50.2, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:27] SCORE jat (blue): Final=1039.7, Time=61.4, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:30:27] SCORE Gruppe 2 (lawn green): Final=804.8, Time=88.5, Moves(31)=0.2, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:29] MOVE 94: AlphaZeroClue (red) 48->2 [0.01ms]
+[2026-05-22 10:30:29] SCORE AlphaZeroClue (red): Final=582.4, Time=48.4, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:29] SCORE jat (blue): Final=1039.7, Time=61.4, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:30:29] SCORE Gruppe 2 (lawn green): Final=804.8, Time=88.5, Moves(31)=0.2, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:30:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:29] MOVE 95: Gruppe 2 (lawn green) 73->71 [0.01ms]
+[2026-05-22 10:30:29] SCORE AlphaZeroClue (red): Final=582.4, Time=48.4, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:29] SCORE jat (blue): Final=1039.7, Time=61.4, Moves(31)=0.2, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:30:29] SCORE Gruppe 2 (lawn green): Final=808.9, Time=88.4, Moves(32)=0.5, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:30:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:30] MOVE 96: jat (blue) 82->93 [0.01ms]
+[2026-05-22 10:30:30] SCORE AlphaZeroClue (red): Final=582.4, Time=48.4, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:30] SCORE jat (blue): Final=1040.8, Time=60.3, Moves(32)=0.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:30:30] SCORE Gruppe 2 (lawn green): Final=808.9, Time=88.4, Moves(32)=0.5, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:30:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:32] MOVE 97: AlphaZeroClue (red) 15->6 [0.01ms]
+[2026-05-22 10:30:32] SCORE AlphaZeroClue (red): Final=682.7, Time=46.6, Moves(30)=0.1, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:32] SCORE jat (blue): Final=1040.8, Time=60.3, Moves(32)=0.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:30:32] SCORE Gruppe 2 (lawn green): Final=808.9, Time=88.4, Moves(32)=0.5, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:30:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:32] MOVE 98: Gruppe 2 (lawn green) 17->16 [0.01ms]
+[2026-05-22 10:30:33] SCORE AlphaZeroClue (red): Final=682.7, Time=46.6, Moves(30)=0.1, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:33] SCORE jat (blue): Final=1040.8, Time=60.3, Moves(32)=0.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:30:33] SCORE Gruppe 2 (lawn green): Final=811.2, Time=88.1, Moves(33)=1.1, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:30:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:34] MOVE 99: jat (blue) 93->105 [0.01ms]
+[2026-05-22 10:30:34] SCORE AlphaZeroClue (red): Final=682.7, Time=46.6, Moves(30)=0.1, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:34] SCORE jat (blue): Final=1042.0, Time=58.9, Moves(33)=1.1, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:30:34] SCORE Gruppe 2 (lawn green): Final=811.2, Time=88.1, Moves(33)=1.1, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:30:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:36] MOVE 100: AlphaZeroClue (red) 67->49 [0.01ms]
+[2026-05-22 10:30:36] SCORE AlphaZeroClue (red): Final=685.1, Time=44.9, Moves(31)=0.2, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:36] SCORE jat (blue): Final=1042.0, Time=58.9, Moves(33)=1.1, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:30:36] SCORE Gruppe 2 (lawn green): Final=811.2, Time=88.1, Moves(33)=1.1, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:30:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:36] MOVE 101: Gruppe 2 (lawn green) 34->45 [0.01ms]
+[2026-05-22 10:30:36] SCORE AlphaZeroClue (red): Final=685.1, Time=44.9, Moves(31)=0.2, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:36] SCORE jat (blue): Final=1042.0, Time=58.9, Moves(33)=1.1, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:30:36] SCORE Gruppe 2 (lawn green): Final=814.2, Time=87.9, Moves(34)=2.3, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:30:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:37] MOVE 102: jat (blue) 83->94 [0.01ms]
+[2026-05-22 10:30:37] SCORE AlphaZeroClue (red): Final=685.1, Time=44.9, Moves(31)=0.2, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:37] SCORE jat (blue): Final=1044.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:30:37] SCORE Gruppe 2 (lawn green): Final=814.2, Time=87.9, Moves(34)=2.3, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:30:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:39] MOVE 103: AlphaZeroClue (red) 104->83 [0.01ms]
+[2026-05-22 10:30:39] SCORE AlphaZeroClue (red): Final=687.6, Time=43.1, Moves(32)=0.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:39] SCORE jat (blue): Final=1044.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:30:39] SCORE Gruppe 2 (lawn green): Final=814.2, Time=87.9, Moves(34)=2.3, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:30:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:39] MOVE 104: Gruppe 2 (lawn green) 16->15 [0.01ms]
+[2026-05-22 10:30:39] SCORE AlphaZeroClue (red): Final=687.6, Time=43.1, Moves(32)=0.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:39] SCORE jat (blue): Final=1044.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:30:39] SCORE Gruppe 2 (lawn green): Final=818.1, Time=87.7, Moves(35)=4.4, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:40] MOVE 105: jat (blue) 79->120 [0.01ms]
+[2026-05-22 10:30:40] SCORE AlphaZeroClue (red): Final=687.6, Time=43.1, Moves(32)=0.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:40] SCORE jat (blue): Final=1150.9, Time=56.5, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:30:40] SCORE Gruppe 2 (lawn green): Final=818.1, Time=87.7, Moves(35)=4.4, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:42] MOVE 106: AlphaZeroClue (red) 2->7 [0.01ms]
+[2026-05-22 10:30:42] SCORE AlphaZeroClue (red): Final=686.3, Time=41.2, Moves(33)=1.1, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:42] SCORE jat (blue): Final=1150.9, Time=56.5, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:30:42] SCORE Gruppe 2 (lawn green): Final=818.1, Time=87.7, Moves(35)=4.4, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:30:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:42] MOVE 107: Gruppe 2 (lawn green) 15->57 [0.01ms]
+[2026-05-22 10:30:42] SCORE AlphaZeroClue (red): Final=686.3, Time=41.2, Moves(33)=1.1, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:42] SCORE jat (blue): Final=1150.9, Time=56.5, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:30:42] SCORE Gruppe 2 (lawn green): Final=829.5, Time=87.6, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:43] MOVE 108: jat (blue) 91->104 [0.00ms]
+[2026-05-22 10:30:43] SCORE AlphaZeroClue (red): Final=686.3, Time=41.2, Moves(33)=1.1, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:43] SCORE jat (blue): Final=1155.3, Time=55.4, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:30:43] SCORE Gruppe 2 (lawn green): Final=829.5, Time=87.6, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:45] MOVE 109: AlphaZeroClue (red) 58->39 [0.01ms]
+[2026-05-22 10:30:45] SCORE AlphaZeroClue (red): Final=689.6, Time=39.3, Moves(34)=2.3, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:30:45] SCORE jat (blue): Final=1155.3, Time=55.4, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:30:45] SCORE Gruppe 2 (lawn green): Final=829.5, Time=87.6, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:30:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:46] MOVE 110: Gruppe 2 (lawn green) 57->56 [0.01ms]
+[2026-05-22 10:30:46] SCORE AlphaZeroClue (red): Final=689.6, Time=39.3, Moves(34)=2.3, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:30:46] SCORE jat (blue): Final=1155.3, Time=55.4, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:30:46] SCORE Gruppe 2 (lawn green): Final=836.8, Time=87.3, Moves(37)=13.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:47] MOVE 111: jat (blue) 94->106 [0.01ms]
+[2026-05-22 10:30:47] SCORE AlphaZeroClue (red): Final=689.6, Time=39.3, Moves(34)=2.3, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:30:47] SCORE jat (blue): Final=1161.9, Time=54.3, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:30:47] SCORE Gruppe 2 (lawn green): Final=836.8, Time=87.3, Moves(37)=13.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:48] MOVE 112: AlphaZeroClue (red) 49->28 [0.01ms]
+[2026-05-22 10:30:48] SCORE AlphaZeroClue (red): Final=693.9, Time=37.5, Moves(35)=4.4, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:48] SCORE jat (blue): Final=1161.9, Time=54.3, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:30:48] SCORE Gruppe 2 (lawn green): Final=836.8, Time=87.3, Moves(37)=13.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:30:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:49] MOVE 113: Gruppe 2 (lawn green) 37->47 [0.01ms]
+[2026-05-22 10:30:49] SCORE AlphaZeroClue (red): Final=693.9, Time=37.5, Moves(35)=4.4, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:49] SCORE jat (blue): Final=1161.9, Time=54.3, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:30:49] SCORE Gruppe 2 (lawn green): Final=846.4, Time=86.8, Moves(38)=21.6, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:30:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:50] MOVE 114: jat (blue) 106->117 [0.01ms]
+[2026-05-22 10:30:50] SCORE AlphaZeroClue (red): Final=693.9, Time=37.5, Moves(35)=4.4, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:50] SCORE jat (blue): Final=1270.9, Time=53.3, Moves(38)=21.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:30:50] SCORE Gruppe 2 (lawn green): Final=846.4, Time=86.8, Moves(38)=21.6, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:30:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:52] MOVE 115: AlphaZeroClue (red) 39->3 [0.00ms]
+[2026-05-22 10:30:52] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:52] SCORE jat (blue): Final=1270.9, Time=53.3, Moves(38)=21.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:30:52] SCORE Gruppe 2 (lawn green): Final=846.4, Time=86.8, Moves(38)=21.6, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:30:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:52] MOVE 116: Gruppe 2 (lawn green) 45->44 [0.01ms]
+[2026-05-22 10:30:52] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:52] SCORE jat (blue): Final=1270.9, Time=53.3, Moves(38)=21.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:30:52] SCORE Gruppe 2 (lawn green): Final=858.7, Time=86.3, Moves(39)=32.5, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:53] MOVE 117: jat (blue) 104->112 [0.01ms]
+[2026-05-22 10:30:53] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:53] SCORE jat (blue): Final=1382.8, Time=52.3, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:53] SCORE Gruppe 2 (lawn green): Final=858.7, Time=86.3, Moves(39)=32.5, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)']}
+[2026-05-22 10:30:55] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:55] SCORE jat (blue): Final=1382.8, Time=52.3, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:55] SCORE Gruppe 2 (lawn green): Final=858.7, Time=86.3, Moves(39)=32.5, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:30:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:30:55] TURN TIMEOUT: Player with colour red exceeded 2s at move 118. Turn skipped.
+[2026-05-22 10:30:55] MOVE 119: Gruppe 2 (lawn green) 44->63 [0.01ms]
+[2026-05-22 10:30:55] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:55] SCORE jat (blue): Final=1382.8, Time=52.3, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:55] SCORE Gruppe 2 (lawn green): Final=875.8, Time=86.0, Moves(40)=45.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:30:56] MOVE 120: jat (blue) 111->115 [0.01ms]
+[2026-05-22 10:30:56] SCORE AlphaZeroClue (red): Final=801.7, Time=35.8, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:30:56] SCORE jat (blue): Final=1395.1, Time=51.3, Moves(40)=45.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:56] SCORE Gruppe 2 (lawn green): Final=875.8, Time=86.0, Moves(40)=45.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:30:58] MOVE 121: AlphaZeroClue (red) 46->36 [0.01ms]
+[2026-05-22 10:30:58] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:30:58] SCORE jat (blue): Final=1395.1, Time=51.3, Moves(40)=45.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:58] SCORE Gruppe 2 (lawn green): Final=875.8, Time=86.0, Moves(40)=45.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:30:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:30:59] MOVE 122: Gruppe 2 (lawn green) 54->70 [0.01ms]
+[2026-05-22 10:30:59] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:30:59] SCORE jat (blue): Final=1395.1, Time=51.3, Moves(40)=45.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:59] SCORE Gruppe 2 (lawn green): Final=898.1, Time=85.5, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:30:59] MOVE 123: jat (blue) 113->111 [0.01ms]
+[2026-05-22 10:30:59] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:30:59] SCORE jat (blue): Final=1409.5, Time=50.8, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:30:59] SCORE Gruppe 2 (lawn green): Final=898.1, Time=85.5, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:30:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 10:31:01] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:01] SCORE jat (blue): Final=1409.5, Time=50.8, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:31:01] SCORE Gruppe 2 (lawn green): Final=898.1, Time=85.5, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:31:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:01] TURN TIMEOUT: Player with colour red exceeded 2s at move 124. Turn skipped.
+[2026-05-22 10:31:02] MOVE 125: Gruppe 2 (lawn green) 71->69 [0.01ms]
+[2026-05-22 10:31:02] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:02] SCORE jat (blue): Final=1409.5, Time=50.8, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:31:02] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:02] MOVE 126: jat (blue) 105->113 [0.01ms]
+[2026-05-22 10:31:02] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:02] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:02] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:41] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:41] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:41] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:41] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:41] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:41] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:42] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:42] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:42] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:42] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:42] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:42] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:42] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:42] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:42] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:42] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:42] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:42] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:43] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:43] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:43] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:43] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:43] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:43] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:43] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:43] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:43] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:43] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:43] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:43] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:44] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:44] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:44] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:44] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:44] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:44] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:44] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:44] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:44] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:44] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:44] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:44] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:45] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:45] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:45] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:45] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:45] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:45] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:45] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:45] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:45] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:31:45] SCORE AlphaZeroClue (red): Final=807.6, Time=34.0, Moves(37)=13.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:31:45] SCORE jat (blue): Final=2526.2, Time=50.7, Moves(42)=75.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:31:45] SCORE Gruppe 2 (lawn green): Final=916.5, Time=85.0, Moves(42)=75.5, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:31:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '64 (turn timeout)', '79 (turn timeout)', '118 (turn timeout)', '124 (turn timeout)']}
+[2026-05-22 10:31:45] GAME TIME LIMIT REACHED.

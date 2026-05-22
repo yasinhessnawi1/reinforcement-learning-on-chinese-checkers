@@ -1,0 +1,1731 @@
+[2026-05-22 10:36:23] GAME CREATED
+[2026-05-22 10:37:22] PLAYER JOINED: CybSec as red
+[2026-05-22 10:37:41] PLAYER JOINED: AlphaZeroClue as blue
+[2026-05-22 10:37:43] PLAYER JOINED: group 99 as lawn green
+[2026-05-22 10:37:43] PLAYER JOINED: Group 16 as gray0
+[2026-05-22 10:37:49] PLAYER JOINED: StockWish as yellow
+[2026-05-22 10:38:02] PLAYER START (FORCE): CybSec (red)
+[2026-05-22 10:38:02] PLAYER START (FORCE): AlphaZeroClue (blue)
+[2026-05-22 10:38:02] PLAYER START (FORCE): group 99 (lawn green)
+[2026-05-22 10:38:02] PLAYER START (FORCE): Group 16 (gray0)
+[2026-05-22 10:38:02] PLAYER START (FORCE): StockWish (yellow)
+[2026-05-22 10:38:02] GAME FORCE-STARTED — turn order ['red', 'lawn green', 'yellow', 'blue', 'gray0']
+[2026-05-22 10:38:02] PLAYER START: CybSec (red)
+[2026-05-22 10:38:02] PLAYER START: AlphaZeroClue (blue)
+[2026-05-22 10:38:02] PLAYER START: group 99 (lawn green)
+[2026-05-22 10:38:02] PLAYER START: Group 16 (gray0)
+[2026-05-22 10:38:02] PLAYER START: StockWish (yellow)
+[2026-05-22 10:38:02] PLAYER START: CybSec (red)
+[2026-05-22 10:38:02] PLAYER START: AlphaZeroClue (blue)
+[2026-05-22 10:38:02] PLAYER START: group 99 (lawn green)
+[2026-05-22 10:38:02] PLAYER START: Group 16 (gray0)
+[2026-05-22 10:38:02] PLAYER START: StockWish (yellow)
+[2026-05-22 10:38:02] PLAYER START: CybSec (red)
+[2026-05-22 10:38:02] PLAYER START: AlphaZeroClue (blue)
+[2026-05-22 10:38:02] PLAYER START: group 99 (lawn green)
+[2026-05-22 10:38:02] PLAYER START: Group 16 (gray0)
+[2026-05-22 10:38:02] PLAYER START: StockWish (yellow)
+[2026-05-22 10:38:03] PLAYER START: CybSec (red)
+[2026-05-22 10:38:03] PLAYER START: AlphaZeroClue (blue)
+[2026-05-22 10:38:03] PLAYER START: group 99 (lawn green)
+[2026-05-22 10:38:03] PLAYER START: Group 16 (gray0)
+[2026-05-22 10:38:03] PLAYER START: StockWish (yellow)
+[2026-05-22 10:38:03] PLAYER START: CybSec (red)
+[2026-05-22 10:38:03] PLAYER START: AlphaZeroClue (blue)
+[2026-05-22 10:38:03] PLAYER START: group 99 (lawn green)
+[2026-05-22 10:38:03] PLAYER START: Group 16 (gray0)
+[2026-05-22 10:38:03] PLAYER START: StockWish (yellow)
+[2026-05-22 10:38:03] MOVE 1: CybSec (red) 116->105 [0.01ms]
+[2026-05-22 10:38:03] SCORE CybSec (red): Final=283.0, Time=99.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE AlphaZeroClue (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE group 99 (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE Group 16 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE StockWish (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 2: group 99 (lawn green) 45->64 [0.00ms]
+[2026-05-22 10:38:04] SCORE CybSec (red): Final=283.0, Time=99.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE AlphaZeroClue (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE group 99 (lawn green): Final=282.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Group 16 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE StockWish (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 3: StockWish (yellow) 12->37 [0.00ms]
+[2026-05-22 10:38:04] SCORE CybSec (red): Final=283.0, Time=99.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE AlphaZeroClue (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE group 99 (lawn green): Final=282.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Group 16 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE StockWish (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 4: AlphaZeroClue (blue) 5->18 [0.00ms]
+[2026-05-22 10:38:06] SCORE CybSec (red): Final=283.0, Time=99.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE AlphaZeroClue (blue): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE group 99 (lawn green): Final=282.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Group 16 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE StockWish (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 5: Group 16 (gray0) 88->89 [0.00ms]
+[2026-05-22 10:38:06] SCORE CybSec (red): Final=283.0, Time=99.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE AlphaZeroClue (blue): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE group 99 (lawn green): Final=282.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Group 16 (gray0): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE StockWish (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:07] MOVE 6: CybSec (red) 115->77 [0.00ms]
+[2026-05-22 10:38:07] SCORE CybSec (red): Final=290.4, Time=98.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE AlphaZeroClue (blue): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE group 99 (lawn green): Final=282.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE Group 16 (gray0): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE StockWish (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:08] MOVE 7: group 99 (lawn green) 22->43 [0.01ms]
+[2026-05-22 10:38:08] SCORE CybSec (red): Final=290.4, Time=98.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE AlphaZeroClue (blue): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE group 99 (lawn green): Final=289.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Group 16 (gray0): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE StockWish (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:09] MOVE 8: StockWish (yellow) 25->48 [0.01ms]
+[2026-05-22 10:38:09] SCORE CybSec (red): Final=290.4, Time=98.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE AlphaZeroClue (blue): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE group 99 (lawn green): Final=289.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE Group 16 (gray0): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE StockWish (yellow): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:10] MOVE 9: AlphaZeroClue (blue) 0->16 [0.01ms]
+[2026-05-22 10:38:10] SCORE CybSec (red): Final=290.4, Time=98.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE AlphaZeroClue (blue): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE group 99 (lawn green): Final=289.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE Group 16 (gray0): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE StockWish (yellow): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:11] MOVE 10: Group 16 (gray0) 65->67 [0.01ms]
+[2026-05-22 10:38:11] SCORE CybSec (red): Final=290.4, Time=98.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE AlphaZeroClue (blue): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE group 99 (lawn green): Final=289.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Group 16 (gray0): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE StockWish (yellow): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:11] MOVE 11: CybSec (red) 120->106 [0.00ms]
+[2026-05-22 10:38:11] SCORE CybSec (red): Final=298.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE AlphaZeroClue (blue): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE group 99 (lawn green): Final=289.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Group 16 (gray0): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE StockWish (yellow): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:12] MOVE 12: group 99 (lawn green) 19->15 [0.00ms]
+[2026-05-22 10:38:12] SCORE CybSec (red): Final=298.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE AlphaZeroClue (blue): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE group 99 (lawn green): Final=296.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Group 16 (gray0): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE StockWish (yellow): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:12] MOVE 13: StockWish (yellow) 24->49 [0.00ms]
+[2026-05-22 10:38:12] SCORE CybSec (red): Final=298.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE AlphaZeroClue (blue): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE group 99 (lawn green): Final=296.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Group 16 (gray0): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE StockWish (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:14] MOVE 14: AlphaZeroClue (blue) 9->74 [0.07ms]
+[2026-05-22 10:38:14] SCORE CybSec (red): Final=298.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE AlphaZeroClue (blue): Final=296.5, Time=94.5, Moves(3)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE group 99 (lawn green): Final=296.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Group 16 (gray0): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE StockWish (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:14] MOVE 15: Group 16 (gray0) 100->102 [0.01ms]
+[2026-05-22 10:38:14] SCORE CybSec (red): Final=298.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE AlphaZeroClue (blue): Final=296.5, Time=94.5, Moves(3)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE group 99 (lawn green): Final=296.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Group 16 (gray0): Final=289.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE StockWish (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:15] MOVE 16: CybSec (red) 77->39 [0.00ms]
+[2026-05-22 10:38:15] SCORE CybSec (red): Final=305.6, Time=97.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE AlphaZeroClue (blue): Final=296.5, Time=94.5, Moves(3)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE group 99 (lawn green): Final=296.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Group 16 (gray0): Final=289.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE StockWish (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:16] MOVE 17: group 99 (lawn green) 44->17 [0.00ms]
+[2026-05-22 10:38:16] SCORE CybSec (red): Final=305.6, Time=97.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE AlphaZeroClue (blue): Final=296.5, Time=94.5, Moves(3)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE group 99 (lawn green): Final=299.0, Time=95.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Group 16 (gray0): Final=289.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE StockWish (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:16] MOVE 18: StockWish (yellow) 36->59 [0.00ms]
+[2026-05-22 10:38:16] SCORE CybSec (red): Final=305.6, Time=97.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE AlphaZeroClue (blue): Final=296.5, Time=94.5, Moves(3)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE group 99 (lawn green): Final=299.0, Time=95.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Group 16 (gray0): Final=289.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE StockWish (yellow): Final=303.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:18] MOVE 19: AlphaZeroClue (blue) 7->68 [0.00ms]
+[2026-05-22 10:38:18] SCORE CybSec (red): Final=305.6, Time=97.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE AlphaZeroClue (blue): Final=306.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE group 99 (lawn green): Final=299.0, Time=95.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Group 16 (gray0): Final=289.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE StockWish (yellow): Final=303.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:18] MOVE 20: Group 16 (gray0) 101->100 [0.00ms]
+[2026-05-22 10:38:18] SCORE CybSec (red): Final=305.6, Time=97.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE AlphaZeroClue (blue): Final=306.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE group 99 (lawn green): Final=299.0, Time=95.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Group 16 (gray0): Final=287.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE StockWish (yellow): Final=303.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:19] MOVE 21: CybSec (red) 105->38 [0.00ms]
+[2026-05-22 10:38:19] SCORE CybSec (red): Final=317.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE AlphaZeroClue (blue): Final=306.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE group 99 (lawn green): Final=299.0, Time=95.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE Group 16 (gray0): Final=287.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE StockWish (yellow): Final=303.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 22: group 99 (lawn green) 33->50 [0.01ms]
+[2026-05-22 10:38:20] SCORE CybSec (red): Final=317.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE AlphaZeroClue (blue): Final=306.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE group 99 (lawn green): Final=309.4, Time=93.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Group 16 (gray0): Final=287.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE StockWish (yellow): Final=303.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 23: StockWish (yellow) 37->60 [0.00ms]
+[2026-05-22 10:38:20] SCORE CybSec (red): Final=317.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE AlphaZeroClue (blue): Final=306.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE group 99 (lawn green): Final=309.4, Time=93.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Group 16 (gray0): Final=287.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE StockWish (yellow): Final=311.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:22] MOVE 24: AlphaZeroClue (blue) 2->54 [0.01ms]
+[2026-05-22 10:38:22] SCORE CybSec (red): Final=317.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE AlphaZeroClue (blue): Final=317.1, Time=91.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE group 99 (lawn green): Final=309.4, Time=93.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Group 16 (gray0): Final=287.4, Time=99.4, Moves(4)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE StockWish (yellow): Final=311.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:38:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:22] MOVE 25: Group 16 (gray0) 87->88 [0.00ms]
+[2026-05-22 10:38:22] SCORE CybSec (red): Final=317.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE AlphaZeroClue (blue): Final=317.1, Time=91.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE group 99 (lawn green): Final=309.4, Time=93.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Group 16 (gray0): Final=289.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE StockWish (yellow): Final=311.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:38:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:24] MOVE 26: CybSec (red) 119->116 [0.00ms]
+[2026-05-22 10:38:24] SCORE CybSec (red): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE AlphaZeroClue (blue): Final=317.1, Time=91.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE group 99 (lawn green): Final=309.4, Time=93.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Group 16 (gray0): Final=289.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE StockWish (yellow): Final=311.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:38:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:25] MOVE 27: group 99 (lawn green) 64->63 [0.00ms]
+[2026-05-22 10:38:25] SCORE CybSec (red): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE AlphaZeroClue (blue): Final=317.1, Time=91.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE group 99 (lawn green): Final=310.1, Time=92.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Group 16 (gray0): Final=289.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE StockWish (yellow): Final=311.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:38:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:25] MOVE 28: StockWish (yellow) 23->24 [0.00ms]
+[2026-05-22 10:38:25] SCORE CybSec (red): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE AlphaZeroClue (blue): Final=317.1, Time=91.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE group 99 (lawn green): Final=310.1, Time=92.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Group 16 (gray0): Final=289.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE StockWish (yellow): Final=313.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 29: AlphaZeroClue (blue) 8->30 [0.01ms]
+[2026-05-22 10:38:27] SCORE CybSec (red): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE AlphaZeroClue (blue): Final=319.4, Time=89.4, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE group 99 (lawn green): Final=310.1, Time=92.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Group 16 (gray0): Final=289.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE StockWish (yellow): Final=313.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 30: Group 16 (gray0) 100->87 [0.01ms]
+[2026-05-22 10:38:27] SCORE CybSec (red): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE AlphaZeroClue (blue): Final=319.4, Time=89.4, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE group 99 (lawn green): Final=310.1, Time=92.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Group 16 (gray0): Final=289.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE StockWish (yellow): Final=313.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 31: CybSec (red) 116->57 [0.00ms]
+[2026-05-22 10:38:27] SCORE CybSec (red): Final=328.8, Time=94.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE AlphaZeroClue (blue): Final=319.4, Time=89.4, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE group 99 (lawn green): Final=310.1, Time=92.1, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Group 16 (gray0): Final=289.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE StockWish (yellow): Final=313.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:29] MOVE 32: group 99 (lawn green) 17->42 [0.01ms]
+[2026-05-22 10:38:29] SCORE CybSec (red): Final=328.8, Time=94.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE AlphaZeroClue (blue): Final=319.4, Time=89.4, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE group 99 (lawn green): Final=308.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Group 16 (gray0): Final=289.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE StockWish (yellow): Final=313.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:38:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:29] MOVE 33: StockWish (yellow) 59->107 [0.00ms]
+[2026-05-22 10:38:29] SCORE CybSec (red): Final=328.8, Time=94.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE AlphaZeroClue (blue): Final=319.4, Time=89.4, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE group 99 (lawn green): Final=308.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Group 16 (gray0): Final=289.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE StockWish (yellow): Final=425.1, Time=99.1, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 34: AlphaZeroClue (blue) 30->73 [0.00ms]
+[2026-05-22 10:38:31] SCORE CybSec (red): Final=328.8, Time=94.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE AlphaZeroClue (blue): Final=325.5, Time=87.5, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE group 99 (lawn green): Final=308.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Group 16 (gray0): Final=289.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE StockWish (yellow): Final=425.1, Time=99.1, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 35: Group 16 (gray0) 98->58 [0.00ms]
+[2026-05-22 10:38:31] SCORE CybSec (red): Final=328.8, Time=94.8, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE AlphaZeroClue (blue): Final=325.5, Time=87.5, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE group 99 (lawn green): Final=308.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Group 16 (gray0): Final=301.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE StockWish (yellow): Final=425.1, Time=99.1, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 36: CybSec (red) 117->104 [0.00ms]
+[2026-05-22 10:38:31] SCORE CybSec (red): Final=332.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE AlphaZeroClue (blue): Final=325.5, Time=87.5, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE group 99 (lawn green): Final=308.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Group 16 (gray0): Final=301.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE StockWish (yellow): Final=425.1, Time=99.1, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:32] MOVE 37: group 99 (lawn green) 43->62 [0.00ms]
+[2026-05-22 10:38:32] SCORE CybSec (red): Final=332.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE AlphaZeroClue (blue): Final=325.5, Time=87.5, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE group 99 (lawn green): Final=311.7, Time=89.7, Moves(8)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Group 16 (gray0): Final=301.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE StockWish (yellow): Final=425.1, Time=99.1, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:38:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:33] MOVE 38: StockWish (yellow) 11->36 [0.00ms]
+[2026-05-22 10:38:33] SCORE CybSec (red): Final=332.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE AlphaZeroClue (blue): Final=325.5, Time=87.5, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE group 99 (lawn green): Final=311.7, Time=89.7, Moves(8)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE Group 16 (gray0): Final=301.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE StockWish (yellow): Final=429.0, Time=99.0, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 39: AlphaZeroClue (blue) 1->28 [0.00ms]
+[2026-05-22 10:38:34] SCORE CybSec (red): Final=332.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE AlphaZeroClue (blue): Final=331.7, Time=85.7, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE group 99 (lawn green): Final=311.7, Time=89.7, Moves(8)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Group 16 (gray0): Final=301.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE StockWish (yellow): Final=429.0, Time=99.0, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 40: Group 16 (gray0) 87->66 [0.01ms]
+[2026-05-22 10:38:34] SCORE CybSec (red): Final=332.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE AlphaZeroClue (blue): Final=331.7, Time=85.7, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE group 99 (lawn green): Final=311.7, Time=89.7, Moves(8)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Group 16 (gray0): Final=305.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE StockWish (yellow): Final=429.0, Time=99.0, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:35] MOVE 41: CybSec (red) 57->40 [0.00ms]
+[2026-05-22 10:38:35] SCORE CybSec (red): Final=335.8, Time=93.8, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE AlphaZeroClue (blue): Final=331.7, Time=85.7, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE group 99 (lawn green): Final=311.7, Time=89.7, Moves(8)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE Group 16 (gray0): Final=305.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE StockWish (yellow): Final=429.0, Time=99.0, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 42: group 99 (lawn green) 63->101 [0.00ms]
+[2026-05-22 10:38:36] SCORE CybSec (red): Final=335.8, Time=93.8, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE AlphaZeroClue (blue): Final=331.7, Time=85.7, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE group 99 (lawn green): Final=426.6, Time=88.6, Moves(9)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Group 16 (gray0): Final=305.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE StockWish (yellow): Final=429.0, Time=99.0, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 43: StockWish (yellow) 35->37 [0.00ms]
+[2026-05-22 10:38:36] SCORE CybSec (red): Final=335.8, Time=93.8, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE AlphaZeroClue (blue): Final=331.7, Time=85.7, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE group 99 (lawn green): Final=426.6, Time=88.6, Moves(9)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Group 16 (gray0): Final=305.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE StockWish (yellow): Final=432.9, Time=98.9, Moves(9)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 44: AlphaZeroClue (blue) 3->77 [0.01ms]
+[2026-05-22 10:38:38] SCORE CybSec (red): Final=335.8, Time=93.8, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE AlphaZeroClue (blue): Final=345.9, Time=83.9, Moves(9)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE group 99 (lawn green): Final=426.6, Time=88.6, Moves(9)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Group 16 (gray0): Final=305.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE StockWish (yellow): Final=432.9, Time=98.9, Moves(9)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 45: Group 16 (gray0) 99->87 [0.00ms]
+[2026-05-22 10:38:38] SCORE CybSec (red): Final=335.8, Time=93.8, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE AlphaZeroClue (blue): Final=345.9, Time=83.9, Moves(9)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE group 99 (lawn green): Final=426.6, Time=88.6, Moves(9)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Group 16 (gray0): Final=307.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE StockWish (yellow): Final=432.9, Time=98.9, Moves(9)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 46: CybSec (red) 114->94 [0.00ms]
+[2026-05-22 10:38:38] SCORE CybSec (red): Final=339.3, Time=93.3, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE AlphaZeroClue (blue): Final=345.9, Time=83.9, Moves(9)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE group 99 (lawn green): Final=426.6, Time=88.6, Moves(9)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Group 16 (gray0): Final=307.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE StockWish (yellow): Final=432.9, Time=98.9, Moves(9)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 47: group 99 (lawn green) 21->78 [0.00ms]
+[2026-05-22 10:38:40] SCORE CybSec (red): Final=339.3, Time=93.3, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE AlphaZeroClue (blue): Final=345.9, Time=83.9, Moves(9)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE group 99 (lawn green): Final=445.4, Time=87.4, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Group 16 (gray0): Final=307.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE StockWish (yellow): Final=432.9, Time=98.9, Moves(9)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 48: StockWish (yellow) 10->11 [0.00ms]
+[2026-05-22 10:38:40] SCORE CybSec (red): Final=339.3, Time=93.3, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE AlphaZeroClue (blue): Final=345.9, Time=83.9, Moves(9)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE group 99 (lawn green): Final=445.4, Time=87.4, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Group 16 (gray0): Final=307.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE StockWish (yellow): Final=434.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 49: AlphaZeroClue (blue) 28->69 [0.00ms]
+[2026-05-22 10:38:42] SCORE CybSec (red): Final=339.3, Time=93.3, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE AlphaZeroClue (blue): Final=352.2, Time=82.2, Moves(10)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE group 99 (lawn green): Final=445.4, Time=87.4, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Group 16 (gray0): Final=307.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE StockWish (yellow): Final=434.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 50: Group 16 (gray0) 76->21 [0.00ms]
+[2026-05-22 10:38:42] SCORE CybSec (red): Final=339.3, Time=93.3, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE AlphaZeroClue (blue): Final=352.2, Time=82.2, Moves(10)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE group 99 (lawn green): Final=445.4, Time=87.4, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE StockWish (yellow): Final=434.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 51: CybSec (red) 106->43 [0.00ms]
+[2026-05-22 10:38:42] SCORE CybSec (red): Final=350.9, Time=92.9, Moves(11)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE AlphaZeroClue (blue): Final=352.2, Time=82.2, Moves(10)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE group 99 (lawn green): Final=445.4, Time=87.4, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE StockWish (yellow): Final=434.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 52: group 99 (lawn green) 15->99 [0.01ms]
+[2026-05-22 10:38:43] SCORE CybSec (red): Final=350.9, Time=92.9, Moves(11)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE AlphaZeroClue (blue): Final=352.2, Time=82.2, Moves(10)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE group 99 (lawn green): Final=556.1, Time=86.1, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE StockWish (yellow): Final=434.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 53: StockWish (yellow) 24->47 [0.00ms]
+[2026-05-22 10:38:45] SCORE CybSec (red): Final=350.9, Time=92.9, Moves(11)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE AlphaZeroClue (blue): Final=352.2, Time=82.2, Moves(10)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE group 99 (lawn green): Final=556.1, Time=86.1, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE StockWish (yellow): Final=437.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 54: AlphaZeroClue (blue) 4->8 [0.00ms]
+[2026-05-22 10:38:46] SCORE CybSec (red): Final=350.9, Time=92.9, Moves(11)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE AlphaZeroClue (blue): Final=352.4, Time=80.4, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE group 99 (lawn green): Final=556.1, Time=86.1, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE StockWish (yellow): Final=437.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 55: Group 16 (gray0) 88->76 [0.00ms]
+[2026-05-22 10:38:46] SCORE CybSec (red): Final=350.9, Time=92.9, Moves(11)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE AlphaZeroClue (blue): Final=352.4, Time=80.4, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE group 99 (lawn green): Final=556.1, Time=86.1, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE StockWish (yellow): Final=437.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 56: CybSec (red) 40->4 [0.00ms]
+[2026-05-22 10:38:47] SCORE CybSec (red): Final=456.5, Time=92.5, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE AlphaZeroClue (blue): Final=352.4, Time=80.4, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE group 99 (lawn green): Final=556.1, Time=86.1, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE StockWish (yellow): Final=437.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 57: group 99 (lawn green) 42->57 [0.00ms]
+[2026-05-22 10:38:48] SCORE CybSec (red): Final=456.5, Time=92.5, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE AlphaZeroClue (blue): Final=352.4, Time=80.4, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE group 99 (lawn green): Final=566.8, Time=84.8, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE StockWish (yellow): Final=437.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 58: StockWish (yellow) 13->26 [0.00ms]
+[2026-05-22 10:38:48] SCORE CybSec (red): Final=456.5, Time=92.5, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE AlphaZeroClue (blue): Final=352.4, Time=80.4, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE group 99 (lawn green): Final=566.8, Time=84.8, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE StockWish (yellow): Final=439.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 59: AlphaZeroClue (blue) 8->28 [0.00ms]
+[2026-05-22 10:38:50] SCORE CybSec (red): Final=456.5, Time=92.5, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE AlphaZeroClue (blue): Final=354.6, Time=78.6, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE group 99 (lawn green): Final=566.8, Time=84.8, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Group 16 (gray0): Final=426.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE StockWish (yellow): Final=439.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 60: Group 16 (gray0) 86->90 [0.00ms]
+[2026-05-22 10:38:50] SCORE CybSec (red): Final=456.5, Time=92.5, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE AlphaZeroClue (blue): Final=354.6, Time=78.6, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE group 99 (lawn green): Final=566.8, Time=84.8, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Group 16 (gray0): Final=434.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE StockWish (yellow): Final=439.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 61: CybSec (red) 113->91 [0.00ms]
+[2026-05-22 10:38:51] SCORE CybSec (red): Final=460.0, Time=92.0, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE AlphaZeroClue (blue): Final=354.6, Time=78.6, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE group 99 (lawn green): Final=566.8, Time=84.8, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Group 16 (gray0): Final=434.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE StockWish (yellow): Final=439.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 62: group 99 (lawn green) 20->106 [0.00ms]
+[2026-05-22 10:38:52] SCORE CybSec (red): Final=460.0, Time=92.0, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE AlphaZeroClue (blue): Final=354.6, Time=78.6, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE group 99 (lawn green): Final=577.6, Time=83.6, Moves(13)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Group 16 (gray0): Final=434.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE StockWish (yellow): Final=439.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 63: StockWish (yellow) 11->24 [0.00ms]
+[2026-05-22 10:38:52] SCORE CybSec (red): Final=460.0, Time=92.0, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE AlphaZeroClue (blue): Final=354.6, Time=78.6, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE group 99 (lawn green): Final=577.6, Time=83.6, Moves(13)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Group 16 (gray0): Final=434.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE StockWish (yellow): Final=441.5, Time=97.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:54] MOVE 64: AlphaZeroClue (blue) 6->15 [0.00ms]
+[2026-05-22 10:38:54] SCORE CybSec (red): Final=460.0, Time=92.0, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE AlphaZeroClue (blue): Final=354.7, Time=76.7, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE group 99 (lawn green): Final=577.6, Time=83.6, Moves(13)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE Group 16 (gray0): Final=434.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE StockWish (yellow): Final=441.5, Time=97.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:54] MOVE 65: Group 16 (gray0) 75->98 [0.00ms]
+[2026-05-22 10:38:54] SCORE CybSec (red): Final=460.0, Time=92.0, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE AlphaZeroClue (blue): Final=354.7, Time=76.7, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE group 99 (lawn green): Final=577.6, Time=83.6, Moves(13)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE Group 16 (gray0): Final=430.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE StockWish (yellow): Final=441.5, Time=97.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:54] MOVE 66: CybSec (red) 104->79 [0.01ms]
+[2026-05-22 10:38:54] SCORE CybSec (red): Final=463.6, Time=91.6, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE AlphaZeroClue (blue): Final=354.7, Time=76.7, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE group 99 (lawn green): Final=577.6, Time=83.6, Moves(13)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE Group 16 (gray0): Final=430.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE StockWish (yellow): Final=441.5, Time=97.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:55] MOVE 67: group 99 (lawn green) 62->71 [0.00ms]
+[2026-05-22 10:38:55] SCORE CybSec (red): Final=463.6, Time=91.6, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE AlphaZeroClue (blue): Final=354.7, Time=76.7, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE group 99 (lawn green): Final=578.3, Time=82.3, Moves(14)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE Group 16 (gray0): Final=430.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE StockWish (yellow): Final=441.5, Time=97.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:55] MOVE 68: StockWish (yellow) 49->59 [0.00ms]
+[2026-05-22 10:38:55] SCORE CybSec (red): Final=463.6, Time=91.6, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE AlphaZeroClue (blue): Final=354.7, Time=76.7, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE group 99 (lawn green): Final=578.3, Time=82.3, Moves(14)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE Group 16 (gray0): Final=430.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE StockWish (yellow): Final=443.4, Time=97.4, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:57] MOVE 69: AlphaZeroClue (blue) 15->84 [0.00ms]
+[2026-05-22 10:38:57] SCORE CybSec (red): Final=463.6, Time=91.6, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE AlphaZeroClue (blue): Final=362.8, Time=74.8, Moves(14)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE group 99 (lawn green): Final=578.3, Time=82.3, Moves(14)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE Group 16 (gray0): Final=430.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE StockWish (yellow): Final=443.4, Time=97.4, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:58] MOVE 70: Group 16 (gray0) 76->65 [0.00ms]
+[2026-05-22 10:38:58] SCORE CybSec (red): Final=463.6, Time=91.6, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE AlphaZeroClue (blue): Final=362.8, Time=74.8, Moves(14)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE group 99 (lawn green): Final=578.3, Time=82.3, Moves(14)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE Group 16 (gray0): Final=430.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE StockWish (yellow): Final=443.4, Time=97.4, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:58] MOVE 71: CybSec (red) 91->80 [0.00ms]
+[2026-05-22 10:38:58] SCORE CybSec (red): Final=465.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE AlphaZeroClue (blue): Final=362.8, Time=74.8, Moves(14)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE group 99 (lawn green): Final=578.3, Time=82.3, Moves(14)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE Group 16 (gray0): Final=430.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE StockWish (yellow): Final=443.4, Time=97.4, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:59] MOVE 72: group 99 (lawn green) 78->76 [0.01ms]
+[2026-05-22 10:38:59] SCORE CybSec (red): Final=465.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE AlphaZeroClue (blue): Final=362.8, Time=74.8, Moves(14)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE group 99 (lawn green): Final=681.2, Time=81.2, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE Group 16 (gray0): Final=430.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE StockWish (yellow): Final=443.4, Time=97.4, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:59] MOVE 73: StockWish (yellow) 47->49 [0.01ms]
+[2026-05-22 10:38:59] SCORE CybSec (red): Final=465.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE AlphaZeroClue (blue): Final=362.8, Time=74.8, Moves(14)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE group 99 (lawn green): Final=681.2, Time=81.2, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE Group 16 (gray0): Final=430.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE StockWish (yellow): Final=447.3, Time=97.3, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:01] MOVE 74: AlphaZeroClue (blue) 74->93 [0.00ms]
+[2026-05-22 10:39:01] SCORE CybSec (red): Final=465.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE AlphaZeroClue (blue): Final=367.0, Time=73.0, Moves(15)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE group 99 (lawn green): Final=681.2, Time=81.2, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE Group 16 (gray0): Final=430.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE StockWish (yellow): Final=447.3, Time=97.3, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:39:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:01] MOVE 75: Group 16 (gray0) 98->12 [0.00ms]
+[2026-05-22 10:39:01] SCORE CybSec (red): Final=465.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE AlphaZeroClue (blue): Final=367.0, Time=73.0, Moves(15)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE group 99 (lawn green): Final=681.2, Time=81.2, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE Group 16 (gray0): Final=442.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE StockWish (yellow): Final=447.3, Time=97.3, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:39:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:02] MOVE 76: CybSec (red) 38->17 [0.00ms]
+[2026-05-22 10:39:02] SCORE CybSec (red): Final=468.7, Time=90.7, Moves(16)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE AlphaZeroClue (blue): Final=367.0, Time=73.0, Moves(15)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE group 99 (lawn green): Final=681.2, Time=81.2, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE Group 16 (gray0): Final=442.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE StockWish (yellow): Final=447.3, Time=97.3, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:39:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:03] MOVE 77: group 99 (lawn green) 50->91 [0.00ms]
+[2026-05-22 10:39:03] SCORE CybSec (red): Final=468.7, Time=90.7, Moves(16)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE AlphaZeroClue (blue): Final=367.0, Time=73.0, Moves(15)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE group 99 (lawn green): Final=684.1, Time=80.1, Moves(16)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE Group 16 (gray0): Final=442.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE StockWish (yellow): Final=447.3, Time=97.3, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:39:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:04] MOVE 78: StockWish (yellow) 46->74 [0.00ms]
+[2026-05-22 10:39:04] SCORE CybSec (red): Final=468.7, Time=90.7, Moves(16)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE AlphaZeroClue (blue): Final=367.0, Time=73.0, Moves(15)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE group 99 (lawn green): Final=684.1, Time=80.1, Moves(16)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE Group 16 (gray0): Final=442.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE StockWish (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:05] MOVE 79: AlphaZeroClue (blue) 18->31 [0.00ms]
+[2026-05-22 10:39:05] SCORE CybSec (red): Final=468.7, Time=90.7, Moves(16)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE AlphaZeroClue (blue): Final=367.2, Time=71.2, Moves(16)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE group 99 (lawn green): Final=684.1, Time=80.1, Moves(16)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE Group 16 (gray0): Final=442.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE StockWish (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:05] MOVE 80: Group 16 (gray0) 65->56 [0.00ms]
+[2026-05-22 10:39:05] SCORE CybSec (red): Final=468.7, Time=90.7, Moves(16)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE AlphaZeroClue (blue): Final=367.2, Time=71.2, Moves(16)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE group 99 (lawn green): Final=684.1, Time=80.1, Moves(16)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE Group 16 (gray0): Final=444.2, Time=98.2, Moves(16)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE StockWish (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:06] MOVE 81: CybSec (red) 79->62 [0.01ms]
+[2026-05-22 10:39:06] SCORE CybSec (red): Final=472.3, Time=90.3, Moves(17)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE AlphaZeroClue (blue): Final=367.2, Time=71.2, Moves(16)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE group 99 (lawn green): Final=684.1, Time=80.1, Moves(16)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE Group 16 (gray0): Final=444.2, Time=98.2, Moves(16)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE StockWish (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:07] MOVE 82: group 99 (lawn green) 91->46 [0.00ms]
+[2026-05-22 10:39:07] SCORE CybSec (red): Final=472.3, Time=90.3, Moves(17)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE AlphaZeroClue (blue): Final=367.2, Time=71.2, Moves(16)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE group 99 (lawn green): Final=684.7, Time=78.7, Moves(17)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE Group 16 (gray0): Final=444.2, Time=98.2, Moves(16)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE StockWish (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:07] MOVE 83: StockWish (yellow) 59->82 [0.00ms]
+[2026-05-22 10:39:07] SCORE CybSec (red): Final=472.3, Time=90.3, Moves(17)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE AlphaZeroClue (blue): Final=367.2, Time=71.2, Moves(16)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE group 99 (lawn green): Final=684.7, Time=78.7, Moves(17)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE Group 16 (gray0): Final=444.2, Time=98.2, Moves(16)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE StockWish (yellow): Final=574.3, Time=96.3, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:09] MOVE 84: AlphaZeroClue (blue) 16->29 [0.01ms]
+[2026-05-22 10:39:09] SCORE CybSec (red): Final=472.3, Time=90.3, Moves(17)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE AlphaZeroClue (blue): Final=367.3, Time=69.3, Moves(17)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE group 99 (lawn green): Final=684.7, Time=78.7, Moves(17)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE Group 16 (gray0): Final=444.2, Time=98.2, Moves(16)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE StockWish (yellow): Final=574.3, Time=96.3, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:09] MOVE 85: Group 16 (gray0) 87->100 [0.01ms]
+[2026-05-22 10:39:09] SCORE CybSec (red): Final=472.3, Time=90.3, Moves(17)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE AlphaZeroClue (blue): Final=367.3, Time=69.3, Moves(17)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE group 99 (lawn green): Final=684.7, Time=78.7, Moves(17)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE Group 16 (gray0): Final=444.1, Time=98.1, Moves(17)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE StockWish (yellow): Final=574.3, Time=96.3, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:10] MOVE 86: CybSec (red) 80->15 [0.00ms]
+[2026-05-22 10:39:10] SCORE CybSec (red): Final=483.7, Time=89.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE AlphaZeroClue (blue): Final=367.3, Time=69.3, Moves(17)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE group 99 (lawn green): Final=684.7, Time=78.7, Moves(17)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE Group 16 (gray0): Final=444.1, Time=98.1, Moves(17)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE StockWish (yellow): Final=574.3, Time=96.3, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:11] MOVE 87: group 99 (lawn green) 32->30 [0.00ms]
+[2026-05-22 10:39:11] SCORE CybSec (red): Final=483.7, Time=89.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE AlphaZeroClue (blue): Final=367.3, Time=69.3, Moves(17)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE group 99 (lawn green): Final=687.5, Time=77.5, Moves(18)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE Group 16 (gray0): Final=444.1, Time=98.1, Moves(17)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE StockWish (yellow): Final=574.3, Time=96.3, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:11] MOVE 88: StockWish (yellow) 36->59 [0.00ms]
+[2026-05-22 10:39:11] SCORE CybSec (red): Final=483.7, Time=89.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE AlphaZeroClue (blue): Final=367.3, Time=69.3, Moves(17)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE group 99 (lawn green): Final=687.5, Time=77.5, Moves(18)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE Group 16 (gray0): Final=444.1, Time=98.1, Moves(17)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE StockWish (yellow): Final=582.2, Time=96.2, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:13] MOVE 89: AlphaZeroClue (blue) 29->72 [0.01ms]
+[2026-05-22 10:39:13] SCORE CybSec (red): Final=483.7, Time=89.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE AlphaZeroClue (blue): Final=373.5, Time=67.5, Moves(18)=0.0, Pins(0)=0.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE group 99 (lawn green): Final=687.5, Time=77.5, Moves(18)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE Group 16 (gray0): Final=444.1, Time=98.1, Moves(17)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE StockWish (yellow): Final=582.2, Time=96.2, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:13] MOVE 90: Group 16 (gray0) 100->88 [0.00ms]
+[2026-05-22 10:39:13] SCORE CybSec (red): Final=483.7, Time=89.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE AlphaZeroClue (blue): Final=373.5, Time=67.5, Moves(18)=0.0, Pins(0)=0.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE group 99 (lawn green): Final=687.5, Time=77.5, Moves(18)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE Group 16 (gray0): Final=446.0, Time=98.0, Moves(18)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE StockWish (yellow): Final=582.2, Time=96.2, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:14] MOVE 91: CybSec (red) 39->14 [0.01ms]
+[2026-05-22 10:39:14] SCORE CybSec (red): Final=487.1, Time=89.1, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE AlphaZeroClue (blue): Final=373.5, Time=67.5, Moves(18)=0.0, Pins(0)=0.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE group 99 (lawn green): Final=687.5, Time=77.5, Moves(18)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE Group 16 (gray0): Final=446.0, Time=98.0, Moves(18)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE StockWish (yellow): Final=582.2, Time=96.2, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:15] MOVE 92: group 99 (lawn green) 71->53 [0.01ms]
+[2026-05-22 10:39:15] SCORE CybSec (red): Final=487.1, Time=89.1, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE AlphaZeroClue (blue): Final=373.5, Time=67.5, Moves(18)=0.0, Pins(0)=0.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE group 99 (lawn green): Final=682.3, Time=76.3, Moves(19)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE Group 16 (gray0): Final=446.0, Time=98.0, Moves(18)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE StockWish (yellow): Final=582.2, Time=96.2, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:15] MOVE 93: StockWish (yellow) 59->63 [0.00ms]
+[2026-05-22 10:39:15] SCORE CybSec (red): Final=487.1, Time=89.1, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE AlphaZeroClue (blue): Final=373.5, Time=67.5, Moves(18)=0.0, Pins(0)=0.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE group 99 (lawn green): Final=682.3, Time=76.3, Moves(19)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE Group 16 (gray0): Final=446.0, Time=98.0, Moves(18)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE StockWish (yellow): Final=590.0, Time=96.0, Moves(19)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:17] MOVE 94: AlphaZeroClue (blue) 93->105 [0.01ms]
+[2026-05-22 10:39:17] SCORE CybSec (red): Final=487.1, Time=89.1, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE AlphaZeroClue (blue): Final=373.8, Time=65.8, Moves(19)=0.0, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE group 99 (lawn green): Final=682.3, Time=76.3, Moves(19)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE Group 16 (gray0): Final=446.0, Time=98.0, Moves(18)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE StockWish (yellow): Final=590.0, Time=96.0, Moves(19)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:17] MOVE 95: Group 16 (gray0) 88->65 [0.01ms]
+[2026-05-22 10:39:17] SCORE CybSec (red): Final=487.1, Time=89.1, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE AlphaZeroClue (blue): Final=373.8, Time=65.8, Moves(19)=0.0, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE group 99 (lawn green): Final=682.3, Time=76.3, Moves(19)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE Group 16 (gray0): Final=445.7, Time=97.7, Moves(19)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE StockWish (yellow): Final=590.0, Time=96.0, Moves(19)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:18] MOVE 96: CybSec (red) 94->71 [0.01ms]
+[2026-05-22 10:39:18] SCORE CybSec (red): Final=490.6, Time=88.6, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE AlphaZeroClue (blue): Final=373.8, Time=65.8, Moves(19)=0.0, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE group 99 (lawn green): Final=682.3, Time=76.3, Moves(19)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE Group 16 (gray0): Final=445.7, Time=97.7, Moves(19)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE StockWish (yellow): Final=590.0, Time=96.0, Moves(19)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:19] MOVE 97: group 99 (lawn green) 106->115 [0.00ms]
+[2026-05-22 10:39:19] SCORE CybSec (red): Final=490.6, Time=88.6, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE AlphaZeroClue (blue): Final=373.8, Time=65.8, Moves(19)=0.0, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE group 99 (lawn green): Final=684.9, Time=74.9, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE Group 16 (gray0): Final=445.7, Time=97.7, Moves(19)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE StockWish (yellow): Final=590.0, Time=96.0, Moves(19)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:19] MOVE 98: StockWish (yellow) 82->94 [0.00ms]
+[2026-05-22 10:39:19] SCORE CybSec (red): Final=490.6, Time=88.6, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE AlphaZeroClue (blue): Final=373.8, Time=65.8, Moves(19)=0.0, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE group 99 (lawn green): Final=684.9, Time=74.9, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE Group 16 (gray0): Final=445.7, Time=97.7, Moves(19)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE StockWish (yellow): Final=591.9, Time=95.9, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:21] MOVE 99: AlphaZeroClue (blue) 105->114 [0.01ms]
+[2026-05-22 10:39:21] SCORE CybSec (red): Final=490.6, Time=88.6, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE AlphaZeroClue (blue): Final=474.0, Time=64.0, Moves(20)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE group 99 (lawn green): Final=684.9, Time=74.9, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE Group 16 (gray0): Final=445.7, Time=97.7, Moves(19)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE StockWish (yellow): Final=591.9, Time=95.9, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:21] MOVE 100: Group 16 (gray0) 65->47 [0.01ms]
+[2026-05-22 10:39:21] SCORE CybSec (red): Final=490.6, Time=88.6, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE AlphaZeroClue (blue): Final=474.0, Time=64.0, Moves(20)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE group 99 (lawn green): Final=684.9, Time=74.9, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE Group 16 (gray0): Final=449.7, Time=97.7, Moves(20)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE StockWish (yellow): Final=591.9, Time=95.9, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:21] MOVE 101: CybSec (red) 43->16 [0.00ms]
+[2026-05-22 10:39:21] SCORE CybSec (red): Final=494.4, Time=88.4, Moves(21)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE AlphaZeroClue (blue): Final=474.0, Time=64.0, Moves(20)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE group 99 (lawn green): Final=684.9, Time=74.9, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE Group 16 (gray0): Final=449.7, Time=97.7, Moves(20)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE StockWish (yellow): Final=591.9, Time=95.9, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:23] MOVE 102: group 99 (lawn green) 30->29 [0.01ms]
+[2026-05-22 10:39:23] SCORE CybSec (red): Final=494.4, Time=88.4, Moves(21)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE AlphaZeroClue (blue): Final=474.0, Time=64.0, Moves(20)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE group 99 (lawn green): Final=685.6, Time=73.6, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE Group 16 (gray0): Final=449.7, Time=97.7, Moves(20)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE StockWish (yellow): Final=591.9, Time=95.9, Moves(20)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:23] MOVE 103: StockWish (yellow) 63->82 [0.01ms]
+[2026-05-22 10:39:23] SCORE CybSec (red): Final=494.4, Time=88.4, Moves(21)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE AlphaZeroClue (blue): Final=474.0, Time=64.0, Moves(20)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE group 99 (lawn green): Final=685.6, Time=73.6, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE Group 16 (gray0): Final=449.7, Time=97.7, Moves(20)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE StockWish (yellow): Final=591.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:25] MOVE 104: AlphaZeroClue (blue) 84->116 [0.00ms]
+[2026-05-22 10:39:25] SCORE CybSec (red): Final=494.4, Time=88.4, Moves(21)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE AlphaZeroClue (blue): Final=580.3, Time=62.3, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE group 99 (lawn green): Final=685.6, Time=73.6, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE Group 16 (gray0): Final=449.7, Time=97.7, Moves(20)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE StockWish (yellow): Final=591.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:25] MOVE 105: Group 16 (gray0) 21->22 [0.00ms]
+[2026-05-22 10:39:25] SCORE CybSec (red): Final=494.4, Time=88.4, Moves(21)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE AlphaZeroClue (blue): Final=580.3, Time=62.3, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE group 99 (lawn green): Final=685.6, Time=73.6, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE Group 16 (gray0): Final=449.6, Time=97.6, Moves(21)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE StockWish (yellow): Final=591.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:25] MOVE 106: CybSec (red) 71->61 [0.00ms]
+[2026-05-22 10:39:25] SCORE CybSec (red): Final=496.0, Time=88.0, Moves(22)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE AlphaZeroClue (blue): Final=580.3, Time=62.3, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE group 99 (lawn green): Final=685.6, Time=73.6, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE Group 16 (gray0): Final=449.6, Time=97.6, Moves(21)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE StockWish (yellow): Final=591.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:26] MOVE 107: group 99 (lawn green) 29->23 [0.00ms]
+[2026-05-22 10:39:26] SCORE CybSec (red): Final=496.0, Time=88.0, Moves(22)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE AlphaZeroClue (blue): Final=580.3, Time=62.3, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE group 99 (lawn green): Final=690.6, Time=72.6, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE Group 16 (gray0): Final=449.6, Time=97.6, Moves(21)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE StockWish (yellow): Final=591.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:26] MOVE 108: StockWish (yellow) 82->84 [0.00ms]
+[2026-05-22 10:39:26] SCORE CybSec (red): Final=496.0, Time=88.0, Moves(22)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE AlphaZeroClue (blue): Final=580.3, Time=62.3, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE group 99 (lawn green): Final=690.6, Time=72.6, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE Group 16 (gray0): Final=449.6, Time=97.6, Moves(21)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 109: AlphaZeroClue (blue) 28->40 [0.01ms]
+[2026-05-22 10:39:28] SCORE CybSec (red): Final=496.0, Time=88.0, Moves(22)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE AlphaZeroClue (blue): Final=580.5, Time=60.5, Moves(22)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE group 99 (lawn green): Final=690.6, Time=72.6, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Group 16 (gray0): Final=449.6, Time=97.6, Moves(21)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 110: Group 16 (gray0) 89->78 [0.01ms]
+[2026-05-22 10:39:28] SCORE CybSec (red): Final=496.0, Time=88.0, Moves(22)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE AlphaZeroClue (blue): Final=580.5, Time=60.5, Moves(22)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE group 99 (lawn green): Final=690.6, Time=72.6, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Group 16 (gray0): Final=451.5, Time=97.5, Moves(22)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 111: CybSec (red) 16->7 [0.01ms]
+[2026-05-22 10:39:28] SCORE CybSec (red): Final=597.8, Time=87.8, Moves(23)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE AlphaZeroClue (blue): Final=580.5, Time=60.5, Moves(22)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE group 99 (lawn green): Final=690.6, Time=72.6, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Group 16 (gray0): Final=451.5, Time=97.5, Moves(22)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 112: group 99 (lawn green) 53->6 [0.00ms]
+[2026-05-22 10:39:30] SCORE CybSec (red): Final=597.8, Time=87.8, Moves(23)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE AlphaZeroClue (blue): Final=580.5, Time=60.5, Moves(22)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE group 99 (lawn green): Final=693.1, Time=71.1, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Group 16 (gray0): Final=451.5, Time=97.5, Moves(22)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(22)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 113: StockWish (yellow) 84->96 [0.00ms]
+[2026-05-22 10:39:30] SCORE CybSec (red): Final=597.8, Time=87.8, Moves(23)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE AlphaZeroClue (blue): Final=580.5, Time=60.5, Moves(22)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE group 99 (lawn green): Final=693.1, Time=71.1, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Group 16 (gray0): Final=451.5, Time=97.5, Moves(22)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(23)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:31] MOVE 114: AlphaZeroClue (blue) 31->43 [0.00ms]
+[2026-05-22 10:39:31] SCORE CybSec (red): Final=597.8, Time=87.8, Moves(23)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE AlphaZeroClue (blue): Final=580.8, Time=58.8, Moves(23)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE group 99 (lawn green): Final=693.1, Time=71.1, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE Group 16 (gray0): Final=451.5, Time=97.5, Moves(22)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(23)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:31] MOVE 115: Group 16 (gray0) 58->79 [0.00ms]
+[2026-05-22 10:39:31] SCORE CybSec (red): Final=597.8, Time=87.8, Moves(23)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE AlphaZeroClue (blue): Final=580.8, Time=58.8, Moves(23)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE group 99 (lawn green): Final=693.1, Time=71.1, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE Group 16 (gray0): Final=451.4, Time=97.4, Moves(23)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(23)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:32] MOVE 116: CybSec (red) 62->53 [0.00ms]
+[2026-05-22 10:39:32] SCORE CybSec (red): Final=599.7, Time=87.7, Moves(24)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE AlphaZeroClue (blue): Final=580.8, Time=58.8, Moves(23)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE group 99 (lawn green): Final=693.1, Time=71.1, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE Group 16 (gray0): Final=451.4, Time=97.4, Moves(23)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(23)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 117: group 99 (lawn green) 6->71 [0.00ms]
+[2026-05-22 10:39:33] SCORE CybSec (red): Final=599.7, Time=87.7, Moves(24)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE AlphaZeroClue (blue): Final=580.8, Time=58.8, Moves(23)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE group 99 (lawn green): Final=692.0, Time=70.0, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Group 16 (gray0): Final=451.4, Time=97.4, Moves(23)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE StockWish (yellow): Final=695.6, Time=95.6, Moves(23)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 118: StockWish (yellow) 96->109 [0.00ms]
+[2026-05-22 10:39:33] SCORE CybSec (red): Final=599.7, Time=87.7, Moves(24)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE AlphaZeroClue (blue): Final=580.8, Time=58.8, Moves(23)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE group 99 (lawn green): Final=692.0, Time=70.0, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Group 16 (gray0): Final=451.4, Time=97.4, Moves(23)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE StockWish (yellow): Final=695.5, Time=95.5, Moves(24)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 119: AlphaZeroClue (blue) 43->117 [0.01ms]
+[2026-05-22 10:39:35] SCORE CybSec (red): Final=599.7, Time=87.7, Moves(24)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE AlphaZeroClue (blue): Final=693.0, Time=57.0, Moves(24)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE group 99 (lawn green): Final=692.0, Time=70.0, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Group 16 (gray0): Final=451.4, Time=97.4, Moves(23)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE StockWish (yellow): Final=695.5, Time=95.5, Moves(24)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 120: Group 16 (gray0) 90->89 [0.01ms]
+[2026-05-22 10:39:35] SCORE CybSec (red): Final=599.7, Time=87.7, Moves(24)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE AlphaZeroClue (blue): Final=693.0, Time=57.0, Moves(24)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE group 99 (lawn green): Final=692.0, Time=70.0, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Group 16 (gray0): Final=449.3, Time=97.3, Moves(24)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE StockWish (yellow): Final=695.5, Time=95.5, Moves(24)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 121: CybSec (red) 61->38 [0.01ms]
+[2026-05-22 10:39:35] SCORE CybSec (red): Final=603.3, Time=87.3, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE AlphaZeroClue (blue): Final=693.0, Time=57.0, Moves(24)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE group 99 (lawn green): Final=692.0, Time=70.0, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Group 16 (gray0): Final=449.3, Time=97.3, Moves(24)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE StockWish (yellow): Final=695.5, Time=95.5, Moves(24)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:36] MOVE 122: group 99 (lawn green) 71->70 [0.01ms]
+[2026-05-22 10:39:36] SCORE CybSec (red): Final=603.3, Time=87.3, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE AlphaZeroClue (blue): Final=693.0, Time=57.0, Moves(24)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE group 99 (lawn green): Final=692.9, Time=68.9, Moves(25)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE Group 16 (gray0): Final=449.3, Time=97.3, Moves(24)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE StockWish (yellow): Final=695.5, Time=95.5, Moves(24)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:39:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:36] MOVE 123: StockWish (yellow) 24->36 [0.01ms]
+[2026-05-22 10:39:36] SCORE CybSec (red): Final=603.3, Time=87.3, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE AlphaZeroClue (blue): Final=693.0, Time=57.0, Moves(24)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE group 99 (lawn green): Final=692.9, Time=68.9, Moves(25)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE Group 16 (gray0): Final=449.3, Time=97.3, Moves(24)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE StockWish (yellow): Final=697.4, Time=95.4, Moves(25)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:38] MOVE 124: AlphaZeroClue (blue) 69->51 [0.00ms]
+[2026-05-22 10:39:38] SCORE CybSec (red): Final=603.3, Time=87.3, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE AlphaZeroClue (blue): Final=687.3, Time=55.3, Moves(25)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE group 99 (lawn green): Final=692.9, Time=68.9, Moves(25)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE Group 16 (gray0): Final=449.3, Time=97.3, Moves(24)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE StockWish (yellow): Final=697.4, Time=95.4, Moves(25)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:38] MOVE 125: Group 16 (gray0) 78->61 [0.00ms]
+[2026-05-22 10:39:38] SCORE CybSec (red): Final=603.3, Time=87.3, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE AlphaZeroClue (blue): Final=687.3, Time=55.3, Moves(25)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE group 99 (lawn green): Final=692.9, Time=68.9, Moves(25)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE Group 16 (gray0): Final=457.2, Time=97.2, Moves(25)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE StockWish (yellow): Final=697.4, Time=95.4, Moves(25)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:38] MOVE 126: CybSec (red) 112->104 [0.01ms]
+[2026-05-22 10:39:38] SCORE CybSec (red): Final=604.9, Time=86.9, Moves(26)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE AlphaZeroClue (blue): Final=687.3, Time=55.3, Moves(25)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE group 99 (lawn green): Final=692.9, Time=68.9, Moves(25)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE Group 16 (gray0): Final=457.2, Time=97.2, Moves(25)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE StockWish (yellow): Final=697.4, Time=95.4, Moves(25)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:40] MOVE 127: group 99 (lawn green) 70->69 [0.00ms]
+[2026-05-22 10:39:40] SCORE CybSec (red): Final=604.9, Time=86.9, Moves(26)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE AlphaZeroClue (blue): Final=687.3, Time=55.3, Moves(25)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE group 99 (lawn green): Final=693.7, Time=67.7, Moves(26)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE Group 16 (gray0): Final=457.2, Time=97.2, Moves(25)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE StockWish (yellow): Final=697.4, Time=95.4, Moves(25)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:40] MOVE 128: StockWish (yellow) 60->110 [0.00ms]
+[2026-05-22 10:39:40] SCORE CybSec (red): Final=604.9, Time=86.9, Moves(26)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE AlphaZeroClue (blue): Final=687.3, Time=55.3, Moves(25)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE group 99 (lawn green): Final=693.7, Time=67.7, Moves(26)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE Group 16 (gray0): Final=457.2, Time=97.2, Moves(25)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE StockWish (yellow): Final=807.4, Time=95.4, Moves(26)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 129: AlphaZeroClue (blue) 68->113 [0.01ms]
+[2026-05-22 10:39:42] SCORE CybSec (red): Final=604.9, Time=86.9, Moves(26)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE AlphaZeroClue (blue): Final=793.5, Time=53.5, Moves(26)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE group 99 (lawn green): Final=693.7, Time=67.7, Moves(26)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Group 16 (gray0): Final=457.2, Time=97.2, Moves(25)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE StockWish (yellow): Final=807.4, Time=95.4, Moves(26)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 130: Group 16 (gray0) 61->52 [0.01ms]
+[2026-05-22 10:39:42] SCORE CybSec (red): Final=604.9, Time=86.9, Moves(26)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE AlphaZeroClue (blue): Final=793.5, Time=53.5, Moves(26)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE group 99 (lawn green): Final=693.7, Time=67.7, Moves(26)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Group 16 (gray0): Final=459.2, Time=97.2, Moves(26)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE StockWish (yellow): Final=807.4, Time=95.4, Moves(26)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 131: CybSec (red) 15->6 [0.01ms]
+[2026-05-22 10:39:42] SCORE CybSec (red): Final=706.5, Time=86.5, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE AlphaZeroClue (blue): Final=793.5, Time=53.5, Moves(26)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE group 99 (lawn green): Final=693.7, Time=67.7, Moves(26)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Group 16 (gray0): Final=459.2, Time=97.2, Moves(26)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE StockWish (yellow): Final=807.4, Time=95.4, Moves(26)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:43] MOVE 132: group 99 (lawn green) 76->65 [0.01ms]
+[2026-05-22 10:39:43] SCORE CybSec (red): Final=706.5, Time=86.5, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE AlphaZeroClue (blue): Final=793.5, Time=53.5, Moves(26)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE group 99 (lawn green): Final=692.4, Time=66.4, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE Group 16 (gray0): Final=459.2, Time=97.2, Moves(26)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE StockWish (yellow): Final=807.4, Time=95.4, Moves(26)=0.0, Pins(4)=400.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:44] MOVE 133: StockWish (yellow) 37->85 [0.01ms]
+[2026-05-22 10:39:44] SCORE CybSec (red): Final=706.5, Time=86.5, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE AlphaZeroClue (blue): Final=793.5, Time=53.5, Moves(26)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE group 99 (lawn green): Final=692.4, Time=66.4, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE Group 16 (gray0): Final=459.2, Time=97.2, Moves(26)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE StockWish (yellow): Final=925.1, Time=95.1, Moves(27)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 134: AlphaZeroClue (blue) 40->82 [0.00ms]
+[2026-05-22 10:39:46] SCORE CybSec (red): Final=706.5, Time=86.5, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE AlphaZeroClue (blue): Final=799.6, Time=51.6, Moves(27)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE group 99 (lawn green): Final=692.4, Time=66.4, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Group 16 (gray0): Final=459.2, Time=97.2, Moves(26)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE StockWish (yellow): Final=925.1, Time=95.1, Moves(27)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 135: Group 16 (gray0) 79->60 [0.00ms]
+[2026-05-22 10:39:46] SCORE CybSec (red): Final=706.5, Time=86.5, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE AlphaZeroClue (blue): Final=799.6, Time=51.6, Moves(27)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE group 99 (lawn green): Final=692.4, Time=66.4, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Group 16 (gray0): Final=463.1, Time=97.0, Moves(27)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE StockWish (yellow): Final=925.1, Time=95.1, Moves(27)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 136: CybSec (red) 38->15 [0.00ms]
+[2026-05-22 10:39:46] SCORE CybSec (red): Final=710.3, Time=86.2, Moves(28)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE AlphaZeroClue (blue): Final=799.6, Time=51.6, Moves(27)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE group 99 (lawn green): Final=692.4, Time=66.4, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Group 16 (gray0): Final=463.1, Time=97.0, Moves(27)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE StockWish (yellow): Final=925.1, Time=95.1, Moves(27)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:47] MOVE 137: group 99 (lawn green) 57->76 [0.01ms]
+[2026-05-22 10:39:47] SCORE CybSec (red): Final=710.3, Time=86.2, Moves(28)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE AlphaZeroClue (blue): Final=799.6, Time=51.6, Moves(27)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE group 99 (lawn green): Final=795.3, Time=65.3, Moves(28)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE Group 16 (gray0): Final=463.1, Time=97.0, Moves(27)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE StockWish (yellow): Final=925.1, Time=95.1, Moves(27)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:47] MOVE 138: StockWish (yellow) 36->59 [0.00ms]
+[2026-05-22 10:39:47] SCORE CybSec (red): Final=710.3, Time=86.2, Moves(28)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE AlphaZeroClue (blue): Final=799.6, Time=51.6, Moves(27)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE group 99 (lawn green): Final=795.3, Time=65.3, Moves(28)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE Group 16 (gray0): Final=463.1, Time=97.0, Moves(27)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE StockWish (yellow): Final=933.0, Time=95.0, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:49] MOVE 139: AlphaZeroClue (blue) 114->119 [0.01ms]
+[2026-05-22 10:39:49] SCORE CybSec (red): Final=710.3, Time=86.2, Moves(28)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE AlphaZeroClue (blue): Final=797.8, Time=49.8, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE group 99 (lawn green): Final=795.3, Time=65.3, Moves(28)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE Group 16 (gray0): Final=463.1, Time=97.0, Moves(27)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE StockWish (yellow): Final=933.0, Time=95.0, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:49] MOVE 140: Group 16 (gray0) 60->43 [0.01ms]
+[2026-05-22 10:39:49] SCORE CybSec (red): Final=710.3, Time=86.2, Moves(28)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE AlphaZeroClue (blue): Final=797.8, Time=49.8, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE group 99 (lawn green): Final=795.3, Time=65.3, Moves(28)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE Group 16 (gray0): Final=471.0, Time=97.0, Moves(28)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE StockWish (yellow): Final=933.0, Time=95.0, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:49] MOVE 141: CybSec (red) 53->42 [0.00ms]
+[2026-05-22 10:39:49] SCORE CybSec (red): Final=711.8, Time=85.8, Moves(29)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE AlphaZeroClue (blue): Final=797.8, Time=49.8, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE group 99 (lawn green): Final=795.3, Time=65.3, Moves(28)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE Group 16 (gray0): Final=471.0, Time=97.0, Moves(28)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE StockWish (yellow): Final=933.0, Time=95.0, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:51] MOVE 142: group 99 (lawn green) 55->1 [0.01ms]
+[2026-05-22 10:39:51] SCORE CybSec (red): Final=711.8, Time=85.8, Moves(29)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE AlphaZeroClue (blue): Final=797.8, Time=49.8, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE group 99 (lawn green): Final=798.1, Time=64.1, Moves(29)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE Group 16 (gray0): Final=471.0, Time=97.0, Moves(28)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE StockWish (yellow): Final=933.0, Time=95.0, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:51] MOVE 143: StockWish (yellow) 74->97 [0.00ms]
+[2026-05-22 10:39:51] SCORE CybSec (red): Final=711.8, Time=85.8, Moves(29)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE AlphaZeroClue (blue): Final=797.8, Time=49.8, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE group 99 (lawn green): Final=798.1, Time=64.1, Moves(29)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE Group 16 (gray0): Final=471.0, Time=97.0, Moves(28)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE StockWish (yellow): Final=932.9, Time=94.8, Moves(29)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 144: AlphaZeroClue (blue) 119->120 [0.01ms]
+[2026-05-22 10:39:53] SCORE CybSec (red): Final=711.8, Time=85.8, Moves(29)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE AlphaZeroClue (blue): Final=796.1, Time=48.1, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE group 99 (lawn green): Final=798.1, Time=64.1, Moves(29)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Group 16 (gray0): Final=471.0, Time=97.0, Moves(28)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE StockWish (yellow): Final=932.9, Time=94.8, Moves(29)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 145: Group 16 (gray0) 56->79 [0.00ms]
+[2026-05-22 10:39:53] SCORE CybSec (red): Final=711.8, Time=85.8, Moves(29)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE AlphaZeroClue (blue): Final=796.1, Time=48.1, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE group 99 (lawn green): Final=798.1, Time=64.1, Moves(29)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Group 16 (gray0): Final=475.0, Time=96.9, Moves(29)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE StockWish (yellow): Final=932.9, Time=94.8, Moves(29)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 146: CybSec (red) 14->0 [0.00ms]
+[2026-05-22 10:39:53] SCORE CybSec (red): Final=813.7, Time=85.6, Moves(30)=0.1, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE AlphaZeroClue (blue): Final=796.1, Time=48.1, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE group 99 (lawn green): Final=798.1, Time=64.1, Moves(29)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Group 16 (gray0): Final=475.0, Time=96.9, Moves(29)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE StockWish (yellow): Final=932.9, Time=94.8, Moves(29)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:54] MOVE 147: group 99 (lawn green) 69->88 [0.01ms]
+[2026-05-22 10:39:54] SCORE CybSec (red): Final=813.7, Time=85.6, Moves(30)=0.1, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE AlphaZeroClue (blue): Final=796.1, Time=48.1, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE group 99 (lawn green): Final=904.8, Time=62.7, Moves(30)=0.1, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE Group 16 (gray0): Final=475.0, Time=96.9, Moves(29)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE StockWish (yellow): Final=932.9, Time=94.8, Moves(29)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:54] MOVE 148: StockWish (yellow) 59->69 [0.01ms]
+[2026-05-22 10:39:54] SCORE CybSec (red): Final=813.7, Time=85.6, Moves(30)=0.1, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE AlphaZeroClue (blue): Final=796.1, Time=48.1, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE group 99 (lawn green): Final=904.8, Time=62.7, Moves(30)=0.1, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE Group 16 (gray0): Final=475.0, Time=96.9, Moves(29)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE StockWish (yellow): Final=934.8, Time=94.8, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:56] MOVE 149: AlphaZeroClue (blue) 73->64 [0.01ms]
+[2026-05-22 10:39:56] SCORE CybSec (red): Final=813.7, Time=85.6, Moves(30)=0.1, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE AlphaZeroClue (blue): Final=792.4, Time=46.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE group 99 (lawn green): Final=904.8, Time=62.7, Moves(30)=0.1, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE Group 16 (gray0): Final=475.0, Time=96.9, Moves(29)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE StockWish (yellow): Final=934.8, Time=94.8, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:56] MOVE 150: Group 16 (gray0) 79->62 [0.01ms]
+[2026-05-22 10:39:56] SCORE CybSec (red): Final=813.7, Time=85.6, Moves(30)=0.1, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE AlphaZeroClue (blue): Final=792.4, Time=46.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE group 99 (lawn green): Final=904.8, Time=62.7, Moves(30)=0.1, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE Group 16 (gray0): Final=482.9, Time=96.8, Moves(30)=0.1, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE StockWish (yellow): Final=934.8, Time=94.8, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:56] MOVE 151: CybSec (red) 111->103 [0.01ms]
+[2026-05-22 10:39:56] SCORE CybSec (red): Final=815.6, Time=85.3, Moves(31)=0.2, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE AlphaZeroClue (blue): Final=792.4, Time=46.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE group 99 (lawn green): Final=904.8, Time=62.7, Moves(30)=0.1, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE Group 16 (gray0): Final=482.9, Time=96.8, Moves(30)=0.1, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE StockWish (yellow): Final=934.8, Time=94.8, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:58] MOVE 152: group 99 (lawn green) 1->71 [0.01ms]
+[2026-05-22 10:39:58] SCORE CybSec (red): Final=815.6, Time=85.3, Moves(31)=0.2, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE AlphaZeroClue (blue): Final=792.4, Time=46.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE group 99 (lawn green): Final=907.5, Time=61.3, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE Group 16 (gray0): Final=482.9, Time=96.8, Moves(30)=0.1, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE StockWish (yellow): Final=934.8, Time=94.8, Moves(30)=0.1, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:58] MOVE 153: StockWish (yellow) 26->38 [0.01ms]
+[2026-05-22 10:39:58] SCORE CybSec (red): Final=815.6, Time=85.3, Moves(31)=0.2, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE AlphaZeroClue (blue): Final=792.4, Time=46.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE group 99 (lawn green): Final=907.5, Time=61.3, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE Group 16 (gray0): Final=482.9, Time=96.8, Moves(30)=0.1, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:58] SCORE StockWish (yellow): Final=936.9, Time=94.7, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:00] MOVE 154: AlphaZeroClue (blue) 64->73 [0.01ms]
+[2026-05-22 10:40:00] SCORE CybSec (red): Final=815.6, Time=85.3, Moves(31)=0.2, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE AlphaZeroClue (blue): Final=792.8, Time=44.5, Moves(31)=0.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE group 99 (lawn green): Final=907.5, Time=61.3, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE Group 16 (gray0): Final=482.9, Time=96.8, Moves(30)=0.1, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE StockWish (yellow): Final=936.9, Time=94.7, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:40:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:00] MOVE 155: Group 16 (gray0) 22->45 [0.01ms]
+[2026-05-22 10:40:00] SCORE CybSec (red): Final=815.6, Time=85.3, Moves(31)=0.2, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE AlphaZeroClue (blue): Final=792.8, Time=44.5, Moves(31)=0.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE group 99 (lawn green): Final=907.5, Time=61.3, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE Group 16 (gray0): Final=482.9, Time=96.7, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE StockWish (yellow): Final=936.9, Time=94.7, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:40:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:00] MOVE 156: CybSec (red) 118->91 [0.01ms]
+[2026-05-22 10:40:00] SCORE CybSec (red): Final=823.5, Time=85.0, Moves(32)=0.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE AlphaZeroClue (blue): Final=792.8, Time=44.5, Moves(31)=0.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE group 99 (lawn green): Final=907.5, Time=61.3, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE Group 16 (gray0): Final=482.9, Time=96.7, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:00] SCORE StockWish (yellow): Final=936.9, Time=94.7, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:40:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:01] MOVE 157: group 99 (lawn green) 34->1 [0.01ms]
+[2026-05-22 10:40:01] SCORE CybSec (red): Final=823.5, Time=85.0, Moves(32)=0.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE AlphaZeroClue (blue): Final=792.8, Time=44.5, Moves(31)=0.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE group 99 (lawn green): Final=914.7, Time=60.2, Moves(32)=0.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE Group 16 (gray0): Final=482.9, Time=96.7, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE StockWish (yellow): Final=936.9, Time=94.7, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:40:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:01] MOVE 158: StockWish (yellow) 38->59 [0.01ms]
+[2026-05-22 10:40:01] SCORE CybSec (red): Final=823.5, Time=85.0, Moves(32)=0.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE AlphaZeroClue (blue): Final=792.8, Time=44.5, Moves(31)=0.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE group 99 (lawn green): Final=914.7, Time=60.2, Moves(32)=0.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE Group 16 (gray0): Final=482.9, Time=96.7, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:01] SCORE StockWish (yellow): Final=941.1, Time=94.6, Moves(32)=0.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:03] MOVE 159: AlphaZeroClue (blue) 72->93 [0.01ms]
+[2026-05-22 10:40:03] SCORE CybSec (red): Final=823.5, Time=85.0, Moves(32)=0.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE AlphaZeroClue (blue): Final=795.4, Time=42.9, Moves(32)=0.5, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE group 99 (lawn green): Final=914.7, Time=60.2, Moves(32)=0.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE Group 16 (gray0): Final=482.9, Time=96.7, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE StockWish (yellow): Final=941.1, Time=94.6, Moves(32)=0.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:03] MOVE 160: Group 16 (gray0) 45->34 [0.00ms]
+[2026-05-22 10:40:03] SCORE CybSec (red): Final=823.5, Time=85.0, Moves(32)=0.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE AlphaZeroClue (blue): Final=795.4, Time=42.9, Moves(32)=0.5, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE group 99 (lawn green): Final=914.7, Time=60.2, Moves(32)=0.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE Group 16 (gray0): Final=483.2, Time=96.6, Moves(32)=0.5, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE StockWish (yellow): Final=941.1, Time=94.6, Moves(32)=0.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:03] MOVE 161: CybSec (red) 104->58 [0.01ms]
+[2026-05-22 10:40:03] SCORE CybSec (red): Final=831.8, Time=84.7, Moves(33)=1.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE AlphaZeroClue (blue): Final=795.4, Time=42.9, Moves(32)=0.5, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE group 99 (lawn green): Final=914.7, Time=60.2, Moves(32)=0.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE Group 16 (gray0): Final=483.2, Time=96.6, Moves(32)=0.5, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:03] SCORE StockWish (yellow): Final=941.1, Time=94.6, Moves(32)=0.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:05] MOVE 162: group 99 (lawn green) 23->35 [0.01ms]
+[2026-05-22 10:40:05] SCORE CybSec (red): Final=831.8, Time=84.7, Moves(33)=1.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE AlphaZeroClue (blue): Final=795.4, Time=42.9, Moves(32)=0.5, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE group 99 (lawn green): Final=916.1, Time=59.0, Moves(33)=1.1, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE Group 16 (gray0): Final=483.2, Time=96.6, Moves(32)=0.5, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE StockWish (yellow): Final=941.1, Time=94.6, Moves(32)=0.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:05] MOVE 163: StockWish (yellow) 69->70 [0.01ms]
+[2026-05-22 10:40:05] SCORE CybSec (red): Final=831.8, Time=84.7, Moves(33)=1.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE AlphaZeroClue (blue): Final=795.4, Time=42.9, Moves(32)=0.5, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE group 99 (lawn green): Final=916.1, Time=59.0, Moves(33)=1.1, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE Group 16 (gray0): Final=483.2, Time=96.6, Moves(32)=0.5, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:05] SCORE StockWish (yellow): Final=943.6, Time=94.5, Moves(33)=1.1, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:07] MOVE 164: AlphaZeroClue (blue) 82->105 [0.01ms]
+[2026-05-22 10:40:07] SCORE CybSec (red): Final=831.8, Time=84.7, Moves(33)=1.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE AlphaZeroClue (blue): Final=798.1, Time=41.0, Moves(33)=1.1, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE group 99 (lawn green): Final=916.1, Time=59.0, Moves(33)=1.1, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE Group 16 (gray0): Final=483.2, Time=96.6, Moves(32)=0.5, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE StockWish (yellow): Final=943.6, Time=94.5, Moves(33)=1.1, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:07] MOVE 165: Group 16 (gray0) 52->53 [0.01ms]
+[2026-05-22 10:40:07] SCORE CybSec (red): Final=831.8, Time=84.7, Moves(33)=1.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE AlphaZeroClue (blue): Final=798.1, Time=41.0, Moves(33)=1.1, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE group 99 (lawn green): Final=916.1, Time=59.0, Moves(33)=1.1, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE Group 16 (gray0): Final=485.7, Time=96.6, Moves(33)=1.1, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE StockWish (yellow): Final=943.6, Time=94.5, Moves(33)=1.1, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:07] MOVE 166: CybSec (red) 58->37 [0.00ms]
+[2026-05-22 10:40:07] SCORE CybSec (red): Final=836.6, Time=84.4, Moves(34)=2.3, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE AlphaZeroClue (blue): Final=798.1, Time=41.0, Moves(33)=1.1, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE group 99 (lawn green): Final=916.1, Time=59.0, Moves(33)=1.1, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE Group 16 (gray0): Final=485.7, Time=96.6, Moves(33)=1.1, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:40:07] SCORE StockWish (yellow): Final=943.6, Time=94.5, Moves(33)=1.1, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:08] MOVE 167: group 99 (lawn green) 35->75 [0.01ms]
+[2026-05-22 10:40:08] SCORE CybSec (red): Final=836.6, Time=84.4, Moves(34)=2.3, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE AlphaZeroClue (blue): Final=798.1, Time=41.0, Moves(33)=1.1, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE group 99 (lawn green): Final=1022.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE Group 16 (gray0): Final=485.7, Time=96.6, Moves(33)=1.1, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE StockWish (yellow): Final=943.6, Time=94.5, Moves(33)=1.1, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:40:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:08] MOVE 168: StockWish (yellow) 70->74 [0.01ms]
+[2026-05-22 10:40:08] SCORE CybSec (red): Final=836.6, Time=84.4, Moves(34)=2.3, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE AlphaZeroClue (blue): Final=798.1, Time=41.0, Moves(33)=1.1, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE group 99 (lawn green): Final=1022.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE Group 16 (gray0): Final=485.7, Time=96.6, Moves(33)=1.1, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:40:08] SCORE StockWish (yellow): Final=1052.7, Time=94.4, Moves(34)=2.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:10] MOVE 169: AlphaZeroClue (blue) 54->72 [0.01ms]
+[2026-05-22 10:40:10] SCORE CybSec (red): Final=836.6, Time=84.4, Moves(34)=2.3, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE AlphaZeroClue (blue): Final=801.5, Time=39.2, Moves(34)=2.3, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE group 99 (lawn green): Final=1022.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE Group 16 (gray0): Final=485.7, Time=96.6, Moves(33)=1.1, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE StockWish (yellow): Final=1052.7, Time=94.4, Moves(34)=2.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:10] MOVE 170: Group 16 (gray0) 43->44 [0.01ms]
+[2026-05-22 10:40:10] SCORE CybSec (red): Final=836.6, Time=84.4, Moves(34)=2.3, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE AlphaZeroClue (blue): Final=801.5, Time=39.2, Moves(34)=2.3, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE group 99 (lawn green): Final=1022.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE Group 16 (gray0): Final=588.8, Time=96.5, Moves(34)=2.3, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:40:10] SCORE StockWish (yellow): Final=1052.7, Time=94.4, Moves(34)=2.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:11] MOVE 171: CybSec (red) 103->80 [0.01ms]
+[2026-05-22 10:40:11] SCORE CybSec (red): Final=842.5, Time=84.1, Moves(35)=4.4, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:11] SCORE AlphaZeroClue (blue): Final=801.5, Time=39.2, Moves(34)=2.3, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:11] SCORE group 99 (lawn green): Final=1022.0, Time=57.7, Moves(34)=2.3, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:11] SCORE Group 16 (gray0): Final=588.8, Time=96.5, Moves(34)=2.3, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:40:11] SCORE StockWish (yellow): Final=1052.7, Time=94.4, Moves(34)=2.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:12] MOVE 172: group 99 (lawn green) 1->30 [0.01ms]
+[2026-05-22 10:40:12] SCORE CybSec (red): Final=842.5, Time=84.1, Moves(35)=4.4, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE AlphaZeroClue (blue): Final=801.5, Time=39.2, Moves(34)=2.3, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE group 99 (lawn green): Final=1023.0, Time=56.6, Moves(35)=4.4, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE Group 16 (gray0): Final=588.8, Time=96.5, Moves(34)=2.3, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE StockWish (yellow): Final=1052.7, Time=94.4, Moves(34)=2.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:40:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:12] MOVE 173: StockWish (yellow) 49->50 [0.00ms]
+[2026-05-22 10:40:12] SCORE CybSec (red): Final=842.5, Time=84.1, Moves(35)=4.4, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE AlphaZeroClue (blue): Final=801.5, Time=39.2, Moves(34)=2.3, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE group 99 (lawn green): Final=1023.0, Time=56.6, Moves(35)=4.4, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE Group 16 (gray0): Final=588.8, Time=96.5, Moves(34)=2.3, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:40:12] SCORE StockWish (yellow): Final=1056.7, Time=94.4, Moves(35)=4.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:13] MOVE 174: AlphaZeroClue (blue) 51->119 [0.01ms]
+[2026-05-22 10:40:13] SCORE CybSec (red): Final=842.5, Time=84.1, Moves(35)=4.4, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:13] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:13] SCORE group 99 (lawn green): Final=1023.0, Time=56.6, Moves(35)=4.4, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:13] SCORE Group 16 (gray0): Final=588.8, Time=96.5, Moves(34)=2.3, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:40:13] SCORE StockWish (yellow): Final=1056.7, Time=94.4, Moves(35)=4.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:14] MOVE 175: Group 16 (gray0) 62->22 [0.01ms]
+[2026-05-22 10:40:14] SCORE CybSec (red): Final=842.5, Time=84.1, Moves(35)=4.4, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE group 99 (lawn green): Final=1023.0, Time=56.6, Moves(35)=4.4, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE Group 16 (gray0): Final=696.8, Time=96.4, Moves(35)=4.4, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE StockWish (yellow): Final=1056.7, Time=94.4, Moves(35)=4.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:14] MOVE 176: CybSec (red) 91->70 [0.01ms]
+[2026-05-22 10:40:14] SCORE CybSec (red): Final=849.9, Time=83.9, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE group 99 (lawn green): Final=1023.0, Time=56.6, Moves(35)=4.4, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE Group 16 (gray0): Final=696.8, Time=96.4, Moves(35)=4.4, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:14] SCORE StockWish (yellow): Final=1056.7, Time=94.4, Moves(35)=4.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:15] MOVE 177: group 99 (lawn green) 71->112 [0.00ms]
+[2026-05-22 10:40:15] SCORE CybSec (red): Final=849.9, Time=83.9, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE group 99 (lawn green): Final=1031.5, Time=55.6, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE Group 16 (gray0): Final=696.8, Time=96.4, Moves(35)=4.4, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE StockWish (yellow): Final=1056.7, Time=94.4, Moves(35)=4.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:15] MOVE 178: StockWish (yellow) 50->60 [0.01ms]
+[2026-05-22 10:40:15] SCORE CybSec (red): Final=849.9, Time=83.9, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE group 99 (lawn green): Final=1031.5, Time=55.6, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE Group 16 (gray0): Final=696.8, Time=96.4, Moves(35)=4.4, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:15] SCORE StockWish (yellow): Final=1062.1, Time=94.1, Moves(36)=8.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:40:17] SCORE CybSec (red): Final=849.9, Time=83.9, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE group 99 (lawn green): Final=1031.5, Time=55.6, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE Group 16 (gray0): Final=696.8, Time=96.4, Moves(35)=4.4, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE StockWish (yellow): Final=1062.1, Time=94.1, Moves(36)=8.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:17] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)']}
+[2026-05-22 10:40:17] TURN TIMEOUT: Player with colour blue exceeded 2s at move 179. Turn skipped.
+[2026-05-22 10:40:17] MOVE 180: Group 16 (gray0) 34->33 [0.00ms]
+[2026-05-22 10:40:17] SCORE CybSec (red): Final=849.9, Time=83.9, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE group 99 (lawn green): Final=1031.5, Time=55.6, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE Group 16 (gray0): Final=700.3, Time=96.4, Moves(36)=8.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE StockWish (yellow): Final=1062.1, Time=94.1, Moves(36)=8.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:17] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)']}
+[2026-05-22 10:40:17] MOVE 181: CybSec (red) 80->61 [0.01ms]
+[2026-05-22 10:40:17] SCORE CybSec (red): Final=859.4, Time=83.8, Moves(37)=13.5, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE group 99 (lawn green): Final=1031.5, Time=55.6, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE Group 16 (gray0): Final=700.3, Time=96.4, Moves(36)=8.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:17] SCORE StockWish (yellow): Final=1062.1, Time=94.1, Moves(36)=8.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:17] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)']}
+[2026-05-22 10:40:18] MOVE 182: group 99 (lawn green) 112->111 [0.01ms]
+[2026-05-22 10:40:18] SCORE CybSec (red): Final=859.4, Time=83.8, Moves(37)=13.5, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE group 99 (lawn green): Final=1037.9, Time=54.4, Moves(37)=13.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE Group 16 (gray0): Final=700.3, Time=96.4, Moves(36)=8.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE StockWish (yellow): Final=1062.1, Time=94.1, Moves(36)=8.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:40:18] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)']}
+[2026-05-22 10:40:18] MOVE 183: StockWish (yellow) 60->83 [0.01ms]
+[2026-05-22 10:40:18] SCORE CybSec (red): Final=859.4, Time=83.8, Moves(37)=13.5, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE group 99 (lawn green): Final=1037.9, Time=54.4, Moves(37)=13.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE Group 16 (gray0): Final=700.3, Time=96.4, Moves(36)=8.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:18] SCORE StockWish (yellow): Final=1075.6, Time=94.0, Moves(37)=13.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:18] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)']}
+[2026-05-22 10:40:20] SCORE CybSec (red): Final=859.4, Time=83.8, Moves(37)=13.5, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:20] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:20] SCORE group 99 (lawn green): Final=1037.9, Time=54.4, Moves(37)=13.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:20] SCORE Group 16 (gray0): Final=700.3, Time=96.4, Moves(36)=8.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:20] SCORE StockWish (yellow): Final=1075.6, Time=94.0, Moves(37)=13.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:20] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:21] TURN TIMEOUT: Player with colour blue exceeded 2s at move 184. Turn skipped.
+[2026-05-22 10:40:21] MOVE 185: Group 16 (gray0) 22->34 [0.01ms]
+[2026-05-22 10:40:21] SCORE CybSec (red): Final=859.4, Time=83.8, Moves(37)=13.5, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE group 99 (lawn green): Final=1037.9, Time=54.4, Moves(37)=13.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE Group 16 (gray0): Final=705.4, Time=95.9, Moves(37)=13.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE StockWish (yellow): Final=1075.6, Time=94.0, Moves(37)=13.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:21] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:21] MOVE 186: CybSec (red) 70->9 [0.01ms]
+[2026-05-22 10:40:21] SCORE CybSec (red): Final=979.2, Time=83.6, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE group 99 (lawn green): Final=1037.9, Time=54.4, Moves(37)=13.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE Group 16 (gray0): Final=705.4, Time=95.9, Moves(37)=13.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:21] SCORE StockWish (yellow): Final=1075.6, Time=94.0, Moves(37)=13.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:21] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:23] MOVE 187: group 99 (lawn green) 30->41 [0.01ms]
+[2026-05-22 10:40:23] SCORE CybSec (red): Final=979.2, Time=83.6, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE group 99 (lawn green): Final=1046.7, Time=53.1, Moves(38)=21.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE Group 16 (gray0): Final=705.4, Time=95.9, Moves(37)=13.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE StockWish (yellow): Final=1075.6, Time=94.0, Moves(37)=13.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:40:23] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:23] MOVE 188: StockWish (yellow) 83->95 [0.01ms]
+[2026-05-22 10:40:23] SCORE CybSec (red): Final=979.2, Time=83.6, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE AlphaZeroClue (blue): Final=913.8, Time=37.4, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE group 99 (lawn green): Final=1046.7, Time=53.1, Moves(38)=21.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE Group 16 (gray0): Final=705.4, Time=95.9, Moves(37)=13.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:23] SCORE StockWish (yellow): Final=1185.4, Time=93.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:23] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:25] MOVE 189: AlphaZeroClue (blue) 120->118 [0.01ms]
+[2026-05-22 10:40:25] SCORE CybSec (red): Final=979.2, Time=83.6, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE AlphaZeroClue (blue): Final=915.4, Time=35.4, Moves(36)=8.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE group 99 (lawn green): Final=1046.7, Time=53.1, Moves(38)=21.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE Group 16 (gray0): Final=705.4, Time=95.9, Moves(37)=13.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE StockWish (yellow): Final=1185.4, Time=93.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:25] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:25] MOVE 190: Group 16 (gray0) 33->20 [0.01ms]
+[2026-05-22 10:40:25] SCORE CybSec (red): Final=979.2, Time=83.6, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE AlphaZeroClue (blue): Final=915.4, Time=35.4, Moves(36)=8.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE group 99 (lawn green): Final=1046.7, Time=53.1, Moves(38)=21.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE Group 16 (gray0): Final=713.4, Time=95.7, Moves(38)=21.6, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE StockWish (yellow): Final=1185.4, Time=93.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:25] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:25] MOVE 191: CybSec (red) 61->52 [0.00ms]
+[2026-05-22 10:40:25] SCORE CybSec (red): Final=991.9, Time=83.4, Moves(39)=32.5, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE AlphaZeroClue (blue): Final=915.4, Time=35.4, Moves(36)=8.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE group 99 (lawn green): Final=1046.7, Time=53.1, Moves(38)=21.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE Group 16 (gray0): Final=713.4, Time=95.7, Moves(38)=21.6, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:25] SCORE StockWish (yellow): Final=1185.4, Time=93.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:25] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:26] MOVE 192: group 99 (lawn green) 41->104 [0.01ms]
+[2026-05-22 10:40:26] SCORE CybSec (red): Final=991.9, Time=83.4, Moves(39)=32.5, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE AlphaZeroClue (blue): Final=915.4, Time=35.4, Moves(36)=8.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE group 99 (lawn green): Final=1064.3, Time=51.8, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE Group 16 (gray0): Final=713.4, Time=95.7, Moves(38)=21.6, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE StockWish (yellow): Final=1185.4, Time=93.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:26] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:26] MOVE 193: StockWish (yellow) 95->96 [0.01ms]
+[2026-05-22 10:40:26] SCORE CybSec (red): Final=991.9, Time=83.4, Moves(39)=32.5, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE AlphaZeroClue (blue): Final=915.4, Time=35.4, Moves(36)=8.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE group 99 (lawn green): Final=1064.3, Time=51.8, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE Group 16 (gray0): Final=713.4, Time=95.7, Moves(38)=21.6, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:26] SCORE StockWish (yellow): Final=1196.2, Time=93.7, Moves(39)=32.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:26] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:28] MOVE 194: AlphaZeroClue (blue) 93->106 [0.01ms]
+[2026-05-22 10:40:28] SCORE CybSec (red): Final=991.9, Time=83.4, Moves(39)=32.5, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE AlphaZeroClue (blue): Final=921.2, Time=33.6, Moves(37)=13.5, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE group 99 (lawn green): Final=1064.3, Time=51.8, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE Group 16 (gray0): Final=713.4, Time=95.7, Moves(38)=21.6, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE StockWish (yellow): Final=1196.2, Time=93.7, Moves(39)=32.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:28] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:28] MOVE 195: Group 16 (gray0) 44->45 [0.00ms]
+[2026-05-22 10:40:28] SCORE CybSec (red): Final=991.9, Time=83.4, Moves(39)=32.5, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE AlphaZeroClue (blue): Final=921.2, Time=33.6, Moves(37)=13.5, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE group 99 (lawn green): Final=1064.3, Time=51.8, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE Group 16 (gray0): Final=724.1, Time=95.7, Moves(39)=32.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:28] SCORE StockWish (yellow): Final=1196.2, Time=93.7, Moves(39)=32.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:28] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:29] MOVE 196: CybSec (red) 52->31 [0.01ms]
+[2026-05-22 10:40:29] SCORE CybSec (red): Final=1008.9, Time=83.1, Moves(40)=45.8, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:29] SCORE AlphaZeroClue (blue): Final=921.2, Time=33.6, Moves(37)=13.5, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:29] SCORE group 99 (lawn green): Final=1064.3, Time=51.8, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:29] SCORE Group 16 (gray0): Final=724.1, Time=95.7, Moves(39)=32.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:29] SCORE StockWish (yellow): Final=1196.2, Time=93.7, Moves(39)=32.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:29] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:30] MOVE 197: group 99 (lawn green) 104->103 [0.01ms]
+[2026-05-22 10:40:30] SCORE CybSec (red): Final=1008.9, Time=83.1, Moves(40)=45.8, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE AlphaZeroClue (blue): Final=921.2, Time=33.6, Moves(37)=13.5, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE group 99 (lawn green): Final=1078.5, Time=50.7, Moves(40)=45.8, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE Group 16 (gray0): Final=724.1, Time=95.7, Moves(39)=32.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE StockWish (yellow): Final=1196.2, Time=93.7, Moves(39)=32.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:30] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:30] MOVE 198: StockWish (yellow) 59->60 [0.01ms]
+[2026-05-22 10:40:30] SCORE CybSec (red): Final=1008.9, Time=83.1, Moves(40)=45.8, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE AlphaZeroClue (blue): Final=921.2, Time=33.6, Moves(37)=13.5, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE group 99 (lawn green): Final=1078.5, Time=50.7, Moves(40)=45.8, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE Group 16 (gray0): Final=724.1, Time=95.7, Moves(39)=32.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:30] SCORE StockWish (yellow): Final=1211.4, Time=93.6, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:30] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:32] MOVE 199: AlphaZeroClue (blue) 106->114 [0.01ms]
+[2026-05-22 10:40:32] SCORE CybSec (red): Final=1008.9, Time=83.1, Moves(40)=45.8, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE AlphaZeroClue (blue): Final=1029.6, Time=31.9, Moves(38)=21.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE group 99 (lawn green): Final=1078.5, Time=50.7, Moves(40)=45.8, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE Group 16 (gray0): Final=724.1, Time=95.7, Moves(39)=32.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE StockWish (yellow): Final=1211.4, Time=93.6, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:32] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:32] MOVE 200: Group 16 (gray0) 45->22 [0.01ms]
+[2026-05-22 10:40:32] SCORE CybSec (red): Final=1008.9, Time=83.1, Moves(40)=45.8, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE AlphaZeroClue (blue): Final=1029.6, Time=31.9, Moves(38)=21.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE group 99 (lawn green): Final=1078.5, Time=50.7, Moves(40)=45.8, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE Group 16 (gray0): Final=737.4, Time=95.6, Moves(40)=45.8, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE StockWish (yellow): Final=1211.4, Time=93.6, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:32] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:32] MOVE 201: CybSec (red) 31->18 [0.01ms]
+[2026-05-22 10:40:32] SCORE CybSec (red): Final=1025.5, Time=82.9, Moves(41)=60.7, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE AlphaZeroClue (blue): Final=1029.6, Time=31.9, Moves(38)=21.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE group 99 (lawn green): Final=1078.5, Time=50.7, Moves(40)=45.8, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE Group 16 (gray0): Final=737.4, Time=95.6, Moves(40)=45.8, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:32] SCORE StockWish (yellow): Final=1211.4, Time=93.6, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:32] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:33] MOVE 202: group 99 (lawn green) 46->56 [0.01ms]
+[2026-05-22 10:40:33] SCORE CybSec (red): Final=1025.5, Time=82.9, Moves(41)=60.7, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE AlphaZeroClue (blue): Final=1029.6, Time=31.9, Moves(38)=21.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE group 99 (lawn green): Final=1094.3, Time=49.7, Moves(41)=60.7, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE Group 16 (gray0): Final=737.4, Time=95.6, Moves(40)=45.8, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE StockWish (yellow): Final=1211.4, Time=93.6, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:40:33] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:33] MOVE 203: StockWish (yellow) 60->61 [0.00ms]
+[2026-05-22 10:40:33] SCORE CybSec (red): Final=1025.5, Time=82.9, Moves(41)=60.7, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE AlphaZeroClue (blue): Final=1029.6, Time=31.9, Moves(38)=21.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE group 99 (lawn green): Final=1094.3, Time=49.7, Moves(41)=60.7, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE Group 16 (gray0): Final=737.4, Time=95.6, Moves(40)=45.8, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:33] SCORE StockWish (yellow): Final=1228.2, Time=93.5, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:33] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:35] MOVE 204: AlphaZeroClue (blue) 117->83 [0.01ms]
+[2026-05-22 10:40:35] SCORE CybSec (red): Final=1025.5, Time=82.9, Moves(41)=60.7, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE AlphaZeroClue (blue): Final=932.7, Time=30.3, Moves(39)=32.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE group 99 (lawn green): Final=1094.3, Time=49.7, Moves(41)=60.7, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE Group 16 (gray0): Final=737.4, Time=95.6, Moves(40)=45.8, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE StockWish (yellow): Final=1228.2, Time=93.5, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:35] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:35] MOVE 205: Group 16 (gray0) 20->32 [0.01ms]
+[2026-05-22 10:40:35] SCORE CybSec (red): Final=1025.5, Time=82.9, Moves(41)=60.7, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE AlphaZeroClue (blue): Final=932.7, Time=30.3, Moves(39)=32.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE group 99 (lawn green): Final=1094.3, Time=49.7, Moves(41)=60.7, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE Group 16 (gray0): Final=752.1, Time=95.5, Moves(41)=60.7, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE StockWish (yellow): Final=1228.2, Time=93.5, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:35] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:35] MOVE 206: CybSec (red) 18->3 [0.01ms]
+[2026-05-22 10:40:35] SCORE CybSec (red): Final=1142.1, Time=82.6, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE AlphaZeroClue (blue): Final=932.7, Time=30.3, Moves(39)=32.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE group 99 (lawn green): Final=1094.3, Time=49.7, Moves(41)=60.7, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE Group 16 (gray0): Final=752.1, Time=95.5, Moves(41)=60.7, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:35] SCORE StockWish (yellow): Final=1228.2, Time=93.5, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:35] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:36] MOVE 207: group 99 (lawn green) 75->86 [0.01ms]
+[2026-05-22 10:40:36] SCORE CybSec (red): Final=1142.1, Time=82.6, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE AlphaZeroClue (blue): Final=932.7, Time=30.3, Moves(39)=32.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE group 99 (lawn green): Final=1108.0, Time=48.5, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE Group 16 (gray0): Final=752.1, Time=95.5, Moves(41)=60.7, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE StockWish (yellow): Final=1228.2, Time=93.5, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:40:36] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:36] MOVE 208: StockWish (yellow) 61->71 [0.01ms]
+[2026-05-22 10:40:36] SCORE CybSec (red): Final=1142.1, Time=82.6, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE AlphaZeroClue (blue): Final=932.7, Time=30.3, Moves(39)=32.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE group 99 (lawn green): Final=1108.0, Time=48.5, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE Group 16 (gray0): Final=752.1, Time=95.5, Moves(41)=60.7, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:36] SCORE StockWish (yellow): Final=1244.9, Time=93.4, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:36] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:38] MOVE 209: AlphaZeroClue (blue) 83->120 [0.01ms]
+[2026-05-22 10:40:38] SCORE CybSec (red): Final=1142.1, Time=82.6, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE AlphaZeroClue (blue): Final=1050.3, Time=28.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE group 99 (lawn green): Final=1108.0, Time=48.5, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE Group 16 (gray0): Final=752.1, Time=95.5, Moves(41)=60.7, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE StockWish (yellow): Final=1244.9, Time=93.4, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:38] MOVE 210: Group 16 (gray0) 102->20 [0.01ms]
+[2026-05-22 10:40:38] SCORE CybSec (red): Final=1142.1, Time=82.6, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE AlphaZeroClue (blue): Final=1050.3, Time=28.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE group 99 (lawn green): Final=1108.0, Time=48.5, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE Group 16 (gray0): Final=884.9, Time=95.4, Moves(42)=75.5, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE StockWish (yellow): Final=1244.9, Time=93.4, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:38] MOVE 211: CybSec (red) 37->26 [0.01ms]
+[2026-05-22 10:40:38] SCORE CybSec (red): Final=1156.7, Time=82.4, Moves(43)=88.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE AlphaZeroClue (blue): Final=1050.3, Time=28.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE group 99 (lawn green): Final=1108.0, Time=48.5, Moves(42)=75.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE Group 16 (gray0): Final=884.9, Time=95.4, Moves(42)=75.5, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:38] SCORE StockWish (yellow): Final=1244.9, Time=93.4, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:38] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:39] MOVE 212: group 99 (lawn green) 115->98 [0.01ms]
+[2026-05-22 10:40:39] SCORE CybSec (red): Final=1156.7, Time=82.4, Moves(43)=88.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:39] SCORE AlphaZeroClue (blue): Final=1050.3, Time=28.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:39] SCORE group 99 (lawn green): Final=1225.6, Time=47.4, Moves(43)=88.2, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:39] SCORE Group 16 (gray0): Final=884.9, Time=95.4, Moves(42)=75.5, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:39] SCORE StockWish (yellow): Final=1244.9, Time=93.4, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:39] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:40] MOVE 213: StockWish (yellow) 71->82 [0.01ms]
+[2026-05-22 10:40:40] SCORE CybSec (red): Final=1156.7, Time=82.4, Moves(43)=88.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:40] SCORE AlphaZeroClue (blue): Final=1050.3, Time=28.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:40] SCORE group 99 (lawn green): Final=1225.6, Time=47.4, Moves(43)=88.2, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:40] SCORE Group 16 (gray0): Final=884.9, Time=95.4, Moves(42)=75.5, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:40] SCORE StockWish (yellow): Final=1259.6, Time=93.3, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:40:40] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:41] MOVE 214: AlphaZeroClue (blue) 77->115 [0.01ms]
+[2026-05-22 10:40:41] SCORE CybSec (red): Final=1156.7, Time=82.4, Moves(43)=88.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:41] SCORE AlphaZeroClue (blue): Final=1169.2, Time=26.6, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:41] SCORE group 99 (lawn green): Final=1225.6, Time=47.4, Moves(43)=88.2, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:41] SCORE Group 16 (gray0): Final=884.9, Time=95.4, Moves(42)=75.5, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE StockWish (yellow): Final=1259.6, Time=93.3, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:40:42] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:42] MOVE 215: Group 16 (gray0) 34->45 [0.01ms]
+[2026-05-22 10:40:42] SCORE CybSec (red): Final=1156.7, Time=82.4, Moves(43)=88.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE AlphaZeroClue (blue): Final=1169.2, Time=26.6, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE group 99 (lawn green): Final=1225.6, Time=47.4, Moves(43)=88.2, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE Group 16 (gray0): Final=897.5, Time=95.3, Moves(43)=88.2, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE StockWish (yellow): Final=1259.6, Time=93.3, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:40:42] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:42] MOVE 216: CybSec (red) 42->30 [0.01ms]
+[2026-05-22 10:40:42] SCORE CybSec (red): Final=1167.0, Time=82.1, Moves(44)=96.9, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE AlphaZeroClue (blue): Final=1169.2, Time=26.6, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE group 99 (lawn green): Final=1225.6, Time=47.4, Moves(43)=88.2, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE Group 16 (gray0): Final=897.5, Time=95.3, Moves(43)=88.2, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:42] SCORE StockWish (yellow): Final=1259.6, Time=93.3, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:40:42] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:43] MOVE 217: group 99 (lawn green) 101->100 [0.01ms]
+[2026-05-22 10:40:43] SCORE CybSec (red): Final=1167.0, Time=82.1, Moves(44)=96.9, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE AlphaZeroClue (blue): Final=1169.2, Time=26.6, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE group 99 (lawn green): Final=1233.1, Time=46.2, Moves(44)=96.9, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE Group 16 (gray0): Final=897.5, Time=95.3, Moves(43)=88.2, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE StockWish (yellow): Final=1259.6, Time=93.3, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:40:43] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:43] MOVE 218: StockWish (yellow) 82->84 [0.01ms]
+[2026-05-22 10:40:43] SCORE CybSec (red): Final=1167.0, Time=82.1, Moves(44)=96.9, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE AlphaZeroClue (blue): Final=1169.2, Time=26.6, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE group 99 (lawn green): Final=1233.1, Time=46.2, Moves(44)=96.9, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE Group 16 (gray0): Final=897.5, Time=95.3, Moves(43)=88.2, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:43] SCORE StockWish (yellow): Final=1372.2, Time=93.3, Moves(44)=96.9, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:43] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:45] MOVE 219: AlphaZeroClue (blue) 115->83 [0.01ms]
+[2026-05-22 10:40:45] SCORE CybSec (red): Final=1167.0, Time=82.1, Moves(44)=96.9, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE AlphaZeroClue (blue): Final=1076.4, Time=24.9, Moves(42)=75.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE group 99 (lawn green): Final=1233.1, Time=46.2, Moves(44)=96.9, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE Group 16 (gray0): Final=897.5, Time=95.3, Moves(43)=88.2, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE StockWish (yellow): Final=1372.2, Time=93.3, Moves(44)=96.9, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:45] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:45] MOVE 220: Group 16 (gray0) 22->34 [0.01ms]
+[2026-05-22 10:40:45] SCORE CybSec (red): Final=1167.0, Time=82.1, Moves(44)=96.9, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE AlphaZeroClue (blue): Final=1076.4, Time=24.9, Moves(42)=75.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE group 99 (lawn green): Final=1233.1, Time=46.2, Moves(44)=96.9, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE Group 16 (gray0): Final=906.1, Time=95.2, Moves(44)=96.9, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE StockWish (yellow): Final=1372.2, Time=93.3, Moves(44)=96.9, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:45] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:45] MOVE 221: CybSec (red) 30->1 [0.01ms]
+[2026-05-22 10:40:45] SCORE CybSec (red): Final=1273.9, Time=81.9, Moves(45)=100.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE AlphaZeroClue (blue): Final=1076.4, Time=24.9, Moves(42)=75.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE group 99 (lawn green): Final=1233.1, Time=46.2, Moves(44)=96.9, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE Group 16 (gray0): Final=906.1, Time=95.2, Moves(44)=96.9, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:45] SCORE StockWish (yellow): Final=1372.2, Time=93.3, Moves(44)=96.9, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:45] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:46] MOVE 222: group 99 (lawn green) 56->75 [0.01ms]
+[2026-05-22 10:40:46] SCORE CybSec (red): Final=1273.9, Time=81.9, Moves(45)=100.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE AlphaZeroClue (blue): Final=1076.4, Time=24.9, Moves(42)=75.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE group 99 (lawn green): Final=1337.1, Time=45.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE Group 16 (gray0): Final=906.1, Time=95.2, Moves(44)=96.9, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE StockWish (yellow): Final=1372.2, Time=93.3, Moves(44)=96.9, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:46] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:46] MOVE 223: StockWish (yellow) 48->49 [0.01ms]
+[2026-05-22 10:40:46] SCORE CybSec (red): Final=1273.9, Time=81.9, Moves(45)=100.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE AlphaZeroClue (blue): Final=1076.4, Time=24.9, Moves(42)=75.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE group 99 (lawn green): Final=1337.1, Time=45.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE Group 16 (gray0): Final=906.1, Time=95.2, Moves(44)=96.9, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:46] SCORE StockWish (yellow): Final=1377.0, Time=93.0, Moves(45)=100.0, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:46] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:48] MOVE 224: AlphaZeroClue (blue) 118->115 [0.01ms]
+[2026-05-22 10:40:48] SCORE CybSec (red): Final=1273.9, Time=81.9, Moves(45)=100.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE AlphaZeroClue (blue): Final=1087.4, Time=23.2, Moves(43)=88.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE group 99 (lawn green): Final=1337.1, Time=45.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE Group 16 (gray0): Final=906.1, Time=95.2, Moves(44)=96.9, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE StockWish (yellow): Final=1377.0, Time=93.0, Moves(45)=100.0, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:48] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:48] MOVE 225: Group 16 (gray0) 67->68 [0.01ms]
+[2026-05-22 10:40:48] SCORE CybSec (red): Final=1273.9, Time=81.9, Moves(45)=100.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE AlphaZeroClue (blue): Final=1087.4, Time=23.2, Moves(43)=88.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE group 99 (lawn green): Final=1337.1, Time=45.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE Group 16 (gray0): Final=911.1, Time=95.1, Moves(45)=100.0, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:40:48] SCORE StockWish (yellow): Final=1377.0, Time=93.0, Moves(45)=100.0, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:48] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:49] MOVE 226: CybSec (red) 17->8 [0.01ms]
+[2026-05-22 10:40:49] SCORE CybSec (red): Final=1375.4, Time=81.5, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:49] SCORE AlphaZeroClue (blue): Final=1087.4, Time=23.2, Moves(43)=88.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:49] SCORE group 99 (lawn green): Final=1337.1, Time=45.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:40:49] SCORE Group 16 (gray0): Final=911.1, Time=95.1, Moves(45)=100.0, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:40:49] SCORE StockWish (yellow): Final=1377.0, Time=93.0, Moves(45)=100.0, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:49] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:50] MOVE 227: group 99 (lawn green) 111->102 [0.01ms]
+[2026-05-22 10:40:50] SCORE CybSec (red): Final=1375.4, Time=81.5, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE AlphaZeroClue (blue): Final=1087.4, Time=23.2, Moves(43)=88.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE group 99 (lawn green): Final=1337.8, Time=43.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE Group 16 (gray0): Final=911.1, Time=95.1, Moves(45)=100.0, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE StockWish (yellow): Final=1377.0, Time=93.0, Moves(45)=100.0, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:50] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:50] MOVE 228: StockWish (yellow) 49->59 [0.01ms]
+[2026-05-22 10:40:50] SCORE CybSec (red): Final=1375.4, Time=81.5, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE AlphaZeroClue (blue): Final=1087.4, Time=23.2, Moves(43)=88.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE group 99 (lawn green): Final=1337.8, Time=43.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE Group 16 (gray0): Final=911.1, Time=95.1, Moves(45)=100.0, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:40:50] SCORE StockWish (yellow): Final=1378.8, Time=92.9, Moves(46)=99.8, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:50] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:52] MOVE 229: AlphaZeroClue (blue) 83->117 [0.01ms]
+[2026-05-22 10:40:52] SCORE CybSec (red): Final=1375.4, Time=81.5, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE AlphaZeroClue (blue): Final=1200.2, Time=21.3, Moves(44)=96.9, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE group 99 (lawn green): Final=1337.8, Time=43.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE Group 16 (gray0): Final=911.1, Time=95.1, Moves(45)=100.0, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE StockWish (yellow): Final=1378.8, Time=92.9, Moves(46)=99.8, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:52] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:52] MOVE 230: Group 16 (gray0) 68->69 [0.01ms]
+[2026-05-22 10:40:52] SCORE CybSec (red): Final=1375.4, Time=81.5, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE AlphaZeroClue (blue): Final=1200.2, Time=21.3, Moves(44)=96.9, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE group 99 (lawn green): Final=1337.8, Time=43.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE Group 16 (gray0): Final=912.9, Time=95.0, Moves(46)=99.8, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE StockWish (yellow): Final=1378.8, Time=92.9, Moves(46)=99.8, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:52] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:52] MOVE 231: CybSec (red) 26->14 [0.01ms]
+[2026-05-22 10:40:52] SCORE CybSec (red): Final=1376.6, Time=81.2, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE AlphaZeroClue (blue): Final=1200.2, Time=21.3, Moves(44)=96.9, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE group 99 (lawn green): Final=1337.8, Time=43.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE Group 16 (gray0): Final=912.9, Time=95.0, Moves(46)=99.8, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:52] SCORE StockWish (yellow): Final=1378.8, Time=92.9, Moves(46)=99.8, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:52] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:53] MOVE 232: group 99 (lawn green) 103->101 [0.01ms]
+[2026-05-22 10:40:53] SCORE CybSec (red): Final=1376.6, Time=81.2, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:40:53] SCORE AlphaZeroClue (blue): Final=1200.2, Time=21.3, Moves(44)=96.9, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:53] SCORE group 99 (lawn green): Final=1440.2, Time=42.8, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:53] SCORE Group 16 (gray0): Final=912.9, Time=95.0, Moves(46)=99.8, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:53] SCORE StockWish (yellow): Final=1378.8, Time=92.9, Moves(46)=99.8, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:40:53] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:53] MOVE 233: StockWish (yellow) 59->60 [0.01ms]
+[2026-05-22 10:40:54] SCORE CybSec (red): Final=1376.6, Time=81.2, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:40:54] SCORE AlphaZeroClue (blue): Final=1200.2, Time=21.3, Moves(44)=96.9, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:54] SCORE group 99 (lawn green): Final=1440.2, Time=42.8, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:54] SCORE Group 16 (gray0): Final=912.9, Time=95.0, Moves(46)=99.8, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:54] SCORE StockWish (yellow): Final=1380.2, Time=92.8, Moves(47)=99.4, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:54] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:55] MOVE 234: AlphaZeroClue (blue) 73->71 [0.01ms]
+[2026-05-22 10:40:55] SCORE CybSec (red): Final=1376.6, Time=81.2, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE AlphaZeroClue (blue): Final=1201.4, Time=19.4, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE group 99 (lawn green): Final=1440.2, Time=42.8, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE Group 16 (gray0): Final=912.9, Time=95.0, Moves(46)=99.8, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE StockWish (yellow): Final=1380.2, Time=92.8, Moves(47)=99.4, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:55] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:55] MOVE 235: Group 16 (gray0) 20->33 [0.01ms]
+[2026-05-22 10:40:55] SCORE CybSec (red): Final=1376.6, Time=81.2, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE AlphaZeroClue (blue): Final=1201.4, Time=19.4, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE group 99 (lawn green): Final=1440.2, Time=42.8, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE Group 16 (gray0): Final=912.3, Time=94.9, Moves(47)=99.4, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:55] SCORE StockWish (yellow): Final=1380.2, Time=92.8, Moves(47)=99.4, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:56] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:56] MOVE 236: CybSec (red) 14->5 [0.00ms]
+[2026-05-22 10:40:56] SCORE CybSec (red): Final=1477.6, Time=80.9, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE AlphaZeroClue (blue): Final=1201.4, Time=19.4, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE group 99 (lawn green): Final=1440.2, Time=42.8, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE Group 16 (gray0): Final=912.3, Time=94.9, Moves(47)=99.4, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE StockWish (yellow): Final=1380.2, Time=92.8, Moves(47)=99.4, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:56] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:56] MOVE 237: group 99 (lawn green) 75->87 [0.01ms]
+[2026-05-22 10:40:56] SCORE CybSec (red): Final=1477.6, Time=80.9, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE AlphaZeroClue (blue): Final=1201.4, Time=19.4, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE group 99 (lawn green): Final=1438.9, Time=42.3, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE Group 16 (gray0): Final=912.3, Time=94.9, Moves(47)=99.4, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE StockWish (yellow): Final=1380.2, Time=92.8, Moves(47)=99.4, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:40:56] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:56] MOVE 238: StockWish (yellow) 94->95 [0.01ms]
+[2026-05-22 10:40:56] SCORE CybSec (red): Final=1477.6, Time=80.9, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE AlphaZeroClue (blue): Final=1201.4, Time=19.4, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE group 99 (lawn green): Final=1438.9, Time=42.3, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE Group 16 (gray0): Final=912.3, Time=94.9, Moves(47)=99.4, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:56] SCORE StockWish (yellow): Final=1481.3, Time=92.7, Moves(48)=98.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:56] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:58] MOVE 239: AlphaZeroClue (blue) 71->82 [0.01ms]
+[2026-05-22 10:40:58] SCORE CybSec (red): Final=1477.6, Time=80.9, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE AlphaZeroClue (blue): Final=1201.4, Time=17.6, Moves(46)=99.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE group 99 (lawn green): Final=1438.9, Time=42.3, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE Group 16 (gray0): Final=912.3, Time=94.9, Moves(47)=99.4, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE StockWish (yellow): Final=1481.3, Time=92.7, Moves(48)=98.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:58] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:58] MOVE 240: Group 16 (gray0) 45->20 [0.01ms]
+[2026-05-22 10:40:58] SCORE CybSec (red): Final=1477.6, Time=80.9, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE AlphaZeroClue (blue): Final=1201.4, Time=17.6, Moves(46)=99.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE group 99 (lawn green): Final=1438.9, Time=42.3, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE Group 16 (gray0): Final=911.4, Time=94.8, Moves(48)=98.6, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:58] SCORE StockWish (yellow): Final=1481.3, Time=92.7, Moves(48)=98.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:58] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:59] MOVE 241: CybSec (red) 6->28 [0.01ms]
+[2026-05-22 10:40:59] SCORE CybSec (red): Final=1372.2, Time=80.6, Moves(49)=97.6, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE AlphaZeroClue (blue): Final=1201.4, Time=17.6, Moves(46)=99.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE group 99 (lawn green): Final=1438.9, Time=42.3, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE Group 16 (gray0): Final=911.4, Time=94.8, Moves(48)=98.6, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE StockWish (yellow): Final=1481.3, Time=92.7, Moves(48)=98.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:59] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}
+[2026-05-22 10:40:59] MOVE 242: group 99 (lawn green) 102->75 [0.01ms]
+[2026-05-22 10:40:59] SCORE CybSec (red): Final=1372.2, Time=80.6, Moves(49)=97.6, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE AlphaZeroClue (blue): Final=1201.4, Time=17.6, Moves(46)=99.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE group 99 (lawn green): Final=2539.5, Time=42.0, Moves(49)=97.6, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:40:59] SCORE Group 16 (gray0): Final=911.4, Time=94.8, Moves(48)=98.6, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:40:59] SCORE StockWish (yellow): Final=1481.3, Time=92.7, Moves(48)=98.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:40:59] ALL WRONG MOVES BY COLOUR: {'blue': ['179 (turn timeout)', '184 (turn timeout)']}

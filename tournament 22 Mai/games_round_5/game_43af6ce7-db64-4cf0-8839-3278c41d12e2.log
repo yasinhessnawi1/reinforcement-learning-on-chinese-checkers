@@ -1,0 +1,1397 @@
+[2026-05-22 10:36:23] GAME CREATED
+[2026-05-22 10:36:24] PLAYER JOINED: Group7 as yellow
+[2026-05-22 10:36:27] PLAYER JOINED: Gruppe 10 as purple
+[2026-05-22 10:36:27] PLAYER JOINED: Robert as lawn green
+[2026-05-22 10:36:27] PLAYER JOINED: HelloWorld as gray0
+[2026-05-22 10:37:42] PLAYER JOINED: The bandits as red
+[2026-05-22 10:37:42] PLAYER START: Group7 (yellow)
+[2026-05-22 10:37:42] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 10:37:42] PLAYER START: Robert (lawn green)
+[2026-05-22 10:37:42] PLAYER START: HelloWorld (gray0)
+[2026-05-22 10:37:42] PLAYER START: The bandits (red)
+[2026-05-22 10:37:42] GAME START — turn order ['yellow', 'gray0', 'purple', 'red', 'lawn green']
+[2026-05-22 10:37:42] PLAYER START: Group7 (yellow)
+[2026-05-22 10:37:42] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 10:37:42] PLAYER START: Robert (lawn green)
+[2026-05-22 10:37:42] PLAYER START: HelloWorld (gray0)
+[2026-05-22 10:37:42] PLAYER START: The bandits (red)
+[2026-05-22 10:37:42] PLAYER START: Group7 (yellow)
+[2026-05-22 10:37:42] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 10:37:42] PLAYER START: Robert (lawn green)
+[2026-05-22 10:37:42] PLAYER START: HelloWorld (gray0)
+[2026-05-22 10:37:42] PLAYER START: The bandits (red)
+[2026-05-22 10:37:43] MOVE 1: Group7 (yellow) 35->37 [0.00ms]
+[2026-05-22 10:37:43] SCORE Group7 (yellow): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:43] SCORE Gruppe 10 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:43] SCORE Robert (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:43] SCORE HelloWorld (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:43] SCORE The bandits (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:43] PLAYER START: Group7 (yellow)
+[2026-05-22 10:37:43] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 10:37:43] PLAYER START: Robert (lawn green)
+[2026-05-22 10:37:43] PLAYER START: HelloWorld (gray0)
+[2026-05-22 10:37:43] PLAYER START: The bandits (red)
+[2026-05-22 10:37:44] PLAYER START: Group7 (yellow)
+[2026-05-22 10:37:44] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 10:37:44] PLAYER START: Robert (lawn green)
+[2026-05-22 10:37:44] PLAYER START: HelloWorld (gray0)
+[2026-05-22 10:37:44] PLAYER START: The bandits (red)
+[2026-05-22 10:37:44] MOVE 2: HelloWorld (gray0) 75->35 [0.00ms]
+[2026-05-22 10:37:44] SCORE Group7 (yellow): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE Gruppe 10 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE Robert (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE HelloWorld (gray0): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE The bandits (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:45] MOVE 3: Gruppe 10 (purple) 107->94 [0.01ms]
+[2026-05-22 10:37:45] SCORE Group7 (yellow): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Gruppe 10 (purple): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Robert (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE HelloWorld (gray0): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE The bandits (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:45] MOVE 4: The bandits (red) 114->105 [0.00ms]
+[2026-05-22 10:37:45] SCORE Group7 (yellow): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Gruppe 10 (purple): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Robert (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE HelloWorld (gray0): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE The bandits (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:45] MOVE 5: Robert (lawn green) 20->43 [0.00ms]
+[2026-05-22 10:37:45] SCORE Group7 (yellow): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Gruppe 10 (purple): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Robert (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE HelloWorld (gray0): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE The bandits (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:46] MOVE 6: Group7 (yellow) 12->14 [0.00ms]
+[2026-05-22 10:37:46] SCORE Group7 (yellow): Final=287.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Gruppe 10 (purple): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Robert (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE HelloWorld (gray0): Final=282.3, Time=98.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE The bandits (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:46] MOVE 7: HelloWorld (gray0) 98->77 [0.00ms]
+[2026-05-22 10:37:46] SCORE Group7 (yellow): Final=287.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Gruppe 10 (purple): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Robert (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE HelloWorld (gray0): Final=289.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE The bandits (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:46] MOVE 8: Gruppe 10 (purple) 109->82 [0.00ms]
+[2026-05-22 10:37:46] SCORE Group7 (yellow): Final=287.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Robert (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE HelloWorld (gray0): Final=289.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE The bandits (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:37:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 9: The bandits (red) 119->92 [0.00ms]
+[2026-05-22 10:37:47] SCORE Group7 (yellow): Final=287.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Robert (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE HelloWorld (gray0): Final=289.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE The bandits (red): Final=289.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 10: Robert (lawn green) 43->42 [0.01ms]
+[2026-05-22 10:37:47] SCORE Group7 (yellow): Final=287.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Robert (lawn green): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE HelloWorld (gray0): Final=289.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE The bandits (red): Final=289.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 11: Group7 (yellow) 10->12 [0.00ms]
+[2026-05-22 10:37:47] SCORE Group7 (yellow): Final=290.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Robert (lawn green): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE HelloWorld (gray0): Final=289.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE The bandits (red): Final=289.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:48] MOVE 12: HelloWorld (gray0) 100->56 [0.00ms]
+[2026-05-22 10:37:48] SCORE Group7 (yellow): Final=290.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Robert (lawn green): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE HelloWorld (gray0): Final=293.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE The bandits (red): Final=289.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:48] MOVE 13: Gruppe 10 (purple) 108->81 [0.01ms]
+[2026-05-22 10:37:48] SCORE Group7 (yellow): Final=290.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Robert (lawn green): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE HelloWorld (gray0): Final=293.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE The bandits (red): Final=289.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:37:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:48] MOVE 14: The bandits (red) 113->70 [0.01ms]
+[2026-05-22 10:37:48] SCORE Group7 (yellow): Final=290.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Robert (lawn green): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE HelloWorld (gray0): Final=293.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE The bandits (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:48] MOVE 15: Robert (lawn green) 22->41 [0.00ms]
+[2026-05-22 10:37:48] SCORE Group7 (yellow): Final=290.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Robert (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE HelloWorld (gray0): Final=293.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE The bandits (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:49] MOVE 16: Group7 (yellow) 46->89 [0.00ms]
+[2026-05-22 10:37:49] SCORE Group7 (yellow): Final=298.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE Robert (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE HelloWorld (gray0): Final=293.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE The bandits (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:50] MOVE 17: HelloWorld (gray0) 65->6 [0.01ms]
+[2026-05-22 10:37:50] SCORE Group7 (yellow): Final=298.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Robert (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE HelloWorld (gray0): Final=302.5, Time=96.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE The bandits (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:50] MOVE 18: Gruppe 10 (purple) 95->72 [0.01ms]
+[2026-05-22 10:37:50] SCORE Group7 (yellow): Final=298.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Gruppe 10 (purple): Final=301.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Robert (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE HelloWorld (gray0): Final=302.5, Time=96.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE The bandits (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:50] MOVE 19: The bandits (red) 115->62 [0.00ms]
+[2026-05-22 10:37:50] SCORE Group7 (yellow): Final=298.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Gruppe 10 (purple): Final=301.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Robert (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE HelloWorld (gray0): Final=302.5, Time=96.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE The bandits (red): Final=309.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:37:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:50] MOVE 20: Robert (lawn green) 55->54 [0.01ms]
+[2026-05-22 10:37:50] SCORE Group7 (yellow): Final=298.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Gruppe 10 (purple): Final=301.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE Robert (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE HelloWorld (gray0): Final=302.5, Time=96.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:37:50] SCORE The bandits (red): Final=309.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:37:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 21: Group7 (yellow) 23->66 [0.00ms]
+[2026-05-22 10:37:51] SCORE Group7 (yellow): Final=305.6, Time=97.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 10 (purple): Final=301.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Robert (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE HelloWorld (gray0): Final=302.5, Time=96.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE The bandits (red): Final=309.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 22: HelloWorld (gray0) 77->83 [0.01ms]
+[2026-05-22 10:37:51] SCORE Group7 (yellow): Final=305.6, Time=97.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 10 (purple): Final=301.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Robert (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE HelloWorld (gray0): Final=314.0, Time=96.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE The bandits (red): Final=309.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 23: Gruppe 10 (purple) 81->80 [0.00ms]
+[2026-05-22 10:37:51] SCORE Group7 (yellow): Final=305.6, Time=97.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 10 (purple): Final=303.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Robert (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE HelloWorld (gray0): Final=314.0, Time=96.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE The bandits (red): Final=309.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 24: The bandits (red) 120->60 [0.01ms]
+[2026-05-22 10:37:51] SCORE Group7 (yellow): Final=305.6, Time=97.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 10 (purple): Final=303.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Robert (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE HelloWorld (gray0): Final=314.0, Time=96.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE The bandits (red): Final=325.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:52] MOVE 25: Robert (lawn green) 34->69 [0.00ms]
+[2026-05-22 10:37:52] SCORE Group7 (yellow): Final=305.6, Time=97.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE Gruppe 10 (purple): Final=303.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE Robert (lawn green): Final=314.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE HelloWorld (gray0): Final=314.0, Time=96.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE The bandits (red): Final=325.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:52] MOVE 26: Group7 (yellow) 24->67 [0.00ms]
+[2026-05-22 10:37:52] SCORE Group7 (yellow): Final=313.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE Gruppe 10 (purple): Final=303.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE Robert (lawn green): Final=314.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE HelloWorld (gray0): Final=314.0, Time=96.0, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE The bandits (red): Final=325.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:53] MOVE 27: HelloWorld (gray0) 56->106 [0.00ms]
+[2026-05-22 10:37:53] SCORE Group7 (yellow): Final=313.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Gruppe 10 (purple): Final=303.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Robert (lawn green): Final=314.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE HelloWorld (gray0): Final=321.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE The bandits (red): Final=325.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:53] MOVE 28: Gruppe 10 (purple) 96->51 [0.01ms]
+[2026-05-22 10:37:53] SCORE Group7 (yellow): Final=313.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Gruppe 10 (purple): Final=315.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Robert (lawn green): Final=314.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE HelloWorld (gray0): Final=321.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE The bandits (red): Final=325.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:53] MOVE 29: The bandits (red) 118->91 [0.00ms]
+[2026-05-22 10:37:53] SCORE Group7 (yellow): Final=313.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Gruppe 10 (purple): Final=315.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Robert (lawn green): Final=314.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE HelloWorld (gray0): Final=321.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE The bandits (red): Final=333.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:37:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:54] MOVE 30: Robert (lawn green) 44->59 [0.01ms]
+[2026-05-22 10:37:54] SCORE Group7 (yellow): Final=313.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Gruppe 10 (purple): Final=315.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Robert (lawn green): Final=326.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE HelloWorld (gray0): Final=321.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE The bandits (red): Final=333.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:37:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:54] MOVE 31: Group7 (yellow) 66->31 [0.00ms]
+[2026-05-22 10:37:54] SCORE Group7 (yellow): Final=320.8, Time=96.8, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Gruppe 10 (purple): Final=315.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Robert (lawn green): Final=326.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE HelloWorld (gray0): Final=321.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE The bandits (red): Final=333.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:37:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:55] MOVE 32: HelloWorld (gray0) 87->52 [0.00ms]
+[2026-05-22 10:37:55] SCORE Group7 (yellow): Final=320.8, Time=96.8, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Gruppe 10 (purple): Final=315.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Robert (lawn green): Final=326.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE HelloWorld (gray0): Final=336.7, Time=94.7, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE The bandits (red): Final=333.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:37:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:55] MOVE 33: Gruppe 10 (purple) 51->50 [0.00ms]
+[2026-05-22 10:37:55] SCORE Group7 (yellow): Final=320.8, Time=96.8, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Gruppe 10 (purple): Final=316.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Robert (lawn green): Final=326.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE HelloWorld (gray0): Final=336.7, Time=94.7, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE The bandits (red): Final=333.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:37:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:55] MOVE 34: The bandits (red) 117->58 [0.00ms]
+[2026-05-22 10:37:55] SCORE Group7 (yellow): Final=320.8, Time=96.8, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Gruppe 10 (purple): Final=316.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Robert (lawn green): Final=326.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE HelloWorld (gray0): Final=336.7, Time=94.7, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE The bandits (red): Final=344.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:55] MOVE 35: Robert (lawn green) 21->61 [0.01ms]
+[2026-05-22 10:37:55] SCORE Group7 (yellow): Final=320.8, Time=96.8, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Gruppe 10 (purple): Final=316.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Robert (lawn green): Final=337.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE HelloWorld (gray0): Final=336.7, Time=94.7, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE The bandits (red): Final=344.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:56] MOVE 36: Group7 (yellow) 67->96 [0.00ms]
+[2026-05-22 10:37:56] SCORE Group7 (yellow): Final=434.5, Time=96.5, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Gruppe 10 (purple): Final=316.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Robert (lawn green): Final=337.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE HelloWorld (gray0): Final=336.7, Time=94.7, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE The bandits (red): Final=344.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:56] MOVE 37: HelloWorld (gray0) 83->73 [0.00ms]
+[2026-05-22 10:37:56] SCORE Group7 (yellow): Final=434.5, Time=96.5, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Gruppe 10 (purple): Final=316.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Robert (lawn green): Final=337.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE HelloWorld (gray0): Final=338.0, Time=94.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE The bandits (red): Final=344.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:57] MOVE 38: Gruppe 10 (purple) 85->81 [0.00ms]
+[2026-05-22 10:37:57] SCORE Group7 (yellow): Final=434.5, Time=96.5, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Gruppe 10 (purple): Final=324.6, Time=98.6, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Robert (lawn green): Final=337.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE HelloWorld (gray0): Final=338.0, Time=94.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE The bandits (red): Final=344.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:57] MOVE 39: The bandits (red) 116->103 [0.01ms]
+[2026-05-22 10:37:57] SCORE Group7 (yellow): Final=434.5, Time=96.5, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Gruppe 10 (purple): Final=324.6, Time=98.6, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Robert (lawn green): Final=337.6, Time=97.6, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE HelloWorld (gray0): Final=338.0, Time=94.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE The bandits (red): Final=348.7, Time=98.7, Moves(8)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:37:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:57] MOVE 40: Robert (lawn green) 32->67 [0.01ms]
+[2026-05-22 10:37:57] SCORE Group7 (yellow): Final=434.5, Time=96.5, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Gruppe 10 (purple): Final=324.6, Time=98.6, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE Robert (lawn green): Final=353.2, Time=97.2, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE HelloWorld (gray0): Final=338.0, Time=94.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:37:57] SCORE The bandits (red): Final=348.7, Time=98.7, Moves(8)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:37:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:58] MOVE 41: Group7 (yellow) 25->68 [0.01ms]
+[2026-05-22 10:37:58] SCORE Group7 (yellow): Final=442.0, Time=96.0, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE Gruppe 10 (purple): Final=324.6, Time=98.6, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE Robert (lawn green): Final=353.2, Time=97.2, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE HelloWorld (gray0): Final=338.0, Time=94.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE The bandits (red): Final=348.7, Time=98.7, Moves(8)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:37:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:59] MOVE 42: HelloWorld (gray0) 106->20 [0.00ms]
+[2026-05-22 10:37:59] SCORE Group7 (yellow): Final=442.0, Time=96.0, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Gruppe 10 (purple): Final=324.6, Time=98.6, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Robert (lawn green): Final=353.2, Time=97.2, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE HelloWorld (gray0): Final=447.2, Time=93.2, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE The bandits (red): Final=348.7, Time=98.7, Moves(8)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:37:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:59] MOVE 43: Gruppe 10 (purple) 74->85 [0.00ms]
+[2026-05-22 10:37:59] SCORE Group7 (yellow): Final=442.0, Time=96.0, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Gruppe 10 (purple): Final=322.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Robert (lawn green): Final=353.2, Time=97.2, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE HelloWorld (gray0): Final=447.2, Time=93.2, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE The bandits (red): Final=348.7, Time=98.7, Moves(8)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:37:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:59] MOVE 44: The bandits (red) 111->74 [0.00ms]
+[2026-05-22 10:37:59] SCORE Group7 (yellow): Final=442.0, Time=96.0, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Gruppe 10 (purple): Final=322.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Robert (lawn green): Final=353.2, Time=97.2, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE HelloWorld (gray0): Final=447.2, Time=93.2, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE The bandits (red): Final=356.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:37:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:00] MOVE 45: Robert (lawn green) 33->44 [0.00ms]
+[2026-05-22 10:38:00] SCORE Group7 (yellow): Final=442.0, Time=96.0, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Gruppe 10 (purple): Final=322.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Robert (lawn green): Final=354.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE HelloWorld (gray0): Final=447.2, Time=93.2, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE The bandits (red): Final=356.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:00] MOVE 46: Group7 (yellow) 36->38 [0.00ms]
+[2026-05-22 10:38:00] SCORE Group7 (yellow): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Gruppe 10 (purple): Final=322.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Robert (lawn green): Final=354.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE HelloWorld (gray0): Final=447.2, Time=93.2, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE The bandits (red): Final=356.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:01] MOVE 47: HelloWorld (gray0) 6->34 [0.00ms]
+[2026-05-22 10:38:01] SCORE Group7 (yellow): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Gruppe 10 (purple): Final=322.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Robert (lawn green): Final=354.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE HelloWorld (gray0): Final=556.3, Time=92.3, Moves(10)=0.0, Pins(2)=200.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE The bandits (red): Final=356.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:01] MOVE 48: Gruppe 10 (purple) 94->47 [0.01ms]
+[2026-05-22 10:38:01] SCORE Group7 (yellow): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Gruppe 10 (purple): Final=338.3, Time=98.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Robert (lawn green): Final=354.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE HelloWorld (gray0): Final=556.3, Time=92.3, Moves(10)=0.0, Pins(2)=200.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE The bandits (red): Final=356.5, Time=98.5, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 49: The bandits (red) 112->90 [0.00ms]
+[2026-05-22 10:38:02] SCORE Group7 (yellow): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 10 (purple): Final=338.3, Time=98.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Robert (lawn green): Final=354.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE HelloWorld (gray0): Final=556.3, Time=92.3, Moves(10)=0.0, Pins(2)=200.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE The bandits (red): Final=360.1, Time=98.1, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 50: Robert (lawn green) 69->94 [0.00ms]
+[2026-05-22 10:38:02] SCORE Group7 (yellow): Final=445.4, Time=95.4, Moves(10)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 10 (purple): Final=338.3, Time=98.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Robert (lawn green): Final=350.2, Time=96.2, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE HelloWorld (gray0): Final=556.3, Time=92.3, Moves(10)=0.0, Pins(2)=200.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE The bandits (red): Final=360.1, Time=98.1, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:03] MOVE 51: Group7 (yellow) 37->39 [0.01ms]
+[2026-05-22 10:38:03] SCORE Group7 (yellow): Final=448.9, Time=94.9, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE Gruppe 10 (purple): Final=338.3, Time=98.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE Robert (lawn green): Final=350.2, Time=96.2, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE HelloWorld (gray0): Final=556.3, Time=92.3, Moves(10)=0.0, Pins(2)=200.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE The bandits (red): Final=360.1, Time=98.1, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 52: HelloWorld (gray0) 73->32 [0.00ms]
+[2026-05-22 10:38:04] SCORE Group7 (yellow): Final=448.9, Time=94.9, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Gruppe 10 (purple): Final=338.3, Time=98.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Robert (lawn green): Final=350.2, Time=96.2, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE HelloWorld (gray0): Final=659.3, Time=91.3, Moves(11)=0.0, Pins(3)=300.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE The bandits (red): Final=360.1, Time=98.1, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 53: Gruppe 10 (purple) 50->46 [0.00ms]
+[2026-05-22 10:38:04] SCORE Group7 (yellow): Final=448.9, Time=94.9, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Gruppe 10 (purple): Final=446.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Robert (lawn green): Final=350.2, Time=96.2, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE HelloWorld (gray0): Final=659.3, Time=91.3, Moves(11)=0.0, Pins(3)=300.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE The bandits (red): Final=360.1, Time=98.1, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 54: The bandits (red) 92->6 [0.00ms]
+[2026-05-22 10:38:04] SCORE Group7 (yellow): Final=448.9, Time=94.9, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Gruppe 10 (purple): Final=446.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Robert (lawn green): Final=350.2, Time=96.2, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE HelloWorld (gray0): Final=659.3, Time=91.3, Moves(11)=0.0, Pins(3)=300.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE The bandits (red): Final=476.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:04] MOVE 55: Robert (lawn green) 45->55 [0.00ms]
+[2026-05-22 10:38:04] SCORE Group7 (yellow): Final=448.9, Time=94.9, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Gruppe 10 (purple): Final=446.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE Robert (lawn green): Final=351.6, Time=95.6, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE HelloWorld (gray0): Final=659.3, Time=91.3, Moves(11)=0.0, Pins(3)=300.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:04] SCORE The bandits (red): Final=476.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:05] MOVE 56: Group7 (yellow) 38->40 [0.00ms]
+[2026-05-22 10:38:05] SCORE Group7 (yellow): Final=452.3, Time=94.3, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:05] SCORE Gruppe 10 (purple): Final=446.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:38:05] SCORE Robert (lawn green): Final=351.6, Time=95.6, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:38:05] SCORE HelloWorld (gray0): Final=659.3, Time=91.3, Moves(11)=0.0, Pins(3)=300.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:38:05] SCORE The bandits (red): Final=476.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 57: HelloWorld (gray0) 101->36 [0.00ms]
+[2026-05-22 10:38:06] SCORE Group7 (yellow): Final=452.3, Time=94.3, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Gruppe 10 (purple): Final=446.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Robert (lawn green): Final=351.6, Time=95.6, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE HelloWorld (gray0): Final=662.7, Time=90.7, Moves(12)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE The bandits (red): Final=476.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 58: Gruppe 10 (purple) 47->24 [0.01ms]
+[2026-05-22 10:38:06] SCORE Group7 (yellow): Final=452.3, Time=94.3, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Gruppe 10 (purple): Final=548.0, Time=98.0, Moves(12)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Robert (lawn green): Final=351.6, Time=95.6, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE HelloWorld (gray0): Final=662.7, Time=90.7, Moves(12)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE The bandits (red): Final=476.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 59: The bandits (red) 90->30 [0.00ms]
+[2026-05-22 10:38:06] SCORE Group7 (yellow): Final=452.3, Time=94.3, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Gruppe 10 (purple): Final=548.0, Time=98.0, Moves(12)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Robert (lawn green): Final=351.6, Time=95.6, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE HelloWorld (gray0): Final=662.7, Time=90.7, Moves(12)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE The bandits (red): Final=487.8, Time=97.8, Moves(12)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:06] MOVE 60: Robert (lawn green) 55->90 [0.00ms]
+[2026-05-22 10:38:06] SCORE Group7 (yellow): Final=452.3, Time=94.3, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Gruppe 10 (purple): Final=548.0, Time=98.0, Moves(12)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE Robert (lawn green): Final=367.2, Time=95.2, Moves(12)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE HelloWorld (gray0): Final=662.7, Time=90.7, Moves(12)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:06] SCORE The bandits (red): Final=487.8, Time=97.8, Moves(12)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:38:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:07] MOVE 61: Group7 (yellow) 13->15 [0.00ms]
+[2026-05-22 10:38:07] SCORE Group7 (yellow): Final=456.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE Gruppe 10 (purple): Final=548.0, Time=98.0, Moves(12)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE Robert (lawn green): Final=367.2, Time=95.2, Moves(12)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE HelloWorld (gray0): Final=662.7, Time=90.7, Moves(12)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:07] SCORE The bandits (red): Final=487.8, Time=97.8, Moves(12)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:38:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:08] MOVE 62: HelloWorld (gray0) 32->33 [0.00ms]
+[2026-05-22 10:38:08] SCORE Group7 (yellow): Final=456.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Gruppe 10 (purple): Final=548.0, Time=98.0, Moves(12)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Robert (lawn green): Final=367.2, Time=95.2, Moves(12)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE HelloWorld (gray0): Final=661.8, Time=89.8, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE The bandits (red): Final=487.8, Time=97.8, Moves(12)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:38:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:08] MOVE 63: Gruppe 10 (purple) 85->83 [0.00ms]
+[2026-05-22 10:38:08] SCORE Group7 (yellow): Final=456.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Gruppe 10 (purple): Final=551.9, Time=97.9, Moves(13)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Robert (lawn green): Final=367.2, Time=95.2, Moves(12)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE HelloWorld (gray0): Final=661.8, Time=89.8, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE The bandits (red): Final=487.8, Time=97.8, Moves(12)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:38:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:08] MOVE 64: The bandits (red) 70->7 [0.00ms]
+[2026-05-22 10:38:08] SCORE Group7 (yellow): Final=456.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Gruppe 10 (purple): Final=551.9, Time=97.9, Moves(13)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE Robert (lawn green): Final=367.2, Time=95.2, Moves(12)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE HelloWorld (gray0): Final=661.8, Time=89.8, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:08] SCORE The bandits (red): Final=599.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:09] MOVE 65: Robert (lawn green) 59->101 [0.01ms]
+[2026-05-22 10:38:09] SCORE Group7 (yellow): Final=456.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE Gruppe 10 (purple): Final=551.9, Time=97.9, Moves(13)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE Robert (lawn green): Final=474.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE HelloWorld (gray0): Final=661.8, Time=89.8, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:09] SCORE The bandits (red): Final=599.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:10] MOVE 66: Group7 (yellow) 31->95 [0.01ms]
+[2026-05-22 10:38:10] SCORE Group7 (yellow): Final=562.6, Time=92.6, Moves(14)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE Gruppe 10 (purple): Final=551.9, Time=97.9, Moves(13)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE Robert (lawn green): Final=474.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE HelloWorld (gray0): Final=661.8, Time=89.8, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:10] SCORE The bandits (red): Final=599.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:11] MOVE 67: HelloWorld (gray0) 34->22 [0.01ms]
+[2026-05-22 10:38:11] SCORE Group7 (yellow): Final=562.6, Time=92.6, Moves(14)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Gruppe 10 (purple): Final=551.9, Time=97.9, Moves(13)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Robert (lawn green): Final=474.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE HelloWorld (gray0): Final=661.1, Time=89.1, Moves(14)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE The bandits (red): Final=599.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:11] MOVE 68: Gruppe 10 (purple) 72->50 [0.01ms]
+[2026-05-22 10:38:11] SCORE Group7 (yellow): Final=562.6, Time=92.6, Moves(14)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Gruppe 10 (purple): Final=559.7, Time=97.7, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Robert (lawn green): Final=474.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE HelloWorld (gray0): Final=661.1, Time=89.1, Moves(14)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE The bandits (red): Final=599.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:11] MOVE 69: The bandits (red) 103->78 [0.01ms]
+[2026-05-22 10:38:11] SCORE Group7 (yellow): Final=562.6, Time=92.6, Moves(14)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Gruppe 10 (purple): Final=559.7, Time=97.7, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE Robert (lawn green): Final=474.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE HelloWorld (gray0): Final=661.1, Time=89.1, Moves(14)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:11] SCORE The bandits (red): Final=603.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:12] MOVE 70: Robert (lawn green) 61->57 [0.01ms]
+[2026-05-22 10:38:12] SCORE Group7 (yellow): Final=562.6, Time=92.6, Moves(14)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Gruppe 10 (purple): Final=559.7, Time=97.7, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Robert (lawn green): Final=481.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE HelloWorld (gray0): Final=661.1, Time=89.1, Moves(14)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE The bandits (red): Final=603.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:12] MOVE 71: Group7 (yellow) 40->63 [0.01ms]
+[2026-05-22 10:38:12] SCORE Group7 (yellow): Final=570.1, Time=92.1, Moves(15)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Gruppe 10 (purple): Final=559.7, Time=97.7, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE Robert (lawn green): Final=481.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE HelloWorld (gray0): Final=661.1, Time=89.1, Moves(14)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:12] SCORE The bandits (red): Final=603.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:13] MOVE 72: HelloWorld (gray0) 20->21 [0.01ms]
+[2026-05-22 10:38:13] SCORE Group7 (yellow): Final=570.1, Time=92.1, Moves(15)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Gruppe 10 (purple): Final=559.7, Time=97.7, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Robert (lawn green): Final=481.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE HelloWorld (gray0): Final=660.6, Time=88.6, Moves(15)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE The bandits (red): Final=603.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:13] MOVE 73: Gruppe 10 (purple) 50->59 [0.00ms]
+[2026-05-22 10:38:13] SCORE Group7 (yellow): Final=570.1, Time=92.1, Moves(15)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Gruppe 10 (purple): Final=559.5, Time=97.5, Moves(15)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Robert (lawn green): Final=481.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE HelloWorld (gray0): Final=660.6, Time=88.6, Moves(15)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE The bandits (red): Final=603.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:13] MOVE 74: The bandits (red) 62->18 [0.00ms]
+[2026-05-22 10:38:13] SCORE Group7 (yellow): Final=570.1, Time=92.1, Moves(15)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Gruppe 10 (purple): Final=559.5, Time=97.5, Moves(15)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE Robert (lawn green): Final=481.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE HelloWorld (gray0): Final=660.6, Time=88.6, Moves(15)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:13] SCORE The bandits (red): Final=611.1, Time=97.1, Moves(15)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:38:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:14] MOVE 75: Robert (lawn green) 42->38 [0.00ms]
+[2026-05-22 10:38:14] SCORE Group7 (yellow): Final=570.1, Time=92.1, Moves(15)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Gruppe 10 (purple): Final=559.5, Time=97.5, Moves(15)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Robert (lawn green): Final=489.3, Time=93.3, Moves(15)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE HelloWorld (gray0): Final=660.6, Time=88.6, Moves(15)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE The bandits (red): Final=611.1, Time=97.1, Moves(15)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:38:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:14] MOVE 76: Group7 (yellow) 89->72 [0.00ms]
+[2026-05-22 10:38:14] SCORE Group7 (yellow): Final=577.7, Time=91.7, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Gruppe 10 (purple): Final=559.5, Time=97.5, Moves(15)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE Robert (lawn green): Final=489.3, Time=93.3, Moves(15)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE HelloWorld (gray0): Final=660.6, Time=88.6, Moves(15)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:38:14] SCORE The bandits (red): Final=611.1, Time=97.1, Moves(15)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:38:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:15] MOVE 77: HelloWorld (gray0) 52->31 [0.00ms]
+[2026-05-22 10:38:15] SCORE Group7 (yellow): Final=577.7, Time=91.7, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Gruppe 10 (purple): Final=559.5, Time=97.5, Moves(15)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Robert (lawn green): Final=489.3, Time=93.3, Moves(15)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE HelloWorld (gray0): Final=663.8, Time=87.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE The bandits (red): Final=611.1, Time=97.1, Moves(15)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:38:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:15] MOVE 78: Gruppe 10 (purple) 83->73 [0.00ms]
+[2026-05-22 10:38:15] SCORE Group7 (yellow): Final=577.7, Time=91.7, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Gruppe 10 (purple): Final=559.4, Time=97.4, Moves(16)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Robert (lawn green): Final=489.3, Time=93.3, Moves(15)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE HelloWorld (gray0): Final=663.8, Time=87.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE The bandits (red): Final=611.1, Time=97.1, Moves(15)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:38:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:15] MOVE 79: The bandits (red) 18->9 [0.01ms]
+[2026-05-22 10:38:15] SCORE Group7 (yellow): Final=577.7, Time=91.7, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Gruppe 10 (purple): Final=559.4, Time=97.4, Moves(16)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE Robert (lawn green): Final=489.3, Time=93.3, Moves(15)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE HelloWorld (gray0): Final=663.8, Time=87.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:15] SCORE The bandits (red): Final=712.9, Time=96.9, Moves(16)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:38:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:16] MOVE 80: Robert (lawn green) 19->40 [0.00ms]
+[2026-05-22 10:38:16] SCORE Group7 (yellow): Final=577.7, Time=91.7, Moves(16)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Gruppe 10 (purple): Final=559.4, Time=97.4, Moves(16)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Robert (lawn green): Final=496.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE HelloWorld (gray0): Final=663.8, Time=87.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE The bandits (red): Final=712.9, Time=96.9, Moves(16)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:38:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:16] MOVE 81: Group7 (yellow) 68->93 [0.00ms]
+[2026-05-22 10:38:16] SCORE Group7 (yellow): Final=585.2, Time=91.2, Moves(17)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Gruppe 10 (purple): Final=559.4, Time=97.4, Moves(16)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE Robert (lawn green): Final=496.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE HelloWorld (gray0): Final=663.8, Time=87.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:38:16] SCORE The bandits (red): Final=712.9, Time=96.9, Moves(16)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:38:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:17] MOVE 82: HelloWorld (gray0) 31->19 [0.01ms]
+[2026-05-22 10:38:17] SCORE Group7 (yellow): Final=585.2, Time=91.2, Moves(17)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE Gruppe 10 (purple): Final=559.4, Time=97.4, Moves(16)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE Robert (lawn green): Final=496.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE HelloWorld (gray0): Final=764.9, Time=86.9, Moves(17)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE The bandits (red): Final=712.9, Time=96.9, Moves(16)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:38:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:17] MOVE 83: Gruppe 10 (purple) 73->69 [0.01ms]
+[2026-05-22 10:38:17] SCORE Group7 (yellow): Final=585.2, Time=91.2, Moves(17)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE Gruppe 10 (purple): Final=567.3, Time=97.3, Moves(17)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE Robert (lawn green): Final=496.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE HelloWorld (gray0): Final=764.9, Time=86.9, Moves(17)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:17] SCORE The bandits (red): Final=712.9, Time=96.9, Moves(16)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:38:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:18] MOVE 84: The bandits (red) 58->5 [0.00ms]
+[2026-05-22 10:38:18] SCORE Group7 (yellow): Final=585.2, Time=91.2, Moves(17)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Gruppe 10 (purple): Final=567.3, Time=97.3, Moves(17)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Robert (lawn green): Final=496.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE HelloWorld (gray0): Final=764.9, Time=86.9, Moves(17)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE The bandits (red): Final=822.6, Time=96.6, Moves(17)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:18] MOVE 85: Robert (lawn green) 44->43 [0.00ms]
+[2026-05-22 10:38:18] SCORE Group7 (yellow): Final=585.2, Time=91.2, Moves(17)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Gruppe 10 (purple): Final=567.3, Time=97.3, Moves(17)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE Robert (lawn green): Final=498.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE HelloWorld (gray0): Final=764.9, Time=86.9, Moves(17)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:18] SCORE The bandits (red): Final=822.6, Time=96.6, Moves(17)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:19] MOVE 86: Group7 (yellow) 14->16 [0.00ms]
+[2026-05-22 10:38:19] SCORE Group7 (yellow): Final=588.7, Time=90.7, Moves(18)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE Gruppe 10 (purple): Final=567.3, Time=97.3, Moves(17)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE Robert (lawn green): Final=498.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE HelloWorld (gray0): Final=764.9, Time=86.9, Moves(17)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE The bandits (red): Final=822.6, Time=96.6, Moves(17)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:19] MOVE 87: HelloWorld (gray0) 35->64 [0.00ms]
+[2026-05-22 10:38:19] SCORE Group7 (yellow): Final=588.7, Time=90.7, Moves(18)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE Gruppe 10 (purple): Final=567.3, Time=97.3, Moves(17)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE Robert (lawn green): Final=498.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE HelloWorld (gray0): Final=780.3, Time=86.3, Moves(18)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:19] SCORE The bandits (red): Final=822.6, Time=96.6, Moves(17)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 88: Gruppe 10 (purple) 81->37 [0.00ms]
+[2026-05-22 10:38:20] SCORE Group7 (yellow): Final=588.7, Time=90.7, Moves(18)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Gruppe 10 (purple): Final=579.2, Time=97.2, Moves(18)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Robert (lawn green): Final=498.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE HelloWorld (gray0): Final=780.3, Time=86.3, Moves(18)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE The bandits (red): Final=822.6, Time=96.6, Moves(17)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 89: The bandits (red) 30->8 [0.01ms]
+[2026-05-22 10:38:20] SCORE Group7 (yellow): Final=588.7, Time=90.7, Moves(18)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Gruppe 10 (purple): Final=579.2, Time=97.2, Moves(18)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Robert (lawn green): Final=498.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE HelloWorld (gray0): Final=780.3, Time=86.3, Moves(18)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE The bandits (red): Final=926.5, Time=96.5, Moves(18)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 90: Robert (lawn green) 54->53 [0.01ms]
+[2026-05-22 10:38:20] SCORE Group7 (yellow): Final=588.7, Time=90.7, Moves(18)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Gruppe 10 (purple): Final=579.2, Time=97.2, Moves(18)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Robert (lawn green): Final=499.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE HelloWorld (gray0): Final=780.3, Time=86.3, Moves(18)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE The bandits (red): Final=926.5, Time=96.5, Moves(18)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:20] MOVE 91: Group7 (yellow) 12->85 [0.00ms]
+[2026-05-22 10:38:20] SCORE Group7 (yellow): Final=710.4, Time=90.4, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Gruppe 10 (purple): Final=579.2, Time=97.2, Moves(18)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE Robert (lawn green): Final=499.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE HelloWorld (gray0): Final=780.3, Time=86.3, Moves(18)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:38:20] SCORE The bandits (red): Final=926.5, Time=96.5, Moves(18)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:38:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:21] MOVE 92: HelloWorld (gray0) 64->55 [0.00ms]
+[2026-05-22 10:38:21] SCORE Group7 (yellow): Final=710.4, Time=90.4, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Gruppe 10 (purple): Final=579.2, Time=97.2, Moves(18)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Robert (lawn green): Final=499.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE HelloWorld (gray0): Final=881.5, Time=85.5, Moves(19)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE The bandits (red): Final=926.5, Time=96.5, Moves(18)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:38:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:21] MOVE 93: Gruppe 10 (purple) 37->10 [0.00ms]
+[2026-05-22 10:38:21] SCORE Group7 (yellow): Final=710.4, Time=90.4, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Gruppe 10 (purple): Final=681.0, Time=97.0, Moves(19)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Robert (lawn green): Final=499.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE HelloWorld (gray0): Final=881.5, Time=85.5, Moves(19)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE The bandits (red): Final=926.5, Time=96.5, Moves(18)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:38:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:21] MOVE 94: The bandits (red) 60->18 [0.00ms]
+[2026-05-22 10:38:21] SCORE Group7 (yellow): Final=710.4, Time=90.4, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Gruppe 10 (purple): Final=681.0, Time=97.0, Moves(19)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE Robert (lawn green): Final=499.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE HelloWorld (gray0): Final=881.5, Time=85.5, Moves(19)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:21] SCORE The bandits (red): Final=934.4, Time=96.4, Moves(19)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:22] MOVE 95: Robert (lawn green) 43->98 [0.00ms]
+[2026-05-22 10:38:22] SCORE Group7 (yellow): Final=710.4, Time=90.4, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Gruppe 10 (purple): Final=681.0, Time=97.0, Moves(19)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Robert (lawn green): Final=617.2, Time=91.2, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE HelloWorld (gray0): Final=881.5, Time=85.5, Moves(19)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE The bandits (red): Final=934.4, Time=96.4, Moves(19)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:22] MOVE 96: Group7 (yellow) 39->108 [0.00ms]
+[2026-05-22 10:38:22] SCORE Group7 (yellow): Final=823.9, Time=89.9, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Gruppe 10 (purple): Final=681.0, Time=97.0, Moves(19)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE Robert (lawn green): Final=617.2, Time=91.2, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE HelloWorld (gray0): Final=881.5, Time=85.5, Moves(19)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:22] SCORE The bandits (red): Final=934.4, Time=96.4, Moves(19)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:23] MOVE 97: HelloWorld (gray0) 19->20 [0.00ms]
+[2026-05-22 10:38:23] SCORE Group7 (yellow): Final=823.9, Time=89.9, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE Gruppe 10 (purple): Final=681.0, Time=97.0, Moves(19)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE Robert (lawn green): Final=617.2, Time=91.2, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE HelloWorld (gray0): Final=880.9, Time=84.9, Moves(20)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE The bandits (red): Final=934.4, Time=96.4, Moves(19)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:23] MOVE 98: Gruppe 10 (purple) 59->58 [0.00ms]
+[2026-05-22 10:38:23] SCORE Group7 (yellow): Final=823.9, Time=89.9, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE Gruppe 10 (purple): Final=682.8, Time=96.8, Moves(20)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE Robert (lawn green): Final=617.2, Time=91.2, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE HelloWorld (gray0): Final=880.9, Time=84.9, Moves(20)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:23] SCORE The bandits (red): Final=934.4, Time=96.4, Moves(19)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:24] MOVE 99: The bandits (red) 5->2 [0.00ms]
+[2026-05-22 10:38:24] SCORE Group7 (yellow): Final=823.9, Time=89.9, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Gruppe 10 (purple): Final=682.8, Time=96.8, Moves(20)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Robert (lawn green): Final=617.2, Time=91.2, Moves(19)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE HelloWorld (gray0): Final=880.9, Time=84.9, Moves(20)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE The bandits (red): Final=934.1, Time=96.1, Moves(20)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:24] MOVE 100: Robert (lawn green) 41->56 [0.00ms]
+[2026-05-22 10:38:24] SCORE Group7 (yellow): Final=823.9, Time=89.9, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Gruppe 10 (purple): Final=682.8, Time=96.8, Moves(20)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Robert (lawn green): Final=628.7, Time=90.7, Moves(20)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE HelloWorld (gray0): Final=880.9, Time=84.9, Moves(20)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE The bandits (red): Final=934.1, Time=96.1, Moves(20)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:24] MOVE 101: Group7 (yellow) 15->19 [0.00ms]
+[2026-05-22 10:38:24] SCORE Group7 (yellow): Final=829.5, Time=89.5, Moves(21)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Gruppe 10 (purple): Final=682.8, Time=96.8, Moves(20)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE Robert (lawn green): Final=628.7, Time=90.7, Moves(20)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE HelloWorld (gray0): Final=880.9, Time=84.9, Moves(20)=0.0, Pins(5)=500.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:24] SCORE The bandits (red): Final=934.1, Time=96.1, Moves(20)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:25] MOVE 102: HelloWorld (gray0) 88->47 [0.00ms]
+[2026-05-22 10:38:25] SCORE Group7 (yellow): Final=829.5, Time=89.5, Moves(21)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Gruppe 10 (purple): Final=682.8, Time=96.8, Moves(20)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Robert (lawn green): Final=628.7, Time=90.7, Moves(20)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE HelloWorld (gray0): Final=884.3, Time=84.3, Moves(21)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE The bandits (red): Final=934.1, Time=96.1, Moves(20)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:25] MOVE 103: Gruppe 10 (purple) 58->77 [0.01ms]
+[2026-05-22 10:38:25] SCORE Group7 (yellow): Final=829.5, Time=89.5, Moves(21)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Gruppe 10 (purple): Final=682.6, Time=96.6, Moves(21)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Robert (lawn green): Final=628.7, Time=90.7, Moves(20)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE HelloWorld (gray0): Final=884.3, Time=84.3, Moves(21)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE The bandits (red): Final=934.1, Time=96.1, Moves(20)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:25] MOVE 104: The bandits (red) 18->0 [0.01ms]
+[2026-05-22 10:38:25] SCORE Group7 (yellow): Final=829.5, Time=89.5, Moves(21)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Gruppe 10 (purple): Final=682.6, Time=96.6, Moves(21)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE Robert (lawn green): Final=628.7, Time=90.7, Moves(20)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE HelloWorld (gray0): Final=884.3, Time=84.3, Moves(21)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:25] SCORE The bandits (red): Final=1035.9, Time=95.9, Moves(21)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:26] MOVE 105: Robert (lawn green) 53->62 [0.01ms]
+[2026-05-22 10:38:26] SCORE Group7 (yellow): Final=829.5, Time=89.5, Moves(21)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE Gruppe 10 (purple): Final=682.6, Time=96.6, Moves(21)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE Robert (lawn green): Final=630.3, Time=90.3, Moves(21)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE HelloWorld (gray0): Final=884.3, Time=84.3, Moves(21)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE The bandits (red): Final=1035.9, Time=95.9, Moves(21)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:26] MOVE 106: Group7 (yellow) 16->18 [0.01ms]
+[2026-05-22 10:38:26] SCORE Group7 (yellow): Final=833.0, Time=89.0, Moves(22)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE Gruppe 10 (purple): Final=682.6, Time=96.6, Moves(21)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE Robert (lawn green): Final=630.3, Time=90.3, Moves(21)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE HelloWorld (gray0): Final=884.3, Time=84.3, Moves(21)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:26] SCORE The bandits (red): Final=1035.9, Time=95.9, Moves(21)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 107: HelloWorld (gray0) 33->34 [0.00ms]
+[2026-05-22 10:38:27] SCORE Group7 (yellow): Final=833.0, Time=89.0, Moves(22)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Gruppe 10 (purple): Final=682.6, Time=96.6, Moves(21)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Robert (lawn green): Final=630.3, Time=90.3, Moves(21)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE HelloWorld (gray0): Final=884.0, Time=84.0, Moves(22)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE The bandits (red): Final=1035.9, Time=95.9, Moves(21)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 108: Gruppe 10 (purple) 77->66 [0.01ms]
+[2026-05-22 10:38:27] SCORE Group7 (yellow): Final=833.0, Time=89.0, Moves(22)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Gruppe 10 (purple): Final=684.5, Time=96.5, Moves(22)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Robert (lawn green): Final=630.3, Time=90.3, Moves(21)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE HelloWorld (gray0): Final=884.0, Time=84.0, Moves(22)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE The bandits (red): Final=1035.9, Time=95.9, Moves(21)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:27] MOVE 109: The bandits (red) 105->92 [0.00ms]
+[2026-05-22 10:38:27] SCORE Group7 (yellow): Final=833.0, Time=89.0, Moves(22)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Gruppe 10 (purple): Final=684.5, Time=96.5, Moves(22)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE Robert (lawn green): Final=630.3, Time=90.3, Moves(21)=0.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE HelloWorld (gray0): Final=884.0, Time=84.0, Moves(22)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:27] SCORE The bandits (red): Final=1037.6, Time=95.6, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:28] MOVE 110: Robert (lawn green) 62->75 [0.01ms]
+[2026-05-22 10:38:28] SCORE Group7 (yellow): Final=833.0, Time=89.0, Moves(22)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Gruppe 10 (purple): Final=684.5, Time=96.5, Moves(22)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Robert (lawn green): Final=743.8, Time=89.8, Moves(22)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE HelloWorld (gray0): Final=884.0, Time=84.0, Moves(22)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE The bandits (red): Final=1037.6, Time=95.6, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:28] MOVE 111: Group7 (yellow) 18->31 [0.00ms]
+[2026-05-22 10:38:28] SCORE Group7 (yellow): Final=834.6, Time=88.6, Moves(23)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Gruppe 10 (purple): Final=684.5, Time=96.5, Moves(22)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Robert (lawn green): Final=743.8, Time=89.8, Moves(22)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE HelloWorld (gray0): Final=884.0, Time=84.0, Moves(22)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE The bandits (red): Final=1037.6, Time=95.6, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:28] MOVE 112: HelloWorld (gray0) 86->65 [0.00ms]
+[2026-05-22 10:38:28] SCORE Group7 (yellow): Final=834.6, Time=88.6, Moves(23)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Gruppe 10 (purple): Final=684.5, Time=96.5, Moves(22)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Robert (lawn green): Final=743.8, Time=89.8, Moves(22)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE HelloWorld (gray0): Final=887.6, Time=83.6, Moves(23)=0.0, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE The bandits (red): Final=1037.6, Time=95.6, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:28] MOVE 113: Gruppe 10 (purple) 46->23 [0.00ms]
+[2026-05-22 10:38:28] SCORE Group7 (yellow): Final=834.6, Time=88.6, Moves(23)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Gruppe 10 (purple): Final=684.4, Time=96.4, Moves(23)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Robert (lawn green): Final=743.8, Time=89.8, Moves(22)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE HelloWorld (gray0): Final=887.6, Time=83.6, Moves(23)=0.0, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE The bandits (red): Final=1037.6, Time=95.6, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:28] MOVE 114: The bandits (red) 92->81 [0.00ms]
+[2026-05-22 10:38:28] SCORE Group7 (yellow): Final=834.6, Time=88.6, Moves(23)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Gruppe 10 (purple): Final=684.4, Time=96.4, Moves(23)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE Robert (lawn green): Final=743.8, Time=89.8, Moves(22)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE HelloWorld (gray0): Final=887.6, Time=83.6, Moves(23)=0.0, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:28] SCORE The bandits (red): Final=1039.5, Time=95.5, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:29] MOVE 115: Robert (lawn green) 90->89 [0.00ms]
+[2026-05-22 10:38:29] SCORE Group7 (yellow): Final=834.6, Time=88.6, Moves(23)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Gruppe 10 (purple): Final=684.4, Time=96.4, Moves(23)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Robert (lawn green): Final=745.4, Time=89.4, Moves(23)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE HelloWorld (gray0): Final=887.6, Time=83.6, Moves(23)=0.0, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE The bandits (red): Final=1039.5, Time=95.5, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:29] MOVE 116: Group7 (yellow) 31->43 [0.00ms]
+[2026-05-22 10:38:29] SCORE Group7 (yellow): Final=836.2, Time=88.2, Moves(24)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Gruppe 10 (purple): Final=684.4, Time=96.4, Moves(23)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE Robert (lawn green): Final=745.4, Time=89.4, Moves(23)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE HelloWorld (gray0): Final=887.6, Time=83.6, Moves(23)=0.0, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:38:29] SCORE The bandits (red): Final=1039.5, Time=95.5, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:30] MOVE 117: HelloWorld (gray0) 65->32 [0.00ms]
+[2026-05-22 10:38:30] SCORE Group7 (yellow): Final=836.2, Time=88.2, Moves(24)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE Gruppe 10 (purple): Final=684.4, Time=96.4, Moves(23)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE Robert (lawn green): Final=745.4, Time=89.4, Moves(23)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE HelloWorld (gray0): Final=1007.0, Time=83.0, Moves(24)=0.0, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE The bandits (red): Final=1039.5, Time=95.5, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:30] MOVE 118: Gruppe 10 (purple) 66->46 [0.01ms]
+[2026-05-22 10:38:30] SCORE Group7 (yellow): Final=836.2, Time=88.2, Moves(24)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE Gruppe 10 (purple): Final=788.2, Time=96.2, Moves(24)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE Robert (lawn green): Final=745.4, Time=89.4, Moves(23)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE HelloWorld (gray0): Final=1007.0, Time=83.0, Moves(24)=0.0, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:38:30] SCORE The bandits (red): Final=1039.5, Time=95.5, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:38:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 119: The bandits (red) 81->64 [0.01ms]
+[2026-05-22 10:38:31] SCORE Group7 (yellow): Final=836.2, Time=88.2, Moves(24)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Gruppe 10 (purple): Final=788.2, Time=96.2, Moves(24)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Robert (lawn green): Final=745.4, Time=89.4, Moves(23)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE HelloWorld (gray0): Final=1007.0, Time=83.0, Moves(24)=0.0, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE The bandits (red): Final=1043.2, Time=95.2, Moves(24)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 120: Robert (lawn green) 94->86 [0.00ms]
+[2026-05-22 10:38:31] SCORE Group7 (yellow): Final=836.2, Time=88.2, Moves(24)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Gruppe 10 (purple): Final=788.2, Time=96.2, Moves(24)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Robert (lawn green): Final=856.8, Time=88.8, Moves(24)=0.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE HelloWorld (gray0): Final=1007.0, Time=83.0, Moves(24)=0.0, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE The bandits (red): Final=1043.2, Time=95.2, Moves(24)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:31] MOVE 121: Group7 (yellow) 19->44 [0.00ms]
+[2026-05-22 10:38:31] SCORE Group7 (yellow): Final=839.8, Time=87.8, Moves(25)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Gruppe 10 (purple): Final=788.2, Time=96.2, Moves(24)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE Robert (lawn green): Final=856.8, Time=88.8, Moves(24)=0.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE HelloWorld (gray0): Final=1007.0, Time=83.0, Moves(24)=0.0, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:38:31] SCORE The bandits (red): Final=1043.2, Time=95.2, Moves(24)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:32] MOVE 122: HelloWorld (gray0) 47->73 [0.00ms]
+[2026-05-22 10:38:32] SCORE Group7 (yellow): Final=839.8, Time=87.8, Moves(25)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Gruppe 10 (purple): Final=788.2, Time=96.2, Moves(24)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Robert (lawn green): Final=856.8, Time=88.8, Moves(24)=0.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE HelloWorld (gray0): Final=1018.5, Time=82.5, Moves(25)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE The bandits (red): Final=1043.2, Time=95.2, Moves(24)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:32] MOVE 123: Gruppe 10 (purple) 69->71 [0.00ms]
+[2026-05-22 10:38:32] SCORE Group7 (yellow): Final=839.8, Time=87.8, Moves(25)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Gruppe 10 (purple): Final=784.1, Time=96.1, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Robert (lawn green): Final=856.8, Time=88.8, Moves(24)=0.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE HelloWorld (gray0): Final=1018.5, Time=82.5, Moves(25)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE The bandits (red): Final=1043.2, Time=95.2, Moves(24)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:38:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:32] MOVE 124: The bandits (red) 74->54 [0.00ms]
+[2026-05-22 10:38:32] SCORE Group7 (yellow): Final=839.8, Time=87.8, Moves(25)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Gruppe 10 (purple): Final=784.1, Time=96.1, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE Robert (lawn green): Final=856.8, Time=88.8, Moves(24)=0.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE HelloWorld (gray0): Final=1018.5, Time=82.5, Moves(25)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:32] SCORE The bandits (red): Final=1047.0, Time=95.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:33] MOVE 125: Robert (lawn green) 38->48 [0.01ms]
+[2026-05-22 10:38:33] SCORE Group7 (yellow): Final=839.8, Time=87.8, Moves(25)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE Gruppe 10 (purple): Final=784.1, Time=96.1, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE Robert (lawn green): Final=858.2, Time=88.2, Moves(25)=0.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE HelloWorld (gray0): Final=1018.5, Time=82.5, Moves(25)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE The bandits (red): Final=1047.0, Time=95.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:33] MOVE 126: Group7 (yellow) 72->74 [0.00ms]
+[2026-05-22 10:38:33] SCORE Group7 (yellow): Final=943.5, Time=87.5, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE Gruppe 10 (purple): Final=784.1, Time=96.1, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE Robert (lawn green): Final=858.2, Time=88.2, Moves(25)=0.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE HelloWorld (gray0): Final=1018.5, Time=82.5, Moves(25)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:33] SCORE The bandits (red): Final=1047.0, Time=95.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 127: HelloWorld (gray0) 32->33 [0.00ms]
+[2026-05-22 10:38:34] SCORE Group7 (yellow): Final=943.5, Time=87.5, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Gruppe 10 (purple): Final=784.1, Time=96.1, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Robert (lawn green): Final=858.2, Time=88.2, Moves(25)=0.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE HelloWorld (gray0): Final=1018.0, Time=82.0, Moves(26)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE The bandits (red): Final=1047.0, Time=95.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 128: Gruppe 10 (purple) 71->94 [0.00ms]
+[2026-05-22 10:38:34] SCORE Group7 (yellow): Final=943.5, Time=87.5, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Gruppe 10 (purple): Final=780.0, Time=96.0, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Robert (lawn green): Final=858.2, Time=88.2, Moves(25)=0.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE HelloWorld (gray0): Final=1018.0, Time=82.0, Moves(26)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE The bandits (red): Final=1047.0, Time=95.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 129: The bandits (red) 78->68 [0.01ms]
+[2026-05-22 10:38:34] SCORE Group7 (yellow): Final=943.5, Time=87.5, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Gruppe 10 (purple): Final=780.0, Time=96.0, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Robert (lawn green): Final=858.2, Time=88.2, Moves(25)=0.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE HelloWorld (gray0): Final=1018.0, Time=82.0, Moves(26)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE The bandits (red): Final=1048.8, Time=94.8, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:34] MOVE 130: Robert (lawn green) 48->87 [0.01ms]
+[2026-05-22 10:38:34] SCORE Group7 (yellow): Final=943.5, Time=87.5, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Gruppe 10 (purple): Final=780.0, Time=96.0, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE Robert (lawn green): Final=963.7, Time=87.7, Moves(26)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE HelloWorld (gray0): Final=1018.0, Time=82.0, Moves(26)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:34] SCORE The bandits (red): Final=1048.8, Time=94.8, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:35] MOVE 131: Group7 (yellow) 93->106 [0.00ms]
+[2026-05-22 10:38:35] SCORE Group7 (yellow): Final=945.1, Time=87.1, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE Gruppe 10 (purple): Final=780.0, Time=96.0, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE Robert (lawn green): Final=963.7, Time=87.7, Moves(26)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE HelloWorld (gray0): Final=1018.0, Time=82.0, Moves(26)=0.0, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:38:35] SCORE The bandits (red): Final=1048.8, Time=94.8, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 132: HelloWorld (gray0) 73->32 [0.01ms]
+[2026-05-22 10:38:36] SCORE Group7 (yellow): Final=945.1, Time=87.1, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Gruppe 10 (purple): Final=780.0, Time=96.0, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Robert (lawn green): Final=963.7, Time=87.7, Moves(26)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE HelloWorld (gray0): Final=1121.4, Time=81.3, Moves(27)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE The bandits (red): Final=1048.8, Time=94.8, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 133: Gruppe 10 (purple) 94->83 [0.00ms]
+[2026-05-22 10:38:36] SCORE Group7 (yellow): Final=945.1, Time=87.1, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Gruppe 10 (purple): Final=779.9, Time=95.9, Moves(27)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Robert (lawn green): Final=963.7, Time=87.7, Moves(26)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE HelloWorld (gray0): Final=1121.4, Time=81.3, Moves(27)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE The bandits (red): Final=1048.8, Time=94.8, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 134: The bandits (red) 91->70 [0.00ms]
+[2026-05-22 10:38:36] SCORE Group7 (yellow): Final=945.1, Time=87.1, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Gruppe 10 (purple): Final=779.9, Time=95.9, Moves(27)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Robert (lawn green): Final=963.7, Time=87.7, Moves(26)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE HelloWorld (gray0): Final=1121.4, Time=81.3, Moves(27)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE The bandits (red): Final=1052.7, Time=94.7, Moves(27)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:36] MOVE 135: Robert (lawn green) 67->88 [0.00ms]
+[2026-05-22 10:38:36] SCORE Group7 (yellow): Final=945.1, Time=87.1, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Gruppe 10 (purple): Final=779.9, Time=95.9, Moves(27)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE Robert (lawn green): Final=1067.4, Time=87.4, Moves(27)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE HelloWorld (gray0): Final=1121.4, Time=81.3, Moves(27)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:36] SCORE The bandits (red): Final=1052.7, Time=94.7, Moves(27)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:37] MOVE 136: Group7 (yellow) 106->107 [0.01ms]
+[2026-05-22 10:38:37] SCORE Group7 (yellow): Final=1046.7, Time=86.6, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Gruppe 10 (purple): Final=779.9, Time=95.9, Moves(27)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Robert (lawn green): Final=1067.4, Time=87.4, Moves(27)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE HelloWorld (gray0): Final=1121.4, Time=81.3, Moves(27)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE The bandits (red): Final=1052.7, Time=94.7, Moves(27)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:37] MOVE 137: HelloWorld (gray0) 32->19 [0.00ms]
+[2026-05-22 10:38:37] SCORE Group7 (yellow): Final=1046.7, Time=86.6, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Gruppe 10 (purple): Final=779.9, Time=95.9, Moves(27)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Robert (lawn green): Final=1067.4, Time=87.4, Moves(27)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE HelloWorld (gray0): Final=1121.0, Time=81.0, Moves(28)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE The bandits (red): Final=1052.7, Time=94.7, Moves(27)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:37] MOVE 138: Gruppe 10 (purple) 83->58 [0.00ms]
+[2026-05-22 10:38:37] SCORE Group7 (yellow): Final=1046.7, Time=86.6, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Gruppe 10 (purple): Final=791.8, Time=95.8, Moves(28)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Robert (lawn green): Final=1067.4, Time=87.4, Moves(27)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE HelloWorld (gray0): Final=1121.0, Time=81.0, Moves(28)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE The bandits (red): Final=1052.7, Time=94.7, Moves(27)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:37] MOVE 139: The bandits (red) 70->60 [0.00ms]
+[2026-05-22 10:38:37] SCORE Group7 (yellow): Final=1046.7, Time=86.6, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Gruppe 10 (purple): Final=791.8, Time=95.8, Moves(28)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Robert (lawn green): Final=1067.4, Time=87.4, Moves(27)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE HelloWorld (gray0): Final=1121.0, Time=81.0, Moves(28)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE The bandits (red): Final=1054.5, Time=94.5, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:37] MOVE 140: Robert (lawn green) 40->51 [0.01ms]
+[2026-05-22 10:38:37] SCORE Group7 (yellow): Final=1046.7, Time=86.6, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Gruppe 10 (purple): Final=791.8, Time=95.8, Moves(28)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE Robert (lawn green): Final=1067.1, Time=87.1, Moves(28)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE HelloWorld (gray0): Final=1121.0, Time=81.0, Moves(28)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:37] SCORE The bandits (red): Final=1054.5, Time=94.5, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 141: Group7 (yellow) 63->73 [0.01ms]
+[2026-05-22 10:38:38] SCORE Group7 (yellow): Final=1048.3, Time=86.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Gruppe 10 (purple): Final=791.8, Time=95.8, Moves(28)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Robert (lawn green): Final=1067.1, Time=87.1, Moves(28)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE HelloWorld (gray0): Final=1121.0, Time=81.0, Moves(28)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE The bandits (red): Final=1054.5, Time=94.5, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 142: HelloWorld (gray0) 55->32 [0.00ms]
+[2026-05-22 10:38:38] SCORE Group7 (yellow): Final=1048.3, Time=86.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Gruppe 10 (purple): Final=791.8, Time=95.8, Moves(28)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Robert (lawn green): Final=1067.1, Time=87.1, Moves(28)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE HelloWorld (gray0): Final=1120.9, Time=80.9, Moves(29)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE The bandits (red): Final=1054.5, Time=94.5, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 143: Gruppe 10 (purple) 58->67 [0.00ms]
+[2026-05-22 10:38:38] SCORE Group7 (yellow): Final=1048.3, Time=86.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Gruppe 10 (purple): Final=791.7, Time=95.6, Moves(29)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Robert (lawn green): Final=1067.1, Time=87.1, Moves(28)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE HelloWorld (gray0): Final=1120.9, Time=80.9, Moves(29)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE The bandits (red): Final=1054.5, Time=94.5, Moves(28)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] MOVE 144: The bandits (red) 68->59 [0.01ms]
+[2026-05-22 10:38:38] SCORE Group7 (yellow): Final=1048.3, Time=86.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Gruppe 10 (purple): Final=791.7, Time=95.6, Moves(29)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Robert (lawn green): Final=1067.1, Time=87.1, Moves(28)=0.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE HelloWorld (gray0): Final=1120.9, Time=80.9, Moves(29)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE The bandits (red): Final=1056.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 145: Robert (lawn green) 51->50 [0.00ms]
+[2026-05-22 10:38:39] SCORE Group7 (yellow): Final=1048.3, Time=86.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Gruppe 10 (purple): Final=791.7, Time=95.6, Moves(29)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Robert (lawn green): Final=1069.0, Time=86.9, Moves(29)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE HelloWorld (gray0): Final=1120.9, Time=80.9, Moves(29)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE The bandits (red): Final=1056.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 146: Group7 (yellow) 44->55 [0.00ms]
+[2026-05-22 10:38:39] SCORE Group7 (yellow): Final=1050.1, Time=86.0, Moves(30)=0.1, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Gruppe 10 (purple): Final=791.7, Time=95.6, Moves(29)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Robert (lawn green): Final=1069.0, Time=86.9, Moves(29)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE HelloWorld (gray0): Final=1120.9, Time=80.9, Moves(29)=0.0, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE The bandits (red): Final=1056.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 147: HelloWorld (gray0) 36->37 [0.00ms]
+[2026-05-22 10:38:39] SCORE Group7 (yellow): Final=1050.1, Time=86.0, Moves(30)=0.1, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Gruppe 10 (purple): Final=791.7, Time=95.6, Moves(29)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Robert (lawn green): Final=1069.0, Time=86.9, Moves(29)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE HelloWorld (gray0): Final=1122.8, Time=80.7, Moves(30)=0.1, Pins(7)=700.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE The bandits (red): Final=1056.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 148: Gruppe 10 (purple) 67->26 [0.00ms]
+[2026-05-22 10:38:39] SCORE Group7 (yellow): Final=1050.1, Time=86.0, Moves(30)=0.1, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Gruppe 10 (purple): Final=795.6, Time=95.5, Moves(30)=0.1, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Robert (lawn green): Final=1069.0, Time=86.9, Moves(29)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE HelloWorld (gray0): Final=1122.8, Time=80.7, Moves(30)=0.1, Pins(7)=700.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE The bandits (red): Final=1056.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 149: The bandits (red) 59->40 [0.00ms]
+[2026-05-22 10:38:39] SCORE Group7 (yellow): Final=1050.1, Time=86.0, Moves(30)=0.1, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Gruppe 10 (purple): Final=795.6, Time=95.5, Moves(30)=0.1, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Robert (lawn green): Final=1069.0, Time=86.9, Moves(29)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE HelloWorld (gray0): Final=1122.8, Time=80.7, Moves(30)=0.1, Pins(7)=700.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE The bandits (red): Final=1060.1, Time=94.0, Moves(30)=0.1, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 150: Robert (lawn green) 50->91 [0.00ms]
+[2026-05-22 10:38:40] SCORE Group7 (yellow): Final=1050.1, Time=86.0, Moves(30)=0.1, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Gruppe 10 (purple): Final=795.6, Time=95.5, Moves(30)=0.1, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Robert (lawn green): Final=1072.8, Time=86.7, Moves(30)=0.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE HelloWorld (gray0): Final=1122.8, Time=80.7, Moves(30)=0.1, Pins(7)=700.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE The bandits (red): Final=1060.1, Time=94.0, Moves(30)=0.1, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 151: Group7 (yellow) 11->38 [0.00ms]
+[2026-05-22 10:38:40] SCORE Group7 (yellow): Final=1057.8, Time=85.6, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Gruppe 10 (purple): Final=795.6, Time=95.5, Moves(30)=0.1, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Robert (lawn green): Final=1072.8, Time=86.7, Moves(30)=0.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE HelloWorld (gray0): Final=1122.8, Time=80.7, Moves(30)=0.1, Pins(7)=700.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE The bandits (red): Final=1060.1, Time=94.0, Moves(30)=0.1, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 152: HelloWorld (gray0) 37->18 [0.00ms]
+[2026-05-22 10:38:40] SCORE Group7 (yellow): Final=1057.8, Time=85.6, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Gruppe 10 (purple): Final=795.6, Time=95.5, Moves(30)=0.1, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Robert (lawn green): Final=1072.8, Time=86.7, Moves(30)=0.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE HelloWorld (gray0): Final=1134.6, Time=80.4, Moves(31)=0.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE The bandits (red): Final=1060.1, Time=94.0, Moves(30)=0.1, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 153: Gruppe 10 (purple) 26->25 [0.00ms]
+[2026-05-22 10:38:41] SCORE Group7 (yellow): Final=1057.8, Time=85.6, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Gruppe 10 (purple): Final=897.5, Time=95.3, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Robert (lawn green): Final=1072.8, Time=86.7, Moves(30)=0.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE HelloWorld (gray0): Final=1134.6, Time=80.4, Moves(31)=0.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE The bandits (red): Final=1060.1, Time=94.0, Moves(30)=0.1, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 154: The bandits (red) 60->51 [0.00ms]
+[2026-05-22 10:38:41] SCORE Group7 (yellow): Final=1057.8, Time=85.6, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Gruppe 10 (purple): Final=897.5, Time=95.3, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Robert (lawn green): Final=1072.8, Time=86.7, Moves(30)=0.1, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE HelloWorld (gray0): Final=1134.6, Time=80.4, Moves(31)=0.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE The bandits (red): Final=1062.0, Time=93.8, Moves(31)=0.2, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 155: Robert (lawn green) 91->90 [0.00ms]
+[2026-05-22 10:38:41] SCORE Group7 (yellow): Final=1057.8, Time=85.6, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Gruppe 10 (purple): Final=897.5, Time=95.3, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Robert (lawn green): Final=1074.7, Time=86.5, Moves(31)=0.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE HelloWorld (gray0): Final=1134.6, Time=80.4, Moves(31)=0.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE The bandits (red): Final=1062.0, Time=93.8, Moves(31)=0.2, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 156: Group7 (yellow) 38->39 [0.00ms]
+[2026-05-22 10:38:42] SCORE Group7 (yellow): Final=1059.6, Time=85.0, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Gruppe 10 (purple): Final=897.5, Time=95.3, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Robert (lawn green): Final=1074.7, Time=86.5, Moves(31)=0.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE HelloWorld (gray0): Final=1134.6, Time=80.4, Moves(31)=0.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE The bandits (red): Final=1062.0, Time=93.8, Moves(31)=0.2, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 157: HelloWorld (gray0) 18->31 [0.00ms]
+[2026-05-22 10:38:42] SCORE Group7 (yellow): Final=1059.6, Time=85.0, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Gruppe 10 (purple): Final=897.5, Time=95.3, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Robert (lawn green): Final=1074.7, Time=86.5, Moves(31)=0.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE HelloWorld (gray0): Final=1134.7, Time=80.2, Moves(32)=0.5, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE The bandits (red): Final=1062.0, Time=93.8, Moves(31)=0.2, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 158: Gruppe 10 (purple) 24->12 [0.01ms]
+[2026-05-22 10:38:42] SCORE Group7 (yellow): Final=1059.6, Time=85.0, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Gruppe 10 (purple): Final=897.7, Time=95.1, Moves(32)=0.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Robert (lawn green): Final=1074.7, Time=86.5, Moves(31)=0.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE HelloWorld (gray0): Final=1134.7, Time=80.2, Moves(32)=0.5, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE The bandits (red): Final=1062.0, Time=93.8, Moves(31)=0.2, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 159: The bandits (red) 51->28 [0.01ms]
+[2026-05-22 10:38:42] SCORE Group7 (yellow): Final=1059.6, Time=85.0, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Gruppe 10 (purple): Final=897.7, Time=95.1, Moves(32)=0.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Robert (lawn green): Final=1074.7, Time=86.5, Moves(31)=0.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE HelloWorld (gray0): Final=1134.7, Time=80.2, Moves(32)=0.5, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE The bandits (red): Final=1065.9, Time=93.4, Moves(32)=0.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 160: Robert (lawn green) 57->66 [0.00ms]
+[2026-05-22 10:38:43] SCORE Group7 (yellow): Final=1059.6, Time=85.0, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Gruppe 10 (purple): Final=897.7, Time=95.1, Moves(32)=0.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Robert (lawn green): Final=1076.7, Time=86.2, Moves(32)=0.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE HelloWorld (gray0): Final=1134.7, Time=80.2, Moves(32)=0.5, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE The bandits (red): Final=1065.9, Time=93.4, Moves(32)=0.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 161: Group7 (yellow) 39->18 [0.00ms]
+[2026-05-22 10:38:43] SCORE Group7 (yellow): Final=1063.5, Time=84.4, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Gruppe 10 (purple): Final=897.7, Time=95.1, Moves(32)=0.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Robert (lawn green): Final=1076.7, Time=86.2, Moves(32)=0.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE HelloWorld (gray0): Final=1134.7, Time=80.2, Moves(32)=0.5, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE The bandits (red): Final=1065.9, Time=93.4, Moves(32)=0.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 162: HelloWorld (gray0) 76->57 [0.00ms]
+[2026-05-22 10:38:43] SCORE Group7 (yellow): Final=1063.5, Time=84.4, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Gruppe 10 (purple): Final=897.7, Time=95.1, Moves(32)=0.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Robert (lawn green): Final=1076.7, Time=86.2, Moves(32)=0.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE HelloWorld (gray0): Final=1139.1, Time=80.0, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE The bandits (red): Final=1065.9, Time=93.4, Moves(32)=0.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 163: Gruppe 10 (purple) 23->24 [0.00ms]
+[2026-05-22 10:38:43] SCORE Group7 (yellow): Final=1063.5, Time=84.4, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Gruppe 10 (purple): Final=898.2, Time=95.1, Moves(33)=1.1, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Robert (lawn green): Final=1076.7, Time=86.2, Moves(32)=0.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE HelloWorld (gray0): Final=1139.1, Time=80.0, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE The bandits (red): Final=1065.9, Time=93.4, Moves(32)=0.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:44] MOVE 164: The bandits (red) 40->4 [0.00ms]
+[2026-05-22 10:38:44] SCORE Group7 (yellow): Final=1063.5, Time=84.4, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Gruppe 10 (purple): Final=898.2, Time=95.1, Moves(33)=1.1, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Robert (lawn green): Final=1076.7, Time=86.2, Moves(32)=0.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE HelloWorld (gray0): Final=1139.1, Time=80.0, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE The bandits (red): Final=1172.3, Time=93.2, Moves(33)=1.1, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:44] MOVE 165: Robert (lawn green) 56->100 [0.00ms]
+[2026-05-22 10:38:44] SCORE Group7 (yellow): Final=1063.5, Time=84.4, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Gruppe 10 (purple): Final=898.2, Time=95.1, Moves(33)=1.1, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Robert (lawn green): Final=1179.1, Time=86.0, Moves(33)=1.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE HelloWorld (gray0): Final=1139.1, Time=80.0, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE The bandits (red): Final=1172.3, Time=93.2, Moves(33)=1.1, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 166: Group7 (yellow) 43->44 [0.00ms]
+[2026-05-22 10:38:45] SCORE Group7 (yellow): Final=1064.0, Time=83.8, Moves(34)=2.3, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Gruppe 10 (purple): Final=898.2, Time=95.1, Moves(33)=1.1, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Robert (lawn green): Final=1179.1, Time=86.0, Moves(33)=1.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE HelloWorld (gray0): Final=1139.1, Time=80.0, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE The bandits (red): Final=1172.3, Time=93.2, Moves(33)=1.1, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 167: HelloWorld (gray0) 99->76 [0.00ms]
+[2026-05-22 10:38:45] SCORE Group7 (yellow): Final=1064.0, Time=83.8, Moves(34)=2.3, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Gruppe 10 (purple): Final=898.2, Time=95.1, Moves(33)=1.1, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Robert (lawn green): Final=1179.1, Time=86.0, Moves(33)=1.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE HelloWorld (gray0): Final=1144.1, Time=79.8, Moves(34)=2.3, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE The bandits (red): Final=1172.3, Time=93.2, Moves(33)=1.1, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 168: Gruppe 10 (purple) 12->13 [0.00ms]
+[2026-05-22 10:38:45] SCORE Group7 (yellow): Final=1064.0, Time=83.8, Moves(34)=2.3, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Gruppe 10 (purple): Final=899.3, Time=95.0, Moves(34)=2.3, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Robert (lawn green): Final=1179.1, Time=86.0, Moves(33)=1.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE HelloWorld (gray0): Final=1144.1, Time=79.8, Moves(34)=2.3, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE The bandits (red): Final=1172.3, Time=93.2, Moves(33)=1.1, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 169: The bandits (red) 64->5 [0.00ms]
+[2026-05-22 10:38:45] SCORE Group7 (yellow): Final=1064.0, Time=83.8, Moves(34)=2.3, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Gruppe 10 (purple): Final=899.3, Time=95.0, Moves(34)=2.3, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Robert (lawn green): Final=1179.1, Time=86.0, Moves(33)=1.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE HelloWorld (gray0): Final=1144.1, Time=79.8, Moves(34)=2.3, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE The bandits (red): Final=1283.2, Time=92.9, Moves(34)=2.3, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 170: Robert (lawn green) 90->102 [0.01ms]
+[2026-05-22 10:38:45] SCORE Group7 (yellow): Final=1064.0, Time=83.8, Moves(34)=2.3, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Gruppe 10 (purple): Final=899.3, Time=95.0, Moves(34)=2.3, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Robert (lawn green): Final=1182.0, Time=85.7, Moves(34)=2.3, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE HelloWorld (gray0): Final=1144.1, Time=79.8, Moves(34)=2.3, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE The bandits (red): Final=1283.2, Time=92.9, Moves(34)=2.3, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 171: Group7 (yellow) 18->64 [0.00ms]
+[2026-05-22 10:38:46] SCORE Group7 (yellow): Final=1073.7, Time=83.3, Moves(35)=4.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Gruppe 10 (purple): Final=899.3, Time=95.0, Moves(34)=2.3, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Robert (lawn green): Final=1182.0, Time=85.7, Moves(34)=2.3, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE HelloWorld (gray0): Final=1144.1, Time=79.8, Moves(34)=2.3, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE The bandits (red): Final=1283.2, Time=92.9, Moves(34)=2.3, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 172: HelloWorld (gray0) 76->77 [0.00ms]
+[2026-05-22 10:38:46] SCORE Group7 (yellow): Final=1073.7, Time=83.3, Moves(35)=4.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Gruppe 10 (purple): Final=899.3, Time=95.0, Moves(34)=2.3, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Robert (lawn green): Final=1182.0, Time=85.7, Moves(34)=2.3, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE HelloWorld (gray0): Final=1147.9, Time=79.5, Moves(35)=4.4, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE The bandits (red): Final=1283.2, Time=92.9, Moves(34)=2.3, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 173: Gruppe 10 (purple) 46->35 [0.00ms]
+[2026-05-22 10:38:46] SCORE Group7 (yellow): Final=1073.7, Time=83.3, Moves(35)=4.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Gruppe 10 (purple): Final=901.3, Time=94.9, Moves(35)=4.4, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Robert (lawn green): Final=1182.0, Time=85.7, Moves(34)=2.3, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE HelloWorld (gray0): Final=1147.9, Time=79.5, Moves(35)=4.4, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE The bandits (red): Final=1283.2, Time=92.9, Moves(34)=2.3, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 174: The bandits (red) 28->16 [0.00ms]
+[2026-05-22 10:38:47] SCORE Group7 (yellow): Final=1073.7, Time=83.3, Moves(35)=4.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Gruppe 10 (purple): Final=901.3, Time=94.9, Moves(35)=4.4, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Robert (lawn green): Final=1182.0, Time=85.7, Moves(34)=2.3, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE HelloWorld (gray0): Final=1147.9, Time=79.5, Moves(35)=4.4, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE The bandits (red): Final=1287.0, Time=92.6, Moves(35)=4.4, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 175: Robert (lawn green) 66->76 [0.00ms]
+[2026-05-22 10:38:47] SCORE Group7 (yellow): Final=1073.7, Time=83.3, Moves(35)=4.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Gruppe 10 (purple): Final=901.3, Time=94.9, Moves(35)=4.4, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Robert (lawn green): Final=1286.0, Time=85.6, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE HelloWorld (gray0): Final=1147.9, Time=79.5, Moves(35)=4.4, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE The bandits (red): Final=1287.0, Time=92.6, Moves(35)=4.4, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 176: Group7 (yellow) 44->63 [0.00ms]
+[2026-05-22 10:38:47] SCORE Group7 (yellow): Final=1078.9, Time=83.0, Moves(36)=8.0, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Gruppe 10 (purple): Final=901.3, Time=94.9, Moves(35)=4.4, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Robert (lawn green): Final=1286.0, Time=85.6, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE HelloWorld (gray0): Final=1147.9, Time=79.5, Moves(35)=4.4, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE The bandits (red): Final=1287.0, Time=92.6, Moves(35)=4.4, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 177: HelloWorld (gray0) 57->58 [0.00ms]
+[2026-05-22 10:38:47] SCORE Group7 (yellow): Final=1078.9, Time=83.0, Moves(36)=8.0, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Gruppe 10 (purple): Final=901.3, Time=94.9, Moves(35)=4.4, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Robert (lawn green): Final=1286.0, Time=85.6, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE HelloWorld (gray0): Final=1153.3, Time=79.3, Moves(36)=8.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE The bandits (red): Final=1287.0, Time=92.6, Moves(35)=4.4, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 178: Gruppe 10 (purple) 35->12 [0.00ms]
+[2026-05-22 10:38:47] SCORE Group7 (yellow): Final=1078.9, Time=83.0, Moves(36)=8.0, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Gruppe 10 (purple): Final=904.7, Time=94.8, Moves(36)=8.0, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Robert (lawn green): Final=1286.0, Time=85.6, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE HelloWorld (gray0): Final=1153.3, Time=79.3, Moves(36)=8.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE The bandits (red): Final=1287.0, Time=92.6, Moves(35)=4.4, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 179: The bandits (red) 16->17 [0.00ms]
+[2026-05-22 10:38:48] SCORE Group7 (yellow): Final=1078.9, Time=83.0, Moves(36)=8.0, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Gruppe 10 (purple): Final=904.7, Time=94.8, Moves(36)=8.0, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Robert (lawn green): Final=1286.0, Time=85.6, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE HelloWorld (gray0): Final=1153.3, Time=79.3, Moves(36)=8.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE The bandits (red): Final=1290.3, Time=92.4, Moves(36)=8.0, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 180: Robert (lawn green) 101->99 [0.00ms]
+[2026-05-22 10:38:48] SCORE Group7 (yellow): Final=1078.9, Time=83.0, Moves(36)=8.0, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Gruppe 10 (purple): Final=904.7, Time=94.8, Moves(36)=8.0, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Robert (lawn green): Final=1289.3, Time=85.4, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE HelloWorld (gray0): Final=1153.3, Time=79.3, Moves(36)=8.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE The bandits (red): Final=1290.3, Time=92.4, Moves(36)=8.0, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 181: Group7 (yellow) 63->72 [0.00ms]
+[2026-05-22 10:38:48] SCORE Group7 (yellow): Final=1084.1, Time=82.5, Moves(37)=13.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Gruppe 10 (purple): Final=904.7, Time=94.8, Moves(36)=8.0, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Robert (lawn green): Final=1289.3, Time=85.4, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE HelloWorld (gray0): Final=1153.3, Time=79.3, Moves(36)=8.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE The bandits (red): Final=1290.3, Time=92.4, Moves(36)=8.0, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 182: HelloWorld (gray0) 58->59 [0.00ms]
+[2026-05-22 10:38:49] SCORE Group7 (yellow): Final=1084.1, Time=82.5, Moves(37)=13.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Gruppe 10 (purple): Final=904.7, Time=94.8, Moves(36)=8.0, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Robert (lawn green): Final=1289.3, Time=85.4, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE HelloWorld (gray0): Final=1160.5, Time=78.9, Moves(37)=13.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE The bandits (red): Final=1290.3, Time=92.4, Moves(36)=8.0, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 183: Gruppe 10 (purple) 82->63 [0.00ms]
+[2026-05-22 10:38:49] SCORE Group7 (yellow): Final=1084.1, Time=82.5, Moves(37)=13.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Gruppe 10 (purple): Final=910.1, Time=94.6, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Robert (lawn green): Final=1289.3, Time=85.4, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE HelloWorld (gray0): Final=1160.5, Time=78.9, Moves(37)=13.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE The bandits (red): Final=1290.3, Time=92.4, Moves(36)=8.0, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 184: The bandits (red) 54->43 [0.00ms]
+[2026-05-22 10:38:49] SCORE Group7 (yellow): Final=1084.1, Time=82.5, Moves(37)=13.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Gruppe 10 (purple): Final=910.1, Time=94.6, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Robert (lawn green): Final=1289.3, Time=85.4, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE HelloWorld (gray0): Final=1160.5, Time=78.9, Moves(37)=13.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE The bandits (red): Final=1297.7, Time=92.2, Moves(37)=13.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 185: Robert (lawn green) 89->66 [0.00ms]
+[2026-05-22 10:38:49] SCORE Group7 (yellow): Final=1084.1, Time=82.5, Moves(37)=13.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Gruppe 10 (purple): Final=910.1, Time=94.6, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Robert (lawn green): Final=1294.8, Time=85.2, Moves(37)=13.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE HelloWorld (gray0): Final=1160.5, Time=78.9, Moves(37)=13.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE The bandits (red): Final=1297.7, Time=92.2, Moves(37)=13.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 186: Group7 (yellow) 72->83 [0.00ms]
+[2026-05-22 10:38:49] SCORE Group7 (yellow): Final=1093.8, Time=82.2, Moves(38)=21.6, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Gruppe 10 (purple): Final=910.1, Time=94.6, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Robert (lawn green): Final=1294.8, Time=85.2, Moves(37)=13.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE HelloWorld (gray0): Final=1160.5, Time=78.9, Moves(37)=13.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE The bandits (red): Final=1297.7, Time=92.2, Moves(37)=13.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 187: HelloWorld (gray0) 77->67 [0.00ms]
+[2026-05-22 10:38:50] SCORE Group7 (yellow): Final=1093.8, Time=82.2, Moves(38)=21.6, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Gruppe 10 (purple): Final=910.1, Time=94.6, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Robert (lawn green): Final=1294.8, Time=85.2, Moves(37)=13.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE HelloWorld (gray0): Final=1170.4, Time=78.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE The bandits (red): Final=1297.7, Time=92.2, Moves(37)=13.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 188: Gruppe 10 (purple) 63->54 [0.00ms]
+[2026-05-22 10:38:50] SCORE Group7 (yellow): Final=1093.8, Time=82.2, Moves(38)=21.6, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Gruppe 10 (purple): Final=918.1, Time=94.5, Moves(38)=21.6, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Robert (lawn green): Final=1294.8, Time=85.2, Moves(37)=13.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE HelloWorld (gray0): Final=1170.4, Time=78.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE The bandits (red): Final=1297.7, Time=92.2, Moves(37)=13.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 189: The bandits (red) 43->3 [0.00ms]
+[2026-05-22 10:38:50] SCORE Group7 (yellow): Final=1093.8, Time=82.2, Moves(38)=21.6, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Gruppe 10 (purple): Final=918.1, Time=94.5, Moves(38)=21.6, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Robert (lawn green): Final=1294.8, Time=85.2, Moves(37)=13.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE HelloWorld (gray0): Final=1170.4, Time=78.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE The bandits (red): Final=1411.5, Time=91.8, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 190: Robert (lawn green) 102->101 [0.00ms]
+[2026-05-22 10:38:50] SCORE Group7 (yellow): Final=1093.8, Time=82.2, Moves(38)=21.6, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Gruppe 10 (purple): Final=918.1, Time=94.5, Moves(38)=21.6, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Robert (lawn green): Final=1404.7, Time=85.1, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE HelloWorld (gray0): Final=1170.4, Time=78.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE The bandits (red): Final=1411.5, Time=91.8, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 191: Group7 (yellow) 83->94 [0.00ms]
+[2026-05-22 10:38:51] SCORE Group7 (yellow): Final=1104.2, Time=81.8, Moves(39)=32.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Gruppe 10 (purple): Final=918.1, Time=94.5, Moves(38)=21.6, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Robert (lawn green): Final=1404.7, Time=85.1, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE HelloWorld (gray0): Final=1170.4, Time=78.8, Moves(38)=21.6, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE The bandits (red): Final=1411.5, Time=91.8, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 192: HelloWorld (gray0) 67->58 [0.00ms]
+[2026-05-22 10:38:51] SCORE Group7 (yellow): Final=1104.2, Time=81.8, Moves(39)=32.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Gruppe 10 (purple): Final=918.1, Time=94.5, Moves(38)=21.6, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Robert (lawn green): Final=1404.7, Time=85.1, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE HelloWorld (gray0): Final=1182.9, Time=78.4, Moves(39)=32.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE The bandits (red): Final=1411.5, Time=91.8, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 193: Gruppe 10 (purple) 24->11 [0.01ms]
+[2026-05-22 10:38:51] SCORE Group7 (yellow): Final=1104.2, Time=81.8, Moves(39)=32.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Gruppe 10 (purple): Final=928.7, Time=94.3, Moves(39)=32.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Robert (lawn green): Final=1404.7, Time=85.1, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE HelloWorld (gray0): Final=1182.9, Time=78.4, Moves(39)=32.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE The bandits (red): Final=1411.5, Time=91.8, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 194: The bandits (red) 4->1 [0.00ms]
+[2026-05-22 10:38:51] SCORE Group7 (yellow): Final=1104.2, Time=81.8, Moves(39)=32.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Gruppe 10 (purple): Final=928.7, Time=94.3, Moves(39)=32.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Robert (lawn green): Final=1404.7, Time=85.1, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE HelloWorld (gray0): Final=1182.9, Time=78.4, Moves(39)=32.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE The bandits (red): Final=1422.1, Time=91.6, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 195: Robert (lawn green) 66->65 [0.00ms]
+[2026-05-22 10:38:52] SCORE Group7 (yellow): Final=1104.2, Time=81.8, Moves(39)=32.5, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Gruppe 10 (purple): Final=928.7, Time=94.3, Moves(39)=32.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Robert (lawn green): Final=2517.4, Time=84.9, Moves(39)=32.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:38:52] SCORE HelloWorld (gray0): Final=1182.9, Time=78.4, Moves(39)=32.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE The bandits (red): Final=1422.1, Time=91.6, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:52] ALL WRONG MOVES BY COLOUR: {}

@@ -1,0 +1,776 @@
+[2026-05-22 10:54:05] GAME CREATED
+[2026-05-22 10:54:06] PLAYER JOINED: LosTurcos as lawn green
+[2026-05-22 10:54:07] PLAYER JOINED: S&S as gray0
+[2026-05-22 10:54:12] PLAYER JOINED: Deepseekers as yellow
+[2026-05-22 10:54:12] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 10:54:12] PLAYER START: S&S (gray0)
+[2026-05-22 10:54:12] PLAYER START: Deepseekers (yellow)
+[2026-05-22 10:54:12] GAME START — turn order ['lawn green', 'yellow', 'gray0']
+[2026-05-22 10:54:14] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:14] SCORE S&S (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:14] SCORE Deepseekers (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:14] TURN TIMEOUT: Player with colour lawn green exceeded 2s at move 1. Turn skipped.
+[2026-05-22 10:54:14] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 10:54:14] PLAYER START: S&S (gray0)
+[2026-05-22 10:54:14] PLAYER START: Deepseekers (yellow)
+[2026-05-22 10:54:15] MOVE 2: Deepseekers (yellow) 24->26 [0.01ms]
+[2026-05-22 10:54:15] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE S&S (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE Deepseekers (yellow): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:15] MOVE 3: S&S (gray0) 87->89 [0.00ms]
+[2026-05-22 10:54:15] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE S&S (gray0): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE Deepseekers (yellow): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:15] MOVE 4: LosTurcos (lawn green) 20->43 [0.00ms]
+[2026-05-22 10:54:15] SCORE LosTurcos (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE S&S (gray0): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE Deepseekers (yellow): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:15] MOVE 5: Deepseekers (yellow) 35->14 [0.01ms]
+[2026-05-22 10:54:15] SCORE LosTurcos (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE S&S (gray0): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE Deepseekers (yellow): Final=287.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:16] MOVE 6: S&S (gray0) 75->37 [0.00ms]
+[2026-05-22 10:54:16] SCORE LosTurcos (lawn green): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE S&S (gray0): Final=291.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE Deepseekers (yellow): Final=287.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:54:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:16] MOVE 7: LosTurcos (lawn green) 43->42 [0.00ms]
+[2026-05-22 10:54:16] SCORE LosTurcos (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE S&S (gray0): Final=291.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE Deepseekers (yellow): Final=287.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:54:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:16] MOVE 8: Deepseekers (yellow) 10->102 [0.00ms]
+[2026-05-22 10:54:16] SCORE LosTurcos (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE S&S (gray0): Final=291.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE Deepseekers (yellow): Final=302.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:17] MOVE 9: S&S (gray0) 98->10 [0.00ms]
+[2026-05-22 10:54:17] SCORE LosTurcos (lawn green): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE S&S (gray0): Final=298.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE Deepseekers (yellow): Final=302.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:17] MOVE 10: LosTurcos (lawn green) 22->41 [0.00ms]
+[2026-05-22 10:54:17] SCORE LosTurcos (lawn green): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE S&S (gray0): Final=298.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE Deepseekers (yellow): Final=302.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:17] MOVE 11: Deepseekers (yellow) 25->27 [0.00ms]
+[2026-05-22 10:54:17] SCORE LosTurcos (lawn green): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE S&S (gray0): Final=298.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE Deepseekers (yellow): Final=306.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:18] MOVE 12: S&S (gray0) 100->35 [0.00ms]
+[2026-05-22 10:54:18] SCORE LosTurcos (lawn green): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE S&S (gray0): Final=302.8, Time=98.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE Deepseekers (yellow): Final=306.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:18] MOVE 13: LosTurcos (lawn green) 19->31 [0.00ms]
+[2026-05-22 10:54:18] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE S&S (gray0): Final=302.8, Time=98.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE Deepseekers (yellow): Final=306.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:18] MOVE 14: Deepseekers (yellow) 36->38 [0.01ms]
+[2026-05-22 10:54:18] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE S&S (gray0): Final=302.8, Time=98.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE Deepseekers (yellow): Final=309.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:19] MOVE 15: S&S (gray0) 101->78 [0.01ms]
+[2026-05-22 10:54:19] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE Deepseekers (yellow): Final=309.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:19] MOVE 16: LosTurcos (lawn green) 32->51 [0.00ms]
+[2026-05-22 10:54:19] SCORE LosTurcos (lawn green): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE Deepseekers (yellow): Final=309.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:19] MOVE 17: Deepseekers (yellow) 13->15 [0.00ms]
+[2026-05-22 10:54:19] SCORE LosTurcos (lawn green): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE Deepseekers (yellow): Final=313.0, Time=97.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:19] MOVE 18: S&S (gray0) 35->79 [0.00ms]
+[2026-05-22 10:54:19] SCORE LosTurcos (lawn green): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE S&S (gray0): Final=310.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE Deepseekers (yellow): Final=313.0, Time=97.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:20] MOVE 19: LosTurcos (lawn green) 34->53 [0.01ms]
+[2026-05-22 10:54:20] SCORE LosTurcos (lawn green): Final=314.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE S&S (gray0): Final=310.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE Deepseekers (yellow): Final=313.0, Time=97.0, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:20] MOVE 20: Deepseekers (yellow) 46->47 [0.01ms]
+[2026-05-22 10:54:20] SCORE LosTurcos (lawn green): Final=314.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE S&S (gray0): Final=310.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE Deepseekers (yellow): Final=314.4, Time=96.4, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:20] MOVE 21: S&S (gray0) 88->69 [0.01ms]
+[2026-05-22 10:54:20] SCORE LosTurcos (lawn green): Final=314.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE S&S (gray0): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE Deepseekers (yellow): Final=314.4, Time=96.4, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:21] MOVE 22: LosTurcos (lawn green) 51->50 [0.01ms]
+[2026-05-22 10:54:21] SCORE LosTurcos (lawn green): Final=316.5, Time=98.5, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE S&S (gray0): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE Deepseekers (yellow): Final=314.4, Time=96.4, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:21] MOVE 23: Deepseekers (yellow) 26->51 [0.00ms]
+[2026-05-22 10:54:21] SCORE LosTurcos (lawn green): Final=316.5, Time=98.5, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE S&S (gray0): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE Deepseekers (yellow): Final=321.8, Time=95.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:21] MOVE 24: S&S (gray0) 89->70 [0.01ms]
+[2026-05-22 10:54:21] SCORE LosTurcos (lawn green): Final=316.5, Time=98.5, Moves(7)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE S&S (gray0): Final=326.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:21] SCORE Deepseekers (yellow): Final=321.8, Time=95.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:22] MOVE 25: LosTurcos (lawn green) 42->59 [0.01ms]
+[2026-05-22 10:54:22] SCORE LosTurcos (lawn green): Final=324.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE S&S (gray0): Final=326.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE Deepseekers (yellow): Final=321.8, Time=95.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:22] MOVE 26: Deepseekers (yellow) 14->81 [0.01ms]
+[2026-05-22 10:54:22] SCORE LosTurcos (lawn green): Final=324.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE S&S (gray0): Final=326.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE Deepseekers (yellow): Final=333.1, Time=95.1, Moves(9)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:22] MOVE 27: S&S (gray0) 78->19 [0.01ms]
+[2026-05-22 10:54:22] SCORE LosTurcos (lawn green): Final=324.4, Time=98.4, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE S&S (gray0): Final=441.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE Deepseekers (yellow): Final=333.1, Time=95.1, Moves(9)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:23] MOVE 28: LosTurcos (lawn green) 45->43 [0.00ms]
+[2026-05-22 10:54:23] SCORE LosTurcos (lawn green): Final=328.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE S&S (gray0): Final=441.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE Deepseekers (yellow): Final=333.1, Time=95.1, Moves(9)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:23] MOVE 29: Deepseekers (yellow) 47->28 [0.00ms]
+[2026-05-22 10:54:23] SCORE LosTurcos (lawn green): Final=328.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE S&S (gray0): Final=441.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE Deepseekers (yellow): Final=336.7, Time=94.7, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:23] MOVE 30: S&S (gray0) 37->16 [0.00ms]
+[2026-05-22 10:54:23] SCORE LosTurcos (lawn green): Final=328.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE S&S (gray0): Final=449.6, Time=97.6, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE Deepseekers (yellow): Final=336.7, Time=94.7, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:23] MOVE 31: LosTurcos (lawn green) 44->78 [0.00ms]
+[2026-05-22 10:54:23] SCORE LosTurcos (lawn green): Final=344.2, Time=98.2, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE S&S (gray0): Final=449.6, Time=97.6, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE Deepseekers (yellow): Final=336.7, Time=94.7, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:24] MOVE 32: Deepseekers (yellow) 15->63 [0.01ms]
+[2026-05-22 10:54:24] SCORE LosTurcos (lawn green): Final=344.2, Time=98.2, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE S&S (gray0): Final=449.6, Time=97.6, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE Deepseekers (yellow): Final=348.1, Time=94.1, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:24] MOVE 33: S&S (gray0) 79->14 [0.01ms]
+[2026-05-22 10:54:24] SCORE LosTurcos (lawn green): Final=344.2, Time=98.2, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE S&S (gray0): Final=453.4, Time=97.4, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE Deepseekers (yellow): Final=348.1, Time=94.1, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:24] MOVE 34: LosTurcos (lawn green) 41->100 [0.01ms]
+[2026-05-22 10:54:24] SCORE LosTurcos (lawn green): Final=458.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE S&S (gray0): Final=453.4, Time=97.4, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE Deepseekers (yellow): Final=348.1, Time=94.1, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:25] MOVE 35: Deepseekers (yellow) 11->17 [0.00ms]
+[2026-05-22 10:54:25] SCORE LosTurcos (lawn green): Final=458.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE S&S (gray0): Final=453.4, Time=97.4, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE Deepseekers (yellow): Final=359.5, Time=93.5, Moves(12)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:54:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:25] MOVE 36: S&S (gray0) 16->22 [0.00ms]
+[2026-05-22 10:54:25] SCORE LosTurcos (lawn green): Final=458.0, Time=98.0, Moves(11)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE S&S (gray0): Final=559.1, Time=97.1, Moves(12)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE Deepseekers (yellow): Final=359.5, Time=93.5, Moves(12)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:54:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:25] MOVE 37: LosTurcos (lawn green) 43->75 [0.01ms]
+[2026-05-22 10:54:25] SCORE LosTurcos (lawn green): Final=575.9, Time=97.9, Moves(12)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE S&S (gray0): Final=559.1, Time=97.1, Moves(12)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:54:25] SCORE Deepseekers (yellow): Final=359.5, Time=93.5, Moves(12)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:54:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:26] MOVE 38: Deepseekers (yellow) 38->82 [0.00ms]
+[2026-05-22 10:54:26] SCORE LosTurcos (lawn green): Final=575.9, Time=97.9, Moves(12)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE S&S (gray0): Final=559.1, Time=97.1, Moves(12)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE Deepseekers (yellow): Final=370.9, Time=92.9, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:26] MOVE 39: S&S (gray0) 14->45 [0.00ms]
+[2026-05-22 10:54:26] SCORE LosTurcos (lawn green): Final=575.9, Time=97.9, Moves(12)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE S&S (gray0): Final=668.9, Time=96.9, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE Deepseekers (yellow): Final=370.9, Time=92.9, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:26] MOVE 40: LosTurcos (lawn green) 50->89 [0.00ms]
+[2026-05-22 10:54:26] SCORE LosTurcos (lawn green): Final=583.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE S&S (gray0): Final=668.9, Time=96.9, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE Deepseekers (yellow): Final=370.9, Time=92.9, Moves(13)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:27] MOVE 41: Deepseekers (yellow) 27->29 [0.00ms]
+[2026-05-22 10:54:27] SCORE LosTurcos (lawn green): Final=583.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE S&S (gray0): Final=668.9, Time=96.9, Moves(13)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE Deepseekers (yellow): Final=374.2, Time=92.2, Moves(14)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:27] MOVE 42: S&S (gray0) 99->103 [0.01ms]
+[2026-05-22 10:54:27] SCORE LosTurcos (lawn green): Final=583.6, Time=97.6, Moves(13)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE S&S (gray0): Final=676.8, Time=96.8, Moves(14)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE Deepseekers (yellow): Final=374.2, Time=92.2, Moves(14)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:27] MOVE 43: LosTurcos (lawn green) 89->101 [0.01ms]
+[2026-05-22 10:54:27] SCORE LosTurcos (lawn green): Final=685.4, Time=97.4, Moves(14)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE S&S (gray0): Final=676.8, Time=96.8, Moves(14)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE Deepseekers (yellow): Final=374.2, Time=92.2, Moves(14)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:28] MOVE 44: Deepseekers (yellow) 17->80 [0.00ms]
+[2026-05-22 10:54:28] SCORE LosTurcos (lawn green): Final=685.4, Time=97.4, Moves(14)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE S&S (gray0): Final=676.8, Time=96.8, Moves(14)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE Deepseekers (yellow): Final=377.8, Time=91.8, Moves(15)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:28] MOVE 45: S&S (gray0) 70->54 [0.00ms]
+[2026-05-22 10:54:28] SCORE LosTurcos (lawn green): Final=685.4, Time=97.4, Moves(14)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE S&S (gray0): Final=684.6, Time=96.6, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE Deepseekers (yellow): Final=377.8, Time=91.8, Moves(15)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:28] MOVE 46: LosTurcos (lawn green) 100->87 [0.00ms]
+[2026-05-22 10:54:28] SCORE LosTurcos (lawn green): Final=685.3, Time=97.3, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE S&S (gray0): Final=684.6, Time=96.6, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE Deepseekers (yellow): Final=377.8, Time=91.8, Moves(15)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:29] MOVE 47: Deepseekers (yellow) 102->104 [0.00ms]
+[2026-05-22 10:54:29] SCORE LosTurcos (lawn green): Final=685.3, Time=97.3, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE S&S (gray0): Final=684.6, Time=96.6, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE Deepseekers (yellow): Final=381.2, Time=91.2, Moves(16)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:29] MOVE 48: S&S (gray0) 54->44 [0.00ms]
+[2026-05-22 10:54:29] SCORE LosTurcos (lawn green): Final=685.3, Time=97.3, Moves(15)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE S&S (gray0): Final=786.4, Time=96.4, Moves(16)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE Deepseekers (yellow): Final=381.2, Time=91.2, Moves(16)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:29] MOVE 49: LosTurcos (lawn green) 31->30 [0.00ms]
+[2026-05-22 10:54:29] SCORE LosTurcos (lawn green): Final=687.2, Time=97.2, Moves(16)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE S&S (gray0): Final=786.4, Time=96.4, Moves(16)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] SCORE Deepseekers (yellow): Final=381.2, Time=91.2, Moves(16)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:30] MOVE 50: Deepseekers (yellow) 29->31 [0.01ms]
+[2026-05-22 10:54:30] SCORE LosTurcos (lawn green): Final=687.2, Time=97.2, Moves(16)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE S&S (gray0): Final=786.4, Time=96.4, Moves(16)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE Deepseekers (yellow): Final=384.7, Time=90.7, Moves(17)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:30] MOVE 51: S&S (gray0) 86->88 [0.00ms]
+[2026-05-22 10:54:30] SCORE LosTurcos (lawn green): Final=687.2, Time=97.2, Moves(16)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE S&S (gray0): Final=790.2, Time=96.2, Moves(17)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE Deepseekers (yellow): Final=384.7, Time=90.7, Moves(17)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:30] MOVE 52: LosTurcos (lawn green) 30->29 [0.00ms]
+[2026-05-22 10:54:30] SCORE LosTurcos (lawn green): Final=689.1, Time=97.1, Moves(17)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE S&S (gray0): Final=790.2, Time=96.2, Moves(17)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE Deepseekers (yellow): Final=384.7, Time=90.7, Moves(17)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 53: Deepseekers (yellow) 81->83 [0.00ms]
+[2026-05-22 10:54:31] SCORE LosTurcos (lawn green): Final=689.1, Time=97.1, Moves(17)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE S&S (gray0): Final=790.2, Time=96.2, Moves(17)=0.0, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE Deepseekers (yellow): Final=388.0, Time=90.0, Moves(18)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 54: S&S (gray0) 103->105 [0.00ms]
+[2026-05-22 10:54:31] SCORE LosTurcos (lawn green): Final=689.1, Time=97.1, Moves(17)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE S&S (gray0): Final=794.1, Time=96.1, Moves(18)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE Deepseekers (yellow): Final=388.0, Time=90.0, Moves(18)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 55: LosTurcos (lawn green) 21->20 [0.00ms]
+[2026-05-22 10:54:31] SCORE LosTurcos (lawn green): Final=690.9, Time=96.9, Moves(18)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE S&S (gray0): Final=794.1, Time=96.1, Moves(18)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE Deepseekers (yellow): Final=388.0, Time=90.0, Moves(18)=0.0, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 56: Deepseekers (yellow) 83->84 [0.00ms]
+[2026-05-22 10:54:31] SCORE LosTurcos (lawn green): Final=690.9, Time=96.9, Moves(18)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE S&S (gray0): Final=794.1, Time=96.1, Moves(18)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE Deepseekers (yellow): Final=489.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 57: S&S (gray0) 44->21 [0.00ms]
+[2026-05-22 10:54:32] SCORE LosTurcos (lawn green): Final=690.9, Time=96.9, Moves(18)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE S&S (gray0): Final=793.9, Time=95.9, Moves(19)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE Deepseekers (yellow): Final=489.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 58: LosTurcos (lawn green) 101->100 [0.00ms]
+[2026-05-22 10:54:32] SCORE LosTurcos (lawn green): Final=690.7, Time=96.7, Moves(19)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE S&S (gray0): Final=793.9, Time=95.9, Moves(19)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE Deepseekers (yellow): Final=489.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 59: Deepseekers (yellow) 104->106 [0.00ms]
+[2026-05-22 10:54:32] SCORE LosTurcos (lawn green): Final=690.7, Time=96.7, Moves(19)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE S&S (gray0): Final=793.9, Time=95.9, Moves(19)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE Deepseekers (yellow): Final=493.1, Time=89.1, Moves(20)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 60: S&S (gray0) 69->71 [0.00ms]
+[2026-05-22 10:54:32] SCORE LosTurcos (lawn green): Final=690.7, Time=96.7, Moves(19)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE S&S (gray0): Final=797.7, Time=95.7, Moves(20)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE Deepseekers (yellow): Final=493.1, Time=89.1, Moves(20)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:33] MOVE 61: LosTurcos (lawn green) 59->68 [0.00ms]
+[2026-05-22 10:54:33] SCORE LosTurcos (lawn green): Final=692.6, Time=96.6, Moves(20)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:33] SCORE S&S (gray0): Final=797.7, Time=95.7, Moves(20)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:54:33] SCORE Deepseekers (yellow): Final=493.1, Time=89.1, Moves(20)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:34] MOVE 62: Deepseekers (yellow) 106->107 [0.01ms]
+[2026-05-22 10:54:34] SCORE LosTurcos (lawn green): Final=692.6, Time=96.6, Moves(20)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE S&S (gray0): Final=797.7, Time=95.7, Moves(20)=0.0, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE Deepseekers (yellow): Final=594.1, Time=88.1, Moves(21)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:34] MOVE 63: S&S (gray0) 88->77 [0.00ms]
+[2026-05-22 10:54:34] SCORE LosTurcos (lawn green): Final=692.6, Time=96.6, Moves(20)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE S&S (gray0): Final=799.5, Time=95.5, Moves(21)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE Deepseekers (yellow): Final=594.1, Time=88.1, Moves(21)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:34] MOVE 64: LosTurcos (lawn green) 33->32 [0.01ms]
+[2026-05-22 10:54:34] SCORE LosTurcos (lawn green): Final=694.4, Time=96.4, Moves(21)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE S&S (gray0): Final=799.5, Time=95.5, Moves(21)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE Deepseekers (yellow): Final=594.1, Time=88.1, Moves(21)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:35] MOVE 65: Deepseekers (yellow) 28->30 [0.01ms]
+[2026-05-22 10:54:35] SCORE LosTurcos (lawn green): Final=694.4, Time=96.4, Moves(21)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE S&S (gray0): Final=799.5, Time=95.5, Moves(21)=0.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE Deepseekers (yellow): Final=597.3, Time=87.3, Moves(22)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:54:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:35] MOVE 66: S&S (gray0) 77->43 [0.00ms]
+[2026-05-22 10:54:35] SCORE LosTurcos (lawn green): Final=694.4, Time=96.4, Moves(21)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE S&S (gray0): Final=815.3, Time=95.3, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE Deepseekers (yellow): Final=597.3, Time=87.3, Moves(22)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:54:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:35] MOVE 67: LosTurcos (lawn green) 20->16 [0.00ms]
+[2026-05-22 10:54:35] SCORE LosTurcos (lawn green): Final=702.3, Time=96.3, Moves(22)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE S&S (gray0): Final=815.3, Time=95.3, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:35] SCORE Deepseekers (yellow): Final=597.3, Time=87.3, Moves(22)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:54:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:36] MOVE 68: Deepseekers (yellow) 31->93 [0.00ms]
+[2026-05-22 10:54:36] SCORE LosTurcos (lawn green): Final=702.3, Time=96.3, Moves(22)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE S&S (gray0): Final=815.3, Time=95.3, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE Deepseekers (yellow): Final=600.7, Time=86.7, Moves(23)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:36] MOVE 69: S&S (gray0) 43->44 [0.00ms]
+[2026-05-22 10:54:36] SCORE LosTurcos (lawn green): Final=702.3, Time=96.3, Moves(22)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE S&S (gray0): Final=917.2, Time=95.2, Moves(23)=0.0, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE Deepseekers (yellow): Final=600.7, Time=86.7, Moves(23)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:36] MOVE 70: LosTurcos (lawn green) 29->91 [0.00ms]
+[2026-05-22 10:54:36] SCORE LosTurcos (lawn green): Final=710.1, Time=96.1, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE S&S (gray0): Final=917.2, Time=95.2, Moves(23)=0.0, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE Deepseekers (yellow): Final=600.7, Time=86.7, Moves(23)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:37] MOVE 71: Deepseekers (yellow) 30->42 [0.01ms]
+[2026-05-22 10:54:37] SCORE LosTurcos (lawn green): Final=710.1, Time=96.1, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE S&S (gray0): Final=917.2, Time=95.2, Moves(23)=0.0, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE Deepseekers (yellow): Final=602.0, Time=86.0, Moves(24)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:37] MOVE 72: S&S (gray0) 65->56 [0.01ms]
+[2026-05-22 10:54:37] SCORE LosTurcos (lawn green): Final=710.1, Time=96.1, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE S&S (gray0): Final=919.0, Time=95.0, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE Deepseekers (yellow): Final=602.0, Time=86.0, Moves(24)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:37] MOVE 73: LosTurcos (lawn green) 55->64 [0.00ms]
+[2026-05-22 10:54:37] SCORE LosTurcos (lawn green): Final=711.9, Time=95.9, Moves(24)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE S&S (gray0): Final=919.0, Time=95.0, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE Deepseekers (yellow): Final=602.0, Time=86.0, Moves(24)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:38] MOVE 74: Deepseekers (yellow) 93->74 [0.01ms]
+[2026-05-22 10:54:38] SCORE LosTurcos (lawn green): Final=711.9, Time=95.9, Moves(24)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE S&S (gray0): Final=919.0, Time=95.0, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE Deepseekers (yellow): Final=705.4, Time=85.4, Moves(25)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:38] MOVE 75: S&S (gray0) 56->47 [0.01ms]
+[2026-05-22 10:54:38] SCORE LosTurcos (lawn green): Final=711.9, Time=95.9, Moves(24)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE S&S (gray0): Final=920.9, Time=94.9, Moves(25)=0.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE Deepseekers (yellow): Final=705.4, Time=85.4, Moves(25)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:38] MOVE 76: LosTurcos (lawn green) 100->99 [0.00ms]
+[2026-05-22 10:54:38] SCORE LosTurcos (lawn green): Final=711.6, Time=95.6, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE S&S (gray0): Final=920.9, Time=94.9, Moves(25)=0.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE Deepseekers (yellow): Final=705.4, Time=85.4, Moves(25)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:39] MOVE 77: Deepseekers (yellow) 12->25 [0.01ms]
+[2026-05-22 10:54:39] SCORE LosTurcos (lawn green): Final=711.6, Time=95.6, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE S&S (gray0): Final=920.9, Time=94.9, Moves(25)=0.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE Deepseekers (yellow): Final=706.6, Time=84.6, Moves(26)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:39] MOVE 78: S&S (gray0) 47->37 [0.00ms]
+[2026-05-22 10:54:39] SCORE LosTurcos (lawn green): Final=711.6, Time=95.6, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE S&S (gray0): Final=922.8, Time=94.8, Moves(26)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE Deepseekers (yellow): Final=706.6, Time=84.6, Moves(26)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:39] MOVE 79: LosTurcos (lawn green) 68->67 [0.00ms]
+[2026-05-22 10:54:39] SCORE LosTurcos (lawn green): Final=713.4, Time=95.4, Moves(26)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE S&S (gray0): Final=922.8, Time=94.8, Moves(26)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE Deepseekers (yellow): Final=706.6, Time=84.6, Moves(26)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:40] MOVE 80: Deepseekers (yellow) 25->48 [0.01ms]
+[2026-05-22 10:54:40] SCORE LosTurcos (lawn green): Final=713.4, Time=95.4, Moves(26)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE S&S (gray0): Final=922.8, Time=94.8, Moves(26)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE Deepseekers (yellow): Final=709.9, Time=83.9, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:40] MOVE 81: S&S (gray0) 37->20 [0.00ms]
+[2026-05-22 10:54:40] SCORE LosTurcos (lawn green): Final=713.4, Time=95.4, Moves(26)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE S&S (gray0): Final=1036.6, Time=94.6, Moves(27)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE Deepseekers (yellow): Final=709.9, Time=83.9, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:40] MOVE 82: LosTurcos (lawn green) 78->89 [0.01ms]
+[2026-05-22 10:54:40] SCORE LosTurcos (lawn green): Final=715.2, Time=95.2, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE S&S (gray0): Final=1036.6, Time=94.6, Moves(27)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:40] SCORE Deepseekers (yellow): Final=709.9, Time=83.9, Moves(27)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:41] MOVE 83: Deepseekers (yellow) 63->73 [0.00ms]
+[2026-05-22 10:54:41] SCORE LosTurcos (lawn green): Final=715.2, Time=95.2, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE S&S (gray0): Final=1036.6, Time=94.6, Moves(27)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE Deepseekers (yellow): Final=711.5, Time=83.5, Moves(28)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:41] MOVE 84: S&S (gray0) 76->66 [0.00ms]
+[2026-05-22 10:54:41] SCORE LosTurcos (lawn green): Final=715.2, Time=95.2, Moves(27)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE S&S (gray0): Final=1038.4, Time=94.4, Moves(28)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE Deepseekers (yellow): Final=711.5, Time=83.5, Moves(28)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:41] MOVE 85: LosTurcos (lawn green) 53->62 [0.01ms]
+[2026-05-22 10:54:41] SCORE LosTurcos (lawn green): Final=717.1, Time=95.1, Moves(28)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE S&S (gray0): Final=1038.4, Time=94.4, Moves(28)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE Deepseekers (yellow): Final=711.5, Time=83.5, Moves(28)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:42] MOVE 86: Deepseekers (yellow) 73->96 [0.00ms]
+[2026-05-22 10:54:42] SCORE LosTurcos (lawn green): Final=717.1, Time=95.1, Moves(28)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE S&S (gray0): Final=1038.4, Time=94.4, Moves(28)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE Deepseekers (yellow): Final=812.9, Time=82.9, Moves(29)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:42] MOVE 87: S&S (gray0) 71->30 [0.00ms]
+[2026-05-22 10:54:42] SCORE LosTurcos (lawn green): Final=717.1, Time=95.1, Moves(28)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE S&S (gray0): Final=1042.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE Deepseekers (yellow): Final=812.9, Time=82.9, Moves(29)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:42] MOVE 88: LosTurcos (lawn green) 16->28 [0.00ms]
+[2026-05-22 10:54:42] SCORE LosTurcos (lawn green): Final=718.9, Time=94.9, Moves(29)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE S&S (gray0): Final=1042.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE Deepseekers (yellow): Final=812.9, Time=82.9, Moves(29)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:42] MOVE 89: Deepseekers (yellow) 80->81 [0.00ms]
+[2026-05-22 10:54:42] SCORE LosTurcos (lawn green): Final=718.9, Time=94.9, Moves(29)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE S&S (gray0): Final=1042.3, Time=94.3, Moves(29)=0.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE Deepseekers (yellow): Final=814.5, Time=82.4, Moves(30)=0.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:43] MOVE 90: S&S (gray0) 66->68 [0.00ms]
+[2026-05-22 10:54:43] SCORE LosTurcos (lawn green): Final=718.9, Time=94.9, Moves(29)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE S&S (gray0): Final=1046.2, Time=94.1, Moves(30)=0.1, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE Deepseekers (yellow): Final=814.5, Time=82.4, Moves(30)=0.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:43] MOVE 91: LosTurcos (lawn green) 67->77 [0.00ms]
+[2026-05-22 10:54:43] SCORE LosTurcos (lawn green): Final=720.9, Time=94.8, Moves(30)=0.1, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE S&S (gray0): Final=1046.2, Time=94.1, Moves(30)=0.1, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE Deepseekers (yellow): Final=814.5, Time=82.4, Moves(30)=0.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:43] MOVE 92: Deepseekers (yellow) 81->85 [0.00ms]
+[2026-05-22 10:54:43] SCORE LosTurcos (lawn green): Final=720.9, Time=94.8, Moves(30)=0.1, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE S&S (gray0): Final=1046.2, Time=94.1, Moves(30)=0.1, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE Deepseekers (yellow): Final=920.3, Time=82.0, Moves(31)=0.2, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:43] MOVE 93: S&S (gray0) 68->59 [0.00ms]
+[2026-05-22 10:54:43] SCORE LosTurcos (lawn green): Final=720.9, Time=94.8, Moves(30)=0.1, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE S&S (gray0): Final=1048.2, Time=94.0, Moves(31)=0.2, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE Deepseekers (yellow): Final=920.3, Time=82.0, Moves(31)=0.2, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:43] MOVE 94: LosTurcos (lawn green) 77->88 [0.00ms]
+[2026-05-22 10:54:43] SCORE LosTurcos (lawn green): Final=823.0, Time=94.7, Moves(31)=0.2, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE S&S (gray0): Final=1048.2, Time=94.0, Moves(31)=0.2, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE Deepseekers (yellow): Final=920.3, Time=82.0, Moves(31)=0.2, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:44] MOVE 95: Deepseekers (yellow) 82->83 [0.01ms]
+[2026-05-22 10:54:44] SCORE LosTurcos (lawn green): Final=823.0, Time=94.7, Moves(31)=0.2, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE S&S (gray0): Final=1048.2, Time=94.0, Moves(31)=0.2, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE Deepseekers (yellow): Final=922.1, Time=81.6, Moves(32)=0.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:44] MOVE 96: S&S (gray0) 59->50 [0.00ms]
+[2026-05-22 10:54:44] SCORE LosTurcos (lawn green): Final=823.0, Time=94.7, Moves(31)=0.2, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE S&S (gray0): Final=1050.4, Time=93.9, Moves(32)=0.5, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE Deepseekers (yellow): Final=922.1, Time=81.6, Moves(32)=0.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:44] MOVE 97: LosTurcos (lawn green) 62->71 [0.00ms]
+[2026-05-22 10:54:44] SCORE LosTurcos (lawn green): Final=825.0, Time=94.5, Moves(32)=0.5, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE S&S (gray0): Final=1050.4, Time=93.9, Moves(32)=0.5, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE Deepseekers (yellow): Final=922.1, Time=81.6, Moves(32)=0.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:45] MOVE 98: Deepseekers (yellow) 83->95 [0.00ms]
+[2026-05-22 10:54:45] SCORE LosTurcos (lawn green): Final=825.0, Time=94.5, Moves(32)=0.5, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE S&S (gray0): Final=1050.4, Time=93.9, Moves(32)=0.5, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE Deepseekers (yellow): Final=1024.0, Time=80.9, Moves(33)=1.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:45] MOVE 99: S&S (gray0) 50->33 [0.01ms]
+[2026-05-22 10:54:45] SCORE LosTurcos (lawn green): Final=825.0, Time=94.5, Moves(32)=0.5, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE S&S (gray0): Final=1160.9, Time=93.8, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE Deepseekers (yellow): Final=1024.0, Time=80.9, Moves(33)=1.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:45] MOVE 100: LosTurcos (lawn green) 28->39 [0.00ms]
+[2026-05-22 10:54:45] SCORE LosTurcos (lawn green): Final=827.4, Time=94.3, Moves(33)=1.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE S&S (gray0): Final=1160.9, Time=93.8, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE Deepseekers (yellow): Final=1024.0, Time=80.9, Moves(33)=1.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:54:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:45] MOVE 101: Deepseekers (yellow) 42->53 [0.01ms]
+[2026-05-22 10:54:45] SCORE LosTurcos (lawn green): Final=827.4, Time=94.3, Moves(33)=1.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1160.9, Time=93.8, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1026.7, Time=80.4, Moves(34)=2.3, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:46] MOVE 102: S&S (gray0) 30->31 [0.00ms]
+[2026-05-22 10:54:46] SCORE LosTurcos (lawn green): Final=827.4, Time=94.3, Moves(33)=1.1, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1163.9, Time=93.6, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1026.7, Time=80.4, Moves(34)=2.3, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:46] MOVE 103: LosTurcos (lawn green) 64->73 [0.00ms]
+[2026-05-22 10:54:46] SCORE LosTurcos (lawn green): Final=830.5, Time=94.3, Moves(34)=2.3, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1163.9, Time=93.6, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1026.7, Time=80.4, Moves(34)=2.3, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:46] MOVE 104: Deepseekers (yellow) 51->52 [0.00ms]
+[2026-05-22 10:54:46] SCORE LosTurcos (lawn green): Final=830.5, Time=94.3, Moves(34)=2.3, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1163.9, Time=93.6, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1030.4, Time=80.0, Moves(35)=4.4, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:46] MOVE 105: S&S (gray0) 10->11 [0.00ms]
+[2026-05-22 10:54:46] SCORE LosTurcos (lawn green): Final=830.5, Time=94.3, Moves(34)=2.3, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1167.9, Time=93.5, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1030.4, Time=80.0, Moves(35)=4.4, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:46] MOVE 106: LosTurcos (lawn green) 39->38 [0.00ms]
+[2026-05-22 10:54:46] SCORE LosTurcos (lawn green): Final=834.4, Time=94.0, Moves(35)=4.4, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE S&S (gray0): Final=1167.9, Time=93.5, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE Deepseekers (yellow): Final=1030.4, Time=80.0, Moves(35)=4.4, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:47] MOVE 107: Deepseekers (yellow) 53->63 [0.00ms]
+[2026-05-22 10:54:47] SCORE LosTurcos (lawn green): Final=834.4, Time=94.0, Moves(35)=4.4, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE S&S (gray0): Final=1167.9, Time=93.5, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE Deepseekers (yellow): Final=1035.4, Time=79.5, Moves(36)=8.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:47] MOVE 108: S&S (gray0) 11->12 [0.00ms]
+[2026-05-22 10:54:47] SCORE LosTurcos (lawn green): Final=834.4, Time=94.0, Moves(35)=4.4, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE S&S (gray0): Final=1173.3, Time=93.3, Moves(36)=8.0, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE Deepseekers (yellow): Final=1035.4, Time=79.5, Moves(36)=8.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:47] MOVE 109: LosTurcos (lawn green) 89->101 [0.00ms]
+[2026-05-22 10:54:47] SCORE LosTurcos (lawn green): Final=939.9, Time=94.0, Moves(36)=8.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE S&S (gray0): Final=1173.3, Time=93.3, Moves(36)=8.0, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE Deepseekers (yellow): Final=1035.4, Time=79.5, Moves(36)=8.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:48] MOVE 110: Deepseekers (yellow) 63->64 [0.00ms]
+[2026-05-22 10:54:48] SCORE LosTurcos (lawn green): Final=939.9, Time=94.0, Moves(36)=8.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE S&S (gray0): Final=1173.3, Time=93.3, Moves(36)=8.0, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE Deepseekers (yellow): Final=1042.5, Time=79.0, Moves(37)=13.5, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:48] MOVE 111: S&S (gray0) 12->13 [0.00ms]
+[2026-05-22 10:54:48] SCORE LosTurcos (lawn green): Final=939.9, Time=94.0, Moves(36)=8.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE S&S (gray0): Final=1180.7, Time=93.2, Moves(37)=13.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE Deepseekers (yellow): Final=1042.5, Time=79.0, Moves(37)=13.5, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:48] MOVE 112: LosTurcos (lawn green) 73->83 [0.00ms]
+[2026-05-22 10:54:48] SCORE LosTurcos (lawn green): Final=947.4, Time=93.9, Moves(37)=13.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE S&S (gray0): Final=1180.7, Time=93.2, Moves(37)=13.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE Deepseekers (yellow): Final=1042.5, Time=79.0, Moves(37)=13.5, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:49] MOVE 113: Deepseekers (yellow) 52->62 [0.00ms]
+[2026-05-22 10:54:49] SCORE LosTurcos (lawn green): Final=947.4, Time=93.9, Moves(37)=13.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE S&S (gray0): Final=1180.7, Time=93.2, Moves(37)=13.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE Deepseekers (yellow): Final=1052.0, Time=78.4, Moves(38)=21.6, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:49] MOVE 114: S&S (gray0) 13->14 [0.00ms]
+[2026-05-22 10:54:49] SCORE LosTurcos (lawn green): Final=947.4, Time=93.9, Moves(37)=13.5, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE S&S (gray0): Final=1190.7, Time=93.0, Moves(38)=21.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE Deepseekers (yellow): Final=1052.0, Time=78.4, Moves(38)=21.6, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:49] MOVE 115: LosTurcos (lawn green) 38->57 [0.00ms]
+[2026-05-22 10:54:49] SCORE LosTurcos (lawn green): Final=959.3, Time=93.7, Moves(38)=21.6, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE S&S (gray0): Final=1190.7, Time=93.0, Moves(38)=21.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE Deepseekers (yellow): Final=1052.0, Time=78.4, Moves(38)=21.6, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:49] MOVE 116: Deepseekers (yellow) 62->63 [0.00ms]
+[2026-05-22 10:54:49] SCORE LosTurcos (lawn green): Final=959.3, Time=93.7, Moves(38)=21.6, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE S&S (gray0): Final=1190.7, Time=93.0, Moves(38)=21.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE Deepseekers (yellow): Final=1064.3, Time=77.8, Moves(39)=32.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:50] MOVE 117: S&S (gray0) 14->15 [0.00ms]
+[2026-05-22 10:54:50] SCORE LosTurcos (lawn green): Final=959.3, Time=93.7, Moves(38)=21.6, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE S&S (gray0): Final=1203.3, Time=92.9, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE Deepseekers (yellow): Final=1064.3, Time=77.8, Moves(39)=32.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:50] MOVE 118: LosTurcos (lawn green) 32->53 [0.00ms]
+[2026-05-22 10:54:50] SCORE LosTurcos (lawn green): Final=974.1, Time=93.6, Moves(39)=32.5, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE S&S (gray0): Final=1203.3, Time=92.9, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE Deepseekers (yellow): Final=1064.3, Time=77.8, Moves(39)=32.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:50] MOVE 119: Deepseekers (yellow) 63->73 [0.01ms]
+[2026-05-22 10:54:50] SCORE LosTurcos (lawn green): Final=974.1, Time=93.6, Moves(39)=32.5, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE S&S (gray0): Final=1203.3, Time=92.9, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE Deepseekers (yellow): Final=1079.2, Time=77.4, Moves(40)=45.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:50] MOVE 120: S&S (gray0) 31->32 [0.01ms]
+[2026-05-22 10:54:50] SCORE LosTurcos (lawn green): Final=974.1, Time=93.6, Moves(39)=32.5, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE S&S (gray0): Final=1318.4, Time=92.6, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE Deepseekers (yellow): Final=1079.2, Time=77.4, Moves(40)=45.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:50] MOVE 121: LosTurcos (lawn green) 57->56 [0.00ms]
+[2026-05-22 10:54:50] SCORE LosTurcos (lawn green): Final=989.3, Time=93.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE S&S (gray0): Final=1318.4, Time=92.6, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE Deepseekers (yellow): Final=1079.2, Time=77.4, Moves(40)=45.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:51] MOVE 122: Deepseekers (yellow) 23->24 [0.00ms]
+[2026-05-22 10:54:51] SCORE LosTurcos (lawn green): Final=989.3, Time=93.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE S&S (gray0): Final=1318.4, Time=92.6, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE Deepseekers (yellow): Final=1095.3, Time=76.7, Moves(41)=60.7, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:51] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:51] MOVE 123: S&S (gray0) 15->16 [0.00ms]
+[2026-05-22 10:54:51] SCORE LosTurcos (lawn green): Final=989.3, Time=93.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE S&S (gray0): Final=1335.2, Time=92.5, Moves(41)=60.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE Deepseekers (yellow): Final=1095.3, Time=76.7, Moves(41)=60.7, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:51] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:51] MOVE 124: LosTurcos (lawn green) 83->104 [0.00ms]
+[2026-05-22 10:54:51] SCORE LosTurcos (lawn green): Final=1012.0, Time=93.4, Moves(41)=60.7, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE S&S (gray0): Final=1335.2, Time=92.5, Moves(41)=60.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE Deepseekers (yellow): Final=1095.3, Time=76.7, Moves(41)=60.7, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:51] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:52] MOVE 125: Deepseekers (yellow) 64->108 [0.00ms]
+[2026-05-22 10:54:52] SCORE LosTurcos (lawn green): Final=1012.0, Time=93.4, Moves(41)=60.7, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE S&S (gray0): Final=1335.2, Time=92.5, Moves(41)=60.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE Deepseekers (yellow): Final=1211.5, Time=76.1, Moves(42)=75.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:52] MOVE 126: S&S (gray0) 16->17 [0.01ms]
+[2026-05-22 10:54:52] SCORE LosTurcos (lawn green): Final=1012.0, Time=93.4, Moves(41)=60.7, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE S&S (gray0): Final=1351.9, Time=92.4, Moves(42)=75.5, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE Deepseekers (yellow): Final=1211.5, Time=76.1, Moves(42)=75.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:52] MOVE 127: LosTurcos (lawn green) 71->81 [0.01ms]
+[2026-05-22 10:54:52] SCORE LosTurcos (lawn green): Final=1028.7, Time=93.2, Moves(42)=75.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE S&S (gray0): Final=1351.9, Time=92.4, Moves(42)=75.5, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE Deepseekers (yellow): Final=1211.5, Time=76.1, Moves(42)=75.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:53] MOVE 128: Deepseekers (yellow) 24->25 [0.00ms]
+[2026-05-22 10:54:53] SCORE LosTurcos (lawn green): Final=1028.7, Time=93.2, Moves(42)=75.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE S&S (gray0): Final=1351.9, Time=92.4, Moves(42)=75.5, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE Deepseekers (yellow): Final=1225.7, Time=75.5, Moves(43)=88.2, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:53] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:53] MOVE 129: S&S (gray0) 105->82 [0.00ms]
+[2026-05-22 10:54:53] SCORE LosTurcos (lawn green): Final=1028.7, Time=93.2, Moves(42)=75.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE S&S (gray0): Final=1368.6, Time=92.3, Moves(43)=88.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE Deepseekers (yellow): Final=1225.7, Time=75.5, Moves(43)=88.2, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:53] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:53] MOVE 130: LosTurcos (lawn green) 91->103 [0.00ms]
+[2026-05-22 10:54:53] SCORE LosTurcos (lawn green): Final=1043.4, Time=93.1, Moves(43)=88.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE S&S (gray0): Final=1368.6, Time=92.3, Moves(43)=88.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:54:53] SCORE Deepseekers (yellow): Final=1225.7, Time=75.5, Moves(43)=88.2, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:53] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:54] MOVE 131: Deepseekers (yellow) 25->37 [0.00ms]
+[2026-05-22 10:54:54] SCORE LosTurcos (lawn green): Final=1043.4, Time=93.1, Moves(43)=88.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE S&S (gray0): Final=1368.6, Time=92.3, Moves(43)=88.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE Deepseekers (yellow): Final=1236.0, Time=75.1, Moves(44)=96.9, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:54:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:54] MOVE 132: S&S (gray0) 17->18 [0.00ms]
+[2026-05-22 10:54:54] SCORE LosTurcos (lawn green): Final=1043.4, Time=93.1, Moves(43)=88.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE S&S (gray0): Final=1379.2, Time=92.2, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE Deepseekers (yellow): Final=1236.0, Time=75.1, Moves(44)=96.9, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:54:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:54] MOVE 133: LosTurcos (lawn green) 104->100 [0.00ms]
+[2026-05-22 10:54:54] SCORE LosTurcos (lawn green): Final=1157.8, Time=92.9, Moves(44)=96.9, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE S&S (gray0): Final=1379.2, Time=92.2, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:54:54] SCORE Deepseekers (yellow): Final=1236.0, Time=75.1, Moves(44)=96.9, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:54:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:54] MOVE 134: Deepseekers (yellow) 37->58 [0.01ms]
+[2026-05-22 10:54:54] SCORE LosTurcos (lawn green): Final=1157.8, Time=92.9, Moves(44)=96.9, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE S&S (gray0): Final=1379.2, Time=92.2, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE Deepseekers (yellow): Final=1242.4, Time=74.4, Moves(45)=100.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:55] MOVE 135: S&S (gray0) 82->72 [0.01ms]
+[2026-05-22 10:54:55] SCORE LosTurcos (lawn green): Final=1157.8, Time=92.9, Moves(44)=96.9, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE S&S (gray0): Final=1384.1, Time=92.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE Deepseekers (yellow): Final=1242.4, Time=74.4, Moves(45)=100.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:55] MOVE 136: LosTurcos (lawn green) 103->102 [0.00ms]
+[2026-05-22 10:54:55] SCORE LosTurcos (lawn green): Final=1162.6, Time=92.6, Moves(45)=100.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE S&S (gray0): Final=1384.1, Time=92.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE Deepseekers (yellow): Final=1242.4, Time=74.4, Moves(45)=100.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:55] MOVE 137: Deepseekers (yellow) 48->68 [0.00ms]
+[2026-05-22 10:54:55] SCORE LosTurcos (lawn green): Final=1162.6, Time=92.6, Moves(45)=100.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE S&S (gray0): Final=1384.1, Time=92.1, Moves(45)=100.0, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:54:55] SCORE Deepseekers (yellow): Final=1245.8, Time=73.9, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:56] MOVE 138: S&S (gray0) 72->63 [0.00ms]
+[2026-05-22 10:54:56] SCORE LosTurcos (lawn green): Final=1162.6, Time=92.6, Moves(45)=100.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE S&S (gray0): Final=1385.8, Time=91.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE Deepseekers (yellow): Final=1245.8, Time=73.9, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:56] MOVE 139: LosTurcos (lawn green) 56->65 [0.00ms]
+[2026-05-22 10:54:56] SCORE LosTurcos (lawn green): Final=1264.3, Time=92.4, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE S&S (gray0): Final=1385.8, Time=91.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE Deepseekers (yellow): Final=1245.8, Time=73.9, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:56] MOVE 140: Deepseekers (yellow) 58->79 [0.00ms]
+[2026-05-22 10:54:56] SCORE LosTurcos (lawn green): Final=1264.3, Time=92.4, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE S&S (gray0): Final=1385.8, Time=91.9, Moves(46)=99.8, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE Deepseekers (yellow): Final=1248.8, Time=73.4, Moves(47)=99.4, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:56] MOVE 141: S&S (gray0) 63->54 [0.00ms]
+[2026-05-22 10:54:56] SCORE LosTurcos (lawn green): Final=1264.3, Time=92.4, Moves(46)=99.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE S&S (gray0): Final=1387.2, Time=91.8, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:56] SCORE Deepseekers (yellow): Final=1248.8, Time=73.4, Moves(47)=99.4, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:57] MOVE 142: LosTurcos (lawn green) 101->76 [0.01ms]
+[2026-05-22 10:54:57] SCORE LosTurcos (lawn green): Final=1263.6, Time=92.2, Moves(47)=99.4, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE S&S (gray0): Final=1387.2, Time=91.8, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE Deepseekers (yellow): Final=1248.8, Time=73.4, Moves(47)=99.4, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:57] MOVE 143: Deepseekers (yellow) 68->91 [0.01ms]
+[2026-05-22 10:54:57] SCORE LosTurcos (lawn green): Final=1263.6, Time=92.2, Moves(47)=99.4, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE S&S (gray0): Final=1387.2, Time=91.8, Moves(47)=99.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE Deepseekers (yellow): Final=1251.5, Time=72.9, Moves(48)=98.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:57] MOVE 144: S&S (gray0) 54->55 [0.00ms]
+[2026-05-22 10:54:57] SCORE LosTurcos (lawn green): Final=1263.6, Time=92.2, Moves(47)=99.4, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE S&S (gray0): Final=1488.3, Time=91.7, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE Deepseekers (yellow): Final=1251.5, Time=72.9, Moves(48)=98.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:57] MOVE 145: LosTurcos (lawn green) 102->101 [0.00ms]
+[2026-05-22 10:54:57] SCORE LosTurcos (lawn green): Final=1364.7, Time=92.1, Moves(48)=98.6, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE S&S (gray0): Final=1488.3, Time=91.7, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:57] SCORE Deepseekers (yellow): Final=1251.5, Time=72.9, Moves(48)=98.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:54:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:58] MOVE 146: Deepseekers (yellow) 79->104 [0.01ms]
+[2026-05-22 10:54:58] SCORE LosTurcos (lawn green): Final=1364.7, Time=92.1, Moves(48)=98.6, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE S&S (gray0): Final=1488.3, Time=91.7, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE Deepseekers (yellow): Final=1253.9, Time=72.3, Moves(49)=97.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:58] MOVE 147: S&S (gray0) 32->34 [0.01ms]
+[2026-05-22 10:54:58] SCORE LosTurcos (lawn green): Final=1364.7, Time=92.1, Moves(48)=98.6, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE S&S (gray0): Final=1487.2, Time=91.6, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE Deepseekers (yellow): Final=1253.9, Time=72.3, Moves(49)=97.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:58] MOVE 148: LosTurcos (lawn green) 53->62 [0.00ms]
+[2026-05-22 10:54:58] SCORE LosTurcos (lawn green): Final=1365.5, Time=91.9, Moves(49)=97.6, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE S&S (gray0): Final=1487.2, Time=91.6, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:58] SCORE Deepseekers (yellow): Final=1253.9, Time=72.3, Moves(49)=97.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:59] MOVE 149: Deepseekers (yellow) 104->105 [0.01ms]
+[2026-05-22 10:54:59] SCORE LosTurcos (lawn green): Final=1365.5, Time=91.9, Moves(49)=97.6, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE S&S (gray0): Final=1487.2, Time=91.6, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE Deepseekers (yellow): Final=1253.9, Time=71.7, Moves(50)=96.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:54:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:59] MOVE 150: S&S (gray0) 19->32 [0.00ms]
+[2026-05-22 10:54:59] SCORE LosTurcos (lawn green): Final=1365.5, Time=91.9, Moves(49)=97.6, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE S&S (gray0): Final=1485.7, Time=91.5, Moves(50)=96.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE Deepseekers (yellow): Final=1253.9, Time=71.7, Moves(50)=96.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:54:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:54:59] MOVE 151: LosTurcos (lawn green) 62->71 [0.01ms]
+[2026-05-22 10:54:59] SCORE LosTurcos (lawn green): Final=1365.8, Time=91.6, Moves(50)=96.2, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE S&S (gray0): Final=1485.7, Time=91.5, Moves(50)=96.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:59] SCORE Deepseekers (yellow): Final=1253.9, Time=71.7, Moves(50)=96.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:54:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:55:00] MOVE 152: Deepseekers (yellow) 105->106 [0.00ms]
+[2026-05-22 10:55:00] SCORE LosTurcos (lawn green): Final=1365.8, Time=91.6, Moves(50)=96.2, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:55:00] SCORE S&S (gray0): Final=1485.7, Time=91.5, Moves(50)=96.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:55:00] SCORE Deepseekers (yellow): Final=1254.0, Time=71.4, Moves(51)=94.6, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:55:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 10:55:00] MOVE 153: S&S (gray0) 18->19 [0.01ms]
+[2026-05-22 10:55:00] SCORE LosTurcos (lawn green): Final=1365.8, Time=91.6, Moves(50)=96.2, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:55:00] SCORE S&S (gray0): Final=2586.0, Time=91.4, Moves(51)=94.6, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:55:00] SCORE Deepseekers (yellow): Final=1254.0, Time=71.4, Moves(51)=94.6, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:55:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}

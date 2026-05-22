@@ -1,0 +1,1512 @@
+[2026-05-22 10:31:59] GAME CREATED
+[2026-05-22 10:32:00] PLAYER JOINED: Robert as red
+[2026-05-22 10:32:04] PLAYER JOINED: Tiefes Verstarkendes Lernen as blue
+[2026-05-22 10:32:06] PLAYER JOINED: LosTurcos as lawn green
+[2026-05-22 10:32:24] PLAYER START (FORCE): Robert (red)
+[2026-05-22 10:32:24] PLAYER START (FORCE): Tiefes Verstarkendes Lernen (blue)
+[2026-05-22 10:32:24] PLAYER START (FORCE): LosTurcos (lawn green)
+[2026-05-22 10:32:24] GAME FORCE-STARTED — turn order ['red', 'lawn green', 'blue']
+[2026-05-22 10:32:24] PLAYER START: Robert (red)
+[2026-05-22 10:32:24] PLAYER START: Tiefes Verstarkendes Lernen (blue)
+[2026-05-22 10:32:24] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 10:32:24] MOVE 1: Robert (red) 115->104 [0.00ms]
+[2026-05-22 10:32:24] SCORE Robert (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:24] SCORE Tiefes Verstarkendes Lernen (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:24] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:24] PLAYER START: Robert (red)
+[2026-05-22 10:32:24] PLAYER START: Tiefes Verstarkendes Lernen (blue)
+[2026-05-22 10:32:24] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 10:32:26] PLAYER START: Robert (red)
+[2026-05-22 10:32:26] PLAYER START: Tiefes Verstarkendes Lernen (blue)
+[2026-05-22 10:32:26] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 10:32:26] MOVE 2: LosTurcos (lawn green) 20->43 [0.00ms]
+[2026-05-22 10:32:26] SCORE Robert (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE Tiefes Verstarkendes Lernen (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE LosTurcos (lawn green): Final=282.4, Time=98.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 3: Tiefes Verstarkendes Lernen (blue) 5->20 [0.00ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=282.4, Time=98.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 4: Robert (red) 104->92 [0.01ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=282.4, Time=98.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 5: LosTurcos (lawn green) 19->31 [0.00ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=284.2, Time=98.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 6: Tiefes Verstarkendes Lernen (blue) 0->18 [0.00ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=284.2, Time=98.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 7: Robert (red) 120->81 [0.00ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=284.2, Time=98.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:27] MOVE 8: LosTurcos (lawn green) 43->42 [0.00ms]
+[2026-05-22 10:32:27] SCORE Robert (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE Tiefes Verstarkendes Lernen (blue): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:27] SCORE LosTurcos (lawn green): Final=285.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:28] MOVE 9: Tiefes Verstarkendes Lernen (blue) 18->43 [0.00ms]
+[2026-05-22 10:32:28] SCORE Robert (red): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Tiefes Verstarkendes Lernen (blue): Final=295.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE LosTurcos (lawn green): Final=285.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:28] MOVE 10: Robert (red) 81->70 [0.00ms]
+[2026-05-22 10:32:28] SCORE Robert (red): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Tiefes Verstarkendes Lernen (blue): Final=295.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE LosTurcos (lawn green): Final=285.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:28] MOVE 11: LosTurcos (lawn green) 42->41 [0.00ms]
+[2026-05-22 10:32:28] SCORE Robert (red): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Tiefes Verstarkendes Lernen (blue): Final=295.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE LosTurcos (lawn green): Final=287.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:28] MOVE 12: Tiefes Verstarkendes Lernen (blue) 43->54 [0.00ms]
+[2026-05-22 10:32:28] SCORE Robert (red): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Tiefes Verstarkendes Lernen (blue): Final=297.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE LosTurcos (lawn green): Final=287.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:28] MOVE 13: Robert (red) 117->60 [0.00ms]
+[2026-05-22 10:32:28] SCORE Robert (red): Final=310.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Tiefes Verstarkendes Lernen (blue): Final=297.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE LosTurcos (lawn green): Final=287.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:29] MOVE 14: LosTurcos (lawn green) 41->51 [0.00ms]
+[2026-05-22 10:32:29] SCORE Robert (red): Final=310.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Tiefes Verstarkendes Lernen (blue): Final=297.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE LosTurcos (lawn green): Final=289.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:29] MOVE 15: Tiefes Verstarkendes Lernen (blue) 3->64 [0.00ms]
+[2026-05-22 10:32:29] SCORE Robert (red): Final=310.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Tiefes Verstarkendes Lernen (blue): Final=309.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE LosTurcos (lawn green): Final=289.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:29] MOVE 16: Robert (red) 116->40 [0.00ms]
+[2026-05-22 10:32:29] SCORE Robert (red): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Tiefes Verstarkendes Lernen (blue): Final=309.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE LosTurcos (lawn green): Final=289.5, Time=97.5, Moves(5)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:29] MOVE 17: LosTurcos (lawn green) 45->16 [0.00ms]
+[2026-05-22 10:32:29] SCORE Robert (red): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Tiefes Verstarkendes Lernen (blue): Final=309.1, Time=99.1, Moves(5)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE LosTurcos (lawn green): Final=297.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:29] MOVE 18: Tiefes Verstarkendes Lernen (blue) 7->52 [0.00ms]
+[2026-05-22 10:32:29] SCORE Robert (red): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Tiefes Verstarkendes Lernen (blue): Final=317.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE LosTurcos (lawn green): Final=297.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:30] MOVE 19: Robert (red) 70->7 [0.00ms]
+[2026-05-22 10:32:30] SCORE Robert (red): Final=438.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE Tiefes Verstarkendes Lernen (blue): Final=317.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE LosTurcos (lawn green): Final=297.3, Time=97.3, Moves(6)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:30] MOVE 20: LosTurcos (lawn green) 21->59 [0.00ms]
+[2026-05-22 10:32:30] SCORE Robert (red): Final=438.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE Tiefes Verstarkendes Lernen (blue): Final=317.0, Time=99.0, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE LosTurcos (lawn green): Final=313.1, Time=97.1, Moves(7)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:32:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:30] MOVE 21: Tiefes Verstarkendes Lernen (blue) 52->70 [0.00ms]
+[2026-05-22 10:32:30] SCORE Robert (red): Final=438.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE Tiefes Verstarkendes Lernen (blue): Final=320.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE LosTurcos (lawn green): Final=313.1, Time=97.1, Moves(7)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:32:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:30] MOVE 22: Robert (red) 118->116 [0.00ms]
+[2026-05-22 10:32:30] SCORE Robert (red): Final=439.8, Time=97.8, Moves(8)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE Tiefes Verstarkendes Lernen (blue): Final=320.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:32:30] SCORE LosTurcos (lawn green): Final=313.1, Time=97.1, Moves(7)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:32:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 23: LosTurcos (lawn green) 55->73 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=439.8, Time=97.8, Moves(8)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=320.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=316.9, Time=96.9, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 24: Tiefes Verstarkendes Lernen (blue) 64->83 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=439.8, Time=97.8, Moves(8)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=316.9, Time=96.9, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 25: Robert (red) 40->28 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=441.5, Time=97.5, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=316.9, Time=96.9, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 26: LosTurcos (lawn green) 32->30 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=441.5, Time=97.5, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=324.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=320.7, Time=96.7, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 27: Tiefes Verstarkendes Lernen (blue) 4->105 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=441.5, Time=97.5, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=344.7, Time=98.7, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=320.7, Time=96.7, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:31] MOVE 28: Robert (red) 113->91 [0.00ms]
+[2026-05-22 10:32:31] SCORE Robert (red): Final=445.2, Time=97.2, Moves(10)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Tiefes Verstarkendes Lernen (blue): Final=344.7, Time=98.7, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE LosTurcos (lawn green): Final=320.7, Time=96.7, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:32] MOVE 29: LosTurcos (lawn green) 22->41 [0.00ms]
+[2026-05-22 10:32:32] SCORE Robert (red): Final=445.2, Time=97.2, Moves(10)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Tiefes Verstarkendes Lernen (blue): Final=344.7, Time=98.7, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE LosTurcos (lawn green): Final=332.6, Time=96.6, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:32] MOVE 30: Tiefes Verstarkendes Lernen (blue) 20->64 [0.00ms]
+[2026-05-22 10:32:32] SCORE Robert (red): Final=445.2, Time=97.2, Moves(10)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Tiefes Verstarkendes Lernen (blue): Final=352.6, Time=98.6, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE LosTurcos (lawn green): Final=332.6, Time=96.6, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:32] MOVE 31: Robert (red) 116->4 [0.00ms]
+[2026-05-22 10:32:32] SCORE Robert (red): Final=566.8, Time=96.8, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Tiefes Verstarkendes Lernen (blue): Final=352.6, Time=98.6, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE LosTurcos (lawn green): Final=332.6, Time=96.6, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:32] MOVE 32: LosTurcos (lawn green) 59->103 [0.00ms]
+[2026-05-22 10:32:32] SCORE Robert (red): Final=566.8, Time=96.8, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Tiefes Verstarkendes Lernen (blue): Final=352.6, Time=98.6, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE LosTurcos (lawn green): Final=336.4, Time=96.4, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:32] MOVE 33: Tiefes Verstarkendes Lernen (blue) 54->95 [0.00ms]
+[2026-05-22 10:32:32] SCORE Robert (red): Final=566.8, Time=96.8, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Tiefes Verstarkendes Lernen (blue): Final=358.5, Time=98.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE LosTurcos (lawn green): Final=336.4, Time=96.4, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:33] MOVE 34: Robert (red) 91->80 [0.01ms]
+[2026-05-22 10:32:33] SCORE Robert (red): Final=568.4, Time=96.4, Moves(12)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE Tiefes Verstarkendes Lernen (blue): Final=358.5, Time=98.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE LosTurcos (lawn green): Final=336.4, Time=96.4, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:33] MOVE 35: LosTurcos (lawn green) 103->102 [0.00ms]
+[2026-05-22 10:32:33] SCORE Robert (red): Final=568.4, Time=96.4, Moves(12)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE Tiefes Verstarkendes Lernen (blue): Final=358.5, Time=98.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE LosTurcos (lawn green): Final=338.2, Time=96.2, Moves(12)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:33] MOVE 36: Tiefes Verstarkendes Lernen (blue) 70->113 [0.01ms]
+[2026-05-22 10:32:33] SCORE Robert (red): Final=568.4, Time=96.4, Moves(12)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE Tiefes Verstarkendes Lernen (blue): Final=466.2, Time=98.2, Moves(12)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE LosTurcos (lawn green): Final=338.2, Time=96.2, Moves(12)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:34] MOVE 37: Robert (red) 112->103 [0.00ms]
+[2026-05-22 10:32:34] SCORE Robert (red): Final=570.0, Time=96.0, Moves(13)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE Tiefes Verstarkendes Lernen (blue): Final=466.2, Time=98.2, Moves(12)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE LosTurcos (lawn green): Final=338.2, Time=96.2, Moves(12)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:34] MOVE 38: LosTurcos (lawn green) 102->101 [0.00ms]
+[2026-05-22 10:32:34] SCORE Robert (red): Final=570.0, Time=96.0, Moves(13)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE Tiefes Verstarkendes Lernen (blue): Final=466.2, Time=98.2, Moves(12)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE LosTurcos (lawn green): Final=439.5, Time=95.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:34] MOVE 39: Tiefes Verstarkendes Lernen (blue) 105->116 [0.01ms]
+[2026-05-22 10:32:34] SCORE Robert (red): Final=570.0, Time=96.0, Moves(13)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE Tiefes Verstarkendes Lernen (blue): Final=568.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:34] SCORE LosTurcos (lawn green): Final=439.5, Time=95.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:35] MOVE 40: Robert (red) 111->29 [0.01ms]
+[2026-05-22 10:32:35] SCORE Robert (red): Final=585.5, Time=95.5, Moves(14)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Tiefes Verstarkendes Lernen (blue): Final=568.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE LosTurcos (lawn green): Final=439.5, Time=95.5, Moves(13)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:35] MOVE 41: LosTurcos (lawn green) 41->40 [0.00ms]
+[2026-05-22 10:32:35] SCORE Robert (red): Final=585.5, Time=95.5, Moves(14)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Tiefes Verstarkendes Lernen (blue): Final=568.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE LosTurcos (lawn green): Final=441.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:35] MOVE 42: Tiefes Verstarkendes Lernen (blue) 95->107 [0.00ms]
+[2026-05-22 10:32:36] SCORE Robert (red): Final=585.5, Time=95.5, Moves(14)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE Tiefes Verstarkendes Lernen (blue): Final=570.0, Time=98.0, Moves(14)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE LosTurcos (lawn green): Final=441.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:36] MOVE 43: Robert (red) 60->0 [0.00ms]
+[2026-05-22 10:32:36] SCORE Robert (red): Final=695.1, Time=95.1, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE Tiefes Verstarkendes Lernen (blue): Final=570.0, Time=98.0, Moves(14)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE LosTurcos (lawn green): Final=441.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:32:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:36] MOVE 44: LosTurcos (lawn green) 16->14 [0.00ms]
+[2026-05-22 10:32:36] SCORE Robert (red): Final=695.1, Time=95.1, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE Tiefes Verstarkendes Lernen (blue): Final=570.0, Time=98.0, Moves(14)=0.0, Pins(2)=200.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE LosTurcos (lawn green): Final=444.8, Time=94.8, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:36] MOVE 45: Tiefes Verstarkendes Lernen (blue) 107->106 [0.00ms]
+[2026-05-22 10:32:36] SCORE Robert (red): Final=695.1, Time=95.1, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE Tiefes Verstarkendes Lernen (blue): Final=571.8, Time=97.8, Moves(15)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE LosTurcos (lawn green): Final=444.8, Time=94.8, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:37] MOVE 46: Robert (red) 119->90 [0.00ms]
+[2026-05-22 10:32:37] SCORE Robert (red): Final=702.7, Time=94.7, Moves(16)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE Tiefes Verstarkendes Lernen (blue): Final=571.8, Time=97.8, Moves(15)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE LosTurcos (lawn green): Final=444.8, Time=94.8, Moves(15)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:37] MOVE 47: LosTurcos (lawn green) 40->39 [0.00ms]
+[2026-05-22 10:32:37] SCORE Robert (red): Final=702.7, Time=94.7, Moves(16)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE Tiefes Verstarkendes Lernen (blue): Final=571.8, Time=97.8, Moves(15)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE LosTurcos (lawn green): Final=446.6, Time=94.6, Moves(16)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:37] MOVE 48: Tiefes Verstarkendes Lernen (blue) 106->117 [0.00ms]
+[2026-05-22 10:32:37] SCORE Robert (red): Final=702.7, Time=94.7, Moves(16)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.8, Time=97.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE LosTurcos (lawn green): Final=446.6, Time=94.6, Moves(16)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:37] MOVE 49: Robert (red) 90->79 [0.00ms]
+[2026-05-22 10:32:37] SCORE Robert (red): Final=704.3, Time=94.3, Moves(17)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.8, Time=97.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:37] SCORE LosTurcos (lawn green): Final=446.6, Time=94.6, Moves(16)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:38] MOVE 50: LosTurcos (lawn green) 101->100 [0.00ms]
+[2026-05-22 10:32:38] SCORE Robert (red): Final=704.3, Time=94.3, Moves(17)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.8, Time=97.8, Moves(16)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE LosTurcos (lawn green): Final=446.3, Time=94.3, Moves(17)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:38] MOVE 51: Tiefes Verstarkendes Lernen (blue) 116->119 [0.00ms]
+[2026-05-22 10:32:38] SCORE Robert (red): Final=704.3, Time=94.3, Moves(17)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.7, Time=97.7, Moves(17)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE LosTurcos (lawn green): Final=446.3, Time=94.3, Moves(17)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:38] MOVE 52: Robert (red) 114->69 [0.01ms]
+[2026-05-22 10:32:38] SCORE Robert (red): Final=712.0, Time=94.0, Moves(18)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.7, Time=97.7, Moves(17)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE LosTurcos (lawn green): Final=446.3, Time=94.3, Moves(17)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:38] MOVE 53: LosTurcos (lawn green) 51->60 [0.01ms]
+[2026-05-22 10:32:38] SCORE Robert (red): Final=712.0, Time=94.0, Moves(18)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.7, Time=97.7, Moves(17)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE LosTurcos (lawn green): Final=448.3, Time=94.3, Moves(18)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:38] MOVE 54: Tiefes Verstarkendes Lernen (blue) 117->120 [0.00ms]
+[2026-05-22 10:32:38] SCORE Robert (red): Final=712.0, Time=94.0, Moves(18)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.6, Time=97.6, Moves(18)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE LosTurcos (lawn green): Final=448.3, Time=94.3, Moves(18)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:39] MOVE 55: Robert (red) 103->91 [0.01ms]
+[2026-05-22 10:32:39] SCORE Robert (red): Final=713.5, Time=93.5, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.6, Time=97.6, Moves(18)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE LosTurcos (lawn green): Final=448.3, Time=94.3, Moves(18)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:39] MOVE 56: LosTurcos (lawn green) 44->54 [0.00ms]
+[2026-05-22 10:32:39] SCORE Robert (red): Final=713.5, Time=93.5, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.6, Time=97.6, Moves(18)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE LosTurcos (lawn green): Final=450.0, Time=94.0, Moves(19)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:39] MOVE 57: Tiefes Verstarkendes Lernen (blue) 113->117 [0.00ms]
+[2026-05-22 10:32:39] SCORE Robert (red): Final=713.5, Time=93.5, Moves(19)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.5, Time=97.5, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE LosTurcos (lawn green): Final=450.0, Time=94.0, Moves(19)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:39] MOVE 58: Robert (red) 91->50 [0.00ms]
+[2026-05-22 10:32:39] SCORE Robert (red): Final=721.2, Time=93.2, Moves(20)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.5, Time=97.5, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE LosTurcos (lawn green): Final=450.0, Time=94.0, Moves(19)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:40] MOVE 59: LosTurcos (lawn green) 60->59 [0.01ms]
+[2026-05-22 10:32:40] SCORE Robert (red): Final=721.2, Time=93.2, Moves(20)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.5, Time=97.5, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE LosTurcos (lawn green): Final=451.9, Time=93.9, Moves(20)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:40] MOVE 60: Tiefes Verstarkendes Lernen (blue) 119->118 [0.01ms]
+[2026-05-22 10:32:40] SCORE Robert (red): Final=721.2, Time=93.2, Moves(20)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.4, Time=97.4, Moves(20)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE LosTurcos (lawn green): Final=451.9, Time=93.9, Moves(20)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:40] MOVE 61: Robert (red) 50->51 [0.00ms]
+[2026-05-22 10:32:40] SCORE Robert (red): Final=720.8, Time=92.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.4, Time=97.4, Moves(20)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE LosTurcos (lawn green): Final=451.9, Time=93.9, Moves(20)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:40] MOVE 62: LosTurcos (lawn green) 54->53 [0.00ms]
+[2026-05-22 10:32:40] SCORE Robert (red): Final=720.8, Time=92.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.4, Time=97.4, Moves(20)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE LosTurcos (lawn green): Final=453.8, Time=93.8, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:40] MOVE 63: Tiefes Verstarkendes Lernen (blue) 117->119 [0.00ms]
+[2026-05-22 10:32:40] SCORE Robert (red): Final=720.8, Time=92.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.3, Time=97.3, Moves(21)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:40] SCORE LosTurcos (lawn green): Final=453.8, Time=93.8, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:41] MOVE 64: Robert (red) 79->3 [0.00ms]
+[2026-05-22 10:32:41] SCORE Robert (red): Final=834.3, Time=92.3, Moves(22)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.3, Time=97.3, Moves(21)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE LosTurcos (lawn green): Final=453.8, Time=93.8, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:41] MOVE 65: LosTurcos (lawn green) 14->26 [0.00ms]
+[2026-05-22 10:32:41] SCORE Robert (red): Final=834.3, Time=92.3, Moves(22)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Tiefes Verstarkendes Lernen (blue): Final=673.3, Time=97.3, Moves(21)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE LosTurcos (lawn green): Final=455.6, Time=93.6, Moves(22)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:41] MOVE 66: Tiefes Verstarkendes Lernen (blue) 83->94 [0.00ms]
+[2026-05-22 10:32:41] SCORE Robert (red): Final=834.3, Time=92.3, Moves(22)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Tiefes Verstarkendes Lernen (blue): Final=675.2, Time=97.2, Moves(22)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE LosTurcos (lawn green): Final=455.6, Time=93.6, Moves(22)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:41] MOVE 67: Robert (red) 92->81 [0.00ms]
+[2026-05-22 10:32:41] SCORE Robert (red): Final=835.9, Time=91.9, Moves(23)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Tiefes Verstarkendes Lernen (blue): Final=675.2, Time=97.2, Moves(22)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE LosTurcos (lawn green): Final=455.6, Time=93.6, Moves(22)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:42] MOVE 68: LosTurcos (lawn green) 31->42 [0.00ms]
+[2026-05-22 10:32:42] SCORE Robert (red): Final=835.9, Time=91.9, Moves(23)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Tiefes Verstarkendes Lernen (blue): Final=675.2, Time=97.2, Moves(22)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE LosTurcos (lawn green): Final=457.4, Time=93.4, Moves(23)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:42] MOVE 69: Tiefes Verstarkendes Lernen (blue) 64->106 [0.00ms]
+[2026-05-22 10:32:42] SCORE Robert (red): Final=835.9, Time=91.9, Moves(23)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Tiefes Verstarkendes Lernen (blue): Final=683.1, Time=97.1, Moves(23)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE LosTurcos (lawn green): Final=457.4, Time=93.4, Moves(23)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:42] MOVE 70: Robert (red) 81->5 [0.00ms]
+[2026-05-22 10:32:42] SCORE Robert (red): Final=949.5, Time=91.5, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Tiefes Verstarkendes Lernen (blue): Final=683.1, Time=97.1, Moves(23)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE LosTurcos (lawn green): Final=457.4, Time=93.4, Moves(23)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:42] MOVE 71: LosTurcos (lawn green) 33->44 [0.00ms]
+[2026-05-22 10:32:42] SCORE Robert (red): Final=949.5, Time=91.5, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Tiefes Verstarkendes Lernen (blue): Final=683.1, Time=97.1, Moves(23)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE LosTurcos (lawn green): Final=459.2, Time=93.2, Moves(24)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:42] MOVE 72: Tiefes Verstarkendes Lernen (blue) 94->114 [0.00ms]
+[2026-05-22 10:32:42] SCORE Robert (red): Final=949.5, Time=91.5, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Tiefes Verstarkendes Lernen (blue): Final=787.0, Time=97.0, Moves(24)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE LosTurcos (lawn green): Final=459.2, Time=93.2, Moves(24)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 73: Robert (red) 69->70 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=949.1, Time=91.1, Moves(25)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=787.0, Time=97.0, Moves(24)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=459.2, Time=93.2, Moves(24)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 74: LosTurcos (lawn green) 44->54 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=949.1, Time=91.1, Moves(25)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=787.0, Time=97.0, Moves(24)=0.0, Pins(4)=400.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=461.2, Time=93.2, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 75: Tiefes Verstarkendes Lernen (blue) 106->117 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=949.1, Time=91.1, Moves(25)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=889.0, Time=97.0, Moves(25)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=461.2, Time=93.2, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 76: Robert (red) 80->15 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=960.7, Time=90.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=889.0, Time=97.0, Moves(25)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=461.2, Time=93.2, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 77: LosTurcos (lawn green) 73->72 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=960.7, Time=90.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=889.0, Time=97.0, Moves(25)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=463.0, Time=93.0, Moves(26)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:43] MOVE 78: Tiefes Verstarkendes Lernen (blue) 117->116 [0.00ms]
+[2026-05-22 10:32:43] SCORE Robert (red): Final=960.7, Time=90.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.9, Time=96.9, Moves(26)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:43] SCORE LosTurcos (lawn green): Final=463.0, Time=93.0, Moves(26)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:44] MOVE 79: Robert (red) 70->60 [0.01ms]
+[2026-05-22 10:32:44] SCORE Robert (red): Final=962.3, Time=90.3, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.9, Time=96.9, Moves(26)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE LosTurcos (lawn green): Final=463.0, Time=93.0, Moves(26)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:44] MOVE 80: LosTurcos (lawn green) 54->50 [0.00ms]
+[2026-05-22 10:32:44] SCORE Robert (red): Final=962.3, Time=90.3, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.9, Time=96.9, Moves(26)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE LosTurcos (lawn green): Final=470.8, Time=92.8, Moves(27)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:44] MOVE 81: Tiefes Verstarkendes Lernen (blue) 114->117 [0.00ms]
+[2026-05-22 10:32:44] SCORE Robert (red): Final=962.3, Time=90.3, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.8, Time=96.8, Moves(27)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE LosTurcos (lawn green): Final=470.8, Time=92.8, Moves(27)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 82: Robert (red) 60->16 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=970.1, Time=90.1, Moves(28)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.8, Time=96.8, Moves(27)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=470.8, Time=92.8, Moves(27)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 83: LosTurcos (lawn green) 26->37 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=970.1, Time=90.1, Moves(28)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.8, Time=96.8, Moves(27)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=472.7, Time=92.6, Moves(28)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 84: Tiefes Verstarkendes Lernen (blue) 116->115 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=970.1, Time=90.1, Moves(28)=0.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.7, Time=96.7, Moves(28)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=472.7, Time=92.6, Moves(28)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 85: Robert (red) 51->40 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=971.9, Time=89.8, Moves(29)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.7, Time=96.7, Moves(28)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=472.7, Time=92.6, Moves(28)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 86: LosTurcos (lawn green) 53->52 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=971.9, Time=89.8, Moves(29)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.7, Time=96.7, Moves(28)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=474.4, Time=92.4, Moves(29)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:45] MOVE 87: Tiefes Verstarkendes Lernen (blue) 117->116 [0.00ms]
+[2026-05-22 10:32:45] SCORE Robert (red): Final=971.9, Time=89.8, Moves(29)=0.0, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.6, Moves(29)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE LosTurcos (lawn green): Final=474.4, Time=92.4, Moves(29)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 88: Robert (red) 40->17 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.7, Time=89.6, Moves(30)=0.1, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.6, Moves(29)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=474.4, Time=92.4, Moves(29)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 89: LosTurcos (lawn green) 59->68 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.7, Time=89.6, Moves(30)=0.1, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.6, Moves(29)=0.0, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=476.3, Time=92.2, Moves(30)=0.1, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 90: Tiefes Verstarkendes Lernen (blue) 116->113 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.7, Time=89.6, Moves(30)=0.1, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.5, Moves(30)=0.1, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=476.3, Time=92.2, Moves(30)=0.1, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 91: Robert (red) 15->14 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.6, Time=89.4, Moves(31)=0.2, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.5, Moves(30)=0.1, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=476.3, Time=92.2, Moves(30)=0.1, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 92: LosTurcos (lawn green) 39->49 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.6, Time=89.4, Moves(31)=0.2, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=888.6, Time=96.5, Moves(30)=0.1, Pins(5)=500.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=478.3, Time=92.0, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:46] MOVE 93: Tiefes Verstarkendes Lernen (blue) 6->47 [0.00ms]
+[2026-05-22 10:32:46] SCORE Robert (red): Final=975.6, Time=89.4, Moves(31)=0.2, Pins(5)=500.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.6, Time=96.3, Moves(31)=0.2, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE LosTurcos (lawn green): Final=478.3, Time=92.0, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 94: Robert (red) 14->6 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1077.6, Time=89.1, Moves(32)=0.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.6, Time=96.3, Moves(31)=0.2, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=478.3, Time=92.0, Moves(31)=0.2, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 95: LosTurcos (lawn green) 34->33 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1077.6, Time=89.1, Moves(32)=0.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.6, Time=96.3, Moves(31)=0.2, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=480.5, Time=92.0, Moves(32)=0.5, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 96: Tiefes Verstarkendes Lernen (blue) 119->116 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1077.6, Time=89.1, Moves(32)=0.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.8, Time=96.3, Moves(32)=0.5, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=480.5, Time=92.0, Moves(32)=0.5, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 97: Robert (red) 28->15 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1079.9, Time=88.8, Moves(33)=1.1, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.8, Time=96.3, Moves(32)=0.5, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=480.5, Time=92.0, Moves(32)=0.5, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 98: LosTurcos (lawn green) 50->59 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1079.9, Time=88.8, Moves(33)=1.1, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=896.8, Time=96.3, Moves(32)=0.5, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=482.9, Time=91.8, Moves(33)=1.1, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:47] MOVE 99: Tiefes Verstarkendes Lernen (blue) 120->119 [0.00ms]
+[2026-05-22 10:32:47] SCORE Robert (red): Final=1079.9, Time=88.8, Moves(33)=1.1, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Tiefes Verstarkendes Lernen (blue): Final=897.3, Time=96.2, Moves(33)=1.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE LosTurcos (lawn green): Final=482.9, Time=91.8, Moves(33)=1.1, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 100: Robert (red) 17->18 [0.00ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1080.9, Time=88.7, Moves(34)=2.3, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=897.3, Time=96.2, Moves(33)=1.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=482.9, Time=91.8, Moves(33)=1.1, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 101: LosTurcos (lawn green) 49->58 [0.00ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1080.9, Time=88.7, Moves(34)=2.3, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=897.3, Time=96.2, Moves(33)=1.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=485.8, Time=91.5, Moves(34)=2.3, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 102: Tiefes Verstarkendes Lernen (blue) 115->120 [0.01ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1080.9, Time=88.7, Moves(34)=2.3, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=898.4, Time=96.1, Moves(34)=2.3, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=485.8, Time=91.5, Moves(34)=2.3, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 103: Robert (red) 15->14 [0.00ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1082.9, Time=88.5, Moves(35)=4.4, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=898.4, Time=96.1, Moves(34)=2.3, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=485.8, Time=91.5, Moves(34)=2.3, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 104: LosTurcos (lawn green) 52->61 [0.00ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1082.9, Time=88.5, Moves(35)=4.4, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=898.4, Time=96.1, Moves(34)=2.3, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=489.7, Time=91.3, Moves(35)=4.4, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:48] MOVE 105: Tiefes Verstarkendes Lernen (blue) 9->70 [0.00ms]
+[2026-05-22 10:32:48] SCORE Robert (red): Final=1082.9, Time=88.5, Moves(35)=4.4, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Tiefes Verstarkendes Lernen (blue): Final=912.3, Time=95.9, Moves(35)=4.4, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE LosTurcos (lawn green): Final=489.7, Time=91.3, Moves(35)=4.4, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 106: Robert (red) 29->9 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1190.2, Time=88.3, Moves(36)=8.0, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Tiefes Verstarkendes Lernen (blue): Final=912.3, Time=95.9, Moves(35)=4.4, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE LosTurcos (lawn green): Final=489.7, Time=91.3, Moves(35)=4.4, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 107: LosTurcos (lawn green) 100->88 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1190.2, Time=88.3, Moves(36)=8.0, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Tiefes Verstarkendes Lernen (blue): Final=912.3, Time=95.9, Moves(35)=4.4, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE LosTurcos (lawn green): Final=493.1, Time=91.1, Moves(36)=8.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 108: Tiefes Verstarkendes Lernen (blue) 116->115 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1190.2, Time=88.3, Moves(36)=8.0, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Tiefes Verstarkendes Lernen (blue): Final=915.8, Time=95.8, Moves(36)=8.0, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE LosTurcos (lawn green): Final=493.1, Time=91.1, Moves(36)=8.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 109: Robert (red) 18->19 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1193.6, Time=88.1, Moves(37)=13.5, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Tiefes Verstarkendes Lernen (blue): Final=915.8, Time=95.8, Moves(36)=8.0, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE LosTurcos (lawn green): Final=493.1, Time=91.1, Moves(36)=8.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 110: LosTurcos (lawn green) 59->78 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1193.6, Time=88.1, Moves(37)=13.5, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Tiefes Verstarkendes Lernen (blue): Final=915.8, Time=95.8, Moves(36)=8.0, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE LosTurcos (lawn green): Final=502.4, Time=90.9, Moves(37)=13.5, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:49] MOVE 111: Tiefes Verstarkendes Lernen (blue) 119->116 [0.00ms]
+[2026-05-22 10:32:49] SCORE Robert (red): Final=1193.6, Time=88.1, Moves(37)=13.5, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=921.3, Time=95.7, Moves(37)=13.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=502.4, Time=90.9, Moves(37)=13.5, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:50] MOVE 112: Robert (red) 14->15 [0.00ms]
+[2026-05-22 10:32:50] SCORE Robert (red): Final=1201.5, Time=87.9, Moves(38)=21.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=921.3, Time=95.7, Moves(37)=13.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=502.4, Time=90.9, Moves(37)=13.5, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:50] MOVE 113: LosTurcos (lawn green) 42->41 [0.01ms]
+[2026-05-22 10:32:50] SCORE Robert (red): Final=1201.5, Time=87.9, Moves(38)=21.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=921.3, Time=95.7, Moves(37)=13.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=512.3, Time=90.7, Moves(38)=21.6, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:50] MOVE 114: Tiefes Verstarkendes Lernen (blue) 120->119 [0.00ms]
+[2026-05-22 10:32:50] SCORE Robert (red): Final=1201.5, Time=87.9, Moves(38)=21.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=929.3, Time=95.6, Moves(38)=21.6, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=512.3, Time=90.7, Moves(38)=21.6, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:50] MOVE 115: Robert (red) 19->18 [0.00ms]
+[2026-05-22 10:32:50] SCORE Robert (red): Final=1214.1, Time=87.6, Moves(39)=32.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=929.3, Time=95.6, Moves(38)=21.6, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=512.3, Time=90.7, Moves(38)=21.6, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:50] MOVE 116: LosTurcos (lawn green) 68->89 [0.00ms]
+[2026-05-22 10:32:50] SCORE Robert (red): Final=1214.1, Time=87.6, Moves(39)=32.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Tiefes Verstarkendes Lernen (blue): Final=929.3, Time=95.6, Moves(38)=21.6, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE LosTurcos (lawn green): Final=526.9, Time=90.4, Moves(39)=32.5, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:51] MOVE 117: Tiefes Verstarkendes Lernen (blue) 115->120 [0.00ms]
+[2026-05-22 10:32:51] SCORE Robert (red): Final=1214.1, Time=87.6, Moves(39)=32.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE Tiefes Verstarkendes Lernen (blue): Final=940.0, Time=95.6, Moves(39)=32.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE LosTurcos (lawn green): Final=526.9, Time=90.4, Moves(39)=32.5, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:51] MOVE 118: Robert (red) 18->19 [0.00ms]
+[2026-05-22 10:32:51] SCORE Robert (red): Final=1225.3, Time=87.5, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE Tiefes Verstarkendes Lernen (blue): Final=940.0, Time=95.6, Moves(39)=32.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE LosTurcos (lawn green): Final=526.9, Time=90.4, Moves(39)=32.5, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:51] MOVE 119: LosTurcos (lawn green) 30->29 [0.00ms]
+[2026-05-22 10:32:51] SCORE Robert (red): Final=1225.3, Time=87.5, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE Tiefes Verstarkendes Lernen (blue): Final=940.0, Time=95.6, Moves(39)=32.5, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE LosTurcos (lawn green): Final=542.0, Time=90.2, Moves(40)=45.8, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:32:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:51] MOVE 120: Tiefes Verstarkendes Lernen (blue) 8->73 [0.00ms]
+[2026-05-22 10:32:51] SCORE Robert (red): Final=1225.3, Time=87.5, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE Tiefes Verstarkendes Lernen (blue): Final=965.2, Time=95.5, Moves(40)=45.8, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE LosTurcos (lawn green): Final=542.0, Time=90.2, Moves(40)=45.8, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:32:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:51] MOVE 121: Robert (red) 16->8 [0.00ms]
+[2026-05-22 10:32:51] SCORE Robert (red): Final=1341.9, Time=87.3, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE Tiefes Verstarkendes Lernen (blue): Final=965.2, Time=95.5, Moves(40)=45.8, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:51] SCORE LosTurcos (lawn green): Final=542.0, Time=90.2, Moves(40)=45.8, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:32:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 122: LosTurcos (lawn green) 61->60 [0.00ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1341.9, Time=87.3, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=965.2, Time=95.5, Moves(40)=45.8, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=558.6, Time=90.0, Moves(41)=60.7, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 123: Tiefes Verstarkendes Lernen (blue) 116->115 [0.00ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1341.9, Time=87.3, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=980.0, Time=95.3, Moves(41)=60.7, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=558.6, Time=90.0, Moves(41)=60.7, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 124: Robert (red) 19->18 [0.00ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1358.5, Time=87.1, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=980.0, Time=95.3, Moves(41)=60.7, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=558.6, Time=90.0, Moves(41)=60.7, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 125: LosTurcos (lawn green) 60->59 [0.00ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1358.5, Time=87.1, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=980.0, Time=95.3, Moves(41)=60.7, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=575.3, Time=89.8, Moves(42)=75.5, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 126: Tiefes Verstarkendes Lernen (blue) 73->90 [0.00ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1358.5, Time=87.1, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=998.7, Time=95.2, Moves(42)=75.5, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=575.3, Time=89.8, Moves(42)=75.5, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:52] MOVE 127: Robert (red) 9->31 [0.01ms]
+[2026-05-22 10:32:52] SCORE Robert (red): Final=1267.1, Time=86.8, Moves(43)=88.2, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Tiefes Verstarkendes Lernen (blue): Final=998.7, Time=95.2, Moves(42)=75.5, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE LosTurcos (lawn green): Final=575.3, Time=89.8, Moves(42)=75.5, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:53] MOVE 128: LosTurcos (lawn green) 89->101 [0.01ms]
+[2026-05-22 10:32:53] SCORE Robert (red): Final=1267.1, Time=86.8, Moves(43)=88.2, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Tiefes Verstarkendes Lernen (blue): Final=998.7, Time=95.2, Moves(42)=75.5, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE LosTurcos (lawn green): Final=689.8, Time=89.5, Moves(43)=88.2, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:53] MOVE 129: Tiefes Verstarkendes Lernen (blue) 90->103 [0.00ms]
+[2026-05-22 10:32:53] SCORE Robert (red): Final=1267.1, Time=86.8, Moves(43)=88.2, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Tiefes Verstarkendes Lernen (blue): Final=1013.4, Time=95.1, Moves(43)=88.2, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE LosTurcos (lawn green): Final=689.8, Time=89.5, Moves(43)=88.2, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:53] MOVE 130: Robert (red) 15->16 [0.00ms]
+[2026-05-22 10:32:53] SCORE Robert (red): Final=1275.5, Time=86.6, Moves(44)=96.9, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Tiefes Verstarkendes Lernen (blue): Final=1013.4, Time=95.1, Moves(43)=88.2, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE LosTurcos (lawn green): Final=689.8, Time=89.5, Moves(43)=88.2, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:53] MOVE 131: LosTurcos (lawn green) 101->76 [0.01ms]
+[2026-05-22 10:32:53] SCORE Robert (red): Final=1275.5, Time=86.6, Moves(44)=96.9, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Tiefes Verstarkendes Lernen (blue): Final=1013.4, Time=95.1, Moves(43)=88.2, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE LosTurcos (lawn green): Final=698.3, Time=89.3, Moves(44)=96.9, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:53] MOVE 132: Tiefes Verstarkendes Lernen (blue) 103->112 [0.00ms]
+[2026-05-22 10:32:53] SCORE Robert (red): Final=1275.5, Time=86.6, Moves(44)=96.9, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Tiefes Verstarkendes Lernen (blue): Final=1123.9, Time=95.0, Moves(44)=96.9, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE LosTurcos (lawn green): Final=698.3, Time=89.3, Moves(44)=96.9, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 133: Robert (red) 31->9 [0.00ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1382.4, Time=86.4, Moves(45)=100.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1123.9, Time=95.0, Moves(44)=96.9, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=698.3, Time=89.3, Moves(44)=96.9, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 134: LosTurcos (lawn green) 33->32 [0.01ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1382.4, Time=86.4, Moves(45)=100.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1123.9, Time=95.0, Moves(44)=96.9, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=703.1, Time=89.1, Moves(45)=100.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 135: Tiefes Verstarkendes Lernen (blue) 112->116 [0.00ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1382.4, Time=86.4, Moves(45)=100.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.9, Time=94.9, Moves(45)=100.0, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=703.1, Time=89.1, Moves(45)=100.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 136: Robert (red) 9->33 [0.01ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1274.0, Time=86.2, Moves(46)=99.8, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.9, Time=94.9, Moves(45)=100.0, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=703.1, Time=89.1, Moves(45)=100.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 137: LosTurcos (lawn green) 88->87 [0.00ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1274.0, Time=86.2, Moves(46)=99.8, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.9, Time=94.9, Moves(45)=100.0, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=702.7, Time=88.9, Moves(46)=99.8, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 138: Tiefes Verstarkendes Lernen (blue) 2->31 [0.00ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1274.0, Time=86.2, Moves(46)=99.8, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.7, Time=94.8, Moves(46)=99.8, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=702.7, Time=88.9, Moves(46)=99.8, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:54] MOVE 139: Robert (red) 33->44 [0.00ms]
+[2026-05-22 10:32:54] SCORE Robert (red): Final=1273.4, Time=86.0, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.7, Time=94.8, Moves(46)=99.8, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:54] SCORE LosTurcos (lawn green): Final=702.7, Time=88.9, Moves(46)=99.8, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 140: LosTurcos (lawn green) 76->75 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1273.4, Time=86.0, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.7, Time=94.8, Moves(46)=99.8, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=702.2, Time=88.8, Moves(47)=99.4, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 141: Tiefes Verstarkendes Lernen (blue) 116->117 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1273.4, Time=86.0, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.1, Time=94.7, Moves(47)=99.4, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=702.2, Time=88.8, Moves(47)=99.4, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 142: Robert (red) 44->15 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1278.5, Time=85.9, Moves(48)=98.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.1, Time=94.7, Moves(47)=99.4, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=702.2, Time=88.8, Moves(47)=99.4, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 143: LosTurcos (lawn green) 58->67 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1278.5, Time=85.9, Moves(48)=98.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1134.1, Time=94.7, Moves(47)=99.4, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=703.3, Time=88.6, Moves(48)=98.6, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 144: Tiefes Verstarkendes Lernen (blue) 117->114 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1278.5, Time=85.9, Moves(48)=98.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1133.1, Time=94.5, Moves(48)=98.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=703.3, Time=88.6, Moves(48)=98.6, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:55] MOVE 145: Robert (red) 18->9 [0.00ms]
+[2026-05-22 10:32:55] SCORE Robert (red): Final=1379.2, Time=85.7, Moves(49)=97.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Tiefes Verstarkendes Lernen (blue): Final=1133.1, Time=94.5, Moves(48)=98.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE LosTurcos (lawn green): Final=703.3, Time=88.6, Moves(48)=98.6, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 146: LosTurcos (lawn green) 59->58 [0.01ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1379.2, Time=85.7, Moves(49)=97.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1133.1, Time=94.5, Moves(48)=98.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.0, Time=88.5, Moves(49)=97.6, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 147: Tiefes Verstarkendes Lernen (blue) 113->112 [0.00ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1379.2, Time=85.7, Moves(49)=97.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1131.9, Time=94.3, Moves(49)=97.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.0, Time=88.5, Moves(49)=97.6, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 148: Robert (red) 5->2 [0.00ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1377.7, Time=85.5, Moves(50)=96.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1131.9, Time=94.3, Moves(49)=97.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.0, Time=88.5, Moves(49)=97.6, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 149: LosTurcos (lawn green) 41->40 [0.00ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1377.7, Time=85.5, Moves(50)=96.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1131.9, Time=94.3, Moves(49)=97.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.5, Time=88.3, Moves(50)=96.2, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 150: Tiefes Verstarkendes Lernen (blue) 114->113 [0.00ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1377.7, Time=85.5, Moves(50)=96.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1130.4, Time=94.1, Moves(50)=96.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.5, Time=88.3, Moves(50)=96.2, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:56] MOVE 151: Robert (red) 15->17 [0.00ms]
+[2026-05-22 10:32:56] SCORE Robert (red): Final=1375.9, Time=85.3, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Tiefes Verstarkendes Lernen (blue): Final=1130.4, Time=94.1, Moves(50)=96.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE LosTurcos (lawn green): Final=704.5, Time=88.3, Moves(50)=96.2, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 152: LosTurcos (lawn green) 40->39 [0.00ms]
+[2026-05-22 10:32:57] SCORE Robert (red): Final=1375.9, Time=85.3, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Tiefes Verstarkendes Lernen (blue): Final=1130.4, Time=94.1, Moves(50)=96.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE LosTurcos (lawn green): Final=704.7, Time=88.1, Moves(51)=94.6, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 153: Tiefes Verstarkendes Lernen (blue) 112->111 [0.00ms]
+[2026-05-22 10:32:57] SCORE Robert (red): Final=1375.9, Time=85.3, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Tiefes Verstarkendes Lernen (blue): Final=1128.6, Time=94.0, Moves(51)=94.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE LosTurcos (lawn green): Final=704.7, Time=88.1, Moves(51)=94.6, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 154: Robert (red) 16->5 [0.00ms]
+[2026-05-22 10:32:57] SCORE Robert (red): Final=1475.9, Time=85.2, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Tiefes Verstarkendes Lernen (blue): Final=1128.6, Time=94.0, Moves(51)=94.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE LosTurcos (lawn green): Final=704.7, Time=88.1, Moves(51)=94.6, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 155: LosTurcos (lawn green) 78->89 [0.00ms]
+[2026-05-22 10:32:57] SCORE Robert (red): Final=1475.9, Time=85.2, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Tiefes Verstarkendes Lernen (blue): Final=1128.6, Time=94.0, Moves(51)=94.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE LosTurcos (lawn green): Final=704.6, Time=87.9, Moves(52)=92.7, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 156: Tiefes Verstarkendes Lernen (blue) 115->112 [0.00ms]
+[2026-05-22 10:32:57] SCORE Robert (red): Final=1475.9, Time=85.2, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.6, Time=93.9, Moves(52)=92.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE LosTurcos (lawn green): Final=704.6, Time=87.9, Moves(52)=92.7, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:57] MOVE 157: Robert (red) 17->59 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1465.6, Time=85.0, Moves(53)=90.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.6, Time=93.9, Moves(52)=92.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=704.6, Time=87.9, Moves(52)=92.7, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:58] MOVE 158: LosTurcos (lawn green) 89->101 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1465.6, Time=85.0, Moves(53)=90.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1126.6, Time=93.9, Moves(52)=92.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=804.3, Time=87.7, Moves(53)=90.6, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:58] MOVE 159: Tiefes Verstarkendes Lernen (blue) 111->115 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1465.6, Time=85.0, Moves(53)=90.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1124.3, Time=93.7, Moves(53)=90.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=804.3, Time=87.7, Moves(53)=90.6, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:58] MOVE 160: Robert (red) 59->40 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1467.2, Time=84.9, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1124.3, Time=93.7, Moves(53)=90.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=804.3, Time=87.7, Moves(53)=90.6, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:58] MOVE 161: LosTurcos (lawn green) 58->77 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1467.2, Time=84.9, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1124.3, Time=93.7, Moves(53)=90.6, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=805.7, Time=87.4, Moves(54)=88.2, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:58] MOVE 162: Tiefes Verstarkendes Lernen (blue) 112->114 [0.00ms]
+[2026-05-22 10:32:58] SCORE Robert (red): Final=1467.2, Time=84.9, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE Tiefes Verstarkendes Lernen (blue): Final=1121.8, Time=93.5, Moves(54)=88.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:58] SCORE LosTurcos (lawn green): Final=805.7, Time=87.4, Moves(54)=88.2, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 163: Robert (red) 40->17 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1468.5, Time=84.8, Moves(55)=85.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1121.8, Time=93.5, Moves(54)=88.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=805.7, Time=87.4, Moves(54)=88.2, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 164: LosTurcos (lawn green) 67->65 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1468.5, Time=84.8, Moves(55)=85.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1121.8, Time=93.5, Moves(54)=88.2, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.9, Time=87.2, Moves(55)=85.7, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 165: Tiefes Verstarkendes Lernen (blue) 118->111 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1468.5, Time=84.8, Moves(55)=85.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.1, Time=93.4, Moves(55)=85.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.9, Time=87.2, Moves(55)=85.7, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 166: Robert (red) 17->57 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1457.7, Time=84.7, Moves(56)=83.0, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.1, Time=93.4, Moves(55)=85.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.9, Time=87.2, Moves(55)=85.7, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 167: LosTurcos (lawn green) 39->49 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1457.7, Time=84.7, Moves(56)=83.0, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.1, Time=93.4, Moves(55)=85.7, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.1, Time=87.1, Moves(56)=83.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 168: Tiefes Verstarkendes Lernen (blue) 47->88 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1457.7, Time=84.7, Moves(56)=83.0, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1122.3, Time=93.3, Moves(56)=83.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.1, Time=87.1, Moves(56)=83.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 169: Robert (red) 57->47 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1456.7, Time=84.6, Moves(57)=80.1, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1122.3, Time=93.3, Moves(56)=83.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=906.1, Time=87.1, Moves(56)=83.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:59] MOVE 170: LosTurcos (lawn green) 77->100 [0.00ms]
+[2026-05-22 10:32:59] SCORE Robert (red): Final=1456.7, Time=84.6, Moves(57)=80.1, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Tiefes Verstarkendes Lernen (blue): Final=1122.3, Time=93.3, Moves(56)=83.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE LosTurcos (lawn green): Final=1005.0, Time=86.9, Moves(57)=80.1, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:00] MOVE 171: Tiefes Verstarkendes Lernen (blue) 115->118 [0.00ms]
+[2026-05-22 10:33:00] SCORE Robert (red): Final=1456.7, Time=84.6, Moves(57)=80.1, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.2, Time=93.2, Moves(57)=80.1, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE LosTurcos (lawn green): Final=1005.0, Time=86.9, Moves(57)=80.1, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:00] MOVE 172: Robert (red) 47->26 [0.00ms]
+[2026-05-22 10:33:00] SCORE Robert (red): Final=1457.5, Time=84.5, Moves(58)=77.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.2, Time=93.2, Moves(57)=80.1, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE LosTurcos (lawn green): Final=1005.0, Time=86.9, Moves(57)=80.1, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:00] MOVE 173: LosTurcos (lawn green) 101->76 [0.00ms]
+[2026-05-22 10:33:00] SCORE Robert (red): Final=1457.5, Time=84.5, Moves(58)=77.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Tiefes Verstarkendes Lernen (blue): Final=1119.2, Time=93.2, Moves(57)=80.1, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE LosTurcos (lawn green): Final=1001.7, Time=86.7, Moves(58)=77.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:00] MOVE 174: Tiefes Verstarkendes Lernen (blue) 88->101 [0.01ms]
+[2026-05-22 10:33:00] SCORE Robert (red): Final=1457.5, Time=84.5, Moves(58)=77.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Tiefes Verstarkendes Lernen (blue): Final=1118.1, Time=93.1, Moves(58)=77.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE LosTurcos (lawn green): Final=1001.7, Time=86.7, Moves(58)=77.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:00] MOVE 175: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:00] SCORE Robert (red): Final=1456.2, Time=84.3, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Tiefes Verstarkendes Lernen (blue): Final=1118.1, Time=93.1, Moves(58)=77.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE LosTurcos (lawn green): Final=1001.7, Time=86.7, Moves(58)=77.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 176: LosTurcos (lawn green) 100->88 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1456.2, Time=84.3, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1118.1, Time=93.1, Moves(58)=77.0, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=998.3, Time=86.4, Moves(59)=73.9, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 177: Tiefes Verstarkendes Lernen (blue) 101->102 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1456.2, Time=84.3, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1116.9, Time=93.0, Moves(59)=73.9, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=998.3, Time=86.4, Moves(59)=73.9, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 178: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1450.8, Time=84.1, Moves(60)=70.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1116.9, Time=93.0, Moves(59)=73.9, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=998.3, Time=86.4, Moves(59)=73.9, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 179: LosTurcos (lawn green) 76->99 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1450.8, Time=84.1, Moves(60)=70.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1116.9, Time=93.0, Moves(59)=73.9, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=994.8, Time=86.2, Moves(60)=70.7, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 180: Tiefes Verstarkendes Lernen (blue) 102->115 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1450.8, Time=84.1, Moves(60)=70.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1215.6, Time=92.9, Moves(60)=70.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=994.8, Time=86.2, Moves(60)=70.7, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:01] MOVE 181: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:01] SCORE Robert (red): Final=1447.3, Time=83.9, Moves(61)=67.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Tiefes Verstarkendes Lernen (blue): Final=1215.6, Time=92.9, Moves(60)=70.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE LosTurcos (lawn green): Final=994.8, Time=86.2, Moves(60)=70.7, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 182: LosTurcos (lawn green) 65->76 [0.00ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1447.3, Time=83.9, Moves(61)=67.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1215.6, Time=92.9, Moves(60)=70.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=991.3, Time=85.9, Moves(61)=67.4, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 183: Tiefes Verstarkendes Lernen (blue) 115->116 [0.00ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1447.3, Time=83.9, Moves(61)=67.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1212.2, Time=92.8, Moves(61)=67.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=991.3, Time=85.9, Moves(61)=67.4, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 184: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1445.8, Time=83.8, Moves(62)=64.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1212.2, Time=92.8, Moves(61)=67.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=991.3, Time=85.9, Moves(61)=67.4, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 185: LosTurcos (lawn green) 32->28 [0.00ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1445.8, Time=83.8, Moves(62)=64.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1212.2, Time=92.8, Moves(61)=67.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=995.7, Time=85.7, Moves(62)=64.0, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 186: Tiefes Verstarkendes Lernen (blue) 116->117 [0.00ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1445.8, Time=83.8, Moves(62)=64.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1208.7, Time=92.7, Moves(62)=64.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=995.7, Time=85.7, Moves(62)=64.0, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:02] MOVE 187: Robert (red) 14->13 [0.01ms]
+[2026-05-22 10:33:02] SCORE Robert (red): Final=1440.2, Time=83.6, Moves(63)=60.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE Tiefes Verstarkendes Lernen (blue): Final=1208.7, Time=92.7, Moves(62)=64.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:02] SCORE LosTurcos (lawn green): Final=995.7, Time=85.7, Moves(62)=64.0, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 188: LosTurcos (lawn green) 72->71 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1440.2, Time=83.6, Moves(63)=60.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1208.7, Time=92.7, Moves(62)=64.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=994.1, Time=85.4, Moves(63)=60.7, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 189: Tiefes Verstarkendes Lernen (blue) 111->115 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1440.2, Time=83.6, Moves(63)=60.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1205.3, Time=92.6, Moves(63)=60.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=994.1, Time=85.4, Moves(63)=60.7, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 190: Robert (red) 13->26 [0.01ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1436.7, Time=83.4, Moves(64)=57.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1205.3, Time=92.6, Moves(63)=60.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=994.1, Time=85.4, Moves(63)=60.7, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 191: LosTurcos (lawn green) 49->48 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1436.7, Time=83.4, Moves(64)=57.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1205.3, Time=92.6, Moves(63)=60.7, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=992.6, Time=85.3, Moves(64)=57.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 192: Tiefes Verstarkendes Lernen (blue) 115->112 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1436.7, Time=83.4, Moves(64)=57.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1201.8, Time=92.5, Moves(64)=57.3, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=992.6, Time=85.3, Moves(64)=57.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 193: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1435.2, Time=83.3, Moves(65)=53.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1201.8, Time=92.5, Moves(64)=57.3, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=992.6, Time=85.3, Moves(64)=57.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:03] MOVE 194: LosTurcos (lawn green) 71->69 [0.00ms]
+[2026-05-22 10:33:03] SCORE Robert (red): Final=1435.2, Time=83.3, Moves(65)=53.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Tiefes Verstarkendes Lernen (blue): Final=1201.8, Time=92.5, Moves(64)=57.3, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE LosTurcos (lawn green): Final=993.0, Time=85.1, Moves(65)=53.9, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:04] MOVE 195: Tiefes Verstarkendes Lernen (blue) 113->111 [0.00ms]
+[2026-05-22 10:33:04] SCORE Robert (red): Final=1435.2, Time=83.3, Moves(65)=53.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Tiefes Verstarkendes Lernen (blue): Final=1198.3, Time=92.3, Moves(65)=53.9, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE LosTurcos (lawn green): Final=993.0, Time=85.1, Moves(65)=53.9, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:04] MOVE 196: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:04] SCORE Robert (red): Final=1429.7, Time=83.1, Moves(66)=50.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Tiefes Verstarkendes Lernen (blue): Final=1198.3, Time=92.3, Moves(65)=53.9, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE LosTurcos (lawn green): Final=993.0, Time=85.1, Moves(65)=53.9, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:04] MOVE 197: LosTurcos (lawn green) 37->47 [0.00ms]
+[2026-05-22 10:33:04] SCORE Robert (red): Final=1429.7, Time=83.1, Moves(66)=50.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Tiefes Verstarkendes Lernen (blue): Final=1198.3, Time=92.3, Moves(65)=53.9, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE LosTurcos (lawn green): Final=991.5, Time=84.9, Moves(66)=50.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:04] MOVE 198: Tiefes Verstarkendes Lernen (blue) 111->115 [0.00ms]
+[2026-05-22 10:33:04] SCORE Robert (red): Final=1429.7, Time=83.1, Moves(66)=50.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Tiefes Verstarkendes Lernen (blue): Final=1194.8, Time=92.2, Moves(66)=50.6, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE LosTurcos (lawn green): Final=991.5, Time=84.9, Moves(66)=50.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:04] MOVE 199: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:04] SCORE Robert (red): Final=1426.4, Time=83.0, Moves(67)=47.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Tiefes Verstarkendes Lernen (blue): Final=1194.8, Time=92.2, Moves(66)=50.6, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE LosTurcos (lawn green): Final=991.5, Time=84.9, Moves(66)=50.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 200: LosTurcos (lawn green) 28->27 [0.00ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1426.4, Time=83.0, Moves(67)=47.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1194.8, Time=92.2, Moves(66)=50.6, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=990.0, Time=84.6, Moves(67)=47.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 201: Tiefes Verstarkendes Lernen (blue) 112->113 [0.01ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1426.4, Time=83.0, Moves(67)=47.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1191.4, Time=92.0, Moves(67)=47.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=990.0, Time=84.6, Moves(67)=47.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 202: Robert (red) 26->14 [0.01ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1425.1, Time=82.9, Moves(68)=44.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1191.4, Time=92.0, Moves(67)=47.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=990.0, Time=84.6, Moves(67)=47.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 203: LosTurcos (lawn green) 69->68 [0.00ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1425.1, Time=82.9, Moves(68)=44.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1191.4, Time=92.0, Moves(67)=47.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=988.5, Time=84.3, Moves(68)=44.2, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 204: Tiefes Verstarkendes Lernen (blue) 70->81 [0.00ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1425.1, Time=82.9, Moves(68)=44.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1190.1, Time=91.9, Moves(68)=44.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=988.5, Time=84.3, Moves(68)=44.2, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:05] MOVE 205: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:05] SCORE Robert (red): Final=1419.8, Time=82.7, Moves(69)=41.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Tiefes Verstarkendes Lernen (blue): Final=1190.1, Time=91.9, Moves(68)=44.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE LosTurcos (lawn green): Final=988.5, Time=84.3, Moves(68)=44.2, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 206: LosTurcos (lawn green) 48->57 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1419.8, Time=82.7, Moves(69)=41.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1190.1, Time=91.9, Moves(68)=44.2, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=987.3, Time=84.2, Moves(69)=41.1, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 207: Tiefes Verstarkendes Lernen (blue) 81->93 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1419.8, Time=82.7, Moves(69)=41.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1188.8, Time=91.7, Moves(69)=41.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=987.3, Time=84.2, Moves(69)=41.1, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 208: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1416.7, Time=82.6, Moves(70)=38.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1188.8, Time=91.7, Moves(69)=41.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=987.3, Time=84.2, Moves(69)=41.1, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 209: LosTurcos (lawn green) 47->56 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1416.7, Time=82.6, Moves(70)=38.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1188.8, Time=91.7, Moves(69)=41.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=986.1, Time=84.0, Moves(70)=38.1, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 210: Tiefes Verstarkendes Lernen (blue) 93->106 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1416.7, Time=82.6, Moves(70)=38.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1187.7, Time=91.5, Moves(70)=38.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=986.1, Time=84.0, Moves(70)=38.1, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:06] MOVE 211: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:06] SCORE Robert (red): Final=1415.6, Time=82.4, Moves(71)=35.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Tiefes Verstarkendes Lernen (blue): Final=1187.7, Time=91.5, Moves(70)=38.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE LosTurcos (lawn green): Final=986.1, Time=84.0, Moves(70)=38.1, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 212: LosTurcos (lawn green) 56->65 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1415.6, Time=82.4, Moves(71)=35.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1187.7, Time=91.5, Moves(70)=38.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1085.0, Time=83.8, Moves(71)=35.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 213: Tiefes Verstarkendes Lernen (blue) 106->105 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1415.6, Time=82.4, Moves(71)=35.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1184.6, Time=91.4, Moves(71)=35.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1085.0, Time=83.8, Moves(71)=35.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 214: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1410.7, Time=82.2, Moves(72)=32.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1184.6, Time=91.4, Moves(71)=35.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1085.0, Time=83.8, Moves(71)=35.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 215: LosTurcos (lawn green) 65->86 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1410.7, Time=82.2, Moves(72)=32.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1184.6, Time=91.4, Moves(71)=35.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1082.0, Time=83.6, Moves(72)=32.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 216: Tiefes Verstarkendes Lernen (blue) 105->116 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1410.7, Time=82.2, Moves(72)=32.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1283.7, Time=91.2, Moves(72)=32.5, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1082.0, Time=83.6, Moves(72)=32.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:07] MOVE 217: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:07] SCORE Robert (red): Final=1407.9, Time=82.1, Moves(73)=29.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Tiefes Verstarkendes Lernen (blue): Final=1283.7, Time=91.2, Moves(72)=32.5, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE LosTurcos (lawn green): Final=1082.0, Time=83.6, Moves(72)=32.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:08] MOVE 218: LosTurcos (lawn green) 57->66 [0.00ms]
+[2026-05-22 10:33:08] SCORE Robert (red): Final=1407.9, Time=82.1, Moves(73)=29.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Tiefes Verstarkendes Lernen (blue): Final=1283.7, Time=91.2, Moves(72)=32.5, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE LosTurcos (lawn green): Final=1081.2, Time=83.4, Moves(73)=29.8, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:08] MOVE 219: Tiefes Verstarkendes Lernen (blue) 116->112 [0.00ms]
+[2026-05-22 10:33:08] SCORE Robert (red): Final=1407.9, Time=82.1, Moves(73)=29.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Tiefes Verstarkendes Lernen (blue): Final=1280.9, Time=91.1, Moves(73)=29.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE LosTurcos (lawn green): Final=1081.2, Time=83.4, Moves(73)=29.8, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:08] MOVE 220: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:08] SCORE Robert (red): Final=1407.3, Time=82.0, Moves(74)=27.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Tiefes Verstarkendes Lernen (blue): Final=1280.9, Time=91.1, Moves(73)=29.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE LosTurcos (lawn green): Final=1081.2, Time=83.4, Moves(73)=29.8, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:08] MOVE 221: LosTurcos (lawn green) 66->65 [0.00ms]
+[2026-05-22 10:33:08] SCORE Robert (red): Final=1407.3, Time=82.0, Moves(74)=27.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Tiefes Verstarkendes Lernen (blue): Final=1280.9, Time=91.1, Moves(73)=29.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE LosTurcos (lawn green): Final=1180.5, Time=83.2, Moves(74)=27.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:08] MOVE 222: Tiefes Verstarkendes Lernen (blue) 112->111 [0.00ms]
+[2026-05-22 10:33:08] SCORE Robert (red): Final=1407.3, Time=82.0, Moves(74)=27.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Tiefes Verstarkendes Lernen (blue): Final=1278.2, Time=90.9, Moves(74)=27.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE LosTurcos (lawn green): Final=1180.5, Time=83.2, Moves(74)=27.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 223: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1402.7, Time=81.8, Moves(75)=24.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1278.2, Time=90.9, Moves(74)=27.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1180.5, Time=83.2, Moves(74)=27.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 224: LosTurcos (lawn green) 29->40 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1402.7, Time=81.8, Moves(75)=24.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1278.2, Time=90.9, Moves(74)=27.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.9, Time=83.0, Moves(75)=24.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 225: Tiefes Verstarkendes Lernen (blue) 117->106 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1402.7, Time=81.8, Moves(75)=24.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1173.8, Time=90.8, Moves(75)=24.9, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.9, Time=83.0, Moves(75)=24.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 226: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.4, Time=81.7, Moves(76)=22.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1173.8, Time=90.8, Moves(75)=24.9, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.9, Time=83.0, Moves(75)=24.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 227: LosTurcos (lawn green) 40->39 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.4, Time=81.7, Moves(76)=22.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1173.8, Time=90.8, Moves(75)=24.9, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.6, Time=82.9, Moves(76)=22.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 228: Tiefes Verstarkendes Lernen (blue) 113->117 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.4, Time=81.7, Moves(76)=22.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1171.5, Time=90.8, Moves(76)=22.7, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.6, Time=82.9, Moves(76)=22.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 229: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.1, Time=81.5, Moves(77)=20.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1171.5, Time=90.8, Moves(76)=22.7, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.6, Time=82.9, Moves(76)=22.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 230: LosTurcos (lawn green) 39->38 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.1, Time=81.5, Moves(77)=20.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1171.5, Time=90.8, Moves(76)=22.7, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.4, Time=82.8, Moves(77)=20.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:09] MOVE 231: Tiefes Verstarkendes Lernen (blue) 114->113 [0.00ms]
+[2026-05-22 10:33:09] SCORE Robert (red): Final=1400.1, Time=81.5, Moves(77)=20.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE Tiefes Verstarkendes Lernen (blue): Final=1169.2, Time=90.6, Moves(77)=20.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:09] SCORE LosTurcos (lawn green): Final=1179.4, Time=82.8, Moves(77)=20.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:33:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 232: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1396.1, Time=81.5, Moves(78)=18.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1169.2, Time=90.6, Moves(77)=20.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1179.4, Time=82.8, Moves(77)=20.6, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 233: LosTurcos (lawn green) 27->48 [0.00ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1396.1, Time=81.5, Moves(78)=18.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1169.2, Time=90.6, Moves(77)=20.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.6, Moves(78)=18.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 234: Tiefes Verstarkendes Lernen (blue) 106->114 [0.00ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1396.1, Time=81.5, Moves(78)=18.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1269.0, Time=90.4, Moves(78)=18.6, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.6, Moves(78)=18.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 235: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1394.1, Time=81.3, Moves(79)=16.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1269.0, Time=90.4, Moves(78)=18.6, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.6, Moves(78)=18.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 236: LosTurcos (lawn green) 38->37 [0.00ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1394.1, Time=81.3, Moves(79)=16.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1269.0, Time=90.4, Moves(78)=18.6, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.4, Moves(79)=16.8, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:10] MOVE 237: Tiefes Verstarkendes Lernen (blue) 114->112 [0.01ms]
+[2026-05-22 10:33:10] SCORE Robert (red): Final=1394.1, Time=81.3, Moves(79)=16.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Tiefes Verstarkendes Lernen (blue): Final=1267.0, Time=90.2, Moves(79)=16.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.4, Moves(79)=16.8, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 238: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1394.2, Time=81.1, Moves(80)=15.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1267.0, Time=90.2, Moves(79)=16.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.2, Time=82.4, Moves(79)=16.8, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 239: LosTurcos (lawn green) 48->57 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1394.2, Time=81.1, Moves(80)=15.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1267.0, Time=90.2, Moves(79)=16.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.4, Time=82.3, Moves(80)=15.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 240: Tiefes Verstarkendes Lernen (blue) 117->114 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1394.2, Time=81.1, Moves(80)=15.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1265.1, Time=90.0, Moves(80)=15.1, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.4, Time=82.3, Moves(80)=15.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 241: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1390.6, Time=81.0, Moves(81)=13.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1265.1, Time=90.0, Moves(80)=15.1, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.4, Time=82.3, Moves(80)=15.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 242: LosTurcos (lawn green) 37->47 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1390.6, Time=81.0, Moves(81)=13.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1265.1, Time=90.0, Moves(80)=15.1, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.6, Time=82.1, Moves(81)=13.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:11] MOVE 243: Tiefes Verstarkendes Lernen (blue) 114->106 [0.00ms]
+[2026-05-22 10:33:11] SCORE Robert (red): Final=1390.6, Time=81.0, Moves(81)=13.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Tiefes Verstarkendes Lernen (blue): Final=1161.5, Time=90.0, Moves(81)=13.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE LosTurcos (lawn green): Final=1181.6, Time=82.1, Moves(81)=13.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:12] MOVE 244: Robert (red) 13->26 [0.01ms]
+[2026-05-22 10:33:12] SCORE Robert (red): Final=1389.0, Time=80.9, Moves(82)=12.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE Tiefes Verstarkendes Lernen (blue): Final=1161.5, Time=90.0, Moves(81)=13.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE LosTurcos (lawn green): Final=1181.6, Time=82.1, Moves(81)=13.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:12] MOVE 245: LosTurcos (lawn green) 47->56 [0.00ms]
+[2026-05-22 10:33:12] SCORE Robert (red): Final=1389.0, Time=80.9, Moves(82)=12.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE Tiefes Verstarkendes Lernen (blue): Final=1161.5, Time=90.0, Moves(81)=13.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE LosTurcos (lawn green): Final=1181.9, Time=81.8, Moves(82)=12.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:12] MOVE 246: Tiefes Verstarkendes Lernen (blue) 106->105 [0.01ms]
+[2026-05-22 10:33:12] SCORE Robert (red): Final=1389.0, Time=80.9, Moves(82)=12.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE Tiefes Verstarkendes Lernen (blue): Final=1159.8, Time=89.7, Moves(82)=12.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE LosTurcos (lawn green): Final=1181.9, Time=81.8, Moves(82)=12.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:12] MOVE 247: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:12] SCORE Robert (red): Final=1389.5, Time=80.7, Moves(83)=10.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE Tiefes Verstarkendes Lernen (blue): Final=1159.8, Time=89.7, Moves(82)=12.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE LosTurcos (lawn green): Final=1181.9, Time=81.8, Moves(82)=12.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:12] MOVE 248: LosTurcos (lawn green) 57->66 [0.00ms]
+[2026-05-22 10:33:12] SCORE Robert (red): Final=1389.5, Time=80.7, Moves(83)=10.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE Tiefes Verstarkendes Lernen (blue): Final=1159.8, Time=89.7, Moves(82)=12.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:12] SCORE LosTurcos (lawn green): Final=1182.4, Time=81.6, Moves(83)=10.8, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:33:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 249: Tiefes Verstarkendes Lernen (blue) 105->116 [0.00ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1389.5, Time=80.7, Moves(83)=10.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1260.3, Time=89.6, Moves(83)=10.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1182.4, Time=81.6, Moves(83)=10.8, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 250: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1386.1, Time=80.6, Moves(84)=9.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1260.3, Time=89.6, Moves(83)=10.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1182.4, Time=81.6, Moves(83)=10.8, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 251: LosTurcos (lawn green) 56->98 [0.00ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1386.1, Time=80.6, Moves(84)=9.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1260.3, Time=89.6, Moves(83)=10.8, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1282.9, Time=81.4, Moves(84)=9.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 252: Tiefes Verstarkendes Lernen (blue) 113->105 [0.00ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1386.1, Time=80.6, Moves(84)=9.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1156.9, Time=89.4, Moves(84)=9.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1282.9, Time=81.4, Moves(84)=9.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 253: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1384.8, Time=80.4, Moves(85)=8.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1156.9, Time=89.4, Moves(84)=9.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1282.9, Time=81.4, Moves(84)=9.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:13] MOVE 254: LosTurcos (lawn green) 98->100 [0.01ms]
+[2026-05-22 10:33:13] SCORE Robert (red): Final=1384.8, Time=80.4, Moves(85)=8.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Tiefes Verstarkendes Lernen (blue): Final=1156.9, Time=89.4, Moves(84)=9.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE LosTurcos (lawn green): Final=1281.7, Time=81.2, Moves(85)=8.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:14] MOVE 255: Tiefes Verstarkendes Lernen (blue) 111->113 [0.01ms]
+[2026-05-22 10:33:14] SCORE Robert (red): Final=1384.8, Time=80.4, Moves(85)=8.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Tiefes Verstarkendes Lernen (blue): Final=1155.7, Time=89.2, Moves(85)=8.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE LosTurcos (lawn green): Final=1281.7, Time=81.2, Moves(85)=8.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:14] MOVE 256: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:14] SCORE Robert (red): Final=1385.7, Time=80.2, Moves(86)=7.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Tiefes Verstarkendes Lernen (blue): Final=1155.7, Time=89.2, Moves(85)=8.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE LosTurcos (lawn green): Final=1281.7, Time=81.2, Moves(85)=8.5, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:14] MOVE 257: LosTurcos (lawn green) 68->67 [0.00ms]
+[2026-05-22 10:33:14] SCORE Robert (red): Final=1385.7, Time=80.2, Moves(86)=7.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Tiefes Verstarkendes Lernen (blue): Final=1155.7, Time=89.2, Moves(85)=8.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE LosTurcos (lawn green): Final=1282.5, Time=81.0, Moves(86)=7.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:14] MOVE 258: Tiefes Verstarkendes Lernen (blue) 113->117 [0.01ms]
+[2026-05-22 10:33:14] SCORE Robert (red): Final=1385.7, Time=80.2, Moves(86)=7.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Tiefes Verstarkendes Lernen (blue): Final=1154.5, Time=89.1, Moves(86)=7.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE LosTurcos (lawn green): Final=1282.5, Time=81.0, Moves(86)=7.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:14] MOVE 259: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:14] SCORE Robert (red): Final=1382.6, Time=80.0, Moves(87)=6.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Tiefes Verstarkendes Lernen (blue): Final=1154.5, Time=89.1, Moves(86)=7.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE LosTurcos (lawn green): Final=1282.5, Time=81.0, Moves(86)=7.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 260: LosTurcos (lawn green) 67->77 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1382.6, Time=80.0, Moves(87)=6.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1154.5, Time=89.1, Moves(86)=7.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1283.4, Time=80.8, Moves(87)=6.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 261: Tiefes Verstarkendes Lernen (blue) 112->113 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1382.6, Time=80.0, Moves(87)=6.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1153.5, Time=88.9, Moves(87)=6.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1283.4, Time=80.8, Moves(87)=6.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 262: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1381.7, Time=79.9, Moves(88)=5.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1153.5, Time=88.9, Moves(87)=6.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1283.4, Time=80.8, Moves(87)=6.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 263: LosTurcos (lawn green) 77->89 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1381.7, Time=79.9, Moves(88)=5.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1153.5, Time=88.9, Moves(87)=6.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1282.3, Time=80.5, Moves(88)=5.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 264: Tiefes Verstarkendes Lernen (blue) 117->114 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1381.7, Time=79.9, Moves(88)=5.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1152.6, Time=88.8, Moves(88)=5.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1282.3, Time=80.5, Moves(88)=5.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:15] MOVE 265: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:15] SCORE Robert (red): Final=1382.7, Time=79.7, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE Tiefes Verstarkendes Lernen (blue): Final=1152.6, Time=88.8, Moves(88)=5.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:15] SCORE LosTurcos (lawn green): Final=1282.3, Time=80.5, Moves(88)=5.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 266: LosTurcos (lawn green) 89->101 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1382.7, Time=79.7, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1152.6, Time=88.8, Moves(88)=5.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1383.4, Time=80.3, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 267: Tiefes Verstarkendes Lernen (blue) 119->112 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1382.7, Time=79.7, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1151.7, Time=88.7, Moves(89)=5.0, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1383.4, Time=80.3, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 268: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.9, Time=79.5, Moves(90)=4.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1151.7, Time=88.7, Moves(89)=5.0, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1383.4, Time=80.3, Moves(89)=5.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 269: LosTurcos (lawn green) 65->67 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.9, Time=79.5, Moves(90)=4.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1151.7, Time=88.7, Moves(89)=5.0, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1278.5, Time=80.1, Moves(90)=4.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 270: Tiefes Verstarkendes Lernen (blue) 116->119 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.9, Time=79.5, Moves(90)=4.4, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.9, Time=88.5, Moves(90)=4.4, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1278.5, Time=80.1, Moves(90)=4.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 271: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.3, Time=79.5, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.9, Time=88.5, Moves(90)=4.4, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1278.5, Time=80.1, Moves(90)=4.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 272: LosTurcos (lawn green) 66->65 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.3, Time=79.5, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.9, Time=88.5, Moves(90)=4.4, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1379.8, Time=80.0, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:16] MOVE 273: Tiefes Verstarkendes Lernen (blue) 112->111 [0.00ms]
+[2026-05-22 10:33:16] SCORE Robert (red): Final=1379.3, Time=79.5, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.3, Time=88.4, Moves(91)=3.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE LosTurcos (lawn green): Final=1379.8, Time=80.0, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 274: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1380.7, Time=79.4, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.3, Time=88.4, Moves(91)=3.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1379.8, Time=80.0, Moves(91)=3.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 275: LosTurcos (lawn green) 67->77 [0.01ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1380.7, Time=79.4, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1150.3, Time=88.4, Moves(91)=3.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1381.2, Time=79.9, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 276: Tiefes Verstarkendes Lernen (blue) 105->106 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1380.7, Time=79.4, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1149.7, Time=88.3, Moves(92)=3.3, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1381.2, Time=79.9, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 277: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1378.1, Time=79.3, Moves(93)=2.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1149.7, Time=88.3, Moves(92)=3.3, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1381.2, Time=79.9, Moves(92)=3.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 278: LosTurcos (lawn green) 76->78 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1378.1, Time=79.3, Moves(93)=2.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1149.7, Time=88.3, Moves(92)=3.3, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1276.7, Time=79.8, Moves(93)=2.9, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 279: Tiefes Verstarkendes Lernen (blue) 106->117 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1378.1, Time=79.3, Moves(93)=2.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1251.0, Time=88.1, Moves(93)=2.9, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1276.7, Time=79.8, Moves(93)=2.9, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:17] MOVE 280: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:17] SCORE Robert (red): Final=1377.6, Time=79.1, Moves(94)=2.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Tiefes Verstarkendes Lernen (blue): Final=1251.0, Time=88.1, Moves(93)=2.9, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE LosTurcos (lawn green): Final=1276.7, Time=79.8, Moves(93)=2.9, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 281: LosTurcos (lawn green) 101->76 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1377.6, Time=79.1, Moves(94)=2.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1251.0, Time=88.1, Moves(93)=2.9, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1276.1, Time=79.7, Moves(94)=2.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 282: Tiefes Verstarkendes Lernen (blue) 113->105 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1377.6, Time=79.1, Moves(94)=2.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.5, Time=88.0, Moves(94)=2.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1276.1, Time=79.7, Moves(94)=2.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 283: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1379.0, Time=78.9, Moves(95)=2.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.5, Time=88.0, Moves(94)=2.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1276.1, Time=79.7, Moves(94)=2.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 284: LosTurcos (lawn green) 78->89 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1379.0, Time=78.9, Moves(95)=2.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.5, Time=88.0, Moves(94)=2.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1277.6, Time=79.5, Moves(95)=2.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 285: Tiefes Verstarkendes Lernen (blue) 105->104 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1379.0, Time=78.9, Moves(95)=2.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.1, Time=88.0, Moves(95)=2.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1277.6, Time=79.5, Moves(95)=2.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 286: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1376.7, Time=78.9, Moves(96)=1.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.1, Time=88.0, Moves(95)=2.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1277.6, Time=79.5, Moves(95)=2.1, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 287: LosTurcos (lawn green) 89->101 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1376.7, Time=78.9, Moves(96)=1.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1148.1, Time=88.0, Moves(95)=2.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1379.2, Time=79.3, Moves(96)=1.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 288: Tiefes Verstarkendes Lernen (blue) 104->103 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1376.7, Time=78.9, Moves(96)=1.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.7, Time=87.9, Moves(96)=1.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1379.2, Time=79.3, Moves(96)=1.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:18] MOVE 289: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:18] SCORE Robert (red): Final=1376.3, Time=78.7, Moves(97)=1.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.7, Time=87.9, Moves(96)=1.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:18] SCORE LosTurcos (lawn green): Final=1379.2, Time=79.3, Moves(96)=1.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 290: LosTurcos (lawn green) 86->98 [0.00ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1376.3, Time=78.7, Moves(97)=1.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.7, Time=87.9, Moves(96)=1.8, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.8, Time=79.2, Moves(97)=1.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 291: Tiefes Verstarkendes Lernen (blue) 103->102 [0.00ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1376.3, Time=78.7, Moves(97)=1.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.3, Time=87.7, Moves(97)=1.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.8, Time=79.2, Moves(97)=1.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 292: Robert (red) 26->14 [0.00ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1377.8, Time=78.5, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.3, Time=87.7, Moves(97)=1.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.8, Time=79.2, Moves(97)=1.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 293: LosTurcos (lawn green) 65->86 [0.00ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1377.8, Time=78.5, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1147.3, Time=87.7, Moves(97)=1.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.4, Time=79.1, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 294: Tiefes Verstarkendes Lernen (blue) 111->103 [0.01ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1377.8, Time=78.5, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1044.8, Time=87.5, Moves(98)=1.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.4, Time=79.1, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:19] MOVE 295: Robert (red) 14->13 [0.00ms]
+[2026-05-22 10:33:19] SCORE Robert (red): Final=1375.5, Time=78.3, Moves(99)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Tiefes Verstarkendes Lernen (blue): Final=1044.8, Time=87.5, Moves(98)=1.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE LosTurcos (lawn green): Final=1378.4, Time=79.1, Moves(98)=1.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:20] MOVE 296: LosTurcos (lawn green) 76->65 [0.00ms]
+[2026-05-22 10:33:20] SCORE Robert (red): Final=1375.5, Time=78.3, Moves(99)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Tiefes Verstarkendes Lernen (blue): Final=1044.8, Time=87.5, Moves(98)=1.3, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE LosTurcos (lawn green): Final=1378.0, Time=78.9, Moves(99)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:20] MOVE 297: Tiefes Verstarkendes Lernen (blue) 102->111 [0.00ms]
+[2026-05-22 10:33:20] SCORE Robert (red): Final=1375.5, Time=78.3, Moves(99)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Tiefes Verstarkendes Lernen (blue): Final=1146.4, Time=87.3, Moves(99)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE LosTurcos (lawn green): Final=1378.0, Time=78.9, Moves(99)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:20] MOVE 298: Robert (red) 13->26 [0.00ms]
+[2026-05-22 10:33:20] SCORE Robert (red): Final=1375.2, Time=78.2, Moves(100)=0.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Tiefes Verstarkendes Lernen (blue): Final=1146.4, Time=87.3, Moves(99)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE LosTurcos (lawn green): Final=1378.0, Time=78.9, Moves(99)=1.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:33:20] MOVE 299: LosTurcos (lawn green) 77->76 [0.00ms]
+[2026-05-22 10:33:20] SCORE Robert (red): Final=1375.2, Time=78.2, Moves(100)=0.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Tiefes Verstarkendes Lernen (blue): Final=1146.4, Time=87.3, Moves(99)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE LosTurcos (lawn green): Final=2479.7, Time=78.7, Moves(100)=0.9, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {}

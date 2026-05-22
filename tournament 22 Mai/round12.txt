@@ -1,0 +1,2 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R12G1,7ce16633-e0b8-4b2a-ba2e-4c70504c8cf7,Hexagram,Gruppe 10,NA,NA,NA,NA,FINISHED,Hexagram:yellow;Gruppe 10:purple,Hexagram:1373.9;Gruppe 10:1050.2,Hexagram:75.9;Gruppe 10:8.2,Hexagram:398.0;Gruppe 10:342.0,Hexagram:900.0;Gruppe 10:700.0,Hexagram:0.0;Gruppe 10:0.0,Hexagram:288;Gruppe 10:286,Hexagram:0;Gruppe 10:1,None

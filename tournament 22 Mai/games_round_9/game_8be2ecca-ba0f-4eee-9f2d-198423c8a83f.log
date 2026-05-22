@@ -1,0 +1,868 @@
+[2026-05-22 11:05:21] GAME CREATED
+[2026-05-22 11:05:24] PLAYER JOINED: Robert as yellow
+[2026-05-22 11:05:25] PLAYER JOINED: Gruppe 10 as purple
+[2026-05-22 11:05:28] PLAYER JOINED: LosTurcos as lawn green
+[2026-05-22 11:05:43] PLAYER JOINED: CybSec as gray0
+[2026-05-22 11:05:43] PLAYER START: Robert (yellow)
+[2026-05-22 11:05:43] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 11:05:43] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:05:43] PLAYER START: CybSec (gray0)
+[2026-05-22 11:05:43] GAME START — turn order ['yellow', 'gray0', 'purple', 'lawn green']
+[2026-05-22 11:05:43] PLAYER START: Robert (yellow)
+[2026-05-22 11:05:43] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 11:05:43] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:05:43] PLAYER START: CybSec (gray0)
+[2026-05-22 11:05:44] MOVE 1: Robert (yellow) 12->37 [0.01ms]
+[2026-05-22 11:05:44] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE Gruppe 10 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE CybSec (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:44] PLAYER START: Robert (yellow)
+[2026-05-22 11:05:44] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 11:05:44] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:05:44] PLAYER START: CybSec (gray0)
+[2026-05-22 11:05:44] MOVE 2: CybSec (gray0) 75->77 [0.01ms]
+[2026-05-22 11:05:44] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE Gruppe 10 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE CybSec (gray0): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 3: Gruppe 10 (purple) 107->94 [0.00ms]
+[2026-05-22 11:05:45] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 10 (purple): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE CybSec (gray0): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] PLAYER START: Robert (yellow)
+[2026-05-22 11:05:45] PLAYER START: Gruppe 10 (purple)
+[2026-05-22 11:05:45] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:05:45] PLAYER START: CybSec (gray0)
+[2026-05-22 11:05:45] MOVE 4: LosTurcos (lawn green) 20->43 [0.00ms]
+[2026-05-22 11:05:45] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 10 (purple): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE LosTurcos (lawn green): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE CybSec (gray0): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 5: Robert (yellow) 37->38 [0.01ms]
+[2026-05-22 11:05:45] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 10 (purple): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE LosTurcos (lawn green): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE CybSec (gray0): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 6: CybSec (gray0) 98->56 [0.00ms]
+[2026-05-22 11:05:46] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 10 (purple): Final=281.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE LosTurcos (lawn green): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE CybSec (gray0): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 7: Gruppe 10 (purple) 109->82 [0.00ms]
+[2026-05-22 11:05:46] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE LosTurcos (lawn green): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE CybSec (gray0): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 8: LosTurcos (lawn green) 43->42 [0.00ms]
+[2026-05-22 11:05:46] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE LosTurcos (lawn green): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE CybSec (gray0): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 9: Robert (yellow) 10->39 [0.01ms]
+[2026-05-22 11:05:46] SCORE Robert (yellow): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE LosTurcos (lawn green): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE CybSec (gray0): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 10: CybSec (gray0) 88->67 [0.01ms]
+[2026-05-22 11:05:47] SCORE Robert (yellow): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 10 (purple): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE LosTurcos (lawn green): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE CybSec (gray0): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 11: Gruppe 10 (purple) 108->81 [0.00ms]
+[2026-05-22 11:05:47] SCORE Robert (yellow): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE LosTurcos (lawn green): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE CybSec (gray0): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 12: LosTurcos (lawn green) 22->41 [0.00ms]
+[2026-05-22 11:05:47] SCORE Robert (yellow): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE LosTurcos (lawn green): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE CybSec (gray0): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 13: Robert (yellow) 46->68 [0.00ms]
+[2026-05-22 11:05:47] SCORE Robert (yellow): Final=304.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE LosTurcos (lawn green): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE CybSec (gray0): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 14: CybSec (gray0) 76->59 [0.00ms]
+[2026-05-22 11:05:48] SCORE Robert (yellow): Final=304.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 10 (purple): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE LosTurcos (lawn green): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE CybSec (gray0): Final=302.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 15: Gruppe 10 (purple) 95->72 [0.01ms]
+[2026-05-22 11:05:48] SCORE Robert (yellow): Final=304.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 10 (purple): Final=301.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE LosTurcos (lawn green): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE CybSec (gray0): Final=302.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 16: LosTurcos (lawn green) 19->31 [0.01ms]
+[2026-05-22 11:05:48] SCORE Robert (yellow): Final=304.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 10 (purple): Final=301.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE CybSec (gray0): Final=302.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 17: Robert (yellow) 68->69 [0.00ms]
+[2026-05-22 11:05:48] SCORE Robert (yellow): Final=306.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 10 (purple): Final=301.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE CybSec (gray0): Final=302.1, Time=98.1, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 18: CybSec (gray0) 99->78 [0.00ms]
+[2026-05-22 11:05:49] SCORE Robert (yellow): Final=306.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 10 (purple): Final=301.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE CybSec (gray0): Final=309.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 19: Gruppe 10 (purple) 72->46 [0.00ms]
+[2026-05-22 11:05:49] SCORE Robert (yellow): Final=306.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 10 (purple): Final=417.0, Time=99.0, Moves(5)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE LosTurcos (lawn green): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE CybSec (gray0): Final=309.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 20: LosTurcos (lawn green) 32->51 [0.00ms]
+[2026-05-22 11:05:49] SCORE Robert (yellow): Final=306.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 10 (purple): Final=417.0, Time=99.0, Moves(5)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE LosTurcos (lawn green): Final=307.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE CybSec (gray0): Final=309.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 21: Robert (yellow) 25->37 [0.00ms]
+[2026-05-22 11:05:50] SCORE Robert (yellow): Final=308.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 10 (purple): Final=417.0, Time=99.0, Moves(5)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE LosTurcos (lawn green): Final=307.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE CybSec (gray0): Final=309.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 22: CybSec (gray0) 65->28 [0.01ms]
+[2026-05-22 11:05:50] SCORE Robert (yellow): Final=308.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 10 (purple): Final=417.0, Time=99.0, Moves(5)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE LosTurcos (lawn green): Final=307.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE CybSec (gray0): Final=321.1, Time=97.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 23: Gruppe 10 (purple) 97->25 [0.00ms]
+[2026-05-22 11:05:50] SCORE Robert (yellow): Final=308.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 10 (purple): Final=540.8, Time=98.8, Moves(6)=0.0, Pins(2)=200.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE LosTurcos (lawn green): Final=307.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE CybSec (gray0): Final=321.1, Time=97.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 24: LosTurcos (lawn green) 31->66 [0.01ms]
+[2026-05-22 11:05:50] SCORE Robert (yellow): Final=308.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 10 (purple): Final=540.8, Time=98.8, Moves(6)=0.0, Pins(2)=200.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE LosTurcos (lawn green): Final=322.8, Time=98.8, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE CybSec (gray0): Final=321.1, Time=97.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 25: Robert (yellow) 69->70 [0.00ms]
+[2026-05-22 11:05:51] SCORE Robert (yellow): Final=309.7, Time=97.7, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 10 (purple): Final=540.8, Time=98.8, Moves(6)=0.0, Pins(2)=200.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE LosTurcos (lawn green): Final=322.8, Time=98.8, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE CybSec (gray0): Final=321.1, Time=97.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 26: CybSec (gray0) 77->60 [0.00ms]
+[2026-05-22 11:05:51] SCORE Robert (yellow): Final=309.7, Time=97.7, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 10 (purple): Final=540.8, Time=98.8, Moves(6)=0.0, Pins(2)=200.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE LosTurcos (lawn green): Final=322.8, Time=98.8, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE CybSec (gray0): Final=328.7, Time=96.7, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 27: Gruppe 10 (purple) 82->61 [0.01ms]
+[2026-05-22 11:05:51] SCORE Robert (yellow): Final=309.7, Time=97.7, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 10 (purple): Final=544.6, Time=98.6, Moves(7)=0.0, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE LosTurcos (lawn green): Final=322.8, Time=98.8, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE CybSec (gray0): Final=328.7, Time=96.7, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:52] MOVE 28: LosTurcos (lawn green) 66->65 [0.00ms]
+[2026-05-22 11:05:52] SCORE Robert (yellow): Final=309.7, Time=97.7, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE Gruppe 10 (purple): Final=544.6, Time=98.6, Moves(7)=0.0, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE LosTurcos (lawn green): Final=424.4, Time=98.4, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE CybSec (gray0): Final=328.7, Time=96.7, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:52] MOVE 29: Robert (yellow) 24->71 [0.00ms]
+[2026-05-22 11:05:52] SCORE Robert (yellow): Final=325.3, Time=97.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE Gruppe 10 (purple): Final=544.6, Time=98.6, Moves(7)=0.0, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE LosTurcos (lawn green): Final=424.4, Time=98.4, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE CybSec (gray0): Final=328.7, Time=96.7, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 30: CybSec (gray0) 60->62 [0.00ms]
+[2026-05-22 11:05:53] SCORE Robert (yellow): Final=325.3, Time=97.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 10 (purple): Final=544.6, Time=98.6, Moves(7)=0.0, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE LosTurcos (lawn green): Final=424.4, Time=98.4, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE CybSec (gray0): Final=332.1, Time=96.1, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 31: Gruppe 10 (purple) 61->60 [0.01ms]
+[2026-05-22 11:05:53] SCORE Robert (yellow): Final=325.3, Time=97.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 10 (purple): Final=546.4, Time=98.4, Moves(8)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE LosTurcos (lawn green): Final=424.4, Time=98.4, Moves(7)=0.0, Pins(1)=100.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE CybSec (gray0): Final=332.1, Time=96.1, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 32: LosTurcos (lawn green) 34->32 [0.00ms]
+[2026-05-22 11:05:53] SCORE Robert (yellow): Final=325.3, Time=97.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 10 (purple): Final=546.4, Time=98.4, Moves(8)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE LosTurcos (lawn green): Final=428.2, Time=98.2, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE CybSec (gray0): Final=332.1, Time=96.1, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 33: Robert (yellow) 38->107 [0.00ms]
+[2026-05-22 11:05:53] SCORE Robert (yellow): Final=440.9, Time=96.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 10 (purple): Final=546.4, Time=98.4, Moves(8)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE LosTurcos (lawn green): Final=428.2, Time=98.2, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE CybSec (gray0): Final=332.1, Time=96.1, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 34: CybSec (gray0) 59->63 [0.00ms]
+[2026-05-22 11:05:54] SCORE Robert (yellow): Final=440.9, Time=96.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 10 (purple): Final=546.4, Time=98.4, Moves(8)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE LosTurcos (lawn green): Final=428.2, Time=98.2, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE CybSec (gray0): Final=339.7, Time=95.7, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 35: Gruppe 10 (purple) 81->80 [0.00ms]
+[2026-05-22 11:05:54] SCORE Robert (yellow): Final=440.9, Time=96.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 10 (purple): Final=548.2, Time=98.2, Moves(9)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE LosTurcos (lawn green): Final=428.2, Time=98.2, Moves(8)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE CybSec (gray0): Final=339.7, Time=95.7, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 36: LosTurcos (lawn green) 51->50 [0.01ms]
+[2026-05-22 11:05:54] SCORE Robert (yellow): Final=440.9, Time=96.9, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 10 (purple): Final=548.2, Time=98.2, Moves(9)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE LosTurcos (lawn green): Final=429.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE CybSec (gray0): Final=339.7, Time=95.7, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:55] MOVE 37: Robert (yellow) 36->82 [0.00ms]
+[2026-05-22 11:05:55] SCORE Robert (yellow): Final=456.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE Gruppe 10 (purple): Final=548.2, Time=98.2, Moves(9)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE LosTurcos (lawn green): Final=429.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE CybSec (gray0): Final=339.7, Time=95.7, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:05:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:55] MOVE 38: CybSec (gray0) 28->73 [0.01ms]
+[2026-05-22 11:05:55] SCORE Robert (yellow): Final=456.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE Gruppe 10 (purple): Final=548.2, Time=98.2, Moves(9)=0.0, Pins(2)=200.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE LosTurcos (lawn green): Final=429.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE CybSec (gray0): Final=343.2, Time=95.2, Moves(10)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:56] MOVE 39: Gruppe 10 (purple) 85->81 [0.00ms]
+[2026-05-22 11:05:56] SCORE Robert (yellow): Final=456.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE Gruppe 10 (purple): Final=556.0, Time=98.0, Moves(10)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE LosTurcos (lawn green): Final=429.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE CybSec (gray0): Final=343.2, Time=95.2, Moves(10)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:56] MOVE 40: LosTurcos (lawn green) 44->54 [0.00ms]
+[2026-05-22 11:05:56] SCORE Robert (yellow): Final=456.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE Gruppe 10 (purple): Final=556.0, Time=98.0, Moves(10)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE LosTurcos (lawn green): Final=431.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE CybSec (gray0): Final=343.2, Time=95.2, Moves(10)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:56] MOVE 41: Robert (yellow) 13->61 [0.00ms]
+[2026-05-22 11:05:56] SCORE Robert (yellow): Final=468.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE Gruppe 10 (purple): Final=556.0, Time=98.0, Moves(10)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE LosTurcos (lawn green): Final=431.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE CybSec (gray0): Final=343.2, Time=95.2, Moves(10)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:05:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:57] MOVE 42: CybSec (gray0) 62->20 [0.01ms]
+[2026-05-22 11:05:57] SCORE Robert (yellow): Final=468.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE Gruppe 10 (purple): Final=556.0, Time=98.0, Moves(10)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE LosTurcos (lawn green): Final=431.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE CybSec (gray0): Final=448.7, Time=94.7, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:57] MOVE 43: Gruppe 10 (purple) 110->97 [0.00ms]
+[2026-05-22 11:05:57] SCORE Robert (yellow): Final=468.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE Gruppe 10 (purple): Final=557.9, Time=97.9, Moves(11)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE LosTurcos (lawn green): Final=431.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE CybSec (gray0): Final=448.7, Time=94.7, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:57] MOVE 44: LosTurcos (lawn green) 33->44 [0.01ms]
+[2026-05-22 11:05:57] SCORE Robert (yellow): Final=468.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE Gruppe 10 (purple): Final=557.9, Time=97.9, Moves(11)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE LosTurcos (lawn green): Final=433.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE CybSec (gray0): Final=448.7, Time=94.7, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:57] MOVE 45: Robert (yellow) 23->24 [0.01ms]
+[2026-05-22 11:05:57] SCORE Robert (yellow): Final=469.8, Time=95.8, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE Gruppe 10 (purple): Final=557.9, Time=97.9, Moves(11)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE LosTurcos (lawn green): Final=433.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE CybSec (gray0): Final=448.7, Time=94.7, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 46: CybSec (gray0) 86->88 [0.00ms]
+[2026-05-22 11:05:58] SCORE Robert (yellow): Final=469.8, Time=95.8, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 10 (purple): Final=557.9, Time=97.9, Moves(11)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE LosTurcos (lawn green): Final=433.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE CybSec (gray0): Final=452.1, Time=94.1, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 47: Gruppe 10 (purple) 25->36 [0.00ms]
+[2026-05-22 11:05:58] SCORE Robert (yellow): Final=469.8, Time=95.8, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 10 (purple): Final=557.5, Time=97.5, Moves(12)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE LosTurcos (lawn green): Final=433.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE CybSec (gray0): Final=452.1, Time=94.1, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 48: LosTurcos (lawn green) 55->53 [0.00ms]
+[2026-05-22 11:05:58] SCORE Robert (yellow): Final=469.8, Time=95.8, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 10 (purple): Final=557.5, Time=97.5, Moves(12)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE LosTurcos (lawn green): Final=437.4, Time=97.4, Moves(12)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE CybSec (gray0): Final=452.1, Time=94.1, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 49: Robert (yellow) 37->48 [0.00ms]
+[2026-05-22 11:05:59] SCORE Robert (yellow): Final=471.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 10 (purple): Final=557.5, Time=97.5, Moves(12)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE LosTurcos (lawn green): Final=437.4, Time=97.4, Moves(12)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE CybSec (gray0): Final=452.1, Time=94.1, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 50: CybSec (gray0) 100->37 [0.00ms]
+[2026-05-22 11:05:59] SCORE Robert (yellow): Final=471.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 10 (purple): Final=557.5, Time=97.5, Moves(12)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE LosTurcos (lawn green): Final=437.4, Time=97.4, Moves(12)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE CybSec (gray0): Final=459.8, Time=93.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 51: Gruppe 10 (purple) 97->72 [0.01ms]
+[2026-05-22 11:05:59] SCORE Robert (yellow): Final=471.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 10 (purple): Final=565.3, Time=97.3, Moves(13)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE LosTurcos (lawn green): Final=437.4, Time=97.4, Moves(12)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE CybSec (gray0): Final=459.8, Time=93.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 52: LosTurcos (lawn green) 21->33 [0.00ms]
+[2026-05-22 11:05:59] SCORE Robert (yellow): Final=471.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 10 (purple): Final=565.3, Time=97.3, Moves(13)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE LosTurcos (lawn green): Final=439.3, Time=97.3, Moves(13)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE CybSec (gray0): Final=459.8, Time=93.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:00] MOVE 53: Robert (yellow) 24->92 [0.00ms]
+[2026-05-22 11:06:00] SCORE Robert (yellow): Final=487.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE Gruppe 10 (purple): Final=565.3, Time=97.3, Moves(13)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE LosTurcos (lawn green): Final=439.3, Time=97.3, Moves(13)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE CybSec (gray0): Final=459.8, Time=93.8, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:06:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:00] MOVE 54: CybSec (gray0) 78->40 [0.00ms]
+[2026-05-22 11:06:00] SCORE Robert (yellow): Final=487.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE Gruppe 10 (purple): Final=565.3, Time=97.3, Moves(13)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE LosTurcos (lawn green): Final=439.3, Time=97.3, Moves(13)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE CybSec (gray0): Final=467.3, Time=93.3, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:06:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:00] MOVE 55: Gruppe 10 (purple) 60->106 [0.01ms]
+[2026-05-22 11:06:00] SCORE Robert (yellow): Final=487.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE Gruppe 10 (purple): Final=557.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE LosTurcos (lawn green): Final=439.3, Time=97.3, Moves(13)=0.0, Pins(1)=100.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE CybSec (gray0): Final=467.3, Time=93.3, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:06:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 56: LosTurcos (lawn green) 50->49 [0.00ms]
+[2026-05-22 11:06:01] SCORE Robert (yellow): Final=487.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 10 (purple): Final=557.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE LosTurcos (lawn green): Final=441.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE CybSec (gray0): Final=467.3, Time=93.3, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 57: Robert (yellow) 70->97 [0.00ms]
+[2026-05-22 11:06:01] SCORE Robert (yellow): Final=594.6, Time=94.6, Moves(15)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 10 (purple): Final=557.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE LosTurcos (lawn green): Final=441.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE CybSec (gray0): Final=467.3, Time=93.3, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 58: CybSec (gray0) 87->89 [0.00ms]
+[2026-05-22 11:06:01] SCORE Robert (yellow): Final=594.6, Time=94.6, Moves(15)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 10 (purple): Final=557.1, Time=97.1, Moves(14)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE LosTurcos (lawn green): Final=441.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE CybSec (gray0): Final=470.8, Time=92.8, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:02] MOVE 59: Gruppe 10 (purple) 72->50 [0.00ms]
+[2026-05-22 11:06:02] SCORE Robert (yellow): Final=594.6, Time=94.6, Moves(15)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE Gruppe 10 (purple): Final=565.0, Time=97.0, Moves(15)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE LosTurcos (lawn green): Final=441.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE CybSec (gray0): Final=470.8, Time=92.8, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:06:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:02] MOVE 60: LosTurcos (lawn green) 41->51 [0.00ms]
+[2026-05-22 11:06:02] SCORE Robert (yellow): Final=594.6, Time=94.6, Moves(15)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE Gruppe 10 (purple): Final=565.0, Time=97.0, Moves(15)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE LosTurcos (lawn green): Final=442.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE CybSec (gray0): Final=470.8, Time=92.8, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:06:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:02] MOVE 61: Robert (yellow) 39->110 [0.00ms]
+[2026-05-22 11:06:02] SCORE Robert (yellow): Final=708.2, Time=94.2, Moves(16)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE Gruppe 10 (purple): Final=565.0, Time=97.0, Moves(15)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE LosTurcos (lawn green): Final=442.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE CybSec (gray0): Final=470.8, Time=92.8, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:06:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 62: CybSec (gray0) 37->64 [0.00ms]
+[2026-05-22 11:06:03] SCORE Robert (yellow): Final=708.2, Time=94.2, Moves(16)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 10 (purple): Final=565.0, Time=97.0, Moves(15)=0.0, Pins(2)=200.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE LosTurcos (lawn green): Final=442.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE CybSec (gray0): Final=482.3, Time=92.3, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 63: Gruppe 10 (purple) 81->37 [0.01ms]
+[2026-05-22 11:06:03] SCORE Robert (yellow): Final=708.2, Time=94.2, Moves(16)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 10 (purple): Final=576.9, Time=96.9, Moves(16)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE LosTurcos (lawn green): Final=442.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE CybSec (gray0): Final=482.3, Time=92.3, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 64: LosTurcos (lawn green) 51->60 [0.00ms]
+[2026-05-22 11:06:03] SCORE Robert (yellow): Final=708.2, Time=94.2, Moves(16)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 10 (purple): Final=576.9, Time=96.9, Moves(16)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE LosTurcos (lawn green): Final=444.6, Time=96.6, Moves(16)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE CybSec (gray0): Final=482.3, Time=92.3, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 65: Robert (yellow) 48->58 [0.00ms]
+[2026-05-22 11:06:03] SCORE Robert (yellow): Final=709.8, Time=93.8, Moves(17)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 10 (purple): Final=576.9, Time=96.9, Moves(16)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE LosTurcos (lawn green): Final=444.6, Time=96.6, Moves(16)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE CybSec (gray0): Final=482.3, Time=92.3, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 66: CybSec (gray0) 101->38 [0.00ms]
+[2026-05-22 11:06:04] SCORE Robert (yellow): Final=709.8, Time=93.8, Moves(17)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 10 (purple): Final=576.9, Time=96.9, Moves(16)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE LosTurcos (lawn green): Final=444.6, Time=96.6, Moves(16)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE CybSec (gray0): Final=489.9, Time=91.9, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 67: Gruppe 10 (purple) 50->66 [0.00ms]
+[2026-05-22 11:06:04] SCORE Robert (yellow): Final=709.8, Time=93.8, Moves(17)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 10 (purple): Final=580.7, Time=96.7, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE LosTurcos (lawn green): Final=444.6, Time=96.6, Moves(16)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE CybSec (gray0): Final=489.9, Time=91.9, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 68: LosTurcos (lawn green) 54->68 [0.00ms]
+[2026-05-22 11:06:04] SCORE Robert (yellow): Final=709.8, Time=93.8, Moves(17)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 10 (purple): Final=580.7, Time=96.7, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE LosTurcos (lawn green): Final=456.4, Time=96.4, Moves(17)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE CybSec (gray0): Final=489.9, Time=91.9, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 69: Robert (yellow) 58->108 [0.00ms]
+[2026-05-22 11:06:05] SCORE Robert (yellow): Final=823.2, Time=93.2, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE Gruppe 10 (purple): Final=580.7, Time=96.7, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE LosTurcos (lawn green): Final=456.4, Time=96.4, Moves(17)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE CybSec (gray0): Final=489.9, Time=91.9, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 70: CybSec (gray0) 56->43 [0.00ms]
+[2026-05-22 11:06:05] SCORE Robert (yellow): Final=823.2, Time=93.2, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE Gruppe 10 (purple): Final=580.7, Time=96.7, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE LosTurcos (lawn green): Final=456.4, Time=96.4, Moves(17)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE CybSec (gray0): Final=505.6, Time=91.6, Moves(18)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 71: Gruppe 10 (purple) 74->25 [0.01ms]
+[2026-05-22 11:06:05] SCORE Robert (yellow): Final=823.2, Time=93.2, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE Gruppe 10 (purple): Final=700.5, Time=96.5, Moves(18)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE LosTurcos (lawn green): Final=456.4, Time=96.4, Moves(17)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE CybSec (gray0): Final=505.6, Time=91.6, Moves(18)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 72: LosTurcos (lawn green) 60->100 [0.01ms]
+[2026-05-22 11:06:06] SCORE Robert (yellow): Final=823.2, Time=93.2, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 10 (purple): Final=700.5, Time=96.5, Moves(18)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE LosTurcos (lawn green): Final=566.3, Time=96.3, Moves(18)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE CybSec (gray0): Final=505.6, Time=91.6, Moves(18)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 73: Robert (yellow) 35->85 [0.00ms]
+[2026-05-22 11:06:06] SCORE Robert (yellow): Final=944.5, Time=92.5, Moves(19)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 10 (purple): Final=700.5, Time=96.5, Moves(18)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE LosTurcos (lawn green): Final=566.3, Time=96.3, Moves(18)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE CybSec (gray0): Final=505.6, Time=91.6, Moves(18)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 74: CybSec (gray0) 88->90 [0.01ms]
+[2026-05-22 11:06:06] SCORE Robert (yellow): Final=944.5, Time=92.5, Moves(19)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 10 (purple): Final=700.5, Time=96.5, Moves(18)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE LosTurcos (lawn green): Final=566.3, Time=96.3, Moves(18)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE CybSec (gray0): Final=509.3, Time=91.3, Moves(19)=0.0, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 75: Gruppe 10 (purple) 106->77 [0.00ms]
+[2026-05-22 11:06:07] SCORE Robert (yellow): Final=944.5, Time=92.5, Moves(19)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 10 (purple): Final=712.3, Time=96.3, Moves(19)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE LosTurcos (lawn green): Final=566.3, Time=96.3, Moves(18)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE CybSec (gray0): Final=509.3, Time=91.3, Moves(19)=0.0, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 76: LosTurcos (lawn green) 65->75 [0.00ms]
+[2026-05-22 11:06:07] SCORE Robert (yellow): Final=944.5, Time=92.5, Moves(19)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 10 (purple): Final=712.3, Time=96.3, Moves(19)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE LosTurcos (lawn green): Final=566.2, Time=96.2, Moves(19)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE CybSec (gray0): Final=509.3, Time=91.3, Moves(19)=0.0, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 77: Robert (yellow) 61->70 [0.00ms]
+[2026-05-22 11:06:07] SCORE Robert (yellow): Final=944.1, Time=92.1, Moves(20)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 10 (purple): Final=712.3, Time=96.3, Moves(19)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE LosTurcos (lawn green): Final=566.2, Time=96.2, Moves(19)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE CybSec (gray0): Final=509.3, Time=91.3, Moves(19)=0.0, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 78: CybSec (gray0) 89->31 [0.00ms]
+[2026-05-22 11:06:07] SCORE Robert (yellow): Final=944.1, Time=92.1, Moves(20)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 10 (purple): Final=712.3, Time=96.3, Moves(19)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE LosTurcos (lawn green): Final=566.2, Time=96.2, Moves(19)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE CybSec (gray0): Final=525.0, Time=91.0, Moves(20)=0.0, Pins(1)=100.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 79: Gruppe 10 (purple) 37->10 [0.00ms]
+[2026-05-22 11:06:08] SCORE Robert (yellow): Final=944.1, Time=92.1, Moves(20)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 10 (purple): Final=814.2, Time=96.2, Moves(20)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE LosTurcos (lawn green): Final=566.2, Time=96.2, Moves(19)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE CybSec (gray0): Final=525.0, Time=91.0, Moves(20)=0.0, Pins(1)=100.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 80: LosTurcos (lawn green) 33->91 [0.00ms]
+[2026-05-22 11:06:08] SCORE Robert (yellow): Final=944.1, Time=92.1, Moves(20)=0.0, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 10 (purple): Final=814.2, Time=96.2, Moves(20)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE LosTurcos (lawn green): Final=582.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE CybSec (gray0): Final=525.0, Time=91.0, Moves(20)=0.0, Pins(1)=100.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 81: Robert (yellow) 11->12 [0.00ms]
+[2026-05-22 11:06:08] SCORE Robert (yellow): Final=945.7, Time=91.7, Moves(21)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 10 (purple): Final=814.2, Time=96.2, Moves(20)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE LosTurcos (lawn green): Final=582.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE CybSec (gray0): Final=525.0, Time=91.0, Moves(20)=0.0, Pins(1)=100.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 82: CybSec (gray0) 73->34 [0.01ms]
+[2026-05-22 11:06:08] SCORE Robert (yellow): Final=945.7, Time=91.7, Moves(21)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 10 (purple): Final=814.2, Time=96.2, Moves(20)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE LosTurcos (lawn green): Final=582.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE CybSec (gray0): Final=628.7, Time=90.7, Moves(21)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 83: Gruppe 10 (purple) 36->11 [0.00ms]
+[2026-05-22 11:06:09] SCORE Robert (yellow): Final=945.7, Time=91.7, Moves(21)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 10 (purple): Final=814.1, Time=96.1, Moves(21)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE LosTurcos (lawn green): Final=582.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE CybSec (gray0): Final=628.7, Time=90.7, Moves(21)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 84: LosTurcos (lawn green) 53->62 [0.00ms]
+[2026-05-22 11:06:09] SCORE Robert (yellow): Final=945.7, Time=91.7, Moves(21)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 10 (purple): Final=814.1, Time=96.1, Moves(21)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE LosTurcos (lawn green): Final=583.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE CybSec (gray0): Final=628.7, Time=90.7, Moves(21)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 85: Robert (yellow) 12->83 [0.01ms]
+[2026-05-22 11:06:09] SCORE Robert (yellow): Final=965.3, Time=91.3, Moves(22)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 10 (purple): Final=814.1, Time=96.1, Moves(21)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE LosTurcos (lawn green): Final=583.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE CybSec (gray0): Final=628.7, Time=90.7, Moves(21)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 86: CybSec (gray0) 67->69 [0.00ms]
+[2026-05-22 11:06:09] SCORE Robert (yellow): Final=965.3, Time=91.3, Moves(22)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 10 (purple): Final=814.1, Time=96.1, Moves(21)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE LosTurcos (lawn green): Final=583.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE CybSec (gray0): Final=632.4, Time=90.4, Moves(22)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 87: Gruppe 10 (purple) 96->95 [0.00ms]
+[2026-05-22 11:06:10] SCORE Robert (yellow): Final=965.3, Time=91.3, Moves(22)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 10 (purple): Final=815.9, Time=95.9, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE LosTurcos (lawn green): Final=583.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE CybSec (gray0): Final=632.4, Time=90.4, Moves(22)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 88: LosTurcos (lawn green) 32->30 [0.01ms]
+[2026-05-22 11:06:10] SCORE Robert (yellow): Final=965.3, Time=91.3, Moves(22)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 10 (purple): Final=815.9, Time=95.9, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE LosTurcos (lawn green): Final=587.7, Time=95.7, Moves(22)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE CybSec (gray0): Final=632.4, Time=90.4, Moves(22)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 89: Robert (yellow) 70->74 [0.00ms]
+[2026-05-22 11:06:10] SCORE Robert (yellow): Final=1072.9, Time=90.9, Moves(23)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 10 (purple): Final=815.9, Time=95.9, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE LosTurcos (lawn green): Final=587.7, Time=95.7, Moves(22)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE CybSec (gray0): Final=632.4, Time=90.4, Moves(22)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 90: CybSec (gray0) 69->70 [0.01ms]
+[2026-05-22 11:06:10] SCORE Robert (yellow): Final=1072.9, Time=90.9, Moves(23)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 10 (purple): Final=815.9, Time=95.9, Moves(22)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE LosTurcos (lawn green): Final=587.7, Time=95.7, Moves(22)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE CybSec (gray0): Final=634.1, Time=90.1, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 91: Gruppe 10 (purple) 84->96 [0.00ms]
+[2026-05-22 11:06:11] SCORE Robert (yellow): Final=1072.9, Time=90.9, Moves(23)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 10 (purple): Final=813.7, Time=95.7, Moves(23)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE LosTurcos (lawn green): Final=587.7, Time=95.7, Moves(22)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE CybSec (gray0): Final=634.1, Time=90.1, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 92: LosTurcos (lawn green) 91->89 [0.00ms]
+[2026-05-22 11:06:11] SCORE Robert (yellow): Final=1072.9, Time=90.9, Moves(23)=0.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 10 (purple): Final=813.7, Time=95.7, Moves(23)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE LosTurcos (lawn green): Final=591.6, Time=95.6, Moves(23)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE CybSec (gray0): Final=634.1, Time=90.1, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 93: Robert (yellow) 82->109 [0.00ms]
+[2026-05-22 11:06:11] SCORE Robert (yellow): Final=1176.6, Time=90.6, Moves(24)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 10 (purple): Final=813.7, Time=95.7, Moves(23)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE LosTurcos (lawn green): Final=591.6, Time=95.6, Moves(23)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE CybSec (gray0): Final=634.1, Time=90.1, Moves(23)=0.0, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 94: CybSec (gray0) 70->33 [0.00ms]
+[2026-05-22 11:06:11] SCORE Robert (yellow): Final=1176.6, Time=90.6, Moves(24)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 10 (purple): Final=813.7, Time=95.7, Moves(23)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE LosTurcos (lawn green): Final=591.6, Time=95.6, Moves(23)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE CybSec (gray0): Final=744.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 95: Gruppe 10 (purple) 77->12 [0.00ms]
+[2026-05-22 11:06:11] SCORE Robert (yellow): Final=1176.6, Time=90.6, Moves(24)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 10 (purple): Final=919.6, Time=95.6, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE LosTurcos (lawn green): Final=591.6, Time=95.6, Moves(23)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE CybSec (gray0): Final=744.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:12] MOVE 96: LosTurcos (lawn green) 89->101 [0.01ms]
+[2026-05-22 11:06:12] SCORE Robert (yellow): Final=1176.6, Time=90.6, Moves(24)=0.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE Gruppe 10 (purple): Final=919.6, Time=95.6, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE LosTurcos (lawn green): Final=693.4, Time=95.4, Moves(24)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE CybSec (gray0): Final=744.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:12] MOVE 97: Robert (yellow) 71->73 [0.00ms]
+[2026-05-22 11:06:12] SCORE Robert (yellow): Final=1180.4, Time=90.4, Moves(25)=0.0, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE Gruppe 10 (purple): Final=919.6, Time=95.6, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE LosTurcos (lawn green): Final=693.4, Time=95.4, Moves(24)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE CybSec (gray0): Final=744.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:12] MOVE 98: CybSec (gray0) 90->91 [0.00ms]
+[2026-05-22 11:06:12] SCORE Robert (yellow): Final=1180.4, Time=90.4, Moves(25)=0.0, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE Gruppe 10 (purple): Final=919.6, Time=95.6, Moves(24)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE LosTurcos (lawn green): Final=693.4, Time=95.4, Moves(24)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE CybSec (gray0): Final=745.9, Time=89.9, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:06:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:12] MOVE 99: Gruppe 10 (purple) 25->13 [0.01ms]
+[2026-05-22 11:06:12] SCORE Robert (yellow): Final=1180.4, Time=90.4, Moves(25)=0.0, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE Gruppe 10 (purple): Final=919.2, Time=95.2, Moves(25)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE LosTurcos (lawn green): Final=693.4, Time=95.4, Moves(24)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE CybSec (gray0): Final=745.9, Time=89.9, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:06:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:12] MOVE 100: LosTurcos (lawn green) 62->61 [0.01ms]
+[2026-05-22 11:06:12] SCORE Robert (yellow): Final=1180.4, Time=90.4, Moves(25)=0.0, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE Gruppe 10 (purple): Final=919.2, Time=95.2, Moves(25)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE LosTurcos (lawn green): Final=695.2, Time=95.2, Moves(25)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:12] SCORE CybSec (gray0): Final=745.9, Time=89.9, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:06:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:13] MOVE 101: Robert (yellow) 92->93 [0.00ms]
+[2026-05-22 11:06:13] SCORE Robert (yellow): Final=1182.2, Time=90.2, Moves(26)=0.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE Gruppe 10 (purple): Final=919.2, Time=95.2, Moves(25)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE LosTurcos (lawn green): Final=695.2, Time=95.2, Moves(25)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE CybSec (gray0): Final=745.9, Time=89.9, Moves(25)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:06:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:13] MOVE 102: CybSec (gray0) 91->52 [0.00ms]
+[2026-05-22 11:06:13] SCORE Robert (yellow): Final=1182.2, Time=90.2, Moves(26)=0.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE Gruppe 10 (purple): Final=919.2, Time=95.2, Moves(25)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE LosTurcos (lawn green): Final=695.2, Time=95.2, Moves(25)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE CybSec (gray0): Final=753.6, Time=89.6, Moves(26)=0.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:06:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:13] MOVE 103: Gruppe 10 (purple) 95->84 [0.00ms]
+[2026-05-22 11:06:13] SCORE Robert (yellow): Final=1182.2, Time=90.2, Moves(26)=0.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE Gruppe 10 (purple): Final=919.0, Time=95.0, Moves(26)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE LosTurcos (lawn green): Final=695.2, Time=95.2, Moves(25)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE CybSec (gray0): Final=753.6, Time=89.6, Moves(26)=0.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:06:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:13] MOVE 104: LosTurcos (lawn green) 42->41 [0.00ms]
+[2026-05-22 11:06:13] SCORE Robert (yellow): Final=1182.2, Time=90.2, Moves(26)=0.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE Gruppe 10 (purple): Final=919.0, Time=95.0, Moves(26)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE LosTurcos (lawn green): Final=697.2, Time=95.2, Moves(26)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE CybSec (gray0): Final=753.6, Time=89.6, Moves(26)=0.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:06:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:13] MOVE 105: Robert (yellow) 93->95 [0.00ms]
+[2026-05-22 11:06:13] SCORE Robert (yellow): Final=1285.9, Time=89.9, Moves(27)=0.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE Gruppe 10 (purple): Final=919.0, Time=95.0, Moves(26)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE LosTurcos (lawn green): Final=697.2, Time=95.2, Moves(26)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:06:13] SCORE CybSec (gray0): Final=753.6, Time=89.6, Moves(26)=0.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:06:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:14] MOVE 106: CybSec (gray0) 40->19 [0.00ms]
+[2026-05-22 11:06:14] SCORE Robert (yellow): Final=1285.9, Time=89.9, Moves(27)=0.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE Gruppe 10 (purple): Final=919.0, Time=95.0, Moves(26)=0.0, Pins(5)=500.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE LosTurcos (lawn green): Final=697.2, Time=95.2, Moves(26)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE CybSec (gray0): Final=861.4, Time=89.4, Moves(27)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:14] MOVE 107: Gruppe 10 (purple) 84->82 [0.00ms]
+[2026-05-22 11:06:14] SCORE Robert (yellow): Final=1285.9, Time=89.9, Moves(27)=0.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE Gruppe 10 (purple): Final=922.8, Time=94.8, Moves(27)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE LosTurcos (lawn green): Final=697.2, Time=95.2, Moves(26)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE CybSec (gray0): Final=861.4, Time=89.4, Moves(27)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:14] MOVE 108: LosTurcos (lawn green) 49->48 [0.00ms]
+[2026-05-22 11:06:14] SCORE Robert (yellow): Final=1285.9, Time=89.9, Moves(27)=0.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE Gruppe 10 (purple): Final=922.8, Time=94.8, Moves(27)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE LosTurcos (lawn green): Final=699.1, Time=95.1, Moves(27)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE CybSec (gray0): Final=861.4, Time=89.4, Moves(27)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:14] MOVE 109: Robert (yellow) 73->84 [0.01ms]
+[2026-05-22 11:06:14] SCORE Robert (yellow): Final=1387.8, Time=89.7, Moves(28)=0.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE Gruppe 10 (purple): Final=922.8, Time=94.8, Moves(27)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE LosTurcos (lawn green): Final=699.1, Time=95.1, Moves(27)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE CybSec (gray0): Final=861.4, Time=89.4, Moves(27)=0.0, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:14] MOVE 110: CybSec (gray0) 38->27 [0.01ms]
+[2026-05-22 11:06:14] SCORE Robert (yellow): Final=1387.8, Time=89.7, Moves(28)=0.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE Gruppe 10 (purple): Final=922.8, Time=94.8, Moves(27)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE LosTurcos (lawn green): Final=699.1, Time=95.1, Moves(27)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:14] SCORE CybSec (gray0): Final=863.2, Time=89.2, Moves(28)=0.0, Pins(4)=400.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:15] MOVE 111: Gruppe 10 (purple) 12->25 [0.00ms]
+[2026-05-22 11:06:15] SCORE Robert (yellow): Final=1387.8, Time=89.7, Moves(28)=0.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE Gruppe 10 (purple): Final=922.7, Time=94.7, Moves(28)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE LosTurcos (lawn green): Final=699.1, Time=95.1, Moves(27)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE CybSec (gray0): Final=863.2, Time=89.2, Moves(28)=0.0, Pins(4)=400.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:15] MOVE 112: LosTurcos (lawn green) 61->60 [0.00ms]
+[2026-05-22 11:06:15] SCORE Robert (yellow): Final=1387.8, Time=89.7, Moves(28)=0.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE Gruppe 10 (purple): Final=922.7, Time=94.7, Moves(28)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE LosTurcos (lawn green): Final=700.8, Time=94.8, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE CybSec (gray0): Final=863.2, Time=89.2, Moves(28)=0.0, Pins(4)=400.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:15] MOVE 113: Robert (yellow) 83->39 [0.00ms]
+[2026-05-22 11:06:15] SCORE Robert (yellow): Final=1375.6, Time=89.6, Moves(29)=0.0, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE Gruppe 10 (purple): Final=922.7, Time=94.7, Moves(28)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE LosTurcos (lawn green): Final=700.8, Time=94.8, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE CybSec (gray0): Final=863.2, Time=89.2, Moves(28)=0.0, Pins(4)=400.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:06:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:15] MOVE 114: CybSec (gray0) 43->32 [0.00ms]
+[2026-05-22 11:06:15] SCORE Robert (yellow): Final=1375.6, Time=89.6, Moves(29)=0.0, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE Gruppe 10 (purple): Final=922.7, Time=94.7, Moves(28)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE LosTurcos (lawn green): Final=700.8, Time=94.8, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE CybSec (gray0): Final=965.0, Time=89.0, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:15] MOVE 115: Gruppe 10 (purple) 96->73 [0.01ms]
+[2026-05-22 11:06:15] SCORE Robert (yellow): Final=1375.6, Time=89.6, Moves(29)=0.0, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE Gruppe 10 (purple): Final=926.6, Time=94.6, Moves(29)=0.0, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE LosTurcos (lawn green): Final=700.8, Time=94.8, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:06:15] SCORE CybSec (gray0): Final=965.0, Time=89.0, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 116: LosTurcos (lawn green) 41->51 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1375.6, Time=89.6, Moves(29)=0.0, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=926.6, Time=94.6, Moves(29)=0.0, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=702.5, Time=94.5, Moves(29)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=965.0, Time=89.0, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 117: Robert (yellow) 108->96 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1375.5, Time=89.4, Moves(30)=0.1, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=926.6, Time=94.6, Moves(29)=0.0, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=702.5, Time=94.5, Moves(29)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=965.0, Time=89.0, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 118: CybSec (gray0) 63->54 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1375.5, Time=89.4, Moves(30)=0.1, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=926.6, Time=94.6, Moves(29)=0.0, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=702.5, Time=94.5, Moves(29)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=966.9, Time=88.8, Moves(30)=0.1, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 119: Gruppe 10 (purple) 73->53 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1375.5, Time=89.4, Moves(30)=0.1, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=930.5, Time=94.4, Moves(30)=0.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=702.5, Time=94.5, Moves(29)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=966.9, Time=88.8, Moves(30)=0.1, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 120: LosTurcos (lawn green) 68->78 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1375.5, Time=89.4, Moves(30)=0.1, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=930.5, Time=94.4, Moves(30)=0.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=704.5, Time=94.4, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=966.9, Time=88.8, Moves(30)=0.1, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:16] MOVE 121: Robert (yellow) 39->40 [0.00ms]
+[2026-05-22 11:06:16] SCORE Robert (yellow): Final=1377.5, Time=89.3, Moves(31)=0.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE Gruppe 10 (purple): Final=930.5, Time=94.4, Moves(30)=0.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE LosTurcos (lawn green): Final=704.5, Time=94.4, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:06:16] SCORE CybSec (gray0): Final=966.9, Time=88.8, Moves(30)=0.1, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:17] MOVE 122: CybSec (gray0) 52->42 [0.01ms]
+[2026-05-22 11:06:17] SCORE Robert (yellow): Final=1377.5, Time=89.3, Moves(31)=0.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE Gruppe 10 (purple): Final=930.5, Time=94.4, Moves(30)=0.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE LosTurcos (lawn green): Final=704.5, Time=94.4, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE CybSec (gray0): Final=968.7, Time=88.5, Moves(31)=0.2, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:17] MOVE 123: Gruppe 10 (purple) 46->36 [0.01ms]
+[2026-05-22 11:06:17] SCORE Robert (yellow): Final=1377.5, Time=89.3, Moves(31)=0.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE Gruppe 10 (purple): Final=930.4, Time=94.1, Moves(31)=0.2, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE LosTurcos (lawn green): Final=704.5, Time=94.4, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE CybSec (gray0): Final=968.7, Time=88.5, Moves(31)=0.2, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:17] MOVE 124: LosTurcos (lawn green) 44->63 [0.01ms]
+[2026-05-22 11:06:17] SCORE Robert (yellow): Final=1377.5, Time=89.3, Moves(31)=0.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE Gruppe 10 (purple): Final=930.4, Time=94.1, Moves(31)=0.2, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE LosTurcos (lawn green): Final=708.3, Time=94.1, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE CybSec (gray0): Final=968.7, Time=88.5, Moves(31)=0.2, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:17] MOVE 125: Robert (yellow) 40->61 [0.01ms]
+[2026-05-22 11:06:17] SCORE Robert (yellow): Final=1381.5, Time=89.0, Moves(32)=0.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE Gruppe 10 (purple): Final=930.4, Time=94.1, Moves(31)=0.2, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE LosTurcos (lawn green): Final=708.3, Time=94.1, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:17] SCORE CybSec (gray0): Final=968.7, Time=88.5, Moves(31)=0.2, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 126: CybSec (gray0) 64->55 [0.01ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1381.5, Time=89.0, Moves(32)=0.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=930.4, Time=94.1, Moves(31)=0.2, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=708.3, Time=94.1, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1070.9, Time=88.4, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 127: Gruppe 10 (purple) 10->35 [0.00ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1381.5, Time=89.0, Moves(32)=0.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=930.5, Time=94.0, Moves(32)=0.5, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=708.3, Time=94.1, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1070.9, Time=88.4, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 128: LosTurcos (lawn green) 60->59 [0.01ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1381.5, Time=89.0, Moves(32)=0.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=930.5, Time=94.0, Moves(32)=0.5, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=710.5, Time=94.0, Moves(32)=0.5, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1070.9, Time=88.4, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 129: Robert (yellow) 61->62 [0.00ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1383.8, Time=88.7, Moves(33)=1.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=930.5, Time=94.0, Moves(32)=0.5, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=710.5, Time=94.0, Moves(32)=0.5, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1070.9, Time=88.4, Moves(32)=0.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 130: CybSec (gray0) 42->43 [0.01ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1383.8, Time=88.7, Moves(33)=1.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=930.5, Time=94.0, Moves(32)=0.5, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=710.5, Time=94.0, Moves(32)=0.5, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1073.2, Time=88.1, Moves(33)=1.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:18] MOVE 131: Gruppe 10 (purple) 11->10 [0.00ms]
+[2026-05-22 11:06:18] SCORE Robert (yellow): Final=1383.8, Time=88.7, Moves(33)=1.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE Gruppe 10 (purple): Final=931.1, Time=93.9, Moves(33)=1.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE LosTurcos (lawn green): Final=710.5, Time=94.0, Moves(32)=0.5, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:06:18] SCORE CybSec (gray0): Final=1073.2, Time=88.1, Moves(33)=1.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:19] MOVE 132: LosTurcos (lawn green) 59->68 [0.01ms]
+[2026-05-22 11:06:19] SCORE Robert (yellow): Final=1383.8, Time=88.7, Moves(33)=1.1, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE Gruppe 10 (purple): Final=931.1, Time=93.9, Moves(33)=1.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE LosTurcos (lawn green): Final=713.0, Time=93.8, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE CybSec (gray0): Final=1073.2, Time=88.1, Moves(33)=1.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:19] MOVE 133: Robert (yellow) 85->108 [0.00ms]
+[2026-05-22 11:06:19] SCORE Robert (yellow): Final=1384.8, Time=88.5, Moves(34)=2.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE Gruppe 10 (purple): Final=931.1, Time=93.9, Moves(33)=1.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE LosTurcos (lawn green): Final=713.0, Time=93.8, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE CybSec (gray0): Final=1073.2, Time=88.1, Moves(33)=1.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:19] MOVE 134: CybSec (gray0) 43->44 [0.00ms]
+[2026-05-22 11:06:19] SCORE Robert (yellow): Final=1384.8, Time=88.5, Moves(34)=2.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE Gruppe 10 (purple): Final=931.1, Time=93.9, Moves(33)=1.1, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE LosTurcos (lawn green): Final=713.0, Time=93.8, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE CybSec (gray0): Final=1176.2, Time=87.9, Moves(34)=2.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:19] MOVE 135: Gruppe 10 (purple) 80->92 [0.00ms]
+[2026-05-22 11:06:19] SCORE Robert (yellow): Final=1384.8, Time=88.5, Moves(34)=2.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE Gruppe 10 (purple): Final=930.0, Time=93.7, Moves(34)=2.3, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE LosTurcos (lawn green): Final=713.0, Time=93.8, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE CybSec (gray0): Final=1176.2, Time=87.9, Moves(34)=2.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:19] MOVE 136: LosTurcos (lawn green) 68->67 [0.01ms]
+[2026-05-22 11:06:19] SCORE Robert (yellow): Final=1384.8, Time=88.5, Moves(34)=2.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE Gruppe 10 (purple): Final=930.0, Time=93.7, Moves(34)=2.3, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE LosTurcos (lawn green): Final=716.0, Time=93.7, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:19] SCORE CybSec (gray0): Final=1176.2, Time=87.9, Moves(34)=2.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:20] MOVE 137: Robert (yellow) 62->83 [0.01ms]
+[2026-05-22 11:06:20] SCORE Robert (yellow): Final=1390.7, Time=88.3, Moves(35)=4.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE Gruppe 10 (purple): Final=930.0, Time=93.7, Moves(34)=2.3, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE LosTurcos (lawn green): Final=716.0, Time=93.7, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE CybSec (gray0): Final=1176.2, Time=87.9, Moves(34)=2.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:20] MOVE 138: CybSec (gray0) 27->28 [0.00ms]
+[2026-05-22 11:06:20] SCORE Robert (yellow): Final=1390.7, Time=88.3, Moves(35)=4.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE Gruppe 10 (purple): Final=930.0, Time=93.7, Moves(34)=2.3, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE LosTurcos (lawn green): Final=716.0, Time=93.7, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE CybSec (gray0): Final=1180.1, Time=87.7, Moves(35)=4.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:20] MOVE 139: Gruppe 10 (purple) 92->104 [0.01ms]
+[2026-05-22 11:06:20] SCORE Robert (yellow): Final=1390.7, Time=88.3, Moves(35)=4.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE Gruppe 10 (purple): Final=931.9, Time=93.5, Moves(35)=4.4, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE LosTurcos (lawn green): Final=716.0, Time=93.7, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE CybSec (gray0): Final=1180.1, Time=87.7, Moves(35)=4.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:20] MOVE 140: LosTurcos (lawn green) 100->99 [0.00ms]
+[2026-05-22 11:06:20] SCORE Robert (yellow): Final=1390.7, Time=88.3, Moves(35)=4.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE Gruppe 10 (purple): Final=931.9, Time=93.5, Moves(35)=4.4, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE LosTurcos (lawn green): Final=718.0, Time=93.6, Moves(35)=4.4, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE CybSec (gray0): Final=1180.1, Time=87.7, Moves(35)=4.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:20] MOVE 141: Robert (yellow) 83->85 [0.00ms]
+[2026-05-22 11:06:20] SCORE Robert (yellow): Final=2496.1, Time=88.1, Moves(36)=8.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:06:20] SCORE Gruppe 10 (purple): Final=931.9, Time=93.5, Moves(35)=4.4, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE LosTurcos (lawn green): Final=718.0, Time=93.6, Moves(35)=4.4, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:06:20] SCORE CybSec (gray0): Final=1180.1, Time=87.7, Moves(35)=4.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:20] ALL WRONG MOVES BY COLOUR: {}

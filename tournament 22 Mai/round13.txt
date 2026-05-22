@@ -1,0 +1,2 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R13G1,306e9631-ea2f-4902-b440-aee913776c32,Apollo,B,NA,NA,NA,NA,FINISHED,Apollo:red;B:blue,Apollo:345.4;B:378.6,Apollo:72.1;B:52.7,Apollo:226.0;B:226.0,Apollo:0.0;B:0.0,Apollo:47.4;B:99.8,Apollo:67;B:46,Apollo:0;B:21,None

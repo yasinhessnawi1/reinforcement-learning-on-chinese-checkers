@@ -1,0 +1,570 @@
+[2026-05-22 10:19:52] GAME CREATED
+[2026-05-22 10:20:00] PLAYER JOINED: Erlend Og Linor as yellow
+[2026-05-22 10:20:18] PLAYER JOINED: Hexagram as purple
+[2026-05-22 10:21:08] PLAYER START: Erlend Og Linor (yellow)
+[2026-05-22 10:21:08] PLAYER START: Hexagram (purple)
+[2026-05-22 10:21:08] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 10:21:08] MOVE 1: Erlend Og Linor (yellow) 46->47 [0.00ms]
+[2026-05-22 10:21:08] SCORE Erlend Og Linor (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Hexagram (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:08] MOVE 2: Hexagram (purple) 95->94 [0.01ms]
+[2026-05-22 10:21:08] SCORE Erlend Og Linor (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Hexagram (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:08] MOVE 3: Erlend Og Linor (yellow) 23->48 [0.01ms]
+[2026-05-22 10:21:08] SCORE Erlend Og Linor (yellow): Final=289.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Hexagram (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:08] MOVE 4: Hexagram (purple) 107->82 [0.01ms]
+[2026-05-22 10:21:08] SCORE Erlend Og Linor (yellow): Final=289.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:08] SCORE Hexagram (purple): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 5: Erlend Og Linor (yellow) 47->49 [0.01ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 6: Hexagram (purple) 85->81 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=293.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 7: Erlend Og Linor (yellow) 12->39 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=301.6, Time=99.6, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=293.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 8: Hexagram (purple) 74->70 [0.01ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=301.6, Time=99.6, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=301.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 9: Erlend Og Linor (yellow) 10->58 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=313.6, Time=99.6, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=301.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 10: Hexagram (purple) 81->60 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=313.6, Time=99.6, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=305.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 11: Erlend Og Linor (yellow) 35->37 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=317.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=305.3, Time=99.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 12: Hexagram (purple) 70->27 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=317.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=313.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 13: Erlend Og Linor (yellow) 36->40 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=325.4, Time=99.4, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=313.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:09] MOVE 14: Hexagram (purple) 27->70 [0.00ms]
+[2026-05-22 10:21:09] SCORE Erlend Og Linor (yellow): Final=325.4, Time=99.4, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:21:09] SCORE Hexagram (purple): Final=305.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 15: Erlend Og Linor (yellow) 58->68 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=327.3, Time=99.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=305.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 16: Hexagram (purple) 70->27 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=327.3, Time=99.3, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=313.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 17: Erlend Og Linor (yellow) 11->78 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=339.3, Time=99.3, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=313.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 18: Hexagram (purple) 27->70 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=339.3, Time=99.3, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=304.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 19: Erlend Og Linor (yellow) 13->14 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=341.2, Time=99.2, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=304.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 20: Hexagram (purple) 70->27 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=341.2, Time=99.2, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=312.8, Time=98.8, Moves(10)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 21: Erlend Og Linor (yellow) 25->26 [0.01ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=343.1, Time=99.1, Moves(11)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=312.8, Time=98.8, Moves(10)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 22: Hexagram (purple) 27->25 [0.01ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=343.1, Time=99.1, Moves(11)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=416.7, Time=98.7, Moves(11)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 23: Erlend Og Linor (yellow) 26->27 [0.01ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=345.0, Time=99.0, Moves(12)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=416.7, Time=98.7, Moves(11)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 24: Hexagram (purple) 25->23 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=345.0, Time=99.0, Moves(12)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=416.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 25: Erlend Og Linor (yellow) 27->28 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=346.9, Time=98.9, Moves(13)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=416.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:10] MOVE 26: Hexagram (purple) 23->10 [0.00ms]
+[2026-05-22 10:21:10] SCORE Erlend Og Linor (yellow): Final=346.9, Time=98.9, Moves(13)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:21:10] SCORE Hexagram (purple): Final=416.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 27: Erlend Og Linor (yellow) 28->51 [0.00ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=350.8, Time=98.8, Moves(14)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=416.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 28: Hexagram (purple) 60->50 [0.01ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=350.8, Time=98.8, Moves(14)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=418.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 29: Erlend Og Linor (yellow) 48->58 [0.02ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=352.8, Time=98.8, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=418.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 30: Hexagram (purple) 50->25 [0.01ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=352.8, Time=98.8, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=526.4, Time=98.4, Moves(15)=0.0, Pins(2)=200.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 31: Erlend Og Linor (yellow) 14->27 [0.00ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=354.7, Time=98.7, Moves(16)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=526.4, Time=98.4, Moves(15)=0.0, Pins(2)=200.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 32: Hexagram (purple) 25->23 [0.01ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=354.7, Time=98.7, Moves(16)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=526.3, Time=98.3, Moves(16)=0.0, Pins(2)=200.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 33: Erlend Og Linor (yellow) 27->28 [0.01ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=356.6, Time=98.6, Moves(17)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=526.3, Time=98.3, Moves(16)=0.0, Pins(2)=200.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 34: Hexagram (purple) 110->81 [0.00ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=356.6, Time=98.6, Moves(17)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=538.2, Time=98.2, Moves(17)=0.0, Pins(2)=200.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 35: Erlend Og Linor (yellow) 40->61 [0.00ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=360.5, Time=98.5, Moves(18)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=538.2, Time=98.2, Moves(17)=0.0, Pins(2)=200.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:11] MOVE 36: Hexagram (purple) 97->25 [0.01ms]
+[2026-05-22 10:21:11] SCORE Erlend Og Linor (yellow): Final=360.5, Time=98.5, Moves(18)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:21:11] SCORE Hexagram (purple): Final=662.1, Time=98.1, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 37: Erlend Og Linor (yellow) 24->26 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=364.4, Time=98.4, Moves(19)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=662.1, Time=98.1, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 38: Hexagram (purple) 25->12 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=364.4, Time=98.4, Moves(19)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=662.0, Time=98.0, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 39: Erlend Og Linor (yellow) 51->71 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=368.3, Time=98.3, Moves(20)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=662.0, Time=98.0, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 40: Hexagram (purple) 12->11 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=368.3, Time=98.3, Moves(20)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=661.9, Time=97.9, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 41: Erlend Og Linor (yellow) 58->59 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=370.2, Time=98.2, Moves(21)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=661.9, Time=97.9, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 42: Hexagram (purple) 81->58 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=370.2, Time=98.2, Moves(21)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=669.8, Time=97.8, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 43: Erlend Og Linor (yellow) 26->27 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=372.1, Time=98.1, Moves(22)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=669.8, Time=97.8, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 44: Hexagram (purple) 58->48 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=372.1, Time=98.1, Moves(22)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=671.7, Time=97.7, Moves(22)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 45: Erlend Og Linor (yellow) 27->50 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=376.1, Time=98.1, Moves(23)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=671.7, Time=97.7, Moves(22)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 46: Hexagram (purple) 48->25 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=376.1, Time=98.1, Moves(23)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=775.6, Time=97.6, Moves(23)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 47: Erlend Og Linor (yellow) 39->60 [0.00ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=380.0, Time=98.0, Moves(24)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=775.6, Time=97.6, Moves(23)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:12] MOVE 48: Hexagram (purple) 25->12 [0.01ms]
+[2026-05-22 10:21:12] SCORE Erlend Og Linor (yellow): Final=380.0, Time=98.0, Moves(24)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:12] SCORE Hexagram (purple): Final=775.5, Time=97.5, Moves(24)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 49: Erlend Og Linor (yellow) 28->39 [0.01ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=379.9, Time=97.9, Moves(25)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=775.5, Time=97.5, Moves(24)=0.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 50: Hexagram (purple) 108->62 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=379.9, Time=97.9, Moves(25)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=783.5, Time=97.5, Moves(25)=0.0, Pins(4)=400.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 51: Erlend Og Linor (yellow) 50->72 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=387.8, Time=97.8, Moves(26)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=783.5, Time=97.5, Moves(25)=0.0, Pins(4)=400.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 52: Hexagram (purple) 62->52 [0.01ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=387.8, Time=97.8, Moves(26)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=785.4, Time=97.4, Moves(26)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 53: Erlend Og Linor (yellow) 37->38 [0.01ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=389.7, Time=97.7, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=785.4, Time=97.4, Moves(26)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 54: Hexagram (purple) 52->50 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=389.7, Time=97.7, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.3, Time=97.3, Moves(27)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 55: Erlend Og Linor (yellow) 68->69 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=391.7, Time=97.6, Moves(28)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.3, Time=97.3, Moves(27)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 56: Hexagram (purple) 50->89 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=391.7, Time=97.6, Moves(28)=0.0, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.3, Time=97.2, Moves(28)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 57: Erlend Og Linor (yellow) 72->83 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=393.6, Time=97.6, Moves(29)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.3, Time=97.2, Moves(28)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 58: Hexagram (purple) 89->50 [0.00ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=393.6, Time=97.6, Moves(29)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.2, Time=97.1, Moves(29)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:13] MOVE 59: Erlend Og Linor (yellow) 38->40 [0.01ms]
+[2026-05-22 10:21:13] SCORE Erlend Og Linor (yellow): Final=397.6, Time=97.5, Moves(30)=0.1, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:13] SCORE Hexagram (purple): Final=789.2, Time=97.1, Moves(29)=0.0, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 60: Hexagram (purple) 50->89 [0.01ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=397.6, Time=97.5, Moves(30)=0.1, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=789.1, Time=97.0, Moves(30)=0.1, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 61: Erlend Og Linor (yellow) 40->50 [0.00ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=397.6, Time=97.4, Moves(31)=0.2, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=789.1, Time=97.0, Moves(30)=0.1, Pins(4)=400.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 62: Hexagram (purple) 89->77 [0.00ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=397.6, Time=97.4, Moves(31)=0.2, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=791.2, Time=96.9, Moves(31)=0.2, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 63: Erlend Og Linor (yellow) 50->97 [0.01ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=509.8, Time=97.3, Moves(32)=0.5, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=791.2, Time=96.9, Moves(31)=0.2, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 64: Hexagram (purple) 77->67 [0.01ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=509.8, Time=97.3, Moves(32)=0.5, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=791.3, Time=96.8, Moves(32)=0.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 65: Erlend Og Linor (yellow) 78->68 [0.00ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=510.3, Time=97.2, Moves(33)=1.1, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=791.3, Time=96.8, Moves(32)=0.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 66: Hexagram (purple) 67->57 [0.00ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=510.3, Time=97.2, Moves(33)=1.1, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=793.9, Time=96.8, Moves(33)=1.1, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 67: Erlend Og Linor (yellow) 97->110 [0.00ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=511.4, Time=97.1, Moves(34)=2.3, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=793.9, Time=96.8, Moves(33)=1.1, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 68: Hexagram (purple) 57->56 [0.01ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=511.4, Time=97.1, Moves(34)=2.3, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=796.9, Time=96.6, Moves(34)=2.3, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:14] MOVE 69: Erlend Og Linor (yellow) 49->50 [0.01ms]
+[2026-05-22 10:21:14] SCORE Erlend Og Linor (yellow): Final=515.3, Time=97.0, Moves(35)=4.4, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:14] SCORE Hexagram (purple): Final=796.9, Time=96.6, Moves(34)=2.3, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:21:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 70: Hexagram (purple) 56->46 [0.01ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=515.3, Time=97.0, Moves(35)=4.4, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=900.9, Time=96.5, Moves(35)=4.4, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 71: Erlend Og Linor (yellow) 39->49 [0.01ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=518.8, Time=96.9, Moves(36)=8.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=900.9, Time=96.5, Moves(35)=4.4, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 72: Hexagram (purple) 46->35 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=518.8, Time=96.9, Moves(36)=8.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=904.4, Time=96.5, Moves(36)=8.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 73: Erlend Og Linor (yellow) 50->97 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=636.3, Time=96.8, Moves(37)=13.5, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=904.4, Time=96.5, Moves(36)=8.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 74: Hexagram (purple) 82->81 [0.01ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=636.3, Time=96.8, Moves(37)=13.5, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=911.9, Time=96.4, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 75: Erlend Og Linor (yellow) 49->50 [0.01ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=646.3, Time=96.7, Moves(38)=21.6, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=911.9, Time=96.4, Moves(37)=13.5, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 76: Hexagram (purple) 84->80 [0.01ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=646.3, Time=96.7, Moves(38)=21.6, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=927.9, Time=96.3, Moves(38)=21.6, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 77: Erlend Og Linor (yellow) 50->72 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=665.1, Time=96.6, Moves(39)=32.5, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=927.9, Time=96.3, Moves(38)=21.6, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 78: Hexagram (purple) 81->58 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=665.1, Time=96.6, Moves(39)=32.5, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=946.7, Time=96.2, Moves(39)=32.5, Pins(5)=500.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 79: Erlend Og Linor (yellow) 59->50 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=678.3, Time=96.5, Moves(40)=45.8, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=946.7, Time=96.2, Moves(39)=32.5, Pins(5)=500.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:15] MOVE 80: Hexagram (purple) 58->48 [0.00ms]
+[2026-05-22 10:21:15] SCORE Erlend Og Linor (yellow): Final=678.3, Time=96.5, Moves(40)=45.8, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:15] SCORE Hexagram (purple): Final=961.9, Time=96.1, Moves(40)=45.8, Pins(5)=500.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 81: Erlend Og Linor (yellow) 50->70 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=697.1, Time=96.4, Moves(41)=60.7, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=961.9, Time=96.1, Moves(40)=45.8, Pins(5)=500.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 82: Hexagram (purple) 48->37 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=697.1, Time=96.4, Moves(41)=60.7, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=978.7, Time=96.0, Moves(41)=60.7, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 83: Erlend Og Linor (yellow) 68->59 [0.01ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=711.8, Time=96.3, Moves(42)=75.5, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=978.7, Time=96.0, Moves(41)=60.7, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 84: Hexagram (purple) 37->25 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=711.8, Time=96.3, Moves(42)=75.5, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1095.5, Time=96.0, Moves(42)=75.5, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 85: Erlend Og Linor (yellow) 59->50 [0.01ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=724.5, Time=96.2, Moves(43)=88.2, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1095.5, Time=96.0, Moves(42)=75.5, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 86: Hexagram (purple) 25->24 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=724.5, Time=96.2, Moves(43)=88.2, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1108.2, Time=95.9, Moves(43)=88.2, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 87: Erlend Og Linor (yellow) 72->82 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=733.1, Time=96.2, Moves(44)=96.9, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1108.2, Time=95.9, Moves(43)=88.2, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 88: Hexagram (purple) 80->40 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=733.1, Time=96.2, Moves(44)=96.9, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1120.7, Time=95.8, Moves(44)=96.9, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 89: Erlend Og Linor (yellow) 82->93 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=736.1, Time=96.1, Moves(45)=100.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1120.7, Time=95.8, Moves(44)=96.9, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 90: Hexagram (purple) 40->39 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=736.1, Time=96.1, Moves(45)=100.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1125.7, Time=95.7, Moves(45)=100.0, Pins(6)=600.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 91: Erlend Og Linor (yellow) 93->106 [0.00ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=737.9, Time=96.0, Moves(46)=99.8, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:16] SCORE Hexagram (purple): Final=1125.7, Time=95.7, Moves(45)=100.0, Pins(6)=600.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:21:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:16] MOVE 92: Hexagram (purple) 39->38 [0.01ms]
+[2026-05-22 10:21:16] SCORE Erlend Og Linor (yellow): Final=737.9, Time=96.0, Moves(46)=99.8, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1127.4, Time=95.6, Moves(46)=99.8, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 93: Erlend Og Linor (yellow) 69->80 [0.00ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=739.3, Time=95.9, Moves(47)=99.4, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1127.4, Time=95.6, Moves(46)=99.8, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 94: Hexagram (purple) 38->37 [0.00ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=739.3, Time=95.9, Moves(47)=99.4, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1128.9, Time=95.5, Moves(47)=99.4, Pins(6)=600.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 95: Erlend Og Linor (yellow) 80->92 [0.01ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=740.3, Time=95.7, Moves(48)=98.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1128.9, Time=95.5, Moves(47)=99.4, Pins(6)=600.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 96: Hexagram (purple) 37->36 [0.00ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=740.3, Time=95.7, Moves(48)=98.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1230.0, Time=95.4, Moves(48)=98.6, Pins(7)=700.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 97: Erlend Og Linor (yellow) 92->81 [0.00ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=739.2, Time=95.6, Moves(49)=97.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1230.0, Time=95.4, Moves(48)=98.6, Pins(7)=700.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:17] MOVE 98: Hexagram (purple) 109->80 [0.01ms]
+[2026-05-22 10:21:17] SCORE Erlend Og Linor (yellow): Final=739.2, Time=95.6, Moves(49)=97.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:17] SCORE Hexagram (purple): Final=1240.6, Time=95.0, Moves(49)=97.6, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 99: Erlend Og Linor (yellow) 61->109 [0.01ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=845.8, Time=95.5, Moves(50)=96.2, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1240.6, Time=95.0, Moves(49)=97.6, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 100: Hexagram (purple) 80->59 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=845.8, Time=95.5, Moves(50)=96.2, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.1, Time=94.9, Moves(50)=96.2, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 101: Erlend Og Linor (yellow) 81->93 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=846.1, Time=95.5, Moves(51)=94.6, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.1, Time=94.9, Moves(50)=96.2, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 102: Hexagram (purple) 59->49 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=846.1, Time=95.5, Moves(51)=94.6, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.4, Time=94.8, Moves(51)=94.6, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 103: Erlend Og Linor (yellow) 93->95 [0.01ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=948.1, Time=95.4, Moves(52)=92.7, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.4, Time=94.8, Moves(51)=94.6, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 104: Hexagram (purple) 49->48 [0.01ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=948.1, Time=95.4, Moves(52)=92.7, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.5, Time=94.7, Moves(52)=92.7, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 105: Erlend Og Linor (yellow) 97->85 [0.01ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=945.9, Time=95.3, Moves(53)=90.6, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.5, Time=94.7, Moves(52)=92.7, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 106: Hexagram (purple) 48->47 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=945.9, Time=95.3, Moves(53)=90.6, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.2, Time=94.6, Moves(53)=90.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 107: Erlend Og Linor (yellow) 50->51 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=945.4, Time=95.2, Moves(54)=88.2, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1243.2, Time=94.6, Moves(53)=90.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 108: Hexagram (purple) 47->46 [0.01ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=945.4, Time=95.2, Moves(54)=88.2, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1342.8, Time=94.6, Moves(54)=88.2, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:18] MOVE 109: Erlend Og Linor (yellow) 51->61 [0.00ms]
+[2026-05-22 10:21:18] SCORE Erlend Og Linor (yellow): Final=944.8, Time=95.1, Moves(55)=85.7, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:18] SCORE Hexagram (purple): Final=1342.8, Time=94.6, Moves(54)=88.2, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 110: Hexagram (purple) 94->73 [0.01ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=944.8, Time=95.1, Moves(55)=85.7, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1340.1, Time=94.4, Moves(55)=85.7, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 111: Erlend Og Linor (yellow) 95->107 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=942.0, Time=95.0, Moves(56)=83.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1340.1, Time=94.4, Moves(55)=85.7, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 112: Hexagram (purple) 73->72 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=942.0, Time=95.0, Moves(56)=83.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1339.3, Time=94.4, Moves(56)=83.0, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 113: Erlend Og Linor (yellow) 107->108 [0.01ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=938.9, Time=94.9, Moves(57)=80.1, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1339.3, Time=94.4, Moves(56)=83.0, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 114: Hexagram (purple) 72->63 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=938.9, Time=94.9, Moves(57)=80.1, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1336.3, Time=94.2, Moves(57)=80.1, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 115: Erlend Og Linor (yellow) 106->107 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=1037.8, Time=94.8, Moves(58)=77.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1336.3, Time=94.2, Moves(57)=80.1, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 116: Hexagram (purple) 63->53 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=1037.8, Time=94.8, Moves(58)=77.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1335.2, Time=94.2, Moves(58)=77.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 117: Erlend Og Linor (yellow) 61->84 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=1142.6, Time=94.7, Moves(59)=73.9, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1335.2, Time=94.2, Moves(58)=77.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 118: Hexagram (purple) 53->52 [0.00ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=1142.6, Time=94.7, Moves(59)=73.9, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1334.0, Time=94.1, Moves(59)=73.9, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:19] MOVE 119: Erlend Og Linor (yellow) 84->95 [0.01ms]
+[2026-05-22 10:21:19] SCORE Erlend Og Linor (yellow): Final=1139.2, Time=94.6, Moves(60)=70.7, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:19] SCORE Hexagram (purple): Final=1334.0, Time=94.1, Moves(59)=73.9, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:21:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 120: Hexagram (purple) 52->41 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1139.2, Time=94.6, Moves(60)=70.7, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1332.7, Time=94.0, Moves(60)=70.7, Pins(8)=800.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 121: Erlend Og Linor (yellow) 85->74 [0.01ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1135.9, Time=94.5, Moves(61)=67.4, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1332.7, Time=94.0, Moves(60)=70.7, Pins(8)=800.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 122: Hexagram (purple) 41->40 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1135.9, Time=94.5, Moves(61)=67.4, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1331.2, Time=93.9, Moves(61)=67.4, Pins(8)=800.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 123: Erlend Og Linor (yellow) 95->97 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1132.4, Time=94.4, Moves(62)=64.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1331.2, Time=93.9, Moves(61)=67.4, Pins(8)=800.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 124: Hexagram (purple) 40->28 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1132.4, Time=94.4, Moves(62)=64.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1329.9, Time=93.8, Moves(62)=64.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 125: Erlend Og Linor (yellow) 97->85 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1128.9, Time=94.3, Moves(63)=60.7, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1329.9, Time=93.8, Moves(62)=64.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 126: Hexagram (purple) 28->27 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1128.9, Time=94.3, Moves(63)=60.7, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1328.4, Time=93.7, Moves(63)=60.7, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 127: Erlend Og Linor (yellow) 60->61 [0.00ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1127.5, Time=94.2, Moves(64)=57.3, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1328.4, Time=93.7, Moves(63)=60.7, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 128: Hexagram (purple) 27->26 [0.01ms]
+[2026-05-22 10:21:20] SCORE Erlend Og Linor (yellow): Final=1127.5, Time=94.2, Moves(64)=57.3, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:21:20] SCORE Hexagram (purple): Final=1326.9, Time=93.6, Moves(64)=57.3, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:21:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:20] MOVE 129: Erlend Og Linor (yellow) 61->84 [0.01ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1232.1, Time=94.1, Moves(65)=53.9, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1326.9, Time=93.6, Moves(64)=57.3, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 130: Hexagram (purple) 26->25 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1232.1, Time=94.1, Moves(65)=53.9, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1425.4, Time=93.5, Moves(65)=53.9, Pins(9)=900.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 131: Erlend Og Linor (yellow) 70->97 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1336.7, Time=94.1, Moves(66)=50.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1425.4, Time=93.5, Moves(65)=53.9, Pins(9)=900.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 132: Hexagram (purple) 96->94 [0.01ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1336.7, Time=94.1, Moves(66)=50.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1426.0, Time=93.4, Moves(66)=50.6, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 133: Erlend Og Linor (yellow) 71->82 [0.01ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1335.4, Time=94.0, Moves(67)=47.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1426.0, Time=93.4, Moves(66)=50.6, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 134: Hexagram (purple) 94->71 [0.01ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1335.4, Time=94.0, Moves(67)=47.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1426.6, Time=93.3, Moves(67)=47.4, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 135: Erlend Og Linor (yellow) 83->95 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1434.1, Time=93.9, Moves(68)=44.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1426.6, Time=93.3, Moves(67)=47.4, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 136: Hexagram (purple) 71->70 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1434.1, Time=93.9, Moves(68)=44.2, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1425.4, Time=93.2, Moves(68)=44.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 137: Erlend Og Linor (yellow) 82->83 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1432.9, Time=93.8, Moves(69)=41.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1425.4, Time=93.2, Moves(68)=44.2, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 138: Hexagram (purple) 70->60 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1432.9, Time=93.8, Moves(69)=41.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1424.2, Time=93.1, Moves(69)=41.1, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:21] MOVE 139: Erlend Og Linor (yellow) 95->96 [0.00ms]
+[2026-05-22 10:21:21] SCORE Erlend Og Linor (yellow): Final=1429.8, Time=93.7, Moves(70)=38.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:21] SCORE Hexagram (purple): Final=1424.2, Time=93.1, Moves(69)=41.1, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:22] MOVE 140: Hexagram (purple) 60->50 [0.00ms]
+[2026-05-22 10:21:22] SCORE Erlend Og Linor (yellow): Final=1429.8, Time=93.7, Moves(70)=38.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:22] SCORE Hexagram (purple): Final=1423.1, Time=93.0, Moves(70)=38.1, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:21:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:22] MOVE 141: Erlend Og Linor (yellow) 83->95 [0.00ms]
+[2026-05-22 10:21:22] SCORE Erlend Og Linor (yellow): Final=2528.8, Time=93.6, Moves(71)=35.2, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:21:22] SCORE Hexagram (purple): Final=1423.1, Time=93.0, Moves(70)=38.1, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:21:22] ALL WRONG MOVES BY COLOUR: {}

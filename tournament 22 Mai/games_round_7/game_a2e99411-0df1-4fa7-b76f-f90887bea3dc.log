@@ -1,0 +1,354 @@
+[2026-05-22 10:47:51] GAME CREATED
+[2026-05-22 10:47:53] PLAYER JOINED: The bandits as yellow
+[2026-05-22 10:47:54] PLAYER JOINED: S&S as purple
+[2026-05-22 10:47:54] PLAYER START: The bandits (yellow)
+[2026-05-22 10:47:54] PLAYER START: S&S (purple)
+[2026-05-22 10:47:54] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 10:47:54] MOVE 1: The bandits (yellow) 13->26 [0.01ms]
+[2026-05-22 10:47:54] SCORE The bandits (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:47:54] SCORE S&S (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:47:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:55] MOVE 2: S&S (purple) 74->73 [0.01ms]
+[2026-05-22 10:47:55] SCORE The bandits (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:47:55] SCORE S&S (purple): Final=281.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:47:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:55] MOVE 3: The bandits (yellow) 11->38 [0.01ms]
+[2026-05-22 10:47:55] SCORE The bandits (yellow): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:47:55] SCORE S&S (purple): Final=281.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:47:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:56] MOVE 4: S&S (purple) 97->72 [0.01ms]
+[2026-05-22 10:47:56] SCORE The bandits (yellow): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:47:56] SCORE S&S (purple): Final=288.6, Time=98.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:47:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:56] MOVE 5: The bandits (yellow) 35->39 [0.00ms]
+[2026-05-22 10:47:56] SCORE The bandits (yellow): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:47:56] SCORE S&S (purple): Final=288.6, Time=98.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:47:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:56] MOVE 6: S&S (purple) 108->62 [0.01ms]
+[2026-05-22 10:47:56] SCORE The bandits (yellow): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:47:56] SCORE S&S (purple): Final=296.2, Time=98.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:47:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:57] MOVE 7: The bandits (yellow) 39->40 [0.00ms]
+[2026-05-22 10:47:57] SCORE The bandits (yellow): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:47:57] SCORE S&S (purple): Final=296.2, Time=98.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:47:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:57] MOVE 8: S&S (purple) 84->61 [0.00ms]
+[2026-05-22 10:47:57] SCORE The bandits (yellow): Final=299.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:47:57] SCORE S&S (purple): Final=303.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:47:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:57] MOVE 9: The bandits (yellow) 12->41 [0.01ms]
+[2026-05-22 10:47:57] SCORE The bandits (yellow): Final=310.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:47:57] SCORE S&S (purple): Final=303.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:47:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:58] MOVE 10: S&S (purple) 109->82 [0.00ms]
+[2026-05-22 10:47:58] SCORE The bandits (yellow): Final=310.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:47:58] SCORE S&S (purple): Final=311.1, Time=97.1, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:47:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:58] MOVE 11: The bandits (yellow) 10->39 [0.01ms]
+[2026-05-22 10:47:58] SCORE The bandits (yellow): Final=322.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:47:58] SCORE S&S (purple): Final=311.1, Time=97.1, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:47:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:59] MOVE 12: S&S (purple) 96->28 [0.01ms]
+[2026-05-22 10:47:59] SCORE The bandits (yellow): Final=322.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:47:59] SCORE S&S (purple): Final=326.6, Time=96.6, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:47:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:47:59] MOVE 13: The bandits (yellow) 25->52 [0.01ms]
+[2026-05-22 10:47:59] SCORE The bandits (yellow): Final=334.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:47:59] SCORE S&S (purple): Final=326.6, Time=96.6, Moves(6)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:47:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:00] MOVE 14: S&S (purple) 73->51 [0.01ms]
+[2026-05-22 10:48:00] SCORE The bandits (yellow): Final=334.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:48:00] SCORE S&S (purple): Final=334.0, Time=96.0, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:48:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:00] MOVE 15: The bandits (yellow) 23->50 [0.01ms]
+[2026-05-22 10:48:00] SCORE The bandits (yellow): Final=346.2, Time=98.2, Moves(8)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:48:00] SCORE S&S (purple): Final=334.0, Time=96.0, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:48:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:00] MOVE 16: S&S (purple) 82->71 [0.00ms]
+[2026-05-22 10:48:00] SCORE The bandits (yellow): Final=346.2, Time=98.2, Moves(8)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:48:00] SCORE S&S (purple): Final=335.5, Time=95.5, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:48:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:00] MOVE 17: The bandits (yellow) 24->47 [0.00ms]
+[2026-05-22 10:48:00] SCORE The bandits (yellow): Final=349.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:48:00] SCORE S&S (purple): Final=335.5, Time=95.5, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:48:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:01] MOVE 18: S&S (purple) 95->83 [0.01ms]
+[2026-05-22 10:48:01] SCORE The bandits (yellow): Final=349.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:48:01] SCORE S&S (purple): Final=337.0, Time=95.0, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:48:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:01] MOVE 19: The bandits (yellow) 46->29 [0.01ms]
+[2026-05-22 10:48:01] SCORE The bandits (yellow): Final=357.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:48:01] SCORE S&S (purple): Final=337.0, Time=95.0, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:48:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:02] MOVE 20: S&S (purple) 62->60 [0.00ms]
+[2026-05-22 10:48:02] SCORE The bandits (yellow): Final=357.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:48:02] SCORE S&S (purple): Final=340.4, Time=94.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:48:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:02] MOVE 21: The bandits (yellow) 36->57 [0.00ms]
+[2026-05-22 10:48:02] SCORE The bandits (yellow): Final=361.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:48:02] SCORE S&S (purple): Final=340.4, Time=94.4, Moves(10)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:48:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:03] MOVE 22: S&S (purple) 51->49 [0.01ms]
+[2026-05-22 10:48:03] SCORE The bandits (yellow): Final=361.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:48:03] SCORE S&S (purple): Final=343.9, Time=93.9, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:48:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:03] MOVE 23: The bandits (yellow) 47->67 [0.01ms]
+[2026-05-22 10:48:03] SCORE The bandits (yellow): Final=365.1, Time=97.1, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:48:03] SCORE S&S (purple): Final=343.9, Time=93.9, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:48:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:03] MOVE 24: S&S (purple) 71->30 [0.00ms]
+[2026-05-22 10:48:03] SCORE The bandits (yellow): Final=365.1, Time=97.1, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:48:03] SCORE S&S (purple): Final=347.3, Time=93.3, Moves(12)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:48:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:04] MOVE 25: The bandits (yellow) 38->59 [0.01ms]
+[2026-05-22 10:48:04] SCORE The bandits (yellow): Final=368.9, Time=96.9, Moves(13)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:48:04] SCORE S&S (purple): Final=347.3, Time=93.3, Moves(12)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:48:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:04] MOVE 26: S&S (purple) 60->56 [0.01ms]
+[2026-05-22 10:48:04] SCORE The bandits (yellow): Final=368.9, Time=96.9, Moves(13)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:48:04] SCORE S&S (purple): Final=354.7, Time=92.7, Moves(13)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:48:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:04] MOVE 27: The bandits (yellow) 57->58 [0.01ms]
+[2026-05-22 10:48:04] SCORE The bandits (yellow): Final=370.7, Time=96.7, Moves(14)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:48:04] SCORE S&S (purple): Final=354.7, Time=92.7, Moves(13)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:48:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:05] MOVE 28: S&S (purple) 56->46 [0.00ms]
+[2026-05-22 10:48:05] SCORE The bandits (yellow): Final=370.7, Time=96.7, Moves(14)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:48:05] SCORE S&S (purple): Final=456.2, Time=92.2, Moves(14)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:48:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:05] MOVE 29: The bandits (yellow) 58->62 [0.00ms]
+[2026-05-22 10:48:05] SCORE The bandits (yellow): Final=378.5, Time=96.5, Moves(15)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:48:05] SCORE S&S (purple): Final=456.2, Time=92.2, Moves(14)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:48:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:06] MOVE 30: S&S (purple) 61->17 [0.00ms]
+[2026-05-22 10:48:06] SCORE The bandits (yellow): Final=378.5, Time=96.5, Moves(15)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:48:06] SCORE S&S (purple): Final=459.8, Time=91.8, Moves(15)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:48:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:06] MOVE 31: The bandits (yellow) 40->84 [0.00ms]
+[2026-05-22 10:48:06] SCORE The bandits (yellow): Final=490.4, Time=96.4, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:48:06] SCORE S&S (purple): Final=459.8, Time=91.8, Moves(15)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:48:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:06] MOVE 32: S&S (purple) 17->13 [0.00ms]
+[2026-05-22 10:48:06] SCORE The bandits (yellow): Final=490.4, Time=96.4, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:48:06] SCORE S&S (purple): Final=567.3, Time=91.3, Moves(16)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:06] MOVE 33: The bandits (yellow) 26->38 [0.00ms]
+[2026-05-22 10:48:06] SCORE The bandits (yellow): Final=492.1, Time=96.1, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:48:06] SCORE S&S (purple): Final=567.3, Time=91.3, Moves(16)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:07] MOVE 34: S&S (purple) 13->12 [0.00ms]
+[2026-05-22 10:48:07] SCORE The bandits (yellow): Final=492.1, Time=96.1, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:48:07] SCORE S&S (purple): Final=566.9, Time=90.9, Moves(17)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:07] MOVE 35: The bandits (yellow) 38->63 [0.00ms]
+[2026-05-22 10:48:07] SCORE The bandits (yellow): Final=503.7, Time=95.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:48:07] SCORE S&S (purple): Final=566.9, Time=90.9, Moves(17)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:08] MOVE 36: S&S (purple) 12->11 [0.00ms]
+[2026-05-22 10:48:08] SCORE The bandits (yellow): Final=503.7, Time=95.7, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:48:08] SCORE S&S (purple): Final=566.6, Time=90.6, Moves(18)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:08] MOVE 37: The bandits (yellow) 39->60 [0.00ms]
+[2026-05-22 10:48:08] SCORE The bandits (yellow): Final=507.6, Time=95.6, Moves(19)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:48:08] SCORE S&S (purple): Final=566.6, Time=90.6, Moves(18)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:48:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:08] MOVE 38: S&S (purple) 49->38 [0.00ms]
+[2026-05-22 10:48:08] SCORE The bandits (yellow): Final=507.6, Time=95.6, Moves(19)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:48:08] SCORE S&S (purple): Final=568.2, Time=90.2, Moves(19)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:48:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:08] MOVE 39: The bandits (yellow) 67->68 [0.00ms]
+[2026-05-22 10:48:08] SCORE The bandits (yellow): Final=509.2, Time=95.2, Moves(20)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:48:08] SCORE S&S (purple): Final=568.2, Time=90.2, Moves(19)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:48:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:09] MOVE 40: S&S (purple) 30->67 [0.00ms]
+[2026-05-22 10:48:09] SCORE The bandits (yellow): Final=509.2, Time=95.2, Moves(20)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:48:09] SCORE S&S (purple): Final=571.9, Time=89.9, Moves(20)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:48:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:09] MOVE 41: The bandits (yellow) 68->69 [0.00ms]
+[2026-05-22 10:48:09] SCORE The bandits (yellow): Final=510.9, Time=94.9, Moves(21)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:48:09] SCORE S&S (purple): Final=571.9, Time=89.9, Moves(20)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:48:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:10] MOVE 42: S&S (purple) 107->106 [0.00ms]
+[2026-05-22 10:48:10] SCORE The bandits (yellow): Final=510.9, Time=94.9, Moves(21)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:48:10] SCORE S&S (purple): Final=573.5, Time=89.5, Moves(21)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:48:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:10] MOVE 43: The bandits (yellow) 69->96 [0.00ms]
+[2026-05-22 10:48:10] SCORE The bandits (yellow): Final=620.5, Time=94.5, Moves(22)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:48:10] SCORE S&S (purple): Final=573.5, Time=89.5, Moves(21)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:48:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:10] MOVE 44: S&S (purple) 106->93 [0.00ms]
+[2026-05-22 10:48:10] SCORE The bandits (yellow): Final=620.5, Time=94.5, Moves(22)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:48:10] SCORE S&S (purple): Final=575.0, Time=89.0, Moves(22)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:48:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:11] MOVE 45: The bandits (yellow) 59->42 [0.00ms]
+[2026-05-22 10:48:11] SCORE The bandits (yellow): Final=624.2, Time=94.2, Moves(23)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:48:11] SCORE S&S (purple): Final=575.0, Time=89.0, Moves(22)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:48:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:11] MOVE 46: S&S (purple) 28->27 [0.00ms]
+[2026-05-22 10:48:11] SCORE The bandits (yellow): Final=624.2, Time=94.2, Moves(23)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:48:11] SCORE S&S (purple): Final=576.5, Time=88.5, Moves(23)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:48:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:11] MOVE 47: The bandits (yellow) 50->70 [0.00ms]
+[2026-05-22 10:48:11] SCORE The bandits (yellow): Final=628.0, Time=94.0, Moves(24)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:48:12] SCORE S&S (purple): Final=576.5, Time=88.5, Moves(23)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:48:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:12] MOVE 48: S&S (purple) 46->35 [0.01ms]
+[2026-05-22 10:48:12] SCORE The bandits (yellow): Final=628.0, Time=94.0, Moves(24)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:48:12] SCORE S&S (purple): Final=575.9, Time=87.9, Moves(24)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:48:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:12] MOVE 49: The bandits (yellow) 60->106 [0.00ms]
+[2026-05-22 10:48:12] SCORE The bandits (yellow): Final=635.8, Time=93.8, Moves(25)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:48:12] SCORE S&S (purple): Final=575.9, Time=87.9, Moves(24)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:48:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:13] MOVE 50: S&S (purple) 38->26 [0.00ms]
+[2026-05-22 10:48:13] SCORE The bandits (yellow): Final=635.8, Time=93.8, Moves(25)=0.0, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:48:13] SCORE S&S (purple): Final=577.4, Time=87.4, Moves(25)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:48:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:13] MOVE 51: The bandits (yellow) 106->107 [0.01ms]
+[2026-05-22 10:48:13] SCORE The bandits (yellow): Final=737.5, Time=93.5, Moves(26)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:48:13] SCORE S&S (purple): Final=577.4, Time=87.4, Moves(25)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:48:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:13] MOVE 52: S&S (purple) 27->25 [0.00ms]
+[2026-05-22 10:48:13] SCORE The bandits (yellow): Final=737.5, Time=93.5, Moves(26)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:48:13] SCORE S&S (purple): Final=681.0, Time=87.0, Moves(26)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:48:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:14] MOVE 53: The bandits (yellow) 29->30 [0.00ms]
+[2026-05-22 10:48:14] SCORE The bandits (yellow): Final=739.2, Time=93.2, Moves(27)=0.0, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:48:14] SCORE S&S (purple): Final=681.0, Time=87.0, Moves(26)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:48:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:14] MOVE 54: S&S (purple) 26->24 [0.00ms]
+[2026-05-22 10:48:14] SCORE The bandits (yellow): Final=739.2, Time=93.2, Moves(27)=0.0, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:48:14] SCORE S&S (purple): Final=782.5, Time=86.5, Moves(27)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:48:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:14] MOVE 55: The bandits (yellow) 30->73 [0.00ms]
+[2026-05-22 10:48:14] SCORE The bandits (yellow): Final=746.9, Time=92.9, Moves(28)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:48:15] SCORE S&S (purple): Final=782.5, Time=86.5, Moves(27)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:48:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:15] MOVE 56: S&S (purple) 85->60 [0.00ms]
+[2026-05-22 10:48:15] SCORE The bandits (yellow): Final=746.9, Time=92.9, Moves(28)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:48:15] SCORE S&S (purple): Final=794.0, Time=86.0, Moves(28)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:48:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:15] MOVE 57: The bandits (yellow) 73->74 [0.01ms]
+[2026-05-22 10:48:15] SCORE The bandits (yellow): Final=848.7, Time=92.7, Moves(29)=0.0, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:48:15] SCORE S&S (purple): Final=794.0, Time=86.0, Moves(28)=0.0, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:48:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:16] MOVE 58: S&S (purple) 110->97 [0.00ms]
+[2026-05-22 10:48:16] SCORE The bandits (yellow): Final=848.7, Time=92.7, Moves(29)=0.0, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:48:16] SCORE S&S (purple): Final=795.5, Time=85.5, Moves(29)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:48:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:16] MOVE 59: The bandits (yellow) 62->110 [0.00ms]
+[2026-05-22 10:48:16] SCORE The bandits (yellow): Final=954.5, Time=92.4, Moves(30)=0.1, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:48:16] SCORE S&S (purple): Final=795.5, Time=85.5, Moves(29)=0.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:48:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:16] MOVE 60: S&S (purple) 83->62 [0.01ms]
+[2026-05-22 10:48:16] SCORE The bandits (yellow): Final=954.5, Time=92.4, Moves(30)=0.1, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:48:16] SCORE S&S (purple): Final=799.2, Time=85.1, Moves(30)=0.1, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:48:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:17] MOVE 61: The bandits (yellow) 96->109 [0.00ms]
+[2026-05-22 10:48:17] SCORE The bandits (yellow): Final=954.2, Time=92.0, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:48:17] SCORE S&S (purple): Final=799.2, Time=85.1, Moves(30)=0.1, Pins(4)=400.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:48:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:17] MOVE 62: S&S (purple) 60->50 [0.00ms]
+[2026-05-22 10:48:17] SCORE The bandits (yellow): Final=954.2, Time=92.0, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:48:17] SCORE S&S (purple): Final=800.9, Time=84.7, Moves(31)=0.2, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:48:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:18] MOVE 63: The bandits (yellow) 42->53 [0.01ms]
+[2026-05-22 10:48:18] SCORE The bandits (yellow): Final=956.1, Time=91.6, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:48:18] SCORE S&S (purple): Final=800.9, Time=84.7, Moves(31)=0.2, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:48:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:18] MOVE 64: S&S (purple) 97->85 [0.00ms]
+[2026-05-22 10:48:18] SCORE The bandits (yellow): Final=956.1, Time=91.6, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:48:18] SCORE S&S (purple): Final=802.8, Time=84.3, Moves(32)=0.5, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:48:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:18] MOVE 65: The bandits (yellow) 53->96 [0.00ms]
+[2026-05-22 10:48:18] SCORE The bandits (yellow): Final=1062.6, Time=91.5, Moves(33)=1.1, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:18] SCORE S&S (purple): Final=802.8, Time=84.3, Moves(32)=0.5, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:48:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:19] MOVE 66: S&S (purple) 85->39 [0.00ms]
+[2026-05-22 10:48:19] SCORE The bandits (yellow): Final=1062.6, Time=91.5, Moves(33)=1.1, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:19] SCORE S&S (purple): Final=819.0, Time=83.9, Moves(33)=1.1, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:48:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:19] MOVE 67: The bandits (yellow) 96->97 [0.00ms]
+[2026-05-22 10:48:19] SCORE The bandits (yellow): Final=1063.3, Time=91.1, Moves(34)=2.3, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:19] SCORE S&S (purple): Final=819.0, Time=83.9, Moves(33)=1.1, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:48:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:19] MOVE 68: S&S (purple) 50->27 [0.00ms]
+[2026-05-22 10:48:19] SCORE The bandits (yellow): Final=1063.3, Time=91.1, Moves(34)=2.3, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:19] SCORE S&S (purple): Final=823.7, Time=83.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:48:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:20] MOVE 69: The bandits (yellow) 70->71 [0.00ms]
+[2026-05-22 10:48:20] SCORE The bandits (yellow): Final=1067.1, Time=90.8, Moves(35)=4.4, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:20] SCORE S&S (purple): Final=823.7, Time=83.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:48:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:20] MOVE 70: S&S (purple) 72->70 [0.00ms]
+[2026-05-22 10:48:20] SCORE The bandits (yellow): Final=1067.1, Time=90.8, Moves(35)=4.4, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:20] SCORE S&S (purple): Final=829.5, Time=83.1, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:48:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:21] MOVE 71: The bandits (yellow) 84->95 [0.00ms]
+[2026-05-22 10:48:21] SCORE The bandits (yellow): Final=1070.4, Time=90.4, Moves(36)=8.0, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:21] SCORE S&S (purple): Final=829.5, Time=83.1, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:48:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:21] MOVE 72: S&S (purple) 62->60 [0.00ms]
+[2026-05-22 10:48:21] SCORE The bandits (yellow): Final=1070.4, Time=90.4, Moves(36)=8.0, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:21] SCORE S&S (purple): Final=836.6, Time=82.6, Moves(36)=8.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:48:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:21] MOVE 73: The bandits (yellow) 41->108 [0.01ms]
+[2026-05-22 10:48:21] SCORE The bandits (yellow): Final=1185.6, Time=90.1, Moves(37)=13.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:48:21] SCORE S&S (purple): Final=836.6, Time=82.6, Moves(36)=8.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:48:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:22] MOVE 74: S&S (purple) 70->50 [0.00ms]
+[2026-05-22 10:48:22] SCORE The bandits (yellow): Final=1185.6, Time=90.1, Moves(37)=13.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:48:22] SCORE S&S (purple): Final=845.6, Time=82.1, Moves(37)=13.5, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:48:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:22] MOVE 75: The bandits (yellow) 63->73 [0.00ms]
+[2026-05-22 10:48:22] SCORE The bandits (yellow): Final=1195.5, Time=89.8, Moves(38)=21.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:48:22] SCORE S&S (purple): Final=845.6, Time=82.1, Moves(37)=13.5, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:48:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:23] MOVE 76: S&S (purple) 39->14 [0.01ms]
+[2026-05-22 10:48:23] SCORE The bandits (yellow): Final=1195.5, Time=89.8, Moves(38)=21.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:48:23] SCORE S&S (purple): Final=857.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:48:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:23] MOVE 77: The bandits (yellow) 73->84 [0.01ms]
+[2026-05-22 10:48:23] SCORE The bandits (yellow): Final=1308.1, Time=89.6, Moves(39)=32.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:48:23] SCORE S&S (purple): Final=857.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:48:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:23] MOVE 78: S&S (purple) 14->13 [0.01ms]
+[2026-05-22 10:48:23] SCORE The bandits (yellow): Final=1308.1, Time=89.6, Moves(39)=32.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:48:23] SCORE S&S (purple): Final=969.4, Time=81.0, Moves(39)=32.5, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:48:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:24] MOVE 79: The bandits (yellow) 71->72 [0.00ms]
+[2026-05-22 10:48:24] SCORE The bandits (yellow): Final=1323.2, Time=89.4, Moves(40)=45.8, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:48:24] SCORE S&S (purple): Final=969.4, Time=81.0, Moves(39)=32.5, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:48:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:24] MOVE 80: S&S (purple) 60->10 [0.00ms]
+[2026-05-22 10:48:24] SCORE The bandits (yellow): Final=1323.2, Time=89.4, Moves(40)=45.8, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:48:24] SCORE S&S (purple): Final=1092.2, Time=80.4, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:48:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:24] MOVE 81: The bandits (yellow) 52->62 [0.00ms]
+[2026-05-22 10:48:24] SCORE The bandits (yellow): Final=1339.7, Time=89.1, Moves(41)=60.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:48:24] SCORE S&S (purple): Final=1092.2, Time=80.4, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:48:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:25] MOVE 82: S&S (purple) 50->49 [0.01ms]
+[2026-05-22 10:48:25] SCORE The bandits (yellow): Final=1339.7, Time=89.1, Moves(41)=60.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:48:25] SCORE S&S (purple): Final=1108.5, Time=79.9, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:48:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:25] MOVE 83: The bandits (yellow) 62->85 [0.01ms]
+[2026-05-22 10:48:25] SCORE The bandits (yellow): Final=1460.3, Time=88.8, Moves(42)=75.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:48:25] SCORE S&S (purple): Final=1108.5, Time=79.9, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:48:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:26] MOVE 84: S&S (purple) 49->38 [0.00ms]
+[2026-05-22 10:48:26] SCORE The bandits (yellow): Final=1460.3, Time=88.8, Moves(42)=75.5, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:48:26] SCORE S&S (purple): Final=1124.8, Time=79.3, Moves(42)=75.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:26] MOVE 85: The bandits (yellow) 72->73 [0.00ms]
+[2026-05-22 10:48:26] SCORE The bandits (yellow): Final=1474.9, Time=88.6, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:48:26] SCORE S&S (purple): Final=1124.8, Time=79.3, Moves(42)=75.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:48:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:27] MOVE 86: S&S (purple) 27->14 [0.01ms]
+[2026-05-22 10:48:27] SCORE The bandits (yellow): Final=1474.9, Time=88.6, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:48:27] SCORE S&S (purple): Final=1139.0, Time=78.8, Moves(43)=88.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:48:27] MOVE 87: The bandits (yellow) 73->96 [0.00ms]
+[2026-05-22 10:48:27] SCORE The bandits (yellow): Final=2585.3, Time=88.4, Moves(44)=96.9, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:48:27] SCORE S&S (purple): Final=1139.0, Time=78.8, Moves(43)=88.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:48:27] ALL WRONG MOVES BY COLOUR: {}

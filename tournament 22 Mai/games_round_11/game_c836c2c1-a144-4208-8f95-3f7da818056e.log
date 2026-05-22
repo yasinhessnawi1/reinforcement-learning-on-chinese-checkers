@@ -1,0 +1,828 @@
+[2026-05-22 11:18:50] GAME CREATED
+[2026-05-22 11:18:50] PLAYER JOINED: group 99 as yellow
+[2026-05-22 11:18:55] PLAYER JOINED: Group 16 as purple
+[2026-05-22 11:18:55] PLAYER START: group 99 (yellow)
+[2026-05-22 11:18:55] PLAYER START: Group 16 (purple)
+[2026-05-22 11:18:55] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 11:18:55] PLAYER START: group 99 (yellow)
+[2026-05-22 11:18:55] PLAYER START: Group 16 (purple)
+[2026-05-22 11:18:56] MOVE 1: group 99 (yellow) 25->26 [0.02ms]
+[2026-05-22 11:18:56] SCORE group 99 (yellow): Final=280.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:18:56] SCORE Group 16 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:18:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:18:56] MOVE 2: Group 16 (purple) 74->73 [0.03ms]
+[2026-05-22 11:18:56] SCORE group 99 (yellow): Final=280.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:18:56] SCORE Group 16 (purple): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:18:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:18:57] MOVE 3: group 99 (yellow) 23->27 [0.01ms]
+[2026-05-22 11:18:57] SCORE group 99 (yellow): Final=287.6, Time=97.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:18:57] SCORE Group 16 (purple): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:18:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:18:57] MOVE 4: Group 16 (purple) 108->64 [0.01ms]
+[2026-05-22 11:18:57] SCORE group 99 (yellow): Final=287.6, Time=97.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:18:57] SCORE Group 16 (purple): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:18:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:18:59] MOVE 5: group 99 (yellow) 12->39 [0.01ms]
+[2026-05-22 11:18:59] SCORE group 99 (yellow): Final=294.3, Time=96.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:18:59] SCORE Group 16 (purple): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:18:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:18:59] MOVE 6: Group 16 (purple) 84->74 [0.01ms]
+[2026-05-22 11:18:59] SCORE group 99 (yellow): Final=294.3, Time=96.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:18:59] SCORE Group 16 (purple): Final=285.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:18:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:00] MOVE 7: group 99 (yellow) 10->37 [0.01ms]
+[2026-05-22 11:19:00] SCORE group 99 (yellow): Final=301.2, Time=95.2, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:00] SCORE Group 16 (purple): Final=285.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:19:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:00] MOVE 8: Group 16 (purple) 74->72 [0.01ms]
+[2026-05-22 11:19:00] SCORE group 99 (yellow): Final=301.2, Time=95.2, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:00] SCORE Group 16 (purple): Final=289.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:01] MOVE 9: group 99 (yellow) 13->40 [0.01ms]
+[2026-05-22 11:19:01] SCORE group 99 (yellow): Final=307.9, Time=93.9, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:01] SCORE Group 16 (purple): Final=289.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:01] MOVE 10: Group 16 (purple) 97->54 [0.01ms]
+[2026-05-22 11:19:01] SCORE group 99 (yellow): Final=307.9, Time=93.9, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:01] SCORE Group 16 (purple): Final=297.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:19:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:03] MOVE 11: group 99 (yellow) 26->51 [0.01ms]
+[2026-05-22 11:19:03] SCORE group 99 (yellow): Final=314.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:03] SCORE Group 16 (purple): Final=297.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:19:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:03] MOVE 12: Group 16 (purple) 110->97 [0.01ms]
+[2026-05-22 11:19:03] SCORE group 99 (yellow): Final=314.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:03] SCORE Group 16 (purple): Final=299.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:19:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:04] MOVE 13: group 99 (yellow) 24->49 [0.01ms]
+[2026-05-22 11:19:04] SCORE group 99 (yellow): Final=321.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:19:04] SCORE Group 16 (purple): Final=299.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:19:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:04] MOVE 14: Group 16 (purple) 109->82 [0.01ms]
+[2026-05-22 11:19:04] SCORE group 99 (yellow): Final=321.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:19:04] SCORE Group 16 (purple): Final=307.3, Time=99.3, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:19:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:05] MOVE 15: group 99 (yellow) 46->52 [0.00ms]
+[2026-05-22 11:19:05] SCORE group 99 (yellow): Final=332.2, Time=90.2, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:19:05] SCORE Group 16 (purple): Final=307.3, Time=99.3, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:19:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:05] MOVE 16: Group 16 (purple) 107->63 [0.01ms]
+[2026-05-22 11:19:05] SCORE group 99 (yellow): Final=332.2, Time=90.2, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:19:05] SCORE Group 16 (purple): Final=311.2, Time=99.2, Moves(8)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:19:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:06] MOVE 17: group 99 (yellow) 39->108 [0.01ms]
+[2026-05-22 11:19:06] SCORE group 99 (yellow): Final=445.1, Time=89.1, Moves(9)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:19:06] SCORE Group 16 (purple): Final=311.2, Time=99.2, Moves(8)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:19:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:07] MOVE 18: Group 16 (purple) 95->83 [0.01ms]
+[2026-05-22 11:19:07] SCORE group 99 (yellow): Final=445.1, Time=89.1, Moves(9)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:19:07] SCORE Group 16 (purple): Final=313.1, Time=99.1, Moves(9)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:08] MOVE 19: group 99 (yellow) 51->55 [0.01ms]
+[2026-05-22 11:19:08] SCORE group 99 (yellow): Final=449.9, Time=87.9, Moves(10)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:08] SCORE Group 16 (purple): Final=313.1, Time=99.1, Moves(9)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:08] MOVE 20: Group 16 (purple) 97->95 [0.01ms]
+[2026-05-22 11:19:08] SCORE group 99 (yellow): Final=449.9, Time=87.9, Moves(10)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:08] SCORE Group 16 (purple): Final=317.0, Time=99.0, Moves(10)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:19:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:09] MOVE 21: group 99 (yellow) 36->59 [0.01ms]
+[2026-05-22 11:19:09] SCORE group 99 (yellow): Final=456.7, Time=86.7, Moves(11)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:19:09] SCORE Group 16 (purple): Final=317.0, Time=99.0, Moves(10)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:19:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:09] MOVE 22: Group 16 (purple) 95->94 [0.01ms]
+[2026-05-22 11:19:09] SCORE group 99 (yellow): Final=456.7, Time=86.7, Moves(11)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:19:09] SCORE Group 16 (purple): Final=319.0, Time=99.0, Moves(11)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:19:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:10] MOVE 23: group 99 (yellow) 49->69 [0.00ms]
+[2026-05-22 11:19:10] SCORE group 99 (yellow): Final=459.5, Time=85.5, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:19:10] SCORE Group 16 (purple): Final=319.0, Time=99.0, Moves(11)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:19:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:10] MOVE 24: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:19:10] SCORE group 99 (yellow): Final=459.5, Time=85.5, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:19:10] SCORE Group 16 (purple): Final=320.9, Time=98.9, Moves(12)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:12] MOVE 25: group 99 (yellow) 69->80 [0.01ms]
+[2026-05-22 11:19:12] SCORE group 99 (yellow): Final=460.4, Time=84.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:19:12] SCORE Group 16 (purple): Final=320.9, Time=98.9, Moves(12)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:12] MOVE 26: Group 16 (purple) 95->93 [0.01ms]
+[2026-05-22 11:19:12] SCORE group 99 (yellow): Final=460.4, Time=84.4, Moves(13)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:19:12] SCORE Group 16 (purple): Final=324.7, Time=98.7, Moves(13)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:13] MOVE 27: group 99 (yellow) 80->81 [0.01ms]
+[2026-05-22 11:19:13] SCORE group 99 (yellow): Final=461.3, Time=83.3, Moves(14)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:19:13] SCORE Group 16 (purple): Final=324.7, Time=98.7, Moves(13)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:13] MOVE 28: Group 16 (purple) 85->96 [0.01ms]
+[2026-05-22 11:19:13] SCORE group 99 (yellow): Final=461.3, Time=83.3, Moves(14)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:19:13] SCORE Group 16 (purple): Final=324.7, Time=98.7, Moves(14)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:14] MOVE 29: group 99 (yellow) 81->106 [0.01ms]
+[2026-05-22 11:19:14] SCORE group 99 (yellow): Final=464.0, Time=82.0, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:19:14] SCORE Group 16 (purple): Final=324.7, Time=98.7, Moves(14)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:14] MOVE 30: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:19:14] SCORE group 99 (yellow): Final=464.0, Time=82.0, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:19:14] SCORE Group 16 (purple): Final=326.6, Time=98.6, Moves(15)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:15] MOVE 31: group 99 (yellow) 106->107 [0.01ms]
+[2026-05-22 11:19:15] SCORE group 99 (yellow): Final=564.8, Time=80.8, Moves(16)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:15] SCORE Group 16 (purple): Final=326.6, Time=98.6, Moves(15)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:16] MOVE 32: Group 16 (purple) 95->84 [0.01ms]
+[2026-05-22 11:19:16] SCORE group 99 (yellow): Final=564.8, Time=80.8, Moves(16)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:16] SCORE Group 16 (purple): Final=326.5, Time=98.5, Moves(16)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:17] MOVE 33: group 99 (yellow) 27->38 [0.01ms]
+[2026-05-22 11:19:17] SCORE group 99 (yellow): Final=563.6, Time=79.6, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:17] SCORE Group 16 (purple): Final=326.5, Time=98.5, Moves(16)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:18] MOVE 34: Group 16 (purple) 84->74 [0.01ms]
+[2026-05-22 11:19:18] SCORE group 99 (yellow): Final=563.6, Time=79.6, Moves(17)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:18] SCORE Group 16 (purple): Final=325.3, Time=97.3, Moves(17)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:19] MOVE 35: group 99 (yellow) 37->62 [0.01ms]
+[2026-05-22 11:19:19] SCORE group 99 (yellow): Final=574.2, Time=78.2, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:19:19] SCORE Group 16 (purple): Final=325.3, Time=97.3, Moves(17)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:19] MOVE 36: Group 16 (purple) 74->85 [0.01ms]
+[2026-05-22 11:19:19] SCORE group 99 (yellow): Final=574.2, Time=78.2, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:19:19] SCORE Group 16 (purple): Final=323.2, Time=97.2, Moves(18)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:21] MOVE 37: group 99 (yellow) 11->12 [0.01ms]
+[2026-05-22 11:19:21] SCORE group 99 (yellow): Final=575.0, Time=77.0, Moves(19)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:19:21] SCORE Group 16 (purple): Final=323.2, Time=97.2, Moves(18)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:21] MOVE 38: Group 16 (purple) 85->97 [0.01ms]
+[2026-05-22 11:19:21] SCORE group 99 (yellow): Final=575.0, Time=77.0, Moves(19)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:19:21] SCORE Group 16 (purple): Final=320.9, Time=96.9, Moves(19)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:22] MOVE 39: group 99 (yellow) 12->25 [0.01ms]
+[2026-05-22 11:19:22] SCORE group 99 (yellow): Final=575.8, Time=75.8, Moves(20)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:19:22] SCORE Group 16 (purple): Final=320.9, Time=96.9, Moves(19)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:23] MOVE 40: Group 16 (purple) 97->110 [0.01ms]
+[2026-05-22 11:19:23] SCORE group 99 (yellow): Final=575.8, Time=75.8, Moves(20)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:19:23] SCORE Group 16 (purple): Final=318.5, Time=96.5, Moves(20)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:24] MOVE 41: group 99 (yellow) 35->46 [0.02ms]
+[2026-05-22 11:19:24] SCORE group 99 (yellow): Final=576.7, Time=74.7, Moves(21)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:19:24] SCORE Group 16 (purple): Final=318.5, Time=96.5, Moves(20)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:24] MOVE 42: Group 16 (purple) 110->109 [0.01ms]
+[2026-05-22 11:19:24] SCORE group 99 (yellow): Final=576.7, Time=74.7, Moves(21)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:19:24] SCORE Group 16 (purple): Final=320.3, Time=96.3, Moves(21)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:25] MOVE 43: group 99 (yellow) 25->26 [0.01ms]
+[2026-05-22 11:19:25] SCORE group 99 (yellow): Final=577.7, Time=73.7, Moves(22)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:19:25] SCORE Group 16 (purple): Final=320.3, Time=96.3, Moves(21)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:25] MOVE 44: Group 16 (purple) 109->96 [0.01ms]
+[2026-05-22 11:19:25] SCORE group 99 (yellow): Final=577.7, Time=73.7, Moves(22)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:19:25] SCORE Group 16 (purple): Final=322.0, Time=96.0, Moves(22)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:26] MOVE 45: group 99 (yellow) 26->69 [0.01ms]
+[2026-05-22 11:19:26] SCORE group 99 (yellow): Final=584.5, Time=72.5, Moves(23)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:19:26] SCORE Group 16 (purple): Final=322.0, Time=96.0, Moves(22)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:27] MOVE 46: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:19:27] SCORE group 99 (yellow): Final=584.5, Time=72.5, Moves(23)=0.0, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:19:27] SCORE Group 16 (purple): Final=323.9, Time=95.9, Moves(23)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:28] MOVE 47: group 99 (yellow) 69->80 [0.01ms]
+[2026-05-22 11:19:28] SCORE group 99 (yellow): Final=585.2, Time=71.2, Moves(24)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:19:28] SCORE Group 16 (purple): Final=323.9, Time=95.9, Moves(23)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:28] MOVE 48: Group 16 (purple) 95->84 [0.02ms]
+[2026-05-22 11:19:28] SCORE group 99 (yellow): Final=585.2, Time=71.2, Moves(24)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:19:28] SCORE Group 16 (purple): Final=323.8, Time=95.8, Moves(24)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:29] MOVE 49: group 99 (yellow) 38->49 [0.01ms]
+[2026-05-22 11:19:29] SCORE group 99 (yellow): Final=586.1, Time=70.1, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:19:29] SCORE Group 16 (purple): Final=323.8, Time=95.8, Moves(24)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:29] MOVE 50: Group 16 (purple) 84->96 [0.01ms]
+[2026-05-22 11:19:29] SCORE group 99 (yellow): Final=586.1, Time=70.1, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:19:29] SCORE Group 16 (purple): Final=321.7, Time=95.7, Moves(25)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:30] MOVE 51: group 99 (yellow) 49->92 [0.01ms]
+[2026-05-22 11:19:30] SCORE group 99 (yellow): Final=592.8, Time=68.8, Moves(26)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:19:30] SCORE Group 16 (purple): Final=321.7, Time=95.7, Moves(25)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:31] MOVE 52: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:19:31] SCORE group 99 (yellow): Final=592.8, Time=68.8, Moves(26)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:19:31] SCORE Group 16 (purple): Final=323.6, Time=95.6, Moves(26)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:32] MOVE 53: group 99 (yellow) 80->105 [0.01ms]
+[2026-05-22 11:19:32] SCORE group 99 (yellow): Final=595.7, Time=67.7, Moves(27)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:19:32] SCORE Group 16 (purple): Final=323.6, Time=95.6, Moves(26)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:32] MOVE 54: Group 16 (purple) 95->84 [0.01ms]
+[2026-05-22 11:19:32] SCORE group 99 (yellow): Final=595.7, Time=67.7, Moves(27)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:19:32] SCORE Group 16 (purple): Final=323.5, Time=95.5, Moves(27)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:33] MOVE 55: group 99 (yellow) 92->114 [0.01ms]
+[2026-05-22 11:19:33] SCORE group 99 (yellow): Final=596.4, Time=66.4, Moves(28)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:19:33] SCORE Group 16 (purple): Final=323.5, Time=95.5, Moves(27)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:33] MOVE 56: Group 16 (purple) 84->74 [0.01ms]
+[2026-05-22 11:19:33] SCORE group 99 (yellow): Final=596.4, Time=66.4, Moves(28)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:19:33] SCORE Group 16 (purple): Final=323.4, Time=95.4, Moves(28)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:34] MOVE 57: group 99 (yellow) 46->56 [0.01ms]
+[2026-05-22 11:19:34] SCORE group 99 (yellow): Final=597.3, Time=65.2, Moves(29)=0.0, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:19:34] SCORE Group 16 (purple): Final=323.4, Time=95.4, Moves(28)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:34] MOVE 58: Group 16 (purple) 74->85 [0.01ms]
+[2026-05-22 11:19:34] SCORE group 99 (yellow): Final=597.3, Time=65.2, Moves(29)=0.0, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:19:34] SCORE Group 16 (purple): Final=321.3, Time=95.3, Moves(29)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:36] MOVE 59: group 99 (yellow) 114->106 [0.01ms]
+[2026-05-22 11:19:36] SCORE group 99 (yellow): Final=598.1, Time=64.0, Moves(30)=0.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:19:36] SCORE Group 16 (purple): Final=321.3, Time=95.3, Moves(29)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:36] MOVE 60: Group 16 (purple) 85->97 [0.00ms]
+[2026-05-22 11:19:36] SCORE group 99 (yellow): Final=598.1, Time=64.0, Moves(30)=0.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:19:36] SCORE Group 16 (purple): Final=319.3, Time=95.2, Moves(30)=0.1, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 61: group 99 (yellow) 59->69 [0.01ms]
+[2026-05-22 11:19:37] SCORE group 99 (yellow): Final=599.1, Time=62.9, Moves(31)=0.2, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Group 16 (purple): Final=319.3, Time=95.2, Moves(30)=0.1, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 62: Group 16 (purple) 97->110 [0.01ms]
+[2026-05-22 11:19:37] SCORE group 99 (yellow): Final=599.1, Time=62.9, Moves(31)=0.2, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Group 16 (purple): Final=317.3, Time=95.1, Moves(31)=0.2, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:38] MOVE 63: group 99 (yellow) 69->70 [0.01ms]
+[2026-05-22 11:19:38] SCORE group 99 (yellow): Final=600.0, Time=61.5, Moves(32)=0.5, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:19:38] SCORE Group 16 (purple): Final=317.3, Time=95.1, Moves(31)=0.2, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:38] MOVE 64: Group 16 (purple) 110->109 [0.01ms]
+[2026-05-22 11:19:38] SCORE group 99 (yellow): Final=600.0, Time=61.5, Moves(32)=0.5, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:19:38] SCORE Group 16 (purple): Final=319.5, Time=95.0, Moves(32)=0.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:40] MOVE 65: group 99 (yellow) 108->110 [0.01ms]
+[2026-05-22 11:19:40] SCORE group 99 (yellow): Final=599.5, Time=60.4, Moves(33)=1.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:19:40] SCORE Group 16 (purple): Final=319.5, Time=95.0, Moves(32)=0.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:40] MOVE 66: Group 16 (purple) 109->108 [0.01ms]
+[2026-05-22 11:19:40] SCORE group 99 (yellow): Final=599.5, Time=60.4, Moves(33)=1.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:19:40] SCORE Group 16 (purple): Final=322.0, Time=94.9, Moves(33)=1.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:41] MOVE 67: group 99 (yellow) 70->71 [0.01ms]
+[2026-05-22 11:19:41] SCORE group 99 (yellow): Final=601.3, Time=59.0, Moves(34)=2.3, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:19:41] SCORE Group 16 (purple): Final=322.0, Time=94.9, Moves(33)=1.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:41] MOVE 68: Group 16 (purple) 108->96 [0.01ms]
+[2026-05-22 11:19:41] SCORE group 99 (yellow): Final=601.3, Time=59.0, Moves(34)=2.3, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:19:41] SCORE Group 16 (purple): Final=323.1, Time=94.8, Moves(34)=2.3, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:42] MOVE 69: group 99 (yellow) 106->85 [0.01ms]
+[2026-05-22 11:19:42] SCORE group 99 (yellow): Final=704.2, Time=57.8, Moves(35)=4.4, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:19:42] SCORE Group 16 (purple): Final=323.1, Time=94.8, Moves(34)=2.3, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:42] MOVE 70: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:19:42] SCORE group 99 (yellow): Final=704.2, Time=57.8, Moves(35)=4.4, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:19:42] SCORE Group 16 (purple): Final=327.1, Time=94.7, Moves(35)=4.4, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:44] MOVE 71: group 99 (yellow) 62->108 [0.01ms]
+[2026-05-22 11:19:44] SCORE group 99 (yellow): Final=812.7, Time=56.7, Moves(36)=8.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:19:44] SCORE Group 16 (purple): Final=327.1, Time=94.7, Moves(35)=4.4, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:44] MOVE 72: Group 16 (purple) 95->84 [0.01ms]
+[2026-05-22 11:19:44] SCORE group 99 (yellow): Final=812.7, Time=56.7, Moves(36)=8.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:19:44] SCORE Group 16 (purple): Final=330.5, Time=94.6, Moves(36)=8.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:45] MOVE 73: group 99 (yellow) 56->66 [0.01ms]
+[2026-05-22 11:19:45] SCORE group 99 (yellow): Final=819.1, Time=55.6, Moves(37)=13.5, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:19:45] SCORE Group 16 (purple): Final=330.5, Time=94.6, Moves(36)=8.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:45] MOVE 74: Group 16 (purple) 84->74 [0.01ms]
+[2026-05-22 11:19:45] SCORE group 99 (yellow): Final=819.1, Time=55.6, Moves(37)=13.5, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:19:45] SCORE Group 16 (purple): Final=336.0, Time=94.5, Moves(37)=13.5, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:46] MOVE 75: group 99 (yellow) 66->77 [0.00ms]
+[2026-05-22 11:19:46] SCORE group 99 (yellow): Final=827.9, Time=54.3, Moves(38)=21.6, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:19:46] SCORE Group 16 (purple): Final=336.0, Time=94.5, Moves(37)=13.5, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:46] MOVE 76: Group 16 (purple) 74->97 [0.00ms]
+[2026-05-22 11:19:46] SCORE group 99 (yellow): Final=827.9, Time=54.3, Moves(38)=21.6, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:19:46] SCORE Group 16 (purple): Final=340.0, Time=94.4, Moves(38)=21.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:47] MOVE 77: group 99 (yellow) 77->78 [0.01ms]
+[2026-05-22 11:19:47] SCORE group 99 (yellow): Final=839.7, Time=53.2, Moves(39)=32.5, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:19:47] SCORE Group 16 (purple): Final=340.0, Time=94.4, Moves(38)=21.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:48] MOVE 78: Group 16 (purple) 97->96 [0.00ms]
+[2026-05-22 11:19:48] SCORE group 99 (yellow): Final=839.7, Time=53.2, Moves(39)=32.5, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:19:48] SCORE Group 16 (purple): Final=352.8, Time=94.3, Moves(39)=32.5, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:49] MOVE 79: group 99 (yellow) 78->79 [0.01ms]
+[2026-05-22 11:19:49] SCORE group 99 (yellow): Final=853.7, Time=51.9, Moves(40)=45.8, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:19:49] SCORE Group 16 (purple): Final=352.8, Time=94.3, Moves(39)=32.5, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:49] MOVE 80: Group 16 (purple) 96->95 [0.00ms]
+[2026-05-22 11:19:49] SCORE group 99 (yellow): Final=853.7, Time=51.9, Moves(40)=45.8, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:19:49] SCORE Group 16 (purple): Final=368.0, Time=94.2, Moves(40)=45.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:50] MOVE 81: group 99 (yellow) 79->91 [0.01ms]
+[2026-05-22 11:19:50] SCORE group 99 (yellow): Final=869.4, Time=50.8, Moves(41)=60.7, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:19:50] SCORE Group 16 (purple): Final=368.0, Time=94.2, Moves(40)=45.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:50] MOVE 82: Group 16 (purple) 95->84 [0.00ms]
+[2026-05-22 11:19:50] SCORE group 99 (yellow): Final=869.4, Time=50.8, Moves(41)=60.7, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:19:50] SCORE Group 16 (purple): Final=382.7, Time=94.1, Moves(41)=60.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:51] MOVE 83: group 99 (yellow) 91->92 [0.01ms]
+[2026-05-22 11:19:51] SCORE group 99 (yellow): Final=884.9, Time=49.4, Moves(42)=75.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:19:51] SCORE Group 16 (purple): Final=382.7, Time=94.1, Moves(41)=60.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:52] MOVE 84: Group 16 (purple) 84->74 [0.01ms]
+[2026-05-22 11:19:52] SCORE group 99 (yellow): Final=884.9, Time=49.4, Moves(42)=75.5, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:19:52] SCORE Group 16 (purple): Final=397.5, Time=94.0, Moves(42)=75.5, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:53] MOVE 85: group 99 (yellow) 92->114 [0.00ms]
+[2026-05-22 11:19:53] SCORE group 99 (yellow): Final=898.5, Time=48.3, Moves(43)=88.2, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:53] SCORE Group 16 (purple): Final=397.5, Time=94.0, Moves(42)=75.5, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:19:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:53] MOVE 86: Group 16 (purple) 74->97 [0.01ms]
+[2026-05-22 11:19:53] SCORE group 99 (yellow): Final=898.5, Time=48.3, Moves(43)=88.2, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:53] SCORE Group 16 (purple): Final=406.2, Time=93.9, Moves(43)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:54] MOVE 87: group 99 (yellow) 71->62 [0.01ms]
+[2026-05-22 11:19:54] SCORE group 99 (yellow): Final=906.0, Time=47.1, Moves(44)=96.9, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:54] SCORE Group 16 (purple): Final=406.2, Time=93.9, Moves(43)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:54] MOVE 88: Group 16 (purple) 97->109 [0.00ms]
+[2026-05-22 11:19:54] SCORE group 99 (yellow): Final=906.0, Time=47.1, Moves(44)=96.9, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:54] SCORE Group 16 (purple): Final=414.7, Time=93.8, Moves(44)=96.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:55] MOVE 89: group 99 (yellow) 62->53 [0.00ms]
+[2026-05-22 11:19:55] SCORE group 99 (yellow): Final=907.9, Time=45.9, Moves(45)=100.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:55] SCORE Group 16 (purple): Final=414.7, Time=93.8, Moves(44)=96.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:55] MOVE 90: Group 16 (purple) 109->96 [0.00ms]
+[2026-05-22 11:19:55] SCORE group 99 (yellow): Final=907.9, Time=45.9, Moves(45)=100.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:55] SCORE Group 16 (purple): Final=419.7, Time=93.7, Moves(45)=100.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:57] MOVE 91: group 99 (yellow) 108->95 [0.01ms]
+[2026-05-22 11:19:57] SCORE group 99 (yellow): Final=906.5, Time=44.6, Moves(46)=99.8, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:57] SCORE Group 16 (purple): Final=419.7, Time=93.7, Moves(45)=100.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:57] MOVE 92: Group 16 (purple) 96->108 [0.00ms]
+[2026-05-22 11:19:57] SCORE group 99 (yellow): Final=906.5, Time=44.6, Moves(46)=99.8, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:19:57] SCORE Group 16 (purple): Final=419.5, Time=93.6, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:58] MOVE 93: group 99 (yellow) 105->106 [0.00ms]
+[2026-05-22 11:19:58] SCORE group 99 (yellow): Final=906.8, Time=43.4, Moves(47)=99.4, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:19:58] SCORE Group 16 (purple): Final=419.5, Time=93.6, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:58] MOVE 94: Group 16 (purple) 108->109 [0.00ms]
+[2026-05-22 11:19:58] SCORE group 99 (yellow): Final=906.8, Time=43.4, Moves(47)=99.4, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:19:58] SCORE Group 16 (purple): Final=416.9, Time=93.5, Moves(47)=99.4, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:59] MOVE 95: group 99 (yellow) 106->108 [0.00ms]
+[2026-05-22 11:19:59] SCORE group 99 (yellow): Final=1006.9, Time=42.2, Moves(48)=98.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:19:59] SCORE Group 16 (purple): Final=416.9, Time=93.5, Moves(47)=99.4, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:59] MOVE 96: Group 16 (purple) 109->96 [0.00ms]
+[2026-05-22 11:19:59] SCORE group 99 (yellow): Final=1006.9, Time=42.2, Moves(48)=98.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:19:59] SCORE Group 16 (purple): Final=418.0, Time=93.4, Moves(48)=98.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:19:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:01] MOVE 97: group 99 (yellow) 53->62 [0.00ms]
+[2026-05-22 11:20:01] SCORE group 99 (yellow): Final=1004.6, Time=41.0, Moves(49)=97.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:01] SCORE Group 16 (purple): Final=418.0, Time=93.4, Moves(48)=98.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:01] MOVE 98: Group 16 (purple) 96->84 [0.00ms]
+[2026-05-22 11:20:01] SCORE group 99 (yellow): Final=1004.6, Time=41.0, Moves(49)=97.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:01] SCORE Group 16 (purple): Final=418.8, Time=93.2, Moves(49)=97.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:02] MOVE 99: group 99 (yellow) 62->53 [0.00ms]
+[2026-05-22 11:20:02] SCORE group 99 (yellow): Final=1002.1, Time=39.9, Moves(50)=96.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:02] SCORE Group 16 (purple): Final=418.8, Time=93.2, Moves(49)=97.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:02] MOVE 100: Group 16 (purple) 84->74 [0.00ms]
+[2026-05-22 11:20:02] SCORE group 99 (yellow): Final=1002.1, Time=39.9, Moves(50)=96.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:02] SCORE Group 16 (purple): Final=417.4, Time=93.2, Moves(50)=96.2, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:03] MOVE 101: group 99 (yellow) 95->84 [0.00ms]
+[2026-05-22 11:20:03] SCORE group 99 (yellow): Final=999.3, Time=38.7, Moves(51)=94.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:03] SCORE Group 16 (purple): Final=417.4, Time=93.2, Moves(50)=96.2, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:03] MOVE 102: Group 16 (purple) 74->95 [0.00ms]
+[2026-05-22 11:20:03] SCORE group 99 (yellow): Final=999.3, Time=38.7, Moves(51)=94.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:03] SCORE Group 16 (purple): Final=415.7, Time=93.1, Moves(51)=94.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:05] MOVE 103: group 99 (yellow) 84->74 [0.00ms]
+[2026-05-22 11:20:05] SCORE group 99 (yellow): Final=996.1, Time=37.4, Moves(52)=92.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:05] SCORE Group 16 (purple): Final=415.7, Time=93.1, Moves(51)=94.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:05] MOVE 104: Group 16 (purple) 95->96 [0.01ms]
+[2026-05-22 11:20:05] SCORE group 99 (yellow): Final=996.1, Time=37.4, Moves(52)=92.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:05] SCORE Group 16 (purple): Final=411.7, Time=93.0, Moves(52)=92.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:06] MOVE 105: group 99 (yellow) 74->95 [0.00ms]
+[2026-05-22 11:20:06] SCORE group 99 (yellow): Final=992.9, Time=36.3, Moves(53)=90.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:06] SCORE Group 16 (purple): Final=411.7, Time=93.0, Moves(52)=92.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:06] MOVE 106: Group 16 (purple) 96->97 [0.00ms]
+[2026-05-22 11:20:06] SCORE group 99 (yellow): Final=992.9, Time=36.3, Moves(53)=90.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:06] SCORE Group 16 (purple): Final=407.5, Time=92.9, Moves(53)=90.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:07] MOVE 107: group 99 (yellow) 53->62 [0.00ms]
+[2026-05-22 11:20:07] SCORE group 99 (yellow): Final=989.2, Time=35.0, Moves(54)=88.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:07] SCORE Group 16 (purple): Final=407.5, Time=92.9, Moves(53)=90.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:07] MOVE 108: Group 16 (purple) 97->74 [0.00ms]
+[2026-05-22 11:20:07] SCORE group 99 (yellow): Final=989.2, Time=35.0, Moves(54)=88.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:07] SCORE Group 16 (purple): Final=409.1, Time=92.8, Moves(54)=88.2, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:08] MOVE 109: group 99 (yellow) 62->53 [0.00ms]
+[2026-05-22 11:20:08] SCORE group 99 (yellow): Final=985.6, Time=33.9, Moves(55)=85.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:08] SCORE Group 16 (purple): Final=409.1, Time=92.8, Moves(54)=88.2, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:08] MOVE 110: Group 16 (purple) 74->84 [0.00ms]
+[2026-05-22 11:20:08] SCORE group 99 (yellow): Final=985.6, Time=33.9, Moves(55)=85.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:08] SCORE Group 16 (purple): Final=406.4, Time=92.7, Moves(55)=85.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:10] MOVE 111: group 99 (yellow) 95->96 [0.00ms]
+[2026-05-22 11:20:10] SCORE group 99 (yellow): Final=981.5, Time=32.6, Moves(56)=83.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:10] SCORE Group 16 (purple): Final=406.4, Time=92.7, Moves(55)=85.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:10] MOVE 112: Group 16 (purple) 84->109 [0.00ms]
+[2026-05-22 11:20:10] SCORE group 99 (yellow): Final=981.5, Time=32.6, Moves(56)=83.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:10] SCORE Group 16 (purple): Final=399.6, Time=92.6, Moves(56)=83.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:11] MOVE 113: group 99 (yellow) 96->84 [0.00ms]
+[2026-05-22 11:20:11] SCORE group 99 (yellow): Final=977.5, Time=31.4, Moves(57)=80.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:11] SCORE Group 16 (purple): Final=399.6, Time=92.6, Moves(56)=83.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:11] MOVE 114: Group 16 (purple) 109->96 [0.00ms]
+[2026-05-22 11:20:11] SCORE group 99 (yellow): Final=977.5, Time=31.4, Moves(57)=80.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:11] SCORE Group 16 (purple): Final=398.6, Time=92.5, Moves(57)=80.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:12] MOVE 115: group 99 (yellow) 84->74 [0.00ms]
+[2026-05-22 11:20:12] SCORE group 99 (yellow): Final=973.3, Time=30.3, Moves(58)=77.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:12] SCORE Group 16 (purple): Final=398.6, Time=92.5, Moves(57)=80.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:12] MOVE 116: Group 16 (purple) 96->95 [0.00ms]
+[2026-05-22 11:20:12] SCORE group 99 (yellow): Final=973.3, Time=30.3, Moves(58)=77.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:12] SCORE Group 16 (purple): Final=397.5, Time=92.4, Moves(58)=77.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:13] MOVE 117: group 99 (yellow) 53->62 [0.00ms]
+[2026-05-22 11:20:13] SCORE group 99 (yellow): Final=969.1, Time=29.2, Moves(59)=73.9, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:13] SCORE Group 16 (purple): Final=397.5, Time=92.4, Moves(58)=77.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:14] MOVE 118: Group 16 (purple) 95->84 [0.00ms]
+[2026-05-22 11:20:14] SCORE group 99 (yellow): Final=969.1, Time=29.2, Moves(59)=73.9, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:14] SCORE Group 16 (purple): Final=394.2, Time=92.3, Moves(59)=73.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:15] MOVE 119: group 99 (yellow) 62->53 [0.00ms]
+[2026-05-22 11:20:15] SCORE group 99 (yellow): Final=964.7, Time=28.0, Moves(60)=70.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:15] SCORE Group 16 (purple): Final=394.2, Time=92.3, Moves(59)=73.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:15] MOVE 120: Group 16 (purple) 84->96 [0.00ms]
+[2026-05-22 11:20:15] SCORE group 99 (yellow): Final=964.7, Time=28.0, Moves(60)=70.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:15] SCORE Group 16 (purple): Final=388.8, Time=92.2, Moves(60)=70.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:16] MOVE 121: group 99 (yellow) 74->95 [0.00ms]
+[2026-05-22 11:20:16] SCORE group 99 (yellow): Final=960.2, Time=26.8, Moves(61)=67.4, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:16] SCORE Group 16 (purple): Final=388.8, Time=92.2, Moves(60)=70.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:16] MOVE 122: Group 16 (purple) 96->109 [0.00ms]
+[2026-05-22 11:20:16] SCORE group 99 (yellow): Final=960.2, Time=26.8, Moves(61)=67.4, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:16] SCORE Group 16 (purple): Final=383.4, Time=92.1, Moves(61)=67.4, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:17] MOVE 123: group 99 (yellow) 95->84 [0.00ms]
+[2026-05-22 11:20:17] SCORE group 99 (yellow): Final=955.7, Time=25.7, Moves(62)=64.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:17] SCORE Group 16 (purple): Final=383.4, Time=92.1, Moves(61)=67.4, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:17] MOVE 124: Group 16 (purple) 109->97 [0.00ms]
+[2026-05-22 11:20:17] SCORE group 99 (yellow): Final=955.7, Time=25.7, Moves(62)=64.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:17] SCORE Group 16 (purple): Final=380.0, Time=91.9, Moves(62)=64.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:19] MOVE 125: group 99 (yellow) 84->74 [0.00ms]
+[2026-05-22 11:20:19] SCORE group 99 (yellow): Final=951.1, Time=24.4, Moves(63)=60.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:19] SCORE Group 16 (purple): Final=380.0, Time=91.9, Moves(62)=64.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:19] MOVE 126: Group 16 (purple) 97->96 [0.00ms]
+[2026-05-22 11:20:19] SCORE group 99 (yellow): Final=951.1, Time=24.4, Moves(63)=60.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:19] SCORE Group 16 (purple): Final=378.5, Time=91.8, Moves(63)=60.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:20] MOVE 127: group 99 (yellow) 53->62 [0.00ms]
+[2026-05-22 11:20:20] SCORE group 99 (yellow): Final=946.5, Time=23.2, Moves(64)=57.3, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:20] SCORE Group 16 (purple): Final=378.5, Time=91.8, Moves(63)=60.7, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:20] MOVE 128: Group 16 (purple) 96->95 [0.00ms]
+[2026-05-22 11:20:20] SCORE group 99 (yellow): Final=946.5, Time=23.2, Moves(64)=57.3, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:20] SCORE Group 16 (purple): Final=376.8, Time=91.5, Moves(64)=57.3, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:22] MOVE 129: group 99 (yellow) 62->53 [0.00ms]
+[2026-05-22 11:20:22] SCORE group 99 (yellow): Final=941.9, Time=21.9, Moves(65)=53.9, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:22] SCORE Group 16 (purple): Final=376.8, Time=91.5, Moves(64)=57.3, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:22] MOVE 130: Group 16 (purple) 95->84 [0.00ms]
+[2026-05-22 11:20:22] SCORE group 99 (yellow): Final=941.9, Time=21.9, Moves(65)=53.9, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:22] SCORE Group 16 (purple): Final=373.3, Time=91.4, Moves(65)=53.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:23] MOVE 131: group 99 (yellow) 74->95 [0.00ms]
+[2026-05-22 11:20:23] SCORE group 99 (yellow): Final=937.4, Time=20.7, Moves(66)=50.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:23] SCORE Group 16 (purple): Final=373.3, Time=91.4, Moves(65)=53.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:23] MOVE 132: Group 16 (purple) 84->74 [0.00ms]
+[2026-05-22 11:20:23] SCORE group 99 (yellow): Final=937.4, Time=20.7, Moves(66)=50.6, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:23] SCORE Group 16 (purple): Final=369.9, Time=91.3, Moves(66)=50.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:24] MOVE 133: group 99 (yellow) 95->84 [0.00ms]
+[2026-05-22 11:20:24] SCORE group 99 (yellow): Final=933.1, Time=19.7, Moves(67)=47.4, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:24] SCORE Group 16 (purple): Final=369.9, Time=91.3, Moves(66)=50.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:24] MOVE 134: Group 16 (purple) 74->95 [0.00ms]
+[2026-05-22 11:20:24] SCORE group 99 (yellow): Final=933.1, Time=19.7, Moves(67)=47.4, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:24] SCORE Group 16 (purple): Final=366.5, Time=91.1, Moves(67)=47.4, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 135: group 99 (yellow) 84->74 [0.00ms]
+[2026-05-22 11:20:25] SCORE group 99 (yellow): Final=928.7, Time=18.4, Moves(68)=44.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:25] SCORE Group 16 (purple): Final=366.5, Time=91.1, Moves(67)=47.4, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:26] MOVE 136: Group 16 (purple) 95->96 [0.00ms]
+[2026-05-22 11:20:26] SCORE group 99 (yellow): Final=928.7, Time=18.4, Moves(68)=44.2, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:26] SCORE Group 16 (purple): Final=361.3, Time=91.1, Moves(68)=44.2, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:27] MOVE 137: group 99 (yellow) 53->62 [0.00ms]
+[2026-05-22 11:20:27] SCORE group 99 (yellow): Final=924.4, Time=17.3, Moves(69)=41.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:27] SCORE Group 16 (purple): Final=361.3, Time=91.1, Moves(68)=44.2, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:27] MOVE 138: Group 16 (purple) 96->84 [0.00ms]
+[2026-05-22 11:20:27] SCORE group 99 (yellow): Final=924.4, Time=17.3, Moves(69)=41.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:27] SCORE Group 16 (purple): Final=360.1, Time=91.0, Moves(69)=41.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:28] MOVE 139: group 99 (yellow) 62->53 [0.01ms]
+[2026-05-22 11:20:28] SCORE group 99 (yellow): Final=920.2, Time=16.1, Moves(70)=38.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:28] SCORE Group 16 (purple): Final=360.1, Time=91.0, Moves(69)=41.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:28] MOVE 140: Group 16 (purple) 84->95 [0.01ms]
+[2026-05-22 11:20:28] SCORE group 99 (yellow): Final=920.2, Time=16.1, Moves(70)=38.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:28] SCORE Group 16 (purple): Final=357.0, Time=90.9, Moves(70)=38.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:28] MOVE 141: group 99 (yellow) 40->41 [0.01ms]
+[2026-05-22 11:20:28] SCORE group 99 (yellow): Final=919.0, Time=15.8, Moves(71)=35.2, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:20:28] SCORE Group 16 (purple): Final=357.0, Time=90.9, Moves(70)=38.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 142: Group 16 (purple) 95->96 [0.01ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=919.0, Time=15.8, Moves(71)=35.2, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=352.0, Time=90.8, Moves(71)=35.2, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 143: group 99 (yellow) 41->43 [0.01ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=920.0, Time=15.6, Moves(72)=32.5, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=352.0, Time=90.8, Moves(71)=35.2, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 144: Group 16 (purple) 96->109 [0.00ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=920.0, Time=15.6, Moves(72)=32.5, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=347.2, Time=90.7, Moves(72)=32.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 145: group 99 (yellow) 114->106 [0.01ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=919.1, Time=15.3, Moves(73)=29.8, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=347.2, Time=90.7, Moves(72)=32.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 146: Group 16 (purple) 109->97 [0.01ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=919.1, Time=15.3, Moves(73)=29.8, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=344.5, Time=90.6, Moves(73)=29.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:29] MOVE 147: group 99 (yellow) 107->109 [0.01ms]
+[2026-05-22 11:20:29] SCORE group 99 (yellow): Final=916.3, Time=15.0, Moves(74)=27.3, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:29] SCORE Group 16 (purple): Final=344.5, Time=90.6, Moves(73)=29.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 148: Group 16 (purple) 97->96 [0.00ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=916.3, Time=15.0, Moves(74)=27.3, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=343.8, Time=90.5, Moves(74)=27.3, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 149: group 99 (yellow) 106->107 [0.01ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=1015.7, Time=14.8, Moves(75)=24.9, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=343.8, Time=90.5, Moves(74)=27.3, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 150: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=1015.7, Time=14.8, Moves(75)=24.9, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=343.4, Time=90.4, Moves(75)=24.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 151: group 99 (yellow) 74->97 [0.01ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=1013.3, Time=14.6, Moves(76)=22.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=343.4, Time=90.4, Moves(75)=24.9, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 152: Group 16 (purple) 95->84 [0.01ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=1013.3, Time=14.6, Moves(76)=22.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=341.0, Time=90.3, Moves(76)=22.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:30] MOVE 153: group 99 (yellow) 97->74 [0.01ms]
+[2026-05-22 11:20:30] SCORE group 99 (yellow): Final=1010.9, Time=14.3, Moves(77)=20.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:30] SCORE Group 16 (purple): Final=341.0, Time=90.3, Moves(76)=22.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:31] MOVE 154: Group 16 (purple) 84->96 [0.01ms]
+[2026-05-22 11:20:31] SCORE group 99 (yellow): Final=1010.9, Time=14.3, Moves(77)=20.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:31] SCORE Group 16 (purple): Final=336.8, Time=90.2, Moves(77)=20.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:31] MOVE 155: group 99 (yellow) 74->95 [0.01ms]
+[2026-05-22 11:20:31] SCORE group 99 (yellow): Final=1008.8, Time=14.1, Moves(78)=18.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:31] SCORE Group 16 (purple): Final=336.8, Time=90.2, Moves(77)=20.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:31] MOVE 156: Group 16 (purple) 96->97 [0.01ms]
+[2026-05-22 11:20:31] SCORE group 99 (yellow): Final=1008.8, Time=14.1, Moves(78)=18.6, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:31] SCORE Group 16 (purple): Final=332.7, Time=90.1, Moves(78)=18.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:31] MOVE 157: group 99 (yellow) 43->62 [0.01ms]
+[2026-05-22 11:20:31] SCORE group 99 (yellow): Final=1006.7, Time=13.9, Moves(79)=16.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:31] SCORE Group 16 (purple): Final=332.7, Time=90.1, Moves(78)=18.6, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:31] MOVE 158: Group 16 (purple) 97->74 [0.01ms]
+[2026-05-22 11:20:31] SCORE group 99 (yellow): Final=1006.7, Time=13.9, Moves(79)=16.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:31] SCORE Group 16 (purple): Final=334.8, Time=90.0, Moves(79)=16.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:32] MOVE 159: group 99 (yellow) 62->43 [0.01ms]
+[2026-05-22 11:20:32] SCORE group 99 (yellow): Final=1004.7, Time=13.6, Moves(80)=15.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:32] SCORE Group 16 (purple): Final=334.8, Time=90.0, Moves(79)=16.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:32] MOVE 160: Group 16 (purple) 74->84 [0.00ms]
+[2026-05-22 11:20:32] SCORE group 99 (yellow): Final=1004.7, Time=13.6, Moves(80)=15.1, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:20:32] SCORE Group 16 (purple): Final=333.0, Time=89.9, Moves(80)=15.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:33] MOVE 161: group 99 (yellow) 52->62 [0.01ms]
+[2026-05-22 11:20:33] SCORE group 99 (yellow): Final=1004.0, Time=12.4, Moves(81)=13.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:33] SCORE Group 16 (purple): Final=333.0, Time=89.9, Moves(80)=15.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:33] MOVE 162: Group 16 (purple) 84->96 [0.01ms]
+[2026-05-22 11:20:33] SCORE group 99 (yellow): Final=1004.0, Time=12.4, Moves(81)=13.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:33] SCORE Group 16 (purple): Final=329.3, Time=89.8, Moves(81)=13.5, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:33] MOVE 163: group 99 (yellow) 95->74 [0.01ms]
+[2026-05-22 11:20:33] SCORE group 99 (yellow): Final=1002.3, Time=12.2, Moves(82)=12.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:33] SCORE Group 16 (purple): Final=329.3, Time=89.8, Moves(81)=13.5, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:33] MOVE 164: Group 16 (purple) 96->95 [0.01ms]
+[2026-05-22 11:20:33] SCORE group 99 (yellow): Final=1002.3, Time=12.2, Moves(82)=12.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:33] SCORE Group 16 (purple): Final=329.8, Time=89.7, Moves(82)=12.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:33] MOVE 165: group 99 (yellow) 74->97 [0.01ms]
+[2026-05-22 11:20:33] SCORE group 99 (yellow): Final=1000.8, Time=12.0, Moves(83)=10.8, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:33] SCORE Group 16 (purple): Final=329.8, Time=89.7, Moves(82)=12.1, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:34] MOVE 166: Group 16 (purple) 95->84 [0.01ms]
+[2026-05-22 11:20:34] SCORE group 99 (yellow): Final=1000.8, Time=12.0, Moves(83)=10.8, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:34] SCORE Group 16 (purple): Final=328.4, Time=89.6, Moves(83)=10.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:35] MOVE 167: group 99 (yellow) 107->95 [0.01ms]
+[2026-05-22 11:20:35] SCORE group 99 (yellow): Final=998.4, Time=10.9, Moves(84)=9.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:35] SCORE Group 16 (purple): Final=328.4, Time=89.6, Moves(83)=10.8, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:35] MOVE 168: Group 16 (purple) 84->107 [0.01ms]
+[2026-05-22 11:20:35] SCORE group 99 (yellow): Final=998.4, Time=10.9, Moves(84)=9.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:35] SCORE Group 16 (purple): Final=327.1, Time=89.5, Moves(84)=9.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:36] MOVE 169: group 99 (yellow) 53->71 [0.01ms]
+[2026-05-22 11:20:36] SCORE group 99 (yellow): Final=996.1, Time=9.7, Moves(85)=8.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:36] SCORE Group 16 (purple): Final=327.1, Time=89.5, Moves(84)=9.6, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:20:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:36] MOVE 170: Group 16 (purple) 107->106 [0.01ms]
+[2026-05-22 11:20:36] SCORE group 99 (yellow): Final=996.1, Time=9.7, Moves(85)=8.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:36] SCORE Group 16 (purple): Final=327.9, Time=89.5, Moves(85)=8.5, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:20:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:37] MOVE 171: group 99 (yellow) 43->44 [0.01ms]
+[2026-05-22 11:20:37] SCORE group 99 (yellow): Final=993.9, Time=8.4, Moves(86)=7.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:37] SCORE Group 16 (purple): Final=327.9, Time=89.5, Moves(85)=8.5, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:20:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:37] MOVE 172: Group 16 (purple) 93->81 [0.01ms]
+[2026-05-22 11:20:37] SCORE group 99 (yellow): Final=993.9, Time=8.4, Moves(86)=7.5, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:37] SCORE Group 16 (purple): Final=328.9, Time=89.4, Moves(86)=7.5, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:20:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 173: group 99 (yellow) 97->74 [0.01ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=992.7, Time=8.2, Moves(87)=6.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=328.9, Time=89.4, Moves(86)=7.5, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 174: Group 16 (purple) 72->52 [0.00ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=992.7, Time=8.2, Moves(87)=6.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=331.9, Time=89.3, Moves(87)=6.6, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 175: group 99 (yellow) 71->72 [0.00ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=993.7, Time=7.9, Moves(88)=5.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=331.9, Time=89.3, Moves(87)=6.6, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 176: Group 16 (purple) 82->71 [0.01ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=993.7, Time=7.9, Moves(88)=5.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=333.0, Time=89.2, Moves(88)=5.8, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 177: group 99 (yellow) 74->97 [0.01ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=992.8, Time=7.7, Moves(89)=5.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=333.0, Time=89.2, Moves(88)=5.8, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:38] MOVE 178: Group 16 (purple) 71->70 [0.01ms]
+[2026-05-22 11:20:38] SCORE group 99 (yellow): Final=992.8, Time=7.7, Moves(89)=5.0, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:38] SCORE Group 16 (purple): Final=334.2, Time=89.1, Moves(89)=5.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 179: group 99 (yellow) 72->74 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1095.9, Time=7.5, Moves(90)=4.4, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=334.2, Time=89.1, Moves(89)=5.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 180: Group 16 (purple) 54->72 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1095.9, Time=7.5, Moves(90)=4.4, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=333.4, Time=89.0, Moves(90)=4.4, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 181: group 99 (yellow) 44->54 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1097.1, Time=7.3, Moves(91)=3.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=333.4, Time=89.0, Moves(90)=4.4, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 182: Group 16 (purple) 81->60 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1097.1, Time=7.3, Moves(91)=3.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=336.7, Time=88.9, Moves(91)=3.8, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 183: group 99 (yellow) 109->84 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1096.4, Time=7.1, Moves(92)=3.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=336.7, Time=88.9, Moves(91)=3.8, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:39] MOVE 184: Group 16 (purple) 70->50 [0.01ms]
+[2026-05-22 11:20:39] SCORE group 99 (yellow): Final=1096.4, Time=7.1, Moves(92)=3.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:39] SCORE Group 16 (purple): Final=340.1, Time=88.8, Moves(92)=3.3, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 185: group 99 (yellow) 84->107 [0.01ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1095.7, Time=6.9, Moves(93)=2.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=340.1, Time=88.8, Moves(92)=3.3, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 186: Group 16 (purple) 73->49 [0.01ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1095.7, Time=6.9, Moves(93)=2.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=351.6, Time=88.7, Moves(93)=2.9, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 187: group 99 (yellow) 55->73 [0.00ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1097.0, Time=6.6, Moves(94)=2.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=351.6, Time=88.7, Moves(93)=2.9, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 188: Group 16 (purple) 49->48 [0.00ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1097.0, Time=6.6, Moves(94)=2.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=353.1, Time=88.6, Moves(94)=2.5, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 189: group 99 (yellow) 73->84 [0.01ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1198.5, Time=6.3, Moves(95)=2.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=353.1, Time=88.6, Moves(94)=2.5, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:40] MOVE 190: Group 16 (purple) 50->49 [0.00ms]
+[2026-05-22 11:20:40] SCORE group 99 (yellow): Final=1198.5, Time=6.3, Moves(95)=2.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:40] SCORE Group 16 (purple): Final=354.6, Time=88.5, Moves(95)=2.1, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:41] MOVE 191: group 99 (yellow) 107->109 [0.01ms]
+[2026-05-22 11:20:41] SCORE group 99 (yellow): Final=1198.0, Time=6.2, Moves(96)=1.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:41] SCORE Group 16 (purple): Final=354.6, Time=88.5, Moves(95)=2.1, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:20:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:41] MOVE 192: Group 16 (purple) 49->38 [0.01ms]
+[2026-05-22 11:20:41] SCORE group 99 (yellow): Final=1198.0, Time=6.2, Moves(96)=1.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:41] SCORE Group 16 (purple): Final=356.2, Time=88.4, Moves(96)=1.8, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:20:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:42] MOVE 193: group 99 (yellow) 54->53 [0.01ms]
+[2026-05-22 11:20:42] SCORE group 99 (yellow): Final=1194.6, Time=5.0, Moves(97)=1.5, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:20:42] SCORE Group 16 (purple): Final=356.2, Time=88.4, Moves(96)=1.8, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:42] MOVE 194: Group 16 (purple) 72->71 [0.01ms]
+[2026-05-22 11:20:42] SCORE group 99 (yellow): Final=1194.6, Time=5.0, Moves(97)=1.5, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:20:42] SCORE Group 16 (purple): Final=357.9, Time=88.3, Moves(97)=1.5, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:42] MOVE 195: group 99 (yellow) 53->96 [0.01ms]
+[2026-05-22 11:20:42] SCORE group 99 (yellow): Final=1300.1, Time=4.8, Moves(98)=1.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:42] SCORE Group 16 (purple): Final=357.9, Time=88.3, Moves(97)=1.5, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:42] MOVE 196: Group 16 (purple) 71->51 [0.02ms]
+[2026-05-22 11:20:42] SCORE group 99 (yellow): Final=1300.1, Time=4.8, Moves(98)=1.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:42] SCORE Group 16 (purple): Final=361.6, Time=88.2, Moves(98)=1.3, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:42] MOVE 197: group 99 (yellow) 62->72 [0.01ms]
+[2026-05-22 11:20:42] SCORE group 99 (yellow): Final=1301.7, Time=4.6, Moves(99)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:42] SCORE Group 16 (purple): Final=361.6, Time=88.2, Moves(98)=1.3, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:43] MOVE 198: Group 16 (purple) 60->62 [0.01ms]
+[2026-05-22 11:20:43] SCORE group 99 (yellow): Final=1301.7, Time=4.6, Moves(99)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:43] SCORE Group 16 (purple): Final=357.3, Time=88.2, Moves(99)=1.1, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:43] MOVE 199: group 99 (yellow) 109->107 [0.01ms]
+[2026-05-22 11:20:43] SCORE group 99 (yellow): Final=1301.2, Time=4.3, Moves(100)=0.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:43] SCORE Group 16 (purple): Final=357.3, Time=88.2, Moves(99)=1.1, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:43] MOVE 200: Group 16 (purple) 51->50 [0.01ms]
+[2026-05-22 11:20:43] SCORE group 99 (yellow): Final=1301.2, Time=4.3, Moves(100)=0.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:43] SCORE Group 16 (purple): Final=359.0, Time=88.1, Moves(100)=0.9, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:43] MOVE 201: group 99 (yellow) 107->109 [0.01ms]
+[2026-05-22 11:20:43] SCORE group 99 (yellow): Final=1300.8, Time=4.0, Moves(101)=0.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:43] SCORE Group 16 (purple): Final=359.0, Time=88.1, Moves(100)=0.9, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:43] MOVE 202: Group 16 (purple) 50->49 [0.01ms]
+[2026-05-22 11:20:43] SCORE group 99 (yellow): Final=1300.8, Time=4.0, Moves(101)=0.8, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:43] SCORE Group 16 (purple): Final=360.8, Time=88.0, Moves(101)=0.8, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:44] MOVE 203: group 99 (yellow) 95->107 [0.01ms]
+[2026-05-22 11:20:44] SCORE group 99 (yellow): Final=1300.1, Time=3.4, Moves(102)=0.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:44] SCORE Group 16 (purple): Final=360.8, Time=88.0, Moves(101)=0.8, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:44] MOVE 204: Group 16 (purple) 38->37 [0.01ms]
+[2026-05-22 11:20:44] SCORE group 99 (yellow): Final=1300.1, Time=3.4, Moves(102)=0.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:20:44] SCORE Group 16 (purple): Final=362.5, Time=87.9, Moves(102)=0.7, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:44] MOVE 205: group 99 (yellow) 72->95 [0.01ms]
+[2026-05-22 11:20:44] SCORE group 99 (yellow): Final=2403.8, Time=3.2, Moves(103)=0.6, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:20:44] SCORE Group 16 (purple): Final=362.5, Time=87.9, Moves(102)=0.7, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:20:44] ALL WRONG MOVES BY COLOUR: {}

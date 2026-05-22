@@ -1,0 +1,656 @@
+[2026-05-22 10:36:23] GAME CREATED
+[2026-05-22 10:36:24] PLAYER JOINED: Erlend Og Linor as red
+[2026-05-22 10:36:32] PLAYER JOINED: jat as blue
+[2026-05-22 10:36:52] PLAYER JOINED: Gruppe 67 as lawn green
+[2026-05-22 10:36:52] PLAYER START: Erlend Og Linor (red)
+[2026-05-22 10:36:52] PLAYER START: jat (blue)
+[2026-05-22 10:36:52] PLAYER START: Gruppe 67 (lawn green)
+[2026-05-22 10:36:52] GAME START — turn order ['red', 'lawn green', 'blue']
+[2026-05-22 10:36:52] MOVE 1: Erlend Og Linor (red) 117->104 [0.01ms]
+[2026-05-22 10:36:52] SCORE Erlend Og Linor (red): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:52] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:36:52] SCORE Gruppe 67 (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:36:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:52] PLAYER START: Erlend Og Linor (red)
+[2026-05-22 10:36:52] PLAYER START: jat (blue)
+[2026-05-22 10:36:52] PLAYER START: Gruppe 67 (lawn green)
+[2026-05-22 10:36:52] MOVE 2: Gruppe 67 (lawn green) 45->43 [0.02ms]
+[2026-05-22 10:36:52] SCORE Erlend Og Linor (red): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:52] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:36:52] SCORE Gruppe 67 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:54] MOVE 3: jat (blue) 6->15 [0.01ms]
+[2026-05-22 10:36:54] SCORE Erlend Og Linor (red): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE jat (blue): Final=280.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE Gruppe 67 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:54] MOVE 4: Erlend Og Linor (red) 111->103 [0.00ms]
+[2026-05-22 10:36:54] SCORE Erlend Og Linor (red): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE jat (blue): Final=280.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE Gruppe 67 (lawn green): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:36:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:54] MOVE 5: Gruppe 67 (lawn green) 22->64 [0.00ms]
+[2026-05-22 10:36:54] SCORE Erlend Og Linor (red): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE jat (blue): Final=280.7, Time=98.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:36:54] SCORE Gruppe 67 (lawn green): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:36:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:55] MOVE 6: jat (blue) 1->28 [0.01ms]
+[2026-05-22 10:36:55] SCORE Erlend Og Linor (red): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE jat (blue): Final=287.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE Gruppe 67 (lawn green): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:36:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:55] MOVE 7: Erlend Og Linor (red) 118->91 [0.01ms]
+[2026-05-22 10:36:55] SCORE Erlend Og Linor (red): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE jat (blue): Final=287.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE Gruppe 67 (lawn green): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:36:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:55] MOVE 8: Gruppe 67 (lawn green) 32->53 [0.00ms]
+[2026-05-22 10:36:55] SCORE Erlend Og Linor (red): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE jat (blue): Final=287.8, Time=97.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:36:55] SCORE Gruppe 67 (lawn green): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:56] MOVE 9: jat (blue) 5->39 [0.01ms]
+[2026-05-22 10:36:56] SCORE Erlend Og Linor (red): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:36:56] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:36:56] SCORE Gruppe 67 (lawn green): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:56] MOVE 10: Erlend Og Linor (red) 114->105 [0.00ms]
+[2026-05-22 10:36:56] SCORE Erlend Og Linor (red): Final=295.6, Time=99.6, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:56] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:36:56] SCORE Gruppe 67 (lawn green): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:57] MOVE 11: Gruppe 67 (lawn green) 20->14 [0.01ms]
+[2026-05-22 10:36:57] SCORE Erlend Og Linor (red): Final=295.6, Time=99.6, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:57] SCORE jat (blue): Final=294.9, Time=96.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:36:57] SCORE Gruppe 67 (lawn green): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:36:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:58] MOVE 12: jat (blue) 0->16 [0.00ms]
+[2026-05-22 10:36:58] SCORE Erlend Og Linor (red): Final=295.6, Time=99.6, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE jat (blue): Final=301.7, Time=95.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE Gruppe 67 (lawn green): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:36:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:58] MOVE 13: Erlend Og Linor (red) 120->117 [0.00ms]
+[2026-05-22 10:36:58] SCORE Erlend Og Linor (red): Final=299.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE jat (blue): Final=301.7, Time=95.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE Gruppe 67 (lawn green): Final=306.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:36:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:58] MOVE 14: Gruppe 67 (lawn green) 33->52 [0.01ms]
+[2026-05-22 10:36:58] SCORE Erlend Og Linor (red): Final=299.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE jat (blue): Final=301.7, Time=95.7, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:36:58] SCORE Gruppe 67 (lawn green): Final=314.0, Time=98.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:36:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:59] MOVE 15: jat (blue) 7->50 [0.00ms]
+[2026-05-22 10:36:59] SCORE Erlend Og Linor (red): Final=299.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:36:59] SCORE jat (blue): Final=309.0, Time=95.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:36:59] SCORE Gruppe 67 (lawn green): Final=314.0, Time=98.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:36:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:36:59] MOVE 16: Erlend Og Linor (red) 119->92 [0.01ms]
+[2026-05-22 10:36:59] SCORE Erlend Og Linor (red): Final=307.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:36:59] SCORE jat (blue): Final=309.0, Time=95.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:36:59] SCORE Gruppe 67 (lawn green): Final=314.0, Time=98.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:36:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:00] MOVE 17: Gruppe 67 (lawn green) 44->61 [0.00ms]
+[2026-05-22 10:37:00] SCORE Erlend Og Linor (red): Final=307.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE jat (blue): Final=309.0, Time=95.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE Gruppe 67 (lawn green): Final=321.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:00] MOVE 18: jat (blue) 2->27 [0.00ms]
+[2026-05-22 10:37:00] SCORE Erlend Og Linor (red): Final=307.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE jat (blue): Final=316.7, Time=94.7, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE Gruppe 67 (lawn green): Final=321.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:00] MOVE 19: Erlend Og Linor (red) 105->80 [0.00ms]
+[2026-05-22 10:37:00] SCORE Erlend Og Linor (red): Final=311.4, Time=99.4, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE jat (blue): Final=316.7, Time=94.7, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE Gruppe 67 (lawn green): Final=321.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:00] MOVE 20: Gruppe 67 (lawn green) 43->60 [0.00ms]
+[2026-05-22 10:37:00] SCORE Erlend Og Linor (red): Final=311.4, Time=99.4, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE jat (blue): Final=316.7, Time=94.7, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:37:00] SCORE Gruppe 67 (lawn green): Final=329.2, Time=97.2, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:02] MOVE 21: jat (blue) 15->59 [0.01ms]
+[2026-05-22 10:37:02] SCORE Erlend Og Linor (red): Final=311.4, Time=99.4, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE jat (blue): Final=323.3, Time=93.3, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE Gruppe 67 (lawn green): Final=329.2, Time=97.2, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:02] MOVE 22: Erlend Og Linor (red) 104->81 [0.01ms]
+[2026-05-22 10:37:02] SCORE Erlend Og Linor (red): Final=315.3, Time=99.3, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE jat (blue): Final=323.3, Time=93.3, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE Gruppe 67 (lawn green): Final=329.2, Time=97.2, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:02] MOVE 23: Gruppe 67 (lawn green) 53->69 [0.00ms]
+[2026-05-22 10:37:02] SCORE Erlend Og Linor (red): Final=315.3, Time=99.3, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE jat (blue): Final=323.3, Time=93.3, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:37:02] SCORE Gruppe 67 (lawn green): Final=336.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:04] MOVE 24: jat (blue) 4->40 [0.00ms]
+[2026-05-22 10:37:04] SCORE Erlend Og Linor (red): Final=315.3, Time=99.3, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE jat (blue): Final=330.2, Time=92.2, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE Gruppe 67 (lawn green): Final=336.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:04] MOVE 25: Erlend Og Linor (red) 115->79 [0.01ms]
+[2026-05-22 10:37:04] SCORE Erlend Og Linor (red): Final=323.1, Time=99.1, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE jat (blue): Final=330.2, Time=92.2, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE Gruppe 67 (lawn green): Final=336.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:37:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:04] MOVE 26: Gruppe 67 (lawn green) 52->68 [0.01ms]
+[2026-05-22 10:37:04] SCORE Erlend Og Linor (red): Final=323.1, Time=99.1, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE jat (blue): Final=330.2, Time=92.2, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:37:04] SCORE Gruppe 67 (lawn green): Final=344.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:05] MOVE 27: jat (blue) 9->29 [0.01ms]
+[2026-05-22 10:37:05] SCORE Erlend Og Linor (red): Final=323.1, Time=99.1, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:37:05] SCORE jat (blue): Final=333.0, Time=91.0, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:05] SCORE Gruppe 67 (lawn green): Final=344.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:05] MOVE 28: Erlend Og Linor (red) 117->104 [0.00ms]
+[2026-05-22 10:37:05] SCORE Erlend Og Linor (red): Final=327.0, Time=99.0, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:05] SCORE jat (blue): Final=333.0, Time=91.0, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:05] SCORE Gruppe 67 (lawn green): Final=344.4, Time=96.4, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:06] MOVE 29: Gruppe 67 (lawn green) 69->67 [0.00ms]
+[2026-05-22 10:37:06] SCORE Erlend Og Linor (red): Final=327.0, Time=99.0, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:06] SCORE jat (blue): Final=333.0, Time=91.0, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:37:06] SCORE Gruppe 67 (lawn green): Final=347.9, Time=95.9, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:37:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:07] MOVE 30: jat (blue) 28->90 [0.01ms]
+[2026-05-22 10:37:07] SCORE Erlend Og Linor (red): Final=327.0, Time=99.0, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:37:07] SCORE jat (blue): Final=343.7, Time=89.7, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:07] SCORE Gruppe 67 (lawn green): Final=347.9, Time=95.9, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:37:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:07] MOVE 31: Erlend Og Linor (red) 116->105 [0.01ms]
+[2026-05-22 10:37:07] SCORE Erlend Og Linor (red): Final=330.9, Time=98.9, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:07] SCORE jat (blue): Final=343.7, Time=89.7, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:07] SCORE Gruppe 67 (lawn green): Final=347.9, Time=95.9, Moves(10)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:37:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:08] MOVE 32: Gruppe 67 (lawn green) 60->77 [0.01ms]
+[2026-05-22 10:37:08] SCORE Erlend Og Linor (red): Final=330.9, Time=98.9, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:08] SCORE jat (blue): Final=343.7, Time=89.7, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:37:08] SCORE Gruppe 67 (lawn green): Final=355.5, Time=95.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:37:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:08] MOVE 33: jat (blue) 8->71 [0.01ms]
+[2026-05-22 10:37:08] SCORE Erlend Og Linor (red): Final=330.9, Time=98.9, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:37:08] SCORE jat (blue): Final=354.9, Time=88.9, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:37:08] SCORE Gruppe 67 (lawn green): Final=355.5, Time=95.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:37:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:09] MOVE 34: Erlend Og Linor (red) 92->8 [0.01ms]
+[2026-05-22 10:37:09] SCORE Erlend Og Linor (red): Final=446.9, Time=98.9, Moves(12)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:09] SCORE jat (blue): Final=354.9, Time=88.9, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:37:09] SCORE Gruppe 67 (lawn green): Final=355.5, Time=95.5, Moves(11)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:37:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:09] MOVE 35: Gruppe 67 (lawn green) 55->73 [0.00ms]
+[2026-05-22 10:37:09] SCORE Erlend Og Linor (red): Final=446.9, Time=98.9, Moves(12)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:09] SCORE jat (blue): Final=354.9, Time=88.9, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:37:09] SCORE Gruppe 67 (lawn green): Final=359.1, Time=95.1, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:10] MOVE 36: jat (blue) 3->7 [0.00ms]
+[2026-05-22 10:37:10] SCORE Erlend Og Linor (red): Final=446.9, Time=98.9, Moves(12)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:37:10] SCORE jat (blue): Final=355.6, Time=87.6, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:10] SCORE Gruppe 67 (lawn green): Final=359.1, Time=95.1, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:10] MOVE 37: Erlend Og Linor (red) 112->28 [0.00ms]
+[2026-05-22 10:37:10] SCORE Erlend Og Linor (red): Final=462.8, Time=98.8, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:10] SCORE jat (blue): Final=355.6, Time=87.6, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:10] SCORE Gruppe 67 (lawn green): Final=359.1, Time=95.1, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:11] MOVE 38: Gruppe 67 (lawn green) 68->66 [0.01ms]
+[2026-05-22 10:37:11] SCORE Erlend Og Linor (red): Final=462.8, Time=98.8, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:11] SCORE jat (blue): Final=355.6, Time=87.6, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:11] SCORE Gruppe 67 (lawn green): Final=362.7, Time=94.7, Moves(13)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:12] MOVE 39: jat (blue) 7->15 [0.00ms]
+[2026-05-22 10:37:12] SCORE Erlend Og Linor (red): Final=462.8, Time=98.8, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:37:12] SCORE jat (blue): Final=356.1, Time=86.1, Moves(13)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:37:12] SCORE Gruppe 67 (lawn green): Final=362.7, Time=94.7, Moves(13)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:12] MOVE 40: Erlend Og Linor (red) 91->52 [0.00ms]
+[2026-05-22 10:37:12] SCORE Erlend Og Linor (red): Final=470.7, Time=98.7, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:12] SCORE jat (blue): Final=356.1, Time=86.1, Moves(13)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:37:12] SCORE Gruppe 67 (lawn green): Final=362.7, Time=94.7, Moves(13)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:37:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:13] MOVE 41: Gruppe 67 (lawn green) 67->65 [0.00ms]
+[2026-05-22 10:37:13] SCORE Erlend Og Linor (red): Final=470.7, Time=98.7, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:13] SCORE jat (blue): Final=356.1, Time=86.1, Moves(13)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:37:13] SCORE Gruppe 67 (lawn green): Final=466.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:14] MOVE 42: jat (blue) 16->60 [0.00ms]
+[2026-05-22 10:37:14] SCORE Erlend Og Linor (red): Final=470.7, Time=98.7, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE jat (blue): Final=363.0, Time=85.0, Moves(14)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE Gruppe 67 (lawn green): Final=466.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:14] MOVE 43: Erlend Og Linor (red) 113->72 [0.00ms]
+[2026-05-22 10:37:14] SCORE Erlend Og Linor (red): Final=478.6, Time=98.6, Moves(15)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE jat (blue): Final=363.0, Time=85.0, Moves(14)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE Gruppe 67 (lawn green): Final=466.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:37:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:14] MOVE 44: Gruppe 67 (lawn green) 64->83 [0.00ms]
+[2026-05-22 10:37:14] SCORE Erlend Og Linor (red): Final=478.6, Time=98.6, Moves(15)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE jat (blue): Final=363.0, Time=85.0, Moves(14)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:37:14] SCORE Gruppe 67 (lawn green): Final=469.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:37:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:15] MOVE 45: jat (blue) 50->113 [0.01ms]
+[2026-05-22 10:37:15] SCORE Erlend Og Linor (red): Final=478.6, Time=98.6, Moves(15)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:15] SCORE jat (blue): Final=474.1, Time=84.1, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:15] SCORE Gruppe 67 (lawn green): Final=469.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:37:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:15] MOVE 46: Erlend Og Linor (red) 105->92 [0.01ms]
+[2026-05-22 10:37:15] SCORE Erlend Og Linor (red): Final=480.5, Time=98.5, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:37:15] SCORE jat (blue): Final=474.1, Time=84.1, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:15] SCORE Gruppe 67 (lawn green): Final=469.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:37:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:16] MOVE 47: Gruppe 67 (lawn green) 73->94 [0.00ms]
+[2026-05-22 10:37:16] SCORE Erlend Og Linor (red): Final=480.5, Time=98.5, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:37:16] SCORE jat (blue): Final=474.1, Time=84.1, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:16] SCORE Gruppe 67 (lawn green): Final=473.3, Time=93.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:17] MOVE 48: jat (blue) 29->111 [0.01ms]
+[2026-05-22 10:37:17] SCORE Erlend Og Linor (red): Final=480.5, Time=98.5, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:37:17] SCORE jat (blue): Final=588.6, Time=82.6, Moves(16)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:37:17] SCORE Gruppe 67 (lawn green): Final=473.3, Time=93.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:18] MOVE 49: Erlend Og Linor (red) 92->51 [0.00ms]
+[2026-05-22 10:37:18] SCORE Erlend Og Linor (red): Final=488.4, Time=98.4, Moves(17)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:18] SCORE jat (blue): Final=588.6, Time=82.6, Moves(16)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:37:18] SCORE Gruppe 67 (lawn green): Final=473.3, Time=93.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:37:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:18] MOVE 50: Gruppe 67 (lawn green) 83->106 [0.01ms]
+[2026-05-22 10:37:18] SCORE Erlend Og Linor (red): Final=488.4, Time=98.4, Moves(17)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:18] SCORE jat (blue): Final=588.6, Time=82.6, Moves(16)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:37:18] SCORE Gruppe 67 (lawn green): Final=476.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:37:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:20] MOVE 51: jat (blue) 27->93 [0.01ms]
+[2026-05-22 10:37:20] SCORE Erlend Og Linor (red): Final=488.4, Time=98.4, Moves(17)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE jat (blue): Final=599.1, Time=81.1, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE Gruppe 67 (lawn green): Final=476.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:37:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:20] MOVE 52: Erlend Og Linor (red) 104->91 [0.01ms]
+[2026-05-22 10:37:20] SCORE Erlend Og Linor (red): Final=490.3, Time=98.3, Moves(18)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE jat (blue): Final=599.1, Time=81.1, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE Gruppe 67 (lawn green): Final=476.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:37:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:20] MOVE 53: Gruppe 67 (lawn green) 94->112 [0.01ms]
+[2026-05-22 10:37:20] SCORE Erlend Og Linor (red): Final=490.3, Time=98.3, Moves(18)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE jat (blue): Final=599.1, Time=81.1, Moves(17)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:37:20] SCORE Gruppe 67 (lawn green): Final=482.3, Time=92.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:21] MOVE 54: jat (blue) 39->83 [0.01ms]
+[2026-05-22 10:37:21] SCORE Erlend Og Linor (red): Final=490.3, Time=98.3, Moves(18)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:37:21] SCORE jat (blue): Final=605.9, Time=79.9, Moves(18)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:21] SCORE Gruppe 67 (lawn green): Final=482.3, Time=92.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:21] MOVE 55: Erlend Og Linor (red) 91->29 [0.01ms]
+[2026-05-22 10:37:21] SCORE Erlend Og Linor (red): Final=502.3, Time=98.3, Moves(19)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:37:21] SCORE jat (blue): Final=605.9, Time=79.9, Moves(18)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:21] SCORE Gruppe 67 (lawn green): Final=482.3, Time=92.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:37:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:22] MOVE 56: Gruppe 67 (lawn green) 61->105 [0.01ms]
+[2026-05-22 10:37:22] SCORE Erlend Og Linor (red): Final=502.3, Time=98.3, Moves(19)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:37:22] SCORE jat (blue): Final=605.9, Time=79.9, Moves(18)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:22] SCORE Gruppe 67 (lawn green): Final=485.8, Time=91.8, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:37:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:23] MOVE 57: jat (blue) 40->82 [0.00ms]
+[2026-05-22 10:37:23] SCORE Erlend Og Linor (red): Final=502.3, Time=98.3, Moves(19)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:37:23] SCORE jat (blue): Final=612.5, Time=78.5, Moves(19)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:23] SCORE Gruppe 67 (lawn green): Final=485.8, Time=91.8, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:37:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:23] MOVE 58: Erlend Og Linor (red) 103->78 [0.00ms]
+[2026-05-22 10:37:23] SCORE Erlend Og Linor (red): Final=506.2, Time=98.2, Moves(20)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:37:23] SCORE jat (blue): Final=612.5, Time=78.5, Moves(19)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:23] SCORE Gruppe 67 (lawn green): Final=485.8, Time=91.8, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:37:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:24] MOVE 59: Gruppe 67 (lawn green) 106->102 [0.01ms]
+[2026-05-22 10:37:24] SCORE Erlend Og Linor (red): Final=506.2, Time=98.2, Moves(20)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:37:24] SCORE jat (blue): Final=612.5, Time=78.5, Moves(19)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:24] SCORE Gruppe 67 (lawn green): Final=493.4, Time=91.4, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:37:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:25] MOVE 60: jat (blue) 71->114 [0.01ms]
+[2026-05-22 10:37:25] SCORE Erlend Og Linor (red): Final=506.2, Time=98.2, Moves(20)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:37:25] SCORE jat (blue): Final=719.3, Time=77.3, Moves(20)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:25] SCORE Gruppe 67 (lawn green): Final=493.4, Time=91.4, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:37:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:25] MOVE 61: Erlend Og Linor (red) 79->69 [0.00ms]
+[2026-05-22 10:37:25] SCORE Erlend Og Linor (red): Final=508.2, Time=98.2, Moves(21)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:25] SCORE jat (blue): Final=719.3, Time=77.3, Moves(20)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:25] SCORE Gruppe 67 (lawn green): Final=493.4, Time=91.4, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:37:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:26] MOVE 62: Gruppe 67 (lawn green) 105->101 [0.01ms]
+[2026-05-22 10:37:26] SCORE Erlend Og Linor (red): Final=508.2, Time=98.2, Moves(21)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:26] SCORE jat (blue): Final=719.3, Time=77.3, Moves(20)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:26] SCORE Gruppe 67 (lawn green): Final=600.9, Time=90.9, Moves(21)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:27] MOVE 63: jat (blue) 82->116 [0.01ms]
+[2026-05-22 10:37:27] SCORE Erlend Og Linor (red): Final=508.2, Time=98.2, Moves(21)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:27] SCORE jat (blue): Final=823.8, Time=75.8, Moves(21)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:37:27] SCORE Gruppe 67 (lawn green): Final=600.9, Time=90.9, Moves(21)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:27] MOVE 64: Erlend Og Linor (red) 69->49 [0.01ms]
+[2026-05-22 10:37:27] SCORE Erlend Og Linor (red): Final=512.1, Time=98.1, Moves(22)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:27] SCORE jat (blue): Final=823.8, Time=75.8, Moves(21)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:37:27] SCORE Gruppe 67 (lawn green): Final=600.9, Time=90.9, Moves(21)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:37:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:28] MOVE 65: Gruppe 67 (lawn green) 14->58 [0.01ms]
+[2026-05-22 10:37:28] SCORE Erlend Og Linor (red): Final=512.1, Time=98.1, Moves(22)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:28] SCORE jat (blue): Final=823.8, Time=75.8, Moves(21)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:37:28] SCORE Gruppe 67 (lawn green): Final=604.5, Time=90.5, Moves(22)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:29] MOVE 66: jat (blue) 15->61 [0.00ms]
+[2026-05-22 10:37:29] SCORE Erlend Og Linor (red): Final=512.1, Time=98.1, Moves(22)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:29] SCORE jat (blue): Final=830.3, Time=74.3, Moves(22)=0.0, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:29] SCORE Gruppe 67 (lawn green): Final=604.5, Time=90.5, Moves(22)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:29] MOVE 67: Erlend Og Linor (red) 49->39 [0.00ms]
+[2026-05-22 10:37:29] SCORE Erlend Og Linor (red): Final=514.0, Time=98.0, Moves(23)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:29] SCORE jat (blue): Final=830.3, Time=74.3, Moves(22)=0.0, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:29] SCORE Gruppe 67 (lawn green): Final=604.5, Time=90.5, Moves(22)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:37:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:30] MOVE 68: Gruppe 67 (lawn green) 21->33 [0.01ms]
+[2026-05-22 10:37:30] SCORE Erlend Og Linor (red): Final=514.0, Time=98.0, Moves(23)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:30] SCORE jat (blue): Final=830.3, Time=74.3, Moves(22)=0.0, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:30] SCORE Gruppe 67 (lawn green): Final=606.0, Time=90.0, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:31] MOVE 69: jat (blue) 90->103 [0.02ms]
+[2026-05-22 10:37:31] SCORE Erlend Og Linor (red): Final=514.0, Time=98.0, Moves(23)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:31] SCORE jat (blue): Final=830.9, Time=72.9, Moves(23)=0.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:31] SCORE Gruppe 67 (lawn green): Final=606.0, Time=90.0, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:31] MOVE 70: Erlend Og Linor (red) 39->5 [0.00ms]
+[2026-05-22 10:37:31] SCORE Erlend Og Linor (red): Final=619.9, Time=97.9, Moves(24)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:31] SCORE jat (blue): Final=830.9, Time=72.9, Moves(23)=0.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:31] SCORE Gruppe 67 (lawn green): Final=606.0, Time=90.0, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:37:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:32] MOVE 71: Gruppe 67 (lawn green) 112->88 [0.01ms]
+[2026-05-22 10:37:32] SCORE Erlend Og Linor (red): Final=619.9, Time=97.9, Moves(24)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE jat (blue): Final=830.9, Time=72.9, Moves(23)=0.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE Gruppe 67 (lawn green): Final=711.5, Time=89.5, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:32] MOVE 72: jat (blue) 60->70 [0.00ms]
+[2026-05-22 10:37:32] SCORE Erlend Og Linor (red): Final=619.9, Time=97.9, Moves(24)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE jat (blue): Final=832.1, Time=72.1, Moves(24)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE Gruppe 67 (lawn green): Final=711.5, Time=89.5, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:32] MOVE 73: Erlend Og Linor (red) 81->16 [0.00ms]
+[2026-05-22 10:37:32] SCORE Erlend Og Linor (red): Final=631.9, Time=97.9, Moves(25)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE jat (blue): Final=832.1, Time=72.1, Moves(24)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:32] SCORE Gruppe 67 (lawn green): Final=711.5, Time=89.5, Moves(24)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:37:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:33] MOVE 74: Gruppe 67 (lawn green) 34->32 [0.01ms]
+[2026-05-22 10:37:33] SCORE Erlend Og Linor (red): Final=631.9, Time=97.9, Moves(25)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:33] SCORE jat (blue): Final=832.1, Time=72.1, Moves(24)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:33] SCORE Gruppe 67 (lawn green): Final=715.1, Time=89.1, Moves(25)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:34] MOVE 75: jat (blue) 83->117 [0.03ms]
+[2026-05-22 10:37:34] SCORE Erlend Og Linor (red): Final=631.9, Time=97.9, Moves(25)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE jat (blue): Final=937.0, Time=71.0, Moves(25)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE Gruppe 67 (lawn green): Final=715.1, Time=89.1, Moves(25)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:34] MOVE 76: Erlend Og Linor (red) 29->7 [0.00ms]
+[2026-05-22 10:37:34] SCORE Erlend Og Linor (red): Final=735.8, Time=97.8, Moves(26)=0.0, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE jat (blue): Final=937.0, Time=71.0, Moves(25)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE Gruppe 67 (lawn green): Final=715.1, Time=89.1, Moves(25)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:37:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:34] MOVE 77: Gruppe 67 (lawn green) 33->31 [0.01ms]
+[2026-05-22 10:37:34] SCORE Erlend Og Linor (red): Final=735.8, Time=97.8, Moves(26)=0.0, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE jat (blue): Final=937.0, Time=71.0, Moves(25)=0.0, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:34] SCORE Gruppe 67 (lawn green): Final=718.7, Time=88.7, Moves(26)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:37:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:36] MOVE 78: jat (blue) 70->91 [0.01ms]
+[2026-05-22 10:37:36] SCORE Erlend Og Linor (red): Final=735.8, Time=97.8, Moves(26)=0.0, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE jat (blue): Final=939.7, Time=69.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE Gruppe 67 (lawn green): Final=718.7, Time=88.7, Moves(26)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:37:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:36] MOVE 79: Erlend Og Linor (red) 16->3 [0.01ms]
+[2026-05-22 10:37:36] SCORE Erlend Og Linor (red): Final=837.7, Time=97.7, Moves(27)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE jat (blue): Final=939.7, Time=69.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE Gruppe 67 (lawn green): Final=718.7, Time=88.7, Moves(26)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:37:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:36] MOVE 80: Gruppe 67 (lawn green) 32->30 [0.01ms]
+[2026-05-22 10:37:36] SCORE Erlend Og Linor (red): Final=837.7, Time=97.7, Moves(27)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE jat (blue): Final=939.7, Time=69.7, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:37:36] SCORE Gruppe 67 (lawn green): Final=722.1, Time=88.1, Moves(27)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:38] MOVE 81: jat (blue) 91->104 [0.01ms]
+[2026-05-22 10:37:38] SCORE Erlend Og Linor (red): Final=837.7, Time=97.7, Moves(27)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:38] SCORE jat (blue): Final=940.4, Time=68.4, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:38] SCORE Gruppe 67 (lawn green): Final=722.1, Time=88.1, Moves(27)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:38] MOVE 82: Erlend Og Linor (red) 3->1 [0.01ms]
+[2026-05-22 10:37:38] SCORE Erlend Og Linor (red): Final=837.6, Time=97.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:38] SCORE jat (blue): Final=940.4, Time=68.4, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:38] SCORE Gruppe 67 (lawn green): Final=722.1, Time=88.1, Moves(27)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:37:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:39] MOVE 83: Gruppe 67 (lawn green) 31->27 [0.01ms]
+[2026-05-22 10:37:39] SCORE Erlend Og Linor (red): Final=837.6, Time=97.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:39] SCORE jat (blue): Final=940.4, Time=68.4, Moves(27)=0.0, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:39] SCORE Gruppe 67 (lawn green): Final=729.5, Time=87.5, Moves(28)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:40] MOVE 84: jat (blue) 59->69 [0.00ms]
+[2026-05-22 10:37:40] SCORE Erlend Og Linor (red): Final=837.6, Time=97.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:37:40] SCORE jat (blue): Final=941.0, Time=67.0, Moves(28)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:37:40] SCORE Gruppe 67 (lawn green): Final=729.5, Time=87.5, Moves(28)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:40] MOVE 85: Erlend Og Linor (red) 80->59 [0.00ms]
+[2026-05-22 10:37:40] SCORE Erlend Og Linor (red): Final=841.5, Time=97.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:40] SCORE jat (blue): Final=941.0, Time=67.0, Moves(28)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:37:40] SCORE Gruppe 67 (lawn green): Final=729.5, Time=87.5, Moves(28)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:37:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:41] MOVE 86: Gruppe 67 (lawn green) 58->67 [0.01ms]
+[2026-05-22 10:37:41] SCORE Erlend Og Linor (red): Final=841.5, Time=97.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:41] SCORE jat (blue): Final=941.0, Time=67.0, Moves(28)=0.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:37:41] SCORE Gruppe 67 (lawn green): Final=731.0, Time=86.9, Moves(29)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:42] MOVE 87: jat (blue) 93->105 [0.01ms]
+[2026-05-22 10:37:42] SCORE Erlend Og Linor (red): Final=841.5, Time=97.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE jat (blue): Final=941.7, Time=65.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE Gruppe 67 (lawn green): Final=731.0, Time=86.9, Moves(29)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:42] MOVE 88: Erlend Og Linor (red) 72->62 [0.01ms]
+[2026-05-22 10:37:42] SCORE Erlend Og Linor (red): Final=843.5, Time=97.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE jat (blue): Final=941.7, Time=65.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE Gruppe 67 (lawn green): Final=731.0, Time=86.9, Moves(29)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:37:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:42] MOVE 89: Gruppe 67 (lawn green) 19->31 [0.00ms]
+[2026-05-22 10:37:42] SCORE Erlend Og Linor (red): Final=843.5, Time=97.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE jat (blue): Final=941.7, Time=65.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:37:42] SCORE Gruppe 67 (lawn green): Final=732.6, Time=86.5, Moves(30)=0.1, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:44] MOVE 90: jat (blue) 103->112 [0.00ms]
+[2026-05-22 10:37:44] SCORE Erlend Og Linor (red): Final=843.5, Time=97.4, Moves(30)=0.1, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE jat (blue): Final=1042.6, Time=64.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE Gruppe 67 (lawn green): Final=732.6, Time=86.5, Moves(30)=0.1, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:44] MOVE 91: Erlend Og Linor (red) 62->18 [0.00ms]
+[2026-05-22 10:37:44] SCORE Erlend Og Linor (red): Final=851.6, Time=97.3, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE jat (blue): Final=1042.6, Time=64.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE Gruppe 67 (lawn green): Final=732.6, Time=86.5, Moves(30)=0.1, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:37:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:44] MOVE 92: Gruppe 67 (lawn green) 31->29 [0.00ms]
+[2026-05-22 10:37:44] SCORE Erlend Og Linor (red): Final=851.6, Time=97.3, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE jat (blue): Final=1042.6, Time=64.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:44] SCORE Gruppe 67 (lawn green): Final=736.3, Time=86.1, Moves(31)=0.2, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:37:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:45] MOVE 93: jat (blue) 104->115 [0.00ms]
+[2026-05-22 10:37:45] SCORE Erlend Og Linor (red): Final=851.6, Time=97.3, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE jat (blue): Final=1143.7, Time=63.5, Moves(31)=0.2, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Gruppe 67 (lawn green): Final=736.3, Time=86.1, Moves(31)=0.2, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:37:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:45] MOVE 94: Erlend Og Linor (red) 5->2 [0.00ms]
+[2026-05-22 10:37:45] SCORE Erlend Og Linor (red): Final=851.7, Time=97.2, Moves(32)=0.5, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE jat (blue): Final=1143.7, Time=63.5, Moves(31)=0.2, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:37:45] SCORE Gruppe 67 (lawn green): Final=736.3, Time=86.1, Moves(31)=0.2, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:37:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:46] MOVE 95: Gruppe 67 (lawn green) 27->26 [0.00ms]
+[2026-05-22 10:37:46] SCORE Erlend Og Linor (red): Final=851.7, Time=97.2, Moves(32)=0.5, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE jat (blue): Final=1143.7, Time=63.5, Moves(31)=0.2, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:37:46] SCORE Gruppe 67 (lawn green): Final=738.2, Time=85.6, Moves(32)=0.5, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:37:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 96: jat (blue) 61->70 [0.01ms]
+[2026-05-22 10:37:47] SCORE Erlend Og Linor (red): Final=851.7, Time=97.2, Moves(32)=0.5, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE jat (blue): Final=1144.6, Time=62.1, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Gruppe 67 (lawn green): Final=738.2, Time=85.6, Moves(32)=0.5, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:37:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 97: Erlend Og Linor (red) 59->60 [0.01ms]
+[2026-05-22 10:37:47] SCORE Erlend Og Linor (red): Final=852.3, Time=97.1, Moves(33)=1.1, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE jat (blue): Final=1144.6, Time=62.1, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:37:47] SCORE Gruppe 67 (lawn green): Final=738.2, Time=85.6, Moves(32)=0.5, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:37:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:47] MOVE 98: Gruppe 67 (lawn green) 29->25 [0.01ms]
+[2026-05-22 10:37:48] SCORE Erlend Og Linor (red): Final=852.3, Time=97.1, Moves(33)=1.1, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE jat (blue): Final=1144.6, Time=62.1, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:37:48] SCORE Gruppe 67 (lawn green): Final=744.4, Time=85.2, Moves(33)=1.1, Pins(3)=300.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:49] MOVE 99: jat (blue) 70->89 [0.01ms]
+[2026-05-22 10:37:49] SCORE Erlend Og Linor (red): Final=852.3, Time=97.1, Moves(33)=1.1, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE jat (blue): Final=1148.0, Time=60.8, Moves(33)=1.1, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE Gruppe 67 (lawn green): Final=744.4, Time=85.2, Moves(33)=1.1, Pins(3)=300.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:49] MOVE 100: Erlend Og Linor (red) 18->9 [0.00ms]
+[2026-05-22 10:37:49] SCORE Erlend Og Linor (red): Final=955.3, Time=97.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE jat (blue): Final=1148.0, Time=60.8, Moves(33)=1.1, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE Gruppe 67 (lawn green): Final=744.4, Time=85.2, Moves(33)=1.1, Pins(3)=300.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:37:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:49] MOVE 101: Gruppe 67 (lawn green) 26->37 [0.00ms]
+[2026-05-22 10:37:49] SCORE Erlend Og Linor (red): Final=955.3, Time=97.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE jat (blue): Final=1148.0, Time=60.8, Moves(33)=1.1, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:37:49] SCORE Gruppe 67 (lawn green): Final=747.2, Time=84.9, Moves(34)=2.3, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 102: jat (blue) 69->79 [0.00ms]
+[2026-05-22 10:37:51] SCORE Erlend Og Linor (red): Final=955.3, Time=97.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE jat (blue): Final=1149.7, Time=59.5, Moves(34)=2.3, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 67 (lawn green): Final=747.2, Time=84.9, Moves(34)=2.3, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 103: Erlend Og Linor (red) 60->0 [0.01ms]
+[2026-05-22 10:37:51] SCORE Erlend Og Linor (red): Final=1067.4, Time=97.0, Moves(35)=4.4, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE jat (blue): Final=1149.7, Time=59.5, Moves(34)=2.3, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 67 (lawn green): Final=747.2, Time=84.9, Moves(34)=2.3, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:51] MOVE 104: Gruppe 67 (lawn green) 25->36 [0.01ms]
+[2026-05-22 10:37:51] SCORE Erlend Og Linor (red): Final=1067.4, Time=97.0, Moves(35)=4.4, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE jat (blue): Final=1149.7, Time=59.5, Moves(34)=2.3, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:37:51] SCORE Gruppe 67 (lawn green): Final=750.8, Time=84.5, Moves(35)=4.4, Pins(3)=300.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:37:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:52] MOVE 105: jat (blue) 79->91 [0.00ms]
+[2026-05-22 10:37:52] SCORE Erlend Og Linor (red): Final=1067.4, Time=97.0, Moves(35)=4.4, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE jat (blue): Final=1152.5, Time=58.1, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:37:52] SCORE Gruppe 67 (lawn green): Final=750.8, Time=84.5, Moves(35)=4.4, Pins(3)=300.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:37:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:53] MOVE 106: Erlend Og Linor (red) 52->41 [0.00ms]
+[2026-05-22 10:37:53] SCORE Erlend Og Linor (red): Final=1072.9, Time=96.9, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE jat (blue): Final=1152.5, Time=58.1, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Gruppe 67 (lawn green): Final=750.8, Time=84.5, Moves(35)=4.4, Pins(3)=300.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:37:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:53] MOVE 107: Gruppe 67 (lawn green) 36->46 [0.01ms]
+[2026-05-22 10:37:53] SCORE Erlend Og Linor (red): Final=1072.9, Time=96.9, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE jat (blue): Final=1152.5, Time=58.1, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:37:53] SCORE Gruppe 67 (lawn green): Final=755.9, Time=84.0, Moves(36)=8.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:37:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:54] MOVE 108: jat (blue) 91->104 [0.00ms]
+[2026-05-22 10:37:54] SCORE Erlend Og Linor (red): Final=1072.9, Time=96.9, Moves(36)=8.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE jat (blue): Final=1156.7, Time=56.8, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Gruppe 67 (lawn green): Final=755.9, Time=84.0, Moves(36)=8.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:37:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:54] MOVE 109: Erlend Og Linor (red) 78->57 [0.00ms]
+[2026-05-22 10:37:54] SCORE Erlend Og Linor (red): Final=1082.4, Time=96.9, Moves(37)=13.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE jat (blue): Final=1156.7, Time=56.8, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:37:54] SCORE Gruppe 67 (lawn green): Final=755.9, Time=84.0, Moves(36)=8.0, Pins(3)=300.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:37:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:55] MOVE 110: Gruppe 67 (lawn green) 102->100 [0.00ms]
+[2026-05-22 10:37:55] SCORE Erlend Og Linor (red): Final=1082.4, Time=96.9, Moves(37)=13.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE jat (blue): Final=1156.7, Time=56.8, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:37:55] SCORE Gruppe 67 (lawn green): Final=863.1, Time=83.6, Moves(37)=13.5, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:56] MOVE 111: jat (blue) 89->102 [0.00ms]
+[2026-05-22 10:37:56] SCORE Erlend Og Linor (red): Final=1082.4, Time=96.9, Moves(37)=13.5, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE jat (blue): Final=1163.1, Time=55.6, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Gruppe 67 (lawn green): Final=863.1, Time=83.6, Moves(37)=13.5, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:56] MOVE 112: Erlend Og Linor (red) 41->5 [0.00ms]
+[2026-05-22 10:37:56] SCORE Erlend Og Linor (red): Final=1196.4, Time=96.8, Moves(38)=21.6, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE jat (blue): Final=1163.1, Time=55.6, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Gruppe 67 (lawn green): Final=863.1, Time=83.6, Moves(37)=13.5, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:37:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:56] MOVE 113: Gruppe 67 (lawn green) 30->29 [0.00ms]
+[2026-05-22 10:37:56] SCORE Erlend Og Linor (red): Final=1196.4, Time=96.8, Moves(38)=21.6, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE jat (blue): Final=1163.1, Time=55.6, Moves(37)=13.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:56] SCORE Gruppe 67 (lawn green): Final=872.8, Time=83.2, Moves(38)=21.6, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:58] MOVE 114: jat (blue) 114->119 [0.00ms]
+[2026-05-22 10:37:58] SCORE Erlend Og Linor (red): Final=1196.4, Time=96.8, Moves(38)=21.6, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE jat (blue): Final=1170.0, Time=54.4, Moves(38)=21.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE Gruppe 67 (lawn green): Final=872.8, Time=83.2, Moves(38)=21.6, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:58] MOVE 115: Erlend Og Linor (red) 57->56 [0.00ms]
+[2026-05-22 10:37:58] SCORE Erlend Og Linor (red): Final=1207.2, Time=96.7, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE jat (blue): Final=1170.0, Time=54.4, Moves(38)=21.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE Gruppe 67 (lawn green): Final=872.8, Time=83.2, Moves(38)=21.6, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:37:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:58] MOVE 116: Gruppe 67 (lawn green) 29->27 [0.00ms]
+[2026-05-22 10:37:58] SCORE Erlend Og Linor (red): Final=1207.2, Time=96.7, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE jat (blue): Final=1170.0, Time=54.4, Moves(38)=21.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:37:58] SCORE Gruppe 67 (lawn green): Final=887.3, Time=82.8, Moves(39)=32.5, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:59] MOVE 117: jat (blue) 105->114 [0.00ms]
+[2026-05-22 10:37:59] SCORE Erlend Og Linor (red): Final=1207.2, Time=96.7, Moves(39)=32.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE jat (blue): Final=1281.8, Time=53.3, Moves(39)=32.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Gruppe 67 (lawn green): Final=887.3, Time=82.8, Moves(39)=32.5, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:37:59] MOVE 118: Erlend Og Linor (red) 56->47 [0.00ms]
+[2026-05-22 10:37:59] SCORE Erlend Og Linor (red): Final=1222.4, Time=96.6, Moves(40)=45.8, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE jat (blue): Final=1281.8, Time=53.3, Moves(39)=32.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:37:59] SCORE Gruppe 67 (lawn green): Final=887.3, Time=82.8, Moves(39)=32.5, Pins(4)=400.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:37:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:00] MOVE 119: Gruppe 67 (lawn green) 37->75 [0.00ms]
+[2026-05-22 10:38:00] SCORE Erlend Og Linor (red): Final=1222.4, Time=96.6, Moves(40)=45.8, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE jat (blue): Final=1281.8, Time=53.3, Moves(39)=32.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Gruppe 67 (lawn green): Final=1006.2, Time=82.4, Moves(40)=45.8, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:00] MOVE 120: jat (blue) 111->118 [0.00ms]
+[2026-05-22 10:38:00] SCORE Erlend Og Linor (red): Final=1222.4, Time=96.6, Moves(40)=45.8, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE jat (blue): Final=1294.3, Time=52.5, Moves(40)=45.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:00] SCORE Gruppe 67 (lawn green): Final=1006.2, Time=82.4, Moves(40)=45.8, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:01] MOVE 121: Erlend Og Linor (red) 47->48 [0.00ms]
+[2026-05-22 10:38:01] SCORE Erlend Og Linor (red): Final=1237.2, Time=96.5, Moves(41)=60.7, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE jat (blue): Final=1294.3, Time=52.5, Moves(40)=45.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Gruppe 67 (lawn green): Final=1006.2, Time=82.4, Moves(40)=45.8, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:38:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:01] MOVE 122: Gruppe 67 (lawn green) 66->76 [0.00ms]
+[2026-05-22 10:38:01] SCORE Erlend Og Linor (red): Final=1237.2, Time=96.5, Moves(41)=60.7, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE jat (blue): Final=1294.3, Time=52.5, Moves(40)=45.8, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Gruppe 67 (lawn green): Final=1122.7, Time=82.0, Moves(41)=60.7, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:01] MOVE 123: jat (blue) 102->111 [0.01ms]
+[2026-05-22 10:38:01] SCORE Erlend Og Linor (red): Final=1237.2, Time=96.5, Moves(41)=60.7, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE jat (blue): Final=1410.7, Time=52.1, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:01] SCORE Gruppe 67 (lawn green): Final=1122.7, Time=82.0, Moves(41)=60.7, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 124: Erlend Og Linor (red) 48->49 [0.00ms]
+[2026-05-22 10:38:02] SCORE Erlend Og Linor (red): Final=1251.9, Time=96.4, Moves(42)=75.5, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE jat (blue): Final=1410.7, Time=52.1, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 67 (lawn green): Final=1122.7, Time=82.0, Moves(41)=60.7, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 125: Gruppe 67 (lawn green) 46->56 [0.01ms]
+[2026-05-22 10:38:02] SCORE Erlend Og Linor (red): Final=1251.9, Time=96.4, Moves(42)=75.5, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE jat (blue): Final=1410.7, Time=52.1, Moves(41)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 67 (lawn green): Final=1139.2, Time=81.7, Moves(42)=75.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 126: jat (blue) 115->120 [0.00ms]
+[2026-05-22 10:38:02] SCORE Erlend Og Linor (red): Final=1251.9, Time=96.4, Moves(42)=75.5, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE jat (blue): Final=1425.3, Time=51.8, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 67 (lawn green): Final=1139.2, Time=81.7, Moves(42)=75.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 127: Erlend Og Linor (red) 49->39 [0.00ms]
+[2026-05-22 10:38:02] SCORE Erlend Og Linor (red): Final=1266.6, Time=96.4, Moves(43)=88.2, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE jat (blue): Final=1425.3, Time=51.8, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 67 (lawn green): Final=1139.2, Time=81.7, Moves(42)=75.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:02] MOVE 128: Gruppe 67 (lawn green) 67->66 [0.00ms]
+[2026-05-22 10:38:02] SCORE Erlend Og Linor (red): Final=1266.6, Time=96.4, Moves(43)=88.2, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE jat (blue): Final=1425.3, Time=51.8, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:38:02] SCORE Gruppe 67 (lawn green): Final=1153.8, Time=81.5, Moves(43)=88.2, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:38:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:03] MOVE 129: jat (blue) 104->115 [0.00ms]
+[2026-05-22 10:38:03] SCORE Erlend Og Linor (red): Final=1266.6, Time=96.4, Moves(43)=88.2, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:38:03] SCORE jat (blue): Final=2539.9, Time=51.6, Moves(43)=88.2, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:38:03] SCORE Gruppe 67 (lawn green): Final=1153.8, Time=81.5, Moves(43)=88.2, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:38:03] ALL WRONG MOVES BY COLOUR: {}

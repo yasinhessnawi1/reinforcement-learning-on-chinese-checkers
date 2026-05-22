@@ -1,0 +1,560 @@
+[2026-05-22 11:58:58] GAME CREATED
+[2026-05-22 11:59:58] PLAYER JOINED: Apollo as red
+[2026-05-22 12:01:36] PLAYER JOINED: B as blue
+[2026-05-22 12:01:36] PLAYER START: Apollo (red)
+[2026-05-22 12:01:36] PLAYER START: B (blue)
+[2026-05-22 12:01:36] GAME START — turn order ['red', 'blue']
+[2026-05-22 12:01:36] PLAYER START: Apollo (red)
+[2026-05-22 12:01:36] PLAYER START: B (blue)
+[2026-05-22 12:01:36] MOVE 1: Apollo (red) 114->105 [0.02ms]
+[2026-05-22 12:01:36] SCORE Apollo (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 12:01:36] SCORE B (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 12:01:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 12:01:38] SCORE Apollo (red): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 12:01:38] SCORE B (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 12:01:38] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)']}
+[2026-05-22 12:01:38] TURN TIMEOUT: Player with colour blue exceeded 2s at move 2. Turn skipped.
+[2026-05-22 12:01:38] MOVE 3: Apollo (red) 112->92 [0.02ms]
+[2026-05-22 12:01:38] SCORE Apollo (red): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:38] SCORE B (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 12:01:38] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)']}
+[2026-05-22 12:01:40] MOVE 4: B (blue) 5->16 [0.01ms]
+[2026-05-22 12:01:40] SCORE Apollo (red): Final=285.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:40] SCORE B (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 12:01:40] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)']}
+[2026-05-22 12:01:40] MOVE 5: Apollo (red) 117->114 [0.01ms]
+[2026-05-22 12:01:40] SCORE Apollo (red): Final=287.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 12:01:40] SCORE B (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 12:01:40] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)']}
+[2026-05-22 12:01:42] SCORE Apollo (red): Final=287.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 12:01:42] SCORE B (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 12:01:42] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:42] TURN TIMEOUT: Player with colour blue exceeded 2s at move 6. Turn skipped.
+[2026-05-22 12:01:42] MOVE 7: Apollo (red) 92->81 [0.01ms]
+[2026-05-22 12:01:42] SCORE Apollo (red): Final=288.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:42] SCORE B (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 12:01:42] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:44] MOVE 8: B (blue) 4->17 [0.01ms]
+[2026-05-22 12:01:44] SCORE Apollo (red): Final=288.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:44] SCORE B (blue): Final=285.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 12:01:44] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:44] MOVE 9: Apollo (red) 115->117 [0.01ms]
+[2026-05-22 12:01:44] SCORE Apollo (red): Final=288.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:44] SCORE B (blue): Final=285.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 12:01:44] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:45] MOVE 10: B (blue) 2->4 [0.01ms]
+[2026-05-22 12:01:45] SCORE Apollo (red): Final=288.4, Time=98.4, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:45] SCORE B (blue): Final=286.0, Time=96.0, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:45] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:46] MOVE 11: Apollo (red) 113->93 [0.01ms]
+[2026-05-22 12:01:46] SCORE Apollo (red): Final=291.8, Time=97.8, Moves(6)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:01:46] SCORE B (blue): Final=286.0, Time=96.0, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:46] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:48] MOVE 12: B (blue) 0->2 [0.01ms]
+[2026-05-22 12:01:48] SCORE Apollo (red): Final=291.8, Time=97.8, Moves(6)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:01:48] SCORE B (blue): Final=286.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 12:01:48] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:48] MOVE 13: Apollo (red) 120->115 [0.01ms]
+[2026-05-22 12:01:48] SCORE Apollo (red): Final=295.5, Time=97.5, Moves(7)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 12:01:48] SCORE B (blue): Final=286.6, Time=94.6, Moves(4)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 12:01:48] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:49] MOVE 14: B (blue) 2->0 [0.01ms]
+[2026-05-22 12:01:49] SCORE Apollo (red): Final=295.5, Time=97.5, Moves(7)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 12:01:49] SCORE B (blue): Final=283.3, Time=93.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:49] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:50] MOVE 15: Apollo (red) 116->113 [0.01ms]
+[2026-05-22 12:01:50] SCORE Apollo (red): Final=296.9, Time=96.9, Moves(8)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:01:50] SCORE B (blue): Final=283.3, Time=93.3, Moves(5)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:50] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:51] MOVE 16: B (blue) 1->2 [0.00ms]
+[2026-05-22 12:01:51] SCORE Apollo (red): Final=296.9, Time=96.9, Moves(8)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:01:51] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:51] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:51] MOVE 17: Apollo (red) 93->94 [0.01ms]
+[2026-05-22 12:01:51] SCORE Apollo (red): Final=296.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:01:51] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:51] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)']}
+[2026-05-22 12:01:54] SCORE Apollo (red): Final=296.6, Time=96.6, Moves(9)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:01:54] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:54] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)']}
+[2026-05-22 12:01:54] TURN TIMEOUT: Player with colour blue exceeded 2s at move 18. Turn skipped.
+[2026-05-22 12:01:54] MOVE 19: Apollo (red) 118->116 [0.01ms]
+[2026-05-22 12:01:54] SCORE Apollo (red): Final=298.4, Time=96.4, Moves(10)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:01:54] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:54] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)']}
+[2026-05-22 12:01:56] SCORE Apollo (red): Final=298.4, Time=96.4, Moves(10)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:01:56] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:56] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)']}
+[2026-05-22 12:01:56] TURN TIMEOUT: Player with colour blue exceeded 2s at move 20. Turn skipped.
+[2026-05-22 12:01:56] MOVE 21: Apollo (red) 113->70 [0.01ms]
+[2026-05-22 12:01:56] SCORE Apollo (red): Final=306.2, Time=96.2, Moves(11)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 12:01:56] SCORE B (blue): Final=281.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 12:01:56] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)']}
+[2026-05-22 12:01:56] MOVE 22: B (blue) 8->1 [0.01ms]
+[2026-05-22 12:01:56] SCORE Apollo (red): Final=306.2, Time=96.2, Moves(11)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 12:01:56] SCORE B (blue): Final=277.7, Time=91.7, Moves(7)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:56] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)']}
+[2026-05-22 12:01:57] MOVE 23: Apollo (red) 70->95 [0.01ms]
+[2026-05-22 12:01:57] SCORE Apollo (red): Final=301.5, Time=95.5, Moves(12)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:01:57] SCORE B (blue): Final=277.7, Time=91.7, Moves(7)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:57] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)']}
+[2026-05-22 12:01:59] SCORE Apollo (red): Final=301.5, Time=95.5, Moves(12)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:01:59] SCORE B (blue): Final=277.7, Time=91.7, Moves(7)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:59] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:01:59] TURN TIMEOUT: Player with colour blue exceeded 2s at move 24. Turn skipped.
+[2026-05-22 12:01:59] MOVE 25: Apollo (red) 105->113 [0.01ms]
+[2026-05-22 12:01:59] SCORE Apollo (red): Final=299.3, Time=95.3, Moves(13)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:01:59] SCORE B (blue): Final=277.7, Time=91.7, Moves(7)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 12:01:59] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:01:59] MOVE 26: B (blue) 1->28 [0.01ms]
+[2026-05-22 12:01:59] SCORE Apollo (red): Final=299.3, Time=95.3, Moves(13)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:01:59] SCORE B (blue): Final=285.5, Time=91.5, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:01:59] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:00] MOVE 27: Apollo (red) 94->107 [0.01ms]
+[2026-05-22 12:02:00] SCORE Apollo (red): Final=296.7, Time=94.7, Moves(14)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:00] SCORE B (blue): Final=285.5, Time=91.5, Moves(8)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:02:00] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:01] MOVE 28: B (blue) 28->30 [0.01ms]
+[2026-05-22 12:02:01] SCORE Apollo (red): Final=296.7, Time=94.7, Moves(14)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:01] SCORE B (blue): Final=284.1, Time=90.1, Moves(9)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:02:01] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:02] MOVE 29: Apollo (red) 114->112 [0.01ms]
+[2026-05-22 12:02:02] SCORE Apollo (red): Final=296.3, Time=94.3, Moves(15)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:02] SCORE B (blue): Final=284.1, Time=90.1, Moves(9)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 12:02:02] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:03] MOVE 30: B (blue) 0->41 [0.01ms]
+[2026-05-22 12:02:03] SCORE Apollo (red): Final=296.3, Time=94.3, Moves(15)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:03] SCORE B (blue): Final=294.9, Time=88.9, Moves(10)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:02:03] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:04] MOVE 31: Apollo (red) 111->102 [0.01ms]
+[2026-05-22 12:02:04] SCORE Apollo (red): Final=297.7, Time=93.7, Moves(16)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:04] SCORE B (blue): Final=294.9, Time=88.9, Moves(10)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:02:04] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)']}
+[2026-05-22 12:02:06] SCORE Apollo (red): Final=297.7, Time=93.7, Moves(16)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:06] SCORE B (blue): Final=294.9, Time=88.9, Moves(10)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:02:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)']}
+[2026-05-22 12:02:06] TURN TIMEOUT: Player with colour blue exceeded 2s at move 32. Turn skipped.
+[2026-05-22 12:02:06] MOVE 33: Apollo (red) 81->93 [0.01ms]
+[2026-05-22 12:02:06] SCORE Apollo (red): Final=295.5, Time=93.5, Moves(17)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:06] SCORE B (blue): Final=294.9, Time=88.9, Moves(10)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 12:02:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)']}
+[2026-05-22 12:02:06] MOVE 34: B (blue) 9->18 [0.01ms]
+[2026-05-22 12:02:06] SCORE Apollo (red): Final=295.5, Time=93.5, Moves(17)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 12:02:06] SCORE B (blue): Final=296.8, Time=88.8, Moves(11)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 12:02:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)']}
+[2026-05-22 12:02:07] MOVE 35: Apollo (red) 102->111 [0.01ms]
+[2026-05-22 12:02:07] SCORE Apollo (red): Final=292.9, Time=92.9, Moves(18)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:07] SCORE B (blue): Final=296.8, Time=88.8, Moves(11)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 12:02:07] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)']}
+[2026-05-22 12:02:09] SCORE Apollo (red): Final=292.9, Time=92.9, Moves(18)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:09] SCORE B (blue): Final=296.8, Time=88.8, Moves(11)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 12:02:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:09] TURN TIMEOUT: Player with colour blue exceeded 2s at move 36. Turn skipped.
+[2026-05-22 12:02:09] MOVE 37: Apollo (red) 112->114 [0.01ms]
+[2026-05-22 12:02:09] SCORE Apollo (red): Final=292.7, Time=92.7, Moves(19)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:09] SCORE B (blue): Final=296.8, Time=88.8, Moves(11)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 12:02:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:09] MOVE 38: B (blue) 4->15 [0.01ms]
+[2026-05-22 12:02:09] SCORE Apollo (red): Final=292.7, Time=92.7, Moves(19)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:09] SCORE B (blue): Final=300.6, Time=88.6, Moves(12)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:02:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:10] MOVE 39: Apollo (red) 95->94 [0.01ms]
+[2026-05-22 12:02:10] SCORE Apollo (red): Final=292.0, Time=92.0, Moves(20)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:10] SCORE B (blue): Final=300.6, Time=88.6, Moves(12)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:02:10] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:11] MOVE 40: B (blue) 30->51 [0.01ms]
+[2026-05-22 12:02:11] SCORE Apollo (red): Final=292.0, Time=92.0, Moves(20)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 12:02:11] SCORE B (blue): Final=303.2, Time=87.2, Moves(13)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:11] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:12] MOVE 41: Apollo (red) 119->112 [0.01ms]
+[2026-05-22 12:02:12] SCORE Apollo (red): Final=295.7, Time=91.7, Moves(21)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:12] SCORE B (blue): Final=303.2, Time=87.2, Moves(13)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:12] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:13] MOVE 42: B (blue) 18->30 [0.01ms]
+[2026-05-22 12:02:13] SCORE Apollo (red): Final=295.7, Time=91.7, Moves(21)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:13] SCORE B (blue): Final=304.0, Time=86.0, Moves(14)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:13] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:13] MOVE 43: Apollo (red) 94->95 [0.01ms]
+[2026-05-22 12:02:13] SCORE Apollo (red): Final=295.1, Time=91.1, Moves(22)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:13] SCORE B (blue): Final=304.0, Time=86.0, Moves(14)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:13] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:15] MOVE 44: B (blue) 30->28 [0.00ms]
+[2026-05-22 12:02:15] SCORE Apollo (red): Final=295.1, Time=91.1, Moves(22)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 12:02:15] SCORE B (blue): Final=302.6, Time=84.6, Moves(15)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:15] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:15] MOVE 45: Apollo (red) 116->82 [0.01ms]
+[2026-05-22 12:02:15] SCORE Apollo (red): Final=302.8, Time=90.8, Moves(23)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:02:15] SCORE B (blue): Final=302.6, Time=84.6, Moves(15)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:15] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:16] MOVE 46: B (blue) 2->4 [0.01ms]
+[2026-05-22 12:02:16] SCORE Apollo (red): Final=302.8, Time=90.8, Moves(23)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:02:16] SCORE B (blue): Final=303.3, Time=83.3, Moves(16)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:16] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:17] MOVE 47: Apollo (red) 93->81 [0.01ms]
+[2026-05-22 12:02:17] SCORE Apollo (red): Final=304.2, Time=90.2, Moves(24)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:17] SCORE B (blue): Final=303.3, Time=83.3, Moves(16)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:17] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)']}
+[2026-05-22 12:02:19] SCORE Apollo (red): Final=304.2, Time=90.2, Moves(24)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:19] SCORE B (blue): Final=303.3, Time=83.3, Moves(16)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:19] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:19] TURN TIMEOUT: Player with colour blue exceeded 2s at move 48. Turn skipped.
+[2026-05-22 12:02:19] MOVE 49: Apollo (red) 117->106 [0.01ms]
+[2026-05-22 12:02:19] SCORE Apollo (red): Final=308.0, Time=90.0, Moves(25)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:19] SCORE B (blue): Final=303.3, Time=83.3, Moves(16)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:19] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:20] MOVE 50: B (blue) 16->8 [0.01ms]
+[2026-05-22 12:02:20] SCORE Apollo (red): Final=308.0, Time=90.0, Moves(25)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:20] SCORE B (blue): Final=301.1, Time=83.1, Moves(17)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:20] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:20] MOVE 51: Apollo (red) 95->96 [0.01ms]
+[2026-05-22 12:02:20] SCORE Apollo (red): Final=307.4, Time=89.4, Moves(26)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:20] SCORE B (blue): Final=301.1, Time=83.1, Moves(17)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:20] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:22] MOVE 52: B (blue) 7->2 [0.01ms]
+[2026-05-22 12:02:22] SCORE Apollo (red): Final=307.4, Time=89.4, Moves(26)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:22] SCORE B (blue): Final=295.6, Time=81.6, Moves(18)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:22] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:22] MOVE 53: Apollo (red) 82->94 [0.01ms]
+[2026-05-22 12:02:22] SCORE Apollo (red): Final=305.2, Time=89.2, Moves(27)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:22] SCORE B (blue): Final=295.6, Time=81.6, Moves(18)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:22] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:23] MOVE 54: B (blue) 3->7 [0.01ms]
+[2026-05-22 12:02:23] SCORE Apollo (red): Final=305.2, Time=89.2, Moves(27)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:23] SCORE B (blue): Final=296.3, Time=80.3, Moves(19)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:23] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:24] MOVE 55: Apollo (red) 94->93 [0.01ms]
+[2026-05-22 12:02:24] SCORE Apollo (red): Final=304.6, Time=88.6, Moves(28)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:24] SCORE B (blue): Final=296.3, Time=80.3, Moves(19)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:24] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:25] MOVE 56: B (blue) 28->29 [0.01ms]
+[2026-05-22 12:02:25] SCORE Apollo (red): Final=304.6, Time=88.6, Moves(28)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:25] SCORE B (blue): Final=295.2, Time=79.2, Moves(20)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:25] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:26] MOVE 57: Apollo (red) 81->92 [0.01ms]
+[2026-05-22 12:02:26] SCORE Apollo (red): Final=301.9, Time=87.9, Moves(29)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:26] SCORE B (blue): Final=295.2, Time=79.2, Moves(20)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:26] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)']}
+[2026-05-22 12:02:28] SCORE Apollo (red): Final=301.9, Time=87.9, Moves(29)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:28] SCORE B (blue): Final=295.2, Time=79.2, Moves(20)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:28] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:28] TURN TIMEOUT: Player with colour blue exceeded 2s at move 58. Turn skipped.
+[2026-05-22 12:02:28] MOVE 59: Apollo (red) 113->104 [0.01ms]
+[2026-05-22 12:02:28] SCORE Apollo (red): Final=303.7, Time=87.6, Moves(30)=0.1, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:28] SCORE B (blue): Final=295.2, Time=79.2, Moves(20)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:28] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:29] MOVE 60: B (blue) 8->30 [0.01ms]
+[2026-05-22 12:02:29] SCORE Apollo (red): Final=303.7, Time=87.6, Moves(30)=0.1, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:29] SCORE B (blue): Final=297.7, Time=77.7, Moves(21)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:29] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:30] MOVE 61: Apollo (red) 106->94 [0.01ms]
+[2026-05-22 12:02:30] SCORE Apollo (red): Final=305.5, Time=87.3, Moves(31)=0.2, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:30] SCORE B (blue): Final=297.7, Time=77.7, Moves(21)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:30] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:31] MOVE 62: B (blue) 17->16 [0.01ms]
+[2026-05-22 12:02:31] SCORE Apollo (red): Final=305.5, Time=87.3, Moves(31)=0.2, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:31] SCORE B (blue): Final=296.5, Time=76.5, Moves(22)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:31] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:32] MOVE 63: Apollo (red) 111->113 [0.01ms]
+[2026-05-22 12:02:32] SCORE Apollo (red): Final=305.3, Time=86.8, Moves(32)=0.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:32] SCORE B (blue): Final=296.5, Time=76.5, Moves(22)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:32] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:33] MOVE 64: B (blue) 51->52 [0.01ms]
+[2026-05-22 12:02:33] SCORE Apollo (red): Final=305.3, Time=86.8, Moves(32)=0.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:33] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:33] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:33] MOVE 65: Apollo (red) 93->106 [0.01ms]
+[2026-05-22 12:02:33] SCORE Apollo (red): Final=303.6, Time=86.5, Moves(33)=1.1, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:33] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:33] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)']}
+[2026-05-22 12:02:35] SCORE Apollo (red): Final=303.6, Time=86.5, Moves(33)=1.1, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:35] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:35] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)']}
+[2026-05-22 12:02:35] TURN TIMEOUT: Player with colour blue exceeded 2s at move 66. Turn skipped.
+[2026-05-22 12:02:36] MOVE 67: Apollo (red) 107->105 [0.01ms]
+[2026-05-22 12:02:36] SCORE Apollo (red): Final=304.6, Time=86.3, Moves(34)=2.3, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:36] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:36] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)']}
+[2026-05-22 12:02:38] SCORE Apollo (red): Final=304.6, Time=86.3, Moves(34)=2.3, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:38] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:38] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-22 12:02:38] TURN TIMEOUT: Player with colour blue exceeded 2s at move 68. Turn skipped.
+[2026-05-22 12:02:38] MOVE 69: Apollo (red) 113->117 [0.01ms]
+[2026-05-22 12:02:38] SCORE Apollo (red): Final=304.4, Time=86.0, Moves(35)=4.4, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:38] SCORE B (blue): Final=295.0, Time=75.0, Moves(23)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:38] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-22 12:02:38] MOVE 70: B (blue) 4->1 [0.01ms]
+[2026-05-22 12:02:38] SCORE Apollo (red): Final=304.4, Time=86.0, Moves(35)=4.4, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:02:38] SCORE B (blue): Final=292.8, Time=74.8, Moves(24)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:38] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-22 12:02:39] MOVE 71: Apollo (red) 92->81 [0.01ms]
+[2026-05-22 12:02:39] SCORE Apollo (red): Final=309.4, Time=85.4, Moves(36)=8.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:39] SCORE B (blue): Final=292.8, Time=74.8, Moves(24)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:39] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)']}
+[2026-05-22 12:02:41] SCORE Apollo (red): Final=309.4, Time=85.4, Moves(36)=8.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:41] SCORE B (blue): Final=292.8, Time=74.8, Moves(24)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:41] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)']}
+[2026-05-22 12:02:41] TURN TIMEOUT: Player with colour blue exceeded 2s at move 72. Turn skipped.
+[2026-05-22 12:02:41] MOVE 73: Apollo (red) 106->93 [0.01ms]
+[2026-05-22 12:02:41] SCORE Apollo (red): Final=316.7, Time=85.2, Moves(37)=13.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:41] SCORE B (blue): Final=292.8, Time=74.8, Moves(24)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:41] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)']}
+[2026-05-22 12:02:41] MOVE 74: B (blue) 6->14 [0.01ms]
+[2026-05-22 12:02:41] SCORE Apollo (red): Final=316.7, Time=85.2, Moves(37)=13.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:41] SCORE B (blue): Final=294.7, Time=74.7, Moves(25)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:41] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)']}
+[2026-05-22 12:02:42] MOVE 75: Apollo (red) 94->83 [0.01ms]
+[2026-05-22 12:02:42] SCORE Apollo (red): Final=326.2, Time=84.5, Moves(38)=21.6, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:42] SCORE B (blue): Final=294.7, Time=74.7, Moves(25)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:42] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)']}
+[2026-05-22 12:02:44] SCORE Apollo (red): Final=326.2, Time=84.5, Moves(38)=21.6, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:44] SCORE B (blue): Final=294.7, Time=74.7, Moves(25)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:44] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:44] TURN TIMEOUT: Player with colour blue exceeded 2s at move 76. Turn skipped.
+[2026-05-22 12:02:44] MOVE 77: Apollo (red) 81->71 [0.01ms]
+[2026-05-22 12:02:44] SCORE Apollo (red): Final=338.8, Time=84.3, Moves(39)=32.5, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:44] SCORE B (blue): Final=294.7, Time=74.7, Moves(25)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:44] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:44] MOVE 78: B (blue) 15->28 [0.01ms]
+[2026-05-22 12:02:44] SCORE Apollo (red): Final=338.8, Time=84.3, Moves(39)=32.5, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:44] SCORE B (blue): Final=296.7, Time=74.6, Moves(26)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:44] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:45] MOVE 79: Apollo (red) 104->106 [0.01ms]
+[2026-05-22 12:02:45] SCORE Apollo (red): Final=351.4, Time=83.6, Moves(40)=45.8, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:45] SCORE B (blue): Final=296.7, Time=74.6, Moves(26)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:45] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:46] MOVE 80: B (blue) 2->5 [0.01ms]
+[2026-05-22 12:02:46] SCORE Apollo (red): Final=351.4, Time=83.6, Moves(40)=45.8, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:46] SCORE B (blue): Final=297.3, Time=73.3, Moves(27)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:46] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:47] MOVE 81: Apollo (red) 93->94 [0.01ms]
+[2026-05-22 12:02:47] SCORE Apollo (red): Final=365.9, Time=83.2, Moves(41)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:47] SCORE B (blue): Final=297.3, Time=73.3, Moves(27)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:47] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:48] MOVE 82: B (blue) 16->0 [0.01ms]
+[2026-05-22 12:02:48] SCORE Apollo (red): Final=365.9, Time=83.2, Moves(41)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:48] SCORE B (blue): Final=288.1, Time=72.1, Moves(28)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:48] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:49] MOVE 83: Apollo (red) 71->82 [0.01ms]
+[2026-05-22 12:02:49] SCORE Apollo (red): Final=378.0, Time=82.5, Moves(42)=75.5, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:49] SCORE B (blue): Final=288.1, Time=72.1, Moves(28)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 12:02:49] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:50] MOVE 84: B (blue) 0->16 [0.01ms]
+[2026-05-22 12:02:50] SCORE Apollo (red): Final=378.0, Time=82.5, Moves(42)=75.5, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:50] SCORE B (blue): Final=294.7, Time=70.7, Moves(29)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:50] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:50] MOVE 85: Apollo (red) 106->107 [0.01ms]
+[2026-05-22 12:02:50] SCORE Apollo (red): Final=390.4, Time=82.1, Moves(43)=88.2, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:50] SCORE B (blue): Final=294.7, Time=70.7, Moves(29)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:50] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)']}
+[2026-05-22 12:02:53] SCORE Apollo (red): Final=390.4, Time=82.1, Moves(43)=88.2, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:53] SCORE B (blue): Final=294.7, Time=70.7, Moves(29)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:53] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:53] TURN TIMEOUT: Player with colour blue exceeded 2s at move 86. Turn skipped.
+[2026-05-22 12:02:53] MOVE 87: Apollo (red) 112->103 [0.01ms]
+[2026-05-22 12:02:53] SCORE Apollo (red): Final=400.8, Time=81.9, Moves(44)=96.9, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:53] SCORE B (blue): Final=294.7, Time=70.7, Moves(29)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:53] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:54] MOVE 88: B (blue) 41->42 [0.01ms]
+[2026-05-22 12:02:54] SCORE Apollo (red): Final=400.8, Time=81.9, Moves(44)=96.9, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:54] SCORE B (blue): Final=293.4, Time=69.3, Moves(30)=0.1, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:54] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:55] MOVE 89: Apollo (red) 82->109 [0.01ms]
+[2026-05-22 12:02:55] SCORE Apollo (red): Final=399.5, Time=81.5, Moves(45)=100.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:55] SCORE B (blue): Final=293.4, Time=69.3, Moves(30)=0.1, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:02:55] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:56] MOVE 90: B (blue) 42->17 [0.01ms]
+[2026-05-22 12:02:56] SCORE Apollo (red): Final=399.5, Time=81.5, Moves(45)=100.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:56] SCORE B (blue): Final=288.4, Time=68.2, Moves(31)=0.2, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:56] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:56] MOVE 91: Apollo (red) 107->84 [0.01ms]
+[2026-05-22 12:02:56] SCORE Apollo (red): Final=402.6, Time=80.8, Moves(46)=99.8, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:56] SCORE B (blue): Final=288.4, Time=68.2, Moves(31)=0.2, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:56] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:58] MOVE 92: B (blue) 1->0 [0.01ms]
+[2026-05-22 12:02:58] SCORE Apollo (red): Final=402.6, Time=80.8, Moves(46)=99.8, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:58] SCORE B (blue): Final=285.3, Time=66.8, Moves(32)=0.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:58] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:58] MOVE 93: Apollo (red) 94->93 [0.01ms]
+[2026-05-22 12:02:58] SCORE Apollo (red): Final=401.8, Time=80.4, Moves(47)=99.4, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:58] SCORE B (blue): Final=285.3, Time=66.8, Moves(32)=0.5, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 12:02:58] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:02:59] MOVE 94: B (blue) 52->61 [0.01ms]
+[2026-05-22 12:02:59] SCORE Apollo (red): Final=401.8, Time=80.4, Moves(47)=99.4, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:02:59] SCORE B (blue): Final=286.7, Time=65.6, Moves(33)=1.1, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:02:59] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:00] MOVE 95: Apollo (red) 109->108 [0.01ms]
+[2026-05-22 12:03:00] SCORE Apollo (red): Final=400.4, Time=79.8, Moves(48)=98.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:00] SCORE B (blue): Final=286.7, Time=65.6, Moves(33)=1.1, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:03:00] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:02] MOVE 96: B (blue) 5->4 [0.01ms]
+[2026-05-22 12:03:02] SCORE Apollo (red): Final=400.4, Time=79.8, Moves(48)=98.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:02] SCORE B (blue): Final=286.4, Time=64.1, Moves(34)=2.3, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:03:02] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:02] MOVE 97: Apollo (red) 96->92 [0.01ms]
+[2026-05-22 12:03:02] SCORE Apollo (red): Final=399.0, Time=79.4, Moves(49)=97.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:02] SCORE B (blue): Final=286.4, Time=64.1, Moves(34)=2.3, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 12:03:02] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:03] MOVE 98: B (blue) 28->1 [0.01ms]
+[2026-05-22 12:03:03] SCORE Apollo (red): Final=399.0, Time=79.4, Moves(49)=97.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:03] SCORE B (blue): Final=279.3, Time=62.9, Moves(35)=4.4, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:03:03] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:04] MOVE 99: Apollo (red) 92->81 [0.01ms]
+[2026-05-22 12:03:04] SCORE Apollo (red): Final=399.1, Time=78.9, Moves(50)=96.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:04] SCORE B (blue): Final=279.3, Time=62.9, Moves(35)=4.4, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:03:04] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)']}
+[2026-05-22 12:03:06] SCORE Apollo (red): Final=399.1, Time=78.9, Moves(50)=96.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:06] SCORE B (blue): Final=279.3, Time=62.9, Moves(35)=4.4, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:03:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)']}
+[2026-05-22 12:03:06] TURN TIMEOUT: Player with colour blue exceeded 2s at move 100. Turn skipped.
+[2026-05-22 12:03:06] MOVE 101: Apollo (red) 108->96 [0.01ms]
+[2026-05-22 12:03:06] SCORE Apollo (red): Final=399.2, Time=78.6, Moves(51)=94.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:06] SCORE B (blue): Final=279.3, Time=62.9, Moves(35)=4.4, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 12:03:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)']}
+[2026-05-22 12:03:06] MOVE 102: B (blue) 0->2 [0.01ms]
+[2026-05-22 12:03:06] SCORE Apollo (red): Final=399.2, Time=78.6, Moves(51)=94.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:06] SCORE B (blue): Final=284.7, Time=62.7, Moves(36)=8.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:06] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)']}
+[2026-05-22 12:03:07] MOVE 103: Apollo (red) 81->106 [0.01ms]
+[2026-05-22 12:03:07] SCORE Apollo (red): Final=392.7, Time=78.0, Moves(52)=92.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:07] SCORE B (blue): Final=284.7, Time=62.7, Moves(36)=8.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:07] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)']}
+[2026-05-22 12:03:09] SCORE Apollo (red): Final=392.7, Time=78.0, Moves(52)=92.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:09] SCORE B (blue): Final=284.7, Time=62.7, Moves(36)=8.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)']}
+[2026-05-22 12:03:09] TURN TIMEOUT: Player with colour blue exceeded 2s at move 104. Turn skipped.
+[2026-05-22 12:03:09] MOVE 105: Apollo (red) 106->107 [0.01ms]
+[2026-05-22 12:03:09] SCORE Apollo (red): Final=390.4, Time=77.8, Moves(53)=90.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:09] SCORE B (blue): Final=284.7, Time=62.7, Moves(36)=8.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)']}
+[2026-05-22 12:03:09] MOVE 106: B (blue) 17->13 [0.01ms]
+[2026-05-22 12:03:09] SCORE Apollo (red): Final=390.4, Time=77.8, Moves(53)=90.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:09] SCORE B (blue): Final=290.1, Time=62.6, Moves(37)=13.5, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:09] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)']}
+[2026-05-22 12:03:10] MOVE 107: Apollo (red) 107->94 [0.01ms]
+[2026-05-22 12:03:10] SCORE Apollo (red): Final=389.5, Time=77.2, Moves(54)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:10] SCORE B (blue): Final=290.1, Time=62.6, Moves(37)=13.5, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:10] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)']}
+[2026-05-22 12:03:12] SCORE Apollo (red): Final=389.5, Time=77.2, Moves(54)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:12] SCORE B (blue): Final=290.1, Time=62.6, Moves(37)=13.5, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:12] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)']}
+[2026-05-22 12:03:12] TURN TIMEOUT: Player with colour blue exceeded 2s at move 108. Turn skipped.
+[2026-05-22 12:03:12] MOVE 109: Apollo (red) 105->113 [0.01ms]
+[2026-05-22 12:03:12] SCORE Apollo (red): Final=384.7, Time=77.0, Moves(55)=85.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:12] SCORE B (blue): Final=290.1, Time=62.6, Moves(37)=13.5, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 12:03:12] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)']}
+[2026-05-22 12:03:12] MOVE 110: B (blue) 4->42 [0.01ms]
+[2026-05-22 12:03:12] SCORE Apollo (red): Final=384.7, Time=77.0, Moves(55)=85.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:12] SCORE B (blue): Final=306.1, Time=62.4, Moves(38)=21.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:12] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)']}
+[2026-05-22 12:03:13] MOVE 111: Apollo (red) 96->85 [0.01ms]
+[2026-05-22 12:03:13] SCORE Apollo (red): Final=383.4, Time=76.4, Moves(56)=83.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:13] SCORE B (blue): Final=306.1, Time=62.4, Moves(38)=21.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:13] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)']}
+[2026-05-22 12:03:15] SCORE Apollo (red): Final=383.4, Time=76.4, Moves(56)=83.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:15] SCORE B (blue): Final=306.1, Time=62.4, Moves(38)=21.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:15] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:15] TURN TIMEOUT: Player with colour blue exceeded 2s at move 112. Turn skipped.
+[2026-05-22 12:03:15] MOVE 113: Apollo (red) 83->73 [0.01ms]
+[2026-05-22 12:03:15] SCORE Apollo (red): Final=382.2, Time=76.2, Moves(57)=80.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:15] SCORE B (blue): Final=306.1, Time=62.4, Moves(38)=21.6, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:15] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:15] MOVE 114: B (blue) 1->3 [0.01ms]
+[2026-05-22 12:03:15] SCORE Apollo (red): Final=382.2, Time=76.2, Moves(57)=80.1, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:15] SCORE B (blue): Final=318.8, Time=62.3, Moves(39)=32.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:15] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:16] MOVE 115: Apollo (red) 115->118 [0.01ms]
+[2026-05-22 12:03:16] SCORE Apollo (red): Final=376.6, Time=75.5, Moves(58)=77.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:16] SCORE B (blue): Final=318.8, Time=62.3, Moves(39)=32.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:16] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:18] MOVE 116: B (blue) 2->1 [0.01ms]
+[2026-05-22 12:03:18] SCORE Apollo (red): Final=376.6, Time=75.5, Moves(58)=77.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:18] SCORE B (blue): Final=330.6, Time=60.9, Moves(40)=45.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:18] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:18] MOVE 117: Apollo (red) 94->95 [0.01ms]
+[2026-05-22 12:03:18] SCORE Apollo (red): Final=373.1, Time=75.2, Moves(59)=73.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:18] SCORE B (blue): Final=330.6, Time=60.9, Moves(40)=45.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:18] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)']}
+[2026-05-22 12:03:20] SCORE Apollo (red): Final=373.1, Time=75.2, Moves(59)=73.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:20] SCORE B (blue): Final=330.6, Time=60.9, Moves(40)=45.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:20] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:20] TURN TIMEOUT: Player with colour blue exceeded 2s at move 118. Turn skipped.
+[2026-05-22 12:03:20] MOVE 119: Apollo (red) 95->74 [0.01ms]
+[2026-05-22 12:03:20] SCORE Apollo (red): Final=373.7, Time=75.0, Moves(60)=70.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 12:03:20] SCORE B (blue): Final=330.6, Time=60.9, Moves(40)=45.8, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:20] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:22] MOVE 120: B (blue) 16->8 [0.01ms]
+[2026-05-22 12:03:22] SCORE Apollo (red): Final=373.7, Time=75.0, Moves(60)=70.7, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 12:03:22] SCORE B (blue): Final=342.1, Time=59.4, Moves(41)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:22] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:22] MOVE 121: Apollo (red) 93->105 [0.01ms]
+[2026-05-22 12:03:22] SCORE Apollo (red): Final=368.0, Time=74.7, Moves(61)=67.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:22] SCORE B (blue): Final=342.1, Time=59.4, Moves(41)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:22] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:23] MOVE 122: B (blue) 7->16 [0.01ms]
+[2026-05-22 12:03:23] SCORE Apollo (red): Final=368.0, Time=74.7, Moves(61)=67.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:23] SCORE B (blue): Final=357.7, Time=58.2, Moves(42)=75.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:23] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:24] MOVE 123: Apollo (red) 85->97 [0.01ms]
+[2026-05-22 12:03:24] SCORE Apollo (red): Final=362.0, Time=74.0, Moves(62)=64.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:24] SCORE B (blue): Final=357.7, Time=58.2, Moves(42)=75.5, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:24] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:25] MOVE 124: B (blue) 13->17 [0.01ms]
+[2026-05-22 12:03:25] SCORE Apollo (red): Final=362.0, Time=74.0, Moves(62)=64.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:25] SCORE B (blue): Final=369.0, Time=56.8, Moves(43)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:25] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:26] MOVE 125: Apollo (red) 113->116 [0.01ms]
+[2026-05-22 12:03:26] SCORE Apollo (red): Final=356.3, Time=73.7, Moves(63)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:26] SCORE B (blue): Final=369.0, Time=56.8, Moves(43)=88.2, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:26] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:27] MOVE 126: B (blue) 30->41 [0.01ms]
+[2026-05-22 12:03:27] SCORE Apollo (red): Final=356.3, Time=73.7, Moves(63)=60.7, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:27] SCORE B (blue): Final=378.5, Time=55.5, Moves(44)=96.9, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:27] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:27] MOVE 127: Apollo (red) 74->64 [0.01ms]
+[2026-05-22 12:03:27] SCORE Apollo (red): Final=354.4, Time=73.1, Moves(64)=57.3, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:27] SCORE B (blue): Final=378.5, Time=55.5, Moves(44)=96.9, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:27] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:29] MOVE 128: B (blue) 17->4 [0.01ms]
+[2026-05-22 12:03:29] SCORE Apollo (red): Final=354.4, Time=73.1, Moves(64)=57.3, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:29] SCORE B (blue): Final=376.0, Time=54.0, Moves(45)=100.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:29] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:29] MOVE 129: Apollo (red) 97->96 [0.01ms]
+[2026-05-22 12:03:29] SCORE Apollo (red): Final=350.8, Time=72.8, Moves(65)=53.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:29] SCORE B (blue): Final=376.0, Time=54.0, Moves(45)=100.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 12:03:29] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:31] MOVE 130: B (blue) 8->30 [0.01ms]
+[2026-05-22 12:03:31] SCORE Apollo (red): Final=350.8, Time=72.8, Moves(65)=53.9, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 12:03:31] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:31] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:31] MOVE 131: Apollo (red) 103->91 [0.01ms]
+[2026-05-22 12:03:31] SCORE Apollo (red): Final=349.0, Time=72.3, Moves(66)=50.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:31] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:31] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)']}
+[2026-05-22 12:03:33] SCORE Apollo (red): Final=349.0, Time=72.3, Moves(66)=50.6, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:33] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:33] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)']}
+[2026-05-22 12:03:33] TURN TIMEOUT: Player with colour blue exceeded 2s at move 132. Turn skipped.
+[2026-05-22 12:03:33] MOVE 133: Apollo (red) 96->95 [0.01ms]
+[2026-05-22 12:03:33] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:33] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:33] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)']}
+[2026-05-22 12:03:35] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:35] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:35] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)', '134 (turn timeout)']}
+[2026-05-22 12:03:35] TURN TIMEOUT: Player with colour blue exceeded 2s at move 134. Turn skipped.
+[2026-05-22 12:03:36] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)', '134 (turn timeout)']}
+[2026-05-22 12:03:36] GAME TIME LIMIT REACHED.
+[2026-05-22 12:03:36] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)', '134 (turn timeout)']}
+[2026-05-22 12:03:36] GAME TIME LIMIT REACHED.
+[2026-05-22 12:03:36] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)', '134 (turn timeout)']}
+[2026-05-22 12:03:36] GAME TIME LIMIT REACHED.
+[2026-05-22 12:03:36] SCORE Apollo (red): Final=345.4, Time=72.1, Moves(67)=47.4, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] SCORE B (blue): Final=378.6, Time=52.7, Moves(46)=99.8, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 12:03:36] ALL WRONG MOVES BY COLOUR: {'blue': ['2 (turn timeout)', '6 (turn timeout)', '18 (turn timeout)', '20 (turn timeout)', '24 (turn timeout)', '32 (turn timeout)', '36 (turn timeout)', '48 (turn timeout)', '58 (turn timeout)', '66 (turn timeout)', '68 (turn timeout)', '72 (turn timeout)', '76 (turn timeout)', '86 (turn timeout)', '100 (turn timeout)', '104 (turn timeout)', '108 (turn timeout)', '112 (turn timeout)', '118 (turn timeout)', '132 (turn timeout)', '134 (turn timeout)']}
+[2026-05-22 12:03:36] GAME TIME LIMIT REACHED.

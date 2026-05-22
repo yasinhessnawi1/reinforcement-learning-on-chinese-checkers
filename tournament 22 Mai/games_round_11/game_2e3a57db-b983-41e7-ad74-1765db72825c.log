@@ -1,0 +1,1242 @@
+[2026-05-22 11:18:50] GAME CREATED
+[2026-05-22 11:18:56] PLAYER JOINED: jat as yellow
+[2026-05-22 11:19:34] PLAYER JOINED: Erlend og Linor as purple
+[2026-05-22 11:19:34] PLAYER START: jat (yellow)
+[2026-05-22 11:19:34] PLAYER START: Erlend og Linor (purple)
+[2026-05-22 11:19:34] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 11:19:35] MOVE 1: jat (yellow) 46->47 [0.01ms]
+[2026-05-22 11:19:35] SCORE jat (yellow): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:19:35] SCORE Erlend og Linor (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:19:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:35] MOVE 2: Erlend og Linor (purple) 74->64 [0.01ms]
+[2026-05-22 11:19:35] SCORE jat (yellow): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:19:35] SCORE Erlend og Linor (purple): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:19:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:36] MOVE 3: jat (yellow) 23->48 [0.01ms]
+[2026-05-22 11:19:36] SCORE jat (yellow): Final=287.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:36] SCORE Erlend og Linor (purple): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:19:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:36] MOVE 4: Erlend og Linor (purple) 97->54 [0.01ms]
+[2026-05-22 11:19:36] SCORE jat (yellow): Final=287.7, Time=97.7, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:36] SCORE Erlend og Linor (purple): Final=289.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 5: jat (yellow) 12->58 [0.01ms]
+[2026-05-22 11:19:37] SCORE jat (yellow): Final=295.4, Time=97.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Erlend og Linor (purple): Final=289.9, Time=99.9, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 6: Erlend og Linor (purple) 108->83 [0.00ms]
+[2026-05-22 11:19:37] SCORE jat (yellow): Final=295.4, Time=97.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Erlend og Linor (purple): Final=293.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 7: jat (yellow) 10->37 [0.01ms]
+[2026-05-22 11:19:37] SCORE jat (yellow): Final=303.0, Time=97.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Erlend og Linor (purple): Final=293.8, Time=99.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:37] MOVE 8: Erlend og Linor (purple) 110->106 [0.00ms]
+[2026-05-22 11:19:37] SCORE jat (yellow): Final=303.0, Time=97.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:37] SCORE Erlend og Linor (purple): Final=301.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:19:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:38] MOVE 9: jat (yellow) 36->59 [0.01ms]
+[2026-05-22 11:19:38] SCORE jat (yellow): Final=310.4, Time=96.4, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:38] SCORE Erlend og Linor (purple): Final=301.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:19:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:38] MOVE 10: Erlend og Linor (purple) 84->82 [0.00ms]
+[2026-05-22 11:19:38] SCORE jat (yellow): Final=310.4, Time=96.4, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:19:38] SCORE Erlend og Linor (purple): Final=305.6, Time=99.6, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:39] MOVE 11: jat (yellow) 11->57 [0.01ms]
+[2026-05-22 11:19:39] SCORE jat (yellow): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:39] SCORE Erlend og Linor (purple): Final=305.6, Time=99.6, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:19:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:39] MOVE 12: Erlend og Linor (purple) 109->84 [0.01ms]
+[2026-05-22 11:19:39] SCORE jat (yellow): Final=317.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:19:39] SCORE Erlend og Linor (purple): Final=309.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:19:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:40] MOVE 13: jat (yellow) 47->69 [0.00ms]
+[2026-05-22 11:19:40] SCORE jat (yellow): Final=324.1, Time=94.1, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:19:40] SCORE Erlend og Linor (purple): Final=309.5, Time=99.5, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:19:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:40] MOVE 14: Erlend og Linor (purple) 107->94 [0.01ms]
+[2026-05-22 11:19:40] SCORE jat (yellow): Final=324.1, Time=94.1, Moves(7)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:19:40] SCORE Erlend og Linor (purple): Final=311.5, Time=99.5, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:19:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:42] MOVE 15: jat (yellow) 24->67 [0.01ms]
+[2026-05-22 11:19:42] SCORE jat (yellow): Final=330.8, Time=92.8, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:19:42] SCORE Erlend og Linor (purple): Final=311.5, Time=99.5, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:19:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:42] MOVE 16: Erlend og Linor (purple) 83->81 [0.01ms]
+[2026-05-22 11:19:42] SCORE jat (yellow): Final=330.8, Time=92.8, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:19:42] SCORE Erlend og Linor (purple): Final=315.4, Time=99.4, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:19:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:43] MOVE 17: jat (yellow) 48->93 [0.01ms]
+[2026-05-22 11:19:43] SCORE jat (yellow): Final=341.4, Time=91.4, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:19:43] SCORE Erlend og Linor (purple): Final=315.4, Time=99.4, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:19:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:43] MOVE 18: Erlend og Linor (purple) 85->83 [0.01ms]
+[2026-05-22 11:19:43] SCORE jat (yellow): Final=341.4, Time=91.4, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:19:43] SCORE Erlend og Linor (purple): Final=319.3, Time=99.3, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:19:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:44] MOVE 19: jat (yellow) 25->70 [0.01ms]
+[2026-05-22 11:19:44] SCORE jat (yellow): Final=352.7, Time=90.7, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:44] SCORE Erlend og Linor (purple): Final=319.3, Time=99.3, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:19:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:44] MOVE 20: Erlend og Linor (purple) 94->71 [0.01ms]
+[2026-05-22 11:19:44] SCORE jat (yellow): Final=352.7, Time=90.7, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:44] SCORE Erlend og Linor (purple): Final=323.2, Time=99.2, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:45] MOVE 21: jat (yellow) 58->60 [0.01ms]
+[2026-05-22 11:19:45] SCORE jat (yellow): Final=355.6, Time=89.6, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:19:45] SCORE Erlend og Linor (purple): Final=323.2, Time=99.2, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:19:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:45] MOVE 22: Erlend og Linor (purple) 96->92 [0.00ms]
+[2026-05-22 11:19:45] SCORE jat (yellow): Final=355.6, Time=89.6, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:19:45] SCORE Erlend og Linor (purple): Final=331.1, Time=99.1, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:19:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:46] MOVE 23: jat (yellow) 59->107 [0.01ms]
+[2026-05-22 11:19:46] SCORE jat (yellow): Final=466.7, Time=88.7, Moves(12)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:19:46] SCORE Erlend og Linor (purple): Final=331.1, Time=99.1, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:19:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:46] MOVE 24: Erlend og Linor (purple) 64->63 [0.01ms]
+[2026-05-22 11:19:46] SCORE jat (yellow): Final=466.7, Time=88.7, Moves(12)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:19:46] SCORE Erlend og Linor (purple): Final=333.1, Time=99.1, Moves(12)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:19:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:47] MOVE 25: jat (yellow) 57->78 [0.01ms]
+[2026-05-22 11:19:47] SCORE jat (yellow): Final=469.6, Time=87.6, Moves(13)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:19:47] SCORE Erlend og Linor (purple): Final=333.1, Time=99.1, Moves(12)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:19:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:47] MOVE 26: Erlend og Linor (purple) 63->53 [0.01ms]
+[2026-05-22 11:19:47] SCORE jat (yellow): Final=469.6, Time=87.6, Moves(13)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:19:47] SCORE Erlend og Linor (purple): Final=335.0, Time=99.0, Moves(13)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:19:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:49] MOVE 27: jat (yellow) 13->26 [0.01ms]
+[2026-05-22 11:19:49] SCORE jat (yellow): Final=470.5, Time=86.5, Moves(14)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:49] SCORE Erlend og Linor (purple): Final=335.0, Time=99.0, Moves(13)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:19:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:49] MOVE 28: Erlend og Linor (purple) 54->52 [0.01ms]
+[2026-05-22 11:19:49] SCORE jat (yellow): Final=470.5, Time=86.5, Moves(14)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:19:49] SCORE Erlend og Linor (purple): Final=338.9, Time=98.9, Moves(14)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:19:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:50] MOVE 29: jat (yellow) 35->36 [0.01ms]
+[2026-05-22 11:19:50] SCORE jat (yellow): Final=471.3, Time=85.3, Moves(15)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:19:50] SCORE Erlend og Linor (purple): Final=338.9, Time=98.9, Moves(14)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:19:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:50] MOVE 30: Erlend og Linor (purple) 53->51 [0.01ms]
+[2026-05-22 11:19:50] SCORE jat (yellow): Final=471.3, Time=85.3, Moves(15)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:19:50] SCORE Erlend og Linor (purple): Final=342.8, Time=98.8, Moves(15)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:19:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:51] MOVE 31: jat (yellow) 36->38 [0.01ms]
+[2026-05-22 11:19:51] SCORE jat (yellow): Final=474.0, Time=84.0, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:19:51] SCORE Erlend og Linor (purple): Final=342.8, Time=98.8, Moves(15)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:19:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:51] MOVE 32: Erlend og Linor (purple) 52->50 [0.01ms]
+[2026-05-22 11:19:51] SCORE jat (yellow): Final=474.0, Time=84.0, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:19:51] SCORE Erlend og Linor (purple): Final=346.8, Time=98.8, Moves(16)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:19:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:53] MOVE 33: jat (yellow) 37->39 [0.01ms]
+[2026-05-22 11:19:53] SCORE jat (yellow): Final=476.6, Time=82.6, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:19:53] SCORE Erlend og Linor (purple): Final=346.8, Time=98.8, Moves(16)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:19:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:53] MOVE 34: Erlend og Linor (purple) 95->72 [0.00ms]
+[2026-05-22 11:19:53] SCORE jat (yellow): Final=476.6, Time=82.6, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:19:53] SCORE Erlend og Linor (purple): Final=350.7, Time=98.7, Moves(17)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 11:19:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:54] MOVE 35: jat (yellow) 38->105 [0.01ms]
+[2026-05-22 11:19:54] SCORE jat (yellow): Final=487.5, Time=81.5, Moves(18)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:19:54] SCORE Erlend og Linor (purple): Final=350.7, Time=98.7, Moves(17)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 11:19:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:54] MOVE 36: Erlend og Linor (purple) 83->62 [0.01ms]
+[2026-05-22 11:19:54] SCORE jat (yellow): Final=487.5, Time=81.5, Moves(18)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:19:54] SCORE Erlend og Linor (purple): Final=354.6, Time=98.6, Moves(18)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:19:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:55] MOVE 37: jat (yellow) 26->38 [0.00ms]
+[2026-05-22 11:19:55] SCORE jat (yellow): Final=488.2, Time=80.2, Moves(19)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:19:55] SCORE Erlend og Linor (purple): Final=354.6, Time=98.6, Moves(18)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:19:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:55] MOVE 38: Erlend og Linor (purple) 72->52 [0.00ms]
+[2026-05-22 11:19:55] SCORE jat (yellow): Final=488.2, Time=80.2, Moves(19)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:19:55] SCORE Erlend og Linor (purple): Final=358.5, Time=98.5, Moves(19)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:19:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:57] MOVE 39: jat (yellow) 38->63 [0.01ms]
+[2026-05-22 11:19:57] SCORE jat (yellow): Final=498.8, Time=78.8, Moves(20)=0.0, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:19:57] SCORE Erlend og Linor (purple): Final=358.5, Time=98.5, Moves(19)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:19:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:57] MOVE 40: Erlend og Linor (purple) 52->61 [0.00ms]
+[2026-05-22 11:19:57] SCORE jat (yellow): Final=498.8, Time=78.8, Moves(20)=0.0, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:19:57] SCORE Erlend og Linor (purple): Final=358.4, Time=98.4, Moves(20)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:19:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:58] MOVE 41: jat (yellow) 67->68 [0.00ms]
+[2026-05-22 11:19:58] SCORE jat (yellow): Final=499.5, Time=77.5, Moves(21)=0.0, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:19:58] SCORE Erlend og Linor (purple): Final=358.4, Time=98.4, Moves(20)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:19:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:58] MOVE 42: Erlend og Linor (purple) 84->83 [0.00ms]
+[2026-05-22 11:19:58] SCORE jat (yellow): Final=499.5, Time=77.5, Moves(21)=0.0, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:19:58] SCORE Erlend og Linor (purple): Final=360.3, Time=98.3, Moves(21)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:19:59] MOVE 43: jat (yellow) 70->95 [0.00ms]
+[2026-05-22 11:19:59] SCORE jat (yellow): Final=606.3, Time=76.3, Moves(22)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:19:59] SCORE Erlend og Linor (purple): Final=360.3, Time=98.3, Moves(21)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:19:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:00] MOVE 44: Erlend og Linor (purple) 62->52 [0.00ms]
+[2026-05-22 11:20:00] SCORE jat (yellow): Final=606.3, Time=76.3, Moves(22)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:20:00] SCORE Erlend og Linor (purple): Final=362.2, Time=98.2, Moves(22)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:20:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:01] MOVE 45: jat (yellow) 68->72 [0.00ms]
+[2026-05-22 11:20:01] SCORE jat (yellow): Final=613.0, Time=75.0, Moves(23)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:20:01] SCORE Erlend og Linor (purple): Final=362.2, Time=98.2, Moves(22)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:20:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:01] MOVE 46: Erlend og Linor (purple) 83->41 [0.01ms]
+[2026-05-22 11:20:01] SCORE jat (yellow): Final=613.0, Time=75.0, Moves(23)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:20:01] SCORE Erlend og Linor (purple): Final=370.1, Time=98.1, Moves(23)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:02] MOVE 47: jat (yellow) 60->108 [0.00ms]
+[2026-05-22 11:20:02] SCORE jat (yellow): Final=721.6, Time=73.6, Moves(24)=0.0, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:20:02] SCORE Erlend og Linor (purple): Final=370.1, Time=98.1, Moves(23)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:02] MOVE 48: Erlend og Linor (purple) 41->60 [0.00ms]
+[2026-05-22 11:20:02] SCORE jat (yellow): Final=721.6, Time=73.6, Moves(24)=0.0, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:20:02] SCORE Erlend og Linor (purple): Final=370.0, Time=98.0, Moves(24)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:04] MOVE 49: jat (yellow) 39->40 [0.01ms]
+[2026-05-22 11:20:04] SCORE jat (yellow): Final=722.2, Time=72.2, Moves(25)=0.0, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:20:04] SCORE Erlend og Linor (purple): Final=370.0, Time=98.0, Moves(24)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:20:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:04] MOVE 50: Erlend og Linor (purple) 82->59 [0.01ms]
+[2026-05-22 11:20:04] SCORE jat (yellow): Final=722.2, Time=72.2, Moves(25)=0.0, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:20:04] SCORE Erlend og Linor (purple): Final=377.9, Time=97.9, Moves(25)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:20:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:05] MOVE 51: jat (yellow) 69->70 [0.00ms]
+[2026-05-22 11:20:05] SCORE jat (yellow): Final=723.1, Time=71.1, Moves(26)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:20:05] SCORE Erlend og Linor (purple): Final=377.9, Time=97.9, Moves(25)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:05] MOVE 52: Erlend og Linor (purple) 51->49 [0.00ms]
+[2026-05-22 11:20:05] SCORE jat (yellow): Final=723.1, Time=71.1, Moves(26)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:20:05] SCORE Erlend og Linor (purple): Final=381.9, Time=97.9, Moves(26)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:06] MOVE 53: jat (yellow) 40->51 [0.00ms]
+[2026-05-22 11:20:06] SCORE jat (yellow): Final=724.0, Time=70.0, Moves(27)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:20:06] SCORE Erlend og Linor (purple): Final=381.9, Time=97.9, Moves(26)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:06] MOVE 54: Erlend og Linor (purple) 92->104 [0.00ms]
+[2026-05-22 11:20:06] SCORE jat (yellow): Final=724.0, Time=70.0, Moves(27)=0.0, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:20:06] SCORE Erlend og Linor (purple): Final=381.8, Time=97.8, Moves(27)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:07] MOVE 55: jat (yellow) 51->73 [0.00ms]
+[2026-05-22 11:20:07] SCORE jat (yellow): Final=731.0, Time=69.0, Moves(28)=0.0, Pins(3)=300.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:20:07] SCORE Erlend og Linor (purple): Final=381.8, Time=97.8, Moves(27)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:07] MOVE 56: Erlend og Linor (purple) 104->103 [0.00ms]
+[2026-05-22 11:20:07] SCORE jat (yellow): Final=731.0, Time=69.0, Moves(28)=0.0, Pins(3)=300.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:20:07] SCORE Erlend og Linor (purple): Final=383.7, Time=97.7, Moves(28)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:08] MOVE 57: jat (yellow) 63->84 [0.00ms]
+[2026-05-22 11:20:08] SCORE jat (yellow): Final=834.2, Time=68.2, Moves(29)=0.0, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:08] SCORE Erlend og Linor (purple): Final=383.7, Time=97.7, Moves(28)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:08] MOVE 58: Erlend og Linor (purple) 103->91 [0.00ms]
+[2026-05-22 11:20:08] SCORE jat (yellow): Final=834.2, Time=68.2, Moves(29)=0.0, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:20:08] SCORE Erlend og Linor (purple): Final=383.6, Time=97.6, Moves(29)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:10] MOVE 59: jat (yellow) 72->74 [0.00ms]
+[2026-05-22 11:20:10] SCORE jat (yellow): Final=936.9, Time=66.8, Moves(30)=0.1, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:20:10] SCORE Erlend og Linor (purple): Final=383.6, Time=97.6, Moves(29)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:10] MOVE 60: Erlend og Linor (purple) 71->69 [0.00ms]
+[2026-05-22 11:20:10] SCORE jat (yellow): Final=936.9, Time=66.8, Moves(30)=0.1, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:20:10] SCORE Erlend og Linor (purple): Final=387.6, Time=97.5, Moves(30)=0.1, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:11] MOVE 61: jat (yellow) 73->96 [0.00ms]
+[2026-05-22 11:20:11] SCORE jat (yellow): Final=1038.0, Time=65.7, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:20:11] SCORE Erlend og Linor (purple): Final=387.6, Time=97.5, Moves(30)=0.1, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:11] MOVE 62: Erlend og Linor (purple) 50->48 [0.00ms]
+[2026-05-22 11:20:11] SCORE jat (yellow): Final=1038.0, Time=65.7, Moves(31)=0.2, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:20:11] SCORE Erlend og Linor (purple): Final=391.7, Time=97.5, Moves(31)=0.2, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:12] MOVE 63: jat (yellow) 93->94 [0.00ms]
+[2026-05-22 11:20:12] SCORE jat (yellow): Final=1038.9, Time=64.4, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:12] SCORE Erlend og Linor (purple): Final=391.7, Time=97.5, Moves(31)=0.2, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:12] MOVE 64: Erlend og Linor (purple) 106->83 [0.00ms]
+[2026-05-22 11:20:12] SCORE jat (yellow): Final=1038.9, Time=64.4, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:20:12] SCORE Erlend og Linor (purple): Final=391.9, Time=97.4, Moves(32)=0.5, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:14] MOVE 65: jat (yellow) 70->93 [0.00ms]
+[2026-05-22 11:20:14] SCORE jat (yellow): Final=1042.1, Time=63.0, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:14] SCORE Erlend og Linor (purple): Final=391.9, Time=97.4, Moves(32)=0.5, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:20:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:14] MOVE 66: Erlend og Linor (purple) 52->68 [0.00ms]
+[2026-05-22 11:20:14] SCORE jat (yellow): Final=1042.1, Time=63.0, Moves(33)=1.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:20:14] SCORE Erlend og Linor (purple): Final=396.4, Time=97.3, Moves(33)=1.1, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:20:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:15] MOVE 67: jat (yellow) 78->79 [0.00ms]
+[2026-05-22 11:20:15] SCORE jat (yellow): Final=1043.9, Time=61.7, Moves(34)=2.3, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:15] SCORE Erlend og Linor (purple): Final=396.4, Time=97.3, Moves(33)=1.1, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:15] MOVE 68: Erlend og Linor (purple) 83->82 [0.00ms]
+[2026-05-22 11:20:15] SCORE jat (yellow): Final=1043.9, Time=61.7, Moves(34)=2.3, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:20:15] SCORE Erlend og Linor (purple): Final=399.5, Time=97.2, Moves(34)=2.3, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:16] MOVE 69: jat (yellow) 79->85 [0.00ms]
+[2026-05-22 11:20:16] SCORE jat (yellow): Final=1154.8, Time=60.4, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:16] SCORE Erlend og Linor (purple): Final=399.5, Time=97.2, Moves(34)=2.3, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:16] MOVE 70: Erlend og Linor (purple) 82->103 [0.00ms]
+[2026-05-22 11:20:16] SCORE jat (yellow): Final=1154.8, Time=60.4, Moves(35)=4.4, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:20:16] SCORE Erlend og Linor (purple): Final=405.5, Time=97.1, Moves(35)=4.4, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:18] MOVE 71: jat (yellow) 105->106 [0.00ms]
+[2026-05-22 11:20:18] SCORE jat (yellow): Final=1159.1, Time=59.1, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:18] SCORE Erlend og Linor (purple): Final=405.5, Time=97.1, Moves(35)=4.4, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:20:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:18] MOVE 72: Erlend og Linor (purple) 103->80 [0.00ms]
+[2026-05-22 11:20:18] SCORE jat (yellow): Final=1159.1, Time=59.1, Moves(36)=8.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:18] SCORE Erlend og Linor (purple): Final=409.0, Time=97.0, Moves(36)=8.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:20:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:19] MOVE 73: jat (yellow) 107->109 [0.00ms]
+[2026-05-22 11:20:19] SCORE jat (yellow): Final=1163.6, Time=58.1, Moves(37)=13.5, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:19] SCORE Erlend og Linor (purple): Final=409.0, Time=97.0, Moves(36)=8.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:19] MOVE 74: Erlend og Linor (purple) 81->37 [0.00ms]
+[2026-05-22 11:20:19] SCORE jat (yellow): Final=1163.6, Time=58.1, Moves(37)=13.5, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:19] SCORE Erlend og Linor (purple): Final=426.5, Time=97.0, Moves(37)=13.5, Pins(0)=0.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:20] MOVE 75: jat (yellow) 106->107 [0.00ms]
+[2026-05-22 11:20:20] SCORE jat (yellow): Final=1273.2, Time=57.6, Moves(38)=21.6, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:20] SCORE Erlend og Linor (purple): Final=426.5, Time=97.0, Moves(37)=13.5, Pins(0)=0.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:20] MOVE 76: Erlend og Linor (purple) 80->79 [0.00ms]
+[2026-05-22 11:20:20] SCORE jat (yellow): Final=1273.2, Time=57.6, Moves(38)=21.6, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:20] SCORE Erlend og Linor (purple): Final=436.2, Time=96.6, Moves(38)=21.6, Pins(0)=0.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:21] MOVE 77: jat (yellow) 108->110 [0.00ms]
+[2026-05-22 11:20:21] SCORE jat (yellow): Final=1283.1, Time=56.6, Moves(39)=32.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:21] SCORE Erlend og Linor (purple): Final=436.2, Time=96.6, Moves(38)=21.6, Pins(0)=0.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:21] MOVE 78: Erlend og Linor (purple) 91->90 [0.00ms]
+[2026-05-22 11:20:21] SCORE jat (yellow): Final=1283.1, Time=56.6, Moves(39)=32.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:21] SCORE Erlend og Linor (purple): Final=448.9, Time=96.5, Moves(39)=32.5, Pins(0)=0.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:22] MOVE 79: jat (yellow) 110->106 [0.00ms]
+[2026-05-22 11:20:22] SCORE jat (yellow): Final=1193.4, Time=55.6, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:22] SCORE Erlend og Linor (purple): Final=448.9, Time=96.5, Moves(39)=32.5, Pins(0)=0.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:22] MOVE 80: Erlend og Linor (purple) 79->58 [0.00ms]
+[2026-05-22 11:20:22] SCORE jat (yellow): Final=1193.4, Time=55.6, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:20:22] SCORE Erlend og Linor (purple): Final=466.2, Time=96.4, Moves(40)=45.8, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:23] MOVE 81: jat (yellow) 106->110 [0.00ms]
+[2026-05-22 11:20:23] SCORE jat (yellow): Final=1309.3, Time=54.6, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:23] SCORE Erlend og Linor (purple): Final=466.2, Time=96.4, Moves(40)=45.8, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:23] MOVE 82: Erlend og Linor (purple) 90->79 [0.00ms]
+[2026-05-22 11:20:23] SCORE jat (yellow): Final=1309.3, Time=54.6, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:23] SCORE Erlend og Linor (purple): Final=481.0, Time=96.3, Moves(41)=60.7, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:24] MOVE 83: jat (yellow) 95->97 [0.00ms]
+[2026-05-22 11:20:24] SCORE jat (yellow): Final=1323.2, Time=53.7, Moves(42)=75.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:24] SCORE Erlend og Linor (purple): Final=481.0, Time=96.3, Moves(41)=60.7, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:24] MOVE 84: Erlend og Linor (purple) 48->38 [0.00ms]
+[2026-05-22 11:20:24] SCORE jat (yellow): Final=1323.2, Time=53.7, Moves(42)=75.5, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:20:24] SCORE Erlend og Linor (purple): Final=495.7, Time=96.2, Moves(42)=75.5, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 85: jat (yellow) 93->95 [0.00ms]
+[2026-05-22 11:20:25] SCORE jat (yellow): Final=1439.6, Time=53.3, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:20:25] SCORE Erlend og Linor (purple): Final=495.7, Time=96.2, Moves(42)=75.5, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 86: Erlend og Linor (purple) 38->27 [0.00ms]
+[2026-05-22 11:20:25] SCORE jat (yellow): Final=1439.6, Time=53.3, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:20:25] SCORE Erlend og Linor (purple): Final=508.4, Time=96.2, Moves(43)=88.2, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 87: jat (yellow) 107->108 [0.00ms]
+[2026-05-22 11:20:25] SCORE jat (yellow): Final=1447.8, Time=52.9, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:20:25] SCORE Erlend og Linor (purple): Final=508.4, Time=96.2, Moves(43)=88.2, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 88: Erlend og Linor (purple) 61->70 [0.00ms]
+[2026-05-22 11:20:25] SCORE jat (yellow): Final=1447.8, Time=52.9, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:20:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:20:25] MOVE 89: jat (yellow) 94->107 [0.00ms]
+[2026-05-22 11:20:25] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:20:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:34] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:34] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:34] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:34] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:34] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:34] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:35] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:35] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:35] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:35] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:35] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:35] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:35] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:35] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:35] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:35] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:35] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:35] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:36] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:36] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:36] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:36] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:36] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:36] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:36] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:36] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:36] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:36] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:36] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:36] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:37] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:37] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:37] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:37] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:37] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:37] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:37] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:37] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:37] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:37] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:37] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:37] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:38] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:38] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:38] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:38] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:38] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:38] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:38] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:38] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:38] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:38] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:38] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:38] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:39] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:39] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:39] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:39] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:39] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:39] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:39] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:39] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:39] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:39] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:39] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:39] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:40] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:40] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:40] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:40] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:40] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:40] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:40] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:40] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:40] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:40] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:40] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:40] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:41] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:41] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:41] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:41] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:41] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:41] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:41] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:41] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:41] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:41] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:41] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:41] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:42] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:42] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:42] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:42] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:42] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:42] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:42] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:42] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:42] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:42] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:42] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:42] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:43] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:43] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:43] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:43] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:43] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:43] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:43] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:43] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:43] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:43] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:43] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:43] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:44] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:44] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:44] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:44] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:44] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:44] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:44] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:44] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:44] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:44] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:44] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:44] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:45] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:45] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:45] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:45] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:45] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:45] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:45] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:45] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:45] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:45] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:45] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:45] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:46] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:46] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:46] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:46] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:46] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:46] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:46] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:46] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:46] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:46] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:46] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:46] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:47] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:47] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:47] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:47] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:47] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:47] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:47] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:47] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:47] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:47] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:47] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:47] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:47] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:47] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:48] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:48] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:48] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:48] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:48] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:48] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:48] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:48] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:48] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:48] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:49] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:49] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:49] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:49] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:49] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:49] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:49] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:49] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:49] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:49] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:49] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:49] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:50] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:50] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:50] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:50] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:50] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:50] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:50] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:50] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:50] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:50] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:50] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:50] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:51] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:51] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:51] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:51] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:51] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:51] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:51] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:51] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:51] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:51] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:51] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:51] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:52] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:52] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:52] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:52] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:52] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:52] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:52] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:52] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:52] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:52] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:52] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:52] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:53] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:53] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:53] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:53] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:53] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:53] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:53] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:53] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:53] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:53] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:53] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:53] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:54] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:54] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:54] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:54] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:54] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:54] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:54] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:54] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:54] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:54] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:54] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:54] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:55] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:55] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:55] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:55] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:55] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:55] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:55] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:55] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:55] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:55] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:55] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:55] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:55] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:55] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:55] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:56] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:56] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:56] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:56] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:56] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:56] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:56] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:56] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:56] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:56] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:56] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:56] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:57] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:57] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:57] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:57] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:57] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:57] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:57] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:57] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:57] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:57] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:57] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:57] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:58] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:58] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:58] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:58] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:58] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:58] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:58] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:58] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:58] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:58] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:58] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:58] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:59] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:59] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:59] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:59] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:59] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:59] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:59] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:59] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:59] GAME TIME LIMIT REACHED.
+[2026-05-22 11:21:59] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:21:59] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:21:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:21:59] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:00] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:00] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:00] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:00] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:00] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:00] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:00] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:00] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:00] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:00] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:00] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:00] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:01] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:01] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:01] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:01] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:01] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:01] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:01] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:01] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:01] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:01] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:01] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:01] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:02] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:02] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:02] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:02] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:02] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:02] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:02] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:02] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:02] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:02] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:02] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:02] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:03] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:03] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:03] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:03] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:03] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:03] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:03] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:03] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:03] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:03] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:03] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:03] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:04] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:04] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:04] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:04] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:04] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:04] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:04] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:04] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:04] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:04] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:04] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:04] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:05] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:05] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:05] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:05] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:05] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:05] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:05] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:05] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:05] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:05] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:05] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:05] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:06] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:06] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:06] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:06] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:06] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:06] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:06] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:06] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:06] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:06] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:06] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:06] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:07] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:07] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:07] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:07] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:07] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:07] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:07] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:07] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:07] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:07] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:07] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:07] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:08] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:08] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:08] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:08] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:08] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:08] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:08] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:08] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:08] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:08] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:08] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:08] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:09] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:09] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:09] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:09] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:09] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:09] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:09] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:09] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:09] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:09] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:09] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:09] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:10] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:10] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:10] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:10] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:10] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:10] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:10] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:10] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:10] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:10] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:10] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:10] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:11] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:11] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:11] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:11] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:11] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:11] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:11] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:11] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:11] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:11] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:11] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:11] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:12] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:12] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:12] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:12] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:12] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:12] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:12] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:12] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:12] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:12] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:12] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:12] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:13] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:13] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:13] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:13] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:13] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:13] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:13] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:13] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:13] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:13] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:13] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:13] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:14] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:14] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:14] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:14] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:14] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:14] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:14] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:14] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:14] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:14] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:14] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:14] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:15] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:15] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:15] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:15] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:15] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:15] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:15] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:15] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:15] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:15] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:15] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:15] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:15] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:15] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:15] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:16] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:16] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:16] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:16] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:16] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:16] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:16] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:16] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:16] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:17] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:17] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:17] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:17] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:17] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:17] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:17] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:17] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:17] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:17] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:17] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:17] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:18] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:18] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:18] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:18] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:18] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:18] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:18] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:18] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:18] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:18] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:18] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:18] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:19] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:19] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:19] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:19] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:19] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:19] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:19] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:19] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:19] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:19] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:19] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:19] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:20] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:20] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:20] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:20] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:20] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:20] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:20] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:20] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:20] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:20] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:20] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:20] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:21] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:21] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:21] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:21] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:21] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:21] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:21] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:21] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:21] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:21] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:21] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:21] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:22] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:22] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:22] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:22] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:22] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:22] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:22] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:22] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:22] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:22] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:22] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:22] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:23] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:23] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:23] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:23] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:23] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:23] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:23] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:23] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:23] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:23] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:23] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:23] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:24] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:24] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:24] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:24] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:24] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:24] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:24] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:24] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:24] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:24] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:24] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:24] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:25] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:25] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:25] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:25] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:25] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:25] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:25] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:25] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:25] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:26] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:26] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:26] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:26] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:26] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:26] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:26] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:26] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:26] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:26] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:26] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:26] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:27] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:27] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:27] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:27] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:27] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:27] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:27] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:27] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:27] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:27] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:27] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:27] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:28] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:28] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:28] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:28] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:28] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:28] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:28] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:28] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:28] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:28] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:28] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:28] GAME TIME LIMIT REACHED.
+[2026-05-22 11:22:29] SCORE jat (yellow): Final=2552.7, Time=52.7, Moves(45)=100.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:22:29] SCORE Erlend og Linor (purple): Final=517.0, Time=96.1, Moves(44)=96.9, Pins(0)=0.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:22:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:22:29] GAME TIME LIMIT REACHED.

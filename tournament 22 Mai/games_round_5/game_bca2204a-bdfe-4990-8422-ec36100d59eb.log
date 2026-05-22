@@ -1,0 +1,1518 @@
+[2026-05-22 10:36:23] GAME CREATED
+[2026-05-22 10:37:34] PLAYER JOINED: Gruppe 2 as yellow
+[2026-05-22 10:37:38] PLAYER JOINED: Tiefes Verstarkendes Lernen as purple
+[2026-05-22 10:37:40] PLAYER JOINED: PCS as red
+[2026-05-22 10:37:46] PLAYER JOINED: S&S as blue
+[2026-05-22 10:38:38] PLAYER JOINED: RL as lawn green
+[2026-05-22 10:38:38] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:38:38] PLAYER START: Tiefes Verstarkendes Lernen (purple)
+[2026-05-22 10:38:38] PLAYER START: PCS (red)
+[2026-05-22 10:38:38] PLAYER START: S&S (blue)
+[2026-05-22 10:38:38] PLAYER START: RL (lawn green)
+[2026-05-22 10:38:38] GAME START — turn order ['yellow', 'blue', 'purple', 'red', 'lawn green']
+[2026-05-22 10:38:38] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:38:38] PLAYER START: Tiefes Verstarkendes Lernen (purple)
+[2026-05-22 10:38:38] PLAYER START: PCS (red)
+[2026-05-22 10:38:38] PLAYER START: S&S (blue)
+[2026-05-22 10:38:38] PLAYER START: RL (lawn green)
+[2026-05-22 10:38:38] MOVE 1: Gruppe 2 (yellow) 35->37 [0.00ms]
+[2026-05-22 10:38:38] SCORE Gruppe 2 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE Tiefes Verstarkendes Lernen (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE PCS (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE S&S (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:38] SCORE RL (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:38] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:38:38] PLAYER START: Tiefes Verstarkendes Lernen (purple)
+[2026-05-22 10:38:38] PLAYER START: PCS (red)
+[2026-05-22 10:38:38] PLAYER START: S&S (blue)
+[2026-05-22 10:38:38] PLAYER START: RL (lawn green)
+[2026-05-22 10:38:38] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:38:38] PLAYER START: Tiefes Verstarkendes Lernen (purple)
+[2026-05-22 10:38:38] PLAYER START: PCS (red)
+[2026-05-22 10:38:38] PLAYER START: S&S (blue)
+[2026-05-22 10:38:38] PLAYER START: RL (lawn green)
+[2026-05-22 10:38:39] MOVE 2: S&S (blue) 4->15 [0.00ms]
+[2026-05-22 10:38:39] SCORE Gruppe 2 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE PCS (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE S&S (blue): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE RL (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:39] MOVE 3: Tiefes Verstarkendes Lernen (purple) 108->106 [0.00ms]
+[2026-05-22 10:38:39] SCORE Gruppe 2 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE PCS (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE S&S (blue): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:39] SCORE RL (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 4: PCS (red) 115->104 [0.00ms]
+[2026-05-22 10:38:40] SCORE Gruppe 2 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Tiefes Verstarkendes Lernen (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE PCS (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE S&S (blue): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE RL (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:40] MOVE 5: RL (lawn green) 33->54 [0.00ms]
+[2026-05-22 10:38:40] SCORE Gruppe 2 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE Tiefes Verstarkendes Lernen (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE PCS (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE S&S (blue): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 6: Gruppe 2 (yellow) 10->56 [0.00ms]
+[2026-05-22 10:38:41] SCORE Gruppe 2 (yellow): Final=291.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE PCS (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE S&S (blue): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 7: S&S (blue) 6->28 [0.00ms]
+[2026-05-22 10:38:41] SCORE Gruppe 2 (yellow): Final=291.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE PCS (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE S&S (blue): Final=287.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 8: Tiefes Verstarkendes Lernen (purple) 107->103 [0.00ms]
+[2026-05-22 10:38:41] SCORE Gruppe 2 (yellow): Final=291.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE PCS (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE S&S (blue): Final=287.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:41] MOVE 9: PCS (red) 120->102 [0.00ms]
+[2026-05-22 10:38:41] SCORE Gruppe 2 (yellow): Final=291.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE PCS (red): Final=291.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE S&S (blue): Final=287.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:41] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:38:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 10: RL (lawn green) 20->64 [0.00ms]
+[2026-05-22 10:38:42] SCORE Gruppe 2 (yellow): Final=291.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE PCS (red): Final=291.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE S&S (blue): Final=287.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE RL (lawn green): Final=286.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:42] MOVE 11: Gruppe 2 (yellow) 12->39 [0.00ms]
+[2026-05-22 10:38:42] SCORE Gruppe 2 (yellow): Final=299.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE PCS (red): Final=291.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE S&S (blue): Final=287.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:42] SCORE RL (lawn green): Final=286.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 12: S&S (blue) 3->35 [0.00ms]
+[2026-05-22 10:38:43] SCORE Gruppe 2 (yellow): Final=299.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE PCS (red): Final=291.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE S&S (blue): Final=295.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE RL (lawn green): Final=286.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 13: Tiefes Verstarkendes Lernen (purple) 110->83 [0.01ms]
+[2026-05-22 10:38:43] SCORE Gruppe 2 (yellow): Final=299.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=299.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE PCS (red): Final=291.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE S&S (blue): Final=295.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE RL (lawn green): Final=286.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:43] MOVE 14: PCS (red) 114->73 [0.00ms]
+[2026-05-22 10:38:43] SCORE Gruppe 2 (yellow): Final=299.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=299.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE PCS (red): Final=299.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE S&S (blue): Final=295.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:43] SCORE RL (lawn green): Final=286.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:38:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:44] MOVE 15: RL (lawn green) 54->53 [0.00ms]
+[2026-05-22 10:38:44] SCORE Gruppe 2 (yellow): Final=299.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Tiefes Verstarkendes Lernen (purple): Final=299.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE PCS (red): Final=299.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE S&S (blue): Final=295.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE RL (lawn green): Final=287.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:44] MOVE 16: Gruppe 2 (yellow) 36->40 [0.00ms]
+[2026-05-22 10:38:44] SCORE Gruppe 2 (yellow): Final=307.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE Tiefes Verstarkendes Lernen (purple): Final=299.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE PCS (red): Final=299.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE S&S (blue): Final=295.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:38:44] SCORE RL (lawn green): Final=287.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 17: S&S (blue) 5->62 [0.00ms]
+[2026-05-22 10:38:45] SCORE Gruppe 2 (yellow): Final=307.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=299.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE PCS (red): Final=299.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE S&S (blue): Final=306.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE RL (lawn green): Final=287.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 18: Tiefes Verstarkendes Lernen (purple) 84->61 [0.00ms]
+[2026-05-22 10:38:45] SCORE Gruppe 2 (yellow): Final=307.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=307.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE PCS (red): Final=299.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE S&S (blue): Final=306.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE RL (lawn green): Final=287.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:45] MOVE 19: PCS (red) 119->94 [0.00ms]
+[2026-05-22 10:38:45] SCORE Gruppe 2 (yellow): Final=307.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=307.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE PCS (red): Final=306.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE S&S (blue): Final=306.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:45] SCORE RL (lawn green): Final=287.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:38:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 20: RL (lawn green) 22->12 [0.01ms]
+[2026-05-22 10:38:46] SCORE Gruppe 2 (yellow): Final=307.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=307.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE PCS (red): Final=306.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE S&S (blue): Final=306.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE RL (lawn green): Final=302.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 21: Gruppe 2 (yellow) 39->43 [0.00ms]
+[2026-05-22 10:38:46] SCORE Gruppe 2 (yellow): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=307.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE PCS (red): Final=306.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE S&S (blue): Final=306.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE RL (lawn green): Final=302.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 22: S&S (blue) 0->41 [0.00ms]
+[2026-05-22 10:38:46] SCORE Gruppe 2 (yellow): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=307.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE PCS (red): Final=306.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE S&S (blue): Final=318.3, Time=98.3, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE RL (lawn green): Final=302.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 23: Tiefes Verstarkendes Lernen (purple) 74->27 [0.00ms]
+[2026-05-22 10:38:46] SCORE Gruppe 2 (yellow): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=322.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE PCS (red): Final=306.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE S&S (blue): Final=318.3, Time=98.3, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE RL (lawn green): Final=302.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:46] MOVE 24: PCS (red) 116->82 [0.00ms]
+[2026-05-22 10:38:46] SCORE Gruppe 2 (yellow): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=322.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE PCS (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE S&S (blue): Final=318.3, Time=98.3, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:46] SCORE RL (lawn green): Final=302.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:47] MOVE 25: RL (lawn green) 12->3 [0.00ms]
+[2026-05-22 10:38:47] SCORE Gruppe 2 (yellow): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE Tiefes Verstarkendes Lernen (purple): Final=322.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE PCS (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE S&S (blue): Final=318.3, Time=98.3, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:47] SCORE RL (lawn green): Final=298.1, Time=96.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 26: Gruppe 2 (yellow) 13->26 [0.00ms]
+[2026-05-22 10:38:48] SCORE Gruppe 2 (yellow): Final=316.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=322.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE PCS (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE S&S (blue): Final=318.3, Time=98.3, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE RL (lawn green): Final=298.1, Time=96.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 27: S&S (blue) 28->71 [0.00ms]
+[2026-05-22 10:38:48] SCORE Gruppe 2 (yellow): Final=316.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=322.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE PCS (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE S&S (blue): Final=326.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE RL (lawn green): Final=298.1, Time=96.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:48] MOVE 28: Tiefes Verstarkendes Lernen (purple) 97->50 [0.00ms]
+[2026-05-22 10:38:48] SCORE Gruppe 2 (yellow): Final=316.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=338.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE PCS (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE S&S (blue): Final=326.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:48] SCORE RL (lawn green): Final=298.1, Time=96.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 29: PCS (red) 111->91 [0.00ms]
+[2026-05-22 10:38:49] SCORE Gruppe 2 (yellow): Final=316.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Tiefes Verstarkendes Lernen (purple): Final=338.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE PCS (red): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE S&S (blue): Final=326.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE RL (lawn green): Final=298.1, Time=96.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:49] MOVE 30: RL (lawn green) 3->39 [0.00ms]
+[2026-05-22 10:38:49] SCORE Gruppe 2 (yellow): Final=316.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE Tiefes Verstarkendes Lernen (purple): Final=338.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE PCS (red): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE S&S (blue): Final=326.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:49] SCORE RL (lawn green): Final=301.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 31: Gruppe 2 (yellow) 40->107 [0.00ms]
+[2026-05-22 10:38:50] SCORE Gruppe 2 (yellow): Final=428.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=338.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE PCS (red): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE S&S (blue): Final=326.0, Time=98.0, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE RL (lawn green): Final=301.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 32: S&S (blue) 15->84 [0.00ms]
+[2026-05-22 10:38:50] SCORE Gruppe 2 (yellow): Final=428.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=338.7, Time=98.7, Moves(6)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE PCS (red): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE S&S (blue): Final=335.8, Time=97.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE RL (lawn green): Final=301.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:50] MOVE 33: Tiefes Verstarkendes Lernen (purple) 61->36 [0.00ms]
+[2026-05-22 10:38:50] SCORE Gruppe 2 (yellow): Final=428.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=450.6, Time=98.6, Moves(7)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE PCS (red): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE S&S (blue): Final=335.8, Time=97.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:50] SCORE RL (lawn green): Final=301.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:51] MOVE 34: PCS (red) 82->4 [0.00ms]
+[2026-05-22 10:38:51] SCORE Gruppe 2 (yellow): Final=428.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE Tiefes Verstarkendes Lernen (purple): Final=450.6, Time=98.6, Moves(7)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE PCS (red): Final=431.6, Time=97.6, Moves(7)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE S&S (blue): Final=335.8, Time=97.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:51] SCORE RL (lawn green): Final=301.3, Time=95.3, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:38:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 35: RL (lawn green) 39->49 [0.00ms]
+[2026-05-22 10:38:52] SCORE Gruppe 2 (yellow): Final=428.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Tiefes Verstarkendes Lernen (purple): Final=450.6, Time=98.6, Moves(7)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE PCS (red): Final=431.6, Time=97.6, Moves(7)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE S&S (blue): Final=335.8, Time=97.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE RL (lawn green): Final=302.6, Time=94.6, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 36: Gruppe 2 (yellow) 37->48 [0.00ms]
+[2026-05-22 10:38:52] SCORE Gruppe 2 (yellow): Final=429.4, Time=97.4, Moves(8)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Tiefes Verstarkendes Lernen (purple): Final=450.6, Time=98.6, Moves(7)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE PCS (red): Final=431.6, Time=97.6, Moves(7)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE S&S (blue): Final=335.8, Time=97.8, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE RL (lawn green): Final=302.6, Time=94.6, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:52] MOVE 37: S&S (blue) 35->60 [0.00ms]
+[2026-05-22 10:38:52] SCORE Gruppe 2 (yellow): Final=429.4, Time=97.4, Moves(8)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE Tiefes Verstarkendes Lernen (purple): Final=450.6, Time=98.6, Moves(7)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE PCS (red): Final=431.6, Time=97.6, Moves(7)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE S&S (blue): Final=339.5, Time=97.5, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:52] SCORE RL (lawn green): Final=302.6, Time=94.6, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:53] MOVE 38: Tiefes Verstarkendes Lernen (purple) 95->29 [0.00ms]
+[2026-05-22 10:38:53] SCORE Gruppe 2 (yellow): Final=429.4, Time=97.4, Moves(8)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=462.6, Time=98.6, Moves(8)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE PCS (red): Final=431.6, Time=97.6, Moves(7)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE S&S (blue): Final=339.5, Time=97.5, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE RL (lawn green): Final=302.6, Time=94.6, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:53] MOVE 39: PCS (red) 112->92 [0.00ms]
+[2026-05-22 10:38:53] SCORE Gruppe 2 (yellow): Final=429.4, Time=97.4, Moves(8)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=462.6, Time=98.6, Moves(8)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE PCS (red): Final=435.2, Time=97.2, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE S&S (blue): Final=339.5, Time=97.5, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:53] SCORE RL (lawn green): Final=302.6, Time=94.6, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:38:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:54] MOVE 40: RL (lawn green) 49->65 [0.00ms]
+[2026-05-22 10:38:54] SCORE Gruppe 2 (yellow): Final=429.4, Time=97.4, Moves(8)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE Tiefes Verstarkendes Lernen (purple): Final=462.6, Time=98.6, Moves(8)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE PCS (red): Final=435.2, Time=97.2, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE S&S (blue): Final=339.5, Time=97.5, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE RL (lawn green): Final=409.8, Time=93.8, Moves(8)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:54] MOVE 41: Gruppe 2 (yellow) 24->30 [0.00ms]
+[2026-05-22 10:38:54] SCORE Gruppe 2 (yellow): Final=440.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE Tiefes Verstarkendes Lernen (purple): Final=462.6, Time=98.6, Moves(8)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE PCS (red): Final=435.2, Time=97.2, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE S&S (blue): Final=339.5, Time=97.5, Moves(8)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:38:54] SCORE RL (lawn green): Final=409.8, Time=93.8, Moves(8)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:55] MOVE 42: S&S (blue) 62->81 [0.01ms]
+[2026-05-22 10:38:55] SCORE Gruppe 2 (yellow): Final=440.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=462.6, Time=98.6, Moves(8)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE PCS (red): Final=435.2, Time=97.2, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE S&S (blue): Final=343.2, Time=97.2, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE RL (lawn green): Final=409.8, Time=93.8, Moves(8)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:55] MOVE 43: Tiefes Verstarkendes Lernen (purple) 27->14 [0.01ms]
+[2026-05-22 10:38:55] SCORE Gruppe 2 (yellow): Final=440.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=464.4, Time=98.4, Moves(9)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE PCS (red): Final=435.2, Time=97.2, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE S&S (blue): Final=343.2, Time=97.2, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE RL (lawn green): Final=409.8, Time=93.8, Moves(8)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:55] MOVE 44: PCS (red) 91->31 [0.00ms]
+[2026-05-22 10:38:55] SCORE Gruppe 2 (yellow): Final=440.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=464.4, Time=98.4, Moves(9)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE PCS (red): Final=446.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE S&S (blue): Final=343.2, Time=97.2, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:55] SCORE RL (lawn green): Final=409.8, Time=93.8, Moves(8)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:56] MOVE 45: RL (lawn green) 65->76 [0.00ms]
+[2026-05-22 10:38:56] SCORE Gruppe 2 (yellow): Final=440.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:38:56] SCORE Tiefes Verstarkendes Lernen (purple): Final=464.4, Time=98.4, Moves(9)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:38:56] SCORE PCS (red): Final=446.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:56] SCORE S&S (blue): Final=343.2, Time=97.2, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:56] SCORE RL (lawn green): Final=408.9, Time=92.9, Moves(9)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:57] MOVE 46: Gruppe 2 (yellow) 26->69 [0.00ms]
+[2026-05-22 10:38:57] SCORE Gruppe 2 (yellow): Final=448.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE Tiefes Verstarkendes Lernen (purple): Final=464.4, Time=98.4, Moves(9)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE PCS (red): Final=446.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE S&S (blue): Final=343.2, Time=97.2, Moves(9)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE RL (lawn green): Final=408.9, Time=92.9, Moves(9)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:57] MOVE 47: S&S (blue) 84->116 [0.01ms]
+[2026-05-22 10:38:57] SCORE Gruppe 2 (yellow): Final=448.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE Tiefes Verstarkendes Lernen (purple): Final=464.4, Time=98.4, Moves(9)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE PCS (red): Final=446.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE S&S (blue): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE RL (lawn green): Final=408.9, Time=92.9, Moves(9)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:57] MOVE 48: Tiefes Verstarkendes Lernen (purple) 109->59 [0.01ms]
+[2026-05-22 10:38:57] SCORE Gruppe 2 (yellow): Final=448.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE Tiefes Verstarkendes Lernen (purple): Final=480.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE PCS (red): Final=446.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE S&S (blue): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:57] SCORE RL (lawn green): Final=408.9, Time=92.9, Moves(9)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:58] MOVE 49: PCS (red) 113->74 [0.00ms]
+[2026-05-22 10:38:58] SCORE Gruppe 2 (yellow): Final=448.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE Tiefes Verstarkendes Lernen (purple): Final=480.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE PCS (red): Final=454.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE S&S (blue): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:58] SCORE RL (lawn green): Final=408.9, Time=92.9, Moves(9)=0.0, Pins(1)=100.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:38:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:59] MOVE 50: RL (lawn green) 19->80 [0.00ms]
+[2026-05-22 10:38:59] SCORE Gruppe 2 (yellow): Final=448.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE Tiefes Verstarkendes Lernen (purple): Final=480.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE PCS (red): Final=454.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE S&S (blue): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE RL (lawn green): Final=419.8, Time=91.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:38:59] MOVE 51: Gruppe 2 (yellow) 11->12 [0.00ms]
+[2026-05-22 10:38:59] SCORE Gruppe 2 (yellow): Final=450.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE Tiefes Verstarkendes Lernen (purple): Final=480.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE PCS (red): Final=454.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE S&S (blue): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:38:59] SCORE RL (lawn green): Final=419.8, Time=91.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:38:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:00] MOVE 52: S&S (blue) 8->88 [0.01ms]
+[2026-05-22 10:39:00] SCORE Gruppe 2 (yellow): Final=450.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE Tiefes Verstarkendes Lernen (purple): Final=480.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE PCS (red): Final=454.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE S&S (blue): Final=464.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE RL (lawn green): Final=419.8, Time=91.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:00] MOVE 53: Tiefes Verstarkendes Lernen (purple) 50->66 [0.00ms]
+[2026-05-22 10:39:00] SCORE Gruppe 2 (yellow): Final=450.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE Tiefes Verstarkendes Lernen (purple): Final=484.2, Time=98.2, Moves(11)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE PCS (red): Final=454.3, Time=96.3, Moves(10)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE S&S (blue): Final=464.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE RL (lawn green): Final=419.8, Time=91.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:00] MOVE 54: PCS (red) 31->54 [0.00ms]
+[2026-05-22 10:39:00] SCORE Gruppe 2 (yellow): Final=450.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE Tiefes Verstarkendes Lernen (purple): Final=484.2, Time=98.2, Moves(11)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE PCS (red): Final=449.8, Time=95.8, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE S&S (blue): Final=464.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:00] SCORE RL (lawn green): Final=419.8, Time=91.8, Moves(10)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:01] MOVE 55: RL (lawn green) 76->65 [0.00ms]
+[2026-05-22 10:39:01] SCORE Gruppe 2 (yellow): Final=450.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE Tiefes Verstarkendes Lernen (purple): Final=484.2, Time=98.2, Moves(11)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE PCS (red): Final=449.8, Time=95.8, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE S&S (blue): Final=464.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:01] SCORE RL (lawn green): Final=419.0, Time=91.0, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:02] MOVE 56: Gruppe 2 (yellow) 12->35 [0.00ms]
+[2026-05-22 10:39:02] SCORE Gruppe 2 (yellow): Final=449.5, Time=95.5, Moves(12)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE Tiefes Verstarkendes Lernen (purple): Final=484.2, Time=98.2, Moves(11)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE PCS (red): Final=449.8, Time=95.8, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE S&S (blue): Final=464.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE RL (lawn green): Final=419.0, Time=91.0, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:02] MOVE 57: S&S (blue) 1->47 [0.00ms]
+[2026-05-22 10:39:02] SCORE Gruppe 2 (yellow): Final=449.5, Time=95.5, Moves(12)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE Tiefes Verstarkendes Lernen (purple): Final=484.2, Time=98.2, Moves(11)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE PCS (red): Final=449.8, Time=95.8, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE S&S (blue): Final=475.3, Time=95.3, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE RL (lawn green): Final=419.0, Time=91.0, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:02] MOVE 58: Tiefes Verstarkendes Lernen (purple) 103->57 [0.00ms]
+[2026-05-22 10:39:02] SCORE Gruppe 2 (yellow): Final=449.5, Time=95.5, Moves(12)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE Tiefes Verstarkendes Lernen (purple): Final=492.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE PCS (red): Final=449.8, Time=95.8, Moves(11)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE S&S (blue): Final=475.3, Time=95.3, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:39:02] SCORE RL (lawn green): Final=419.0, Time=91.0, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:03] MOVE 59: PCS (red) 54->31 [0.00ms]
+[2026-05-22 10:39:03] SCORE Gruppe 2 (yellow): Final=449.5, Time=95.5, Moves(12)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE Tiefes Verstarkendes Lernen (purple): Final=492.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE PCS (red): Final=453.7, Time=95.7, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE S&S (blue): Final=475.3, Time=95.3, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE RL (lawn green): Final=419.0, Time=91.0, Moves(11)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:39:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:03] MOVE 60: RL (lawn green) 80->76 [0.01ms]
+[2026-05-22 10:39:03] SCORE Gruppe 2 (yellow): Final=449.5, Time=95.5, Moves(12)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE Tiefes Verstarkendes Lernen (purple): Final=492.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE PCS (red): Final=453.7, Time=95.7, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE S&S (blue): Final=475.3, Time=95.3, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:39:03] SCORE RL (lawn green): Final=526.3, Time=90.3, Moves(12)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:04] MOVE 61: Gruppe 2 (yellow) 35->58 [0.00ms]
+[2026-05-22 10:39:04] SCORE Gruppe 2 (yellow): Final=457.3, Time=95.3, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE Tiefes Verstarkendes Lernen (purple): Final=492.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE PCS (red): Final=453.7, Time=95.7, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE S&S (blue): Final=475.3, Time=95.3, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE RL (lawn green): Final=526.3, Time=90.3, Moves(12)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:04] MOVE 62: S&S (blue) 60->79 [0.00ms]
+[2026-05-22 10:39:04] SCORE Gruppe 2 (yellow): Final=457.3, Time=95.3, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE Tiefes Verstarkendes Lernen (purple): Final=492.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE PCS (red): Final=453.7, Time=95.7, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE S&S (blue): Final=478.6, Time=94.6, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE RL (lawn green): Final=526.3, Time=90.3, Moves(12)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:04] MOVE 63: Tiefes Verstarkendes Lernen (purple) 14->13 [0.00ms]
+[2026-05-22 10:39:04] SCORE Gruppe 2 (yellow): Final=457.3, Time=95.3, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE Tiefes Verstarkendes Lernen (purple): Final=594.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE PCS (red): Final=453.7, Time=95.7, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE S&S (blue): Final=478.6, Time=94.6, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:39:04] SCORE RL (lawn green): Final=526.3, Time=90.3, Moves(12)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:05] MOVE 64: PCS (red) 31->54 [0.01ms]
+[2026-05-22 10:39:05] SCORE Gruppe 2 (yellow): Final=457.3, Time=95.3, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE Tiefes Verstarkendes Lernen (purple): Final=594.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE PCS (red): Final=449.2, Time=95.2, Moves(13)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE S&S (blue): Final=478.6, Time=94.6, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:39:05] SCORE RL (lawn green): Final=526.3, Time=90.3, Moves(12)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:06] MOVE 65: RL (lawn green) 76->87 [0.00ms]
+[2026-05-22 10:39:06] SCORE Gruppe 2 (yellow): Final=457.3, Time=95.3, Moves(13)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE Tiefes Verstarkendes Lernen (purple): Final=594.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE PCS (red): Final=449.2, Time=95.2, Moves(13)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE S&S (blue): Final=478.6, Time=94.6, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE RL (lawn green): Final=525.5, Time=89.5, Moves(13)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:06] MOVE 66: Gruppe 2 (yellow) 48->95 [0.00ms]
+[2026-05-22 10:39:06] SCORE Gruppe 2 (yellow): Final=573.0, Time=95.0, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE Tiefes Verstarkendes Lernen (purple): Final=594.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE PCS (red): Final=449.2, Time=95.2, Moves(13)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE S&S (blue): Final=478.6, Time=94.6, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE RL (lawn green): Final=525.5, Time=89.5, Moves(13)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:06] MOVE 67: S&S (blue) 47->67 [0.00ms]
+[2026-05-22 10:39:06] SCORE Gruppe 2 (yellow): Final=573.0, Time=95.0, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE Tiefes Verstarkendes Lernen (purple): Final=594.1, Time=98.1, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE PCS (red): Final=449.2, Time=95.2, Moves(13)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE S&S (blue): Final=482.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:06] SCORE RL (lawn green): Final=525.5, Time=89.5, Moves(13)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:07] MOVE 68: Tiefes Verstarkendes Lernen (purple) 57->47 [0.01ms]
+[2026-05-22 10:39:07] SCORE Gruppe 2 (yellow): Final=573.0, Time=95.0, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE Tiefes Verstarkendes Lernen (purple): Final=595.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE PCS (red): Final=449.2, Time=95.2, Moves(13)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE S&S (blue): Final=482.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE RL (lawn green): Final=525.5, Time=89.5, Moves(13)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:07] MOVE 69: PCS (red) 54->31 [0.00ms]
+[2026-05-22 10:39:07] SCORE Gruppe 2 (yellow): Final=573.0, Time=95.0, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE Tiefes Verstarkendes Lernen (purple): Final=595.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE PCS (red): Final=453.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE S&S (blue): Final=482.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:07] SCORE RL (lawn green): Final=525.5, Time=89.5, Moves(13)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:08] MOVE 70: RL (lawn green) 87->86 [0.00ms]
+[2026-05-22 10:39:08] SCORE Gruppe 2 (yellow): Final=573.0, Time=95.0, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE Tiefes Verstarkendes Lernen (purple): Final=595.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE PCS (red): Final=453.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE S&S (blue): Final=482.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE RL (lawn green): Final=524.8, Time=88.8, Moves(14)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:08] MOVE 71: Gruppe 2 (yellow) 46->72 [0.01ms]
+[2026-05-22 10:39:08] SCORE Gruppe 2 (yellow): Final=588.8, Time=94.8, Moves(15)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE Tiefes Verstarkendes Lernen (purple): Final=595.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE PCS (red): Final=453.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE S&S (blue): Final=482.2, Time=94.2, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:08] SCORE RL (lawn green): Final=524.8, Time=88.8, Moves(14)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:09] MOVE 72: S&S (blue) 41->51 [0.00ms]
+[2026-05-22 10:39:09] SCORE Gruppe 2 (yellow): Final=588.8, Time=94.8, Moves(15)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE Tiefes Verstarkendes Lernen (purple): Final=595.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE PCS (red): Final=453.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE S&S (blue): Final=483.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE RL (lawn green): Final=524.8, Time=88.8, Moves(14)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:09] MOVE 73: Tiefes Verstarkendes Lernen (purple) 66->46 [0.00ms]
+[2026-05-22 10:39:09] SCORE Gruppe 2 (yellow): Final=588.8, Time=94.8, Moves(15)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE Tiefes Verstarkendes Lernen (purple): Final=699.1, Time=97.1, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE PCS (red): Final=453.0, Time=95.0, Moves(14)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE S&S (blue): Final=483.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE RL (lawn green): Final=524.8, Time=88.8, Moves(14)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:09] MOVE 74: PCS (red) 4->15 [0.01ms]
+[2026-05-22 10:39:09] SCORE Gruppe 2 (yellow): Final=588.8, Time=94.8, Moves(15)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE Tiefes Verstarkendes Lernen (purple): Final=699.1, Time=97.1, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE PCS (red): Final=350.9, Time=94.9, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE S&S (blue): Final=483.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:09] SCORE RL (lawn green): Final=524.8, Time=88.8, Moves(14)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:10] MOVE 75: RL (lawn green) 86->99 [0.01ms]
+[2026-05-22 10:39:10] SCORE Gruppe 2 (yellow): Final=588.8, Time=94.8, Moves(15)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE Tiefes Verstarkendes Lernen (purple): Final=699.1, Time=97.1, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE PCS (red): Final=350.9, Time=94.9, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE S&S (blue): Final=483.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE RL (lawn green): Final=524.1, Time=88.1, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:10] MOVE 76: Gruppe 2 (yellow) 56->18 [0.00ms]
+[2026-05-22 10:39:10] SCORE Gruppe 2 (yellow): Final=596.4, Time=94.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE Tiefes Verstarkendes Lernen (purple): Final=699.1, Time=97.1, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE PCS (red): Final=350.9, Time=94.9, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE S&S (blue): Final=483.8, Time=93.8, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE RL (lawn green): Final=524.1, Time=88.1, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:10] MOVE 77: S&S (blue) 7->27 [0.00ms]
+[2026-05-22 10:39:10] SCORE Gruppe 2 (yellow): Final=596.4, Time=94.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE Tiefes Verstarkendes Lernen (purple): Final=699.1, Time=97.1, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE PCS (red): Final=350.9, Time=94.9, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE S&S (blue): Final=487.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE RL (lawn green): Final=524.1, Time=88.1, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:10] MOVE 78: Tiefes Verstarkendes Lernen (purple) 59->57 [0.00ms]
+[2026-05-22 10:39:10] SCORE Gruppe 2 (yellow): Final=596.4, Time=94.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE Tiefes Verstarkendes Lernen (purple): Final=703.0, Time=97.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE PCS (red): Final=350.9, Time=94.9, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE S&S (blue): Final=487.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:10] SCORE RL (lawn green): Final=524.1, Time=88.1, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:11] MOVE 79: PCS (red) 74->52 [0.00ms]
+[2026-05-22 10:39:11] SCORE Gruppe 2 (yellow): Final=596.4, Time=94.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE Tiefes Verstarkendes Lernen (purple): Final=703.0, Time=97.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE PCS (red): Final=354.7, Time=94.7, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE S&S (blue): Final=487.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE RL (lawn green): Final=524.1, Time=88.1, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:11] MOVE 80: RL (lawn green) 99->98 [0.00ms]
+[2026-05-22 10:39:11] SCORE Gruppe 2 (yellow): Final=596.4, Time=94.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE Tiefes Verstarkendes Lernen (purple): Final=703.0, Time=97.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE PCS (red): Final=354.7, Time=94.7, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE S&S (blue): Final=487.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:11] SCORE RL (lawn green): Final=523.5, Time=87.5, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:12] MOVE 81: Gruppe 2 (yellow) 18->19 [0.00ms]
+[2026-05-22 10:39:12] SCORE Gruppe 2 (yellow): Final=595.9, Time=93.9, Moves(17)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE Tiefes Verstarkendes Lernen (purple): Final=703.0, Time=97.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE PCS (red): Final=354.7, Time=94.7, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE S&S (blue): Final=487.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE RL (lawn green): Final=523.5, Time=87.5, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:12] MOVE 82: S&S (blue) 2->4 [0.00ms]
+[2026-05-22 10:39:12] SCORE Gruppe 2 (yellow): Final=595.9, Time=93.9, Moves(17)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE Tiefes Verstarkendes Lernen (purple): Final=703.0, Time=97.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE PCS (red): Final=354.7, Time=94.7, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE S&S (blue): Final=488.9, Time=92.9, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE RL (lawn green): Final=523.5, Time=87.5, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:12] MOVE 83: Tiefes Verstarkendes Lernen (purple) 83->10 [0.00ms]
+[2026-05-22 10:39:12] SCORE Gruppe 2 (yellow): Final=595.9, Time=93.9, Moves(17)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE Tiefes Verstarkendes Lernen (purple): Final=821.0, Time=97.0, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE PCS (red): Final=354.7, Time=94.7, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE S&S (blue): Final=488.9, Time=92.9, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:12] SCORE RL (lawn green): Final=523.5, Time=87.5, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:13] MOVE 84: PCS (red) 118->113 [0.00ms]
+[2026-05-22 10:39:13] SCORE Gruppe 2 (yellow): Final=595.9, Time=93.9, Moves(17)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE Tiefes Verstarkendes Lernen (purple): Final=821.0, Time=97.0, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE PCS (red): Final=358.3, Time=94.3, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE S&S (blue): Final=488.9, Time=92.9, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE RL (lawn green): Final=523.5, Time=87.5, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:13] MOVE 85: RL (lawn green) 98->86 [0.00ms]
+[2026-05-22 10:39:13] SCORE Gruppe 2 (yellow): Final=595.9, Time=93.9, Moves(17)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE Tiefes Verstarkendes Lernen (purple): Final=821.0, Time=97.0, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE PCS (red): Final=358.3, Time=94.3, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE S&S (blue): Final=488.9, Time=92.9, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:13] SCORE RL (lawn green): Final=522.8, Time=86.8, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:14] MOVE 86: Gruppe 2 (yellow) 58->108 [0.00ms]
+[2026-05-22 10:39:14] SCORE Gruppe 2 (yellow): Final=709.8, Time=93.8, Moves(18)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE Tiefes Verstarkendes Lernen (purple): Final=821.0, Time=97.0, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE PCS (red): Final=358.3, Time=94.3, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE S&S (blue): Final=488.9, Time=92.9, Moves(17)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE RL (lawn green): Final=522.8, Time=86.8, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:14] MOVE 87: S&S (blue) 4->8 [0.00ms]
+[2026-05-22 10:39:14] SCORE Gruppe 2 (yellow): Final=709.8, Time=93.8, Moves(18)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE Tiefes Verstarkendes Lernen (purple): Final=821.0, Time=97.0, Moves(17)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE PCS (red): Final=358.3, Time=94.3, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE S&S (blue): Final=490.4, Time=92.4, Moves(18)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE RL (lawn green): Final=522.8, Time=86.8, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:14] MOVE 88: Tiefes Verstarkendes Lernen (purple) 106->35 [0.00ms]
+[2026-05-22 10:39:14] SCORE Gruppe 2 (yellow): Final=709.8, Time=93.8, Moves(18)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE Tiefes Verstarkendes Lernen (purple): Final=938.9, Time=96.9, Moves(18)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE PCS (red): Final=358.3, Time=94.3, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE S&S (blue): Final=490.4, Time=92.4, Moves(18)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE RL (lawn green): Final=522.8, Time=86.8, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:14] MOVE 89: PCS (red) 113->70 [0.01ms]
+[2026-05-22 10:39:14] SCORE Gruppe 2 (yellow): Final=709.8, Time=93.8, Moves(18)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE Tiefes Verstarkendes Lernen (purple): Final=938.9, Time=96.9, Moves(18)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE PCS (red): Final=366.0, Time=94.0, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE S&S (blue): Final=490.4, Time=92.4, Moves(18)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:14] SCORE RL (lawn green): Final=522.8, Time=86.8, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:15] MOVE 90: RL (lawn green) 86->87 [0.01ms]
+[2026-05-22 10:39:15] SCORE Gruppe 2 (yellow): Final=709.8, Time=93.8, Moves(18)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE Tiefes Verstarkendes Lernen (purple): Final=938.9, Time=96.9, Moves(18)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE PCS (red): Final=366.0, Time=94.0, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE S&S (blue): Final=490.4, Time=92.4, Moves(18)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE RL (lawn green): Final=522.1, Time=86.1, Moves(18)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:15] MOVE 91: Gruppe 2 (yellow) 19->109 [0.01ms]
+[2026-05-22 10:39:15] SCORE Gruppe 2 (yellow): Final=819.5, Time=93.5, Moves(19)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE Tiefes Verstarkendes Lernen (purple): Final=938.9, Time=96.9, Moves(18)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE PCS (red): Final=366.0, Time=94.0, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE S&S (blue): Final=490.4, Time=92.4, Moves(18)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:39:15] SCORE RL (lawn green): Final=522.1, Time=86.1, Moves(18)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:16] MOVE 92: S&S (blue) 79->106 [0.00ms]
+[2026-05-22 10:39:16] SCORE Gruppe 2 (yellow): Final=819.5, Time=93.5, Moves(19)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE Tiefes Verstarkendes Lernen (purple): Final=938.9, Time=96.9, Moves(18)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE PCS (red): Final=366.0, Time=94.0, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE S&S (blue): Final=494.2, Time=92.2, Moves(19)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE RL (lawn green): Final=522.1, Time=86.1, Moves(18)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:16] MOVE 93: Tiefes Verstarkendes Lernen (purple) 47->24 [0.01ms]
+[2026-05-22 10:39:16] SCORE Gruppe 2 (yellow): Final=819.5, Time=93.5, Moves(19)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE Tiefes Verstarkendes Lernen (purple): Final=1040.8, Time=96.8, Moves(19)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE PCS (red): Final=366.0, Time=94.0, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE S&S (blue): Final=494.2, Time=92.2, Moves(19)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE RL (lawn green): Final=522.1, Time=86.1, Moves(18)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:16] MOVE 94: PCS (red) 104->112 [0.00ms]
+[2026-05-22 10:39:16] SCORE Gruppe 2 (yellow): Final=819.5, Time=93.5, Moves(19)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE Tiefes Verstarkendes Lernen (purple): Final=1040.8, Time=96.8, Moves(19)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE PCS (red): Final=363.7, Time=93.7, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE S&S (blue): Final=494.2, Time=92.2, Moves(19)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:16] SCORE RL (lawn green): Final=522.1, Time=86.1, Moves(18)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:17] MOVE 95: RL (lawn green) 65->56 [0.00ms]
+[2026-05-22 10:39:17] SCORE Gruppe 2 (yellow): Final=819.5, Time=93.5, Moves(19)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE Tiefes Verstarkendes Lernen (purple): Final=1040.8, Time=96.8, Moves(19)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE PCS (red): Final=363.7, Time=93.7, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE S&S (blue): Final=494.2, Time=92.2, Moves(19)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE RL (lawn green): Final=419.4, Time=85.4, Moves(19)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:39:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:17] MOVE 96: Gruppe 2 (yellow) 30->18 [0.01ms]
+[2026-05-22 10:39:17] SCORE Gruppe 2 (yellow): Final=818.8, Time=92.8, Moves(20)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE Tiefes Verstarkendes Lernen (purple): Final=1040.8, Time=96.8, Moves(19)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE PCS (red): Final=363.7, Time=93.7, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:17] SCORE S&S (blue): Final=494.2, Time=92.2, Moves(19)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE RL (lawn green): Final=419.4, Time=85.4, Moves(19)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:39:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:18] MOVE 97: S&S (blue) 81->115 [0.01ms]
+[2026-05-22 10:39:18] SCORE Gruppe 2 (yellow): Final=818.8, Time=92.8, Moves(20)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE Tiefes Verstarkendes Lernen (purple): Final=1040.8, Time=96.8, Moves(19)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE PCS (red): Final=363.7, Time=93.7, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE S&S (blue): Final=599.5, Time=91.5, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE RL (lawn green): Final=419.4, Time=85.4, Moves(19)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:39:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:18] MOVE 98: Tiefes Verstarkendes Lernen (purple) 57->47 [0.00ms]
+[2026-05-22 10:39:18] SCORE Gruppe 2 (yellow): Final=818.8, Time=92.8, Moves(20)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.7, Time=96.7, Moves(20)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE PCS (red): Final=363.7, Time=93.7, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE S&S (blue): Final=599.5, Time=91.5, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:18] SCORE RL (lawn green): Final=419.4, Time=85.4, Moves(19)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:39:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:19] MOVE 99: PCS (red) 92->104 [0.00ms]
+[2026-05-22 10:39:19] SCORE Gruppe 2 (yellow): Final=818.8, Time=92.8, Moves(20)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.7, Time=96.7, Moves(20)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE PCS (red): Final=361.4, Time=93.4, Moves(20)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE S&S (blue): Final=599.5, Time=91.5, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE RL (lawn green): Final=419.4, Time=85.4, Moves(19)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:39:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:19] MOVE 100: RL (lawn green) 56->65 [0.00ms]
+[2026-05-22 10:39:19] SCORE Gruppe 2 (yellow): Final=818.8, Time=92.8, Moves(20)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.7, Time=96.7, Moves(20)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE PCS (red): Final=361.4, Time=93.4, Moves(20)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE S&S (blue): Final=599.5, Time=91.5, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:19] SCORE RL (lawn green): Final=520.6, Time=84.6, Moves(20)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:20] MOVE 101: Gruppe 2 (yellow) 72->97 [0.00ms]
+[2026-05-22 10:39:20] SCORE Gruppe 2 (yellow): Final=922.3, Time=92.3, Moves(21)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.7, Time=96.7, Moves(20)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE PCS (red): Final=361.4, Time=93.4, Moves(20)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE S&S (blue): Final=599.5, Time=91.5, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE RL (lawn green): Final=520.6, Time=84.6, Moves(20)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:20] MOVE 102: S&S (blue) 106->114 [0.00ms]
+[2026-05-22 10:39:20] SCORE Gruppe 2 (yellow): Final=922.3, Time=92.3, Moves(21)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.7, Time=96.7, Moves(20)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE PCS (red): Final=361.4, Time=93.4, Moves(20)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE S&S (blue): Final=701.2, Time=91.2, Moves(21)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE RL (lawn green): Final=520.6, Time=84.6, Moves(20)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:20] MOVE 103: Tiefes Verstarkendes Lernen (purple) 36->11 [0.00ms]
+[2026-05-22 10:39:20] SCORE Gruppe 2 (yellow): Final=922.3, Time=92.3, Moves(21)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.6, Time=96.6, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE PCS (red): Final=361.4, Time=93.4, Moves(20)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE S&S (blue): Final=701.2, Time=91.2, Moves(21)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:20] SCORE RL (lawn green): Final=520.6, Time=84.6, Moves(20)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:21] MOVE 104: PCS (red) 104->92 [0.00ms]
+[2026-05-22 10:39:21] SCORE Gruppe 2 (yellow): Final=922.3, Time=92.3, Moves(21)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.6, Time=96.6, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE PCS (red): Final=362.8, Time=92.8, Moves(21)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE S&S (blue): Final=701.2, Time=91.2, Moves(21)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE RL (lawn green): Final=520.6, Time=84.6, Moves(20)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:21] MOVE 105: RL (lawn green) 87->76 [0.00ms]
+[2026-05-22 10:39:21] SCORE Gruppe 2 (yellow): Final=922.3, Time=92.3, Moves(21)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.6, Time=96.6, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE PCS (red): Final=362.8, Time=92.8, Moves(21)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE S&S (blue): Final=701.2, Time=91.2, Moves(21)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:21] SCORE RL (lawn green): Final=520.0, Time=84.0, Moves(21)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:22] MOVE 106: Gruppe 2 (yellow) 18->104 [0.00ms]
+[2026-05-22 10:39:22] SCORE Gruppe 2 (yellow): Final=926.2, Time=92.2, Moves(22)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.6, Time=96.6, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE PCS (red): Final=362.8, Time=92.8, Moves(21)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE S&S (blue): Final=701.2, Time=91.2, Moves(21)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE RL (lawn green): Final=520.0, Time=84.0, Moves(21)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:22] MOVE 107: S&S (blue) 88->101 [0.00ms]
+[2026-05-22 10:39:22] SCORE Gruppe 2 (yellow): Final=926.2, Time=92.2, Moves(22)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE Tiefes Verstarkendes Lernen (purple): Final=1042.6, Time=96.6, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE PCS (red): Final=362.8, Time=92.8, Moves(21)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE S&S (blue): Final=702.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE RL (lawn green): Final=520.0, Time=84.0, Moves(21)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:22] MOVE 108: Tiefes Verstarkendes Lernen (purple) 47->36 [0.01ms]
+[2026-05-22 10:39:22] SCORE Gruppe 2 (yellow): Final=926.2, Time=92.2, Moves(22)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.5, Time=96.5, Moves(22)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE PCS (red): Final=362.8, Time=92.8, Moves(21)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE S&S (blue): Final=702.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE RL (lawn green): Final=520.0, Time=84.0, Moves(21)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:22] MOVE 109: PCS (red) 117->83 [0.00ms]
+[2026-05-22 10:39:22] SCORE Gruppe 2 (yellow): Final=926.2, Time=92.2, Moves(22)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.5, Time=96.5, Moves(22)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE PCS (red): Final=370.4, Time=92.4, Moves(22)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE S&S (blue): Final=702.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:22] SCORE RL (lawn green): Final=520.0, Time=84.0, Moves(21)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:23] MOVE 110: RL (lawn green) 76->87 [0.00ms]
+[2026-05-22 10:39:23] SCORE Gruppe 2 (yellow): Final=926.2, Time=92.2, Moves(22)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.5, Time=96.5, Moves(22)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE PCS (red): Final=370.4, Time=92.4, Moves(22)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE S&S (blue): Final=702.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE RL (lawn green): Final=519.4, Time=83.4, Moves(22)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:23] MOVE 111: Gruppe 2 (yellow) 43->54 [0.00ms]
+[2026-05-22 10:39:23] SCORE Gruppe 2 (yellow): Final=927.7, Time=91.7, Moves(23)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.5, Time=96.5, Moves(22)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE PCS (red): Final=370.4, Time=92.4, Moves(22)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE S&S (blue): Final=702.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:39:23] SCORE RL (lawn green): Final=519.4, Time=83.4, Moves(22)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:24] MOVE 112: S&S (blue) 27->39 [0.01ms]
+[2026-05-22 10:39:24] SCORE Gruppe 2 (yellow): Final=927.7, Time=91.7, Moves(23)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.5, Time=96.5, Moves(22)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE PCS (red): Final=370.4, Time=92.4, Moves(22)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE S&S (blue): Final=704.6, Time=90.6, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE RL (lawn green): Final=519.4, Time=83.4, Moves(22)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:24] MOVE 113: Tiefes Verstarkendes Lernen (purple) 13->12 [0.01ms]
+[2026-05-22 10:39:24] SCORE Gruppe 2 (yellow): Final=927.7, Time=91.7, Moves(23)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(23)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE PCS (red): Final=370.4, Time=92.4, Moves(22)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE S&S (blue): Final=704.6, Time=90.6, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE RL (lawn green): Final=519.4, Time=83.4, Moves(22)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:24] MOVE 114: PCS (red) 52->27 [0.01ms]
+[2026-05-22 10:39:24] SCORE Gruppe 2 (yellow): Final=927.7, Time=91.7, Moves(23)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(23)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE PCS (red): Final=374.2, Time=92.2, Moves(23)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE S&S (blue): Final=704.6, Time=90.6, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:39:24] SCORE RL (lawn green): Final=519.4, Time=83.4, Moves(22)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:25] MOVE 115: RL (lawn green) 87->100 [0.00ms]
+[2026-05-22 10:39:25] SCORE Gruppe 2 (yellow): Final=927.7, Time=91.7, Moves(23)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(23)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE PCS (red): Final=374.2, Time=92.2, Moves(23)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE S&S (blue): Final=704.6, Time=90.6, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE RL (lawn green): Final=518.8, Time=82.8, Moves(23)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:25] MOVE 116: Gruppe 2 (yellow) 104->105 [0.00ms]
+[2026-05-22 10:39:25] SCORE Gruppe 2 (yellow): Final=929.2, Time=91.2, Moves(24)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(23)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE PCS (red): Final=374.2, Time=92.2, Moves(23)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE S&S (blue): Final=704.6, Time=90.6, Moves(23)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:39:25] SCORE RL (lawn green): Final=518.8, Time=82.8, Moves(23)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:26] MOVE 117: S&S (blue) 39->117 [0.00ms]
+[2026-05-22 10:39:26] SCORE Gruppe 2 (yellow): Final=929.2, Time=91.2, Moves(24)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(23)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE PCS (red): Final=374.2, Time=92.2, Moves(23)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE S&S (blue): Final=818.2, Time=90.2, Moves(24)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE RL (lawn green): Final=518.8, Time=82.8, Moves(23)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:26] MOVE 118: Tiefes Verstarkendes Lernen (purple) 36->13 [0.00ms]
+[2026-05-22 10:39:26] SCORE Gruppe 2 (yellow): Final=929.2, Time=91.2, Moves(24)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(24)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE PCS (red): Final=374.2, Time=92.2, Moves(23)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE S&S (blue): Final=818.2, Time=90.2, Moves(24)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE RL (lawn green): Final=518.8, Time=82.8, Moves(23)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:26] MOVE 119: PCS (red) 83->41 [0.00ms]
+[2026-05-22 10:39:26] SCORE Gruppe 2 (yellow): Final=929.2, Time=91.2, Moves(24)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(24)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE PCS (red): Final=381.7, Time=91.7, Moves(24)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE S&S (blue): Final=818.2, Time=90.2, Moves(24)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:26] SCORE RL (lawn green): Final=518.8, Time=82.8, Moves(23)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:27] MOVE 120: RL (lawn green) 100->88 [0.01ms]
+[2026-05-22 10:39:27] SCORE Gruppe 2 (yellow): Final=929.2, Time=91.2, Moves(24)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(24)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE PCS (red): Final=381.7, Time=91.7, Moves(24)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE S&S (blue): Final=818.2, Time=90.2, Moves(24)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE RL (lawn green): Final=518.1, Time=82.1, Moves(24)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:27] MOVE 121: Gruppe 2 (yellow) 105->84 [0.01ms]
+[2026-05-22 10:39:27] SCORE Gruppe 2 (yellow): Final=1032.6, Time=90.6, Moves(25)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(24)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE PCS (red): Final=381.7, Time=91.7, Moves(24)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE S&S (blue): Final=818.2, Time=90.2, Moves(24)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:39:27] SCORE RL (lawn green): Final=518.1, Time=82.1, Moves(24)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 122: S&S (blue) 51->60 [0.01ms]
+[2026-05-22 10:39:28] SCORE Gruppe 2 (yellow): Final=1032.6, Time=90.6, Moves(25)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.4, Time=96.4, Moves(24)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE PCS (red): Final=381.7, Time=91.7, Moves(24)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE S&S (blue): Final=820.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE RL (lawn green): Final=518.1, Time=82.1, Moves(24)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 123: Tiefes Verstarkendes Lernen (purple) 46->36 [0.01ms]
+[2026-05-22 10:39:28] SCORE Gruppe 2 (yellow): Final=1032.6, Time=90.6, Moves(25)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.3, Time=96.3, Moves(25)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE PCS (red): Final=381.7, Time=91.7, Moves(24)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE S&S (blue): Final=820.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE RL (lawn green): Final=518.1, Time=82.1, Moves(24)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 124: PCS (red) 92->104 [0.00ms]
+[2026-05-22 10:39:28] SCORE Gruppe 2 (yellow): Final=1032.6, Time=90.6, Moves(25)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.3, Time=96.3, Moves(25)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE PCS (red): Final=379.5, Time=91.5, Moves(25)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE S&S (blue): Final=820.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE RL (lawn green): Final=518.1, Time=82.1, Moves(24)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:28] MOVE 125: RL (lawn green) 88->76 [0.01ms]
+[2026-05-22 10:39:28] SCORE Gruppe 2 (yellow): Final=1032.6, Time=90.6, Moves(25)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.3, Time=96.3, Moves(25)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE PCS (red): Final=379.5, Time=91.5, Moves(25)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE S&S (blue): Final=820.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:28] SCORE RL (lawn green): Final=517.5, Time=81.5, Moves(25)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:29] MOVE 126: Gruppe 2 (yellow) 109->110 [0.01ms]
+[2026-05-22 10:39:29] SCORE Gruppe 2 (yellow): Final=1032.4, Time=90.4, Moves(26)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.3, Time=96.3, Moves(25)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE PCS (red): Final=379.5, Time=91.5, Moves(25)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE S&S (blue): Final=820.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE RL (lawn green): Final=517.5, Time=81.5, Moves(25)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:29] MOVE 127: S&S (blue) 60->79 [0.01ms]
+[2026-05-22 10:39:29] SCORE Gruppe 2 (yellow): Final=1032.4, Time=90.4, Moves(26)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.3, Time=96.3, Moves(25)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE PCS (red): Final=379.5, Time=91.5, Moves(25)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE S&S (blue): Final=823.9, Time=89.9, Moves(26)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE RL (lawn green): Final=517.5, Time=81.5, Moves(25)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:29] MOVE 128: Tiefes Verstarkendes Lernen (purple) 35->46 [0.00ms]
+[2026-05-22 10:39:29] SCORE Gruppe 2 (yellow): Final=1032.4, Time=90.4, Moves(26)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.2, Time=96.2, Moves(26)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE PCS (red): Final=379.5, Time=91.5, Moves(25)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE S&S (blue): Final=823.9, Time=89.9, Moves(26)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE RL (lawn green): Final=517.5, Time=81.5, Moves(25)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:29] MOVE 129: PCS (red) 104->103 [0.01ms]
+[2026-05-22 10:39:29] SCORE Gruppe 2 (yellow): Final=1032.4, Time=90.4, Moves(26)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.2, Time=96.2, Moves(26)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE PCS (red): Final=379.4, Time=91.4, Moves(26)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE S&S (blue): Final=823.9, Time=89.9, Moves(26)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE RL (lawn green): Final=517.5, Time=81.5, Moves(25)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:29] MOVE 130: RL (lawn green) 76->75 [0.01ms]
+[2026-05-22 10:39:29] SCORE Gruppe 2 (yellow): Final=1032.4, Time=90.4, Moves(26)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.2, Time=96.2, Moves(26)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE PCS (red): Final=379.4, Time=91.4, Moves(26)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE S&S (blue): Final=823.9, Time=89.9, Moves(26)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:29] SCORE RL (lawn green): Final=516.9, Time=80.9, Moves(26)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 131: Gruppe 2 (yellow) 54->74 [0.00ms]
+[2026-05-22 10:39:30] SCORE Gruppe 2 (yellow): Final=1136.1, Time=90.1, Moves(27)=0.0, Pins(7)=700.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.2, Time=96.2, Moves(26)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE PCS (red): Final=379.4, Time=91.4, Moves(26)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE S&S (blue): Final=823.9, Time=89.9, Moves(26)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE RL (lawn green): Final=516.9, Time=80.9, Moves(26)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 132: S&S (blue) 67->78 [0.08ms]
+[2026-05-22 10:39:30] SCORE Gruppe 2 (yellow): Final=1136.1, Time=90.1, Moves(27)=0.0, Pins(7)=700.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.2, Time=96.2, Moves(26)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE PCS (red): Final=379.4, Time=91.4, Moves(26)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE S&S (blue): Final=825.7, Time=89.7, Moves(27)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE RL (lawn green): Final=516.9, Time=80.9, Moves(26)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 133: Tiefes Verstarkendes Lernen (purple) 36->35 [0.00ms]
+[2026-05-22 10:39:30] SCORE Gruppe 2 (yellow): Final=1136.1, Time=90.1, Moves(27)=0.0, Pins(7)=700.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(27)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE PCS (red): Final=379.4, Time=91.4, Moves(26)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE S&S (blue): Final=825.7, Time=89.7, Moves(27)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE RL (lawn green): Final=516.9, Time=80.9, Moves(26)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:30] MOVE 134: PCS (red) 41->14 [0.00ms]
+[2026-05-22 10:39:30] SCORE Gruppe 2 (yellow): Final=1136.1, Time=90.1, Moves(27)=0.0, Pins(7)=700.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(27)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE PCS (red): Final=383.1, Time=91.1, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:30] SCORE S&S (blue): Final=825.7, Time=89.7, Moves(27)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE RL (lawn green): Final=516.9, Time=80.9, Moves(26)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:31] MOVE 135: RL (lawn green) 65->86 [0.01ms]
+[2026-05-22 10:39:31] SCORE Gruppe 2 (yellow): Final=1136.1, Time=90.1, Moves(27)=0.0, Pins(7)=700.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(27)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE PCS (red): Final=383.1, Time=91.1, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE S&S (blue): Final=825.7, Time=89.7, Moves(27)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:31] SCORE RL (lawn green): Final=516.3, Time=80.3, Moves(27)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:32] MOVE 136: Gruppe 2 (yellow) 69->80 [0.01ms]
+[2026-05-22 10:39:32] SCORE Gruppe 2 (yellow): Final=1137.7, Time=89.6, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(27)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE PCS (red): Final=383.1, Time=91.1, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE S&S (blue): Final=825.7, Time=89.7, Moves(27)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE RL (lawn green): Final=516.3, Time=80.3, Moves(27)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:32] MOVE 137: S&S (blue) 71->90 [0.00ms]
+[2026-05-22 10:39:32] SCORE Gruppe 2 (yellow): Final=1137.7, Time=89.6, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(27)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE PCS (red): Final=383.1, Time=91.1, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE S&S (blue): Final=829.6, Time=89.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE RL (lawn green): Final=516.3, Time=80.3, Moves(27)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:32] MOVE 138: Tiefes Verstarkendes Lernen (purple) 46->36 [0.00ms]
+[2026-05-22 10:39:32] SCORE Gruppe 2 (yellow): Final=1137.7, Time=89.6, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE PCS (red): Final=383.1, Time=91.1, Moves(27)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE S&S (blue): Final=829.6, Time=89.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE RL (lawn green): Final=516.3, Time=80.3, Moves(27)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:32] MOVE 139: PCS (red) 103->104 [0.00ms]
+[2026-05-22 10:39:32] SCORE Gruppe 2 (yellow): Final=1137.7, Time=89.6, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE PCS (red): Final=382.7, Time=90.6, Moves(28)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE S&S (blue): Final=829.6, Time=89.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:32] SCORE RL (lawn green): Final=516.3, Time=80.3, Moves(27)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 140: RL (lawn green) 75->65 [0.00ms]
+[2026-05-22 10:39:33] SCORE Gruppe 2 (yellow): Final=1137.7, Time=89.6, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE PCS (red): Final=382.7, Time=90.6, Moves(28)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE S&S (blue): Final=829.6, Time=89.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE RL (lawn green): Final=515.7, Time=79.7, Moves(28)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 141: Gruppe 2 (yellow) 23->46 [0.00ms]
+[2026-05-22 10:39:33] SCORE Gruppe 2 (yellow): Final=1141.2, Time=89.2, Moves(29)=0.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE PCS (red): Final=382.7, Time=90.6, Moves(28)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE S&S (blue): Final=829.6, Time=89.6, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE RL (lawn green): Final=515.7, Time=79.7, Moves(28)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 142: S&S (blue) 78->105 [0.00ms]
+[2026-05-22 10:39:33] SCORE Gruppe 2 (yellow): Final=1141.2, Time=89.2, Moves(29)=0.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.1, Time=96.1, Moves(28)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE PCS (red): Final=382.7, Time=90.6, Moves(28)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE S&S (blue): Final=833.5, Time=89.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE RL (lawn green): Final=515.7, Time=79.7, Moves(28)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:33] MOVE 143: Tiefes Verstarkendes Lernen (purple) 24->23 [0.00ms]
+[2026-05-22 10:39:33] SCORE Gruppe 2 (yellow): Final=1141.2, Time=89.2, Moves(29)=0.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=96.0, Moves(29)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE PCS (red): Final=382.7, Time=90.6, Moves(28)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE S&S (blue): Final=833.5, Time=89.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:33] SCORE RL (lawn green): Final=515.7, Time=79.7, Moves(28)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:34] MOVE 144: PCS (red) 104->103 [0.00ms]
+[2026-05-22 10:39:34] SCORE Gruppe 2 (yellow): Final=1141.2, Time=89.2, Moves(29)=0.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=96.0, Moves(29)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE PCS (red): Final=382.3, Time=90.3, Moves(29)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE S&S (blue): Final=833.5, Time=89.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE RL (lawn green): Final=515.7, Time=79.7, Moves(28)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:34] MOVE 145: RL (lawn green) 86->98 [0.00ms]
+[2026-05-22 10:39:34] SCORE Gruppe 2 (yellow): Final=1141.2, Time=89.2, Moves(29)=0.0, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=96.0, Moves(29)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE PCS (red): Final=382.3, Time=90.3, Moves(29)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE S&S (blue): Final=833.5, Time=89.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:34] SCORE RL (lawn green): Final=515.1, Time=79.1, Moves(29)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 146: Gruppe 2 (yellow) 80->81 [0.00ms]
+[2026-05-22 10:39:35] SCORE Gruppe 2 (yellow): Final=1142.7, Time=88.6, Moves(30)=0.1, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=96.0, Moves(29)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE PCS (red): Final=382.3, Time=90.3, Moves(29)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE S&S (blue): Final=833.5, Time=89.5, Moves(29)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE RL (lawn green): Final=515.1, Time=79.1, Moves(29)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 147: S&S (blue) 105->113 [0.01ms]
+[2026-05-22 10:39:35] SCORE Gruppe 2 (yellow): Final=1142.7, Time=88.6, Moves(30)=0.1, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=96.0, Moves(29)=0.0, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE PCS (red): Final=382.3, Time=90.3, Moves(29)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE S&S (blue): Final=935.3, Time=89.2, Moves(30)=0.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE RL (lawn green): Final=515.1, Time=79.1, Moves(29)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:35] MOVE 148: Tiefes Verstarkendes Lernen (purple) 36->24 [0.01ms]
+[2026-05-22 10:39:35] SCORE Gruppe 2 (yellow): Final=1142.7, Time=88.6, Moves(30)=0.1, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=95.9, Moves(30)=0.1, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE PCS (red): Final=382.3, Time=90.3, Moves(29)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE S&S (blue): Final=935.3, Time=89.2, Moves(30)=0.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:35] SCORE RL (lawn green): Final=515.1, Time=79.1, Moves(29)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:36] MOVE 149: PCS (red) 112->104 [0.00ms]
+[2026-05-22 10:39:36] SCORE Gruppe 2 (yellow): Final=1142.7, Time=88.6, Moves(30)=0.1, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=95.9, Moves(30)=0.1, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE PCS (red): Final=383.8, Time=89.7, Moves(30)=0.1, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE S&S (blue): Final=935.3, Time=89.2, Moves(30)=0.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:36] SCORE RL (lawn green): Final=515.1, Time=79.1, Moves(29)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:37] MOVE 150: RL (lawn green) 98->86 [0.00ms]
+[2026-05-22 10:39:37] SCORE Gruppe 2 (yellow): Final=1142.7, Time=88.6, Moves(30)=0.1, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=95.9, Moves(30)=0.1, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE PCS (red): Final=383.8, Time=89.7, Moves(30)=0.1, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE S&S (blue): Final=935.3, Time=89.2, Moves(30)=0.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE RL (lawn green): Final=514.6, Time=78.5, Moves(30)=0.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:37] MOVE 151: Gruppe 2 (yellow) 81->82 [0.01ms]
+[2026-05-22 10:39:37] SCORE Gruppe 2 (yellow): Final=1144.5, Time=88.3, Moves(31)=0.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=95.9, Moves(30)=0.1, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE PCS (red): Final=383.8, Time=89.7, Moves(30)=0.1, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE S&S (blue): Final=935.3, Time=89.2, Moves(30)=0.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE RL (lawn green): Final=514.6, Time=78.5, Moves(30)=0.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:37] MOVE 152: S&S (blue) 90->119 [0.01ms]
+[2026-05-22 10:39:37] SCORE Gruppe 2 (yellow): Final=1144.5, Time=88.3, Moves(31)=0.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE Tiefes Verstarkendes Lernen (purple): Final=1144.0, Time=95.9, Moves(30)=0.1, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE PCS (red): Final=383.8, Time=89.7, Moves(30)=0.1, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE S&S (blue): Final=1039.3, Time=89.1, Moves(31)=0.2, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE RL (lawn green): Final=514.6, Time=78.5, Moves(30)=0.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:37] MOVE 153: Tiefes Verstarkendes Lernen (purple) 85->60 [0.00ms]
+[2026-05-22 10:39:37] SCORE Gruppe 2 (yellow): Final=1144.5, Time=88.3, Moves(31)=0.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE Tiefes Verstarkendes Lernen (purple): Final=1156.0, Time=95.8, Moves(31)=0.2, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE PCS (red): Final=383.8, Time=89.7, Moves(30)=0.1, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE S&S (blue): Final=1039.3, Time=89.1, Moves(31)=0.2, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:39:37] SCORE RL (lawn green): Final=514.6, Time=78.5, Moves(30)=0.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:38] MOVE 154: PCS (red) 94->51 [0.00ms]
+[2026-05-22 10:39:38] SCORE Gruppe 2 (yellow): Final=1144.5, Time=88.3, Moves(31)=0.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE Tiefes Verstarkendes Lernen (purple): Final=1156.0, Time=95.8, Moves(31)=0.2, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE PCS (red): Final=391.4, Time=89.2, Moves(31)=0.2, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE S&S (blue): Final=1039.3, Time=89.1, Moves(31)=0.2, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE RL (lawn green): Final=514.6, Time=78.5, Moves(30)=0.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:38] MOVE 155: RL (lawn green) 86->87 [0.00ms]
+[2026-05-22 10:39:38] SCORE Gruppe 2 (yellow): Final=1144.5, Time=88.3, Moves(31)=0.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE Tiefes Verstarkendes Lernen (purple): Final=1156.0, Time=95.8, Moves(31)=0.2, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE PCS (red): Final=391.4, Time=89.2, Moves(31)=0.2, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE S&S (blue): Final=1039.3, Time=89.1, Moves(31)=0.2, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:39:38] SCORE RL (lawn green): Final=514.1, Time=77.9, Moves(31)=0.2, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:39] MOVE 156: Gruppe 2 (yellow) 82->83 [0.00ms]
+[2026-05-22 10:39:39] SCORE Gruppe 2 (yellow): Final=1146.4, Time=87.9, Moves(32)=0.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=1156.0, Time=95.8, Moves(31)=0.2, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE PCS (red): Final=391.4, Time=89.2, Moves(31)=0.2, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE S&S (blue): Final=1039.3, Time=89.1, Moves(31)=0.2, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE RL (lawn green): Final=514.1, Time=77.9, Moves(31)=0.2, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:39] MOVE 157: S&S (blue) 79->90 [0.00ms]
+[2026-05-22 10:39:39] SCORE Gruppe 2 (yellow): Final=1146.4, Time=87.9, Moves(32)=0.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=1156.0, Time=95.8, Moves(31)=0.2, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE PCS (red): Final=391.4, Time=89.2, Moves(31)=0.2, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE S&S (blue): Final=1041.5, Time=89.0, Moves(32)=0.5, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE RL (lawn green): Final=514.1, Time=77.9, Moves(31)=0.2, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:39] MOVE 158: Tiefes Verstarkendes Lernen (purple) 60->16 [0.00ms]
+[2026-05-22 10:39:39] SCORE Gruppe 2 (yellow): Final=1146.4, Time=87.9, Moves(32)=0.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=1160.3, Time=95.7, Moves(32)=0.5, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE PCS (red): Final=391.4, Time=89.2, Moves(31)=0.2, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE S&S (blue): Final=1041.5, Time=89.0, Moves(32)=0.5, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE RL (lawn green): Final=514.1, Time=77.9, Moves(31)=0.2, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:39] MOVE 159: PCS (red) 51->40 [0.01ms]
+[2026-05-22 10:39:39] SCORE Gruppe 2 (yellow): Final=1146.4, Time=87.9, Moves(32)=0.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE Tiefes Verstarkendes Lernen (purple): Final=1160.3, Time=95.7, Moves(32)=0.5, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE PCS (red): Final=393.3, Time=88.8, Moves(32)=0.5, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE S&S (blue): Final=1041.5, Time=89.0, Moves(32)=0.5, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:39] SCORE RL (lawn green): Final=514.1, Time=77.9, Moves(31)=0.2, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:40] MOVE 160: RL (lawn green) 65->76 [0.01ms]
+[2026-05-22 10:39:40] SCORE Gruppe 2 (yellow): Final=1146.4, Time=87.9, Moves(32)=0.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE Tiefes Verstarkendes Lernen (purple): Final=1160.3, Time=95.7, Moves(32)=0.5, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE PCS (red): Final=393.3, Time=88.8, Moves(32)=0.5, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE S&S (blue): Final=1041.5, Time=89.0, Moves(32)=0.5, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE RL (lawn green): Final=513.7, Time=77.2, Moves(32)=0.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:40] MOVE 161: Gruppe 2 (yellow) 46->36 [0.01ms]
+[2026-05-22 10:39:40] SCORE Gruppe 2 (yellow): Final=1146.5, Time=87.4, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE Tiefes Verstarkendes Lernen (purple): Final=1160.3, Time=95.7, Moves(32)=0.5, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE PCS (red): Final=393.3, Time=88.8, Moves(32)=0.5, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE S&S (blue): Final=1041.5, Time=89.0, Moves(32)=0.5, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE RL (lawn green): Final=513.7, Time=77.2, Moves(32)=0.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:40] MOVE 162: S&S (blue) 90->112 [0.01ms]
+[2026-05-22 10:39:40] SCORE Gruppe 2 (yellow): Final=1146.5, Time=87.4, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE Tiefes Verstarkendes Lernen (purple): Final=1160.3, Time=95.7, Moves(32)=0.5, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE PCS (red): Final=393.3, Time=88.8, Moves(32)=0.5, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE S&S (blue): Final=1146.0, Time=88.9, Moves(33)=1.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:40] SCORE RL (lawn green): Final=513.7, Time=77.2, Moves(32)=0.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:41] MOVE 163: Tiefes Verstarkendes Lernen (purple) 29->7 [0.01ms]
+[2026-05-22 10:39:41] SCORE Gruppe 2 (yellow): Final=1146.5, Time=87.4, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=1162.7, Time=95.6, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE PCS (red): Final=393.3, Time=88.8, Moves(32)=0.5, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE S&S (blue): Final=1146.0, Time=88.9, Moves(33)=1.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE RL (lawn green): Final=513.7, Time=77.2, Moves(32)=0.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:41] MOVE 164: PCS (red) 15->4 [0.00ms]
+[2026-05-22 10:39:41] SCORE Gruppe 2 (yellow): Final=1146.5, Time=87.4, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=1162.7, Time=95.6, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE PCS (red): Final=495.6, Time=88.5, Moves(33)=1.1, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE S&S (blue): Final=1146.0, Time=88.9, Moves(33)=1.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE RL (lawn green): Final=513.7, Time=77.2, Moves(32)=0.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:41] MOVE 165: RL (lawn green) 87->86 [0.01ms]
+[2026-05-22 10:39:41] SCORE Gruppe 2 (yellow): Final=1146.5, Time=87.4, Moves(33)=1.1, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE Tiefes Verstarkendes Lernen (purple): Final=1162.7, Time=95.6, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE PCS (red): Final=495.6, Time=88.5, Moves(33)=1.1, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE S&S (blue): Final=1146.0, Time=88.9, Moves(33)=1.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:41] SCORE RL (lawn green): Final=513.8, Time=76.7, Moves(33)=1.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 166: Gruppe 2 (yellow) 83->85 [0.01ms]
+[2026-05-22 10:39:42] SCORE Gruppe 2 (yellow): Final=1249.1, Time=86.8, Moves(34)=2.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=1162.7, Time=95.6, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE PCS (red): Final=495.6, Time=88.5, Moves(33)=1.1, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE S&S (blue): Final=1146.0, Time=88.9, Moves(33)=1.1, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE RL (lawn green): Final=513.8, Time=76.7, Moves(33)=1.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 167: S&S (blue) 8->51 [0.01ms]
+[2026-05-22 10:39:42] SCORE Gruppe 2 (yellow): Final=1249.1, Time=86.8, Moves(34)=2.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=1162.7, Time=95.6, Moves(33)=1.1, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE PCS (red): Final=495.6, Time=88.5, Moves(33)=1.1, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE S&S (blue): Final=1155.1, Time=88.8, Moves(34)=2.3, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE RL (lawn green): Final=513.8, Time=76.7, Moves(33)=1.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 168: Tiefes Verstarkendes Lernen (purple) 7->6 [0.00ms]
+[2026-05-22 10:39:42] SCORE Gruppe 2 (yellow): Final=1249.1, Time=86.8, Moves(34)=2.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=1165.8, Time=95.5, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE PCS (red): Final=495.6, Time=88.5, Moves(33)=1.1, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE S&S (blue): Final=1155.1, Time=88.8, Moves(34)=2.3, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE RL (lawn green): Final=513.8, Time=76.7, Moves(33)=1.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:42] MOVE 169: PCS (red) 14->3 [0.00ms]
+[2026-05-22 10:39:42] SCORE Gruppe 2 (yellow): Final=1249.1, Time=86.8, Moves(34)=2.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE Tiefes Verstarkendes Lernen (purple): Final=1165.8, Time=95.5, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE PCS (red): Final=598.5, Time=88.3, Moves(34)=2.3, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE S&S (blue): Final=1155.1, Time=88.8, Moves(34)=2.3, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:42] SCORE RL (lawn green): Final=513.8, Time=76.7, Moves(33)=1.1, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:43] MOVE 170: RL (lawn green) 76->88 [0.01ms]
+[2026-05-22 10:39:43] SCORE Gruppe 2 (yellow): Final=1249.1, Time=86.8, Moves(34)=2.3, Pins(8)=800.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=1165.8, Time=95.5, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE PCS (red): Final=598.5, Time=88.3, Moves(34)=2.3, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE S&S (blue): Final=1155.1, Time=88.8, Moves(34)=2.3, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE RL (lawn green): Final=514.4, Time=76.1, Moves(34)=2.3, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:43] MOVE 171: Gruppe 2 (yellow) 36->37 [0.00ms]
+[2026-05-22 10:39:43] SCORE Gruppe 2 (yellow): Final=1253.0, Time=86.6, Moves(35)=4.4, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=1165.8, Time=95.5, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE PCS (red): Final=598.5, Time=88.3, Moves(34)=2.3, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE S&S (blue): Final=1155.1, Time=88.8, Moves(34)=2.3, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE RL (lawn green): Final=514.4, Time=76.1, Moves(34)=2.3, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:43] MOVE 172: S&S (blue) 51->60 [0.00ms]
+[2026-05-22 10:39:43] SCORE Gruppe 2 (yellow): Final=1253.0, Time=86.6, Moves(35)=4.4, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=1165.8, Time=95.5, Moves(34)=2.3, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE PCS (red): Final=598.5, Time=88.3, Moves(34)=2.3, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE S&S (blue): Final=1159.1, Time=88.7, Moves(35)=4.4, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE RL (lawn green): Final=514.4, Time=76.1, Moves(34)=2.3, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:43] MOVE 173: Tiefes Verstarkendes Lernen (purple) 6->47 [0.01ms]
+[2026-05-22 10:39:43] SCORE Gruppe 2 (yellow): Final=1253.0, Time=86.6, Moves(35)=4.4, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE Tiefes Verstarkendes Lernen (purple): Final=1169.8, Time=95.4, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE PCS (red): Final=598.5, Time=88.3, Moves(34)=2.3, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE S&S (blue): Final=1159.1, Time=88.7, Moves(35)=4.4, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:43] SCORE RL (lawn green): Final=514.4, Time=76.1, Moves(34)=2.3, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:44] MOVE 174: PCS (red) 104->91 [0.01ms]
+[2026-05-22 10:39:44] SCORE Gruppe 2 (yellow): Final=1253.0, Time=86.6, Moves(35)=4.4, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE Tiefes Verstarkendes Lernen (purple): Final=1169.8, Time=95.4, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE PCS (red): Final=602.5, Time=88.1, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE S&S (blue): Final=1159.1, Time=88.7, Moves(35)=4.4, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE RL (lawn green): Final=514.4, Time=76.1, Moves(34)=2.3, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:44] MOVE 175: RL (lawn green) 88->76 [0.01ms]
+[2026-05-22 10:39:44] SCORE Gruppe 2 (yellow): Final=1253.0, Time=86.6, Moves(35)=4.4, Pins(8)=800.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE Tiefes Verstarkendes Lernen (purple): Final=1169.8, Time=95.4, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE PCS (red): Final=602.5, Time=88.1, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE S&S (blue): Final=1159.1, Time=88.7, Moves(35)=4.4, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE RL (lawn green): Final=515.9, Time=75.5, Moves(35)=4.4, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:44] MOVE 176: Gruppe 2 (yellow) 37->38 [0.00ms]
+[2026-05-22 10:39:44] SCORE Gruppe 2 (yellow): Final=1258.3, Time=86.3, Moves(36)=8.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE Tiefes Verstarkendes Lernen (purple): Final=1169.8, Time=95.4, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE PCS (red): Final=602.5, Time=88.1, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE S&S (blue): Final=1159.1, Time=88.7, Moves(35)=4.4, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:44] SCORE RL (lawn green): Final=515.9, Time=75.5, Moves(35)=4.4, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:45] MOVE 177: S&S (blue) 60->81 [0.00ms]
+[2026-05-22 10:39:45] SCORE Gruppe 2 (yellow): Final=1258.3, Time=86.3, Moves(36)=8.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=1169.8, Time=95.4, Moves(35)=4.4, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE PCS (red): Final=602.5, Time=88.1, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE S&S (blue): Final=1166.6, Time=88.6, Moves(36)=8.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE RL (lawn green): Final=515.9, Time=75.5, Moves(35)=4.4, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:45] MOVE 178: Tiefes Verstarkendes Lernen (purple) 47->46 [0.01ms]
+[2026-05-22 10:39:45] SCORE Gruppe 2 (yellow): Final=1258.3, Time=86.3, Moves(36)=8.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=1275.2, Time=95.3, Moves(36)=8.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE PCS (red): Final=602.5, Time=88.1, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE S&S (blue): Final=1166.6, Time=88.6, Moves(36)=8.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE RL (lawn green): Final=515.9, Time=75.5, Moves(35)=4.4, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:45] MOVE 179: PCS (red) 103->61 [0.00ms]
+[2026-05-22 10:39:45] SCORE Gruppe 2 (yellow): Final=1258.3, Time=86.3, Moves(36)=8.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE Tiefes Verstarkendes Lernen (purple): Final=1275.2, Time=95.3, Moves(36)=8.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE PCS (red): Final=613.5, Time=87.5, Moves(36)=8.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE S&S (blue): Final=1166.6, Time=88.6, Moves(36)=8.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:45] SCORE RL (lawn green): Final=515.9, Time=75.5, Moves(35)=4.4, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 180: RL (lawn green) 76->87 [0.00ms]
+[2026-05-22 10:39:46] SCORE Gruppe 2 (yellow): Final=1258.3, Time=86.3, Moves(36)=8.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=1275.2, Time=95.3, Moves(36)=8.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE PCS (red): Final=613.5, Time=87.5, Moves(36)=8.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE S&S (blue): Final=1166.6, Time=88.6, Moves(36)=8.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE RL (lawn green): Final=518.8, Time=74.8, Moves(36)=8.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 181: Gruppe 2 (yellow) 25->26 [0.00ms]
+[2026-05-22 10:39:46] SCORE Gruppe 2 (yellow): Final=1265.6, Time=86.1, Moves(37)=13.5, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=1275.2, Time=95.3, Moves(36)=8.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE PCS (red): Final=613.5, Time=87.5, Moves(36)=8.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE S&S (blue): Final=1166.6, Time=88.6, Moves(36)=8.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE RL (lawn green): Final=518.8, Time=74.8, Moves(36)=8.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 182: S&S (blue) 81->92 [0.00ms]
+[2026-05-22 10:39:46] SCORE Gruppe 2 (yellow): Final=1265.6, Time=86.1, Moves(37)=13.5, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=1275.2, Time=95.3, Moves(36)=8.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE PCS (red): Final=613.5, Time=87.5, Moves(36)=8.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE S&S (blue): Final=1174.0, Time=88.5, Moves(37)=13.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE RL (lawn green): Final=518.8, Time=74.8, Moves(36)=8.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:46] MOVE 183: Tiefes Verstarkendes Lernen (purple) 46->36 [0.00ms]
+[2026-05-22 10:39:46] SCORE Gruppe 2 (yellow): Final=1265.6, Time=86.1, Moves(37)=13.5, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE Tiefes Verstarkendes Lernen (purple): Final=1280.7, Time=95.2, Moves(37)=13.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE PCS (red): Final=613.5, Time=87.5, Moves(36)=8.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE S&S (blue): Final=1174.0, Time=88.5, Moves(37)=13.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:46] SCORE RL (lawn green): Final=518.8, Time=74.8, Moves(36)=8.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:47] MOVE 184: PCS (red) 40->50 [0.01ms]
+[2026-05-22 10:39:47] SCORE Gruppe 2 (yellow): Final=1265.6, Time=86.1, Moves(37)=13.5, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE Tiefes Verstarkendes Lernen (purple): Final=1280.7, Time=95.2, Moves(37)=13.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE PCS (red): Final=616.5, Time=87.0, Moves(37)=13.5, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE S&S (blue): Final=1174.0, Time=88.5, Moves(37)=13.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:47] SCORE RL (lawn green): Final=518.8, Time=74.8, Moves(36)=8.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:48] MOVE 185: RL (lawn green) 86->88 [0.00ms]
+[2026-05-22 10:39:48] SCORE Gruppe 2 (yellow): Final=1265.6, Time=86.1, Moves(37)=13.5, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=1280.7, Time=95.2, Moves(37)=13.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE PCS (red): Final=616.5, Time=87.0, Moves(37)=13.5, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE S&S (blue): Final=1174.0, Time=88.5, Moves(37)=13.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE RL (lawn green): Final=523.7, Time=74.2, Moves(37)=13.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:48] MOVE 186: Gruppe 2 (yellow) 26->71 [0.00ms]
+[2026-05-22 10:39:48] SCORE Gruppe 2 (yellow): Final=1285.4, Time=85.7, Moves(38)=21.6, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=1280.7, Time=95.2, Moves(37)=13.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE PCS (red): Final=616.5, Time=87.0, Moves(37)=13.5, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE S&S (blue): Final=1174.0, Time=88.5, Moves(37)=13.5, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE RL (lawn green): Final=523.7, Time=74.2, Moves(37)=13.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:48] MOVE 187: S&S (blue) 101->105 [0.00ms]
+[2026-05-22 10:39:48] SCORE Gruppe 2 (yellow): Final=1285.4, Time=85.7, Moves(38)=21.6, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=1280.7, Time=95.2, Moves(37)=13.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE PCS (red): Final=616.5, Time=87.0, Moves(37)=13.5, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE S&S (blue): Final=1184.0, Time=88.4, Moves(38)=21.6, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE RL (lawn green): Final=523.7, Time=74.2, Moves(37)=13.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:48] MOVE 188: Tiefes Verstarkendes Lernen (purple) 23->46 [0.00ms]
+[2026-05-22 10:39:48] SCORE Gruppe 2 (yellow): Final=1285.4, Time=85.7, Moves(38)=21.6, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE Tiefes Verstarkendes Lernen (purple): Final=1288.8, Time=95.1, Moves(38)=21.6, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE PCS (red): Final=616.5, Time=87.0, Moves(37)=13.5, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE S&S (blue): Final=1184.0, Time=88.4, Moves(38)=21.6, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:39:48] SCORE RL (lawn green): Final=523.7, Time=74.2, Moves(37)=13.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:49] MOVE 189: PCS (red) 70->52 [0.00ms]
+[2026-05-22 10:39:49] SCORE Gruppe 2 (yellow): Final=1285.4, Time=85.7, Moves(38)=21.6, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE Tiefes Verstarkendes Lernen (purple): Final=1288.8, Time=95.1, Moves(38)=21.6, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE PCS (red): Final=628.1, Time=86.5, Moves(38)=21.6, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE S&S (blue): Final=1184.0, Time=88.4, Moves(38)=21.6, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE RL (lawn green): Final=523.7, Time=74.2, Moves(37)=13.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:49] MOVE 190: RL (lawn green) 88->86 [0.01ms]
+[2026-05-22 10:39:49] SCORE Gruppe 2 (yellow): Final=1285.4, Time=85.7, Moves(38)=21.6, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE Tiefes Verstarkendes Lernen (purple): Final=1288.8, Time=95.1, Moves(38)=21.6, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE PCS (red): Final=628.1, Time=86.5, Moves(38)=21.6, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE S&S (blue): Final=1184.0, Time=88.4, Moves(38)=21.6, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:39:49] SCORE RL (lawn green): Final=531.1, Time=73.4, Moves(38)=21.6, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:50] MOVE 191: Gruppe 2 (yellow) 110->109 [0.00ms]
+[2026-05-22 10:39:50] SCORE Gruppe 2 (yellow): Final=1295.8, Time=85.4, Moves(39)=32.5, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=1288.8, Time=95.1, Moves(38)=21.6, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE PCS (red): Final=628.1, Time=86.5, Moves(38)=21.6, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE S&S (blue): Final=1184.0, Time=88.4, Moves(38)=21.6, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE RL (lawn green): Final=531.1, Time=73.4, Moves(38)=21.6, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:50] MOVE 192: S&S (blue) 92->104 [0.00ms]
+[2026-05-22 10:39:50] SCORE Gruppe 2 (yellow): Final=1295.8, Time=85.4, Moves(39)=32.5, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=1288.8, Time=95.1, Moves(38)=21.6, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE PCS (red): Final=628.1, Time=86.5, Moves(38)=21.6, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE S&S (blue): Final=1196.7, Time=88.3, Moves(39)=32.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE RL (lawn green): Final=531.1, Time=73.4, Moves(38)=21.6, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:50] MOVE 193: Tiefes Verstarkendes Lernen (purple) 24->23 [0.01ms]
+[2026-05-22 10:39:50] SCORE Gruppe 2 (yellow): Final=1295.8, Time=85.4, Moves(39)=32.5, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=1299.4, Time=95.0, Moves(39)=32.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE PCS (red): Final=628.1, Time=86.5, Moves(38)=21.6, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE S&S (blue): Final=1196.7, Time=88.3, Moves(39)=32.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE RL (lawn green): Final=531.1, Time=73.4, Moves(38)=21.6, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:50] MOVE 194: PCS (red) 3->7 [0.00ms]
+[2026-05-22 10:39:50] SCORE Gruppe 2 (yellow): Final=1295.8, Time=85.4, Moves(39)=32.5, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE Tiefes Verstarkendes Lernen (purple): Final=1299.4, Time=95.0, Moves(39)=32.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE PCS (red): Final=638.6, Time=86.2, Moves(39)=32.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE S&S (blue): Final=1196.7, Time=88.3, Moves(39)=32.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:39:50] SCORE RL (lawn green): Final=531.1, Time=73.4, Moves(38)=21.6, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:51] MOVE 195: RL (lawn green) 87->99 [0.01ms]
+[2026-05-22 10:39:51] SCORE Gruppe 2 (yellow): Final=1295.8, Time=85.4, Moves(39)=32.5, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE Tiefes Verstarkendes Lernen (purple): Final=1299.4, Time=95.0, Moves(39)=32.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE PCS (red): Final=638.6, Time=86.2, Moves(39)=32.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE S&S (blue): Final=1196.7, Time=88.3, Moves(39)=32.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE RL (lawn green): Final=541.3, Time=72.8, Moves(39)=32.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:51] MOVE 196: Gruppe 2 (yellow) 71->82 [0.01ms]
+[2026-05-22 10:39:51] SCORE Gruppe 2 (yellow): Final=1310.7, Time=85.0, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE Tiefes Verstarkendes Lernen (purple): Final=1299.4, Time=95.0, Moves(39)=32.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE PCS (red): Final=638.6, Time=86.2, Moves(39)=32.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE S&S (blue): Final=1196.7, Time=88.3, Moves(39)=32.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE RL (lawn green): Final=541.3, Time=72.8, Moves(39)=32.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:51] MOVE 197: S&S (blue) 9->17 [0.01ms]
+[2026-05-22 10:39:51] SCORE Gruppe 2 (yellow): Final=1310.7, Time=85.0, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE Tiefes Verstarkendes Lernen (purple): Final=1299.4, Time=95.0, Moves(39)=32.5, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE PCS (red): Final=638.6, Time=86.2, Moves(39)=32.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE S&S (blue): Final=1211.9, Time=88.2, Moves(40)=45.8, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:51] SCORE RL (lawn green): Final=541.3, Time=72.8, Moves(39)=32.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:52] MOVE 198: Tiefes Verstarkendes Lernen (purple) 96->26 [0.01ms]
+[2026-05-22 10:39:52] SCORE Gruppe 2 (yellow): Final=1310.7, Time=85.0, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE Tiefes Verstarkendes Lernen (purple): Final=1332.6, Time=94.9, Moves(40)=45.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE PCS (red): Final=638.6, Time=86.2, Moves(39)=32.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE S&S (blue): Final=1211.9, Time=88.2, Moves(40)=45.8, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE RL (lawn green): Final=541.3, Time=72.8, Moves(39)=32.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:52] MOVE 199: PCS (red) 7->29 [0.01ms]
+[2026-05-22 10:39:52] SCORE Gruppe 2 (yellow): Final=1310.7, Time=85.0, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE Tiefes Verstarkendes Lernen (purple): Final=1332.6, Time=94.9, Moves(40)=45.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE PCS (red): Final=547.5, Time=85.7, Moves(40)=45.8, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE S&S (blue): Final=1211.9, Time=88.2, Moves(40)=45.8, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:52] SCORE RL (lawn green): Final=541.3, Time=72.8, Moves(39)=32.5, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:39:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 200: RL (lawn green) 32->28 [0.00ms]
+[2026-05-22 10:39:53] SCORE Gruppe 2 (yellow): Final=1310.7, Time=85.0, Moves(40)=45.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=1332.6, Time=94.9, Moves(40)=45.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE PCS (red): Final=547.5, Time=85.7, Moves(40)=45.8, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE S&S (blue): Final=1211.9, Time=88.2, Moves(40)=45.8, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE RL (lawn green): Final=561.9, Time=72.1, Moves(40)=45.8, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 201: Gruppe 2 (yellow) 38->59 [0.01ms]
+[2026-05-22 10:39:53] SCORE Gruppe 2 (yellow): Final=1329.3, Time=84.7, Moves(41)=60.7, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=1332.6, Time=94.9, Moves(40)=45.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE PCS (red): Final=547.5, Time=85.7, Moves(40)=45.8, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE S&S (blue): Final=1211.9, Time=88.2, Moves(40)=45.8, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE RL (lawn green): Final=561.9, Time=72.1, Moves(40)=45.8, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 202: S&S (blue) 17->38 [0.00ms]
+[2026-05-22 10:39:53] SCORE Gruppe 2 (yellow): Final=1329.3, Time=84.7, Moves(41)=60.7, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=1332.6, Time=94.9, Moves(40)=45.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE PCS (red): Final=547.5, Time=85.7, Moves(40)=45.8, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE S&S (blue): Final=1230.7, Time=88.1, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE RL (lawn green): Final=561.9, Time=72.1, Moves(40)=45.8, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:53] MOVE 203: Tiefes Verstarkendes Lernen (purple) 16->37 [0.00ms]
+[2026-05-22 10:39:53] SCORE Gruppe 2 (yellow): Final=1329.3, Time=84.7, Moves(41)=60.7, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE Tiefes Verstarkendes Lernen (purple): Final=1351.4, Time=94.8, Moves(41)=60.7, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE PCS (red): Final=547.5, Time=85.7, Moves(40)=45.8, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE S&S (blue): Final=1230.7, Time=88.1, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:39:53] SCORE RL (lawn green): Final=561.9, Time=72.1, Moves(40)=45.8, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:54] MOVE 204: PCS (red) 29->17 [0.00ms]
+[2026-05-22 10:39:54] SCORE Gruppe 2 (yellow): Final=1329.3, Time=84.7, Moves(41)=60.7, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE Tiefes Verstarkendes Lernen (purple): Final=1351.4, Time=94.8, Moves(41)=60.7, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE PCS (red): Final=563.8, Time=85.2, Moves(41)=60.7, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE S&S (blue): Final=1230.7, Time=88.1, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE RL (lawn green): Final=561.9, Time=72.1, Moves(40)=45.8, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:39:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:54] MOVE 205: RL (lawn green) 28->39 [0.00ms]
+[2026-05-22 10:39:54] SCORE Gruppe 2 (yellow): Final=1329.3, Time=84.7, Moves(41)=60.7, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE Tiefes Verstarkendes Lernen (purple): Final=1351.4, Time=94.8, Moves(41)=60.7, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE PCS (red): Final=563.8, Time=85.2, Moves(41)=60.7, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE S&S (blue): Final=1230.7, Time=88.1, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:39:54] SCORE RL (lawn green): Final=578.2, Time=71.5, Moves(41)=60.7, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:55] MOVE 206: Gruppe 2 (yellow) 59->60 [0.00ms]
+[2026-05-22 10:39:55] SCORE Gruppe 2 (yellow): Final=1345.7, Time=84.3, Moves(42)=75.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=1351.4, Time=94.8, Moves(41)=60.7, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE PCS (red): Final=563.8, Time=85.2, Moves(41)=60.7, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE S&S (blue): Final=1230.7, Time=88.1, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE RL (lawn green): Final=578.2, Time=71.5, Moves(41)=60.7, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:55] MOVE 207: S&S (blue) 38->59 [0.00ms]
+[2026-05-22 10:39:55] SCORE Gruppe 2 (yellow): Final=1345.7, Time=84.3, Moves(42)=75.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=1351.4, Time=94.8, Moves(41)=60.7, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE PCS (red): Final=563.8, Time=85.2, Moves(41)=60.7, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE S&S (blue): Final=1249.4, Time=88.0, Moves(42)=75.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE RL (lawn green): Final=578.2, Time=71.5, Moves(41)=60.7, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:55] MOVE 208: Tiefes Verstarkendes Lernen (purple) 26->24 [0.02ms]
+[2026-05-22 10:39:55] SCORE Gruppe 2 (yellow): Final=1345.7, Time=84.3, Moves(42)=75.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=1468.2, Time=94.7, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE PCS (red): Final=563.8, Time=85.2, Moves(41)=60.7, Pins(1)=100.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE S&S (blue): Final=1249.4, Time=88.0, Moves(42)=75.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE RL (lawn green): Final=578.2, Time=71.5, Moves(41)=60.7, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:55] MOVE 209: PCS (red) 17->8 [0.00ms]
+[2026-05-22 10:39:55] SCORE Gruppe 2 (yellow): Final=1345.7, Time=84.3, Moves(42)=75.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE Tiefes Verstarkendes Lernen (purple): Final=1468.2, Time=94.7, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE PCS (red): Final=680.2, Time=84.7, Moves(42)=75.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE S&S (blue): Final=1249.4, Time=88.0, Moves(42)=75.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:55] SCORE RL (lawn green): Final=578.2, Time=71.5, Moves(41)=60.7, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:56] MOVE 210: RL (lawn green) 99->98 [0.00ms]
+[2026-05-22 10:39:56] SCORE Gruppe 2 (yellow): Final=1345.7, Time=84.3, Moves(42)=75.5, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE Tiefes Verstarkendes Lernen (purple): Final=1468.2, Time=94.7, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE PCS (red): Final=680.2, Time=84.7, Moves(42)=75.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE S&S (blue): Final=1249.4, Time=88.0, Moves(42)=75.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE RL (lawn green): Final=592.4, Time=70.9, Moves(42)=75.5, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:56] MOVE 211: Gruppe 2 (yellow) 60->43 [0.01ms]
+[2026-05-22 10:39:56] SCORE Gruppe 2 (yellow): Final=1362.0, Time=83.8, Moves(43)=88.2, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE Tiefes Verstarkendes Lernen (purple): Final=1468.2, Time=94.7, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE PCS (red): Final=680.2, Time=84.7, Moves(42)=75.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:56] SCORE S&S (blue): Final=1249.4, Time=88.0, Moves(42)=75.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE RL (lawn green): Final=592.4, Time=70.9, Moves(42)=75.5, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:57] MOVE 212: S&S (blue) 59->68 [0.00ms]
+[2026-05-22 10:39:57] SCORE Gruppe 2 (yellow): Final=1362.0, Time=83.8, Moves(43)=88.2, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE Tiefes Verstarkendes Lernen (purple): Final=1468.2, Time=94.7, Moves(42)=75.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE PCS (red): Final=680.2, Time=84.7, Moves(42)=75.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE S&S (blue): Final=1264.1, Time=87.9, Moves(43)=88.2, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE RL (lawn green): Final=592.4, Time=70.9, Moves(42)=75.5, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:39:57] MOVE 213: Tiefes Verstarkendes Lernen (purple) 37->25 [0.00ms]
+[2026-05-22 10:39:57] SCORE Gruppe 2 (yellow): Final=1362.0, Time=83.8, Moves(43)=88.2, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE Tiefes Verstarkendes Lernen (purple): Final=2582.8, Time=94.6, Moves(43)=88.2, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:39:57] SCORE PCS (red): Final=680.2, Time=84.7, Moves(42)=75.5, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE S&S (blue): Final=1264.1, Time=87.9, Moves(43)=88.2, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:39:57] SCORE RL (lawn green): Final=592.4, Time=70.9, Moves(42)=75.5, Pins(2)=200.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:39:57] ALL WRONG MOVES BY COLOUR: {}

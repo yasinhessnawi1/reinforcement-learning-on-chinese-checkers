@@ -1,0 +1,604 @@
+[2026-05-22 10:41:57] GAME CREATED
+[2026-05-22 10:41:58] PLAYER JOINED: Robert as red
+[2026-05-22 10:42:12] PLAYER JOINED: Deepseekers as blue
+[2026-05-22 10:44:37] PLAYER JOINED: RL as lawn green
+[2026-05-22 10:44:37] PLAYER START: Robert (red)
+[2026-05-22 10:44:37] PLAYER START: Deepseekers (blue)
+[2026-05-22 10:44:37] PLAYER START: RL (lawn green)
+[2026-05-22 10:44:37] GAME START — turn order ['red', 'lawn green', 'blue']
+[2026-05-22 10:44:37] PLAYER START: Robert (red)
+[2026-05-22 10:44:37] PLAYER START: Deepseekers (blue)
+[2026-05-22 10:44:37] PLAYER START: RL (lawn green)
+[2026-05-22 10:44:38] PLAYER START: Robert (red)
+[2026-05-22 10:44:38] PLAYER START: Deepseekers (blue)
+[2026-05-22 10:44:38] PLAYER START: RL (lawn green)
+[2026-05-22 10:44:38] MOVE 1: Robert (red) 115->104 [0.00ms]
+[2026-05-22 10:44:38] SCORE Robert (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Deepseekers (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE RL (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 2: RL (lawn green) 33->31 [0.00ms]
+[2026-05-22 10:44:39] SCORE Robert (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Deepseekers (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 3: Deepseekers (blue) 5->43 [0.00ms]
+[2026-05-22 10:44:39] SCORE Robert (red): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Deepseekers (blue): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 4: Robert (red) 104->92 [0.00ms]
+[2026-05-22 10:44:39] SCORE Robert (red): Final=285.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Deepseekers (blue): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE RL (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 5: RL (lawn green) 19->42 [0.00ms]
+[2026-05-22 10:44:40] SCORE Robert (red): Final=285.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Deepseekers (blue): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE RL (lawn green): Final=286.7, Time=98.7, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 6: Deepseekers (blue) 0->18 [0.00ms]
+[2026-05-22 10:44:40] SCORE Robert (red): Final=285.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Deepseekers (blue): Final=294.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE RL (lawn green): Final=286.7, Time=98.7, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:41] MOVE 7: Robert (red) 120->81 [0.01ms]
+[2026-05-22 10:44:41] SCORE Robert (red): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE Deepseekers (blue): Final=294.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE RL (lawn green): Final=286.7, Time=98.7, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:41] MOVE 8: RL (lawn green) 42->52 [0.01ms]
+[2026-05-22 10:44:41] SCORE Robert (red): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE Deepseekers (blue): Final=294.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE RL (lawn green): Final=287.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 9: Deepseekers (blue) 4->61 [0.00ms]
+[2026-05-22 10:44:42] SCORE Robert (red): Final=297.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Deepseekers (blue): Final=306.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE RL (lawn green): Final=287.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 10: Robert (red) 81->70 [0.00ms]
+[2026-05-22 10:44:42] SCORE Robert (red): Final=299.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Deepseekers (blue): Final=306.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE RL (lawn green): Final=287.9, Time=97.9, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 11: RL (lawn green) 21->15 [0.00ms]
+[2026-05-22 10:44:43] SCORE Robert (red): Final=299.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Deepseekers (blue): Final=306.5, Time=98.5, Moves(3)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE RL (lawn green): Final=299.2, Time=97.2, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 12: Deepseekers (blue) 3->16 [0.01ms]
+[2026-05-22 10:44:43] SCORE Robert (red): Final=299.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Deepseekers (blue): Final=310.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE RL (lawn green): Final=299.2, Time=97.2, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 13: Robert (red) 117->41 [0.00ms]
+[2026-05-22 10:44:43] SCORE Robert (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Deepseekers (blue): Final=310.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE RL (lawn green): Final=299.2, Time=97.2, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:44] MOVE 14: RL (lawn green) 44->4 [0.01ms]
+[2026-05-22 10:44:44] SCORE Robert (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE Deepseekers (blue): Final=310.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE RL (lawn green): Final=302.6, Time=96.6, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 15: Deepseekers (blue) 6->28 [0.00ms]
+[2026-05-22 10:44:45] SCORE Robert (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Deepseekers (blue): Final=313.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE RL (lawn green): Final=302.6, Time=96.6, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 16: Robert (red) 116->80 [0.00ms]
+[2026-05-22 10:44:45] SCORE Robert (red): Final=322.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Deepseekers (blue): Final=313.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE RL (lawn green): Final=302.6, Time=96.6, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 17: RL (lawn green) 4->40 [0.00ms]
+[2026-05-22 10:44:46] SCORE Robert (red): Final=322.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Deepseekers (blue): Final=313.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE RL (lawn green): Final=305.8, Time=95.8, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 18: Deepseekers (blue) 7->50 [0.00ms]
+[2026-05-22 10:44:46] SCORE Robert (red): Final=322.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Deepseekers (blue): Final=320.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE RL (lawn green): Final=305.8, Time=95.8, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 19: Robert (red) 118->115 [0.02ms]
+[2026-05-22 10:44:47] SCORE Robert (red): Final=324.1, Time=98.1, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Deepseekers (blue): Final=320.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE RL (lawn green): Final=305.8, Time=95.8, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 20: RL (lawn green) 40->39 [0.00ms]
+[2026-05-22 10:44:47] SCORE Robert (red): Final=324.1, Time=98.1, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Deepseekers (blue): Final=320.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE RL (lawn green): Final=307.1, Time=95.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:48] MOVE 21: Deepseekers (blue) 9->27 [0.00ms]
+[2026-05-22 10:44:48] SCORE Robert (red): Final=324.1, Time=98.1, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE Deepseekers (blue): Final=324.1, Time=96.1, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE RL (lawn green): Final=307.1, Time=95.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:48] MOVE 22: Robert (red) 115->60 [0.00ms]
+[2026-05-22 10:44:48] SCORE Robert (red): Final=335.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE Deepseekers (blue): Final=324.1, Time=96.1, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE RL (lawn green): Final=307.1, Time=95.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 23: RL (lawn green) 32->69 [0.00ms]
+[2026-05-22 10:44:49] SCORE Robert (red): Final=335.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Deepseekers (blue): Final=324.1, Time=96.1, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE RL (lawn green): Final=318.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 24: Deepseekers (blue) 28->71 [0.00ms]
+[2026-05-22 10:44:50] SCORE Robert (red): Final=335.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Deepseekers (blue): Final=331.4, Time=95.4, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE RL (lawn green): Final=318.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 25: Robert (red) 80->4 [0.00ms]
+[2026-05-22 10:44:50] SCORE Robert (red): Final=449.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Deepseekers (blue): Final=331.4, Time=95.4, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE RL (lawn green): Final=318.4, Time=94.4, Moves(8)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 26: RL (lawn green) 15->103 [0.00ms]
+[2026-05-22 10:44:51] SCORE Robert (red): Final=449.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Deepseekers (blue): Final=331.4, Time=95.4, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE RL (lawn green): Final=325.7, Time=93.7, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 27: Deepseekers (blue) 61->116 [0.00ms]
+[2026-05-22 10:44:52] SCORE Robert (red): Final=449.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Deepseekers (blue): Final=440.8, Time=94.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE RL (lawn green): Final=325.7, Time=93.7, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 28: Robert (red) 114->105 [0.00ms]
+[2026-05-22 10:44:52] SCORE Robert (red): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Deepseekers (blue): Final=440.8, Time=94.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE RL (lawn green): Final=325.7, Time=93.7, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 29: RL (lawn green) 103->102 [0.00ms]
+[2026-05-22 10:44:53] SCORE Robert (red): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Deepseekers (blue): Final=440.8, Time=94.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE RL (lawn green): Final=326.9, Time=92.9, Moves(10)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 30: Deepseekers (blue) 2->29 [0.00ms]
+[2026-05-22 10:44:53] SCORE Robert (red): Final=450.9, Time=96.9, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Deepseekers (blue): Final=448.3, Time=94.3, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE RL (lawn green): Final=326.9, Time=92.9, Moves(10)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:54] MOVE 31: Robert (red) 105->15 [0.00ms]
+[2026-05-22 10:44:54] SCORE Robert (red): Final=466.4, Time=96.4, Moves(11)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE Deepseekers (blue): Final=448.3, Time=94.3, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE RL (lawn green): Final=326.9, Time=92.9, Moves(10)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 32: RL (lawn green) 102->115 [0.00ms]
+[2026-05-22 10:44:55] SCORE Robert (red): Final=466.4, Time=96.4, Moves(11)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Deepseekers (blue): Final=448.3, Time=94.3, Moves(10)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE RL (lawn green): Final=322.1, Time=92.1, Moves(11)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 33: Deepseekers (blue) 8->49 [0.00ms]
+[2026-05-22 10:44:55] SCORE Robert (red): Final=466.4, Time=96.4, Moves(11)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Deepseekers (blue): Final=455.8, Time=93.8, Moves(11)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE RL (lawn green): Final=322.1, Time=92.1, Moves(11)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:56] MOVE 34: Robert (red) 92->80 [0.01ms]
+[2026-05-22 10:44:56] SCORE Robert (red): Final=467.9, Time=95.9, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE Deepseekers (blue): Final=455.8, Time=93.8, Moves(11)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE RL (lawn green): Final=322.1, Time=92.1, Moves(11)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:56] MOVE 35: RL (lawn green) 115->117 [0.00ms]
+[2026-05-22 10:44:56] SCORE Robert (red): Final=467.9, Time=95.9, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE Deepseekers (blue): Final=455.8, Time=93.8, Moves(11)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE RL (lawn green): Final=317.5, Time=91.5, Moves(12)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 36: Deepseekers (blue) 1->53 [0.00ms]
+[2026-05-22 10:44:57] SCORE Robert (red): Final=467.9, Time=95.9, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Deepseekers (blue): Final=467.2, Time=93.2, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE RL (lawn green): Final=317.5, Time=91.5, Moves(12)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 37: Robert (red) 80->17 [0.00ms]
+[2026-05-22 10:44:57] SCORE Robert (red): Final=479.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Deepseekers (blue): Final=467.2, Time=93.2, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE RL (lawn green): Final=317.5, Time=91.5, Moves(12)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:58] MOVE 38: RL (lawn green) 117->104 [0.00ms]
+[2026-05-22 10:44:58] SCORE Robert (red): Final=479.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE Deepseekers (blue): Final=467.2, Time=93.2, Moves(12)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE RL (lawn green): Final=320.8, Time=90.8, Moves(13)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 39: Deepseekers (blue) 43->81 [0.00ms]
+[2026-05-22 10:44:59] SCORE Robert (red): Final=479.4, Time=95.4, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Deepseekers (blue): Final=474.6, Time=92.6, Moves(13)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE RL (lawn green): Final=320.8, Time=90.8, Moves(13)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 40: Robert (red) 112->103 [0.01ms]
+[2026-05-22 10:44:59] SCORE Robert (red): Final=481.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Deepseekers (blue): Final=474.6, Time=92.6, Moves(13)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE RL (lawn green): Final=320.8, Time=90.8, Moves(13)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 41: RL (lawn green) 104->117 [0.01ms]
+[2026-05-22 10:45:00] SCORE Robert (red): Final=481.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Deepseekers (blue): Final=474.6, Time=92.6, Moves(13)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE RL (lawn green): Final=316.2, Time=90.2, Moves(14)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 42: Deepseekers (blue) 18->62 [0.00ms]
+[2026-05-22 10:45:00] SCORE Robert (red): Final=481.1, Time=95.1, Moves(14)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Deepseekers (blue): Final=482.0, Time=92.0, Moves(14)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE RL (lawn green): Final=316.2, Time=90.2, Moves(14)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 43: Robert (red) 111->91 [0.00ms]
+[2026-05-22 10:45:01] SCORE Robert (red): Final=484.7, Time=94.7, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Deepseekers (blue): Final=482.0, Time=92.0, Moves(14)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE RL (lawn green): Final=316.2, Time=90.2, Moves(14)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 44: RL (lawn green) 117->79 [0.00ms]
+[2026-05-22 10:45:01] SCORE Robert (red): Final=484.7, Time=94.7, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Deepseekers (blue): Final=482.0, Time=92.0, Moves(14)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE RL (lawn green): Final=319.6, Time=89.6, Moves(15)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:02] MOVE 45: Deepseekers (blue) 71->112 [0.00ms]
+[2026-05-22 10:45:02] SCORE Robert (red): Final=484.7, Time=94.7, Moves(15)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE Deepseekers (blue): Final=589.5, Time=91.5, Moves(15)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE RL (lawn green): Final=319.6, Time=89.6, Moves(15)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:02] MOVE 46: Robert (red) 103->19 [0.00ms]
+[2026-05-22 10:45:02] SCORE Robert (red): Final=498.2, Time=94.2, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE Deepseekers (blue): Final=589.5, Time=91.5, Moves(15)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE RL (lawn green): Final=319.6, Time=89.6, Moves(15)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 47: RL (lawn green) 79->104 [0.01ms]
+[2026-05-22 10:45:03] SCORE Robert (red): Final=498.2, Time=94.2, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE Deepseekers (blue): Final=589.5, Time=91.5, Moves(15)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE RL (lawn green): Final=319.1, Time=89.1, Moves(16)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 48: Deepseekers (blue) 16->43 [0.00ms]
+[2026-05-22 10:45:04] SCORE Robert (red): Final=498.2, Time=94.2, Moves(16)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Deepseekers (blue): Final=592.4, Time=90.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE RL (lawn green): Final=319.1, Time=89.1, Moves(16)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 49: Robert (red) 113->105 [0.00ms]
+[2026-05-22 10:45:04] SCORE Robert (red): Final=499.6, Time=93.6, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Deepseekers (blue): Final=592.4, Time=90.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE RL (lawn green): Final=319.1, Time=89.1, Moves(16)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:05] MOVE 50: RL (lawn green) 104->79 [0.00ms]
+[2026-05-22 10:45:05] SCORE Robert (red): Final=499.6, Time=93.6, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:05] SCORE Deepseekers (blue): Final=592.4, Time=90.4, Moves(16)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:45:05] SCORE RL (lawn green): Final=318.3, Time=88.3, Moves(17)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 51: Deepseekers (blue) 53->114 [0.01ms]
+[2026-05-22 10:45:06] SCORE Robert (red): Final=499.6, Time=93.6, Moves(17)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Deepseekers (blue): Final=703.6, Time=89.6, Moves(17)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE RL (lawn green): Final=318.3, Time=88.3, Moves(17)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 52: Robert (red) 105->92 [0.00ms]
+[2026-05-22 10:45:06] SCORE Robert (red): Final=501.1, Time=93.1, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Deepseekers (blue): Final=703.6, Time=89.6, Moves(17)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE RL (lawn green): Final=318.3, Time=88.3, Moves(17)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:07] MOVE 53: RL (lawn green) 79->78 [0.00ms]
+[2026-05-22 10:45:07] SCORE Robert (red): Final=501.1, Time=93.1, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE Deepseekers (blue): Final=703.6, Time=89.6, Moves(17)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE RL (lawn green): Final=319.7, Time=87.7, Moves(18)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 54: Deepseekers (blue) 81->115 [0.01ms]
+[2026-05-22 10:45:08] SCORE Robert (red): Final=501.1, Time=93.1, Moves(18)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Deepseekers (blue): Final=808.9, Time=88.9, Moves(18)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE RL (lawn green): Final=319.7, Time=87.7, Moves(18)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 55: Robert (red) 70->81 [0.00ms]
+[2026-05-22 10:45:08] SCORE Robert (red): Final=498.4, Time=92.4, Moves(19)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Deepseekers (blue): Final=808.9, Time=88.9, Moves(18)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE RL (lawn green): Final=319.7, Time=87.7, Moves(18)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:09] MOVE 56: RL (lawn green) 78->90 [0.00ms]
+[2026-05-22 10:45:09] SCORE Robert (red): Final=498.4, Time=92.4, Moves(19)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE Deepseekers (blue): Final=808.9, Time=88.9, Moves(18)=0.0, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE RL (lawn green): Final=319.0, Time=87.0, Moves(19)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 57: Deepseekers (blue) 50->93 [0.00ms]
+[2026-05-22 10:45:10] SCORE Robert (red): Final=498.4, Time=92.4, Moves(19)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Deepseekers (blue): Final=815.9, Time=87.9, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE RL (lawn green): Final=319.0, Time=87.0, Moves(19)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:11] MOVE 58: Robert (red) 92->8 [0.00ms]
+[2026-05-22 10:45:11] SCORE Robert (red): Final=613.6, Time=91.6, Moves(20)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE Deepseekers (blue): Final=815.9, Time=87.9, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE RL (lawn green): Final=319.0, Time=87.0, Moves(19)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:45:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 59: RL (lawn green) 52->51 [0.00ms]
+[2026-05-22 10:45:12] SCORE Robert (red): Final=613.6, Time=91.6, Moves(20)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Deepseekers (blue): Final=815.9, Time=87.9, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE RL (lawn green): Final=320.3, Time=86.3, Moves(20)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 60: Deepseekers (blue) 49->94 [0.00ms]
+[2026-05-22 10:45:12] SCORE Robert (red): Final=613.6, Time=91.6, Moves(20)=0.0, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Deepseekers (blue): Final=823.1, Time=87.1, Moves(20)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE RL (lawn green): Final=320.3, Time=86.3, Moves(20)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:13] MOVE 61: Robert (red) 41->3 [0.01ms]
+[2026-05-22 10:45:13] SCORE Robert (red): Final=718.8, Time=90.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:13] SCORE Deepseekers (blue): Final=823.1, Time=87.1, Moves(20)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:13] SCORE RL (lawn green): Final=320.3, Time=86.3, Moves(20)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:45:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:14] MOVE 62: RL (lawn green) 20->41 [0.01ms]
+[2026-05-22 10:45:14] SCORE Robert (red): Final=718.8, Time=90.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE Deepseekers (blue): Final=823.1, Time=87.1, Moves(20)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE RL (lawn green): Final=327.5, Time=85.5, Moves(21)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:45:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:15] MOVE 63: Deepseekers (blue) 27->72 [0.00ms]
+[2026-05-22 10:45:15] SCORE Robert (red): Final=718.8, Time=90.8, Moves(21)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:15] SCORE Deepseekers (blue): Final=830.3, Time=86.3, Moves(21)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:15] SCORE RL (lawn green): Final=327.5, Time=85.5, Moves(21)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:45:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:15] MOVE 64: Robert (red) 81->80 [0.01ms]
+[2026-05-22 10:45:15] SCORE Robert (red): Final=718.3, Time=90.3, Moves(22)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:15] SCORE Deepseekers (blue): Final=830.3, Time=86.3, Moves(21)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:15] SCORE RL (lawn green): Final=327.5, Time=85.5, Moves(21)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:45:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:16] MOVE 65: RL (lawn green) 51->50 [0.01ms]
+[2026-05-22 10:45:16] SCORE Robert (red): Final=718.3, Time=90.3, Moves(22)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE Deepseekers (blue): Final=830.3, Time=86.3, Moves(21)=0.0, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE RL (lawn green): Final=329.0, Time=85.0, Moves(22)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:16] MOVE 66: Deepseekers (blue) 62->120 [0.01ms]
+[2026-05-22 10:45:16] SCORE Robert (red): Final=718.3, Time=90.3, Moves(22)=0.0, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE Deepseekers (blue): Final=939.7, Time=85.7, Moves(22)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE RL (lawn green): Final=329.0, Time=85.0, Moves(22)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:17] MOVE 67: Robert (red) 119->117 [0.00ms]
+[2026-05-22 10:45:17] SCORE Robert (red): Final=719.8, Time=89.8, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE Deepseekers (blue): Final=939.7, Time=85.7, Moves(22)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE RL (lawn green): Final=329.0, Time=85.0, Moves(22)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:18] MOVE 68: RL (lawn green) 50->70 [0.00ms]
+[2026-05-22 10:45:18] SCORE Robert (red): Final=719.8, Time=89.8, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE Deepseekers (blue): Final=939.7, Time=85.7, Moves(22)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE RL (lawn green): Final=328.4, Time=84.4, Moves(23)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:18] MOVE 69: Deepseekers (blue) 29->52 [0.00ms]
+[2026-05-22 10:45:18] SCORE Robert (red): Final=719.8, Time=89.8, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE Deepseekers (blue): Final=943.1, Time=85.1, Moves(23)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE RL (lawn green): Final=328.4, Time=84.4, Moves(23)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:19] MOVE 70: Robert (red) 117->62 [0.00ms]
+[2026-05-22 10:45:19] SCORE Robert (red): Final=731.2, Time=89.2, Moves(24)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:19] SCORE Deepseekers (blue): Final=943.1, Time=85.1, Moves(23)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:19] SCORE RL (lawn green): Final=328.4, Time=84.4, Moves(23)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:19] MOVE 71: RL (lawn green) 90->78 [0.00ms]
+[2026-05-22 10:45:19] SCORE Robert (red): Final=731.2, Time=89.2, Moves(24)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:19] SCORE Deepseekers (blue): Final=943.1, Time=85.1, Moves(23)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:19] SCORE RL (lawn green): Final=327.8, Time=83.8, Moves(24)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:20] MOVE 72: Deepseekers (blue) 93->105 [0.01ms]
+[2026-05-22 10:45:20] SCORE Robert (red): Final=731.2, Time=89.2, Moves(24)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE Deepseekers (blue): Final=944.5, Time=84.5, Moves(24)=0.0, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE RL (lawn green): Final=327.8, Time=83.8, Moves(24)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:20] MOVE 73: Robert (red) 19->18 [0.00ms]
+[2026-05-22 10:45:20] SCORE Robert (red): Final=732.7, Time=88.7, Moves(25)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE Deepseekers (blue): Final=944.5, Time=84.5, Moves(24)=0.0, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE RL (lawn green): Final=327.8, Time=83.8, Moves(24)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:45:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:21] MOVE 74: RL (lawn green) 70->89 [0.01ms]
+[2026-05-22 10:45:21] SCORE Robert (red): Final=732.7, Time=88.7, Moves(25)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE Deepseekers (blue): Final=944.5, Time=84.5, Moves(24)=0.0, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE RL (lawn green): Final=335.2, Time=83.2, Moves(25)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:22] MOVE 75: Deepseekers (blue) 105->113 [0.00ms]
+[2026-05-22 10:45:22] SCORE Robert (red): Final=732.7, Time=88.7, Moves(25)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE Deepseekers (blue): Final=1045.8, Time=83.8, Moves(25)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE RL (lawn green): Final=335.2, Time=83.2, Moves(25)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:22] MOVE 76: Robert (red) 91->2 [0.00ms]
+[2026-05-22 10:45:22] SCORE Robert (red): Final=848.1, Time=88.1, Moves(26)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE Deepseekers (blue): Final=1045.8, Time=83.8, Moves(25)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE RL (lawn green): Final=335.2, Time=83.2, Moves(25)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:23] MOVE 77: RL (lawn green) 89->88 [0.01ms]
+[2026-05-22 10:45:23] SCORE Robert (red): Final=848.1, Time=88.1, Moves(26)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:23] SCORE Deepseekers (blue): Final=1045.8, Time=83.8, Moves(25)=0.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:23] SCORE RL (lawn green): Final=436.7, Time=82.7, Moves(26)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:24] MOVE 78: Deepseekers (blue) 43->54 [0.00ms]
+[2026-05-22 10:45:24] SCORE Robert (red): Final=848.1, Time=88.1, Moves(26)=0.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE Deepseekers (blue): Final=1047.2, Time=83.2, Moves(26)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE RL (lawn green): Final=436.7, Time=82.7, Moves(26)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:24] MOVE 79: Robert (red) 17->9 [0.00ms]
+[2026-05-22 10:45:24] SCORE Robert (red): Final=949.6, Time=87.6, Moves(27)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE Deepseekers (blue): Final=1047.2, Time=83.2, Moves(26)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE RL (lawn green): Final=436.7, Time=82.7, Moves(26)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:25] MOVE 80: RL (lawn green) 88->101 [0.01ms]
+[2026-05-22 10:45:25] SCORE Robert (red): Final=949.6, Time=87.6, Moves(27)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE Deepseekers (blue): Final=1047.2, Time=83.2, Moves(26)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE RL (lawn green): Final=436.1, Time=82.1, Moves(27)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:25] MOVE 81: Deepseekers (blue) 52->61 [0.00ms]
+[2026-05-22 10:45:25] SCORE Robert (red): Final=949.6, Time=87.6, Moves(27)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE Deepseekers (blue): Final=1048.5, Time=82.5, Moves(27)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE RL (lawn green): Final=436.1, Time=82.1, Moves(27)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:26] MOVE 82: Robert (red) 60->50 [0.01ms]
+[2026-05-22 10:45:26] SCORE Robert (red): Final=951.1, Time=87.1, Moves(28)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE Deepseekers (blue): Final=1048.5, Time=82.5, Moves(27)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE RL (lawn green): Final=436.1, Time=82.1, Moves(27)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:27] MOVE 83: RL (lawn green) 101->100 [0.00ms]
+[2026-05-22 10:45:27] SCORE Robert (red): Final=951.1, Time=87.1, Moves(28)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:27] SCORE Deepseekers (blue): Final=1048.5, Time=82.5, Moves(27)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:27] SCORE RL (lawn green): Final=435.3, Time=81.3, Moves(28)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:27] MOVE 84: Deepseekers (blue) 61->82 [0.01ms]
+[2026-05-22 10:45:27] SCORE Robert (red): Final=951.1, Time=87.1, Moves(28)=0.0, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:27] SCORE Deepseekers (blue): Final=1051.9, Time=81.9, Moves(28)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:27] SCORE RL (lawn green): Final=435.3, Time=81.3, Moves(28)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:28] MOVE 85: Robert (red) 80->17 [0.01ms]
+[2026-05-22 10:45:28] SCORE Robert (red): Final=962.6, Time=86.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE Deepseekers (blue): Final=1051.9, Time=81.9, Moves(28)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE RL (lawn green): Final=435.3, Time=81.3, Moves(28)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:28] MOVE 86: RL (lawn green) 100->101 [0.01ms]
+[2026-05-22 10:45:28] SCORE Robert (red): Final=962.6, Time=86.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE Deepseekers (blue): Final=1051.9, Time=81.9, Moves(28)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE RL (lawn green): Final=434.6, Time=80.6, Moves(29)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:29] MOVE 87: Deepseekers (blue) 72->93 [0.00ms]
+[2026-05-22 10:45:29] SCORE Robert (red): Final=962.6, Time=86.6, Moves(29)=0.0, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE Deepseekers (blue): Final=1055.2, Time=81.2, Moves(29)=0.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE RL (lawn green): Final=434.6, Time=80.6, Moves(29)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:29] MOVE 88: Robert (red) 50->7 [0.01ms]
+[2026-05-22 10:45:29] SCORE Robert (red): Final=1070.4, Time=86.3, Moves(30)=0.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE Deepseekers (blue): Final=1055.2, Time=81.2, Moves(29)=0.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE RL (lawn green): Final=434.6, Time=80.6, Moves(29)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:30] MOVE 89: RL (lawn green) 101->102 [0.00ms]
+[2026-05-22 10:45:30] SCORE Robert (red): Final=1070.4, Time=86.3, Moves(30)=0.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:30] SCORE Deepseekers (blue): Final=1055.2, Time=81.2, Moves(29)=0.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:30] SCORE RL (lawn green): Final=332.1, Time=80.0, Moves(30)=0.1, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:31] MOVE 90: Deepseekers (blue) 82->105 [0.00ms]
+[2026-05-22 10:45:31] SCORE Robert (red): Final=1070.4, Time=86.3, Moves(30)=0.1, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE Deepseekers (blue): Final=1058.6, Time=80.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE RL (lawn green): Final=332.1, Time=80.0, Moves(30)=0.1, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:31] MOVE 91: Robert (red) 62->52 [0.01ms]
+[2026-05-22 10:45:31] SCORE Robert (red): Final=1072.2, Time=86.0, Moves(31)=0.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE Deepseekers (blue): Final=1058.6, Time=80.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE RL (lawn green): Final=332.1, Time=80.0, Moves(30)=0.1, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:32] MOVE 92: RL (lawn green) 102->101 [0.01ms]
+[2026-05-22 10:45:32] SCORE Robert (red): Final=1072.2, Time=86.0, Moves(31)=0.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE Deepseekers (blue): Final=1058.6, Time=80.5, Moves(30)=0.1, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE RL (lawn green): Final=433.7, Time=79.5, Moves(31)=0.2, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:32] MOVE 93: Deepseekers (blue) 94->106 [0.00ms]
+[2026-05-22 10:45:32] SCORE Robert (red): Final=1072.2, Time=86.0, Moves(31)=0.2, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE Deepseekers (blue): Final=1060.2, Time=80.0, Moves(31)=0.2, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE RL (lawn green): Final=433.7, Time=79.5, Moves(31)=0.2, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:32] MOVE 94: Robert (red) 9->5 [0.00ms]
+[2026-05-22 10:45:32] SCORE Robert (red): Final=1072.3, Time=85.8, Moves(32)=0.5, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE Deepseekers (blue): Final=1060.2, Time=80.0, Moves(31)=0.2, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE RL (lawn green): Final=433.7, Time=79.5, Moves(31)=0.2, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:33] MOVE 95: RL (lawn green) 101->100 [0.01ms]
+[2026-05-22 10:45:33] SCORE Robert (red): Final=1072.3, Time=85.8, Moves(32)=0.5, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE Deepseekers (blue): Final=1060.2, Time=80.0, Moves(31)=0.2, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE RL (lawn green): Final=433.4, Time=78.8, Moves(32)=0.5, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:33] MOVE 96: Deepseekers (blue) 106->117 [0.01ms]
+[2026-05-22 10:45:33] SCORE Robert (red): Final=1072.3, Time=85.8, Moves(32)=0.5, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE Deepseekers (blue): Final=1162.0, Time=79.5, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE RL (lawn green): Final=433.4, Time=78.8, Moves(32)=0.5, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:34] MOVE 97: Robert (red) 15->6 [0.00ms]
+[2026-05-22 10:45:34] SCORE Robert (red): Final=1174.7, Time=85.6, Moves(33)=1.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE Deepseekers (blue): Final=1162.0, Time=79.5, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE RL (lawn green): Final=433.4, Time=78.8, Moves(32)=0.5, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:34] MOVE 98: RL (lawn green) 100->88 [0.01ms]
+[2026-05-22 10:45:34] SCORE Robert (red): Final=1174.7, Time=85.6, Moves(33)=1.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE Deepseekers (blue): Final=1162.0, Time=79.5, Moves(32)=0.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE RL (lawn green): Final=433.4, Time=78.2, Moves(33)=1.1, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:35] MOVE 99: Deepseekers (blue) 54->64 [0.01ms]
+[2026-05-22 10:45:35] SCORE Robert (red): Final=1174.7, Time=85.6, Moves(33)=1.1, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE Deepseekers (blue): Final=1164.2, Time=79.1, Moves(33)=1.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE RL (lawn green): Final=433.4, Time=78.2, Moves(33)=1.1, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:35] MOVE 100: Robert (red) 52->9 [0.00ms]
+[2026-05-22 10:45:35] SCORE Robert (red): Final=1283.7, Time=85.4, Moves(34)=2.3, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE Deepseekers (blue): Final=1164.2, Time=79.1, Moves(33)=1.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE RL (lawn green): Final=433.4, Time=78.2, Moves(33)=1.1, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:35] MOVE 101: RL (lawn green) 88->100 [0.00ms]
+[2026-05-22 10:45:35] SCORE Robert (red): Final=1283.7, Time=85.4, Moves(34)=2.3, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE Deepseekers (blue): Final=1164.2, Time=79.1, Moves(33)=1.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE RL (lawn green): Final=434.0, Time=77.7, Moves(34)=2.3, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:36] MOVE 102: Deepseekers (blue) 114->119 [0.01ms]
+[2026-05-22 10:45:36] SCORE Robert (red): Final=1283.7, Time=85.4, Moves(34)=2.3, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:36] SCORE Deepseekers (blue): Final=1164.8, Time=78.5, Moves(34)=2.3, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:36] SCORE RL (lawn green): Final=434.0, Time=77.7, Moves(34)=2.3, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:36] MOVE 103: Robert (red) 5->0 [0.00ms]
+[2026-05-22 10:45:36] SCORE Robert (red): Final=1285.6, Time=85.2, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:36] SCORE Deepseekers (blue): Final=1164.8, Time=78.5, Moves(34)=2.3, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:36] SCORE RL (lawn green): Final=434.0, Time=77.7, Moves(34)=2.3, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 104: RL (lawn green) 100->101 [0.01ms]
+[2026-05-22 10:45:37] SCORE Robert (red): Final=1285.6, Time=85.2, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Deepseekers (blue): Final=1164.8, Time=78.5, Moves(34)=2.3, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE RL (lawn green): Final=435.6, Time=77.2, Moves(35)=4.4, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 105: Deepseekers (blue) 105->114 [0.00ms]
+[2026-05-22 10:45:37] SCORE Robert (red): Final=1285.6, Time=85.2, Moves(35)=4.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Deepseekers (blue): Final=1268.3, Time=77.9, Moves(35)=4.4, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE RL (lawn green): Final=435.6, Time=77.2, Moves(35)=4.4, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 106: Robert (red) 18->16 [0.00ms]
+[2026-05-22 10:45:37] SCORE Robert (red): Final=1289.0, Time=85.0, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Deepseekers (blue): Final=1268.3, Time=77.9, Moves(35)=4.4, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE RL (lawn green): Final=435.6, Time=77.2, Moves(35)=4.4, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:38] MOVE 107: RL (lawn green) 101->102 [0.00ms]
+[2026-05-22 10:45:38] SCORE Robert (red): Final=1289.0, Time=85.0, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE Deepseekers (blue): Final=1268.3, Time=77.9, Moves(35)=4.4, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE RL (lawn green): Final=336.6, Time=76.6, Moves(36)=8.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:39] MOVE 108: Deepseekers (blue) 93->105 [0.00ms]
+[2026-05-22 10:45:39] SCORE Robert (red): Final=1289.0, Time=85.0, Moves(36)=8.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE Deepseekers (blue): Final=1273.1, Time=77.1, Moves(36)=8.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE RL (lawn green): Final=336.6, Time=76.6, Moves(36)=8.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:39] MOVE 109: Robert (red) 16->5 [0.01ms]
+[2026-05-22 10:45:39] SCORE Robert (red): Final=1396.4, Time=84.9, Moves(37)=13.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE Deepseekers (blue): Final=1273.1, Time=77.1, Moves(36)=8.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE RL (lawn green): Final=336.6, Time=76.6, Moves(36)=8.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:39] MOVE 110: RL (lawn green) 102->111 [0.01ms]
+[2026-05-22 10:45:39] SCORE Robert (red): Final=1396.4, Time=84.9, Moves(37)=13.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE Deepseekers (blue): Final=1273.1, Time=77.1, Moves(36)=8.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE RL (lawn green): Final=339.6, Time=76.1, Moves(37)=13.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:40] MOVE 111: Deepseekers (blue) 116->118 [0.00ms]
+[2026-05-22 10:45:40] SCORE Robert (red): Final=1396.4, Time=84.9, Moves(37)=13.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:40] SCORE Deepseekers (blue): Final=1278.2, Time=76.7, Moves(37)=13.5, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:40] SCORE RL (lawn green): Final=339.6, Time=76.1, Moves(37)=13.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:40] MOVE 112: Robert (red) 8->1 [0.01ms]
+[2026-05-22 10:45:40] SCORE Robert (red): Final=1404.4, Time=84.7, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:40] SCORE Deepseekers (blue): Final=1278.2, Time=76.7, Moves(37)=13.5, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:40] SCORE RL (lawn green): Final=339.6, Time=76.1, Moves(37)=13.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:41] MOVE 113: RL (lawn green) 111->102 [0.01ms]
+[2026-05-22 10:45:41] SCORE Robert (red): Final=1404.4, Time=84.7, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE Deepseekers (blue): Final=1278.2, Time=76.7, Moves(37)=13.5, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE RL (lawn green): Final=349.1, Time=75.5, Moves(38)=21.6, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:41] MOVE 114: Deepseekers (blue) 105->116 [0.00ms]
+[2026-05-22 10:45:41] SCORE Robert (red): Final=1404.4, Time=84.7, Moves(38)=21.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE Deepseekers (blue): Final=1388.0, Time=76.3, Moves(38)=21.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE RL (lawn green): Final=349.1, Time=75.5, Moves(38)=21.6, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:41] MOVE 115: Robert (red) 17->16 [0.00ms]
+[2026-05-22 10:45:41] SCORE Robert (red): Final=1414.9, Time=84.5, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE Deepseekers (blue): Final=1388.0, Time=76.3, Moves(38)=21.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE RL (lawn green): Final=349.1, Time=75.5, Moves(38)=21.6, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:42] MOVE 116: RL (lawn green) 102->111 [0.00ms]
+[2026-05-22 10:45:42] SCORE Robert (red): Final=1414.9, Time=84.5, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE Deepseekers (blue): Final=1388.0, Time=76.3, Moves(38)=21.6, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE RL (lawn green): Final=357.3, Time=74.9, Moves(39)=32.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:42] MOVE 117: Deepseekers (blue) 64->73 [0.01ms]
+[2026-05-22 10:45:42] SCORE Robert (red): Final=1414.9, Time=84.5, Moves(39)=32.5, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE Deepseekers (blue): Final=1400.6, Time=76.1, Moves(39)=32.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE RL (lawn green): Final=357.3, Time=74.9, Moves(39)=32.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:42] MOVE 118: Robert (red) 16->8 [0.01ms]
+[2026-05-22 10:45:42] SCORE Robert (red): Final=2530.1, Time=84.3, Moves(40)=45.8, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:45:42] SCORE Deepseekers (blue): Final=1400.6, Time=76.1, Moves(39)=32.5, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE RL (lawn green): Final=357.3, Time=74.9, Moves(39)=32.5, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:42] ALL WRONG MOVES BY COLOUR: {}

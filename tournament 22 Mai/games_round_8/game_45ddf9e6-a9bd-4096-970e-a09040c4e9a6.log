@@ -1,0 +1,1300 @@
+[2026-05-22 10:54:05] GAME CREATED
+[2026-05-22 10:54:05] PLAYER JOINED: Gruppe 69 as yellow
+[2026-05-22 10:54:13] PLAYER JOINED: jat as purple
+[2026-05-22 10:54:13] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:54:13] PLAYER START: jat (purple)
+[2026-05-22 10:54:13] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 10:54:13] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:54:13] PLAYER START: jat (purple)
+[2026-05-22 10:54:14] MOVE 1: Gruppe 69 (yellow) 12->37 [0.01ms]
+[2026-05-22 10:54:14] SCORE Gruppe 69 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:14] SCORE jat (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:54:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:15] MOVE 2: jat (purple) 74->73 [0.00ms]
+[2026-05-22 10:54:15] SCORE Gruppe 69 (yellow): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE jat (purple): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:15] MOVE 3: Gruppe 69 (yellow) 37->48 [0.01ms]
+[2026-05-22 10:54:15] SCORE Gruppe 69 (yellow): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:54:15] SCORE jat (purple): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:54:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:16] MOVE 4: jat (purple) 97->72 [0.00ms]
+[2026-05-22 10:54:16] SCORE Gruppe 69 (yellow): Final=285.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:54:16] SCORE jat (purple): Final=287.5, Time=97.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:54:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:17] MOVE 5: Gruppe 69 (yellow) 24->49 [0.00ms]
+[2026-05-22 10:54:17] SCORE Gruppe 69 (yellow): Final=293.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE jat (purple): Final=287.5, Time=97.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:17] MOVE 6: jat (purple) 96->94 [0.00ms]
+[2026-05-22 10:54:17] SCORE Gruppe 69 (yellow): Final=293.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE jat (purple): Final=291.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:17] MOVE 7: Gruppe 69 (yellow) 49->59 [0.00ms]
+[2026-05-22 10:54:17] SCORE Gruppe 69 (yellow): Final=295.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:54:17] SCORE jat (purple): Final=291.3, Time=97.3, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:54:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:18] MOVE 8: jat (purple) 108->62 [0.00ms]
+[2026-05-22 10:54:18] SCORE Gruppe 69 (yellow): Final=295.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE jat (purple): Final=298.8, Time=96.8, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:54:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:18] MOVE 9: Gruppe 69 (yellow) 10->60 [0.00ms]
+[2026-05-22 10:54:18] SCORE Gruppe 69 (yellow): Final=310.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:18] SCORE jat (purple): Final=298.8, Time=96.8, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:54:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:19] MOVE 10: jat (purple) 84->61 [0.00ms]
+[2026-05-22 10:54:19] SCORE Gruppe 69 (yellow): Final=310.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:54:19] SCORE jat (purple): Final=305.3, Time=95.3, Moves(5)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:54:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:20] MOVE 11: Gruppe 69 (yellow) 35->58 [0.01ms]
+[2026-05-22 10:54:20] SCORE Gruppe 69 (yellow): Final=318.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE jat (purple): Final=305.3, Time=95.3, Moves(5)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:20] MOVE 12: jat (purple) 72->97 [0.01ms]
+[2026-05-22 10:54:20] SCORE Gruppe 69 (yellow): Final=318.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE jat (purple): Final=297.1, Time=95.1, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:20] MOVE 13: Gruppe 69 (yellow) 48->74 [0.01ms]
+[2026-05-22 10:54:20] SCORE Gruppe 69 (yellow): Final=434.3, Time=98.3, Moves(7)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:54:20] SCORE jat (purple): Final=297.1, Time=95.1, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:54:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:54:22] MOVE 15: jat (purple) 110->106 [0.01ms]
+[2026-05-22 10:54:22] SCORE Gruppe 69 (yellow): Final=434.3, Time=98.3, Moves(7)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE jat (purple): Final=303.5, Time=93.5, Moves(7)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:22] MOVE 16: Gruppe 69 (yellow) 36->37 [0.00ms]
+[2026-05-22 10:54:22] SCORE Gruppe 69 (yellow): Final=436.1, Time=98.1, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE jat (purple): Final=303.5, Time=93.5, Moves(7)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:22] MOVE 17: jat (purple) 95->93 [0.01ms]
+[2026-05-22 10:54:22] SCORE Gruppe 69 (yellow): Final=436.1, Time=98.1, Moves(8)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE jat (purple): Final=307.4, Time=93.4, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:22] MOVE 18: Gruppe 69 (yellow) 25->72 [0.00ms]
+[2026-05-22 10:54:22] SCORE Gruppe 69 (yellow): Final=451.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:54:22] SCORE jat (purple): Final=307.4, Time=93.4, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:54:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:23] MOVE 19: jat (purple) 97->96 [0.00ms]
+[2026-05-22 10:54:23] SCORE Gruppe 69 (yellow): Final=451.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE jat (purple): Final=308.6, Time=92.6, Moves(9)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:23] MOVE 20: Gruppe 69 (yellow) 72->83 [0.01ms]
+[2026-05-22 10:54:23] SCORE Gruppe 69 (yellow): Final=453.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE jat (purple): Final=308.6, Time=92.6, Moves(9)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:23] MOVE 21: jat (purple) 93->82 [0.00ms]
+[2026-05-22 10:54:23] SCORE Gruppe 69 (yellow): Final=453.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:54:23] SCORE jat (purple): Final=308.4, Time=92.4, Moves(10)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:24] MOVE 22: Gruppe 69 (yellow) 11->24 [0.01ms]
+[2026-05-22 10:54:24] SCORE Gruppe 69 (yellow): Final=455.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE jat (purple): Final=308.4, Time=92.4, Moves(10)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:24] MOVE 23: jat (purple) 73->64 [0.00ms]
+[2026-05-22 10:54:24] SCORE Gruppe 69 (yellow): Final=455.5, Time=97.5, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE jat (purple): Final=308.2, Time=92.2, Moves(11)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:24] MOVE 24: Gruppe 69 (yellow) 23->97 [0.01ms]
+[2026-05-22 10:54:24] SCORE Gruppe 69 (yellow): Final=579.2, Time=97.2, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:24] SCORE jat (purple): Final=308.2, Time=92.2, Moves(11)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:54:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)']}
+[2026-05-22 10:54:26] MOVE 26: jat (purple) 94->49 [0.00ms]
+[2026-05-22 10:54:26] SCORE Gruppe 69 (yellow): Final=579.2, Time=97.2, Moves(12)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE jat (purple): Final=318.5, Time=90.5, Moves(12)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:26] MOVE 27: Gruppe 69 (yellow) 46->47 [0.00ms]
+[2026-05-22 10:54:26] SCORE Gruppe 69 (yellow): Final=581.0, Time=97.0, Moves(13)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE jat (purple): Final=318.5, Time=90.5, Moves(12)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:26] MOVE 28: jat (purple) 49->39 [0.00ms]
+[2026-05-22 10:54:26] SCORE Gruppe 69 (yellow): Final=581.0, Time=97.0, Moves(13)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:54:26] SCORE jat (purple): Final=318.3, Time=90.3, Moves(13)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:27] MOVE 29: Gruppe 69 (yellow) 47->48 [0.01ms]
+[2026-05-22 10:54:27] SCORE Gruppe 69 (yellow): Final=582.6, Time=96.6, Moves(14)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE jat (purple): Final=318.3, Time=90.3, Moves(13)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:27] MOVE 30: jat (purple) 39->38 [0.01ms]
+[2026-05-22 10:54:27] SCORE Gruppe 69 (yellow): Final=582.6, Time=96.6, Moves(14)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE jat (purple): Final=320.2, Time=90.2, Moves(14)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:27] MOVE 31: Gruppe 69 (yellow) 48->95 [0.00ms]
+[2026-05-22 10:54:27] SCORE Gruppe 69 (yellow): Final=698.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE jat (purple): Final=320.2, Time=90.2, Moves(14)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:27] MOVE 32: jat (purple) 109->84 [0.00ms]
+[2026-05-22 10:54:27] SCORE Gruppe 69 (yellow): Final=698.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE jat (purple): Final=324.2, Time=90.2, Moves(15)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:27] MOVE 33: Gruppe 69 (yellow) 37->39 [0.01ms]
+[2026-05-22 10:54:27] SCORE Gruppe 69 (yellow): Final=702.0, Time=96.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:27] SCORE jat (purple): Final=324.2, Time=90.2, Moves(15)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:28] MOVE 34: jat (purple) 106->94 [0.00ms]
+[2026-05-22 10:54:28] SCORE Gruppe 69 (yellow): Final=702.0, Time=96.0, Moves(16)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE jat (purple): Final=324.0, Time=90.0, Moves(16)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:28] MOVE 35: Gruppe 69 (yellow) 13->26 [0.00ms]
+[2026-05-22 10:54:28] SCORE Gruppe 69 (yellow): Final=703.7, Time=95.7, Moves(17)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:54:28] SCORE jat (purple): Final=324.0, Time=90.0, Moves(16)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)']}
+[2026-05-22 10:54:30] SCORE Gruppe 69 (yellow): Final=703.7, Time=95.7, Moves(17)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE jat (purple): Final=324.0, Time=90.0, Moves(16)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:30] TURN TIMEOUT: Player with colour purple exceeded 2s at move 37. Turn skipped.
+[2026-05-22 10:54:30] MOVE 38: Gruppe 69 (yellow) 26->71 [0.00ms]
+[2026-05-22 10:54:30] SCORE Gruppe 69 (yellow): Final=715.6, Time=95.6, Moves(18)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:30] SCORE jat (purple): Final=324.0, Time=90.0, Moves(16)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 39: jat (purple) 96->73 [0.00ms]
+[2026-05-22 10:54:31] SCORE Gruppe 69 (yellow): Final=715.6, Time=95.6, Moves(18)=0.0, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE jat (purple): Final=326.9, Time=88.9, Moves(17)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:31] MOVE 40: Gruppe 69 (yellow) 24->25 [0.00ms]
+[2026-05-22 10:54:31] SCORE Gruppe 69 (yellow): Final=717.4, Time=95.4, Moves(19)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:31] SCORE jat (purple): Final=326.9, Time=88.9, Moves(17)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 41: jat (purple) 84->63 [0.00ms]
+[2026-05-22 10:54:32] SCORE Gruppe 69 (yellow): Final=717.4, Time=95.4, Moves(19)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE jat (purple): Final=329.9, Time=87.9, Moves(18)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:32] MOVE 42: Gruppe 69 (yellow) 25->37 [0.00ms]
+[2026-05-22 10:54:32] SCORE Gruppe 69 (yellow): Final=719.2, Time=95.2, Moves(20)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:32] SCORE jat (purple): Final=329.9, Time=87.9, Moves(18)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:33] MOVE 43: jat (purple) 85->110 [0.00ms]
+[2026-05-22 10:54:33] SCORE Gruppe 69 (yellow): Final=719.2, Time=95.2, Moves(20)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:54:33] SCORE jat (purple): Final=325.8, Time=87.8, Moves(19)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:33] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:33] MOVE 44: Gruppe 69 (yellow) 37->48 [0.01ms]
+[2026-05-22 10:54:33] SCORE Gruppe 69 (yellow): Final=720.9, Time=94.9, Moves(21)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:33] SCORE jat (purple): Final=325.8, Time=87.8, Moves(19)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:33] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)']}
+[2026-05-22 10:54:34] MOVE 46: jat (purple) 63->84 [0.01ms]
+[2026-05-22 10:54:34] SCORE Gruppe 69 (yellow): Final=720.9, Time=94.9, Moves(21)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE jat (purple): Final=320.9, Time=86.9, Moves(20)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:34] MOVE 47: Gruppe 69 (yellow) 48->72 [0.01ms]
+[2026-05-22 10:54:34] SCORE Gruppe 69 (yellow): Final=732.7, Time=94.7, Moves(22)=0.0, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE jat (purple): Final=320.9, Time=86.9, Moves(20)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:34] MOVE 48: jat (purple) 110->85 [0.00ms]
+[2026-05-22 10:54:34] SCORE Gruppe 69 (yellow): Final=732.7, Time=94.7, Moves(22)=0.0, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE jat (purple): Final=324.7, Time=86.7, Moves(21)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:34] MOVE 49: Gruppe 69 (yellow) 39->50 [0.00ms]
+[2026-05-22 10:54:34] SCORE Gruppe 69 (yellow): Final=734.5, Time=94.5, Moves(23)=0.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:34] SCORE jat (purple): Final=324.7, Time=86.7, Moves(21)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:36] MOVE 50: jat (purple) 84->63 [0.00ms]
+[2026-05-22 10:54:36] SCORE Gruppe 69 (yellow): Final=734.5, Time=94.5, Moves(23)=0.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE jat (purple): Final=327.5, Time=85.5, Moves(22)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:36] MOVE 51: Gruppe 69 (yellow) 50->70 [0.00ms]
+[2026-05-22 10:54:36] SCORE Gruppe 69 (yellow): Final=738.4, Time=94.4, Moves(24)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE jat (purple): Final=327.5, Time=85.5, Moves(22)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:36] MOVE 52: jat (purple) 85->84 [0.01ms]
+[2026-05-22 10:54:36] SCORE Gruppe 69 (yellow): Final=738.4, Time=94.4, Moves(24)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:54:36] SCORE jat (purple): Final=328.8, Time=84.8, Moves(23)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:37] MOVE 53: Gruppe 69 (yellow) 60->81 [0.01ms]
+[2026-05-22 10:54:37] SCORE Gruppe 69 (yellow): Final=742.0, Time=94.0, Moves(25)=0.0, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE jat (purple): Final=328.8, Time=84.8, Moves(23)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:37] MOVE 54: jat (purple) 38->39 [0.00ms]
+[2026-05-22 10:54:37] SCORE Gruppe 69 (yellow): Final=742.0, Time=94.0, Moves(25)=0.0, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE jat (purple): Final=326.6, Time=84.6, Moves(24)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:37] MOVE 55: Gruppe 69 (yellow) 58->60 [0.01ms]
+[2026-05-22 10:54:37] SCORE Gruppe 69 (yellow): Final=745.8, Time=93.8, Moves(26)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:37] SCORE jat (purple): Final=326.6, Time=84.6, Moves(24)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:38] MOVE 56: jat (purple) 107->106 [0.01ms]
+[2026-05-22 10:54:38] SCORE Gruppe 69 (yellow): Final=745.8, Time=93.8, Moves(26)=0.0, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE jat (purple): Final=328.0, Time=84.0, Moves(25)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:38] MOVE 57: Gruppe 69 (yellow) 70->93 [0.00ms]
+[2026-05-22 10:54:38] SCORE Gruppe 69 (yellow): Final=749.5, Time=93.5, Moves(27)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE jat (purple): Final=328.0, Time=84.0, Moves(25)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:38] MOVE 58: jat (purple) 64->85 [0.00ms]
+[2026-05-22 10:54:38] SCORE Gruppe 69 (yellow): Final=749.5, Time=93.5, Moves(27)=0.0, Pins(3)=300.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE jat (purple): Final=323.9, Time=83.9, Moves(26)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:38] MOVE 59: Gruppe 69 (yellow) 59->69 [0.01ms]
+[2026-05-22 10:54:38] SCORE Gruppe 69 (yellow): Final=751.2, Time=93.2, Moves(28)=0.0, Pins(3)=300.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:38] SCORE jat (purple): Final=323.9, Time=83.9, Moves(26)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:54:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:39] MOVE 60: jat (purple) 39->40 [0.01ms]
+[2026-05-22 10:54:39] SCORE Gruppe 69 (yellow): Final=751.2, Time=93.2, Moves(28)=0.0, Pins(3)=300.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE jat (purple): Final=321.7, Time=83.7, Moves(27)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:39] MOVE 61: Gruppe 69 (yellow) 69->70 [0.00ms]
+[2026-05-22 10:54:39] SCORE Gruppe 69 (yellow): Final=752.9, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE jat (purple): Final=321.7, Time=83.7, Moves(27)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:39] MOVE 62: jat (purple) 84->105 [0.00ms]
+[2026-05-22 10:54:39] SCORE Gruppe 69 (yellow): Final=752.9, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE jat (purple): Final=325.5, Time=83.5, Moves(28)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:39] MOVE 63: Gruppe 69 (yellow) 83->84 [0.01ms]
+[2026-05-22 10:54:39] SCORE Gruppe 69 (yellow): Final=854.8, Time=92.7, Moves(30)=0.1, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:39] SCORE jat (purple): Final=325.5, Time=83.5, Moves(28)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:54:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:41] MOVE 64: jat (purple) 85->83 [0.00ms]
+[2026-05-22 10:54:41] SCORE Gruppe 69 (yellow): Final=854.8, Time=92.7, Moves(30)=0.1, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE jat (purple): Final=328.4, Time=82.3, Moves(29)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:41] MOVE 65: Gruppe 69 (yellow) 71->114 [0.00ms]
+[2026-05-22 10:54:41] SCORE Gruppe 69 (yellow): Final=856.9, Time=92.7, Moves(31)=0.2, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE jat (purple): Final=328.4, Time=82.3, Moves(29)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:41] MOVE 66: jat (purple) 94->28 [0.00ms]
+[2026-05-22 10:54:41] SCORE Gruppe 69 (yellow): Final=856.9, Time=92.7, Moves(31)=0.2, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE jat (purple): Final=339.9, Time=81.8, Moves(30)=0.1, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:41] MOVE 67: Gruppe 69 (yellow) 114->96 [0.00ms]
+[2026-05-22 10:54:41] SCORE Gruppe 69 (yellow): Final=961.0, Time=92.5, Moves(32)=0.5, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:41] SCORE jat (purple): Final=339.9, Time=81.8, Moves(30)=0.1, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:54:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:42] MOVE 68: jat (purple) 73->51 [0.00ms]
+[2026-05-22 10:54:42] SCORE Gruppe 69 (yellow): Final=961.0, Time=92.5, Moves(32)=0.5, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE jat (purple): Final=347.4, Time=81.2, Moves(31)=0.2, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:42] MOVE 69: Gruppe 69 (yellow) 93->94 [0.00ms]
+[2026-05-22 10:54:42] SCORE Gruppe 69 (yellow): Final=963.5, Time=92.4, Moves(33)=1.1, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:42] SCORE jat (purple): Final=347.4, Time=81.2, Moves(31)=0.2, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:54:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:43] MOVE 70: jat (purple) 106->93 [0.00ms]
+[2026-05-22 10:54:43] SCORE Gruppe 69 (yellow): Final=963.5, Time=92.4, Moves(33)=1.1, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE jat (purple): Final=348.9, Time=80.4, Moves(32)=0.5, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:43] MOVE 71: Gruppe 69 (yellow) 81->106 [0.00ms]
+[2026-05-22 10:54:43] SCORE Gruppe 69 (yellow): Final=968.6, Time=92.3, Moves(34)=2.3, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:43] SCORE jat (purple): Final=348.9, Time=80.4, Moves(32)=0.5, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:54:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:44] MOVE 72: jat (purple) 83->81 [0.00ms]
+[2026-05-22 10:54:44] SCORE Gruppe 69 (yellow): Final=968.6, Time=92.3, Moves(34)=2.3, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE jat (purple): Final=352.4, Time=79.3, Moves(33)=1.1, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:54:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:44] MOVE 73: Gruppe 69 (yellow) 106->110 [0.00ms]
+[2026-05-22 10:54:44] SCORE Gruppe 69 (yellow): Final=1072.6, Time=92.2, Moves(35)=4.4, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:44] SCORE jat (purple): Final=352.4, Time=79.3, Moves(33)=1.1, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:54:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:45] MOVE 74: jat (purple) 82->71 [0.01ms]
+[2026-05-22 10:54:45] SCORE Gruppe 69 (yellow): Final=1072.6, Time=92.2, Moves(35)=4.4, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE jat (purple): Final=354.6, Time=78.3, Moves(34)=2.3, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:54:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:45] MOVE 75: Gruppe 69 (yellow) 72->83 [0.01ms]
+[2026-05-22 10:54:45] SCORE Gruppe 69 (yellow): Final=1078.0, Time=92.0, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:45] SCORE jat (purple): Final=354.6, Time=78.3, Moves(34)=2.3, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:54:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:46] MOVE 76: jat (purple) 105->80 [0.00ms]
+[2026-05-22 10:54:46] SCORE Gruppe 69 (yellow): Final=1078.0, Time=92.0, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE jat (purple): Final=359.7, Time=77.3, Moves(35)=4.4, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:46] MOVE 77: Gruppe 69 (yellow) 70->72 [0.00ms]
+[2026-05-22 10:54:46] SCORE Gruppe 69 (yellow): Final=1087.4, Time=91.9, Moves(37)=13.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:54:46] SCORE jat (purple): Final=359.7, Time=77.3, Moves(35)=4.4, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:54:46] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:46] MOVE 78: jat (purple) 61->59 [0.00ms]
+[2026-05-22 10:54:46] SCORE Gruppe 69 (yellow): Final=1087.4, Time=91.9, Moves(37)=13.5, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE jat (purple): Final=367.2, Time=77.2, Moves(36)=8.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:47] MOVE 79: Gruppe 69 (yellow) 60->70 [0.01ms]
+[2026-05-22 10:54:47] SCORE Gruppe 69 (yellow): Final=1097.4, Time=91.8, Moves(38)=21.6, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:47] SCORE jat (purple): Final=367.2, Time=77.2, Moves(36)=8.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:54:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)']}
+[2026-05-22 10:54:48] MOVE 81: jat (purple) 81->58 [0.00ms]
+[2026-05-22 10:54:48] SCORE Gruppe 69 (yellow): Final=1097.4, Time=91.8, Moves(38)=21.6, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE jat (purple): Final=379.3, Time=75.8, Moves(37)=13.5, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:48] MOVE 82: Gruppe 69 (yellow) 70->81 [0.00ms]
+[2026-05-22 10:54:48] SCORE Gruppe 69 (yellow): Final=1110.1, Time=91.6, Moves(39)=32.5, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:54:48] SCORE jat (purple): Final=379.3, Time=75.8, Moves(37)=13.5, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:54:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:49] MOVE 83: jat (purple) 71->49 [0.00ms]
+[2026-05-22 10:54:49] SCORE Gruppe 69 (yellow): Final=1110.1, Time=91.6, Moves(39)=32.5, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:54:49] SCORE jat (purple): Final=394.2, Time=74.6, Moves(38)=21.6, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:49] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 84: Gruppe 69 (yellow) 81->106 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1127.3, Time=91.5, Moves(40)=45.8, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=394.2, Time=74.6, Moves(38)=21.6, Pins(0)=0.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 85: jat (purple) 49->69 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1127.3, Time=91.5, Moves(40)=45.8, Pins(6)=600.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=401.0, Time=74.5, Moves(39)=32.5, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 86: Gruppe 69 (yellow) 106->107 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1244.0, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=401.0, Time=74.5, Moves(39)=32.5, Pins(0)=0.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 87: jat (purple) 80->79 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1244.0, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=416.2, Time=74.5, Moves(40)=45.8, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 88: Gruppe 69 (yellow) 72->73 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1260.7, Time=91.3, Moves(42)=75.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=416.2, Time=74.5, Moves(40)=45.8, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 89: jat (purple) 51->41 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1260.7, Time=91.3, Moves(42)=75.5, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=431.0, Time=74.4, Moves(41)=60.7, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 90: Gruppe 69 (yellow) 83->85 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1375.4, Time=91.2, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=431.0, Time=74.4, Moves(41)=60.7, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 91: jat (purple) 69->49 [0.01ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1375.4, Time=91.2, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=449.7, Time=74.2, Moves(42)=75.5, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:50] MOVE 92: Gruppe 69 (yellow) 94->106 [0.00ms]
+[2026-05-22 10:54:50] SCORE Gruppe 69 (yellow): Final=1383.9, Time=91.0, Moves(44)=96.9, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:50] SCORE jat (purple): Final=449.7, Time=74.2, Moves(42)=75.5, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:54:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:51] MOVE 93: jat (purple) 41->39 [0.00ms]
+[2026-05-22 10:54:51] SCORE Gruppe 69 (yellow): Final=1383.9, Time=91.0, Moves(44)=96.9, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE jat (purple): Final=465.7, Time=73.4, Moves(43)=88.2, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:51] MOVE 94: Gruppe 69 (yellow) 106->108 [0.00ms]
+[2026-05-22 10:54:51] SCORE Gruppe 69 (yellow): Final=1488.9, Time=90.9, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:51] SCORE jat (purple): Final=465.7, Time=73.4, Moves(43)=88.2, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:52] MOVE 95: jat (purple) 40->38 [0.00ms]
+[2026-05-22 10:54:52] SCORE Gruppe 69 (yellow): Final=1488.9, Time=90.9, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE jat (purple): Final=478.0, Time=73.1, Moves(44)=96.9, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:52] MOVE 96: Gruppe 69 (yellow) 96->109 [0.00ms]
+[2026-05-22 10:54:52] SCORE Gruppe 69 (yellow): Final=1488.7, Time=90.8, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE jat (purple): Final=478.0, Time=73.1, Moves(44)=96.9, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:52] MOVE 97: jat (purple) 38->40 [0.00ms]
+[2026-05-22 10:54:52] SCORE Gruppe 69 (yellow): Final=1488.7, Time=90.8, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:54:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:54:52] MOVE 98: Gruppe 69 (yellow) 73->96 [0.00ms]
+[2026-05-22 10:54:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:54:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:54:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:14] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:14] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:14] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:14] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:14] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:14] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:14] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:14] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:14] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:14] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:14] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:14] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:14] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:14] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:14] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:14] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:15] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:15] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:15] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:15] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:15] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:15] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:15] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:15] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:15] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:15] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:15] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:15] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:15] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:15] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:15] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:15] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:20] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:20] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:20] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:21] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:21] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:21] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:21] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:21] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:21] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:21] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:21] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:21] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:21] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:21] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:21] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:21] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:22] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:22] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:22] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:22] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:22] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:22] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:22] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:22] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:22] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:22] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:22] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:22] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:22] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:23] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:23] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:23] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:23] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:23] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:23] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:23] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:23] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:23] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:23] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:23] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:23] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:23] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:24] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:24] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:24] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:24] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:24] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:24] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:24] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:24] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:24] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:24] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:24] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:24] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:24] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:25] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:25] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:25] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:25] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:25] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:25] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:25] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:25] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:25] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:25] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:25] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:25] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:25] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:25] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:26] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:26] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:26] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:26] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:26] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:26] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:26] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:26] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:26] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:26] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:26] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:27] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:27] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:27] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:27] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:27] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:27] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:27] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:27] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:27] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:27] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:27] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:27] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:27] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:28] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:28] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:28] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:28] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:28] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:28] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:28] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:28] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:28] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:28] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:28] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:28] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:28] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:29] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:29] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:29] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:29] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:29] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:29] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:29] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:29] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:29] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:29] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:29] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:29] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:29] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:29] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:29] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:29] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:30] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:30] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:30] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:30] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:30] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:30] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:30] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:30] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:30] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:30] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:30] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:30] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:30] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:31] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:31] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:31] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:31] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:31] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:31] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:31] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:31] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:31] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:31] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:31] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:31] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:31] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:32] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:32] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:32] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:32] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:32] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:32] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:32] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:32] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:32] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:32] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:32] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:32] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:32] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:33] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:33] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:33] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:33] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:33] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:33] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:33] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:33] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:33] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:33] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:33] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:33] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:34] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:34] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:34] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:34] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:34] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:34] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:34] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:34] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:34] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:34] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:34] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:34] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:34] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:35] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:35] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:35] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:35] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:35] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:35] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:35] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:35] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:35] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:35] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:35] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:35] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:36] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:36] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:36] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:36] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:36] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:36] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:36] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:36] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:36] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:36] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:36] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:36] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:36] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:37] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:37] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:37] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:37] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:37] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:37] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:37] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:37] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:37] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:37] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:37] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:37] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:37] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:38] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:38] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:38] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:38] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:38] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:38] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:38] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:38] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:38] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:38] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:38] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:38] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:38] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:39] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:39] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:39] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:39] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:39] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:39] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:39] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:39] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:39] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:39] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:40] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:40] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:40] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:40] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:40] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:40] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:40] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:40] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:40] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:40] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:40] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:40] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:40] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:40] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:40] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:40] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:41] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:41] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:41] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:41] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:41] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:41] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:41] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:41] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:41] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:41] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:42] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:42] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:42] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:42] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:42] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:42] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:42] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:42] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:42] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:42] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:43] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:43] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:43] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:43] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:43] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:43] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:43] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:43] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:43] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:43] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:44] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:44] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:44] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:44] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:44] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:44] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:44] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:44] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:44] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:44] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:45] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:45] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:45] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:45] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:45] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:45] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:45] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:45] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:45] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:45] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:46] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:46] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:46] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:46] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:46] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:46] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:46] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:46] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:46] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:46] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:46] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:46] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:46] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:46] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:47] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:47] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:47] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:47] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:47] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:47] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:47] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:47] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:47] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:47] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:47] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:47] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:48] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:48] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:48] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:48] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:48] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:48] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:48] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:48] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:48] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:48] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:48] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:48] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:48] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:49] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:49] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:49] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:49] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:49] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:49] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:49] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:49] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:49] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:49] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:49] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:49] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:49] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:49] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:49] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:49] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:50] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:50] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:50] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:50] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:50] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:50] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:50] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:50] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:50] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:50] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:50] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:50] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:50] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:51] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:51] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:51] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:51] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:51] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:51] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:51] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:51] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:51] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:51] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:51] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:51] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:51] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:52] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:52] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:52] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:52] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:56:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:56:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:56:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:56:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:52] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:52] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:52] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:52] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:53] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:53] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:53] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:53] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:54] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:54] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:54] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:54] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:54] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:54] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:54] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:54] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:54] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:54] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:54] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:54] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:54] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:54] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:54] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:54] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:55] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:55] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:55] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:55] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:55] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:55] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:55] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:55] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:55] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:55] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:55] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:55] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:55] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:55] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:55] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:55] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:56] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:56] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:56] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:56] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:56] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:56] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:56] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:56] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:56] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:56] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:56] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:56] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:57] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:57] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:57] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:57] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:57] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:57] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:57] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:57] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:57] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:57] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:57] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:57] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:57] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:57] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:57] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:57] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:58] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:58] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:58] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:58] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:58] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:58] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:58] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:58] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:58] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:58] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:58] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:58] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:58] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:58] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:58] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:58] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:59] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:59] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:59] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:59] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:59] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:59] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:59] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:59] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:59] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:59] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:59] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:59] GAME TIME LIMIT REACHED.
+[2026-05-22 10:58:59] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:58:59] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:58:59] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:58:59] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:00] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:00] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:00] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:00] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:00] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:00] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:00] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:00] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:00] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:00] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:00] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:00] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:01] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:01] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:01] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:01] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:01] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:01] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:01] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:01] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:01] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:01] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:01] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:01] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:01] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:01] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:01] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:01] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:02] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:02] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:02] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:02] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:02] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:02] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:02] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:02] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:02] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:02] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:02] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:02] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:02] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:02] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:02] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:02] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:03] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:03] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:03] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:03] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:03] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:03] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:03] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:03] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:03] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:03] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:03] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:03] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:03] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:03] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:03] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:03] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:04] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:04] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:04] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:04] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:04] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:04] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:04] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:04] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:04] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:04] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:04] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:04] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:04] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:04] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:04] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:04] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:05] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:05] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:05] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:05] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:05] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:05] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:05] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:05] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:05] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:05] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:05] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:05] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:05] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:05] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:05] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:05] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:06] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:06] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:06] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:06] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:06] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:06] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:06] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:06] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:06] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:06] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:06] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:06] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:06] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:06] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:06] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:06] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:07] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:07] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:07] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:07] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:07] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:07] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:07] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:07] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:07] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:07] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:07] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:07] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:07] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:07] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:07] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:07] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:08] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:08] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:08] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:08] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:08] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:08] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:08] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:08] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:08] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:08] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:08] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:08] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:09] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:09] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:09] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:09] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:16] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:16] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:16] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:16] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:17] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:17] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:17] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:17] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:18] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:18] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:18] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:18] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:19] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:19] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:19] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:19] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:20] GAME TIME LIMIT REACHED.
+[2026-05-22 10:59:20] SCORE Gruppe 69 (yellow): Final=2590.1, Time=90.7, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:59:20] SCORE jat (purple): Final=477.0, Time=73.0, Moves(45)=100.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:59:20] ALL WRONG MOVES BY COLOUR: {'purple': ['14 (illegal move)', '25 (illegal move)', '36 (illegal move)', '37 (turn timeout)', '45 (illegal move)', '80 (illegal move)']}
+[2026-05-22 10:59:20] GAME TIME LIMIT REACHED.

@@ -1,0 +1,974 @@
+[2026-05-22 11:12:27] GAME CREATED
+[2026-05-22 11:12:36] PLAYER JOINED: LosTurcos as lawn green
+[2026-05-22 11:12:37] PLAYER JOINED: Gruppe 67 as gray0
+[2026-05-22 11:13:10] PLAYER JOINED: Hexagram as yellow
+[2026-05-22 11:13:10] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:13:10] PLAYER START: Gruppe 67 (gray0)
+[2026-05-22 11:13:10] PLAYER START: Hexagram (yellow)
+[2026-05-22 11:13:10] GAME START — turn order ['lawn green', 'yellow', 'gray0']
+[2026-05-22 11:13:11] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:13:11] PLAYER START: Gruppe 67 (gray0)
+[2026-05-22 11:13:11] PLAYER START: Hexagram (yellow)
+[2026-05-22 11:13:12] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Gruppe 67 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Hexagram (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:12] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:12] TURN TIMEOUT: Player with colour lawn green exceeded 2s at move 1. Turn skipped.
+[2026-05-22 11:13:12] MOVE 2: Hexagram (yellow) 13->26 [0.00ms]
+[2026-05-22 11:13:12] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Gruppe 67 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Hexagram (yellow): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:13:12] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:14] MOVE 3: Gruppe 67 (gray0) 100->102 [0.00ms]
+[2026-05-22 11:13:14] SCORE LosTurcos (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Gruppe 67 (gray0): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Hexagram (yellow): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:13:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:14] PLAYER START: LosTurcos (lawn green)
+[2026-05-22 11:13:14] PLAYER START: Gruppe 67 (gray0)
+[2026-05-22 11:13:14] PLAYER START: Hexagram (yellow)
+[2026-05-22 11:13:14] MOVE 4: LosTurcos (lawn green) 20->43 [0.00ms]
+[2026-05-22 11:13:14] SCORE LosTurcos (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Gruppe 67 (gray0): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Hexagram (yellow): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:13:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:15] MOVE 5: Hexagram (yellow) 11->38 [0.01ms]
+[2026-05-22 11:13:15] SCORE LosTurcos (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:15] SCORE Gruppe 67 (gray0): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:15] SCORE Hexagram (yellow): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:13:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:16] MOVE 6: Gruppe 67 (gray0) 98->77 [0.00ms]
+[2026-05-22 11:13:16] SCORE LosTurcos (lawn green): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Gruppe 67 (gray0): Final=289.1, Time=97.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Hexagram (yellow): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:13:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:16] MOVE 7: LosTurcos (lawn green) 43->42 [0.00ms]
+[2026-05-22 11:13:16] SCORE LosTurcos (lawn green): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Gruppe 67 (gray0): Final=289.1, Time=97.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Hexagram (yellow): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:13:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:16] MOVE 8: Hexagram (yellow) 35->39 [0.00ms]
+[2026-05-22 11:13:16] SCORE LosTurcos (lawn green): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Gruppe 67 (gray0): Final=289.1, Time=97.1, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:13:16] SCORE Hexagram (yellow): Final=297.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:18] MOVE 9: Gruppe 67 (gray0) 75->14 [0.00ms]
+[2026-05-22 11:13:18] SCORE LosTurcos (lawn green): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Gruppe 67 (gray0): Final=299.6, Time=95.6, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Hexagram (yellow): Final=297.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:18] MOVE 10: LosTurcos (lawn green) 22->41 [0.01ms]
+[2026-05-22 11:13:18] SCORE LosTurcos (lawn green): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Gruppe 67 (gray0): Final=299.6, Time=95.6, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Hexagram (yellow): Final=297.5, Time=99.5, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:18] MOVE 11: Hexagram (yellow) 25->50 [0.00ms]
+[2026-05-22 11:13:18] SCORE LosTurcos (lawn green): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Gruppe 67 (gray0): Final=299.6, Time=95.6, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:18] SCORE Hexagram (yellow): Final=305.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:13:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:19] MOVE 12: Gruppe 67 (gray0) 87->66 [0.00ms]
+[2026-05-22 11:13:19] SCORE LosTurcos (lawn green): Final=297.0, Time=99.0, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE Gruppe 67 (gray0): Final=302.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE Hexagram (yellow): Final=305.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:13:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:19] MOVE 13: LosTurcos (lawn green) 19->31 [0.00ms]
+[2026-05-22 11:13:19] SCORE LosTurcos (lawn green): Final=298.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE Gruppe 67 (gray0): Final=302.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE Hexagram (yellow): Final=305.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:13:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:20] MOVE 14: Hexagram (yellow) 26->53 [0.01ms]
+[2026-05-22 11:13:20] SCORE LosTurcos (lawn green): Final=298.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE Gruppe 67 (gray0): Final=302.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE Hexagram (yellow): Final=317.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:21] MOVE 15: Gruppe 67 (gray0) 76->57 [0.00ms]
+[2026-05-22 11:13:21] SCORE LosTurcos (lawn green): Final=298.9, Time=98.9, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Gruppe 67 (gray0): Final=304.6, Time=92.6, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Hexagram (yellow): Final=317.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:21] MOVE 16: LosTurcos (lawn green) 32->51 [0.00ms]
+[2026-05-22 11:13:21] SCORE LosTurcos (lawn green): Final=306.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Gruppe 67 (gray0): Final=304.6, Time=92.6, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Hexagram (yellow): Final=317.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:21] MOVE 17: Hexagram (yellow) 53->63 [0.00ms]
+[2026-05-22 11:13:21] SCORE LosTurcos (lawn green): Final=306.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Gruppe 67 (gray0): Final=304.6, Time=92.6, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:21] SCORE Hexagram (yellow): Final=319.3, Time=99.3, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:23] MOVE 18: Gruppe 67 (gray0) 66->27 [0.00ms]
+[2026-05-22 11:13:23] SCORE LosTurcos (lawn green): Final=306.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Gruppe 67 (gray0): Final=311.1, Time=91.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Hexagram (yellow): Final=319.3, Time=99.3, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:23] MOVE 19: LosTurcos (lawn green) 34->53 [0.00ms]
+[2026-05-22 11:13:23] SCORE LosTurcos (lawn green): Final=314.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Gruppe 67 (gray0): Final=311.1, Time=91.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Hexagram (yellow): Final=319.3, Time=99.3, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:23] MOVE 20: Hexagram (yellow) 63->73 [0.01ms]
+[2026-05-22 11:13:23] SCORE LosTurcos (lawn green): Final=314.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Gruppe 67 (gray0): Final=311.1, Time=91.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:23] SCORE Hexagram (yellow): Final=321.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:13:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:25] MOVE 21: Gruppe 67 (gray0) 77->58 [0.00ms]
+[2026-05-22 11:13:25] SCORE LosTurcos (lawn green): Final=314.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Hexagram (yellow): Final=321.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:13:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:25] MOVE 22: LosTurcos (lawn green) 45->43 [0.00ms]
+[2026-05-22 11:13:25] SCORE LosTurcos (lawn green): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Hexagram (yellow): Final=321.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:13:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:25] MOVE 23: Hexagram (yellow) 73->74 [0.00ms]
+[2026-05-22 11:13:25] SCORE LosTurcos (lawn green): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Hexagram (yellow): Final=422.9, Time=98.9, Moves(8)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)']}
+[2026-05-22 11:13:27] SCORE LosTurcos (lawn green): Final=318.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE Hexagram (yellow): Final=422.9, Time=98.9, Moves(8)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)']}
+[2026-05-22 11:13:27] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 24. Turn skipped.
+[2026-05-22 11:13:28] MOVE 25: LosTurcos (lawn green) 42->59 [0.00ms]
+[2026-05-22 11:13:28] SCORE LosTurcos (lawn green): Final=325.6, Time=97.6, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:28] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:28] SCORE Hexagram (yellow): Final=422.9, Time=98.9, Moves(8)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)']}
+[2026-05-22 11:13:29] MOVE 26: Hexagram (yellow) 74->85 [0.01ms]
+[2026-05-22 11:13:29] SCORE LosTurcos (lawn green): Final=325.6, Time=97.6, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE Gruppe 67 (gray0): Final=313.5, Time=89.5, Moves(7)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(9)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)']}
+[2026-05-22 11:13:30] MOVE 28: Gruppe 67 (gray0) 101->103 [0.00ms]
+[2026-05-22 11:13:30] SCORE LosTurcos (lawn green): Final=325.6, Time=97.6, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Gruppe 67 (gray0): Final=316.1, Time=88.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(9)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:30] MOVE 29: LosTurcos (lawn green) 33->52 [0.00ms]
+[2026-05-22 11:13:30] SCORE LosTurcos (lawn green): Final=333.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Gruppe 67 (gray0): Final=316.1, Time=88.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(9)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:30] MOVE 30: Hexagram (yellow) 85->97 [0.00ms]
+[2026-05-22 11:13:30] SCORE LosTurcos (lawn green): Final=333.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Gruppe 67 (gray0): Final=316.1, Time=88.1, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:32] MOVE 31: Gruppe 67 (gray0) 102->104 [0.01ms]
+[2026-05-22 11:13:32] SCORE LosTurcos (lawn green): Final=333.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 67 (gray0): Final=318.6, Time=86.6, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:32] MOVE 32: LosTurcos (lawn green) 51->49 [0.00ms]
+[2026-05-22 11:13:32] SCORE LosTurcos (lawn green): Final=337.3, Time=97.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 67 (gray0): Final=318.6, Time=86.6, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Hexagram (yellow): Final=422.3, Time=98.3, Moves(10)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:32] MOVE 33: Hexagram (yellow) 97->110 [0.00ms]
+[2026-05-22 11:13:32] SCORE LosTurcos (lawn green): Final=337.3, Time=97.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 67 (gray0): Final=318.6, Time=86.6, Moves(9)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Hexagram (yellow): Final=422.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:34] MOVE 34: Gruppe 67 (gray0) 58->60 [0.01ms]
+[2026-05-22 11:13:34] SCORE LosTurcos (lawn green): Final=337.3, Time=97.3, Moves(10)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Gruppe 67 (gray0): Final=321.1, Time=85.1, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Hexagram (yellow): Final=422.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:34] MOVE 35: LosTurcos (lawn green) 55->54 [0.00ms]
+[2026-05-22 11:13:34] SCORE LosTurcos (lawn green): Final=339.1, Time=97.1, Moves(11)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Gruppe 67 (gray0): Final=321.1, Time=85.1, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Hexagram (yellow): Final=422.1, Time=98.1, Moves(11)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:34] MOVE 36: Hexagram (yellow) 50->70 [0.01ms]
+[2026-05-22 11:13:34] SCORE LosTurcos (lawn green): Final=339.1, Time=97.1, Moves(11)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Gruppe 67 (gray0): Final=321.1, Time=85.1, Moves(10)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Hexagram (yellow): Final=426.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:34] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:35] MOVE 37: Gruppe 67 (gray0) 103->105 [0.01ms]
+[2026-05-22 11:13:35] SCORE LosTurcos (lawn green): Final=339.1, Time=97.1, Moves(11)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:13:35] SCORE Gruppe 67 (gray0): Final=323.6, Time=83.6, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:35] SCORE Hexagram (yellow): Final=426.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:36] MOVE 38: LosTurcos (lawn green) 44->80 [0.00ms]
+[2026-05-22 11:13:36] SCORE LosTurcos (lawn green): Final=350.9, Time=96.9, Moves(12)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:36] SCORE Gruppe 67 (gray0): Final=323.6, Time=83.6, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:36] SCORE Hexagram (yellow): Final=426.1, Time=98.1, Moves(12)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:36] MOVE 39: Hexagram (yellow) 70->81 [0.00ms]
+[2026-05-22 11:13:36] SCORE LosTurcos (lawn green): Final=350.9, Time=96.9, Moves(12)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:36] SCORE Gruppe 67 (gray0): Final=323.6, Time=83.6, Moves(11)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:36] SCORE Hexagram (yellow): Final=427.9, Time=97.9, Moves(13)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:13:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:37] MOVE 40: Gruppe 67 (gray0) 104->106 [0.00ms]
+[2026-05-22 11:13:37] SCORE LosTurcos (lawn green): Final=350.9, Time=96.9, Moves(12)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE Gruppe 67 (gray0): Final=326.0, Time=82.0, Moves(12)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE Hexagram (yellow): Final=427.9, Time=97.9, Moves(13)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:13:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:38] MOVE 41: LosTurcos (lawn green) 21->33 [0.00ms]
+[2026-05-22 11:13:38] SCORE LosTurcos (lawn green): Final=352.7, Time=96.7, Moves(13)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:38] SCORE Gruppe 67 (gray0): Final=326.0, Time=82.0, Moves(12)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:38] SCORE Hexagram (yellow): Final=427.9, Time=97.9, Moves(13)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:13:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:38] MOVE 42: Hexagram (yellow) 81->82 [0.00ms]
+[2026-05-22 11:13:38] SCORE LosTurcos (lawn green): Final=352.7, Time=96.7, Moves(13)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:38] SCORE Gruppe 67 (gray0): Final=326.0, Time=82.0, Moves(12)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:38] SCORE Hexagram (yellow): Final=429.7, Time=97.7, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:39] MOVE 43: Gruppe 67 (gray0) 105->93 [0.00ms]
+[2026-05-22 11:13:39] SCORE LosTurcos (lawn green): Final=352.7, Time=96.7, Moves(13)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Gruppe 67 (gray0): Final=326.6, Time=80.6, Moves(13)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Hexagram (yellow): Final=429.7, Time=97.7, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:39] MOVE 44: LosTurcos (lawn green) 33->44 [0.00ms]
+[2026-05-22 11:13:39] SCORE LosTurcos (lawn green): Final=354.6, Time=96.6, Moves(14)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Gruppe 67 (gray0): Final=326.6, Time=80.6, Moves(13)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Hexagram (yellow): Final=429.7, Time=97.7, Moves(14)=0.0, Pins(1)=100.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:39] MOVE 45: Hexagram (yellow) 82->107 [0.00ms]
+[2026-05-22 11:13:39] SCORE LosTurcos (lawn green): Final=354.6, Time=96.6, Moves(14)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Gruppe 67 (gray0): Final=326.6, Time=80.6, Moves(13)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:41] MOVE 46: Gruppe 67 (gray0) 65->66 [0.00ms]
+[2026-05-22 11:13:41] SCORE LosTurcos (lawn green): Final=354.6, Time=96.6, Moves(14)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Gruppe 67 (gray0): Final=327.0, Time=79.0, Moves(14)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:41] MOVE 47: LosTurcos (lawn green) 44->61 [0.00ms]
+[2026-05-22 11:13:41] SCORE LosTurcos (lawn green): Final=362.5, Time=96.5, Moves(15)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Gruppe 67 (gray0): Final=327.0, Time=79.0, Moves(14)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(15)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:41] MOVE 48: Hexagram (yellow) 107->108 [0.00ms]
+[2026-05-22 11:13:41] SCORE LosTurcos (lawn green): Final=362.5, Time=96.5, Moves(15)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Gruppe 67 (gray0): Final=327.0, Time=79.0, Moves(14)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:43] MOVE 49: Gruppe 67 (gray0) 66->70 [0.00ms]
+[2026-05-22 11:13:43] SCORE LosTurcos (lawn green): Final=362.5, Time=96.5, Moves(15)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:43] MOVE 50: LosTurcos (lawn green) 53->69 [0.00ms]
+[2026-05-22 11:13:43] SCORE LosTurcos (lawn green): Final=370.3, Time=96.3, Moves(16)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Hexagram (yellow): Final=533.6, Time=97.6, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:43] MOVE 51: Hexagram (yellow) 108->109 [0.00ms]
+[2026-05-22 11:13:43] SCORE LosTurcos (lawn green): Final=370.3, Time=96.3, Moves(16)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:43] SCORE Hexagram (yellow): Final=533.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:43] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)']}
+[2026-05-22 11:13:45] SCORE LosTurcos (lawn green): Final=370.3, Time=96.3, Moves(16)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Hexagram (yellow): Final=533.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:45] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 52. Turn skipped.
+[2026-05-22 11:13:45] MOVE 53: LosTurcos (lawn green) 69->68 [0.00ms]
+[2026-05-22 11:13:45] SCORE LosTurcos (lawn green): Final=372.2, Time=96.2, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Hexagram (yellow): Final=533.5, Time=97.5, Moves(17)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:13:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:45] MOVE 54: Hexagram (yellow) 24->94 [0.00ms]
+[2026-05-22 11:13:45] SCORE LosTurcos (lawn green): Final=372.2, Time=96.2, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Gruppe 67 (gray0): Final=333.5, Time=77.5, Moves(15)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:45] SCORE Hexagram (yellow): Final=553.5, Time=97.5, Moves(18)=0.0, Pins(2)=200.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 55: Gruppe 67 (gray0) 60->62 [0.00ms]
+[2026-05-22 11:13:46] SCORE LosTurcos (lawn green): Final=372.2, Time=96.2, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 67 (gray0): Final=336.6, Time=76.6, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Hexagram (yellow): Final=553.5, Time=97.5, Moves(18)=0.0, Pins(2)=200.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 56: LosTurcos (lawn green) 68->78 [0.00ms]
+[2026-05-22 11:13:46] SCORE LosTurcos (lawn green): Final=374.1, Time=96.1, Moves(18)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 67 (gray0): Final=336.6, Time=76.6, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Hexagram (yellow): Final=553.5, Time=97.5, Moves(18)=0.0, Pins(2)=200.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 57: Hexagram (yellow) 94->107 [0.00ms]
+[2026-05-22 11:13:46] SCORE LosTurcos (lawn green): Final=374.1, Time=96.1, Moves(18)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 67 (gray0): Final=336.6, Time=76.6, Moves(16)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Hexagram (yellow): Final=655.3, Time=97.3, Moves(19)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:48] MOVE 58: Gruppe 67 (gray0) 99->100 [0.00ms]
+[2026-05-22 11:13:48] SCORE LosTurcos (lawn green): Final=374.1, Time=96.1, Moves(18)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Gruppe 67 (gray0): Final=337.1, Time=75.1, Moves(17)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Hexagram (yellow): Final=655.3, Time=97.3, Moves(19)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:48] MOVE 59: LosTurcos (lawn green) 78->77 [0.00ms]
+[2026-05-22 11:13:48] SCORE LosTurcos (lawn green): Final=375.9, Time=95.9, Moves(19)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Gruppe 67 (gray0): Final=337.1, Time=75.1, Moves(17)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Hexagram (yellow): Final=655.3, Time=97.3, Moves(19)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:48] MOVE 60: Hexagram (yellow) 107->108 [0.00ms]
+[2026-05-22 11:13:48] SCORE LosTurcos (lawn green): Final=375.9, Time=95.9, Moves(19)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Gruppe 67 (gray0): Final=337.1, Time=75.1, Moves(17)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Hexagram (yellow): Final=655.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:50] MOVE 61: Gruppe 67 (gray0) 88->67 [0.00ms]
+[2026-05-22 11:13:50] SCORE LosTurcos (lawn green): Final=375.9, Time=95.9, Moves(19)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Gruppe 67 (gray0): Final=339.6, Time=73.6, Moves(18)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Hexagram (yellow): Final=655.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:50] MOVE 62: LosTurcos (lawn green) 77->88 [0.00ms]
+[2026-05-22 11:13:50] SCORE LosTurcos (lawn green): Final=477.8, Time=95.8, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Gruppe 67 (gray0): Final=339.6, Time=73.6, Moves(18)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Hexagram (yellow): Final=655.2, Time=97.2, Moves(20)=0.0, Pins(3)=300.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:50] MOVE 63: Hexagram (yellow) 10->81 [0.01ms]
+[2026-05-22 11:13:50] SCORE LosTurcos (lawn green): Final=477.8, Time=95.8, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Gruppe 67 (gray0): Final=339.6, Time=73.6, Moves(18)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Hexagram (yellow): Final=675.0, Time=97.0, Moves(21)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:52] MOVE 64: Gruppe 67 (gray0) 100->60 [0.00ms]
+[2026-05-22 11:13:52] SCORE LosTurcos (lawn green): Final=477.8, Time=95.8, Moves(20)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Hexagram (yellow): Final=675.0, Time=97.0, Moves(21)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:52] MOVE 65: LosTurcos (lawn green) 41->51 [0.00ms]
+[2026-05-22 11:13:52] SCORE LosTurcos (lawn green): Final=479.6, Time=95.6, Moves(21)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Hexagram (yellow): Final=675.0, Time=97.0, Moves(21)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:52] MOVE 66: Hexagram (yellow) 81->82 [0.01ms]
+[2026-05-22 11:13:52] SCORE LosTurcos (lawn green): Final=479.6, Time=95.6, Moves(21)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:52] SCORE Hexagram (yellow): Final=676.8, Time=96.8, Moves(22)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)']}
+[2026-05-22 11:13:54] SCORE LosTurcos (lawn green): Final=479.6, Time=95.6, Moves(21)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Hexagram (yellow): Final=676.8, Time=96.8, Moves(22)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)']}
+[2026-05-22 11:13:54] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 67. Turn skipped.
+[2026-05-22 11:13:54] MOVE 68: LosTurcos (lawn green) 52->66 [0.00ms]
+[2026-05-22 11:13:54] SCORE LosTurcos (lawn green): Final=491.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Hexagram (yellow): Final=676.8, Time=96.8, Moves(22)=0.0, Pins(3)=300.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)']}
+[2026-05-22 11:13:54] MOVE 69: Hexagram (yellow) 82->83 [0.00ms]
+[2026-05-22 11:13:54] SCORE LosTurcos (lawn green): Final=491.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:54] SCORE Hexagram (yellow): Final=678.7, Time=96.7, Moves(23)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)']}
+[2026-05-22 11:13:56] SCORE LosTurcos (lawn green): Final=491.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:13:56] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:56] SCORE Hexagram (yellow): Final=678.7, Time=96.7, Moves(23)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:13:56] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 70. Turn skipped.
+[2026-05-22 11:13:57] MOVE 71: LosTurcos (lawn green) 66->76 [0.00ms]
+[2026-05-22 11:13:57] SCORE LosTurcos (lawn green): Final=593.2, Time=95.2, Moves(23)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:57] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:57] SCORE Hexagram (yellow): Final=678.7, Time=96.7, Moves(23)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:13:57] MOVE 72: Hexagram (yellow) 83->84 [0.00ms]
+[2026-05-22 11:13:57] SCORE LosTurcos (lawn green): Final=593.2, Time=95.2, Moves(23)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:57] SCORE Gruppe 67 (gray0): Final=350.0, Time=72.0, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:57] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(24)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:13:58] MOVE 73: Gruppe 67 (gray0) 27->52 [0.01ms]
+[2026-05-22 11:13:58] SCORE LosTurcos (lawn green): Final=593.2, Time=95.2, Moves(23)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 67 (gray0): Final=352.6, Time=70.6, Moves(20)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(24)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:13:58] MOVE 74: LosTurcos (lawn green) 76->75 [0.00ms]
+[2026-05-22 11:13:58] SCORE LosTurcos (lawn green): Final=593.1, Time=95.1, Moves(24)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 67 (gray0): Final=352.6, Time=70.6, Moves(20)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(24)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:13:58] MOVE 75: Hexagram (yellow) 84->85 [0.00ms]
+[2026-05-22 11:13:58] SCORE LosTurcos (lawn green): Final=593.1, Time=95.1, Moves(24)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 67 (gray0): Final=352.6, Time=70.6, Moves(20)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(25)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:00] MOVE 76: Gruppe 67 (gray0) 86->65 [0.01ms]
+[2026-05-22 11:14:00] SCORE LosTurcos (lawn green): Final=593.1, Time=95.1, Moves(24)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Gruppe 67 (gray0): Final=355.2, Time=69.2, Moves(21)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(25)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:14:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:00] MOVE 77: LosTurcos (lawn green) 59->58 [0.00ms]
+[2026-05-22 11:14:00] SCORE LosTurcos (lawn green): Final=594.8, Time=94.8, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Gruppe 67 (gray0): Final=355.2, Time=69.2, Moves(21)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Hexagram (yellow): Final=780.6, Time=96.6, Moves(25)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:14:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:00] MOVE 78: Hexagram (yellow) 85->97 [0.00ms]
+[2026-05-22 11:14:00] SCORE LosTurcos (lawn green): Final=594.8, Time=94.8, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Gruppe 67 (gray0): Final=355.2, Time=69.2, Moves(21)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:14:00] SCORE Hexagram (yellow): Final=780.4, Time=96.4, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:14:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:02] MOVE 79: Gruppe 67 (gray0) 60->41 [0.00ms]
+[2026-05-22 11:14:02] SCORE LosTurcos (lawn green): Final=594.8, Time=94.8, Moves(25)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Gruppe 67 (gray0): Final=357.8, Time=67.8, Moves(22)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Hexagram (yellow): Final=780.4, Time=96.4, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:14:02] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:02] MOVE 80: LosTurcos (lawn green) 75->87 [0.00ms]
+[2026-05-22 11:14:02] SCORE LosTurcos (lawn green): Final=594.6, Time=94.6, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Gruppe 67 (gray0): Final=357.8, Time=67.8, Moves(22)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Hexagram (yellow): Final=780.4, Time=96.4, Moves(26)=0.0, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:14:02] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:02] MOVE 81: Hexagram (yellow) 38->63 [0.00ms]
+[2026-05-22 11:14:02] SCORE LosTurcos (lawn green): Final=594.6, Time=94.6, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Gruppe 67 (gray0): Final=357.8, Time=67.8, Moves(22)=0.0, Pins(0)=0.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Hexagram (yellow): Final=792.2, Time=96.2, Moves(27)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:14:02] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:03] MOVE 82: Gruppe 67 (gray0) 57->19 [0.00ms]
+[2026-05-22 11:14:03] SCORE LosTurcos (lawn green): Final=594.6, Time=94.6, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:03] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:03] SCORE Hexagram (yellow): Final=792.2, Time=96.2, Moves(27)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:14:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:04] MOVE 83: LosTurcos (lawn green) 80->91 [0.00ms]
+[2026-05-22 11:14:04] SCORE LosTurcos (lawn green): Final=596.4, Time=94.4, Moves(27)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Hexagram (yellow): Final=792.2, Time=96.2, Moves(27)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:04] MOVE 84: Hexagram (yellow) 63->73 [0.01ms]
+[2026-05-22 11:14:04] SCORE LosTurcos (lawn green): Final=596.4, Time=94.4, Moves(27)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Hexagram (yellow): Final=794.0, Time=95.9, Moves(28)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)']}
+[2026-05-22 11:14:06] SCORE LosTurcos (lawn green): Final=596.4, Time=94.4, Moves(27)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Hexagram (yellow): Final=794.0, Time=95.9, Moves(28)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:06] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 85. Turn skipped.
+[2026-05-22 11:14:06] MOVE 86: LosTurcos (lawn green) 31->42 [0.00ms]
+[2026-05-22 11:14:06] SCORE LosTurcos (lawn green): Final=598.3, Time=94.3, Moves(28)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Hexagram (yellow): Final=794.0, Time=95.9, Moves(28)=0.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:06] MOVE 87: Hexagram (yellow) 73->84 [0.00ms]
+[2026-05-22 11:14:06] SCORE LosTurcos (lawn green): Final=598.3, Time=94.3, Moves(28)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Gruppe 67 (gray0): Final=472.3, Time=66.3, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Hexagram (yellow): Final=895.9, Time=95.9, Moves(29)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:07] MOVE 88: Gruppe 67 (gray0) 67->68 [0.00ms]
+[2026-05-22 11:14:07] SCORE LosTurcos (lawn green): Final=598.3, Time=94.3, Moves(28)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Gruppe 67 (gray0): Final=473.4, Time=65.4, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Hexagram (yellow): Final=895.9, Time=95.9, Moves(29)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:07] MOVE 89: LosTurcos (lawn green) 43->53 [0.00ms]
+[2026-05-22 11:14:07] SCORE LosTurcos (lawn green): Final=600.2, Time=94.2, Moves(29)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Gruppe 67 (gray0): Final=473.4, Time=65.4, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Hexagram (yellow): Final=895.9, Time=95.9, Moves(29)=0.0, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:07] MOVE 90: Hexagram (yellow) 84->85 [0.02ms]
+[2026-05-22 11:14:07] SCORE LosTurcos (lawn green): Final=600.2, Time=94.2, Moves(29)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Gruppe 67 (gray0): Final=473.4, Time=65.4, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Hexagram (yellow): Final=895.9, Time=95.8, Moves(30)=0.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 91: Gruppe 67 (gray0) 41->43 [0.01ms]
+[2026-05-22 11:14:09] SCORE LosTurcos (lawn green): Final=600.2, Time=94.2, Moves(29)=0.0, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 67 (gray0): Final=475.9, Time=63.9, Moves(25)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Hexagram (yellow): Final=895.9, Time=95.8, Moves(30)=0.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 92: LosTurcos (lawn green) 53->69 [0.00ms]
+[2026-05-22 11:14:09] SCORE LosTurcos (lawn green): Final=608.0, Time=93.9, Moves(30)=0.1, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 67 (gray0): Final=475.9, Time=63.9, Moves(25)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Hexagram (yellow): Final=895.9, Time=95.8, Moves(30)=0.1, Pins(5)=500.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 93: Hexagram (yellow) 39->50 [0.00ms]
+[2026-05-22 11:14:09] SCORE LosTurcos (lawn green): Final=608.0, Time=93.9, Moves(30)=0.1, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 67 (gray0): Final=475.9, Time=63.9, Moves(25)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Hexagram (yellow): Final=898.0, Time=95.8, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:10] MOVE 94: Gruppe 67 (gray0) 52->31 [0.01ms]
+[2026-05-22 11:14:10] SCORE LosTurcos (lawn green): Final=608.0, Time=93.9, Moves(30)=0.1, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:10] SCORE Gruppe 67 (gray0): Final=478.5, Time=62.5, Moves(26)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:10] SCORE Hexagram (yellow): Final=898.0, Time=95.8, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:10] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:11] MOVE 95: LosTurcos (lawn green) 91->103 [0.00ms]
+[2026-05-22 11:14:11] SCORE LosTurcos (lawn green): Final=609.9, Time=93.7, Moves(31)=0.2, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Gruppe 67 (gray0): Final=478.5, Time=62.5, Moves(26)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Hexagram (yellow): Final=898.0, Time=95.8, Moves(31)=0.2, Pins(5)=500.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:11] MOVE 96: Hexagram (yellow) 50->60 [0.01ms]
+[2026-05-22 11:14:11] SCORE LosTurcos (lawn green): Final=609.9, Time=93.7, Moves(31)=0.2, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Gruppe 67 (gray0): Final=478.5, Time=62.5, Moves(26)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Hexagram (yellow): Final=900.1, Time=95.6, Moves(32)=0.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:12] MOVE 97: Gruppe 67 (gray0) 68->52 [0.00ms]
+[2026-05-22 11:14:12] SCORE LosTurcos (lawn green): Final=609.9, Time=93.7, Moves(31)=0.2, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:12] SCORE Gruppe 67 (gray0): Final=485.0, Time=61.0, Moves(27)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:12] SCORE Hexagram (yellow): Final=900.1, Time=95.6, Moves(32)=0.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:12] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:13] MOVE 98: LosTurcos (lawn green) 42->41 [0.00ms]
+[2026-05-22 11:14:13] SCORE LosTurcos (lawn green): Final=612.0, Time=93.5, Moves(32)=0.5, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Gruppe 67 (gray0): Final=485.0, Time=61.0, Moves(27)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Hexagram (yellow): Final=900.1, Time=95.6, Moves(32)=0.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:13] MOVE 99: Hexagram (yellow) 60->81 [0.01ms]
+[2026-05-22 11:14:13] SCORE LosTurcos (lawn green): Final=612.0, Time=93.5, Moves(32)=0.5, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Gruppe 67 (gray0): Final=485.0, Time=61.0, Moves(27)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Hexagram (yellow): Final=904.5, Time=95.4, Moves(33)=1.1, Pins(5)=500.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:14] MOVE 100: Gruppe 67 (gray0) 70->71 [0.00ms]
+[2026-05-22 11:14:14] SCORE LosTurcos (lawn green): Final=612.0, Time=93.5, Moves(32)=0.5, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE Gruppe 67 (gray0): Final=485.5, Time=59.5, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE Hexagram (yellow): Final=904.5, Time=95.4, Moves(33)=1.1, Pins(5)=500.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:15] MOVE 101: LosTurcos (lawn green) 58->57 [0.01ms]
+[2026-05-22 11:14:15] SCORE LosTurcos (lawn green): Final=614.3, Time=93.2, Moves(33)=1.1, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:14:15] SCORE Gruppe 67 (gray0): Final=485.5, Time=59.5, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:15] SCORE Hexagram (yellow): Final=904.5, Time=95.4, Moves(33)=1.1, Pins(5)=500.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:14:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:15] MOVE 102: Hexagram (yellow) 81->82 [0.00ms]
+[2026-05-22 11:14:15] SCORE LosTurcos (lawn green): Final=614.3, Time=93.2, Moves(33)=1.1, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:14:15] SCORE Gruppe 67 (gray0): Final=485.5, Time=59.5, Moves(28)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:15] SCORE Hexagram (yellow): Final=907.6, Time=95.3, Moves(34)=2.3, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:14:15] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:16] MOVE 103: Gruppe 67 (gray0) 71->32 [0.00ms]
+[2026-05-22 11:14:16] SCORE LosTurcos (lawn green): Final=614.3, Time=93.2, Moves(33)=1.1, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Gruppe 67 (gray0): Final=592.0, Time=57.9, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Hexagram (yellow): Final=907.6, Time=95.3, Moves(34)=2.3, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:16] MOVE 104: LosTurcos (lawn green) 51->50 [0.00ms]
+[2026-05-22 11:14:16] SCORE LosTurcos (lawn green): Final=617.2, Time=92.9, Moves(34)=2.3, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Gruppe 67 (gray0): Final=592.0, Time=57.9, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Hexagram (yellow): Final=907.6, Time=95.3, Moves(34)=2.3, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:17] MOVE 105: Hexagram (yellow) 82->107 [0.00ms]
+[2026-05-22 11:14:17] SCORE LosTurcos (lawn green): Final=617.2, Time=92.9, Moves(34)=2.3, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:14:17] SCORE Gruppe 67 (gray0): Final=592.0, Time=57.9, Moves(29)=0.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:17] SCORE Hexagram (yellow): Final=1013.5, Time=95.1, Moves(35)=4.4, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:18] MOVE 106: Gruppe 67 (gray0) 93->94 [0.00ms]
+[2026-05-22 11:14:18] SCORE LosTurcos (lawn green): Final=617.2, Time=92.9, Moves(34)=2.3, Pins(2)=200.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE Gruppe 67 (gray0): Final=592.5, Time=56.4, Moves(30)=0.1, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE Hexagram (yellow): Final=1013.5, Time=95.1, Moves(35)=4.4, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:18] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:19] MOVE 107: LosTurcos (lawn green) 54->63 [0.00ms]
+[2026-05-22 11:14:19] SCORE LosTurcos (lawn green): Final=621.0, Time=92.6, Moves(35)=4.4, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Gruppe 67 (gray0): Final=592.5, Time=56.4, Moves(30)=0.1, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Hexagram (yellow): Final=1013.5, Time=95.1, Moves(35)=4.4, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:19] MOVE 108: Hexagram (yellow) 12->24 [0.00ms]
+[2026-05-22 11:14:19] SCORE LosTurcos (lawn green): Final=621.0, Time=92.6, Moves(35)=4.4, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Gruppe 67 (gray0): Final=592.5, Time=56.4, Moves(30)=0.1, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Hexagram (yellow): Final=1017.0, Time=95.0, Moves(36)=8.0, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:20] MOVE 109: Gruppe 67 (gray0) 106->83 [0.00ms]
+[2026-05-22 11:14:20] SCORE LosTurcos (lawn green): Final=621.0, Time=92.6, Moves(35)=4.4, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Gruppe 67 (gray0): Final=595.1, Time=54.9, Moves(31)=0.2, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Hexagram (yellow): Final=1017.0, Time=95.0, Moves(36)=8.0, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:20] MOVE 110: LosTurcos (lawn green) 69->79 [0.00ms]
+[2026-05-22 11:14:20] SCORE LosTurcos (lawn green): Final=626.4, Time=92.5, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Gruppe 67 (gray0): Final=595.1, Time=54.9, Moves(31)=0.2, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Hexagram (yellow): Final=1017.0, Time=95.0, Moves(36)=8.0, Pins(6)=600.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:14:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:20] MOVE 111: Hexagram (yellow) 46->56 [0.00ms]
+[2026-05-22 11:14:20] SCORE LosTurcos (lawn green): Final=626.4, Time=92.5, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Gruppe 67 (gray0): Final=595.1, Time=54.9, Moves(31)=0.2, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Hexagram (yellow): Final=1024.4, Time=94.8, Moves(37)=13.5, Pins(6)=600.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:22] MOVE 112: Gruppe 67 (gray0) 94->73 [0.00ms]
+[2026-05-22 11:14:22] SCORE LosTurcos (lawn green): Final=626.4, Time=92.5, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Gruppe 67 (gray0): Final=597.9, Time=53.4, Moves(32)=0.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Hexagram (yellow): Final=1024.4, Time=94.8, Moves(37)=13.5, Pins(6)=600.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:22] MOVE 113: LosTurcos (lawn green) 103->102 [0.00ms]
+[2026-05-22 11:14:22] SCORE LosTurcos (lawn green): Final=633.9, Time=92.4, Moves(37)=13.5, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Gruppe 67 (gray0): Final=597.9, Time=53.4, Moves(32)=0.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Hexagram (yellow): Final=1024.4, Time=94.8, Moves(37)=13.5, Pins(6)=600.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:22] MOVE 114: Hexagram (yellow) 56->60 [0.00ms]
+[2026-05-22 11:14:22] SCORE LosTurcos (lawn green): Final=633.9, Time=92.4, Moves(37)=13.5, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Gruppe 67 (gray0): Final=597.9, Time=53.4, Moves(32)=0.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Hexagram (yellow): Final=1040.4, Time=94.8, Moves(38)=21.6, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:23] MOVE 115: Gruppe 67 (gray0) 83->64 [0.00ms]
+[2026-05-22 11:14:23] SCORE LosTurcos (lawn green): Final=633.9, Time=92.4, Moves(37)=13.5, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE Gruppe 67 (gray0): Final=601.2, Time=52.0, Moves(33)=1.1, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE Hexagram (yellow): Final=1040.4, Time=94.8, Moves(38)=21.6, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:24] MOVE 116: LosTurcos (lawn green) 41->51 [0.00ms]
+[2026-05-22 11:14:24] SCORE LosTurcos (lawn green): Final=643.8, Time=92.2, Moves(38)=21.6, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Gruppe 67 (gray0): Final=601.2, Time=52.0, Moves(33)=1.1, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Hexagram (yellow): Final=1040.4, Time=94.8, Moves(38)=21.6, Pins(6)=600.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:14:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:24] MOVE 117: Hexagram (yellow) 60->70 [0.00ms]
+[2026-05-22 11:14:24] SCORE LosTurcos (lawn green): Final=643.8, Time=92.2, Moves(38)=21.6, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Gruppe 67 (gray0): Final=601.2, Time=52.0, Moves(33)=1.1, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Hexagram (yellow): Final=1053.1, Time=94.6, Moves(39)=32.5, Pins(6)=600.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:25] MOVE 118: Gruppe 67 (gray0) 73->55 [0.00ms]
+[2026-05-22 11:14:25] SCORE LosTurcos (lawn green): Final=643.8, Time=92.2, Moves(38)=21.6, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:14:25] SCORE Gruppe 67 (gray0): Final=704.7, Time=50.5, Moves(34)=2.3, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:25] SCORE Hexagram (yellow): Final=1053.1, Time=94.6, Moves(39)=32.5, Pins(6)=600.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:26] MOVE 119: LosTurcos (lawn green) 63->72 [0.00ms]
+[2026-05-22 11:14:26] SCORE LosTurcos (lawn green): Final=656.5, Time=92.0, Moves(39)=32.5, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Gruppe 67 (gray0): Final=704.7, Time=50.5, Moves(34)=2.3, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Hexagram (yellow): Final=1053.1, Time=94.6, Moves(39)=32.5, Pins(6)=600.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:26] MOVE 120: Hexagram (yellow) 70->71 [0.00ms]
+[2026-05-22 11:14:26] SCORE LosTurcos (lawn green): Final=656.5, Time=92.0, Moves(39)=32.5, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Gruppe 67 (gray0): Final=704.7, Time=50.5, Moves(34)=2.3, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Hexagram (yellow): Final=1068.3, Time=94.5, Moves(40)=45.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:27] MOVE 121: Gruppe 67 (gray0) 52->42 [0.01ms]
+[2026-05-22 11:14:27] SCORE LosTurcos (lawn green): Final=656.5, Time=92.0, Moves(39)=32.5, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:27] SCORE Gruppe 67 (gray0): Final=707.4, Time=49.0, Moves(35)=4.4, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:27] SCORE Hexagram (yellow): Final=1068.3, Time=94.5, Moves(40)=45.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:27] MOVE 122: LosTurcos (lawn green) 57->66 [0.00ms]
+[2026-05-22 11:14:27] SCORE LosTurcos (lawn green): Final=671.6, Time=91.8, Moves(40)=45.8, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:27] SCORE Gruppe 67 (gray0): Final=707.4, Time=49.0, Moves(35)=4.4, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:27] SCORE Hexagram (yellow): Final=1068.3, Time=94.5, Moves(40)=45.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:27] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:28] MOVE 123: Hexagram (yellow) 71->73 [0.01ms]
+[2026-05-22 11:14:28] SCORE LosTurcos (lawn green): Final=671.6, Time=91.8, Moves(40)=45.8, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Gruppe 67 (gray0): Final=707.4, Time=49.0, Moves(35)=4.4, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Hexagram (yellow): Final=1087.0, Time=94.3, Moves(41)=60.7, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:29] MOVE 124: Gruppe 67 (gray0) 42->44 [0.01ms]
+[2026-05-22 11:14:29] SCORE LosTurcos (lawn green): Final=671.6, Time=91.8, Moves(40)=45.8, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Hexagram (yellow): Final=1087.0, Time=94.3, Moves(41)=60.7, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:29] MOVE 125: LosTurcos (lawn green) 66->76 [0.01ms]
+[2026-05-22 11:14:29] SCORE LosTurcos (lawn green): Final=788.2, Time=91.5, Moves(41)=60.7, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Hexagram (yellow): Final=1087.0, Time=94.3, Moves(41)=60.7, Pins(6)=600.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:29] MOVE 126: Hexagram (yellow) 73->84 [0.06ms]
+[2026-05-22 11:14:29] SCORE LosTurcos (lawn green): Final=788.2, Time=91.5, Moves(41)=60.7, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:30] SCORE Hexagram (yellow): Final=1203.7, Time=94.2, Moves(42)=75.5, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:30] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)']}
+[2026-05-22 11:14:32] SCORE LosTurcos (lawn green): Final=788.2, Time=91.5, Moves(41)=60.7, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Hexagram (yellow): Final=1203.7, Time=94.2, Moves(42)=75.5, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:32] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 127. Turn skipped.
+[2026-05-22 11:14:32] MOVE 128: LosTurcos (lawn green) 79->90 [0.01ms]
+[2026-05-22 11:14:32] SCORE LosTurcos (lawn green): Final=804.9, Time=91.4, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Hexagram (yellow): Final=1203.7, Time=94.2, Moves(42)=75.5, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:32] MOVE 129: Hexagram (yellow) 84->96 [0.00ms]
+[2026-05-22 11:14:32] SCORE LosTurcos (lawn green): Final=804.9, Time=91.4, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Gruppe 67 (gray0): Final=813.4, Time=47.4, Moves(36)=8.0, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Hexagram (yellow): Final=1216.4, Time=94.1, Moves(43)=88.2, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 130: Gruppe 67 (gray0) 31->33 [0.00ms]
+[2026-05-22 11:14:33] SCORE LosTurcos (lawn green): Final=804.9, Time=91.4, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 67 (gray0): Final=920.1, Time=46.6, Moves(37)=13.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Hexagram (yellow): Final=1216.4, Time=94.1, Moves(43)=88.2, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 131: LosTurcos (lawn green) 76->75 [0.01ms]
+[2026-05-22 11:14:33] SCORE LosTurcos (lawn green): Final=817.5, Time=91.2, Moves(43)=88.2, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 67 (gray0): Final=920.1, Time=46.6, Moves(37)=13.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Hexagram (yellow): Final=1216.4, Time=94.1, Moves(43)=88.2, Pins(7)=700.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 132: Hexagram (yellow) 24->25 [0.00ms]
+[2026-05-22 11:14:33] SCORE LosTurcos (lawn green): Final=817.5, Time=91.2, Moves(43)=88.2, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 67 (gray0): Final=920.1, Time=46.6, Moves(37)=13.5, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Hexagram (yellow): Final=1226.7, Time=93.8, Moves(44)=96.9, Pins(7)=700.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:35] MOVE 133: Gruppe 67 (gray0) 65->56 [0.00ms]
+[2026-05-22 11:14:35] SCORE LosTurcos (lawn green): Final=817.5, Time=91.2, Moves(43)=88.2, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Gruppe 67 (gray0): Final=928.8, Time=45.1, Moves(38)=21.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Hexagram (yellow): Final=1226.7, Time=93.8, Moves(44)=96.9, Pins(7)=700.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:35] MOVE 134: LosTurcos (lawn green) 90->89 [0.00ms]
+[2026-05-22 11:14:35] SCORE LosTurcos (lawn green): Final=828.0, Time=91.1, Moves(44)=96.9, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Gruppe 67 (gray0): Final=928.8, Time=45.1, Moves(38)=21.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Hexagram (yellow): Final=1226.7, Time=93.8, Moves(44)=96.9, Pins(7)=700.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:35] MOVE 135: Hexagram (yellow) 25->26 [0.00ms]
+[2026-05-22 11:14:35] SCORE LosTurcos (lawn green): Final=828.0, Time=91.1, Moves(44)=96.9, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Gruppe 67 (gray0): Final=928.8, Time=45.1, Moves(38)=21.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Hexagram (yellow): Final=1231.7, Time=93.7, Moves(45)=100.0, Pins(7)=700.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:36] MOVE 136: Gruppe 67 (gray0) 62->53 [0.00ms]
+[2026-05-22 11:14:36] SCORE LosTurcos (lawn green): Final=828.0, Time=91.1, Moves(44)=96.9, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Hexagram (yellow): Final=1231.7, Time=93.7, Moves(45)=100.0, Pins(7)=700.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:37] MOVE 137: LosTurcos (lawn green) 61->60 [0.01ms]
+[2026-05-22 11:14:37] SCORE LosTurcos (lawn green): Final=832.8, Time=90.8, Moves(45)=100.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Hexagram (yellow): Final=1231.7, Time=93.7, Moves(45)=100.0, Pins(7)=700.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:37] MOVE 138: Hexagram (yellow) 23->24 [0.01ms]
+[2026-05-22 11:14:37] SCORE LosTurcos (lawn green): Final=832.8, Time=90.8, Moves(45)=100.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Hexagram (yellow): Final=1233.4, Time=93.6, Moves(46)=99.8, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:37] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)']}
+[2026-05-22 11:14:39] SCORE LosTurcos (lawn green): Final=832.8, Time=90.8, Moves(45)=100.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Hexagram (yellow): Final=1233.4, Time=93.6, Moves(46)=99.8, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:39] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 139. Turn skipped.
+[2026-05-22 11:14:39] MOVE 140: LosTurcos (lawn green) 102->101 [0.01ms]
+[2026-05-22 11:14:39] SCORE LosTurcos (lawn green): Final=934.6, Time=90.8, Moves(46)=99.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Hexagram (yellow): Final=1233.4, Time=93.6, Moves(46)=99.8, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:39] MOVE 141: Hexagram (yellow) 24->47 [0.01ms]
+[2026-05-22 11:14:39] SCORE LosTurcos (lawn green): Final=934.6, Time=90.8, Moves(46)=99.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Gruppe 67 (gray0): Final=940.0, Time=43.6, Moves(39)=32.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Hexagram (yellow): Final=1236.8, Time=93.4, Moves(47)=99.4, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:40] MOVE 142: Gruppe 67 (gray0) 56->57 [0.00ms]
+[2026-05-22 11:14:40] SCORE LosTurcos (lawn green): Final=934.6, Time=90.8, Moves(46)=99.8, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Gruppe 67 (gray0): Final=954.2, Time=42.4, Moves(40)=45.8, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Hexagram (yellow): Final=1236.8, Time=93.4, Moves(47)=99.4, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:40] MOVE 143: LosTurcos (lawn green) 60->56 [0.00ms]
+[2026-05-22 11:14:40] SCORE LosTurcos (lawn green): Final=942.1, Time=90.7, Moves(47)=99.4, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Gruppe 67 (gray0): Final=954.2, Time=42.4, Moves(40)=45.8, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Hexagram (yellow): Final=1236.8, Time=93.4, Moves(47)=99.4, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:40] MOVE 144: Hexagram (yellow) 47->24 [0.00ms]
+[2026-05-22 11:14:40] SCORE LosTurcos (lawn green): Final=942.1, Time=90.7, Moves(47)=99.4, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Gruppe 67 (gray0): Final=954.2, Time=42.4, Moves(40)=45.8, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Hexagram (yellow): Final=1231.9, Time=93.3, Moves(48)=98.6, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:42] MOVE 145: Gruppe 67 (gray0) 57->58 [0.00ms]
+[2026-05-22 11:14:42] SCORE LosTurcos (lawn green): Final=942.1, Time=90.7, Moves(47)=99.4, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Hexagram (yellow): Final=1231.9, Time=93.3, Moves(48)=98.6, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:42] MOVE 146: LosTurcos (lawn green) 56->65 [0.00ms]
+[2026-05-22 11:14:42] SCORE LosTurcos (lawn green): Final=1043.1, Time=90.5, Moves(48)=98.6, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Hexagram (yellow): Final=1231.9, Time=93.3, Moves(48)=98.6, Pins(7)=700.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:42] MOVE 147: Hexagram (yellow) 24->47 [0.01ms]
+[2026-05-22 11:14:42] SCORE LosTurcos (lawn green): Final=1043.1, Time=90.5, Moves(48)=98.6, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Hexagram (yellow): Final=1234.7, Time=93.2, Moves(49)=97.6, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)']}
+[2026-05-22 11:14:44] SCORE LosTurcos (lawn green): Final=1043.1, Time=90.5, Moves(48)=98.6, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Hexagram (yellow): Final=1234.7, Time=93.2, Moves(49)=97.6, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)']}
+[2026-05-22 11:14:44] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 148. Turn skipped.
+[2026-05-22 11:14:45] MOVE 149: LosTurcos (lawn green) 72->82 [0.00ms]
+[2026-05-22 11:14:45] SCORE LosTurcos (lawn green): Final=1043.9, Time=90.4, Moves(49)=97.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Hexagram (yellow): Final=1234.7, Time=93.2, Moves(49)=97.6, Pins(7)=700.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)']}
+[2026-05-22 11:14:45] MOVE 150: Hexagram (yellow) 36->61 [0.00ms]
+[2026-05-22 11:14:45] SCORE LosTurcos (lawn green): Final=1043.9, Time=90.4, Moves(49)=97.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Hexagram (yellow): Final=1245.3, Time=93.1, Moves(50)=96.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)']}
+[2026-05-22 11:14:47] SCORE LosTurcos (lawn green): Final=1043.9, Time=90.4, Moves(49)=97.6, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Hexagram (yellow): Final=1245.3, Time=93.1, Moves(50)=96.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)']}
+[2026-05-22 11:14:47] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 151. Turn skipped.
+[2026-05-22 11:14:47] MOVE 152: LosTurcos (lawn green) 49->48 [0.00ms]
+[2026-05-22 11:14:47] SCORE LosTurcos (lawn green): Final=1044.4, Time=90.2, Moves(50)=96.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Hexagram (yellow): Final=1245.3, Time=93.1, Moves(50)=96.2, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)']}
+[2026-05-22 11:14:47] MOVE 153: Hexagram (yellow) 61->71 [0.00ms]
+[2026-05-22 11:14:47] SCORE LosTurcos (lawn green): Final=1044.4, Time=90.2, Moves(50)=96.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Gruppe 67 (gray0): Final=969.5, Time=40.9, Moves(41)=60.7, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:47] SCORE Hexagram (yellow): Final=1245.6, Time=93.0, Moves(51)=94.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)']}
+[2026-05-22 11:14:49] MOVE 155: Gruppe 67 (gray0) 58->59 [0.00ms]
+[2026-05-22 11:14:49] SCORE LosTurcos (lawn green): Final=1044.4, Time=90.2, Moves(50)=96.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Gruppe 67 (gray0): Final=984.8, Time=39.3, Moves(42)=75.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Hexagram (yellow): Final=1245.6, Time=93.0, Moves(51)=94.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:49] MOVE 156: LosTurcos (lawn green) 101->76 [0.01ms]
+[2026-05-22 11:14:49] SCORE LosTurcos (lawn green): Final=1042.5, Time=90.0, Moves(51)=94.6, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Gruppe 67 (gray0): Final=984.8, Time=39.3, Moves(42)=75.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Hexagram (yellow): Final=1245.6, Time=93.0, Moves(51)=94.6, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:49] MOVE 157: Hexagram (yellow) 71->94 [0.01ms]
+[2026-05-22 11:14:49] SCORE LosTurcos (lawn green): Final=1042.5, Time=90.0, Moves(51)=94.6, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Gruppe 67 (gray0): Final=984.8, Time=39.3, Moves(42)=75.5, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:49] SCORE Hexagram (yellow): Final=1247.6, Time=92.8, Moves(52)=92.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:50] MOVE 158: Gruppe 67 (gray0) 59->40 [0.00ms]
+[2026-05-22 11:14:50] SCORE LosTurcos (lawn green): Final=1042.5, Time=90.0, Moves(51)=94.6, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:50] SCORE Gruppe 67 (gray0): Final=1000.1, Time=37.8, Moves(43)=88.2, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:50] SCORE Hexagram (yellow): Final=1247.6, Time=92.8, Moves(52)=92.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:51] MOVE 159: LosTurcos (lawn green) 82->81 [0.00ms]
+[2026-05-22 11:14:51] SCORE LosTurcos (lawn green): Final=1042.4, Time=89.7, Moves(52)=92.7, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:51] SCORE Gruppe 67 (gray0): Final=1000.1, Time=37.8, Moves(43)=88.2, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:51] SCORE Hexagram (yellow): Final=1247.6, Time=92.8, Moves(52)=92.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:51] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:51] MOVE 160: Hexagram (yellow) 94->95 [0.00ms]
+[2026-05-22 11:14:51] SCORE LosTurcos (lawn green): Final=1042.4, Time=89.7, Moves(52)=92.7, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:51] SCORE Gruppe 67 (gray0): Final=1000.1, Time=37.8, Moves(43)=88.2, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:51] SCORE Hexagram (yellow): Final=1347.3, Time=92.7, Moves(53)=90.6, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:51] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:52] MOVE 161: Gruppe 67 (gray0) 53->54 [0.00ms]
+[2026-05-22 11:14:52] SCORE LosTurcos (lawn green): Final=1042.4, Time=89.7, Moves(52)=92.7, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Gruppe 67 (gray0): Final=1009.3, Time=36.4, Moves(44)=96.9, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Hexagram (yellow): Final=1347.3, Time=92.7, Moves(53)=90.6, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:52] MOVE 162: LosTurcos (lawn green) 50->59 [0.00ms]
+[2026-05-22 11:14:52] SCORE LosTurcos (lawn green): Final=1042.2, Time=89.6, Moves(53)=90.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Gruppe 67 (gray0): Final=1009.3, Time=36.4, Moves(44)=96.9, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Hexagram (yellow): Final=1347.3, Time=92.7, Moves(53)=90.6, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:52] MOVE 163: Hexagram (yellow) 47->69 [0.00ms]
+[2026-05-22 11:14:52] SCORE LosTurcos (lawn green): Final=1042.2, Time=89.6, Moves(53)=90.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Gruppe 67 (gray0): Final=1009.3, Time=36.4, Moves(44)=96.9, Pins(5)=500.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:52] SCORE Hexagram (yellow): Final=1352.9, Time=92.7, Moves(54)=88.2, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:54] MOVE 164: Gruppe 67 (gray0) 14->41 [0.00ms]
+[2026-05-22 11:14:54] SCORE LosTurcos (lawn green): Final=1042.2, Time=89.6, Moves(53)=90.6, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Hexagram (yellow): Final=1352.9, Time=92.7, Moves(54)=88.2, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:54] MOVE 165: LosTurcos (lawn green) 48->57 [0.00ms]
+[2026-05-22 11:14:54] SCORE LosTurcos (lawn green): Final=1041.8, Time=89.5, Moves(54)=88.2, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Hexagram (yellow): Final=1352.9, Time=92.7, Moves(54)=88.2, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:54] MOVE 166: Hexagram (yellow) 69->80 [0.01ms]
+[2026-05-22 11:14:54] SCORE LosTurcos (lawn green): Final=1041.8, Time=89.5, Moves(54)=88.2, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:54] SCORE Hexagram (yellow): Final=1352.3, Time=92.6, Moves(55)=85.7, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:54] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)']}
+[2026-05-22 11:14:56] SCORE LosTurcos (lawn green): Final=1041.8, Time=89.5, Moves(54)=88.2, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Hexagram (yellow): Final=1352.3, Time=92.6, Moves(55)=85.7, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:56] TURN TIMEOUT: Player with colour gray0 exceeded 2s at move 167. Turn skipped.
+[2026-05-22 11:14:56] MOVE 168: LosTurcos (lawn green) 51->50 [0.00ms]
+[2026-05-22 11:14:56] SCORE LosTurcos (lawn green): Final=1041.1, Time=89.4, Moves(55)=85.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Hexagram (yellow): Final=1352.3, Time=92.6, Moves(55)=85.7, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:56] MOVE 169: Hexagram (yellow) 80->69 [0.00ms]
+[2026-05-22 11:14:56] SCORE LosTurcos (lawn green): Final=1041.1, Time=89.4, Moves(55)=85.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Gruppe 67 (gray0): Final=1014.9, Time=34.9, Moves(45)=100.0, Pins(5)=500.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:56] SCORE Hexagram (yellow): Final=1347.5, Time=92.5, Moves(56)=83.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:57] MOVE 170: Gruppe 67 (gray0) 40->42 [0.00ms]
+[2026-05-22 11:14:57] SCORE LosTurcos (lawn green): Final=1041.1, Time=89.4, Moves(55)=85.7, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Gruppe 67 (gray0): Final=1018.0, Time=34.2, Moves(46)=99.8, Pins(5)=500.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Hexagram (yellow): Final=1347.5, Time=92.5, Moves(56)=83.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:57] MOVE 171: LosTurcos (lawn green) 50->68 [0.00ms]
+[2026-05-22 11:14:57] SCORE LosTurcos (lawn green): Final=1042.3, Time=89.3, Moves(56)=83.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Gruppe 67 (gray0): Final=1018.0, Time=34.2, Moves(46)=99.8, Pins(5)=500.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Hexagram (yellow): Final=1347.5, Time=92.5, Moves(56)=83.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:57] MOVE 172: Hexagram (yellow) 69->80 [0.00ms]
+[2026-05-22 11:14:57] SCORE LosTurcos (lawn green): Final=1042.3, Time=89.3, Moves(56)=83.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Gruppe 67 (gray0): Final=1018.0, Time=34.2, Moves(46)=99.8, Pins(5)=500.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:57] SCORE Hexagram (yellow): Final=1346.4, Time=92.4, Moves(57)=80.1, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:59] MOVE 173: Gruppe 67 (gray0) 43->20 [0.01ms]
+[2026-05-22 11:14:59] SCORE LosTurcos (lawn green): Final=1042.3, Time=89.3, Moves(56)=83.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Gruppe 67 (gray0): Final=1118.1, Time=32.7, Moves(47)=99.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Hexagram (yellow): Final=1346.4, Time=92.4, Moves(57)=80.1, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:59] MOVE 174: LosTurcos (lawn green) 89->101 [0.01ms]
+[2026-05-22 11:14:59] SCORE LosTurcos (lawn green): Final=1141.2, Time=89.2, Moves(57)=80.1, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Gruppe 67 (gray0): Final=1118.1, Time=32.7, Moves(47)=99.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Hexagram (yellow): Final=1346.4, Time=92.4, Moves(57)=80.1, Pins(8)=800.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:14:59] MOVE 175: Hexagram (yellow) 80->69 [0.01ms]
+[2026-05-22 11:14:59] SCORE LosTurcos (lawn green): Final=1141.2, Time=89.2, Moves(57)=80.1, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Gruppe 67 (gray0): Final=1118.1, Time=32.7, Moves(47)=99.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:59] SCORE Hexagram (yellow): Final=1341.3, Time=92.3, Moves(58)=77.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:01] MOVE 176: Gruppe 67 (gray0) 41->45 [0.00ms]
+[2026-05-22 11:15:01] SCORE LosTurcos (lawn green): Final=1141.2, Time=89.2, Moves(57)=80.1, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Gruppe 67 (gray0): Final=1221.8, Time=31.2, Moves(48)=98.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Hexagram (yellow): Final=1341.3, Time=92.3, Moves(58)=77.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:15:01] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:01] MOVE 177: LosTurcos (lawn green) 81->80 [0.00ms]
+[2026-05-22 11:15:01] SCORE LosTurcos (lawn green): Final=1140.0, Time=88.9, Moves(58)=77.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Gruppe 67 (gray0): Final=1221.8, Time=31.2, Moves(48)=98.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Hexagram (yellow): Final=1341.3, Time=92.3, Moves(58)=77.0, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:15:01] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:01] MOVE 178: Hexagram (yellow) 69->92 [0.00ms]
+[2026-05-22 11:15:01] SCORE LosTurcos (lawn green): Final=1140.0, Time=88.9, Moves(58)=77.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Gruppe 67 (gray0): Final=1221.8, Time=31.2, Moves(48)=98.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:15:01] SCORE Hexagram (yellow): Final=1342.1, Time=92.2, Moves(59)=73.9, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:01] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:02] MOVE 179: Gruppe 67 (gray0) 42->43 [0.00ms]
+[2026-05-22 11:15:02] SCORE LosTurcos (lawn green): Final=1140.0, Time=88.9, Moves(58)=77.0, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:02] SCORE Gruppe 67 (gray0): Final=1221.2, Time=29.7, Moves(49)=97.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:02] SCORE Hexagram (yellow): Final=1342.1, Time=92.2, Moves(59)=73.9, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:02] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:03] MOVE 180: LosTurcos (lawn green) 65->86 [0.00ms]
+[2026-05-22 11:15:03] SCORE LosTurcos (lawn green): Final=1136.6, Time=88.7, Moves(59)=73.9, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:03] SCORE Gruppe 67 (gray0): Final=1221.2, Time=29.7, Moves(49)=97.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:03] SCORE Hexagram (yellow): Final=1342.1, Time=92.2, Moves(59)=73.9, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:03] MOVE 181: Hexagram (yellow) 92->93 [0.00ms]
+[2026-05-22 11:15:03] SCORE LosTurcos (lawn green): Final=1136.6, Time=88.7, Moves(59)=73.9, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:03] SCORE Gruppe 67 (gray0): Final=1221.2, Time=29.7, Moves(49)=97.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:03] SCORE Hexagram (yellow): Final=1340.8, Time=92.1, Moves(60)=70.7, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:04] MOVE 182: Gruppe 67 (gray0) 45->34 [0.00ms]
+[2026-05-22 11:15:04] SCORE LosTurcos (lawn green): Final=1136.6, Time=88.7, Moves(59)=73.9, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Gruppe 67 (gray0): Final=1218.4, Time=28.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Hexagram (yellow): Final=1340.8, Time=92.1, Moves(60)=70.7, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:04] MOVE 183: LosTurcos (lawn green) 80->79 [0.01ms]
+[2026-05-22 11:15:04] SCORE LosTurcos (lawn green): Final=1135.3, Time=88.6, Moves(60)=70.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Gruppe 67 (gray0): Final=1218.4, Time=28.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Hexagram (yellow): Final=1340.8, Time=92.1, Moves(60)=70.7, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:04] MOVE 184: Hexagram (yellow) 93->94 [0.00ms]
+[2026-05-22 11:15:04] SCORE LosTurcos (lawn green): Final=1135.3, Time=88.6, Moves(60)=70.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Gruppe 67 (gray0): Final=1218.4, Time=28.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:15:04] SCORE Hexagram (yellow): Final=1339.4, Time=92.0, Moves(61)=67.4, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:06] MOVE 185: Gruppe 67 (gray0) 43->22 [0.00ms]
+[2026-05-22 11:15:06] SCORE LosTurcos (lawn green): Final=1135.3, Time=88.6, Moves(60)=70.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Gruppe 67 (gray0): Final=1317.3, Time=26.7, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Hexagram (yellow): Final=1339.4, Time=92.0, Moves(61)=67.4, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:06] MOVE 186: LosTurcos (lawn green) 57->56 [0.00ms]
+[2026-05-22 11:15:06] SCORE LosTurcos (lawn green): Final=1133.7, Time=88.3, Moves(61)=67.4, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Gruppe 67 (gray0): Final=1317.3, Time=26.7, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Hexagram (yellow): Final=1339.4, Time=92.0, Moves(61)=67.4, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:06] MOVE 187: Hexagram (yellow) 94->83 [0.00ms]
+[2026-05-22 11:15:06] SCORE LosTurcos (lawn green): Final=1133.7, Time=88.3, Moves(61)=67.4, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Gruppe 67 (gray0): Final=1317.3, Time=26.7, Moves(51)=94.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:15:06] SCORE Hexagram (yellow): Final=1335.9, Time=91.9, Moves(62)=64.0, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:08] MOVE 188: Gruppe 67 (gray0) 64->45 [0.00ms]
+[2026-05-22 11:15:08] SCORE LosTurcos (lawn green): Final=1133.7, Time=88.3, Moves(61)=67.4, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Gruppe 67 (gray0): Final=1416.0, Time=25.3, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Hexagram (yellow): Final=1335.9, Time=91.9, Moves(62)=64.0, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:08] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:08] MOVE 189: LosTurcos (lawn green) 101->100 [0.00ms]
+[2026-05-22 11:15:08] SCORE LosTurcos (lawn green): Final=1130.3, Time=88.3, Moves(62)=64.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Gruppe 67 (gray0): Final=1416.0, Time=25.3, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Hexagram (yellow): Final=1335.9, Time=91.9, Moves(62)=64.0, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:08] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:08] MOVE 190: Hexagram (yellow) 83->84 [0.00ms]
+[2026-05-22 11:15:08] SCORE LosTurcos (lawn green): Final=1130.3, Time=88.3, Moves(62)=64.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Gruppe 67 (gray0): Final=1416.0, Time=25.3, Moves(52)=92.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:08] SCORE Hexagram (yellow): Final=1434.4, Time=91.8, Moves(63)=60.7, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:15:08] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:09] MOVE 191: Gruppe 67 (gray0) 33->21 [0.00ms]
+[2026-05-22 11:15:09] SCORE LosTurcos (lawn green): Final=1130.3, Time=88.3, Moves(62)=64.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Gruppe 67 (gray0): Final=1413.1, Time=24.5, Moves(53)=90.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Hexagram (yellow): Final=1434.4, Time=91.8, Moves(63)=60.7, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:15:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:09] MOVE 192: LosTurcos (lawn green) 100->99 [0.00ms]
+[2026-05-22 11:15:09] SCORE LosTurcos (lawn green): Final=1126.8, Time=88.1, Moves(63)=60.7, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Gruppe 67 (gray0): Final=1413.1, Time=24.5, Moves(53)=90.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Hexagram (yellow): Final=1434.4, Time=91.8, Moves(63)=60.7, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:15:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:09] MOVE 193: Hexagram (yellow) 26->25 [0.00ms]
+[2026-05-22 11:15:09] SCORE LosTurcos (lawn green): Final=1126.8, Time=88.1, Moves(63)=60.7, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Gruppe 67 (gray0): Final=1413.1, Time=24.5, Moves(53)=90.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Hexagram (yellow): Final=1429.0, Time=91.7, Moves(64)=57.3, Pins(9)=900.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}
+[2026-05-22 11:15:09] MOVE 194: Gruppe 67 (gray0) 54->33 [0.00ms]
+[2026-05-22 11:15:09] SCORE LosTurcos (lawn green): Final=1126.8, Time=88.1, Moves(63)=60.7, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:15:09] SCORE Gruppe 67 (gray0): Final=2512.5, Time=24.2, Moves(54)=88.2, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:15:09] SCORE Hexagram (yellow): Final=1429.0, Time=91.7, Moves(64)=57.3, Pins(9)=900.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:15:09] ALL WRONG MOVES BY COLOUR: {'lawn green': ['1 (turn timeout)'], 'gray0': ['24 (turn timeout)', '27 (illegal move)', '52 (turn timeout)', '67 (turn timeout)', '70 (turn timeout)', '85 (turn timeout)', '127 (turn timeout)', '139 (turn timeout)', '148 (turn timeout)', '151 (turn timeout)', '154 (illegal move)', '167 (turn timeout)']}

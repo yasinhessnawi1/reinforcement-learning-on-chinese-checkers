@@ -1,0 +1,1224 @@
+[2026-05-22 10:41:57] GAME CREATED
+[2026-05-22 10:42:01] PLAYER JOINED: The bandits as lawn green
+[2026-05-22 10:42:27] PLAYER JOINED: AlphaZeroClue as gray0
+[2026-05-22 10:42:41] PLAYER JOINED: S&S as red
+[2026-05-22 10:43:38] PLAYER JOINED: jat as blue
+[2026-05-22 10:44:18] PLAYER JOINED: Gruppe 2 as yellow
+[2026-05-22 10:44:18] PLAYER START: The bandits (lawn green)
+[2026-05-22 10:44:18] PLAYER START: AlphaZeroClue (gray0)
+[2026-05-22 10:44:18] PLAYER START: S&S (red)
+[2026-05-22 10:44:18] PLAYER START: jat (blue)
+[2026-05-22 10:44:18] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:44:18] GAME START — turn order ['lawn green', 'yellow', 'blue', 'gray0', 'red']
+[2026-05-22 10:44:18] PLAYER START: The bandits (lawn green)
+[2026-05-22 10:44:18] PLAYER START: AlphaZeroClue (gray0)
+[2026-05-22 10:44:18] PLAYER START: S&S (red)
+[2026-05-22 10:44:18] PLAYER START: jat (blue)
+[2026-05-22 10:44:18] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:44:18] PLAYER START: The bandits (lawn green)
+[2026-05-22 10:44:18] PLAYER START: AlphaZeroClue (gray0)
+[2026-05-22 10:44:18] PLAYER START: S&S (red)
+[2026-05-22 10:44:18] PLAYER START: jat (blue)
+[2026-05-22 10:44:18] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:44:18] PLAYER START: The bandits (lawn green)
+[2026-05-22 10:44:18] PLAYER START: AlphaZeroClue (gray0)
+[2026-05-22 10:44:18] PLAYER START: S&S (red)
+[2026-05-22 10:44:18] PLAYER START: jat (blue)
+[2026-05-22 10:44:18] PLAYER START: Gruppe 2 (yellow)
+[2026-05-22 10:44:18] MOVE 1: The bandits (lawn green) 55->54 [0.00ms]
+[2026-05-22 10:44:18] SCORE The bandits (lawn green): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE AlphaZeroClue (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE S&S (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE Gruppe 2 (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:18] MOVE 2: Gruppe 2 (yellow) 35->37 [0.00ms]
+[2026-05-22 10:44:18] SCORE The bandits (lawn green): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE AlphaZeroClue (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE S&S (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE jat (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:18] SCORE Gruppe 2 (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:20] MOVE 3: jat (blue) 5->16 [0.01ms]
+[2026-05-22 10:44:20] SCORE The bandits (lawn green): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:20] SCORE AlphaZeroClue (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:20] SCORE S&S (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:20] SCORE jat (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:20] SCORE Gruppe 2 (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:22] MOVE 4: AlphaZeroClue (gray0) 75->56 [0.00ms]
+[2026-05-22 10:44:22] SCORE The bandits (lawn green): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE AlphaZeroClue (gray0): Final=282.0, Time=98.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE S&S (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE jat (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE Gruppe 2 (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:22] MOVE 5: S&S (red) 115->102 [0.00ms]
+[2026-05-22 10:44:22] SCORE The bandits (lawn green): Final=281.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE AlphaZeroClue (gray0): Final=282.0, Time=98.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE S&S (red): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE jat (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE Gruppe 2 (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:22] MOVE 6: The bandits (lawn green) 34->53 [0.00ms]
+[2026-05-22 10:44:22] SCORE The bandits (lawn green): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE AlphaZeroClue (gray0): Final=282.0, Time=98.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE S&S (red): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE jat (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] SCORE Gruppe 2 (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:23] MOVE 7: Gruppe 2 (yellow) 13->26 [0.00ms]
+[2026-05-22 10:44:23] SCORE The bandits (lawn green): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:23] SCORE AlphaZeroClue (gray0): Final=282.0, Time=98.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:23] SCORE S&S (red): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:23] SCORE jat (blue): Final=282.5, Time=98.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:23] SCORE Gruppe 2 (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:24] MOVE 8: jat (blue) 0->18 [0.00ms]
+[2026-05-22 10:44:24] SCORE The bandits (lawn green): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE AlphaZeroClue (gray0): Final=282.0, Time=98.0, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE S&S (red): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE jat (blue): Final=289.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE Gruppe 2 (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 9: AlphaZeroClue (gray0) 98->77 [0.00ms]
+[2026-05-22 10:44:26] SCORE The bandits (lawn green): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE AlphaZeroClue (gray0): Final=288.2, Time=96.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE S&S (red): Final=283.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE jat (blue): Final=289.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 2 (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 10: S&S (red) 111->66 [0.00ms]
+[2026-05-22 10:44:26] SCORE The bandits (lawn green): Final=289.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE AlphaZeroClue (gray0): Final=288.2, Time=96.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE S&S (red): Final=291.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE jat (blue): Final=289.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 2 (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 11: The bandits (lawn green) 20->62 [0.00ms]
+[2026-05-22 10:44:26] SCORE The bandits (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE AlphaZeroClue (gray0): Final=288.2, Time=96.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE S&S (red): Final=291.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE jat (blue): Final=289.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 2 (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 12: Gruppe 2 (yellow) 11->38 [0.00ms]
+[2026-05-22 10:44:26] SCORE The bandits (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE AlphaZeroClue (gray0): Final=288.2, Time=96.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE S&S (red): Final=291.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE jat (blue): Final=289.2, Time=97.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 2 (yellow): Final=292.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:28] MOVE 13: jat (blue) 18->64 [0.00ms]
+[2026-05-22 10:44:28] SCORE The bandits (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE AlphaZeroClue (gray0): Final=288.2, Time=96.2, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE S&S (red): Final=291.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE jat (blue): Final=295.8, Time=95.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE Gruppe 2 (yellow): Final=292.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:30] MOVE 14: AlphaZeroClue (gray0) 86->75 [0.00ms]
+[2026-05-22 10:44:30] SCORE The bandits (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE AlphaZeroClue (gray0): Final=288.4, Time=94.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE S&S (red): Final=291.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE jat (blue): Final=295.8, Time=95.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE Gruppe 2 (yellow): Final=292.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:30] MOVE 15: S&S (red) 120->104 [0.00ms]
+[2026-05-22 10:44:30] SCORE The bandits (lawn green): Final=297.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE AlphaZeroClue (gray0): Final=288.4, Time=94.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE S&S (red): Final=299.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE jat (blue): Final=295.8, Time=95.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE Gruppe 2 (yellow): Final=292.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:30] MOVE 16: The bandits (lawn green) 62->71 [0.00ms]
+[2026-05-22 10:44:30] SCORE The bandits (lawn green): Final=299.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE AlphaZeroClue (gray0): Final=288.4, Time=94.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE S&S (red): Final=299.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE jat (blue): Final=295.8, Time=95.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE Gruppe 2 (yellow): Final=292.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:30] MOVE 17: Gruppe 2 (yellow) 10->35 [0.01ms]
+[2026-05-22 10:44:30] SCORE The bandits (lawn green): Final=299.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE AlphaZeroClue (gray0): Final=288.4, Time=94.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE S&S (red): Final=299.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE jat (blue): Final=295.8, Time=95.8, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE Gruppe 2 (yellow): Final=296.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:32] MOVE 18: jat (blue) 3->81 [0.01ms]
+[2026-05-22 10:44:32] SCORE The bandits (lawn green): Final=299.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE AlphaZeroClue (gray0): Final=288.4, Time=94.4, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE S&S (red): Final=299.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE jat (blue): Final=310.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE Gruppe 2 (yellow): Final=296.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 19: AlphaZeroClue (gray0) 101->105 [0.00ms]
+[2026-05-22 10:44:34] SCORE The bandits (lawn green): Final=299.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE AlphaZeroClue (gray0): Final=294.7, Time=92.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE S&S (red): Final=299.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE jat (blue): Final=310.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 2 (yellow): Final=296.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 20: S&S (red) 113->72 [0.01ms]
+[2026-05-22 10:44:34] SCORE The bandits (lawn green): Final=299.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE AlphaZeroClue (gray0): Final=294.7, Time=92.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE S&S (red): Final=307.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE jat (blue): Final=310.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 2 (yellow): Final=296.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 21: The bandits (lawn green) 22->14 [0.00ms]
+[2026-05-22 10:44:35] SCORE The bandits (lawn green): Final=315.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE AlphaZeroClue (gray0): Final=294.7, Time=92.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE S&S (red): Final=307.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE jat (blue): Final=310.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 2 (yellow): Final=296.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 22: Gruppe 2 (yellow) 36->17 [0.00ms]
+[2026-05-22 10:44:35] SCORE The bandits (lawn green): Final=315.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE AlphaZeroClue (gray0): Final=294.7, Time=92.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE S&S (red): Final=307.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE jat (blue): Final=310.1, Time=94.1, Moves(4)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 2 (yellow): Final=303.8, Time=97.8, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:36] MOVE 23: jat (blue) 16->83 [0.00ms]
+[2026-05-22 10:44:36] SCORE The bandits (lawn green): Final=315.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE AlphaZeroClue (gray0): Final=294.7, Time=92.7, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE S&S (red): Final=307.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE jat (blue): Final=321.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE Gruppe 2 (yellow): Final=303.8, Time=97.8, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 24: AlphaZeroClue (gray0) 87->70 [0.00ms]
+[2026-05-22 10:44:38] SCORE The bandits (lawn green): Final=315.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE AlphaZeroClue (gray0): Final=305.0, Time=91.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE S&S (red): Final=307.1, Time=99.1, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE jat (blue): Final=321.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 2 (yellow): Final=303.8, Time=97.8, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 25: S&S (red) 118->89 [0.00ms]
+[2026-05-22 10:44:38] SCORE The bandits (lawn green): Final=315.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE AlphaZeroClue (gray0): Final=305.0, Time=91.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE S&S (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE jat (blue): Final=321.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 2 (yellow): Final=303.8, Time=97.8, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 26: The bandits (lawn green) 44->80 [0.00ms]
+[2026-05-22 10:44:38] SCORE The bandits (lawn green): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE AlphaZeroClue (gray0): Final=305.0, Time=91.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE S&S (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE jat (blue): Final=321.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 2 (yellow): Final=303.8, Time=97.8, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 27: Gruppe 2 (yellow) 26->49 [0.00ms]
+[2026-05-22 10:44:38] SCORE The bandits (lawn green): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE AlphaZeroClue (gray0): Final=305.0, Time=91.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE S&S (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE jat (blue): Final=321.2, Time=93.2, Moves(5)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 2 (yellow): Final=307.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 28: jat (blue) 6->47 [0.00ms]
+[2026-05-22 10:44:40] SCORE The bandits (lawn green): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE AlphaZeroClue (gray0): Final=305.0, Time=91.0, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE S&S (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE jat (blue): Final=327.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Gruppe 2 (yellow): Final=307.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 29: AlphaZeroClue (gray0) 76->15 [0.01ms]
+[2026-05-22 10:44:42] SCORE The bandits (lawn green): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE AlphaZeroClue (gray0): Final=315.2, Time=89.2, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE S&S (red): Final=314.8, Time=98.8, Moves(5)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE jat (blue): Final=327.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 2 (yellow): Final=307.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 30: S&S (red) 116->13 [0.00ms]
+[2026-05-22 10:44:42] SCORE The bandits (lawn green): Final=326.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE AlphaZeroClue (gray0): Final=315.2, Time=89.2, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE S&S (red): Final=332.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE jat (blue): Final=327.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 2 (yellow): Final=307.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 31: The bandits (lawn green) 21->61 [0.00ms]
+[2026-05-22 10:44:42] SCORE The bandits (lawn green): Final=338.2, Time=98.2, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE AlphaZeroClue (gray0): Final=315.2, Time=89.2, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE S&S (red): Final=332.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE jat (blue): Final=327.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 2 (yellow): Final=307.6, Time=97.6, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 32: Gruppe 2 (yellow) 38->78 [0.00ms]
+[2026-05-22 10:44:43] SCORE The bandits (lawn green): Final=338.2, Time=98.2, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE AlphaZeroClue (gray0): Final=315.2, Time=89.2, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE S&S (red): Final=332.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE jat (blue): Final=327.8, Time=91.8, Moves(6)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 2 (yellow): Final=311.0, Time=97.0, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:44] MOVE 33: jat (blue) 8->28 [0.00ms]
+[2026-05-22 10:44:44] SCORE The bandits (lawn green): Final=338.2, Time=98.2, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE AlphaZeroClue (gray0): Final=315.2, Time=89.2, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE S&S (red): Final=332.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE jat (blue): Final=330.4, Time=90.4, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE Gruppe 2 (yellow): Final=311.0, Time=97.0, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 34: AlphaZeroClue (gray0) 99->38 [0.01ms]
+[2026-05-22 10:44:46] SCORE The bandits (lawn green): Final=338.2, Time=98.2, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE AlphaZeroClue (gray0): Final=325.4, Time=87.4, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE S&S (red): Final=332.6, Time=98.6, Moves(6)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE jat (blue): Final=330.4, Time=90.4, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 2 (yellow): Final=311.0, Time=97.0, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 35: S&S (red) 112->69 [0.02ms]
+[2026-05-22 10:44:46] SCORE The bandits (lawn green): Final=338.2, Time=98.2, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE AlphaZeroClue (gray0): Final=325.4, Time=87.4, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE S&S (red): Final=340.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE jat (blue): Final=330.4, Time=90.4, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 2 (yellow): Final=311.0, Time=97.0, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 36: The bandits (lawn green) 45->58 [0.01ms]
+[2026-05-22 10:44:47] SCORE The bandits (lawn green): Final=353.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE AlphaZeroClue (gray0): Final=325.4, Time=87.4, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE S&S (red): Final=340.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE jat (blue): Final=330.4, Time=90.4, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Gruppe 2 (yellow): Final=311.0, Time=97.0, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 37: Gruppe 2 (yellow) 37->62 [0.00ms]
+[2026-05-22 10:44:47] SCORE The bandits (lawn green): Final=353.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE AlphaZeroClue (gray0): Final=325.4, Time=87.4, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE S&S (red): Final=340.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE jat (blue): Final=330.4, Time=90.4, Moves(7)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Gruppe 2 (yellow): Final=322.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:48] MOVE 38: jat (blue) 9->68 [0.00ms]
+[2026-05-22 10:44:48] SCORE The bandits (lawn green): Final=353.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE AlphaZeroClue (gray0): Final=325.4, Time=87.4, Moves(7)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE S&S (red): Final=340.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE jat (blue): Final=341.0, Time=89.0, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE Gruppe 2 (yellow): Final=322.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 39: AlphaZeroClue (gray0) 56->20 [0.01ms]
+[2026-05-22 10:44:50] SCORE The bandits (lawn green): Final=353.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE AlphaZeroClue (gray0): Final=441.4, Time=85.4, Moves(8)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE S&S (red): Final=340.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE jat (blue): Final=341.0, Time=89.0, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Gruppe 2 (yellow): Final=322.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 40: S&S (red) 72->52 [0.00ms]
+[2026-05-22 10:44:50] SCORE The bandits (lawn green): Final=353.8, Time=97.8, Moves(8)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE AlphaZeroClue (gray0): Final=441.4, Time=85.4, Moves(8)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE S&S (red): Final=344.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE jat (blue): Final=341.0, Time=89.0, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Gruppe 2 (yellow): Final=322.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 41: The bandits (lawn green) 33->31 [0.00ms]
+[2026-05-22 10:44:51] SCORE The bandits (lawn green): Final=357.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE AlphaZeroClue (gray0): Final=441.4, Time=85.4, Moves(8)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE S&S (red): Final=344.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE jat (blue): Final=341.0, Time=89.0, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 2 (yellow): Final=322.8, Time=96.8, Moves(8)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 42: Gruppe 2 (yellow) 35->43 [0.00ms]
+[2026-05-22 10:44:52] SCORE The bandits (lawn green): Final=357.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE AlphaZeroClue (gray0): Final=441.4, Time=85.4, Moves(8)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE S&S (red): Final=344.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE jat (blue): Final=341.0, Time=89.0, Moves(8)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Gruppe 2 (yellow): Final=338.1, Time=96.1, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 43: jat (blue) 7->48 [0.00ms]
+[2026-05-22 10:44:53] SCORE The bandits (lawn green): Final=357.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE AlphaZeroClue (gray0): Final=441.4, Time=85.4, Moves(8)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE S&S (red): Final=344.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE jat (blue): Final=347.5, Time=87.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Gruppe 2 (yellow): Final=338.1, Time=96.1, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 44: AlphaZeroClue (gray0) 75->18 [0.00ms]
+[2026-05-22 10:44:55] SCORE The bandits (lawn green): Final=357.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE AlphaZeroClue (gray0): Final=459.6, Time=83.6, Moves(9)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE S&S (red): Final=344.1, Time=98.1, Moves(8)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE jat (blue): Final=347.5, Time=87.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 2 (yellow): Final=338.1, Time=96.1, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 45: S&S (red) 117->106 [0.00ms]
+[2026-05-22 10:44:55] SCORE The bandits (lawn green): Final=357.5, Time=97.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE AlphaZeroClue (gray0): Final=459.6, Time=83.6, Moves(9)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE S&S (red): Final=347.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE jat (blue): Final=347.5, Time=87.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 2 (yellow): Final=338.1, Time=96.1, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 46: The bandits (lawn green) 32->30 [0.01ms]
+[2026-05-22 10:44:55] SCORE The bandits (lawn green): Final=361.1, Time=97.1, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE AlphaZeroClue (gray0): Final=459.6, Time=83.6, Moves(9)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE S&S (red): Final=347.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE jat (blue): Final=347.5, Time=87.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 2 (yellow): Final=338.1, Time=96.1, Moves(9)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:56] MOVE 47: Gruppe 2 (yellow) 12->16 [0.00ms]
+[2026-05-22 10:44:56] SCORE The bandits (lawn green): Final=361.1, Time=97.1, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE AlphaZeroClue (gray0): Final=459.6, Time=83.6, Moves(9)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE S&S (red): Final=347.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE jat (blue): Final=347.5, Time=87.5, Moves(9)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE Gruppe 2 (yellow): Final=345.6, Time=95.6, Moves(10)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 48: jat (blue) 2->27 [0.01ms]
+[2026-05-22 10:44:57] SCORE The bandits (lawn green): Final=361.1, Time=97.1, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE AlphaZeroClue (gray0): Final=459.6, Time=83.6, Moves(9)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE S&S (red): Final=347.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE jat (blue): Final=354.1, Time=86.1, Moves(10)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE Gruppe 2 (yellow): Final=345.6, Time=95.6, Moves(10)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 49: AlphaZeroClue (gray0) 77->39 [0.00ms]
+[2026-05-22 10:44:59] SCORE The bandits (lawn green): Final=361.1, Time=97.1, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE AlphaZeroClue (gray0): Final=465.7, Time=81.7, Moves(10)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE S&S (red): Final=347.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE jat (blue): Final=354.1, Time=86.1, Moves(10)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 2 (yellow): Final=345.6, Time=95.6, Moves(10)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 50: S&S (red) 102->12 [0.00ms]
+[2026-05-22 10:45:00] SCORE The bandits (lawn green): Final=361.1, Time=97.1, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE AlphaZeroClue (gray0): Final=465.7, Time=81.7, Moves(10)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE S&S (red): Final=359.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE jat (blue): Final=354.1, Time=86.1, Moves(10)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 2 (yellow): Final=345.6, Time=95.6, Moves(10)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 51: The bandits (lawn green) 19->63 [0.00ms]
+[2026-05-22 10:45:00] SCORE The bandits (lawn green): Final=365.0, Time=97.0, Moves(11)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE AlphaZeroClue (gray0): Final=465.7, Time=81.7, Moves(10)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE S&S (red): Final=359.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE jat (blue): Final=354.1, Time=86.1, Moves(10)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 2 (yellow): Final=345.6, Time=95.6, Moves(10)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 52: Gruppe 2 (yellow) 25->26 [0.00ms]
+[2026-05-22 10:45:00] SCORE The bandits (lawn green): Final=365.0, Time=97.0, Moves(11)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE AlphaZeroClue (gray0): Final=465.7, Time=81.7, Moves(10)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE S&S (red): Final=359.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE jat (blue): Final=354.1, Time=86.1, Moves(10)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 2 (yellow): Final=347.4, Time=95.4, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 53: jat (blue) 1->8 [0.00ms]
+[2026-05-22 10:45:01] SCORE The bandits (lawn green): Final=365.0, Time=97.0, Moves(11)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE AlphaZeroClue (gray0): Final=465.7, Time=81.7, Moves(10)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE S&S (red): Final=359.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE jat (blue): Final=356.7, Time=84.7, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 2 (yellow): Final=347.4, Time=95.4, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 54: AlphaZeroClue (gray0) 100->60 [0.00ms]
+[2026-05-22 10:45:03] SCORE The bandits (lawn green): Final=365.0, Time=97.0, Moves(11)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE AlphaZeroClue (gray0): Final=475.9, Time=79.9, Moves(11)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE S&S (red): Final=359.6, Time=97.6, Moves(10)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE jat (blue): Final=356.7, Time=84.7, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE Gruppe 2 (yellow): Final=347.4, Time=95.4, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 55: S&S (red) 114->55 [0.00ms]
+[2026-05-22 10:45:03] SCORE The bandits (lawn green): Final=365.0, Time=97.0, Moves(11)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE AlphaZeroClue (gray0): Final=475.9, Time=79.9, Moves(11)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE S&S (red): Final=369.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE jat (blue): Final=356.7, Time=84.7, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 2 (yellow): Final=347.4, Time=95.4, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 56: The bandits (lawn green) 61->76 [0.00ms]
+[2026-05-22 10:45:04] SCORE The bandits (lawn green): Final=476.7, Time=96.7, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE AlphaZeroClue (gray0): Final=475.9, Time=79.9, Moves(11)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE S&S (red): Final=369.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE jat (blue): Final=356.7, Time=84.7, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 2 (yellow): Final=347.4, Time=95.4, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 57: Gruppe 2 (yellow) 78->84 [0.00ms]
+[2026-05-22 10:45:04] SCORE The bandits (lawn green): Final=476.7, Time=96.7, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE AlphaZeroClue (gray0): Final=475.9, Time=79.9, Moves(11)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE S&S (red): Final=369.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE jat (blue): Final=356.7, Time=84.7, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 2 (yellow): Final=458.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 58: jat (blue) 4->7 [0.00ms]
+[2026-05-22 10:45:06] SCORE The bandits (lawn green): Final=476.7, Time=96.7, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE AlphaZeroClue (gray0): Final=475.9, Time=79.9, Moves(11)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE S&S (red): Final=369.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE jat (blue): Final=357.3, Time=83.3, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 2 (yellow): Final=458.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 59: AlphaZeroClue (gray0) 38->21 [0.01ms]
+[2026-05-22 10:45:08] SCORE The bandits (lawn green): Final=476.7, Time=96.7, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE AlphaZeroClue (gray0): Final=586.0, Time=78.0, Moves(12)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE S&S (red): Final=369.3, Time=97.3, Moves(11)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE jat (blue): Final=357.3, Time=83.3, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 2 (yellow): Final=458.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 60: S&S (red) 69->51 [0.00ms]
+[2026-05-22 10:45:08] SCORE The bandits (lawn green): Final=476.7, Time=96.7, Moves(12)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE AlphaZeroClue (gray0): Final=586.0, Time=78.0, Moves(12)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE S&S (red): Final=373.0, Time=97.0, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE jat (blue): Final=357.3, Time=83.3, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 2 (yellow): Final=458.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 61: The bandits (lawn green) 63->101 [0.00ms]
+[2026-05-22 10:45:08] SCORE The bandits (lawn green): Final=592.5, Time=96.5, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE AlphaZeroClue (gray0): Final=586.0, Time=78.0, Moves(12)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE S&S (red): Final=373.0, Time=97.0, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE jat (blue): Final=357.3, Time=83.3, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 2 (yellow): Final=458.9, Time=94.9, Moves(12)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 62: Gruppe 2 (yellow) 49->96 [0.01ms]
+[2026-05-22 10:45:08] SCORE The bandits (lawn green): Final=592.5, Time=96.5, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE AlphaZeroClue (gray0): Final=586.0, Time=78.0, Moves(12)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE S&S (red): Final=373.0, Time=97.0, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE jat (blue): Final=357.3, Time=83.3, Moves(12)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 2 (yellow): Final=572.6, Time=94.6, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 63: jat (blue) 28->112 [0.01ms]
+[2026-05-22 10:45:10] SCORE The bandits (lawn green): Final=592.5, Time=96.5, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE AlphaZeroClue (gray0): Final=586.0, Time=78.0, Moves(12)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE S&S (red): Final=373.0, Time=97.0, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE jat (blue): Final=472.0, Time=82.0, Moves(13)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 2 (yellow): Final=572.6, Time=94.6, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 64: AlphaZeroClue (gray0) 65->73 [0.00ms]
+[2026-05-22 10:45:12] SCORE The bandits (lawn green): Final=592.5, Time=96.5, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE AlphaZeroClue (gray0): Final=600.1, Time=76.1, Moves(13)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE S&S (red): Final=373.0, Time=97.0, Moves(12)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE jat (blue): Final=472.0, Time=82.0, Moves(13)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 2 (yellow): Final=572.6, Time=94.6, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 65: S&S (red) 51->6 [0.00ms]
+[2026-05-22 10:45:12] SCORE The bandits (lawn green): Final=592.5, Time=96.5, Moves(13)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE AlphaZeroClue (gray0): Final=600.1, Time=76.1, Moves(13)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE S&S (red): Final=480.8, Time=96.8, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE jat (blue): Final=472.0, Time=82.0, Moves(13)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 2 (yellow): Final=572.6, Time=94.6, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 66: The bandits (lawn green) 53->65 [0.00ms]
+[2026-05-22 10:45:12] SCORE The bandits (lawn green): Final=708.1, Time=96.1, Moves(14)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE AlphaZeroClue (gray0): Final=600.1, Time=76.1, Moves(13)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE S&S (red): Final=480.8, Time=96.8, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE jat (blue): Final=472.0, Time=82.0, Moves(13)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 2 (yellow): Final=572.6, Time=94.6, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 67: Gruppe 2 (yellow) 17->59 [0.00ms]
+[2026-05-22 10:45:12] SCORE The bandits (lawn green): Final=708.1, Time=96.1, Moves(14)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE AlphaZeroClue (gray0): Final=600.1, Time=76.1, Moves(13)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE S&S (red): Final=480.8, Time=96.8, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE jat (blue): Final=472.0, Time=82.0, Moves(13)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 2 (yellow): Final=572.3, Time=94.3, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:14] MOVE 68: jat (blue) 8->114 [0.00ms]
+[2026-05-22 10:45:14] SCORE The bandits (lawn green): Final=708.1, Time=96.1, Moves(14)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE AlphaZeroClue (gray0): Final=600.1, Time=76.1, Moves(13)=0.0, Pins(2)=200.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE S&S (red): Final=480.8, Time=96.8, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE jat (blue): Final=590.5, Time=80.5, Moves(14)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:45:14] SCORE Gruppe 2 (yellow): Final=572.3, Time=94.3, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:16] MOVE 69: AlphaZeroClue (gray0) 88->90 [0.01ms]
+[2026-05-22 10:45:16] SCORE The bandits (lawn green): Final=708.1, Time=96.1, Moves(14)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE AlphaZeroClue (gray0): Final=602.3, Time=74.3, Moves(14)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE S&S (red): Final=480.8, Time=96.8, Moves(13)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE jat (blue): Final=590.5, Time=80.5, Moves(14)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE Gruppe 2 (yellow): Final=572.3, Time=94.3, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:16] MOVE 70: S&S (red) 55->8 [0.00ms]
+[2026-05-22 10:45:16] SCORE The bandits (lawn green): Final=708.1, Time=96.1, Moves(14)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE AlphaZeroClue (gray0): Final=602.3, Time=74.3, Moves(14)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE S&S (red): Final=590.5, Time=96.5, Moves(14)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE jat (blue): Final=590.5, Time=80.5, Moves(14)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE Gruppe 2 (yellow): Final=572.3, Time=94.3, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:16] MOVE 71: The bandits (lawn green) 14->75 [0.00ms]
+[2026-05-22 10:45:16] SCORE The bandits (lawn green): Final=817.8, Time=95.8, Moves(15)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE AlphaZeroClue (gray0): Final=602.3, Time=74.3, Moves(14)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE S&S (red): Final=590.5, Time=96.5, Moves(14)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE jat (blue): Final=590.5, Time=80.5, Moves(14)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:45:16] SCORE Gruppe 2 (yellow): Final=572.3, Time=94.3, Moves(14)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:45:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:17] MOVE 72: Gruppe 2 (yellow) 26->55 [0.00ms]
+[2026-05-22 10:45:17] SCORE The bandits (lawn green): Final=817.8, Time=95.8, Moves(15)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE AlphaZeroClue (gray0): Final=602.3, Time=74.3, Moves(14)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE S&S (red): Final=590.5, Time=96.5, Moves(14)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE jat (blue): Final=590.5, Time=80.5, Moves(14)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:45:17] SCORE Gruppe 2 (yellow): Final=585.7, Time=93.7, Moves(15)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:45:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:18] MOVE 73: jat (blue) 47->92 [0.00ms]
+[2026-05-22 10:45:18] SCORE The bandits (lawn green): Final=817.8, Time=95.8, Moves(15)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE AlphaZeroClue (gray0): Final=602.3, Time=74.3, Moves(14)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE S&S (red): Final=590.5, Time=96.5, Moves(14)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE jat (blue): Final=597.3, Time=79.3, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:18] SCORE Gruppe 2 (yellow): Final=585.7, Time=93.7, Moves(15)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:45:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:20] MOVE 74: AlphaZeroClue (gray0) 18->19 [0.00ms]
+[2026-05-22 10:45:20] SCORE The bandits (lawn green): Final=817.8, Time=95.8, Moves(15)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE AlphaZeroClue (gray0): Final=702.5, Time=72.5, Moves(15)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE S&S (red): Final=590.5, Time=96.5, Moves(14)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE jat (blue): Final=597.3, Time=79.3, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE Gruppe 2 (yellow): Final=585.7, Time=93.7, Moves(15)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:45:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:20] MOVE 75: S&S (red) 12->3 [0.00ms]
+[2026-05-22 10:45:20] SCORE The bandits (lawn green): Final=817.8, Time=95.8, Moves(15)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE AlphaZeroClue (gray0): Final=702.5, Time=72.5, Moves(15)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE S&S (red): Final=696.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE jat (blue): Final=597.3, Time=79.3, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE Gruppe 2 (yellow): Final=585.7, Time=93.7, Moves(15)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:45:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:20] MOVE 76: The bandits (lawn green) 58->100 [0.00ms]
+[2026-05-22 10:45:20] SCORE The bandits (lawn green): Final=923.7, Time=95.7, Moves(16)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE AlphaZeroClue (gray0): Final=702.5, Time=72.5, Moves(15)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE S&S (red): Final=696.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE jat (blue): Final=597.3, Time=79.3, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:20] SCORE Gruppe 2 (yellow): Final=585.7, Time=93.7, Moves(15)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:45:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:21] MOVE 77: Gruppe 2 (yellow) 16->79 [0.00ms]
+[2026-05-22 10:45:21] SCORE The bandits (lawn green): Final=923.7, Time=95.7, Moves(16)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE AlphaZeroClue (gray0): Final=702.5, Time=72.5, Moves(15)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE S&S (red): Final=696.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE jat (blue): Final=597.3, Time=79.3, Moves(15)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:21] SCORE Gruppe 2 (yellow): Final=589.2, Time=93.2, Moves(16)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:22] MOVE 78: jat (blue) 68->111 [0.01ms]
+[2026-05-22 10:45:22] SCORE The bandits (lawn green): Final=923.7, Time=95.7, Moves(16)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE AlphaZeroClue (gray0): Final=702.5, Time=72.5, Moves(15)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE S&S (red): Final=696.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE jat (blue): Final=703.9, Time=77.9, Moves(16)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:22] SCORE Gruppe 2 (yellow): Final=589.2, Time=93.2, Moves(16)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:24] MOVE 79: AlphaZeroClue (gray0) 90->32 [0.00ms]
+[2026-05-22 10:45:24] SCORE The bandits (lawn green): Final=923.7, Time=95.7, Moves(16)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE AlphaZeroClue (gray0): Final=816.7, Time=70.7, Moves(16)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE S&S (red): Final=696.3, Time=96.3, Moves(15)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE jat (blue): Final=703.9, Time=77.9, Moves(16)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE Gruppe 2 (yellow): Final=589.2, Time=93.2, Moves(16)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:24] MOVE 80: S&S (red) 104->5 [0.00ms]
+[2026-05-22 10:45:24] SCORE The bandits (lawn green): Final=923.7, Time=95.7, Moves(16)=0.0, Pins(5)=500.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE AlphaZeroClue (gray0): Final=816.7, Time=70.7, Moves(16)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE S&S (red): Final=814.0, Time=96.0, Moves(16)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE jat (blue): Final=703.9, Time=77.9, Moves(16)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:24] SCORE Gruppe 2 (yellow): Final=589.2, Time=93.2, Moves(16)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:25] MOVE 81: The bandits (lawn green) 71->88 [0.00ms]
+[2026-05-22 10:45:25] SCORE The bandits (lawn green): Final=1035.3, Time=95.3, Moves(17)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE AlphaZeroClue (gray0): Final=816.7, Time=70.7, Moves(16)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE S&S (red): Final=814.0, Time=96.0, Moves(16)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE jat (blue): Final=703.9, Time=77.9, Moves(16)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE Gruppe 2 (yellow): Final=589.2, Time=93.2, Moves(16)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:45:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:25] MOVE 82: Gruppe 2 (yellow) 59->63 [0.00ms]
+[2026-05-22 10:45:25] SCORE The bandits (lawn green): Final=1035.3, Time=95.3, Moves(17)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE AlphaZeroClue (gray0): Final=816.7, Time=70.7, Moves(16)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE S&S (red): Final=814.0, Time=96.0, Moves(16)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE jat (blue): Final=703.9, Time=77.9, Moves(16)=0.0, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:25] SCORE Gruppe 2 (yellow): Final=596.6, Time=92.6, Moves(17)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:26] MOVE 83: jat (blue) 81->115 [0.01ms]
+[2026-05-22 10:45:26] SCORE The bandits (lawn green): Final=1035.3, Time=95.3, Moves(17)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE AlphaZeroClue (gray0): Final=816.7, Time=70.7, Moves(16)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE S&S (red): Final=814.0, Time=96.0, Moves(16)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE jat (blue): Final=808.8, Time=76.8, Moves(17)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:45:26] SCORE Gruppe 2 (yellow): Final=596.6, Time=92.6, Moves(17)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:28] MOVE 84: AlphaZeroClue (gray0) 73->74 [0.00ms]
+[2026-05-22 10:45:28] SCORE The bandits (lawn green): Final=1035.3, Time=95.3, Moves(17)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE AlphaZeroClue (gray0): Final=814.9, Time=68.9, Moves(17)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE S&S (red): Final=814.0, Time=96.0, Moves(16)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE jat (blue): Final=808.8, Time=76.8, Moves(17)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:45:28] SCORE Gruppe 2 (yellow): Final=596.6, Time=92.6, Moves(17)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:29] MOVE 85: S&S (red) 106->81 [0.00ms]
+[2026-05-22 10:45:29] SCORE The bandits (lawn green): Final=1035.3, Time=95.3, Moves(17)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE AlphaZeroClue (gray0): Final=814.9, Time=68.9, Moves(17)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE S&S (red): Final=817.6, Time=95.6, Moves(17)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE jat (blue): Final=808.8, Time=76.8, Moves(17)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE Gruppe 2 (yellow): Final=596.6, Time=92.6, Moves(17)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:29] MOVE 86: The bandits (lawn green) 75->86 [0.01ms]
+[2026-05-22 10:45:29] SCORE The bandits (lawn green): Final=1035.0, Time=95.0, Moves(18)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE AlphaZeroClue (gray0): Final=814.9, Time=68.9, Moves(17)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE S&S (red): Final=817.6, Time=95.6, Moves(17)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE jat (blue): Final=808.8, Time=76.8, Moves(17)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE Gruppe 2 (yellow): Final=596.6, Time=92.6, Moves(17)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:45:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:29] MOVE 87: Gruppe 2 (yellow) 23->25 [0.00ms]
+[2026-05-22 10:45:29] SCORE The bandits (lawn green): Final=1035.0, Time=95.0, Moves(18)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE AlphaZeroClue (gray0): Final=814.9, Time=68.9, Moves(17)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE S&S (red): Final=817.6, Time=95.6, Moves(17)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE jat (blue): Final=808.8, Time=76.8, Moves(17)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:45:29] SCORE Gruppe 2 (yellow): Final=600.3, Time=92.3, Moves(18)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:31] MOVE 88: jat (blue) 7->16 [0.01ms]
+[2026-05-22 10:45:31] SCORE The bandits (lawn green): Final=1035.0, Time=95.0, Moves(18)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE AlphaZeroClue (gray0): Final=814.9, Time=68.9, Moves(17)=0.0, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE S&S (red): Final=817.6, Time=95.6, Moves(17)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE jat (blue): Final=809.4, Time=75.4, Moves(18)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:45:31] SCORE Gruppe 2 (yellow): Final=600.3, Time=92.3, Moves(18)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:32] MOVE 89: AlphaZeroClue (gray0) 15->44 [0.00ms]
+[2026-05-22 10:45:32] SCORE The bandits (lawn green): Final=1035.0, Time=95.0, Moves(18)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE AlphaZeroClue (gray0): Final=921.1, Time=67.1, Moves(18)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE S&S (red): Final=817.6, Time=95.6, Moves(17)=0.0, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE jat (blue): Final=809.4, Time=75.4, Moves(18)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:45:32] SCORE Gruppe 2 (yellow): Final=600.3, Time=92.3, Moves(18)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:33] MOVE 90: S&S (red) 66->56 [0.00ms]
+[2026-05-22 10:45:33] SCORE The bandits (lawn green): Final=1035.0, Time=95.0, Moves(18)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE AlphaZeroClue (gray0): Final=921.1, Time=67.1, Moves(18)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE S&S (red): Final=819.4, Time=95.4, Moves(18)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE jat (blue): Final=809.4, Time=75.4, Moves(18)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE Gruppe 2 (yellow): Final=600.3, Time=92.3, Moves(18)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:33] MOVE 91: The bandits (lawn green) 100->98 [0.01ms]
+[2026-05-22 10:45:33] SCORE The bandits (lawn green): Final=1034.6, Time=94.6, Moves(19)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE AlphaZeroClue (gray0): Final=921.1, Time=67.1, Moves(18)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE S&S (red): Final=819.4, Time=95.4, Moves(18)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE jat (blue): Final=809.4, Time=75.4, Moves(18)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:45:33] SCORE Gruppe 2 (yellow): Final=600.3, Time=92.3, Moves(18)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:45:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:34] MOVE 92: Gruppe 2 (yellow) 24->49 [0.00ms]
+[2026-05-22 10:45:34] SCORE The bandits (lawn green): Final=1034.6, Time=94.6, Moves(19)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE AlphaZeroClue (gray0): Final=921.1, Time=67.1, Moves(18)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE S&S (red): Final=819.4, Time=95.4, Moves(18)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE jat (blue): Final=809.4, Time=75.4, Moves(18)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:45:34] SCORE Gruppe 2 (yellow): Final=607.7, Time=91.7, Moves(19)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:45:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:35] MOVE 93: jat (blue) 27->50 [0.01ms]
+[2026-05-22 10:45:35] SCORE The bandits (lawn green): Final=1034.6, Time=94.6, Moves(19)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE AlphaZeroClue (gray0): Final=921.1, Time=67.1, Moves(18)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE S&S (red): Final=819.4, Time=95.4, Moves(18)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE jat (blue): Final=811.9, Time=73.9, Moves(19)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:35] SCORE Gruppe 2 (yellow): Final=607.7, Time=91.7, Moves(19)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:45:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 94: AlphaZeroClue (gray0) 105->93 [0.00ms]
+[2026-05-22 10:45:37] SCORE The bandits (lawn green): Final=1034.6, Time=94.6, Moves(19)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE AlphaZeroClue (gray0): Final=921.4, Time=65.4, Moves(19)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE S&S (red): Final=819.4, Time=95.4, Moves(18)=0.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE jat (blue): Final=811.9, Time=73.9, Moves(19)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Gruppe 2 (yellow): Final=607.7, Time=91.7, Moves(19)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 95: S&S (red) 89->66 [0.00ms]
+[2026-05-22 10:45:37] SCORE The bandits (lawn green): Final=1034.6, Time=94.6, Moves(19)=0.0, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE AlphaZeroClue (gray0): Final=921.4, Time=65.4, Moves(19)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE S&S (red): Final=823.2, Time=95.2, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE jat (blue): Final=811.9, Time=73.9, Moves(19)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Gruppe 2 (yellow): Final=607.7, Time=91.7, Moves(19)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:37] MOVE 96: The bandits (lawn green) 30->41 [0.00ms]
+[2026-05-22 10:45:37] SCORE The bandits (lawn green): Final=1036.2, Time=94.2, Moves(20)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE AlphaZeroClue (gray0): Final=921.4, Time=65.4, Moves(19)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE S&S (red): Final=823.2, Time=95.2, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE jat (blue): Final=811.9, Time=73.9, Moves(19)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:37] SCORE Gruppe 2 (yellow): Final=607.7, Time=91.7, Moves(19)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:45:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:38] MOVE 97: Gruppe 2 (yellow) 49->94 [0.00ms]
+[2026-05-22 10:45:38] SCORE The bandits (lawn green): Final=1036.2, Time=94.2, Moves(20)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE AlphaZeroClue (gray0): Final=921.4, Time=65.4, Moves(19)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE S&S (red): Final=823.2, Time=95.2, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE jat (blue): Final=811.9, Time=73.9, Moves(19)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:38] SCORE Gruppe 2 (yellow): Final=619.1, Time=91.1, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:39] MOVE 98: jat (blue) 83->120 [0.00ms]
+[2026-05-22 10:45:39] SCORE The bandits (lawn green): Final=1036.2, Time=94.2, Moves(20)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE AlphaZeroClue (gray0): Final=921.4, Time=65.4, Moves(19)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE S&S (red): Final=823.2, Time=95.2, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE jat (blue): Final=916.4, Time=72.4, Moves(20)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:39] SCORE Gruppe 2 (yellow): Final=619.1, Time=91.1, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:41] MOVE 99: AlphaZeroClue (gray0) 32->28 [0.01ms]
+[2026-05-22 10:45:41] SCORE The bandits (lawn green): Final=1036.2, Time=94.2, Moves(20)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE AlphaZeroClue (gray0): Final=811.7, Time=63.7, Moves(20)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE S&S (red): Final=823.2, Time=95.2, Moves(19)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE jat (blue): Final=916.4, Time=72.4, Moves(20)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE Gruppe 2 (yellow): Final=619.1, Time=91.1, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:41] MOVE 100: S&S (red) 52->2 [0.01ms]
+[2026-05-22 10:45:41] SCORE The bandits (lawn green): Final=1036.2, Time=94.2, Moves(20)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE AlphaZeroClue (gray0): Final=811.7, Time=63.7, Moves(20)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE S&S (red): Final=931.0, Time=95.0, Moves(20)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE jat (blue): Final=916.4, Time=72.4, Moves(20)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:41] SCORE Gruppe 2 (yellow): Final=619.1, Time=91.1, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:42] MOVE 101: The bandits (lawn green) 54->52 [0.01ms]
+[2026-05-22 10:45:42] SCORE The bandits (lawn green): Final=1040.1, Time=94.1, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE AlphaZeroClue (gray0): Final=811.7, Time=63.7, Moves(20)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE S&S (red): Final=931.0, Time=95.0, Moves(20)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE jat (blue): Final=916.4, Time=72.4, Moves(20)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE Gruppe 2 (yellow): Final=619.1, Time=91.1, Moves(20)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:42] MOVE 102: Gruppe 2 (yellow) 94->95 [0.00ms]
+[2026-05-22 10:45:42] SCORE The bandits (lawn green): Final=1040.1, Time=94.1, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE AlphaZeroClue (gray0): Final=811.7, Time=63.7, Moves(20)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE S&S (red): Final=931.0, Time=95.0, Moves(20)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE jat (blue): Final=916.4, Time=72.4, Moves(20)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:42] SCORE Gruppe 2 (yellow): Final=720.7, Time=90.7, Moves(21)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:43] MOVE 103: jat (blue) 64->108 [0.01ms]
+[2026-05-22 10:45:43] SCORE The bandits (lawn green): Final=1040.1, Time=94.1, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:43] SCORE AlphaZeroClue (gray0): Final=811.7, Time=63.7, Moves(20)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:43] SCORE S&S (red): Final=931.0, Time=95.0, Moves(20)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:43] SCORE jat (blue): Final=919.1, Time=71.1, Moves(21)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:43] SCORE Gruppe 2 (yellow): Final=720.7, Time=90.7, Moves(21)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:45] MOVE 104: AlphaZeroClue (gray0) 28->30 [0.01ms]
+[2026-05-22 10:45:45] SCORE The bandits (lawn green): Final=1040.1, Time=94.1, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE AlphaZeroClue (gray0): Final=813.9, Time=61.9, Moves(21)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE S&S (red): Final=931.0, Time=95.0, Moves(20)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE jat (blue): Final=919.1, Time=71.1, Moves(21)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE Gruppe 2 (yellow): Final=720.7, Time=90.7, Moves(21)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:45] MOVE 105: S&S (red) 56->47 [0.00ms]
+[2026-05-22 10:45:45] SCORE The bandits (lawn green): Final=1040.1, Time=94.1, Moves(21)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE AlphaZeroClue (gray0): Final=813.9, Time=61.9, Moves(21)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE S&S (red): Final=932.8, Time=94.8, Moves(21)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE jat (blue): Final=919.1, Time=71.1, Moves(21)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:45] SCORE Gruppe 2 (yellow): Final=720.7, Time=90.7, Moves(21)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:46] MOVE 106: The bandits (lawn green) 31->29 [0.00ms]
+[2026-05-22 10:45:46] SCORE The bandits (lawn green): Final=1043.8, Time=93.8, Moves(22)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE AlphaZeroClue (gray0): Final=813.9, Time=61.9, Moves(21)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE S&S (red): Final=932.8, Time=94.8, Moves(21)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE jat (blue): Final=919.1, Time=71.1, Moves(21)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE Gruppe 2 (yellow): Final=720.7, Time=90.7, Moves(21)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:45:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:46] MOVE 107: Gruppe 2 (yellow) 43->85 [0.00ms]
+[2026-05-22 10:45:46] SCORE The bandits (lawn green): Final=1043.8, Time=93.8, Moves(22)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE AlphaZeroClue (gray0): Final=813.9, Time=61.9, Moves(21)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE S&S (red): Final=932.8, Time=94.8, Moves(21)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE jat (blue): Final=919.1, Time=71.1, Moves(21)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:45:46] SCORE Gruppe 2 (yellow): Final=826.4, Time=90.4, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:47] MOVE 108: jat (blue) 16->28 [0.05ms]
+[2026-05-22 10:45:47] SCORE The bandits (lawn green): Final=1043.8, Time=93.8, Moves(22)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:47] SCORE AlphaZeroClue (gray0): Final=813.9, Time=61.9, Moves(21)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:47] SCORE S&S (red): Final=932.8, Time=94.8, Moves(21)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:47] SCORE jat (blue): Final=919.6, Time=69.6, Moves(22)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:47] SCORE Gruppe 2 (yellow): Final=826.4, Time=90.4, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:49] MOVE 109: AlphaZeroClue (gray0) 74->64 [0.00ms]
+[2026-05-22 10:45:49] SCORE The bandits (lawn green): Final=1043.8, Time=93.8, Moves(22)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:49] SCORE AlphaZeroClue (gray0): Final=814.0, Time=60.0, Moves(22)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:49] SCORE S&S (red): Final=932.8, Time=94.8, Moves(21)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:49] SCORE jat (blue): Final=919.6, Time=69.6, Moves(22)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:49] SCORE Gruppe 2 (yellow): Final=826.4, Time=90.4, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:49] MOVE 110: S&S (red) 13->4 [0.00ms]
+[2026-05-22 10:45:49] SCORE The bandits (lawn green): Final=1043.8, Time=93.8, Moves(22)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE AlphaZeroClue (gray0): Final=814.0, Time=60.0, Moves(22)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE S&S (red): Final=1036.5, Time=94.5, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE jat (blue): Final=919.6, Time=69.6, Moves(22)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE Gruppe 2 (yellow): Final=826.4, Time=90.4, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:50] MOVE 111: The bandits (lawn green) 52->51 [0.00ms]
+[2026-05-22 10:45:50] SCORE The bandits (lawn green): Final=1045.5, Time=93.5, Moves(23)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE AlphaZeroClue (gray0): Final=814.0, Time=60.0, Moves(22)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE S&S (red): Final=1036.5, Time=94.5, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE jat (blue): Final=919.6, Time=69.6, Moves(22)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE Gruppe 2 (yellow): Final=826.4, Time=90.4, Moves(22)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:50] MOVE 112: Gruppe 2 (yellow) 96->97 [0.00ms]
+[2026-05-22 10:45:50] SCORE The bandits (lawn green): Final=1045.5, Time=93.5, Moves(23)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE AlphaZeroClue (gray0): Final=814.0, Time=60.0, Moves(22)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE S&S (red): Final=1036.5, Time=94.5, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE jat (blue): Final=919.6, Time=69.6, Moves(22)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:50] SCORE Gruppe 2 (yellow): Final=825.8, Time=89.8, Moves(23)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:52] MOVE 113: jat (blue) 28->49 [0.04ms]
+[2026-05-22 10:45:52] SCORE The bandits (lawn green): Final=1045.5, Time=93.5, Moves(23)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:52] SCORE AlphaZeroClue (gray0): Final=814.0, Time=60.0, Moves(22)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:52] SCORE S&S (red): Final=1036.5, Time=94.5, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:52] SCORE jat (blue): Final=922.2, Time=68.2, Moves(23)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:52] SCORE Gruppe 2 (yellow): Final=825.8, Time=89.8, Moves(23)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:54] MOVE 114: AlphaZeroClue (gray0) 64->45 [0.01ms]
+[2026-05-22 10:45:54] SCORE The bandits (lawn green): Final=1045.5, Time=93.5, Moves(23)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE AlphaZeroClue (gray0): Final=914.3, Time=58.3, Moves(23)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE S&S (red): Final=1036.5, Time=94.5, Moves(22)=0.0, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE jat (blue): Final=922.2, Time=68.2, Moves(23)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE Gruppe 2 (yellow): Final=825.8, Time=89.8, Moves(23)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:54] MOVE 115: S&S (red) 119->116 [0.00ms]
+[2026-05-22 10:45:54] SCORE The bandits (lawn green): Final=1045.5, Time=93.5, Moves(23)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE AlphaZeroClue (gray0): Final=914.3, Time=58.3, Moves(23)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE S&S (red): Final=1038.3, Time=94.3, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE jat (blue): Final=922.2, Time=68.2, Moves(23)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE Gruppe 2 (yellow): Final=825.8, Time=89.8, Moves(23)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:54] MOVE 116: The bandits (lawn green) 51->90 [0.00ms]
+[2026-05-22 10:45:54] SCORE The bandits (lawn green): Final=1053.4, Time=93.4, Moves(24)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE AlphaZeroClue (gray0): Final=914.3, Time=58.3, Moves(23)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE S&S (red): Final=1038.3, Time=94.3, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE jat (blue): Final=922.2, Time=68.2, Moves(23)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE Gruppe 2 (yellow): Final=825.8, Time=89.8, Moves(23)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:54] MOVE 117: Gruppe 2 (yellow) 62->64 [0.01ms]
+[2026-05-22 10:45:54] SCORE The bandits (lawn green): Final=1053.4, Time=93.4, Moves(24)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE AlphaZeroClue (gray0): Final=914.3, Time=58.3, Moves(23)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE S&S (red): Final=1038.3, Time=94.3, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE jat (blue): Final=922.2, Time=68.2, Moves(23)=0.0, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:54] SCORE Gruppe 2 (yellow): Final=829.6, Time=89.6, Moves(24)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:56] MOVE 118: jat (blue) 49->69 [0.01ms]
+[2026-05-22 10:45:56] SCORE The bandits (lawn green): Final=1053.4, Time=93.4, Moves(24)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:56] SCORE AlphaZeroClue (gray0): Final=914.3, Time=58.3, Moves(23)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:56] SCORE S&S (red): Final=1038.3, Time=94.3, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:56] SCORE jat (blue): Final=924.8, Time=66.8, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:56] SCORE Gruppe 2 (yellow): Final=829.6, Time=89.6, Moves(24)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:58] MOVE 119: AlphaZeroClue (gray0) 93->82 [0.01ms]
+[2026-05-22 10:45:58] SCORE The bandits (lawn green): Final=1053.4, Time=93.4, Moves(24)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE AlphaZeroClue (gray0): Final=914.3, Time=56.3, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE S&S (red): Final=1038.3, Time=94.3, Moves(23)=0.0, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE jat (blue): Final=924.8, Time=66.8, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE Gruppe 2 (yellow): Final=829.6, Time=89.6, Moves(24)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:58] MOVE 120: S&S (red) 116->78 [0.00ms]
+[2026-05-22 10:45:58] SCORE The bandits (lawn green): Final=1053.4, Time=93.4, Moves(24)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE AlphaZeroClue (gray0): Final=914.3, Time=56.3, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE S&S (red): Final=1046.1, Time=94.1, Moves(24)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE jat (blue): Final=924.8, Time=66.8, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE Gruppe 2 (yellow): Final=829.6, Time=89.6, Moves(24)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:58] MOVE 121: The bandits (lawn green) 80->57 [0.01ms]
+[2026-05-22 10:45:58] SCORE The bandits (lawn green): Final=1057.1, Time=93.1, Moves(25)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE AlphaZeroClue (gray0): Final=914.3, Time=56.3, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE S&S (red): Final=1046.1, Time=94.1, Moves(24)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE jat (blue): Final=924.8, Time=66.8, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE Gruppe 2 (yellow): Final=829.6, Time=89.6, Moves(24)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:45:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:58] MOVE 122: Gruppe 2 (yellow) 55->96 [0.00ms]
+[2026-05-22 10:45:58] SCORE The bandits (lawn green): Final=1057.1, Time=93.1, Moves(25)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE AlphaZeroClue (gray0): Final=914.3, Time=56.3, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE S&S (red): Final=1046.1, Time=94.1, Moves(24)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE jat (blue): Final=924.8, Time=66.8, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:58] SCORE Gruppe 2 (yellow): Final=933.4, Time=89.4, Moves(25)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:45:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:00] MOVE 123: jat (blue) 69->94 [0.00ms]
+[2026-05-22 10:46:00] SCORE The bandits (lawn green): Final=1057.1, Time=93.1, Moves(25)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:00] SCORE AlphaZeroClue (gray0): Final=914.3, Time=56.3, Moves(24)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:00] SCORE S&S (red): Final=1046.1, Time=94.1, Moves(24)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:00] SCORE jat (blue): Final=927.3, Time=65.3, Moves(25)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:00] SCORE Gruppe 2 (yellow): Final=933.4, Time=89.4, Moves(25)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:46:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:01] MOVE 124: AlphaZeroClue (gray0) 70->33 [0.01ms]
+[2026-05-22 10:46:01] SCORE The bandits (lawn green): Final=1057.1, Time=93.1, Moves(25)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:01] SCORE AlphaZeroClue (gray0): Final=1022.5, Time=54.5, Moves(25)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:01] SCORE S&S (red): Final=1046.1, Time=94.1, Moves(24)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:01] SCORE jat (blue): Final=927.3, Time=65.3, Moves(25)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:01] SCORE Gruppe 2 (yellow): Final=933.4, Time=89.4, Moves(25)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:46:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:02] MOVE 125: S&S (red) 66->54 [0.00ms]
+[2026-05-22 10:46:02] SCORE The bandits (lawn green): Final=1057.1, Time=93.1, Moves(25)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE AlphaZeroClue (gray0): Final=1022.5, Time=54.5, Moves(25)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE S&S (red): Final=1050.0, Time=94.0, Moves(25)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE jat (blue): Final=927.3, Time=65.3, Moves(25)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE Gruppe 2 (yellow): Final=933.4, Time=89.4, Moves(25)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:46:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:02] MOVE 126: The bandits (lawn green) 41->51 [0.00ms]
+[2026-05-22 10:46:02] SCORE The bandits (lawn green): Final=1058.9, Time=92.9, Moves(26)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE AlphaZeroClue (gray0): Final=1022.5, Time=54.5, Moves(25)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE S&S (red): Final=1050.0, Time=94.0, Moves(25)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE jat (blue): Final=927.3, Time=65.3, Moves(25)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE Gruppe 2 (yellow): Final=933.4, Time=89.4, Moves(25)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:46:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:02] MOVE 127: Gruppe 2 (yellow) 64->74 [0.00ms]
+[2026-05-22 10:46:02] SCORE The bandits (lawn green): Final=1058.9, Time=92.9, Moves(26)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE AlphaZeroClue (gray0): Final=1022.5, Time=54.5, Moves(25)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE S&S (red): Final=1050.0, Time=94.0, Moves(25)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE jat (blue): Final=927.3, Time=65.3, Moves(25)=0.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:02] SCORE Gruppe 2 (yellow): Final=1035.2, Time=89.2, Moves(26)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:46:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:03] MOVE 128: jat (blue) 50->91 [0.00ms]
+[2026-05-22 10:46:03] SCORE The bandits (lawn green): Final=1058.9, Time=92.9, Moves(26)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:03] SCORE AlphaZeroClue (gray0): Final=1022.5, Time=54.5, Moves(25)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:03] SCORE S&S (red): Final=1050.0, Time=94.0, Moves(25)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:03] SCORE jat (blue): Final=934.0, Time=64.0, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:03] SCORE Gruppe 2 (yellow): Final=1035.2, Time=89.2, Moves(26)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:46:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:05] MOVE 129: AlphaZeroClue (gray0) 45->34 [0.00ms]
+[2026-05-22 10:46:05] SCORE The bandits (lawn green): Final=1058.9, Time=92.9, Moves(26)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE AlphaZeroClue (gray0): Final=1020.5, Time=52.5, Moves(26)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE S&S (red): Final=1050.0, Time=94.0, Moves(25)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE jat (blue): Final=934.0, Time=64.0, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE Gruppe 2 (yellow): Final=1035.2, Time=89.2, Moves(26)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:46:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:05] MOVE 130: S&S (red) 54->27 [0.00ms]
+[2026-05-22 10:46:05] SCORE The bandits (lawn green): Final=1058.9, Time=92.9, Moves(26)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE AlphaZeroClue (gray0): Final=1020.5, Time=52.5, Moves(26)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE S&S (red): Final=1053.8, Time=93.8, Moves(26)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE jat (blue): Final=934.0, Time=64.0, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:05] SCORE Gruppe 2 (yellow): Final=1035.2, Time=89.2, Moves(26)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:46:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:06] MOVE 131: The bandits (lawn green) 57->66 [0.00ms]
+[2026-05-22 10:46:06] SCORE The bandits (lawn green): Final=1060.5, Time=92.5, Moves(27)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE AlphaZeroClue (gray0): Final=1020.5, Time=52.5, Moves(26)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE S&S (red): Final=1053.8, Time=93.8, Moves(26)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE jat (blue): Final=934.0, Time=64.0, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE Gruppe 2 (yellow): Final=1035.2, Time=89.2, Moves(26)=0.0, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:46:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:06] MOVE 132: Gruppe 2 (yellow) 79->104 [0.01ms]
+[2026-05-22 10:46:06] SCORE The bandits (lawn green): Final=1060.5, Time=92.5, Moves(27)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE AlphaZeroClue (gray0): Final=1020.5, Time=52.5, Moves(26)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE S&S (red): Final=1053.8, Time=93.8, Moves(26)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE jat (blue): Final=934.0, Time=64.0, Moves(26)=0.0, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:06] SCORE Gruppe 2 (yellow): Final=1039.0, Time=89.0, Moves(27)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:46:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:07] MOVE 133: jat (blue) 108->117 [0.00ms]
+[2026-05-22 10:46:07] SCORE The bandits (lawn green): Final=1060.5, Time=92.5, Moves(27)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:07] SCORE AlphaZeroClue (gray0): Final=1020.5, Time=52.5, Moves(26)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:07] SCORE S&S (red): Final=1053.8, Time=93.8, Moves(26)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:07] SCORE jat (blue): Final=1038.6, Time=62.6, Moves(27)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:46:07] SCORE Gruppe 2 (yellow): Final=1039.0, Time=89.0, Moves(27)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:46:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:09] MOVE 134: AlphaZeroClue (gray0) 30->18 [0.00ms]
+[2026-05-22 10:46:09] SCORE The bandits (lawn green): Final=1060.5, Time=92.5, Moves(27)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE AlphaZeroClue (gray0): Final=1020.8, Time=50.8, Moves(27)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE S&S (red): Final=1053.8, Time=93.8, Moves(26)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE jat (blue): Final=1038.6, Time=62.6, Moves(27)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE Gruppe 2 (yellow): Final=1039.0, Time=89.0, Moves(27)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:46:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:09] MOVE 135: S&S (red) 47->30 [0.00ms]
+[2026-05-22 10:46:09] SCORE The bandits (lawn green): Final=1060.5, Time=92.5, Moves(27)=0.0, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE AlphaZeroClue (gray0): Final=1020.8, Time=50.8, Moves(27)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE S&S (red): Final=1057.6, Time=93.6, Moves(27)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE jat (blue): Final=1038.6, Time=62.6, Moves(27)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:46:09] SCORE Gruppe 2 (yellow): Final=1039.0, Time=89.0, Moves(27)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:46:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:10] MOVE 136: The bandits (lawn green) 66->87 [0.00ms]
+[2026-05-22 10:46:10] SCORE The bandits (lawn green): Final=1162.1, Time=92.1, Moves(28)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE AlphaZeroClue (gray0): Final=1020.8, Time=50.8, Moves(27)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE S&S (red): Final=1057.6, Time=93.6, Moves(27)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE jat (blue): Final=1038.6, Time=62.6, Moves(27)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE Gruppe 2 (yellow): Final=1039.0, Time=89.0, Moves(27)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:46:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:10] MOVE 137: Gruppe 2 (yellow) 104->105 [0.00ms]
+[2026-05-22 10:46:10] SCORE The bandits (lawn green): Final=1162.1, Time=92.1, Moves(28)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE AlphaZeroClue (gray0): Final=1020.8, Time=50.8, Moves(27)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE S&S (red): Final=1057.6, Time=93.6, Moves(27)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE jat (blue): Final=1038.6, Time=62.6, Moves(27)=0.0, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:46:10] SCORE Gruppe 2 (yellow): Final=1040.4, Time=88.4, Moves(28)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:12] MOVE 138: jat (blue) 91->113 [0.01ms]
+[2026-05-22 10:46:12] SCORE The bandits (lawn green): Final=1162.1, Time=92.1, Moves(28)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:12] SCORE AlphaZeroClue (gray0): Final=1020.8, Time=50.8, Moves(27)=0.0, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:12] SCORE S&S (red): Final=1057.6, Time=93.6, Moves(27)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:12] SCORE jat (blue): Final=1141.2, Time=61.2, Moves(28)=0.0, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:12] SCORE Gruppe 2 (yellow): Final=1040.4, Time=88.4, Moves(28)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:14] MOVE 139: AlphaZeroClue (gray0) 18->16 [0.00ms]
+[2026-05-22 10:46:14] SCORE The bandits (lawn green): Final=1162.1, Time=92.1, Moves(28)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE AlphaZeroClue (gray0): Final=1014.9, Time=48.9, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE S&S (red): Final=1057.6, Time=93.6, Moves(27)=0.0, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE jat (blue): Final=1141.2, Time=61.2, Moves(28)=0.0, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE Gruppe 2 (yellow): Final=1040.4, Time=88.4, Moves(28)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:14] MOVE 140: S&S (red) 30->17 [0.00ms]
+[2026-05-22 10:46:14] SCORE The bandits (lawn green): Final=1162.1, Time=92.1, Moves(28)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE AlphaZeroClue (gray0): Final=1014.9, Time=48.9, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE S&S (red): Final=1059.4, Time=93.4, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE jat (blue): Final=1141.2, Time=61.2, Moves(28)=0.0, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE Gruppe 2 (yellow): Final=1040.4, Time=88.4, Moves(28)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:14] MOVE 141: The bandits (lawn green) 87->99 [0.00ms]
+[2026-05-22 10:46:14] SCORE The bandits (lawn green): Final=1162.0, Time=92.0, Moves(29)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE AlphaZeroClue (gray0): Final=1014.9, Time=48.9, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE S&S (red): Final=1059.4, Time=93.4, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE jat (blue): Final=1141.2, Time=61.2, Moves(28)=0.0, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE Gruppe 2 (yellow): Final=1040.4, Time=88.4, Moves(28)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:46:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:14] MOVE 142: Gruppe 2 (yellow) 105->106 [0.01ms]
+[2026-05-22 10:46:14] SCORE The bandits (lawn green): Final=1162.0, Time=92.0, Moves(29)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE AlphaZeroClue (gray0): Final=1014.9, Time=48.9, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE S&S (red): Final=1059.4, Time=93.4, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE jat (blue): Final=1141.2, Time=61.2, Moves(28)=0.0, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:14] SCORE Gruppe 2 (yellow): Final=1042.1, Time=88.1, Moves(29)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:46:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:16] MOVE 143: jat (blue) 48->58 [0.01ms]
+[2026-05-22 10:46:16] SCORE The bandits (lawn green): Final=1162.0, Time=92.0, Moves(29)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:16] SCORE AlphaZeroClue (gray0): Final=1014.9, Time=48.9, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:16] SCORE S&S (red): Final=1059.4, Time=93.4, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:16] SCORE jat (blue): Final=1141.8, Time=59.8, Moves(29)=0.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:16] SCORE Gruppe 2 (yellow): Final=1042.1, Time=88.1, Moves(29)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:46:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:17] MOVE 144: AlphaZeroClue (gray0) 16->41 [0.01ms]
+[2026-05-22 10:46:17] SCORE The bandits (lawn green): Final=1162.0, Time=92.0, Moves(29)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE AlphaZeroClue (gray0): Final=1013.2, Time=47.2, Moves(29)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE S&S (red): Final=1059.4, Time=93.4, Moves(28)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE jat (blue): Final=1141.8, Time=59.8, Moves(29)=0.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE Gruppe 2 (yellow): Final=1042.1, Time=88.1, Moves(29)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:46:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:18] MOVE 145: S&S (red) 17->9 [0.00ms]
+[2026-05-22 10:46:18] SCORE The bandits (lawn green): Final=1162.0, Time=92.0, Moves(29)=0.0, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE AlphaZeroClue (gray0): Final=1013.2, Time=47.2, Moves(29)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE S&S (red): Final=1161.3, Time=93.2, Moves(29)=0.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE jat (blue): Final=1141.8, Time=59.8, Moves(29)=0.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE Gruppe 2 (yellow): Final=1042.1, Time=88.1, Moves(29)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:46:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:18] MOVE 146: The bandits (lawn green) 29->87 [0.00ms]
+[2026-05-22 10:46:18] SCORE The bandits (lawn green): Final=1275.6, Time=91.6, Moves(30)=0.1, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE AlphaZeroClue (gray0): Final=1013.2, Time=47.2, Moves(29)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE S&S (red): Final=1161.3, Time=93.2, Moves(29)=0.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE jat (blue): Final=1141.8, Time=59.8, Moves(29)=0.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE Gruppe 2 (yellow): Final=1042.1, Time=88.1, Moves(29)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:46:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:18] MOVE 147: Gruppe 2 (yellow) 63->73 [0.00ms]
+[2026-05-22 10:46:18] SCORE The bandits (lawn green): Final=1275.6, Time=91.6, Moves(30)=0.1, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE AlphaZeroClue (gray0): Final=1013.2, Time=47.2, Moves(29)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE S&S (red): Final=1161.3, Time=93.2, Moves(29)=0.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE jat (blue): Final=1141.8, Time=59.8, Moves(29)=0.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:18] SCORE Gruppe 2 (yellow): Final=1044.0, Time=87.9, Moves(30)=0.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:20] MOVE 148: jat (blue) 92->104 [0.01ms]
+[2026-05-22 10:46:20] SCORE The bandits (lawn green): Final=1275.6, Time=91.6, Moves(30)=0.1, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:20] SCORE AlphaZeroClue (gray0): Final=1013.2, Time=47.2, Moves(29)=0.0, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:46:20] SCORE S&S (red): Final=1161.3, Time=93.2, Moves(29)=0.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:20] SCORE jat (blue): Final=1142.4, Time=58.4, Moves(30)=0.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:20] SCORE Gruppe 2 (yellow): Final=1044.0, Time=87.9, Moves(30)=0.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:22] MOVE 149: AlphaZeroClue (gray0) 39->28 [0.00ms]
+[2026-05-22 10:46:22] SCORE The bandits (lawn green): Final=1275.6, Time=91.6, Moves(30)=0.1, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE AlphaZeroClue (gray0): Final=1013.3, Time=45.3, Moves(30)=0.1, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE S&S (red): Final=1161.3, Time=93.2, Moves(29)=0.0, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE jat (blue): Final=1142.4, Time=58.4, Moves(30)=0.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE Gruppe 2 (yellow): Final=1044.0, Time=87.9, Moves(30)=0.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:22] MOVE 150: S&S (red) 81->64 [0.00ms]
+[2026-05-22 10:46:22] SCORE The bandits (lawn green): Final=1275.6, Time=91.6, Moves(30)=0.1, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE AlphaZeroClue (gray0): Final=1013.3, Time=45.3, Moves(30)=0.1, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE S&S (red): Final=1165.2, Time=93.1, Moves(30)=0.1, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE jat (blue): Final=1142.4, Time=58.4, Moves(30)=0.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE Gruppe 2 (yellow): Final=1044.0, Time=87.9, Moves(30)=0.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:22] MOVE 151: The bandits (lawn green) 51->69 [0.00ms]
+[2026-05-22 10:46:22] SCORE The bandits (lawn green): Final=1279.4, Time=91.2, Moves(31)=0.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE AlphaZeroClue (gray0): Final=1013.3, Time=45.3, Moves(30)=0.1, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE S&S (red): Final=1165.2, Time=93.1, Moves(30)=0.1, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE jat (blue): Final=1142.4, Time=58.4, Moves(30)=0.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:22] SCORE Gruppe 2 (yellow): Final=1044.0, Time=87.9, Moves(30)=0.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:46:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:23] MOVE 152: Gruppe 2 (yellow) 106->108 [0.00ms]
+[2026-05-22 10:46:23] SCORE The bandits (lawn green): Final=1279.4, Time=91.2, Moves(31)=0.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:23] SCORE AlphaZeroClue (gray0): Final=1013.3, Time=45.3, Moves(30)=0.1, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:23] SCORE S&S (red): Final=1165.2, Time=93.1, Moves(30)=0.1, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:46:23] SCORE jat (blue): Final=1142.4, Time=58.4, Moves(30)=0.1, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:46:23] SCORE Gruppe 2 (yellow): Final=1145.6, Time=87.3, Moves(31)=0.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:24] MOVE 153: jat (blue) 94->106 [0.00ms]
+[2026-05-22 10:46:24] SCORE The bandits (lawn green): Final=1279.4, Time=91.2, Moves(31)=0.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:24] SCORE AlphaZeroClue (gray0): Final=1013.3, Time=45.3, Moves(30)=0.1, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:46:24] SCORE S&S (red): Final=1165.2, Time=93.1, Moves(30)=0.1, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:46:24] SCORE jat (blue): Final=1143.1, Time=56.9, Moves(31)=0.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:46:24] SCORE Gruppe 2 (yellow): Final=1145.6, Time=87.3, Moves(31)=0.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:26] MOVE 154: AlphaZeroClue (gray0) 60->51 [0.01ms]
+[2026-05-22 10:46:26] SCORE The bandits (lawn green): Final=1279.4, Time=91.2, Moves(31)=0.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE AlphaZeroClue (gray0): Final=1013.6, Time=43.4, Moves(31)=0.2, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE S&S (red): Final=1165.2, Time=93.1, Moves(30)=0.1, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE jat (blue): Final=1143.1, Time=56.9, Moves(31)=0.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE Gruppe 2 (yellow): Final=1145.6, Time=87.3, Moves(31)=0.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:26] MOVE 155: S&S (red) 64->54 [0.01ms]
+[2026-05-22 10:46:26] SCORE The bandits (lawn green): Final=1279.4, Time=91.2, Moves(31)=0.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE AlphaZeroClue (gray0): Final=1013.6, Time=43.4, Moves(31)=0.2, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE S&S (red): Final=1167.2, Time=93.0, Moves(31)=0.2, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE jat (blue): Final=1143.1, Time=56.9, Moves(31)=0.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE Gruppe 2 (yellow): Final=1145.6, Time=87.3, Moves(31)=0.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:26] MOVE 156: The bandits (lawn green) 69->79 [0.01ms]
+[2026-05-22 10:46:26] SCORE The bandits (lawn green): Final=1281.5, Time=91.0, Moves(32)=0.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE AlphaZeroClue (gray0): Final=1013.6, Time=43.4, Moves(31)=0.2, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE S&S (red): Final=1167.2, Time=93.0, Moves(31)=0.2, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE jat (blue): Final=1143.1, Time=56.9, Moves(31)=0.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:46:26] SCORE Gruppe 2 (yellow): Final=1145.6, Time=87.3, Moves(31)=0.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:46:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:27] MOVE 157: Gruppe 2 (yellow) 25->26 [0.01ms]
+[2026-05-22 10:46:27] SCORE The bandits (lawn green): Final=1281.5, Time=91.0, Moves(32)=0.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:27] SCORE AlphaZeroClue (gray0): Final=1013.6, Time=43.4, Moves(31)=0.2, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:27] SCORE S&S (red): Final=1167.2, Time=93.0, Moves(31)=0.2, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:27] SCORE jat (blue): Final=1143.1, Time=56.9, Moves(31)=0.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:46:27] SCORE Gruppe 2 (yellow): Final=1147.6, Time=87.1, Moves(32)=0.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:28] MOVE 158: jat (blue) 58->68 [0.01ms]
+[2026-05-22 10:46:28] SCORE The bandits (lawn green): Final=1281.5, Time=91.0, Moves(32)=0.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:28] SCORE AlphaZeroClue (gray0): Final=1013.6, Time=43.4, Moves(31)=0.2, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:28] SCORE S&S (red): Final=1167.2, Time=93.0, Moves(31)=0.2, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:28] SCORE jat (blue): Final=1144.1, Time=55.6, Moves(32)=0.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:28] SCORE Gruppe 2 (yellow): Final=1147.6, Time=87.1, Moves(32)=0.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:30] MOVE 159: AlphaZeroClue (gray0) 51->30 [0.00ms]
+[2026-05-22 10:46:30] SCORE The bandits (lawn green): Final=1281.5, Time=91.0, Moves(32)=0.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE AlphaZeroClue (gray0): Final=1016.1, Time=41.6, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE S&S (red): Final=1167.2, Time=93.0, Moves(31)=0.2, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE jat (blue): Final=1144.1, Time=55.6, Moves(32)=0.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE Gruppe 2 (yellow): Final=1147.6, Time=87.1, Moves(32)=0.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:30] MOVE 160: S&S (red) 78->59 [0.00ms]
+[2026-05-22 10:46:30] SCORE The bandits (lawn green): Final=1281.5, Time=91.0, Moves(32)=0.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE AlphaZeroClue (gray0): Final=1016.1, Time=41.6, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE S&S (red): Final=1171.2, Time=92.7, Moves(32)=0.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE jat (blue): Final=1144.1, Time=55.6, Moves(32)=0.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE Gruppe 2 (yellow): Final=1147.6, Time=87.1, Moves(32)=0.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:30] MOVE 161: The bandits (lawn green) 79->75 [0.00ms]
+[2026-05-22 10:46:30] SCORE The bandits (lawn green): Final=1388.1, Time=90.9, Moves(33)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE AlphaZeroClue (gray0): Final=1016.1, Time=41.6, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE S&S (red): Final=1171.2, Time=92.7, Moves(32)=0.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE jat (blue): Final=1144.1, Time=55.6, Moves(32)=0.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE Gruppe 2 (yellow): Final=1147.6, Time=87.1, Moves(32)=0.5, Pins(7)=700.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:46:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:30] MOVE 162: Gruppe 2 (yellow) 26->38 [0.00ms]
+[2026-05-22 10:46:30] SCORE The bandits (lawn green): Final=1388.1, Time=90.9, Moves(33)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE AlphaZeroClue (gray0): Final=1016.1, Time=41.6, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE S&S (red): Final=1171.2, Time=92.7, Moves(32)=0.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE jat (blue): Final=1144.1, Time=55.6, Moves(32)=0.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:46:30] SCORE Gruppe 2 (yellow): Final=1149.7, Time=86.6, Moves(33)=1.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:32] MOVE 163: jat (blue) 68->79 [0.00ms]
+[2026-05-22 10:46:32] SCORE The bandits (lawn green): Final=1388.1, Time=90.9, Moves(33)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:46:32] SCORE AlphaZeroClue (gray0): Final=1016.1, Time=41.6, Moves(32)=0.5, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:32] SCORE S&S (red): Final=1171.2, Time=92.7, Moves(32)=0.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:32] SCORE jat (blue): Final=1145.4, Time=54.3, Moves(33)=1.1, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:32] SCORE Gruppe 2 (yellow): Final=1149.7, Time=86.6, Moves(33)=1.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:34] MOVE 164: AlphaZeroClue (gray0) 34->22 [0.00ms]
+[2026-05-22 10:46:34] SCORE The bandits (lawn green): Final=1388.1, Time=90.9, Moves(33)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE AlphaZeroClue (gray0): Final=1014.8, Time=39.7, Moves(33)=1.1, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE S&S (red): Final=1171.2, Time=92.7, Moves(32)=0.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE jat (blue): Final=1145.4, Time=54.3, Moves(33)=1.1, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE Gruppe 2 (yellow): Final=1149.7, Time=86.6, Moves(33)=1.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:34] MOVE 165: S&S (red) 54->43 [0.01ms]
+[2026-05-22 10:46:34] SCORE The bandits (lawn green): Final=1388.1, Time=90.9, Moves(33)=1.1, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE AlphaZeroClue (gray0): Final=1014.8, Time=39.7, Moves(33)=1.1, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE S&S (red): Final=1173.7, Time=92.6, Moves(33)=1.1, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE jat (blue): Final=1145.4, Time=54.3, Moves(33)=1.1, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE Gruppe 2 (yellow): Final=1149.7, Time=86.6, Moves(33)=1.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:34] MOVE 166: The bandits (lawn green) 90->102 [0.00ms]
+[2026-05-22 10:46:34] SCORE The bandits (lawn green): Final=1390.9, Time=90.6, Moves(34)=2.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE AlphaZeroClue (gray0): Final=1014.8, Time=39.7, Moves(33)=1.1, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE S&S (red): Final=1173.7, Time=92.6, Moves(33)=1.1, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE jat (blue): Final=1145.4, Time=54.3, Moves(33)=1.1, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE Gruppe 2 (yellow): Final=1149.7, Time=86.6, Moves(33)=1.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:46:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:34] MOVE 167: Gruppe 2 (yellow) 38->42 [0.00ms]
+[2026-05-22 10:46:34] SCORE The bandits (lawn green): Final=1390.9, Time=90.6, Moves(34)=2.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE AlphaZeroClue (gray0): Final=1014.8, Time=39.7, Moves(33)=1.1, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE S&S (red): Final=1173.7, Time=92.6, Moves(33)=1.1, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE jat (blue): Final=1145.4, Time=54.3, Moves(33)=1.1, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:46:34] SCORE Gruppe 2 (yellow): Final=1158.6, Time=86.4, Moves(34)=2.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:35] MOVE 168: jat (blue) 79->91 [0.00ms]
+[2026-05-22 10:46:35] SCORE The bandits (lawn green): Final=1390.9, Time=90.6, Moves(34)=2.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:46:35] SCORE AlphaZeroClue (gray0): Final=1014.8, Time=39.7, Moves(33)=1.1, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:46:35] SCORE S&S (red): Final=1173.7, Time=92.6, Moves(33)=1.1, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:35] SCORE jat (blue): Final=1148.4, Time=54.1, Moves(34)=2.3, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:46:35] SCORE Gruppe 2 (yellow): Final=1158.6, Time=86.4, Moves(34)=2.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:37] MOVE 169: AlphaZeroClue (gray0) 30->32 [0.00ms]
+[2026-05-22 10:46:37] SCORE The bandits (lawn green): Final=1390.9, Time=90.6, Moves(34)=2.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE AlphaZeroClue (gray0): Final=1118.0, Time=37.7, Moves(34)=2.3, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE S&S (red): Final=1173.7, Time=92.6, Moves(33)=1.1, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE jat (blue): Final=1148.4, Time=54.1, Moves(34)=2.3, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE Gruppe 2 (yellow): Final=1158.6, Time=86.4, Moves(34)=2.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:37] MOVE 170: S&S (red) 43->31 [0.00ms]
+[2026-05-22 10:46:37] SCORE The bandits (lawn green): Final=1390.9, Time=90.6, Moves(34)=2.3, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE AlphaZeroClue (gray0): Final=1118.0, Time=37.7, Moves(34)=2.3, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE S&S (red): Final=1176.8, Time=92.5, Moves(34)=2.3, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE jat (blue): Final=1148.4, Time=54.1, Moves(34)=2.3, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE Gruppe 2 (yellow): Final=1158.6, Time=86.4, Moves(34)=2.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:46:37] MOVE 171: The bandits (lawn green) 102->100 [0.00ms]
+[2026-05-22 10:46:37] SCORE The bandits (lawn green): Final=2494.9, Time=90.5, Moves(35)=4.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:46:37] SCORE AlphaZeroClue (gray0): Final=1118.0, Time=37.7, Moves(34)=2.3, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE S&S (red): Final=1176.8, Time=92.5, Moves(34)=2.3, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE jat (blue): Final=1148.4, Time=54.1, Moves(34)=2.3, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:46:37] SCORE Gruppe 2 (yellow): Final=1158.6, Time=86.4, Moves(34)=2.3, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:46:37] ALL WRONG MOVES BY COLOUR: {}

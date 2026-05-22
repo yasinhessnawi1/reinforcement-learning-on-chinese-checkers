@@ -1,0 +1,544 @@
+[2026-05-22 11:05:21] GAME CREATED
+[2026-05-22 11:05:24] PLAYER JOINED: PCS as lawn green
+[2026-05-22 11:05:24] PLAYER JOINED: Gruppe 1 as gray0
+[2026-05-22 11:05:24] PLAYER START: PCS (lawn green)
+[2026-05-22 11:05:24] PLAYER START: Gruppe 1 (gray0)
+[2026-05-22 11:05:24] GAME START — turn order ['lawn green', 'gray0']
+[2026-05-22 11:05:24] PLAYER START: PCS (lawn green)
+[2026-05-22 11:05:24] PLAYER START: Gruppe 1 (gray0)
+[2026-05-22 11:05:25] MOVE 1: PCS (lawn green) 32->43 [0.01ms]
+[2026-05-22 11:05:25] SCORE PCS (lawn green): Final=281.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:25] SCORE Gruppe 1 (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:05:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:25] MOVE 2: Gruppe 1 (gray0) 75->56 [0.02ms]
+[2026-05-22 11:05:25] SCORE PCS (lawn green): Final=281.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:05:25] SCORE Gruppe 1 (gray0): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:25] MOVE 3: PCS (lawn green) 34->53 [0.01ms]
+[2026-05-22 11:05:25] SCORE PCS (lawn green): Final=289.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:25] SCORE Gruppe 1 (gray0): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:05:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:25] MOVE 4: Gruppe 1 (gray0) 98->77 [0.01ms]
+[2026-05-22 11:05:25] SCORE PCS (lawn green): Final=289.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:05:25] SCORE Gruppe 1 (gray0): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:26] MOVE 5: PCS (lawn green) 33->52 [0.01ms]
+[2026-05-22 11:05:26] SCORE PCS (lawn green): Final=297.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:26] SCORE Gruppe 1 (gray0): Final=291.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:05:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:26] MOVE 6: Gruppe 1 (gray0) 87->46 [0.01ms]
+[2026-05-22 11:05:26] SCORE PCS (lawn green): Final=297.1, Time=99.1, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:05:26] SCORE Gruppe 1 (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:26] MOVE 7: PCS (lawn green) 44->61 [0.01ms]
+[2026-05-22 11:05:26] SCORE PCS (lawn green): Final=304.8, Time=98.8, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:26] SCORE Gruppe 1 (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:05:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:27] MOVE 8: Gruppe 1 (gray0) 65->47 [0.01ms]
+[2026-05-22 11:05:27] SCORE PCS (lawn green): Final=304.8, Time=98.8, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:05:27] SCORE Gruppe 1 (gray0): Final=298.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:27] MOVE 9: PCS (lawn green) 43->60 [0.01ms]
+[2026-05-22 11:05:27] SCORE PCS (lawn green): Final=312.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:05:27] SCORE Gruppe 1 (gray0): Final=298.4, Time=98.4, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:05:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:27] MOVE 10: Gruppe 1 (gray0) 76->78 [0.00ms]
+[2026-05-22 11:05:27] SCORE PCS (lawn green): Final=312.7, Time=98.7, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:05:27] SCORE Gruppe 1 (gray0): Final=302.0, Time=98.0, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:28] MOVE 11: PCS (lawn green) 53->69 [0.01ms]
+[2026-05-22 11:05:28] SCORE PCS (lawn green): Final=320.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:05:28] SCORE Gruppe 1 (gray0): Final=302.0, Time=98.0, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:05:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:28] MOVE 12: Gruppe 1 (gray0) 46->70 [0.01ms]
+[2026-05-22 11:05:28] SCORE PCS (lawn green): Final=320.5, Time=98.5, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:05:28] SCORE Gruppe 1 (gray0): Final=309.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:28] MOVE 13: PCS (lawn green) 45->64 [0.01ms]
+[2026-05-22 11:05:28] SCORE PCS (lawn green): Final=324.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:28] SCORE Gruppe 1 (gray0): Final=309.5, Time=97.5, Moves(6)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:05:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:29] MOVE 14: Gruppe 1 (gray0) 88->67 [0.01ms]
+[2026-05-22 11:05:29] SCORE PCS (lawn green): Final=324.3, Time=98.3, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:05:29] SCORE Gruppe 1 (gray0): Final=313.1, Time=97.1, Moves(7)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:05:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:29] MOVE 15: PCS (lawn green) 20->18 [0.01ms]
+[2026-05-22 11:05:29] SCORE PCS (lawn green): Final=328.2, Time=98.2, Moves(8)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:29] SCORE Gruppe 1 (gray0): Final=313.1, Time=97.1, Moves(7)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 11:05:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:29] MOVE 16: Gruppe 1 (gray0) 100->102 [0.01ms]
+[2026-05-22 11:05:29] SCORE PCS (lawn green): Final=328.2, Time=98.2, Moves(8)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 11:05:29] SCORE Gruppe 1 (gray0): Final=316.5, Time=96.5, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:05:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:30] MOVE 17: PCS (lawn green) 22->20 [0.01ms]
+[2026-05-22 11:05:30] SCORE PCS (lawn green): Final=332.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:30] SCORE Gruppe 1 (gray0): Final=316.5, Time=96.5, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:05:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:30] MOVE 18: Gruppe 1 (gray0) 101->103 [0.01ms]
+[2026-05-22 11:05:30] SCORE PCS (lawn green): Final=332.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:05:30] SCORE Gruppe 1 (gray0): Final=320.0, Time=96.0, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:30] MOVE 19: PCS (lawn green) 55->73 [0.01ms]
+[2026-05-22 11:05:30] SCORE PCS (lawn green): Final=336.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:05:30] SCORE Gruppe 1 (gray0): Final=320.0, Time=96.0, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:05:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:31] MOVE 20: Gruppe 1 (gray0) 56->37 [0.01ms]
+[2026-05-22 11:05:31] SCORE PCS (lawn green): Final=336.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:05:31] SCORE Gruppe 1 (gray0): Final=323.4, Time=95.4, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:31] MOVE 21: PCS (lawn green) 19->17 [0.01ms]
+[2026-05-22 11:05:31] SCORE PCS (lawn green): Final=339.9, Time=97.9, Moves(11)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:31] SCORE Gruppe 1 (gray0): Final=323.4, Time=95.4, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:05:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:31] MOVE 22: Gruppe 1 (gray0) 78->38 [0.01ms]
+[2026-05-22 11:05:31] SCORE PCS (lawn green): Final=339.9, Time=97.9, Moves(11)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 11:05:31] SCORE Gruppe 1 (gray0): Final=326.8, Time=94.8, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:32] MOVE 23: PCS (lawn green) 21->19 [0.01ms]
+[2026-05-22 11:05:32] SCORE PCS (lawn green): Final=343.8, Time=97.8, Moves(12)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:32] SCORE Gruppe 1 (gray0): Final=326.8, Time=94.8, Moves(11)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:05:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:32] MOVE 24: Gruppe 1 (gray0) 37->39 [0.00ms]
+[2026-05-22 11:05:32] SCORE PCS (lawn green): Final=343.8, Time=97.8, Moves(12)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:32] SCORE Gruppe 1 (gray0): Final=330.3, Time=94.3, Moves(12)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:32] MOVE 25: PCS (lawn green) 64->83 [0.00ms]
+[2026-05-22 11:05:32] SCORE PCS (lawn green): Final=347.6, Time=97.6, Moves(13)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:32] SCORE Gruppe 1 (gray0): Final=330.3, Time=94.3, Moves(12)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:05:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:33] MOVE 26: Gruppe 1 (gray0) 38->40 [0.01ms]
+[2026-05-22 11:05:33] SCORE PCS (lawn green): Final=347.6, Time=97.6, Moves(13)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:33] SCORE Gruppe 1 (gray0): Final=333.7, Time=93.7, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:34] MOVE 27: PCS (lawn green) 18->16 [0.01ms]
+[2026-05-22 11:05:34] SCORE PCS (lawn green): Final=350.9, Time=96.9, Moves(14)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:34] SCORE Gruppe 1 (gray0): Final=333.7, Time=93.7, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:05:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:34] MOVE 28: Gruppe 1 (gray0) 70->9 [0.01ms]
+[2026-05-22 11:05:34] SCORE PCS (lawn green): Final=350.9, Time=96.9, Moves(14)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:34] SCORE Gruppe 1 (gray0): Final=339.1, Time=93.1, Moves(14)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:34] MOVE 29: PCS (lawn green) 73->94 [0.00ms]
+[2026-05-22 11:05:34] SCORE PCS (lawn green): Final=354.8, Time=96.8, Moves(15)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:34] SCORE Gruppe 1 (gray0): Final=339.1, Time=93.1, Moves(14)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:05:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:35] MOVE 30: Gruppe 1 (gray0) 39->62 [0.01ms]
+[2026-05-22 11:05:35] SCORE PCS (lawn green): Final=354.8, Time=96.8, Moves(15)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:35] SCORE Gruppe 1 (gray0): Final=342.6, Time=92.6, Moves(15)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:35] MOVE 31: PCS (lawn green) 52->68 [0.00ms]
+[2026-05-22 11:05:35] SCORE PCS (lawn green): Final=362.7, Time=96.7, Moves(16)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:35] SCORE Gruppe 1 (gray0): Final=342.6, Time=92.6, Moves(15)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 11:05:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:35] MOVE 32: Gruppe 1 (gray0) 77->58 [0.01ms]
+[2026-05-22 11:05:35] SCORE PCS (lawn green): Final=362.7, Time=96.7, Moves(16)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:35] SCORE Gruppe 1 (gray0): Final=346.0, Time=92.0, Moves(16)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:36] MOVE 33: PCS (lawn green) 20->18 [0.00ms]
+[2026-05-22 11:05:36] SCORE PCS (lawn green): Final=366.1, Time=96.1, Moves(17)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:05:36] SCORE Gruppe 1 (gray0): Final=346.0, Time=92.0, Moves(16)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:05:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:37] MOVE 34: Gruppe 1 (gray0) 67->49 [0.01ms]
+[2026-05-22 11:05:37] SCORE PCS (lawn green): Final=366.1, Time=96.1, Moves(17)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:05:37] SCORE Gruppe 1 (gray0): Final=349.4, Time=91.4, Moves(17)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:37] MOVE 35: PCS (lawn green) 17->15 [0.01ms]
+[2026-05-22 11:05:37] SCORE PCS (lawn green): Final=369.6, Time=95.6, Moves(18)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:37] SCORE Gruppe 1 (gray0): Final=349.4, Time=91.4, Moves(17)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:05:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:37] MOVE 36: Gruppe 1 (gray0) 58->41 [0.01ms]
+[2026-05-22 11:05:37] SCORE PCS (lawn green): Final=369.6, Time=95.6, Moves(18)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:37] SCORE Gruppe 1 (gray0): Final=357.3, Time=91.3, Moves(18)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:38] MOVE 37: PCS (lawn green) 19->17 [0.01ms]
+[2026-05-22 11:05:38] SCORE PCS (lawn green): Final=373.1, Time=95.1, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:05:38] SCORE Gruppe 1 (gray0): Final=357.3, Time=91.3, Moves(18)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:05:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:38] MOVE 38: Gruppe 1 (gray0) 40->42 [0.00ms]
+[2026-05-22 11:05:38] SCORE PCS (lawn green): Final=373.1, Time=95.1, Moves(19)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:05:38] SCORE Gruppe 1 (gray0): Final=361.2, Time=91.2, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:05:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:38] MOVE 39: PCS (lawn green) 83->106 [0.00ms]
+[2026-05-22 11:05:38] SCORE PCS (lawn green): Final=376.6, Time=94.6, Moves(20)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:38] SCORE Gruppe 1 (gray0): Final=361.2, Time=91.2, Moves(19)=0.0, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:05:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:39] MOVE 40: Gruppe 1 (gray0) 41->43 [0.00ms]
+[2026-05-22 11:05:39] SCORE PCS (lawn green): Final=376.6, Time=94.6, Moves(20)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:39] SCORE Gruppe 1 (gray0): Final=364.9, Time=90.9, Moves(20)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:39] MOVE 41: PCS (lawn green) 15->14 [0.00ms]
+[2026-05-22 11:05:39] SCORE PCS (lawn green): Final=378.2, Time=94.2, Moves(21)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:05:39] SCORE Gruppe 1 (gray0): Final=364.9, Time=90.9, Moves(20)=0.0, Pins(0)=0.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:05:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:39] MOVE 42: Gruppe 1 (gray0) 42->44 [0.01ms]
+[2026-05-22 11:05:39] SCORE PCS (lawn green): Final=378.2, Time=94.2, Moves(21)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:05:39] SCORE Gruppe 1 (gray0): Final=468.6, Time=90.6, Moves(21)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:05:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:40] MOVE 43: PCS (lawn green) 14->15 [0.01ms]
+[2026-05-22 11:05:40] SCORE PCS (lawn green): Final=375.9, Time=93.9, Moves(22)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:40] SCORE Gruppe 1 (gray0): Final=468.6, Time=90.6, Moves(21)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:05:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:40] MOVE 44: Gruppe 1 (gray0) 9->33 [0.01ms]
+[2026-05-22 11:05:40] SCORE PCS (lawn green): Final=375.9, Time=93.9, Moves(22)=0.0, Pins(0)=0.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:40] SCORE Gruppe 1 (gray0): Final=572.3, Time=90.3, Moves(22)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:40] MOVE 45: PCS (lawn green) 61->59 [0.00ms]
+[2026-05-22 11:05:40] SCORE PCS (lawn green): Final=379.6, Time=93.6, Moves(23)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:05:40] SCORE Gruppe 1 (gray0): Final=572.3, Time=90.3, Moves(22)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 11:05:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:41] MOVE 46: Gruppe 1 (gray0) 43->20 [0.00ms]
+[2026-05-22 11:05:41] SCORE PCS (lawn green): Final=379.6, Time=93.6, Moves(23)=0.0, Pins(0)=0.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:05:41] SCORE Gruppe 1 (gray0): Final=673.9, Time=89.9, Moves(23)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:05:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:41] MOVE 47: PCS (lawn green) 59->58 [0.01ms]
+[2026-05-22 11:05:41] SCORE PCS (lawn green): Final=381.4, Time=93.4, Moves(24)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:05:41] SCORE Gruppe 1 (gray0): Final=673.9, Time=89.9, Moves(23)=0.0, Pins(3)=300.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 11:05:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:41] MOVE 48: Gruppe 1 (gray0) 86->75 [0.00ms]
+[2026-05-22 11:05:41] SCORE PCS (lawn green): Final=381.4, Time=93.4, Moves(24)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:05:41] SCORE Gruppe 1 (gray0): Final=675.5, Time=89.5, Moves(24)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:05:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:42] MOVE 49: PCS (lawn green) 69->67 [0.01ms]
+[2026-05-22 11:05:42] SCORE PCS (lawn green): Final=385.1, Time=93.1, Moves(25)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:05:42] SCORE Gruppe 1 (gray0): Final=675.5, Time=89.5, Moves(24)=0.0, Pins(3)=300.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:05:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:42] MOVE 50: Gruppe 1 (gray0) 75->65 [0.01ms]
+[2026-05-22 11:05:42] SCORE PCS (lawn green): Final=385.1, Time=93.1, Moves(25)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:05:42] SCORE Gruppe 1 (gray0): Final=677.0, Time=89.0, Moves(25)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:05:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:42] MOVE 51: PCS (lawn green) 58->77 [0.00ms]
+[2026-05-22 11:05:42] SCORE PCS (lawn green): Final=389.0, Time=93.0, Moves(26)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:05:42] SCORE Gruppe 1 (gray0): Final=677.0, Time=89.0, Moves(25)=0.0, Pins(3)=300.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:05:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:43] MOVE 52: Gruppe 1 (gray0) 65->56 [0.01ms]
+[2026-05-22 11:05:43] SCORE PCS (lawn green): Final=389.0, Time=93.0, Moves(26)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:05:43] SCORE Gruppe 1 (gray0): Final=678.5, Time=88.5, Moves(26)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:05:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:43] MOVE 53: PCS (lawn green) 68->66 [0.00ms]
+[2026-05-22 11:05:43] SCORE PCS (lawn green): Final=392.8, Time=92.8, Moves(27)=0.0, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:05:43] SCORE Gruppe 1 (gray0): Final=678.5, Time=88.5, Moves(26)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 11:05:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:43] MOVE 54: Gruppe 1 (gray0) 56->37 [0.01ms]
+[2026-05-22 11:05:43] SCORE PCS (lawn green): Final=392.8, Time=92.8, Moves(27)=0.0, Pins(0)=0.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 11:05:43] SCORE Gruppe 1 (gray0): Final=682.0, Time=88.0, Moves(27)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:05:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:43] MOVE 55: PCS (lawn green) 15->27 [0.00ms]
+[2026-05-22 11:05:43] SCORE PCS (lawn green): Final=394.8, Time=92.7, Moves(28)=0.0, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:05:43] SCORE Gruppe 1 (gray0): Final=682.0, Time=88.0, Moves(27)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:05:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:44] MOVE 56: Gruppe 1 (gray0) 47->30 [0.01ms]
+[2026-05-22 11:05:44] SCORE PCS (lawn green): Final=394.8, Time=92.7, Moves(28)=0.0, Pins(0)=0.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:05:44] SCORE Gruppe 1 (gray0): Final=693.4, Time=87.4, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:05:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 57: PCS (lawn green) 27->38 [0.00ms]
+[2026-05-22 11:05:45] SCORE PCS (lawn green): Final=396.2, Time=92.2, Moves(29)=0.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 1 (gray0): Final=693.4, Time=87.4, Moves(28)=0.0, Pins(3)=300.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 58: Gruppe 1 (gray0) 37->39 [0.00ms]
+[2026-05-22 11:05:45] SCORE PCS (lawn green): Final=396.2, Time=92.2, Moves(29)=0.0, Pins(0)=0.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 1 (gray0): Final=697.3, Time=87.3, Moves(29)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 59: PCS (lawn green) 17->15 [0.00ms]
+[2026-05-22 11:05:45] SCORE PCS (lawn green): Final=399.8, Time=91.7, Moves(30)=0.1, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 1 (gray0): Final=697.3, Time=87.3, Moves(29)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:45] MOVE 60: Gruppe 1 (gray0) 49->8 [0.00ms]
+[2026-05-22 11:05:45] SCORE PCS (lawn green): Final=399.8, Time=91.7, Moves(30)=0.1, Pins(0)=0.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 11:05:45] SCORE Gruppe 1 (gray0): Final=703.2, Time=87.1, Moves(30)=0.1, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:05:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 61: PCS (lawn green) 16->14 [0.00ms]
+[2026-05-22 11:05:46] SCORE PCS (lawn green): Final=403.5, Time=91.3, Moves(31)=0.2, Pins(0)=0.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 1 (gray0): Final=703.2, Time=87.1, Moves(30)=0.1, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 62: Gruppe 1 (gray0) 102->104 [0.00ms]
+[2026-05-22 11:05:46] SCORE PCS (lawn green): Final=403.5, Time=91.3, Moves(31)=0.2, Pins(0)=0.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 1 (gray0): Final=707.1, Time=86.9, Moves(31)=0.2, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:46] MOVE 63: PCS (lawn green) 15->13 [0.01ms]
+[2026-05-22 11:05:46] SCORE PCS (lawn green): Final=405.4, Time=90.9, Moves(32)=0.5, Pins(0)=0.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:05:46] SCORE Gruppe 1 (gray0): Final=707.1, Time=86.9, Moves(31)=0.2, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 64: Gruppe 1 (gray0) 103->82 [0.01ms]
+[2026-05-22 11:05:47] SCORE PCS (lawn green): Final=405.4, Time=90.9, Moves(32)=0.5, Pins(0)=0.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 1 (gray0): Final=715.2, Time=86.7, Moves(32)=0.5, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 65: PCS (lawn green) 60->69 [0.00ms]
+[2026-05-22 11:05:47] SCORE PCS (lawn green): Final=407.7, Time=90.6, Moves(33)=1.1, Pins(0)=0.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 1 (gray0): Final=715.2, Time=86.7, Moves(32)=0.5, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:47] MOVE 66: Gruppe 1 (gray0) 44->21 [0.00ms]
+[2026-05-22 11:05:47] SCORE PCS (lawn green): Final=407.7, Time=90.6, Moves(33)=1.1, Pins(0)=0.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 11:05:47] SCORE Gruppe 1 (gray0): Final=715.5, Time=86.4, Moves(33)=1.1, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 67: PCS (lawn green) 67->65 [0.01ms]
+[2026-05-22 11:05:48] SCORE PCS (lawn green): Final=512.5, Time=90.2, Moves(34)=2.3, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 1 (gray0): Final=715.5, Time=86.4, Moves(33)=1.1, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 68: Gruppe 1 (gray0) 20->22 [0.01ms]
+[2026-05-22 11:05:48] SCORE PCS (lawn green): Final=512.5, Time=90.2, Moves(34)=2.3, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 1 (gray0): Final=716.4, Time=86.1, Moves(34)=2.3, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:48] MOVE 69: PCS (lawn green) 65->88 [0.01ms]
+[2026-05-22 11:05:48] SCORE PCS (lawn green): Final=514.3, Time=89.9, Moves(35)=4.4, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:48] SCORE Gruppe 1 (gray0): Final=716.4, Time=86.1, Moves(34)=2.3, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:05:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 70: Gruppe 1 (gray0) 99->100 [0.01ms]
+[2026-05-22 11:05:49] SCORE PCS (lawn green): Final=514.3, Time=89.9, Moves(35)=4.4, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 1 (gray0): Final=720.1, Time=85.7, Moves(35)=4.4, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 71: PCS (lawn green) 88->65 [0.01ms]
+[2026-05-22 11:05:49] SCORE PCS (lawn green): Final=517.6, Time=89.7, Moves(36)=8.0, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 1 (gray0): Final=720.1, Time=85.7, Moves(35)=4.4, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 72: Gruppe 1 (gray0) 100->101 [0.01ms]
+[2026-05-22 11:05:49] SCORE PCS (lawn green): Final=517.6, Time=89.7, Moves(36)=8.0, Pins(1)=100.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 1 (gray0): Final=725.2, Time=85.3, Moves(36)=8.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:49] MOVE 73: PCS (lawn green) 18->41 [0.00ms]
+[2026-05-22 11:05:49] SCORE PCS (lawn green): Final=527.1, Time=89.5, Moves(37)=13.5, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:49] SCORE Gruppe 1 (gray0): Final=725.2, Time=85.3, Moves(36)=8.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 74: Gruppe 1 (gray0) 101->89 [0.01ms]
+[2026-05-22 11:05:50] SCORE PCS (lawn green): Final=527.1, Time=89.5, Moves(37)=13.5, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 1 (gray0): Final=732.3, Time=84.7, Moves(37)=13.5, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:50] MOVE 75: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:05:50] SCORE PCS (lawn green): Final=535.1, Time=89.5, Moves(38)=21.6, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:50] SCORE Gruppe 1 (gray0): Final=732.3, Time=84.7, Moves(37)=13.5, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:05:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 76: Gruppe 1 (gray0) 30->31 [0.00ms]
+[2026-05-22 11:05:51] SCORE PCS (lawn green): Final=535.1, Time=89.5, Moves(38)=21.6, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 1 (gray0): Final=741.8, Time=84.2, Moves(38)=21.6, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 77: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:05:51] SCORE PCS (lawn green): Final=545.8, Time=89.4, Moves(39)=32.5, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 1 (gray0): Final=741.8, Time=84.2, Moves(38)=21.6, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 78: Gruppe 1 (gray0) 31->32 [0.01ms]
+[2026-05-22 11:05:51] SCORE PCS (lawn green): Final=545.8, Time=89.4, Moves(39)=32.5, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 1 (gray0): Final=854.1, Time=83.6, Moves(39)=32.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:51] MOVE 79: PCS (lawn green) 13->15 [0.01ms]
+[2026-05-22 11:05:51] SCORE PCS (lawn green): Final=557.0, Time=89.2, Moves(40)=45.8, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:51] SCORE Gruppe 1 (gray0): Final=854.1, Time=83.6, Moves(39)=32.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:05:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:52] MOVE 80: Gruppe 1 (gray0) 32->34 [0.00ms]
+[2026-05-22 11:05:52] SCORE PCS (lawn green): Final=557.0, Time=89.2, Moves(40)=45.8, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE Gruppe 1 (gray0): Final=866.9, Time=83.2, Moves(40)=45.8, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:05:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:52] MOVE 81: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:05:52] SCORE PCS (lawn green): Final=571.7, Time=89.1, Moves(41)=60.7, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:52] SCORE Gruppe 1 (gray0): Final=866.9, Time=83.2, Moves(40)=45.8, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:05:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 82: Gruppe 1 (gray0) 8->17 [0.01ms]
+[2026-05-22 11:05:53] SCORE PCS (lawn green): Final=571.7, Time=89.1, Moves(41)=60.7, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 1 (gray0): Final=883.3, Time=82.6, Moves(41)=60.7, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 83: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:05:53] SCORE PCS (lawn green): Final=586.4, Time=88.9, Moves(42)=75.5, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 1 (gray0): Final=883.3, Time=82.6, Moves(41)=60.7, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 84: Gruppe 1 (gray0) 17->18 [0.00ms]
+[2026-05-22 11:05:53] SCORE PCS (lawn green): Final=586.4, Time=88.9, Moves(42)=75.5, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 1 (gray0): Final=899.6, Time=82.1, Moves(42)=75.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:53] MOVE 85: PCS (lawn green) 94->71 [0.00ms]
+[2026-05-22 11:05:53] SCORE PCS (lawn green): Final=599.1, Time=88.8, Moves(43)=88.2, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:53] SCORE Gruppe 1 (gray0): Final=899.6, Time=82.1, Moves(42)=75.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:05:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 86: Gruppe 1 (gray0) 82->63 [0.00ms]
+[2026-05-22 11:05:54] SCORE PCS (lawn green): Final=599.1, Time=88.8, Moves(43)=88.2, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 1 (gray0): Final=915.9, Time=81.6, Moves(43)=88.2, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 87: PCS (lawn green) 41->40 [0.00ms]
+[2026-05-22 11:05:54] SCORE PCS (lawn green): Final=609.6, Time=88.7, Moves(44)=96.9, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 1 (gray0): Final=915.9, Time=81.6, Moves(43)=88.2, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:54] MOVE 88: Gruppe 1 (gray0) 39->41 [0.01ms]
+[2026-05-22 11:05:54] SCORE PCS (lawn green): Final=609.6, Time=88.7, Moves(44)=96.9, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 11:05:54] SCORE Gruppe 1 (gray0): Final=928.0, Time=81.1, Moves(44)=96.9, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:05:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:55] MOVE 89: PCS (lawn green) 40->39 [0.00ms]
+[2026-05-22 11:05:55] SCORE PCS (lawn green): Final=614.6, Time=88.6, Moves(45)=100.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE Gruppe 1 (gray0): Final=928.0, Time=81.1, Moves(44)=96.9, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:05:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:55] MOVE 90: Gruppe 1 (gray0) 62->64 [0.00ms]
+[2026-05-22 11:05:55] SCORE PCS (lawn green): Final=614.6, Time=88.6, Moves(45)=100.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE Gruppe 1 (gray0): Final=934.5, Time=80.5, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:05:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:55] MOVE 91: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:05:55] SCORE PCS (lawn green): Final=614.4, Time=88.6, Moves(46)=99.8, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:05:55] SCORE Gruppe 1 (gray0): Final=934.5, Time=80.5, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:05:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:56] MOVE 92: Gruppe 1 (gray0) 18->19 [0.00ms]
+[2026-05-22 11:05:56] SCORE PCS (lawn green): Final=614.4, Time=88.6, Moves(46)=99.8, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE Gruppe 1 (gray0): Final=1035.8, Time=79.9, Moves(46)=99.8, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:05:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:56] MOVE 93: PCS (lawn green) 39->37 [0.00ms]
+[2026-05-22 11:05:56] SCORE PCS (lawn green): Final=617.4, Time=88.0, Moves(47)=99.4, Pins(1)=100.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:05:56] SCORE Gruppe 1 (gray0): Final=1035.8, Time=79.9, Moves(46)=99.8, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:05:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:57] MOVE 94: Gruppe 1 (gray0) 64->55 [0.00ms]
+[2026-05-22 11:05:57] SCORE PCS (lawn green): Final=617.4, Time=88.0, Moves(47)=99.4, Pins(1)=100.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:05:57] SCORE Gruppe 1 (gray0): Final=1136.7, Time=79.3, Moves(47)=99.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:05:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 95: PCS (lawn green) 77->76 [0.00ms]
+[2026-05-22 11:05:58] SCORE PCS (lawn green): Final=718.1, Time=87.5, Moves(48)=98.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 1 (gray0): Final=1136.7, Time=79.3, Moves(47)=99.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 96: Gruppe 1 (gray0) 41->42 [0.01ms]
+[2026-05-22 11:05:58] SCORE PCS (lawn green): Final=718.1, Time=87.5, Moves(48)=98.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 1 (gray0): Final=1137.8, Time=79.1, Moves(48)=98.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 97: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:05:58] SCORE PCS (lawn green): Final=716.5, Time=86.9, Moves(49)=97.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 1 (gray0): Final=1137.8, Time=79.1, Moves(48)=98.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:58] MOVE 98: Gruppe 1 (gray0) 42->43 [0.00ms]
+[2026-05-22 11:05:58] SCORE PCS (lawn green): Final=716.5, Time=86.9, Moves(49)=97.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:58] SCORE Gruppe 1 (gray0): Final=1138.6, Time=79.0, Moves(49)=97.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:05:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 99: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:05:59] SCORE PCS (lawn green): Final=714.6, Time=86.4, Moves(50)=96.2, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 1 (gray0): Final=1138.6, Time=79.0, Moves(49)=97.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 100: Gruppe 1 (gray0) 43->32 [0.00ms]
+[2026-05-22 11:05:59] SCORE PCS (lawn green): Final=714.6, Time=86.4, Moves(50)=96.2, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 1 (gray0): Final=1239.2, Time=78.9, Moves(50)=96.2, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:05:59] MOVE 101: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:05:59] SCORE PCS (lawn green): Final=712.5, Time=85.9, Moves(51)=94.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:05:59] SCORE Gruppe 1 (gray0): Final=1239.2, Time=78.9, Moves(50)=96.2, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:05:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:00] MOVE 102: Gruppe 1 (gray0) 63->54 [0.00ms]
+[2026-05-22 11:06:00] SCORE PCS (lawn green): Final=712.5, Time=85.9, Moves(51)=94.6, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:06:00] SCORE Gruppe 1 (gray0): Final=1238.9, Time=78.3, Moves(51)=94.6, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:06:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 103: PCS (lawn green) 37->47 [0.00ms]
+[2026-05-22 11:06:01] SCORE PCS (lawn green): Final=712.1, Time=85.4, Moves(52)=92.7, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 1 (gray0): Final=1238.9, Time=78.3, Moves(51)=94.6, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 104: Gruppe 1 (gray0) 54->44 [0.00ms]
+[2026-05-22 11:06:01] SCORE PCS (lawn green): Final=712.1, Time=85.4, Moves(52)=92.7, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 1 (gray0): Final=1338.9, Time=78.2, Moves(52)=92.7, Pins(8)=800.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 105: PCS (lawn green) 65->88 [0.01ms]
+[2026-05-22 11:06:01] SCORE PCS (lawn green): Final=709.5, Time=84.9, Moves(53)=90.6, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 1 (gray0): Final=1338.9, Time=78.2, Moves(52)=92.7, Pins(8)=800.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:01] MOVE 106: Gruppe 1 (gray0) 104->92 [0.00ms]
+[2026-05-22 11:06:01] SCORE PCS (lawn green): Final=709.5, Time=84.9, Moves(53)=90.6, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:01] SCORE Gruppe 1 (gray0): Final=1338.7, Time=78.1, Moves(53)=90.6, Pins(8)=800.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:06:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:02] MOVE 107: PCS (lawn green) 14->26 [0.00ms]
+[2026-05-22 11:06:02] SCORE PCS (lawn green): Final=708.6, Time=84.3, Moves(54)=88.2, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE Gruppe 1 (gray0): Final=1338.7, Time=78.1, Moves(53)=90.6, Pins(8)=800.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:06:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:02] MOVE 108: Gruppe 1 (gray0) 92->81 [0.00ms]
+[2026-05-22 11:06:02] SCORE PCS (lawn green): Final=708.6, Time=84.3, Moves(54)=88.2, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:02] SCORE Gruppe 1 (gray0): Final=1337.8, Time=77.5, Moves(54)=88.2, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 109: PCS (lawn green) 26->14 [0.00ms]
+[2026-05-22 11:06:03] SCORE PCS (lawn green): Final=703.5, Time=83.8, Moves(55)=85.7, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 1 (gray0): Final=1337.8, Time=77.5, Moves(54)=88.2, Pins(8)=800.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:03] MOVE 110: Gruppe 1 (gray0) 81->62 [0.00ms]
+[2026-05-22 11:06:03] SCORE PCS (lawn green): Final=703.5, Time=83.8, Moves(55)=85.7, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:03] SCORE Gruppe 1 (gray0): Final=1339.1, Time=77.4, Moves(55)=85.7, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 111: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:06:04] SCORE PCS (lawn green): Final=700.2, Time=83.2, Moves(56)=83.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 1 (gray0): Final=1339.1, Time=77.4, Moves(55)=85.7, Pins(8)=800.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 112: Gruppe 1 (gray0) 62->53 [0.00ms]
+[2026-05-22 11:06:04] SCORE PCS (lawn green): Final=700.2, Time=83.2, Moves(56)=83.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 1 (gray0): Final=1338.3, Time=77.3, Moves(56)=83.0, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 113: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:06:04] SCORE PCS (lawn green): Final=696.8, Time=82.7, Moves(57)=80.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 1 (gray0): Final=1338.3, Time=77.3, Moves(56)=83.0, Pins(8)=800.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:04] MOVE 114: Gruppe 1 (gray0) 53->43 [0.01ms]
+[2026-05-22 11:06:04] SCORE PCS (lawn green): Final=696.8, Time=82.7, Moves(57)=80.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:04] SCORE Gruppe 1 (gray0): Final=1337.3, Time=77.2, Moves(57)=80.1, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 115: PCS (lawn green) 88->65 [0.00ms]
+[2026-05-22 11:06:05] SCORE PCS (lawn green): Final=693.3, Time=82.2, Moves(58)=77.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE Gruppe 1 (gray0): Final=1337.3, Time=77.2, Moves(57)=80.1, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:06:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:05] MOVE 116: Gruppe 1 (gray0) 43->20 [0.00ms]
+[2026-05-22 11:06:05] SCORE PCS (lawn green): Final=693.3, Time=82.2, Moves(58)=77.0, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:05] SCORE Gruppe 1 (gray0): Final=1436.1, Time=77.1, Moves(58)=77.0, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 117: PCS (lawn green) 65->88 [0.00ms]
+[2026-05-22 11:06:06] SCORE PCS (lawn green): Final=689.6, Time=81.7, Moves(59)=73.9, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 1 (gray0): Final=1436.1, Time=77.1, Moves(58)=77.0, Pins(9)=900.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 118: Gruppe 1 (gray0) 89->78 [0.00ms]
+[2026-05-22 11:06:06] SCORE PCS (lawn green): Final=689.6, Time=81.7, Moves(59)=73.9, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 1 (gray0): Final=1434.9, Time=77.0, Moves(59)=73.9, Pins(9)=900.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 119: PCS (lawn green) 47->56 [0.00ms]
+[2026-05-22 11:06:06] SCORE PCS (lawn green): Final=687.8, Time=81.2, Moves(60)=70.7, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 1 (gray0): Final=1434.9, Time=77.0, Moves(59)=73.9, Pins(9)=900.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:06] MOVE 120: Gruppe 1 (gray0) 78->68 [0.01ms]
+[2026-05-22 11:06:06] SCORE PCS (lawn green): Final=687.8, Time=81.2, Moves(60)=70.7, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:06:06] SCORE Gruppe 1 (gray0): Final=1433.6, Time=76.9, Moves(60)=70.7, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 121: PCS (lawn green) 69->65 [0.00ms]
+[2026-05-22 11:06:07] SCORE PCS (lawn green): Final=792.0, Time=80.7, Moves(61)=67.4, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 1 (gray0): Final=1433.6, Time=76.9, Moves(60)=70.7, Pins(9)=900.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 122: Gruppe 1 (gray0) 68->59 [0.01ms]
+[2026-05-22 11:06:07] SCORE PCS (lawn green): Final=792.0, Time=80.7, Moves(61)=67.4, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 1 (gray0): Final=1432.2, Time=76.8, Moves(61)=67.4, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:07] MOVE 123: PCS (lawn green) 71->70 [0.01ms]
+[2026-05-22 11:06:07] SCORE PCS (lawn green): Final=790.2, Time=80.1, Moves(62)=64.0, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:06:07] SCORE Gruppe 1 (gray0): Final=1432.2, Time=76.8, Moves(61)=67.4, Pins(9)=900.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:06:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 124: Gruppe 1 (gray0) 59->50 [0.00ms]
+[2026-05-22 11:06:08] SCORE PCS (lawn green): Final=790.2, Time=80.1, Moves(62)=64.0, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 1 (gray0): Final=1430.7, Time=76.7, Moves(62)=64.0, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 125: PCS (lawn green) 14->26 [0.00ms]
+[2026-05-22 11:06:08] SCORE PCS (lawn green): Final=788.3, Time=79.6, Moves(63)=60.7, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 1 (gray0): Final=1430.7, Time=76.7, Moves(62)=64.0, Pins(9)=900.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:08] MOVE 126: Gruppe 1 (gray0) 50->40 [0.00ms]
+[2026-05-22 11:06:08] SCORE PCS (lawn green): Final=788.3, Time=79.6, Moves(63)=60.7, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:06:08] SCORE Gruppe 1 (gray0): Final=1429.2, Time=76.5, Moves(63)=60.7, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 127: PCS (lawn green) 15->14 [0.01ms]
+[2026-05-22 11:06:09] SCORE PCS (lawn green): Final=786.4, Time=79.1, Moves(64)=57.3, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 1 (gray0): Final=1429.2, Time=76.5, Moves(63)=60.7, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 128: Gruppe 1 (gray0) 40->41 [0.01ms]
+[2026-05-22 11:06:09] SCORE PCS (lawn green): Final=786.4, Time=79.1, Moves(64)=57.3, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 1 (gray0): Final=1427.7, Time=76.4, Moves(64)=57.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 129: PCS (lawn green) 26->37 [0.00ms]
+[2026-05-22 11:06:09] SCORE PCS (lawn green): Final=784.6, Time=78.6, Moves(65)=53.9, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 1 (gray0): Final=1427.7, Time=76.4, Moves(64)=57.3, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:09] MOVE 130: Gruppe 1 (gray0) 41->42 [0.00ms]
+[2026-05-22 11:06:09] SCORE PCS (lawn green): Final=784.6, Time=78.6, Moves(65)=53.9, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:09] SCORE Gruppe 1 (gray0): Final=1426.3, Time=76.3, Moves(65)=53.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 131: PCS (lawn green) 106->105 [0.00ms]
+[2026-05-22 11:06:10] SCORE PCS (lawn green): Final=782.8, Time=78.1, Moves(66)=50.6, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 1 (gray0): Final=1426.3, Time=76.3, Moves(65)=53.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:10] MOVE 132: Gruppe 1 (gray0) 42->43 [0.00ms]
+[2026-05-22 11:06:10] SCORE PCS (lawn green): Final=782.8, Time=78.1, Moves(66)=50.6, Pins(3)=300.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:06:10] SCORE Gruppe 1 (gray0): Final=1424.8, Time=76.2, Moves(66)=50.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 133: PCS (lawn green) 37->26 [0.00ms]
+[2026-05-22 11:06:11] SCORE PCS (lawn green): Final=777.0, Time=77.6, Moves(67)=47.4, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 1 (gray0): Final=1424.8, Time=76.2, Moves(66)=50.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:06:11] MOVE 134: Gruppe 1 (gray0) 43->45 [0.00ms]
+[2026-05-22 11:06:11] SCORE PCS (lawn green): Final=777.0, Time=77.6, Moves(67)=47.4, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:06:11] SCORE Gruppe 1 (gray0): Final=2523.5, Time=76.1, Moves(67)=47.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:06:11] ALL WRONG MOVES BY COLOUR: {}

@@ -1,0 +1,760 @@
+[2026-05-22 10:19:52] GAME CREATED
+[2026-05-22 10:19:56] PLAYER JOINED: Group 16 as yellow
+[2026-05-22 10:20:02] PLAYER JOINED: Deepseekers as purple
+[2026-05-22 10:20:02] PLAYER START: Group 16 (yellow)
+[2026-05-22 10:20:02] PLAYER START: Deepseekers (purple)
+[2026-05-22 10:20:02] GAME START — turn order ['yellow', 'purple']
+[2026-05-22 10:20:02] PLAYER START: Group 16 (yellow)
+[2026-05-22 10:20:02] PLAYER START: Deepseekers (purple)
+[2026-05-22 10:20:02] MOVE 1: Group 16 (yellow) 24->47 [0.01ms]
+[2026-05-22 10:20:02] SCORE Group 16 (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:02] SCORE Deepseekers (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:20:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:03] MOVE 2: Deepseekers (purple) 85->64 [0.02ms]
+[2026-05-22 10:20:03] SCORE Group 16 (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:03] SCORE Deepseekers (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:03] MOVE 3: Group 16 (yellow) 36->24 [0.01ms]
+[2026-05-22 10:20:03] SCORE Group 16 (yellow): Final=281.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:20:03] SCORE Deepseekers (purple): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:03] MOVE 4: Deepseekers (purple) 110->83 [0.01ms]
+[2026-05-22 10:20:03] SCORE Group 16 (yellow): Final=281.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:20:03] SCORE Deepseekers (purple): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:20:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:04] MOVE 5: Group 16 (yellow) 35->36 [0.00ms]
+[2026-05-22 10:20:04] SCORE Group 16 (yellow): Final=283.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:04] SCORE Deepseekers (purple): Final=290.9, Time=98.9, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:20:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:04] MOVE 6: Deepseekers (purple) 96->73 [0.01ms]
+[2026-05-22 10:20:04] SCORE Group 16 (yellow): Final=283.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:20:04] SCORE Deepseekers (purple): Final=294.4, Time=98.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:20:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:04] MOVE 7: Group 16 (yellow) 46->35 [0.00ms]
+[2026-05-22 10:20:04] SCORE Group 16 (yellow): Final=281.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:20:04] SCORE Deepseekers (purple): Final=294.4, Time=98.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:20:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:05] MOVE 8: Deepseekers (purple) 108->106 [0.01ms]
+[2026-05-22 10:20:05] SCORE Group 16 (yellow): Final=281.2, Time=99.2, Moves(4)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:20:05] SCORE Deepseekers (purple): Final=298.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:05] MOVE 9: Group 16 (yellow) 36->57 [0.00ms]
+[2026-05-22 10:20:05] SCORE Group 16 (yellow): Final=285.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:20:05] SCORE Deepseekers (purple): Final=298.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:05] MOVE 10: Deepseekers (purple) 107->105 [0.01ms]
+[2026-05-22 10:20:05] SCORE Group 16 (yellow): Final=285.0, Time=99.0, Moves(5)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:20:05] SCORE Deepseekers (purple): Final=301.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:05] MOVE 11: Group 16 (yellow) 35->46 [0.00ms]
+[2026-05-22 10:20:05] SCORE Group 16 (yellow): Final=286.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:05] SCORE Deepseekers (purple): Final=301.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:20:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:06] MOVE 12: Deepseekers (purple) 74->54 [0.00ms]
+[2026-05-22 10:20:06] SCORE Group 16 (yellow): Final=286.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:06] SCORE Deepseekers (purple): Final=304.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:06] MOVE 13: Group 16 (yellow) 24->35 [0.00ms]
+[2026-05-22 10:20:06] SCORE Group 16 (yellow): Final=286.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:06] SCORE Deepseekers (purple): Final=304.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:07] MOVE 14: Deepseekers (purple) 95->72 [0.01ms]
+[2026-05-22 10:20:07] SCORE Group 16 (yellow): Final=286.9, Time=98.9, Moves(7)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:07] SCORE Deepseekers (purple): Final=308.3, Time=96.3, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:07] MOVE 15: Group 16 (yellow) 25->24 [0.01ms]
+[2026-05-22 10:20:07] SCORE Group 16 (yellow): Final=284.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:20:07] SCORE Deepseekers (purple): Final=308.3, Time=96.3, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:07] MOVE 16: Deepseekers (purple) 84->63 [0.01ms]
+[2026-05-22 10:20:07] SCORE Group 16 (yellow): Final=284.8, Time=98.8, Moves(8)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:20:07] SCORE Deepseekers (purple): Final=311.6, Time=95.6, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:20:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:08] MOVE 17: Group 16 (yellow) 13->14 [0.01ms]
+[2026-05-22 10:20:08] SCORE Group 16 (yellow): Final=286.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:08] SCORE Deepseekers (purple): Final=311.6, Time=95.6, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:08] MOVE 18: Deepseekers (purple) 73->71 [0.00ms]
+[2026-05-22 10:20:08] SCORE Group 16 (yellow): Final=286.6, Time=98.6, Moves(9)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:20:08] SCORE Deepseekers (purple): Final=315.3, Time=95.3, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:08] MOVE 19: Group 16 (yellow) 35->56 [0.00ms]
+[2026-05-22 10:20:08] SCORE Group 16 (yellow): Final=290.5, Time=98.5, Moves(10)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:20:08] SCORE Deepseekers (purple): Final=315.3, Time=95.3, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:20:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:09] MOVE 20: Deepseekers (purple) 64->81 [0.01ms]
+[2026-05-22 10:20:09] SCORE Group 16 (yellow): Final=290.5, Time=98.5, Moves(10)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:20:09] SCORE Deepseekers (purple): Final=318.7, Time=94.7, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:09] MOVE 21: Group 16 (yellow) 10->35 [0.00ms]
+[2026-05-22 10:20:09] SCORE Group 16 (yellow): Final=294.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:20:09] SCORE Deepseekers (purple): Final=318.7, Time=94.7, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:09] MOVE 22: Deepseekers (purple) 63->80 [0.01ms]
+[2026-05-22 10:20:09] SCORE Group 16 (yellow): Final=294.3, Time=98.3, Moves(11)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:20:09] SCORE Deepseekers (purple): Final=322.2, Time=94.2, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:20:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:09] MOVE 23: Group 16 (yellow) 35->36 [0.01ms]
+[2026-05-22 10:20:09] SCORE Group 16 (yellow): Final=296.3, Time=98.3, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:20:09] SCORE Deepseekers (purple): Final=322.2, Time=94.2, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:20:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:10] MOVE 24: Deepseekers (purple) 72->91 [0.01ms]
+[2026-05-22 10:20:10] SCORE Group 16 (yellow): Final=296.3, Time=98.3, Moves(12)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:20:10] SCORE Deepseekers (purple): Final=325.6, Time=93.6, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:10] MOVE 25: Group 16 (yellow) 46->25 [0.00ms]
+[2026-05-22 10:20:10] SCORE Group 16 (yellow): Final=296.2, Time=98.2, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:20:10] SCORE Deepseekers (purple): Final=325.6, Time=93.6, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:20:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:11] MOVE 26: Deepseekers (purple) 106->79 [0.00ms]
+[2026-05-22 10:20:11] SCORE Group 16 (yellow): Final=296.2, Time=98.2, Moves(13)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:20:11] SCORE Deepseekers (purple): Final=333.0, Time=93.0, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:11] MOVE 27: Group 16 (yellow) 25->26 [0.00ms]
+[2026-05-22 10:20:11] SCORE Group 16 (yellow): Final=298.1, Time=98.1, Moves(14)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:20:11] SCORE Deepseekers (purple): Final=333.0, Time=93.0, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:11] MOVE 28: Deepseekers (purple) 71->90 [0.00ms]
+[2026-05-22 10:20:11] SCORE Group 16 (yellow): Final=298.1, Time=98.1, Moves(14)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:20:11] SCORE Deepseekers (purple): Final=336.4, Time=92.4, Moves(14)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:11] MOVE 29: Group 16 (yellow) 36->37 [0.01ms]
+[2026-05-22 10:20:11] SCORE Group 16 (yellow): Final=299.9, Time=97.9, Moves(15)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:20:11] SCORE Deepseekers (purple): Final=336.4, Time=92.4, Moves(14)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:20:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:12] MOVE 30: Deepseekers (purple) 80->78 [0.00ms]
+[2026-05-22 10:20:12] SCORE Group 16 (yellow): Final=299.9, Time=97.9, Moves(15)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:20:12] SCORE Deepseekers (purple): Final=340.0, Time=92.0, Moves(15)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:12] MOVE 31: Group 16 (yellow) 24->25 [0.00ms]
+[2026-05-22 10:20:12] SCORE Group 16 (yellow): Final=301.8, Time=97.8, Moves(16)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:20:12] SCORE Deepseekers (purple): Final=340.0, Time=92.0, Moves(15)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:20:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:13] MOVE 32: Deepseekers (purple) 91->89 [0.01ms]
+[2026-05-22 10:20:13] SCORE Group 16 (yellow): Final=301.8, Time=97.8, Moves(16)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:20:13] SCORE Deepseekers (purple): Final=343.4, Time=91.4, Moves(16)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:20:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:13] MOVE 33: Group 16 (yellow) 25->48 [0.01ms]
+[2026-05-22 10:20:13] SCORE Group 16 (yellow): Final=305.8, Time=97.8, Moves(17)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:13] SCORE Deepseekers (purple): Final=343.4, Time=91.4, Moves(16)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:20:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:13] MOVE 34: Deepseekers (purple) 79->77 [0.01ms]
+[2026-05-22 10:20:13] SCORE Group 16 (yellow): Final=305.8, Time=97.8, Moves(17)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:13] SCORE Deepseekers (purple): Final=346.8, Time=90.8, Moves(17)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:20:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:13] MOVE 35: Group 16 (yellow) 12->24 [0.01ms]
+[2026-05-22 10:20:13] SCORE Group 16 (yellow): Final=305.6, Time=97.6, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:13] SCORE Deepseekers (purple): Final=346.8, Time=90.8, Moves(17)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:20:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:14] MOVE 36: Deepseekers (purple) 89->46 [0.00ms]
+[2026-05-22 10:20:14] SCORE Group 16 (yellow): Final=305.6, Time=97.6, Moves(18)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:20:14] SCORE Deepseekers (purple): Final=454.2, Time=90.2, Moves(18)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:20:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:14] MOVE 37: Group 16 (yellow) 23->27 [0.00ms]
+[2026-05-22 10:20:14] SCORE Group 16 (yellow): Final=313.5, Time=97.5, Moves(19)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:20:14] SCORE Deepseekers (purple): Final=454.2, Time=90.2, Moves(18)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:20:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:15] MOVE 38: Deepseekers (purple) 90->67 [0.00ms]
+[2026-05-22 10:20:15] SCORE Group 16 (yellow): Final=313.5, Time=97.5, Moves(19)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:20:15] SCORE Deepseekers (purple): Final=457.7, Time=89.7, Moves(19)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:15] MOVE 39: Group 16 (yellow) 11->38 [0.01ms]
+[2026-05-22 10:20:15] SCORE Group 16 (yellow): Final=321.5, Time=97.5, Moves(20)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:15] SCORE Deepseekers (purple): Final=457.7, Time=89.7, Moves(19)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:15] MOVE 40: Deepseekers (purple) 54->53 [0.01ms]
+[2026-05-22 10:20:15] SCORE Group 16 (yellow): Final=321.5, Time=97.5, Moves(20)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:15] SCORE Deepseekers (purple): Final=459.1, Time=89.1, Moves(20)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:15] MOVE 41: Group 16 (yellow) 24->25 [0.01ms]
+[2026-05-22 10:20:15] SCORE Group 16 (yellow): Final=323.4, Time=97.4, Moves(21)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:20:15] SCORE Deepseekers (purple): Final=459.1, Time=89.1, Moves(20)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:20:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:16] MOVE 42: Deepseekers (purple) 53->52 [0.00ms]
+[2026-05-22 10:20:16] SCORE Group 16 (yellow): Final=323.4, Time=97.4, Moves(21)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:20:16] SCORE Deepseekers (purple): Final=460.5, Time=88.5, Moves(21)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:16] MOVE 43: Group 16 (yellow) 25->12 [0.01ms]
+[2026-05-22 10:20:16] SCORE Group 16 (yellow): Final=321.3, Time=97.3, Moves(22)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:16] SCORE Deepseekers (purple): Final=460.5, Time=88.5, Moves(21)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:20:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:17] MOVE 44: Deepseekers (purple) 52->51 [0.00ms]
+[2026-05-22 10:20:17] SCORE Group 16 (yellow): Final=321.3, Time=97.3, Moves(22)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:20:17] SCORE Deepseekers (purple): Final=461.9, Time=87.9, Moves(22)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:20:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:17] MOVE 45: Group 16 (yellow) 12->13 [0.01ms]
+[2026-05-22 10:20:17] SCORE Group 16 (yellow): Final=323.2, Time=97.2, Moves(23)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:20:17] SCORE Deepseekers (purple): Final=461.9, Time=87.9, Moves(22)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:20:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:17] MOVE 46: Deepseekers (purple) 51->40 [0.01ms]
+[2026-05-22 10:20:17] SCORE Group 16 (yellow): Final=323.2, Time=97.2, Moves(23)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:20:17] SCORE Deepseekers (purple): Final=463.1, Time=87.1, Moves(23)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:20:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:18] MOVE 47: Group 16 (yellow) 13->15 [0.01ms]
+[2026-05-22 10:20:18] SCORE Group 16 (yellow): Final=326.7, Time=96.7, Moves(24)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:20:18] SCORE Deepseekers (purple): Final=463.1, Time=87.1, Moves(23)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:20:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:19] MOVE 48: Deepseekers (purple) 40->39 [0.01ms]
+[2026-05-22 10:20:19] SCORE Group 16 (yellow): Final=326.7, Time=96.7, Moves(24)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:20:19] SCORE Deepseekers (purple): Final=464.4, Time=86.4, Moves(24)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:19] MOVE 49: Group 16 (yellow) 38->49 [0.01ms]
+[2026-05-22 10:20:19] SCORE Group 16 (yellow): Final=328.7, Time=96.7, Moves(25)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:20:19] SCORE Deepseekers (purple): Final=464.4, Time=86.4, Moves(24)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:19] MOVE 50: Deepseekers (purple) 39->38 [0.01ms]
+[2026-05-22 10:20:19] SCORE Group 16 (yellow): Final=328.7, Time=96.7, Moves(25)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:20:19] SCORE Deepseekers (purple): Final=465.9, Time=85.9, Moves(25)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:19] MOVE 51: Group 16 (yellow) 48->58 [0.01ms]
+[2026-05-22 10:20:19] SCORE Group 16 (yellow): Final=330.6, Time=96.6, Moves(26)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:20:19] SCORE Deepseekers (purple): Final=465.9, Time=85.9, Moves(25)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:20:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:20] MOVE 52: Deepseekers (purple) 38->36 [0.01ms]
+[2026-05-22 10:20:20] SCORE Group 16 (yellow): Final=330.6, Time=96.6, Moves(26)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:20:20] SCORE Deepseekers (purple): Final=569.4, Time=85.4, Moves(26)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:20] MOVE 53: Group 16 (yellow) 58->39 [0.00ms]
+[2026-05-22 10:20:20] SCORE Group 16 (yellow): Final=330.5, Time=96.5, Moves(27)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:20:20] SCORE Deepseekers (purple): Final=569.4, Time=85.4, Moves(26)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:21] MOVE 54: Deepseekers (purple) 36->24 [0.01ms]
+[2026-05-22 10:20:21] SCORE Group 16 (yellow): Final=330.5, Time=96.5, Moves(27)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:20:21] SCORE Deepseekers (purple): Final=568.8, Time=84.8, Moves(27)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:21] MOVE 55: Group 16 (yellow) 15->59 [0.00ms]
+[2026-05-22 10:20:21] SCORE Group 16 (yellow): Final=334.4, Time=96.4, Moves(28)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:20:21] SCORE Deepseekers (purple): Final=568.8, Time=84.8, Moves(27)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:21] MOVE 56: Deepseekers (purple) 81->80 [0.01ms]
+[2026-05-22 10:20:21] SCORE Group 16 (yellow): Final=334.4, Time=96.4, Moves(28)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:20:21] SCORE Deepseekers (purple): Final=570.3, Time=84.3, Moves(28)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:21] MOVE 57: Group 16 (yellow) 39->60 [0.01ms]
+[2026-05-22 10:20:21] SCORE Group 16 (yellow): Final=338.3, Time=96.2, Moves(29)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:20:21] SCORE Deepseekers (purple): Final=570.3, Time=84.3, Moves(28)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:20:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:22] MOVE 58: Deepseekers (purple) 80->79 [0.01ms]
+[2026-05-22 10:20:22] SCORE Group 16 (yellow): Final=338.3, Time=96.2, Moves(29)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:20:22] SCORE Deepseekers (purple): Final=571.8, Time=83.8, Moves(29)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:22] MOVE 59: Group 16 (yellow) 47->48 [0.01ms]
+[2026-05-22 10:20:22] SCORE Group 16 (yellow): Final=340.2, Time=96.1, Moves(30)=0.1, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:20:22] SCORE Deepseekers (purple): Final=571.8, Time=83.8, Moves(29)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:20:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:23] MOVE 60: Deepseekers (purple) 67->47 [0.01ms]
+[2026-05-22 10:20:23] SCORE Group 16 (yellow): Final=340.2, Time=96.1, Moves(30)=0.1, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:20:23] SCORE Deepseekers (purple): Final=575.3, Time=83.2, Moves(30)=0.1, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:23] MOVE 61: Group 16 (yellow) 57->58 [0.01ms]
+[2026-05-22 10:20:23] SCORE Group 16 (yellow): Final=342.3, Time=96.0, Moves(31)=0.2, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:20:23] SCORE Deepseekers (purple): Final=575.3, Time=83.2, Moves(30)=0.1, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:23] MOVE 62: Deepseekers (purple) 47->36 [0.01ms]
+[2026-05-22 10:20:23] SCORE Group 16 (yellow): Final=342.3, Time=96.0, Moves(31)=0.2, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 10:20:23] SCORE Deepseekers (purple): Final=676.8, Time=82.6, Moves(31)=0.2, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:23] MOVE 63: Group 16 (yellow) 48->70 [0.01ms]
+[2026-05-22 10:20:23] SCORE Group 16 (yellow): Final=350.4, Time=95.9, Moves(32)=0.5, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:20:23] SCORE Deepseekers (purple): Final=676.8, Time=82.6, Moves(31)=0.2, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:20:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:24] MOVE 64: Deepseekers (purple) 105->104 [0.01ms]
+[2026-05-22 10:20:24] SCORE Group 16 (yellow): Final=350.4, Time=95.9, Moves(32)=0.5, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:20:24] SCORE Deepseekers (purple): Final=678.6, Time=82.1, Moves(32)=0.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:24] MOVE 65: Group 16 (yellow) 49->71 [0.01ms]
+[2026-05-22 10:20:24] SCORE Group 16 (yellow): Final=358.9, Time=95.8, Moves(33)=1.1, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:20:24] SCORE Deepseekers (purple): Final=678.6, Time=82.1, Moves(32)=0.5, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:20:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:25] MOVE 66: Deepseekers (purple) 78->67 [0.01ms]
+[2026-05-22 10:20:25] SCORE Group 16 (yellow): Final=358.9, Time=95.8, Moves(33)=1.1, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:20:25] SCORE Deepseekers (purple): Final=680.7, Time=81.5, Moves(33)=1.1, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:25] MOVE 67: Group 16 (yellow) 59->82 [0.01ms]
+[2026-05-22 10:20:25] SCORE Group 16 (yellow): Final=368.0, Time=95.7, Moves(34)=2.3, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:20:25] SCORE Deepseekers (purple): Final=680.7, Time=81.5, Moves(33)=1.1, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:25] MOVE 68: Deepseekers (purple) 83->81 [0.01ms]
+[2026-05-22 10:20:25] SCORE Group 16 (yellow): Final=368.0, Time=95.7, Moves(34)=2.3, Pins(0)=0.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:20:25] SCORE Deepseekers (purple): Final=685.3, Time=81.0, Moves(34)=2.3, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:25] MOVE 69: Group 16 (yellow) 58->48 [0.01ms]
+[2026-05-22 10:20:25] SCORE Group 16 (yellow): Final=368.0, Time=95.6, Moves(35)=4.4, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:20:25] SCORE Deepseekers (purple): Final=685.3, Time=81.0, Moves(34)=2.3, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:20:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:26] MOVE 70: Deepseekers (purple) 81->80 [0.01ms]
+[2026-05-22 10:20:26] SCORE Group 16 (yellow): Final=368.0, Time=95.6, Moves(35)=4.4, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:20:26] SCORE Deepseekers (purple): Final=688.9, Time=80.5, Moves(35)=4.4, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:26] MOVE 71: Group 16 (yellow) 60->83 [0.01ms]
+[2026-05-22 10:20:26] SCORE Group 16 (yellow): Final=379.4, Time=95.4, Moves(36)=8.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:20:26] SCORE Deepseekers (purple): Final=688.9, Time=80.5, Moves(35)=4.4, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:26] MOVE 72: Deepseekers (purple) 80->57 [0.01ms]
+[2026-05-22 10:20:26] SCORE Group 16 (yellow): Final=379.4, Time=95.4, Moves(36)=8.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:20:26] SCORE Deepseekers (purple): Final=699.9, Time=79.9, Moves(36)=8.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:20:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:27] MOVE 73: Group 16 (yellow) 70->95 [0.00ms]
+[2026-05-22 10:20:27] SCORE Group 16 (yellow): Final=492.9, Time=95.3, Moves(37)=13.5, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:27] SCORE Deepseekers (purple): Final=699.9, Time=79.9, Moves(36)=8.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:20:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:27] MOVE 74: Deepseekers (purple) 57->13 [0.00ms]
+[2026-05-22 10:20:27] SCORE Group 16 (yellow): Final=492.9, Time=95.3, Moves(37)=13.5, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:20:27] SCORE Deepseekers (purple): Final=808.9, Time=79.4, Moves(37)=13.5, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:20:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:27] MOVE 75: Group 16 (yellow) 71->96 [0.00ms]
+[2026-05-22 10:20:27] SCORE Group 16 (yellow): Final=606.9, Time=95.3, Moves(38)=21.6, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:20:27] SCORE Deepseekers (purple): Final=808.9, Time=79.4, Moves(37)=13.5, Pins(4)=400.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:20:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:28] MOVE 76: Deepseekers (purple) 109->84 [0.00ms]
+[2026-05-22 10:20:28] SCORE Group 16 (yellow): Final=606.9, Time=95.3, Moves(38)=21.6, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:20:28] SCORE Deepseekers (purple): Final=820.5, Time=78.8, Moves(38)=21.6, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:28] MOVE 77: Group 16 (yellow) 83->110 [0.01ms]
+[2026-05-22 10:20:28] SCORE Group 16 (yellow): Final=719.6, Time=95.1, Moves(39)=32.5, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:20:28] SCORE Deepseekers (purple): Final=820.5, Time=78.8, Moves(38)=21.6, Pins(4)=400.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:28] MOVE 78: Deepseekers (purple) 84->83 [0.01ms]
+[2026-05-22 10:20:28] SCORE Group 16 (yellow): Final=719.6, Time=95.1, Moves(39)=32.5, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:20:28] SCORE Deepseekers (purple): Final=832.8, Time=78.3, Moves(39)=32.5, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:20:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:29] MOVE 79: Group 16 (yellow) 82->109 [0.00ms]
+[2026-05-22 10:20:29] SCORE Group 16 (yellow): Final=836.8, Time=95.0, Moves(40)=45.8, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:20:29] SCORE Deepseekers (purple): Final=832.8, Time=78.3, Moves(39)=32.5, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:29] MOVE 80: Deepseekers (purple) 67->66 [0.01ms]
+[2026-05-22 10:20:29] SCORE Group 16 (yellow): Final=836.8, Time=95.0, Moves(40)=45.8, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:20:29] SCORE Deepseekers (purple): Final=847.5, Time=77.7, Moves(40)=45.8, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:29] MOVE 81: Group 16 (yellow) 37->38 [0.00ms]
+[2026-05-22 10:20:29] SCORE Group 16 (yellow): Final=853.6, Time=94.9, Moves(41)=60.7, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:29] SCORE Deepseekers (purple): Final=847.5, Time=77.7, Moves(40)=45.8, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:30] MOVE 82: Deepseekers (purple) 79->78 [0.00ms]
+[2026-05-22 10:20:30] SCORE Group 16 (yellow): Final=853.6, Time=94.9, Moves(41)=60.7, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:30] SCORE Deepseekers (purple): Final=863.9, Time=77.2, Moves(41)=60.7, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:30] MOVE 83: Group 16 (yellow) 96->85 [0.00ms]
+[2026-05-22 10:20:30] SCORE Group 16 (yellow): Final=868.3, Time=94.8, Moves(42)=75.5, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:30] SCORE Deepseekers (purple): Final=863.9, Time=77.2, Moves(41)=60.7, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:30] MOVE 84: Deepseekers (purple) 97->74 [0.01ms]
+[2026-05-22 10:20:30] SCORE Group 16 (yellow): Final=868.3, Time=94.8, Moves(42)=75.5, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:30] SCORE Deepseekers (purple): Final=882.1, Time=76.6, Moves(42)=75.5, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:20:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:31] MOVE 85: Group 16 (yellow) 109->97 [0.01ms]
+[2026-05-22 10:20:31] SCORE Group 16 (yellow): Final=880.9, Time=94.6, Moves(43)=88.2, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:31] SCORE Deepseekers (purple): Final=882.1, Time=76.6, Moves(42)=75.5, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:31] MOVE 86: Deepseekers (purple) 74->64 [0.01ms]
+[2026-05-22 10:20:31] SCORE Group 16 (yellow): Final=880.9, Time=94.6, Moves(43)=88.2, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:31] SCORE Deepseekers (purple): Final=896.4, Time=76.2, Moves(43)=88.2, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:31] MOVE 87: Group 16 (yellow) 97->96 [0.01ms]
+[2026-05-22 10:20:31] SCORE Group 16 (yellow): Final=889.4, Time=94.5, Moves(44)=96.9, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:31] SCORE Deepseekers (purple): Final=896.4, Time=76.2, Moves(43)=88.2, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:32] MOVE 88: Deepseekers (purple) 64->54 [0.00ms]
+[2026-05-22 10:20:32] SCORE Group 16 (yellow): Final=889.4, Time=94.5, Moves(44)=96.9, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:32] SCORE Deepseekers (purple): Final=906.6, Time=75.6, Moves(44)=96.9, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:20:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:32] MOVE 89: Group 16 (yellow) 85->97 [0.00ms]
+[2026-05-22 10:20:32] SCORE Group 16 (yellow): Final=892.4, Time=94.4, Moves(45)=100.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:32] SCORE Deepseekers (purple): Final=906.6, Time=75.6, Moves(44)=96.9, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:20:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:32] MOVE 90: Deepseekers (purple) 78->57 [0.01ms]
+[2026-05-22 10:20:32] SCORE Group 16 (yellow): Final=892.4, Time=94.4, Moves(45)=100.0, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:32] SCORE Deepseekers (purple): Final=913.1, Time=75.1, Moves(45)=100.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:20:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:33] MOVE 91: Group 16 (yellow) 97->109 [0.01ms]
+[2026-05-22 10:20:33] SCORE Group 16 (yellow): Final=892.2, Time=94.3, Moves(46)=99.8, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:33] SCORE Deepseekers (purple): Final=913.1, Time=75.1, Moves(45)=100.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:33] MOVE 92: Deepseekers (purple) 57->47 [0.00ms]
+[2026-05-22 10:20:33] SCORE Group 16 (yellow): Final=892.2, Time=94.3, Moves(46)=99.8, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:33] SCORE Deepseekers (purple): Final=914.4, Time=74.5, Moves(46)=99.8, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:33] MOVE 93: Group 16 (yellow) 95->97 [0.00ms]
+[2026-05-22 10:20:33] SCORE Group 16 (yellow): Final=891.6, Time=94.2, Moves(47)=99.4, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:33] SCORE Deepseekers (purple): Final=914.4, Time=74.5, Moves(46)=99.8, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:20:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:34] MOVE 94: Deepseekers (purple) 83->72 [0.00ms]
+[2026-05-22 10:20:34] SCORE Group 16 (yellow): Final=891.6, Time=94.2, Moves(47)=99.4, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:34] SCORE Deepseekers (purple): Final=915.4, Time=74.0, Moves(47)=99.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:34] MOVE 95: Group 16 (yellow) 96->85 [0.00ms]
+[2026-05-22 10:20:34] SCORE Group 16 (yellow): Final=890.8, Time=94.2, Moves(48)=98.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:34] SCORE Deepseekers (purple): Final=915.4, Time=74.0, Moves(47)=99.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:34] MOVE 96: Deepseekers (purple) 54->43 [0.01ms]
+[2026-05-22 10:20:34] SCORE Group 16 (yellow): Final=890.8, Time=94.2, Moves(48)=98.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:34] SCORE Deepseekers (purple): Final=916.0, Time=73.4, Moves(48)=98.6, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:20:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:34] MOVE 97: Group 16 (yellow) 110->108 [0.01ms]
+[2026-05-22 10:20:34] SCORE Group 16 (yellow): Final=889.7, Time=94.1, Moves(49)=97.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:34] SCORE Deepseekers (purple): Final=916.0, Time=73.4, Moves(48)=98.6, Pins(4)=400.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:20:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:35] MOVE 98: Deepseekers (purple) 104->103 [0.00ms]
+[2026-05-22 10:20:35] SCORE Group 16 (yellow): Final=889.7, Time=94.1, Moves(49)=97.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:35] SCORE Deepseekers (purple): Final=916.3, Time=72.8, Moves(49)=97.6, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:20:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:35] MOVE 99: Group 16 (yellow) 85->110 [0.00ms]
+[2026-05-22 10:20:35] SCORE Group 16 (yellow): Final=888.2, Time=94.0, Moves(50)=96.2, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:35] SCORE Deepseekers (purple): Final=916.3, Time=72.8, Moves(49)=97.6, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:20:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:36] MOVE 100: Deepseekers (purple) 103->102 [0.01ms]
+[2026-05-22 10:20:36] SCORE Group 16 (yellow): Final=888.2, Time=94.0, Moves(50)=96.2, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:36] SCORE Deepseekers (purple): Final=916.5, Time=72.2, Moves(50)=96.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:20:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:36] MOVE 101: Group 16 (yellow) 97->96 [0.00ms]
+[2026-05-22 10:20:36] SCORE Group 16 (yellow): Final=886.5, Time=93.9, Moves(51)=94.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:36] SCORE Deepseekers (purple): Final=916.5, Time=72.2, Moves(50)=96.2, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:20:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:36] MOVE 102: Deepseekers (purple) 102->89 [0.01ms]
+[2026-05-22 10:20:36] SCORE Group 16 (yellow): Final=886.5, Time=93.9, Moves(51)=94.6, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:36] SCORE Deepseekers (purple): Final=916.3, Time=71.7, Moves(51)=94.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:20:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:37] MOVE 103: Group 16 (yellow) 96->85 [0.01ms]
+[2026-05-22 10:20:37] SCORE Group 16 (yellow): Final=884.5, Time=93.8, Moves(52)=92.7, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:37] SCORE Deepseekers (purple): Final=916.3, Time=71.7, Moves(51)=94.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:20:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:37] MOVE 104: Deepseekers (purple) 72->62 [0.01ms]
+[2026-05-22 10:20:37] SCORE Group 16 (yellow): Final=884.5, Time=93.8, Moves(52)=92.7, Pins(4)=400.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:20:37] SCORE Deepseekers (purple): Final=915.8, Time=71.1, Moves(52)=92.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:20:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:37] MOVE 105: Group 16 (yellow) 27->39 [0.01ms]
+[2026-05-22 10:20:37] SCORE Group 16 (yellow): Final=884.2, Time=93.7, Moves(53)=90.6, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:20:37] SCORE Deepseekers (purple): Final=915.8, Time=71.1, Moves(52)=92.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:20:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:38] MOVE 106: Deepseekers (purple) 62->52 [0.00ms]
+[2026-05-22 10:20:38] SCORE Group 16 (yellow): Final=884.2, Time=93.7, Moves(53)=90.6, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:20:38] SCORE Deepseekers (purple): Final=915.2, Time=70.6, Moves(53)=90.6, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:38] MOVE 107: Group 16 (yellow) 39->58 [0.01ms]
+[2026-05-22 10:20:38] SCORE Group 16 (yellow): Final=881.8, Time=93.5, Moves(54)=88.2, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:20:38] SCORE Deepseekers (purple): Final=915.2, Time=70.6, Moves(53)=90.6, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:38] MOVE 108: Deepseekers (purple) 43->31 [0.00ms]
+[2026-05-22 10:20:38] SCORE Group 16 (yellow): Final=881.8, Time=93.5, Moves(54)=88.2, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:20:38] SCORE Deepseekers (purple): Final=914.3, Time=70.1, Moves(54)=88.2, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:38] MOVE 109: Group 16 (yellow) 48->68 [0.00ms]
+[2026-05-22 10:20:38] SCORE Group 16 (yellow): Final=883.1, Time=93.4, Moves(55)=85.7, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:38] SCORE Deepseekers (purple): Final=914.3, Time=70.1, Moves(54)=88.2, Pins(4)=400.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:20:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:39] MOVE 110: Deepseekers (purple) 31->18 [0.00ms]
+[2026-05-22 10:20:39] SCORE Group 16 (yellow): Final=883.1, Time=93.4, Moves(55)=85.7, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:39] SCORE Deepseekers (purple): Final=913.2, Time=69.5, Moves(55)=85.7, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:39] MOVE 111: Group 16 (yellow) 68->59 [0.00ms]
+[2026-05-22 10:20:39] SCORE Group 16 (yellow): Final=880.3, Time=93.3, Moves(56)=83.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:39] SCORE Deepseekers (purple): Final=913.2, Time=69.5, Moves(55)=85.7, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:20:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:40] MOVE 112: Deepseekers (purple) 18->17 [0.01ms]
+[2026-05-22 10:20:40] SCORE Group 16 (yellow): Final=880.3, Time=93.3, Moves(56)=83.0, Pins(4)=400.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:20:40] SCORE Deepseekers (purple): Final=912.0, Time=69.0, Moves(56)=83.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:40] MOVE 113: Group 16 (yellow) 58->60 [0.00ms]
+[2026-05-22 10:20:40] SCORE Group 16 (yellow): Final=881.3, Time=93.2, Moves(57)=80.1, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:20:40] SCORE Deepseekers (purple): Final=912.0, Time=69.0, Moves(56)=83.0, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:40] MOVE 114: Deepseekers (purple) 17->16 [0.00ms]
+[2026-05-22 10:20:40] SCORE Group 16 (yellow): Final=881.3, Time=93.2, Moves(57)=80.1, Pins(4)=400.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:20:40] SCORE Deepseekers (purple): Final=910.5, Time=68.4, Moves(57)=80.1, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:40] MOVE 115: Group 16 (yellow) 60->70 [0.00ms]
+[2026-05-22 10:20:40] SCORE Group 16 (yellow): Final=880.1, Time=93.1, Moves(58)=77.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:20:40] SCORE Deepseekers (purple): Final=910.5, Time=68.4, Moves(57)=80.1, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:20:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:41] MOVE 116: Deepseekers (purple) 16->15 [0.00ms]
+[2026-05-22 10:20:41] SCORE Group 16 (yellow): Final=880.1, Time=93.1, Moves(58)=77.0, Pins(4)=400.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:20:41] SCORE Deepseekers (purple): Final=908.9, Time=67.9, Moves(58)=77.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:20:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:41] MOVE 117: Group 16 (yellow) 26->71 [0.00ms]
+[2026-05-22 10:20:41] SCORE Group 16 (yellow): Final=888.9, Time=93.0, Moves(59)=73.9, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:20:41] SCORE Deepseekers (purple): Final=908.9, Time=67.9, Moves(58)=77.0, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:20:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:42] MOVE 118: Deepseekers (purple) 52->41 [0.01ms]
+[2026-05-22 10:20:42] SCORE Group 16 (yellow): Final=888.9, Time=93.0, Moves(59)=73.9, Pins(4)=400.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:20:42] SCORE Deepseekers (purple): Final=907.2, Time=67.3, Moves(59)=73.9, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:42] MOVE 119: Group 16 (yellow) 71->82 [0.00ms]
+[2026-05-22 10:20:42] SCORE Group 16 (yellow): Final=887.5, Time=92.9, Moves(60)=70.7, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:42] SCORE Deepseekers (purple): Final=907.2, Time=67.3, Moves(59)=73.9, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:42] MOVE 120: Deepseekers (purple) 41->29 [0.00ms]
+[2026-05-22 10:20:42] SCORE Group 16 (yellow): Final=887.5, Time=92.9, Moves(60)=70.7, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:42] SCORE Deepseekers (purple): Final=905.5, Time=66.8, Moves(60)=70.7, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:42] MOVE 121: Group 16 (yellow) 108->96 [0.00ms]
+[2026-05-22 10:20:42] SCORE Group 16 (yellow): Final=884.2, Time=92.8, Moves(61)=67.4, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:42] SCORE Deepseekers (purple): Final=905.5, Time=66.8, Moves(60)=70.7, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:20:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:43] MOVE 122: Deepseekers (purple) 29->16 [0.00ms]
+[2026-05-22 10:20:43] SCORE Group 16 (yellow): Final=884.2, Time=92.8, Moves(61)=67.4, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:43] SCORE Deepseekers (purple): Final=903.6, Time=66.2, Moves(61)=67.4, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:43] MOVE 123: Group 16 (yellow) 96->95 [0.01ms]
+[2026-05-22 10:20:43] SCORE Group 16 (yellow): Final=880.7, Time=92.7, Moves(62)=64.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:43] SCORE Deepseekers (purple): Final=903.6, Time=66.2, Moves(61)=67.4, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:20:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:44] MOVE 124: Deepseekers (purple) 46->25 [0.00ms]
+[2026-05-22 10:20:44] SCORE Group 16 (yellow): Final=880.7, Time=92.7, Moves(62)=64.0, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:44] SCORE Deepseekers (purple): Final=899.7, Time=65.7, Moves(62)=64.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:44] MOVE 125: Group 16 (yellow) 110->108 [0.00ms]
+[2026-05-22 10:20:44] SCORE Group 16 (yellow): Final=877.2, Time=92.6, Moves(63)=60.7, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:44] SCORE Deepseekers (purple): Final=899.7, Time=65.7, Moves(62)=64.0, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:44] MOVE 126: Deepseekers (purple) 66->46 [0.01ms]
+[2026-05-22 10:20:44] SCORE Group 16 (yellow): Final=877.2, Time=92.6, Moves(63)=60.7, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:44] SCORE Deepseekers (purple): Final=999.7, Time=65.1, Moves(63)=60.7, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:44] MOVE 127: Group 16 (yellow) 109->110 [0.01ms]
+[2026-05-22 10:20:44] SCORE Group 16 (yellow): Final=873.8, Time=92.5, Moves(64)=57.3, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:44] SCORE Deepseekers (purple): Final=999.7, Time=65.1, Moves(63)=60.7, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:20:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:45] MOVE 128: Deepseekers (purple) 89->66 [0.00ms]
+[2026-05-22 10:20:45] SCORE Group 16 (yellow): Final=873.8, Time=92.5, Moves(64)=57.3, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:45] SCORE Deepseekers (purple): Final=999.8, Time=64.5, Moves(64)=57.3, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:20:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:45] MOVE 129: Group 16 (yellow) 85->74 [0.00ms]
+[2026-05-22 10:20:45] SCORE Group 16 (yellow): Final=870.3, Time=92.4, Moves(65)=53.9, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:45] SCORE Deepseekers (purple): Final=999.8, Time=64.5, Moves(64)=57.3, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:20:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:46] MOVE 130: Deepseekers (purple) 36->11 [0.01ms]
+[2026-05-22 10:20:46] SCORE Group 16 (yellow): Final=870.3, Time=92.4, Moves(65)=53.9, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:46] SCORE Deepseekers (purple): Final=996.0, Time=64.0, Moves(65)=53.9, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:20:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:46] MOVE 131: Group 16 (yellow) 74->84 [0.01ms]
+[2026-05-22 10:20:46] SCORE Group 16 (yellow): Final=866.9, Time=92.2, Moves(66)=50.6, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:46] SCORE Deepseekers (purple): Final=996.0, Time=64.0, Moves(65)=53.9, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:20:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:46] MOVE 132: Deepseekers (purple) 47->36 [0.00ms]
+[2026-05-22 10:20:46] SCORE Group 16 (yellow): Final=866.9, Time=92.2, Moves(66)=50.6, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:46] SCORE Deepseekers (purple): Final=1094.2, Time=63.5, Moves(66)=50.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:46] MOVE 133: Group 16 (yellow) 84->109 [0.00ms]
+[2026-05-22 10:20:46] SCORE Group 16 (yellow): Final=863.5, Time=92.1, Moves(67)=47.4, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:46] SCORE Deepseekers (purple): Final=1094.2, Time=63.5, Moves(66)=50.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:47] MOVE 134: Deepseekers (purple) 25->23 [0.01ms]
+[2026-05-22 10:20:47] SCORE Group 16 (yellow): Final=863.5, Time=92.1, Moves(67)=47.4, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:47] SCORE Deepseekers (purple): Final=1090.5, Time=63.1, Moves(67)=47.4, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:47] MOVE 135: Group 16 (yellow) 95->84 [0.00ms]
+[2026-05-22 10:20:47] SCORE Group 16 (yellow): Final=860.2, Time=92.0, Moves(68)=44.2, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:47] SCORE Deepseekers (purple): Final=1090.5, Time=63.1, Moves(67)=47.4, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:48] MOVE 136: Deepseekers (purple) 23->35 [0.01ms]
+[2026-05-22 10:20:48] SCORE Group 16 (yellow): Final=860.2, Time=92.0, Moves(68)=44.2, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:48] SCORE Deepseekers (purple): Final=1086.7, Time=62.5, Moves(68)=44.2, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:48] MOVE 137: Group 16 (yellow) 84->85 [0.00ms]
+[2026-05-22 10:20:48] SCORE Group 16 (yellow): Final=857.0, Time=91.9, Moves(69)=41.1, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:48] SCORE Deepseekers (purple): Final=1086.7, Time=62.5, Moves(68)=44.2, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:48] MOVE 138: Deepseekers (purple) 35->10 [0.01ms]
+[2026-05-22 10:20:48] SCORE Group 16 (yellow): Final=857.0, Time=91.9, Moves(69)=41.1, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:48] SCORE Deepseekers (purple): Final=1083.0, Time=61.9, Moves(69)=41.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:48] MOVE 139: Group 16 (yellow) 108->95 [0.00ms]
+[2026-05-22 10:20:48] SCORE Group 16 (yellow): Final=854.0, Time=91.8, Moves(70)=38.1, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:48] SCORE Deepseekers (purple): Final=1083.0, Time=61.9, Moves(69)=41.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:49] MOVE 140: Deepseekers (purple) 46->25 [0.01ms]
+[2026-05-22 10:20:49] SCORE Group 16 (yellow): Final=854.0, Time=91.8, Moves(70)=38.1, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:49] SCORE Deepseekers (purple): Final=1079.4, Time=61.3, Moves(70)=38.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:49] MOVE 141: Group 16 (yellow) 109->108 [0.01ms]
+[2026-05-22 10:20:49] SCORE Group 16 (yellow): Final=851.0, Time=91.8, Moves(71)=35.2, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:49] SCORE Deepseekers (purple): Final=1079.4, Time=61.3, Moves(70)=38.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:20:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:50] MOVE 142: Deepseekers (purple) 66->46 [0.01ms]
+[2026-05-22 10:20:50] SCORE Group 16 (yellow): Final=851.0, Time=91.8, Moves(71)=35.2, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:50] SCORE Deepseekers (purple): Final=1180.0, Time=60.8, Moves(71)=35.2, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:20:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:50] MOVE 143: Group 16 (yellow) 85->74 [0.00ms]
+[2026-05-22 10:20:50] SCORE Group 16 (yellow): Final=848.1, Time=91.6, Moves(72)=32.5, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:50] SCORE Deepseekers (purple): Final=1180.0, Time=60.8, Moves(71)=35.2, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:20:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:50] MOVE 144: Deepseekers (purple) 77->66 [0.00ms]
+[2026-05-22 10:20:50] SCORE Group 16 (yellow): Final=848.1, Time=91.6, Moves(72)=32.5, Pins(4)=400.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:20:50] SCORE Deepseekers (purple): Final=1178.7, Time=60.3, Moves(72)=32.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:50] MOVE 145: Group 16 (yellow) 70->71 [0.00ms]
+[2026-05-22 10:20:50] SCORE Group 16 (yellow): Final=847.3, Time=91.5, Moves(73)=29.8, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:20:50] SCORE Deepseekers (purple): Final=1178.7, Time=60.3, Moves(72)=32.5, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:51] MOVE 146: Deepseekers (purple) 25->23 [0.01ms]
+[2026-05-22 10:20:51] SCORE Group 16 (yellow): Final=847.3, Time=91.5, Moves(73)=29.8, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:20:51] SCORE Deepseekers (purple): Final=1175.6, Time=59.8, Moves(73)=29.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:51] MOVE 147: Group 16 (yellow) 71->96 [0.01ms]
+[2026-05-22 10:20:51] SCORE Group 16 (yellow): Final=950.7, Time=91.4, Moves(74)=27.3, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:51] SCORE Deepseekers (purple): Final=1175.6, Time=59.8, Moves(73)=29.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:52] MOVE 148: Deepseekers (purple) 10->12 [0.01ms]
+[2026-05-22 10:20:52] SCORE Group 16 (yellow): Final=950.7, Time=91.4, Moves(74)=27.3, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:52] SCORE Deepseekers (purple): Final=1172.4, Time=59.1, Moves(74)=27.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:52] MOVE 149: Group 16 (yellow) 96->109 [0.00ms]
+[2026-05-22 10:20:52] SCORE Group 16 (yellow): Final=948.2, Time=91.3, Moves(75)=24.9, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:52] SCORE Deepseekers (purple): Final=1172.4, Time=59.1, Moves(74)=27.3, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:52] MOVE 150: Deepseekers (purple) 46->25 [0.01ms]
+[2026-05-22 10:20:52] SCORE Group 16 (yellow): Final=948.2, Time=91.3, Moves(75)=24.9, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:52] SCORE Deepseekers (purple): Final=1169.6, Time=58.7, Moves(75)=24.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:52] MOVE 151: Group 16 (yellow) 95->84 [0.00ms]
+[2026-05-22 10:20:52] SCORE Group 16 (yellow): Final=945.9, Time=91.2, Moves(76)=22.7, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:52] SCORE Deepseekers (purple): Final=1169.6, Time=58.7, Moves(75)=24.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:20:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:53] MOVE 152: Deepseekers (purple) 66->46 [0.01ms]
+[2026-05-22 10:20:53] SCORE Group 16 (yellow): Final=945.9, Time=91.2, Moves(76)=22.7, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:53] SCORE Deepseekers (purple): Final=1270.8, Time=58.1, Moves(76)=22.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:53] MOVE 153: Group 16 (yellow) 109->107 [0.01ms]
+[2026-05-22 10:20:53] SCORE Group 16 (yellow): Final=943.7, Time=91.1, Moves(77)=20.6, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:53] SCORE Deepseekers (purple): Final=1270.8, Time=58.1, Moves(76)=22.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:53] MOVE 154: Deepseekers (purple) 11->10 [0.00ms]
+[2026-05-22 10:20:53] SCORE Group 16 (yellow): Final=943.7, Time=91.1, Moves(77)=20.6, Pins(5)=500.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:20:53] SCORE Deepseekers (purple): Final=1268.1, Time=57.5, Moves(77)=20.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:54] MOVE 155: Group 16 (yellow) 59->60 [0.01ms]
+[2026-05-22 10:20:54] SCORE Group 16 (yellow): Final=943.6, Time=91.0, Moves(78)=18.6, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:20:54] SCORE Deepseekers (purple): Final=1268.1, Time=57.5, Moves(77)=20.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:54] MOVE 156: Deepseekers (purple) 36->11 [0.01ms]
+[2026-05-22 10:20:54] SCORE Group 16 (yellow): Final=943.6, Time=91.0, Moves(78)=18.6, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:20:54] SCORE Deepseekers (purple): Final=1265.7, Time=57.0, Moves(78)=18.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:54] MOVE 157: Group 16 (yellow) 60->70 [0.01ms]
+[2026-05-22 10:20:54] SCORE Group 16 (yellow): Final=943.6, Time=90.8, Moves(79)=16.8, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:20:54] SCORE Deepseekers (purple): Final=1265.7, Time=57.0, Moves(78)=18.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:55] MOVE 158: Deepseekers (purple) 10->35 [0.00ms]
+[2026-05-22 10:20:55] SCORE Group 16 (yellow): Final=943.6, Time=90.8, Moves(79)=16.8, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:20:55] SCORE Deepseekers (purple): Final=1263.3, Time=56.5, Moves(79)=16.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:55] MOVE 159: Group 16 (yellow) 82->83 [0.01ms]
+[2026-05-22 10:20:55] SCORE Group 16 (yellow): Final=943.8, Time=90.7, Moves(80)=15.1, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:20:55] SCORE Deepseekers (purple): Final=1263.3, Time=56.5, Moves(79)=16.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:56] MOVE 160: Deepseekers (purple) 46->36 [0.00ms]
+[2026-05-22 10:20:56] SCORE Group 16 (yellow): Final=943.8, Time=90.7, Moves(80)=15.1, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:20:56] SCORE Deepseekers (purple): Final=1261.0, Time=55.9, Moves(80)=15.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:56] MOVE 161: Group 16 (yellow) 83->85 [0.01ms]
+[2026-05-22 10:20:56] SCORE Group 16 (yellow): Final=1044.1, Time=90.6, Moves(81)=13.5, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:20:56] SCORE Deepseekers (purple): Final=1261.0, Time=55.9, Moves(80)=15.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:56] MOVE 162: Deepseekers (purple) 35->46 [0.00ms]
+[2026-05-22 10:20:56] SCORE Group 16 (yellow): Final=1044.1, Time=90.6, Moves(81)=13.5, Pins(6)=600.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:20:56] SCORE Deepseekers (purple): Final=1259.0, Time=55.5, Moves(81)=13.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:56] MOVE 163: Group 16 (yellow) 70->71 [0.00ms]
+[2026-05-22 10:20:56] SCORE Group 16 (yellow): Final=1044.4, Time=90.3, Moves(82)=12.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:56] SCORE Deepseekers (purple): Final=1259.0, Time=55.5, Moves(81)=13.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:57] MOVE 164: Deepseekers (purple) 23->35 [0.00ms]
+[2026-05-22 10:20:57] SCORE Group 16 (yellow): Final=1044.4, Time=90.3, Moves(82)=12.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:57] SCORE Deepseekers (purple): Final=1257.1, Time=55.0, Moves(82)=12.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:57] MOVE 165: Group 16 (yellow) 85->96 [0.00ms]
+[2026-05-22 10:20:57] SCORE Group 16 (yellow): Final=1042.9, Time=90.1, Moves(83)=10.8, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:57] SCORE Deepseekers (purple): Final=1257.1, Time=55.0, Moves(82)=12.1, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:57] MOVE 166: Deepseekers (purple) 46->23 [0.01ms]
+[2026-05-22 10:20:57] SCORE Group 16 (yellow): Final=1042.9, Time=90.1, Moves(83)=10.8, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:57] SCORE Deepseekers (purple): Final=1255.3, Time=54.5, Moves(83)=10.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:57] MOVE 167: Group 16 (yellow) 96->109 [0.01ms]
+[2026-05-22 10:20:57] SCORE Group 16 (yellow): Final=1041.6, Time=90.1, Moves(84)=9.6, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:57] SCORE Deepseekers (purple): Final=1255.3, Time=54.5, Moves(83)=10.8, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:58] MOVE 168: Deepseekers (purple) 35->10 [0.00ms]
+[2026-05-22 10:20:58] SCORE Group 16 (yellow): Final=1041.6, Time=90.1, Moves(84)=9.6, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:20:58] SCORE Deepseekers (purple): Final=1253.6, Time=54.0, Moves(84)=9.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:58] MOVE 169: Group 16 (yellow) 71->82 [0.00ms]
+[2026-05-22 10:20:58] SCORE Group 16 (yellow): Final=1042.5, Time=90.0, Moves(85)=8.5, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:20:58] SCORE Deepseekers (purple): Final=1253.6, Time=54.0, Moves(84)=9.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:59] MOVE 170: Deepseekers (purple) 24->35 [0.00ms]
+[2026-05-22 10:20:59] SCORE Group 16 (yellow): Final=1042.5, Time=90.0, Moves(85)=8.5, Pins(6)=600.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:20:59] SCORE Deepseekers (purple): Final=1251.9, Time=53.4, Moves(85)=8.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:59] MOVE 171: Group 16 (yellow) 82->94 [0.00ms]
+[2026-05-22 10:20:59] SCORE Group 16 (yellow): Final=1043.3, Time=89.9, Moves(86)=7.5, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:20:59] SCORE Deepseekers (purple): Final=1251.9, Time=53.4, Moves(85)=8.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:20:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:20:59] MOVE 172: Deepseekers (purple) 36->24 [0.01ms]
+[2026-05-22 10:20:59] SCORE Group 16 (yellow): Final=1043.3, Time=89.9, Moves(86)=7.5, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:00] SCORE Deepseekers (purple): Final=1250.2, Time=52.8, Moves(86)=7.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:00] MOVE 173: Group 16 (yellow) 109->97 [0.01ms]
+[2026-05-22 10:21:00] SCORE Group 16 (yellow): Final=1042.4, Time=89.8, Moves(87)=6.6, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:00] SCORE Deepseekers (purple): Final=1250.2, Time=52.8, Moves(86)=7.5, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:00] MOVE 174: Deepseekers (purple) 13->36 [0.01ms]
+[2026-05-22 10:21:00] SCORE Group 16 (yellow): Final=1042.4, Time=89.8, Moves(87)=6.6, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:21:00] SCORE Deepseekers (purple): Final=1248.8, Time=52.2, Moves(87)=6.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:00] MOVE 175: Group 16 (yellow) 94->95 [0.00ms]
+[2026-05-22 10:21:00] SCORE Group 16 (yellow): Final=1143.5, Time=89.7, Moves(88)=5.8, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:00] SCORE Deepseekers (purple): Final=1248.8, Time=52.2, Moves(87)=6.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:21:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:01] MOVE 176: Deepseekers (purple) 15->13 [0.01ms]
+[2026-05-22 10:21:01] SCORE Group 16 (yellow): Final=1143.5, Time=89.7, Moves(88)=5.8, Pins(7)=700.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Deepseekers (purple): Final=1351.5, Time=51.7, Moves(88)=5.8, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:01] MOVE 177: Group 16 (yellow) 38->49 [0.00ms]
+[2026-05-22 10:21:01] SCORE Group 16 (yellow): Final=1144.6, Time=89.6, Moves(89)=5.0, Pins(7)=700.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Deepseekers (purple): Final=1351.5, Time=51.7, Moves(88)=5.8, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:01] MOVE 178: Deepseekers (purple) 16->28 [0.00ms]
+[2026-05-22 10:21:01] SCORE Group 16 (yellow): Final=1144.6, Time=89.6, Moves(89)=5.0, Pins(7)=700.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:21:01] SCORE Deepseekers (purple): Final=1350.2, Time=51.1, Moves(89)=5.0, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:02] MOVE 179: Group 16 (yellow) 49->50 [0.00ms]
+[2026-05-22 10:21:02] SCORE Group 16 (yellow): Final=1145.9, Time=89.5, Moves(90)=4.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:21:02] SCORE Deepseekers (purple): Final=1350.2, Time=51.1, Moves(89)=5.0, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:02] MOVE 180: Deepseekers (purple) 28->39 [0.00ms]
+[2026-05-22 10:21:02] SCORE Group 16 (yellow): Final=1145.9, Time=89.5, Moves(90)=4.4, Pins(7)=700.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:21:02] SCORE Deepseekers (purple): Final=1349.0, Time=50.7, Moves(90)=4.4, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:02] MOVE 181: Group 16 (yellow) 50->60 [0.00ms]
+[2026-05-22 10:21:02] SCORE Group 16 (yellow): Final=1147.3, Time=89.4, Moves(91)=3.8, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:02] SCORE Deepseekers (purple): Final=1349.0, Time=50.7, Moves(90)=4.4, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:03] MOVE 182: Deepseekers (purple) 39->49 [0.00ms]
+[2026-05-22 10:21:03] SCORE Group 16 (yellow): Final=1147.3, Time=89.4, Moves(91)=3.8, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Deepseekers (purple): Final=1347.9, Time=50.0, Moves(91)=3.8, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:03] MOVE 183: Group 16 (yellow) 60->70 [0.00ms]
+[2026-05-22 10:21:03] SCORE Group 16 (yellow): Final=1148.6, Time=89.3, Moves(92)=3.3, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Deepseekers (purple): Final=1347.9, Time=50.0, Moves(91)=3.8, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:21:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:03] MOVE 184: Deepseekers (purple) 49->48 [0.00ms]
+[2026-05-22 10:21:03] SCORE Group 16 (yellow): Final=1148.6, Time=89.3, Moves(92)=3.3, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Deepseekers (purple): Final=1348.8, Time=49.5, Moves(92)=3.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:21:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:03] MOVE 185: Group 16 (yellow) 56->65 [0.00ms]
+[2026-05-22 10:21:03] SCORE Group 16 (yellow): Final=1148.1, Time=89.2, Moves(93)=2.9, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:03] SCORE Deepseekers (purple): Final=1348.8, Time=49.5, Moves(92)=3.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:21:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:04] MOVE 186: Deepseekers (purple) 48->47 [0.00ms]
+[2026-05-22 10:21:04] SCORE Group 16 (yellow): Final=1148.1, Time=89.2, Moves(93)=2.9, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:21:04] SCORE Deepseekers (purple): Final=1349.8, Time=48.9, Moves(93)=2.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:04] MOVE 187: Group 16 (yellow) 65->76 [0.00ms]
+[2026-05-22 10:21:04] SCORE Group 16 (yellow): Final=1149.6, Time=89.1, Moves(94)=2.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:21:04] SCORE Deepseekers (purple): Final=1349.8, Time=48.9, Moves(93)=2.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:21:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:21:04] MOVE 188: Deepseekers (purple) 47->46 [0.00ms]
+[2026-05-22 10:21:04] SCORE Group 16 (yellow): Final=1149.6, Time=89.1, Moves(94)=2.5, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:21:04] SCORE Deepseekers (purple): Final=2451.1, Time=48.7, Moves(94)=2.5, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:21:04] ALL WRONG MOVES BY COLOUR: {}

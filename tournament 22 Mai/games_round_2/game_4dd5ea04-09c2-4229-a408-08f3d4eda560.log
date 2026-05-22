@@ -1,0 +1,1428 @@
+[2026-05-22 10:19:52] GAME CREATED
+[2026-05-22 10:19:54] PLAYER JOINED: HelloWorld as red
+[2026-05-22 10:19:58] PLAYER JOINED: group 99 as blue
+[2026-05-22 10:21:09] PLAYER JOINED: Tiefes Verstarkendes Lernen as yellow
+[2026-05-22 10:21:40] PLAYER JOINED: S&S as purple
+[2026-05-22 10:21:41] PLAYER START: HelloWorld (red)
+[2026-05-22 10:21:41] PLAYER START: group 99 (blue)
+[2026-05-22 10:21:41] PLAYER START: Tiefes Verstarkendes Lernen (yellow)
+[2026-05-22 10:21:41] PLAYER START: S&S (purple)
+[2026-05-22 10:21:41] GAME START — turn order ['red', 'yellow', 'blue', 'purple']
+[2026-05-22 10:21:41] PLAYER START: HelloWorld (red)
+[2026-05-22 10:21:41] PLAYER START: group 99 (blue)
+[2026-05-22 10:21:41] PLAYER START: Tiefes Verstarkendes Lernen (yellow)
+[2026-05-22 10:21:41] PLAYER START: S&S (purple)
+[2026-05-22 10:21:43] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE group 99 (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE S&S (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:21:43] TURN TIMEOUT: Player with colour red exceeded 2s at move 1. Turn skipped.
+[2026-05-22 10:21:43] MOVE 2: Tiefes Verstarkendes Lernen (yellow) 12->14 [0.00ms]
+[2026-05-22 10:21:43] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE group 99 (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:43] SCORE S&S (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:21:44] MOVE 3: group 99 (blue) 8->17 [0.00ms]
+[2026-05-22 10:21:44] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE group 99 (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Tiefes Verstarkendes Lernen (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE S&S (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:21:45] MOVE 4: S&S (purple) 108->106 [0.00ms]
+[2026-05-22 10:21:45] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE group 99 (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE Tiefes Verstarkendes Lernen (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:45] SCORE S&S (purple): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 10:21:47] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE group 99 (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE S&S (purple): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:47] TURN TIMEOUT: Player with colour red exceeded 2s at move 5. Turn skipped.
+[2026-05-22 10:21:47] MOVE 6: Tiefes Verstarkendes Lernen (yellow) 10->37 [0.00ms]
+[2026-05-22 10:21:47] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE group 99 (blue): Final=280.6, Time=98.6, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:47] SCORE S&S (purple): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:47] PLAYER START: HelloWorld (red)
+[2026-05-22 10:21:47] PLAYER START: group 99 (blue)
+[2026-05-22 10:21:47] PLAYER START: Tiefes Verstarkendes Lernen (yellow)
+[2026-05-22 10:21:47] PLAYER START: S&S (purple)
+[2026-05-22 10:21:48] MOVE 7: group 99 (blue) 1->30 [0.00ms]
+[2026-05-22 10:21:48] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE group 99 (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE Tiefes Verstarkendes Lernen (yellow): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:48] SCORE S&S (purple): Final=283.5, Time=99.5, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:21:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 8: S&S (purple) 110->83 [0.00ms]
+[2026-05-22 10:21:49] SCORE HelloWorld (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE group 99 (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE S&S (purple): Final=291.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 9: HelloWorld (red) 114->73 [0.00ms]
+[2026-05-22 10:21:49] SCORE HelloWorld (red): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE group 99 (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=291.4, Time=99.4, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE S&S (purple): Final=291.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:49] MOVE 10: Tiefes Verstarkendes Lernen (yellow) 13->15 [0.00ms]
+[2026-05-22 10:21:49] SCORE HelloWorld (red): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE group 99 (blue): Final=287.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:49] SCORE S&S (purple): Final=291.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:51] MOVE 11: group 99 (blue) 5->41 [0.01ms]
+[2026-05-22 10:21:51] SCORE HelloWorld (red): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE group 99 (blue): Final=294.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE S&S (purple): Final=291.0, Time=99.0, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:21:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:51] MOVE 12: S&S (purple) 74->72 [0.01ms]
+[2026-05-22 10:21:51] SCORE HelloWorld (red): Final=287.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE group 99 (blue): Final=294.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:51] SCORE S&S (purple): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 13: HelloWorld (red) 119->94 [0.00ms]
+[2026-05-22 10:21:52] SCORE HelloWorld (red): Final=294.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE group 99 (blue): Final=294.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE S&S (purple): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:52] MOVE 14: Tiefes Verstarkendes Lernen (yellow) 14->18 [0.00ms]
+[2026-05-22 10:21:52] SCORE HelloWorld (red): Final=294.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE group 99 (blue): Final=294.2, Time=96.2, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:52] SCORE S&S (purple): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:53] MOVE 15: group 99 (blue) 9->52 [0.00ms]
+[2026-05-22 10:21:53] SCORE HelloWorld (red): Final=294.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE group 99 (blue): Final=301.1, Time=95.1, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:53] SCORE S&S (purple): Final=294.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:54] MOVE 16: S&S (purple) 85->74 [0.00ms]
+[2026-05-22 10:21:54] SCORE HelloWorld (red): Final=294.5, Time=98.5, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE group 99 (blue): Final=301.1, Time=95.1, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE Tiefes Verstarkendes Lernen (yellow): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:54] SCORE S&S (purple): Final=296.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:54] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:55] MOVE 17: HelloWorld (red) 115->104 [0.00ms]
+[2026-05-22 10:21:55] SCORE HelloWorld (red): Final=297.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE group 99 (blue): Final=301.1, Time=95.1, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Tiefes Verstarkendes Lernen (yellow): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE S&S (purple): Final=296.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:55] MOVE 18: Tiefes Verstarkendes Lernen (yellow) 18->31 [0.00ms]
+[2026-05-22 10:21:55] SCORE HelloWorld (red): Final=297.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE group 99 (blue): Final=301.1, Time=95.1, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE Tiefes Verstarkendes Lernen (yellow): Final=305.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:55] SCORE S&S (purple): Final=296.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:56] MOVE 19: group 99 (blue) 3->43 [0.00ms]
+[2026-05-22 10:21:56] SCORE HelloWorld (red): Final=297.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE group 99 (blue): Final=307.8, Time=93.8, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE Tiefes Verstarkendes Lernen (yellow): Final=305.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE S&S (purple): Final=296.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:21:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:56] MOVE 20: S&S (purple) 107->103 [0.00ms]
+[2026-05-22 10:21:56] SCORE HelloWorld (red): Final=297.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE group 99 (blue): Final=307.8, Time=93.8, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE Tiefes Verstarkendes Lernen (yellow): Final=305.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:56] SCORE S&S (purple): Final=303.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 21: HelloWorld (red) 116->63 [0.00ms]
+[2026-05-22 10:21:57] SCORE HelloWorld (red): Final=308.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE group 99 (blue): Final=307.8, Time=93.8, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Tiefes Verstarkendes Lernen (yellow): Final=305.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE S&S (purple): Final=303.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:57] MOVE 22: Tiefes Verstarkendes Lernen (yellow) 31->54 [0.00ms]
+[2026-05-22 10:21:57] SCORE HelloWorld (red): Final=308.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE group 99 (blue): Final=307.8, Time=93.8, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE Tiefes Verstarkendes Lernen (yellow): Final=309.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:57] SCORE S&S (purple): Final=303.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:57] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:58] MOVE 23: group 99 (blue) 41->108 [0.00ms]
+[2026-05-22 10:21:58] SCORE HelloWorld (red): Final=308.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:21:58] SCORE group 99 (blue): Final=314.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:58] SCORE Tiefes Verstarkendes Lernen (yellow): Final=309.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:58] SCORE S&S (purple): Final=303.4, Time=97.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:21:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:21:59] MOVE 24: S&S (purple) 83->14 [0.00ms]
+[2026-05-22 10:21:59] SCORE HelloWorld (red): Final=308.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE group 99 (blue): Final=314.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE Tiefes Verstarkendes Lernen (yellow): Final=309.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:21:59] SCORE S&S (purple): Final=318.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:21:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:00] MOVE 25: HelloWorld (red) 120->102 [0.00ms]
+[2026-05-22 10:22:00] SCORE HelloWorld (red): Final=315.8, Time=95.8, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE group 99 (blue): Final=314.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE Tiefes Verstarkendes Lernen (yellow): Final=309.2, Time=99.2, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE S&S (purple): Final=318.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:22:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:00] MOVE 26: Tiefes Verstarkendes Lernen (yellow) 54->64 [0.00ms]
+[2026-05-22 10:22:00] SCORE HelloWorld (red): Final=315.8, Time=95.8, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE group 99 (blue): Final=314.8, Time=92.8, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE Tiefes Verstarkendes Lernen (yellow): Final=311.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:22:00] SCORE S&S (purple): Final=318.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:22:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:01] MOVE 27: group 99 (blue) 0->83 [0.00ms]
+[2026-05-22 10:22:01] SCORE HelloWorld (red): Final=315.8, Time=95.8, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE group 99 (blue): Final=333.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE Tiefes Verstarkendes Lernen (yellow): Final=311.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:22:01] SCORE S&S (purple): Final=318.9, Time=96.9, Moves(6)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:22:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:02] MOVE 28: S&S (purple) 14->13 [0.01ms]
+[2026-05-22 10:22:02] SCORE HelloWorld (red): Final=315.8, Time=95.8, Moves(5)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE group 99 (blue): Final=333.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE Tiefes Verstarkendes Lernen (yellow): Final=311.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:22:02] SCORE S&S (purple): Final=420.3, Time=96.3, Moves(7)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:22:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:03] MOVE 29: HelloWorld (red) 73->32 [0.01ms]
+[2026-05-22 10:22:03] SCORE HelloWorld (red): Final=321.0, Time=95.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE group 99 (blue): Final=333.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE Tiefes Verstarkendes Lernen (yellow): Final=311.1, Time=99.1, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE S&S (purple): Final=420.3, Time=96.3, Moves(7)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:22:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:03] MOVE 30: Tiefes Verstarkendes Lernen (yellow) 35->62 [0.00ms]
+[2026-05-22 10:22:03] SCORE HelloWorld (red): Final=321.0, Time=95.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE group 99 (blue): Final=333.5, Time=91.5, Moves(7)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE Tiefes Verstarkendes Lernen (yellow): Final=327.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:22:03] SCORE S&S (purple): Final=420.3, Time=96.3, Moves(7)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:22:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 31: group 99 (blue) 108->107 [0.01ms]
+[2026-05-22 10:22:04] SCORE HelloWorld (red): Final=321.0, Time=95.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE group 99 (blue): Final=334.3, Time=90.3, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Tiefes Verstarkendes Lernen (yellow): Final=327.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE S&S (purple): Final=420.3, Time=96.3, Moves(7)=0.0, Pins(1)=100.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:04] MOVE 32: S&S (purple) 96->51 [0.00ms]
+[2026-05-22 10:22:04] SCORE HelloWorld (red): Final=321.0, Time=95.0, Moves(6)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE group 99 (blue): Final=334.3, Time=90.3, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE Tiefes Verstarkendes Lernen (yellow): Final=327.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:22:04] SCORE S&S (purple): Final=432.0, Time=96.0, Moves(8)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:05] MOVE 33: HelloWorld (red) 94->53 [0.00ms]
+[2026-05-22 10:22:05] SCORE HelloWorld (red): Final=328.3, Time=94.3, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE group 99 (blue): Final=334.3, Time=90.3, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE Tiefes Verstarkendes Lernen (yellow): Final=327.0, Time=99.0, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE S&S (purple): Final=432.0, Time=96.0, Moves(8)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:05] MOVE 34: Tiefes Verstarkendes Lernen (yellow) 37->18 [0.01ms]
+[2026-05-22 10:22:05] SCORE HelloWorld (red): Final=328.3, Time=94.3, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE group 99 (blue): Final=334.3, Time=90.3, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE Tiefes Verstarkendes Lernen (yellow): Final=334.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:05] SCORE S&S (purple): Final=432.0, Time=96.0, Moves(8)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:07] MOVE 35: group 99 (blue) 107->116 [0.00ms]
+[2026-05-22 10:22:07] SCORE HelloWorld (red): Final=328.3, Time=94.3, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE group 99 (blue): Final=436.9, Time=88.9, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE Tiefes Verstarkendes Lernen (yellow): Final=334.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE S&S (purple): Final=432.0, Time=96.0, Moves(8)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:07] MOVE 36: S&S (purple) 74->29 [0.00ms]
+[2026-05-22 10:22:07] SCORE HelloWorld (red): Final=328.3, Time=94.3, Moves(7)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE group 99 (blue): Final=436.9, Time=88.9, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE Tiefes Verstarkendes Lernen (yellow): Final=334.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:07] SCORE S&S (purple): Final=443.4, Time=95.4, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 37: HelloWorld (red) 112->55 [0.00ms]
+[2026-05-22 10:22:08] SCORE HelloWorld (red): Final=337.0, Time=93.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE group 99 (blue): Final=436.9, Time=88.9, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Tiefes Verstarkendes Lernen (yellow): Final=334.9, Time=98.9, Moves(9)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE S&S (purple): Final=443.4, Time=95.4, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:08] MOVE 38: Tiefes Verstarkendes Lernen (yellow) 64->74 [0.01ms]
+[2026-05-22 10:22:08] SCORE HelloWorld (red): Final=337.0, Time=93.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE group 99 (blue): Final=436.9, Time=88.9, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.9, Time=98.9, Moves(10)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:08] SCORE S&S (purple): Final=443.4, Time=95.4, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:10] MOVE 39: group 99 (blue) 17->61 [0.01ms]
+[2026-05-22 10:22:10] SCORE HelloWorld (red): Final=337.0, Time=93.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.9, Time=98.9, Moves(10)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE S&S (purple): Final=443.4, Time=95.4, Moves(9)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:10] MOVE 40: S&S (purple) 84->105 [0.01ms]
+[2026-05-22 10:22:10] SCORE HelloWorld (red): Final=337.0, Time=93.0, Moves(8)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.9, Time=98.9, Moves(10)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:10] SCORE S&S (purple): Final=446.8, Time=94.8, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:11] MOVE 41: HelloWorld (red) 63->17 [0.00ms]
+[2026-05-22 10:22:11] SCORE HelloWorld (red): Final=344.3, Time=92.3, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.9, Time=98.9, Moves(10)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE S&S (purple): Final=446.8, Time=94.8, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:11] MOVE 42: Tiefes Verstarkendes Lernen (yellow) 74->85 [0.01ms]
+[2026-05-22 10:22:11] SCORE HelloWorld (red): Final=344.3, Time=92.3, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:11] SCORE S&S (purple): Final=446.8, Time=94.8, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)']}
+[2026-05-22 10:22:13] SCORE HelloWorld (red): Final=344.3, Time=92.3, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:13] SCORE S&S (purple): Final=446.8, Time=94.8, Moves(10)=0.0, Pins(1)=100.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:13] TURN TIMEOUT: Player with colour blue exceeded 2s at move 43. Turn skipped.
+[2026-05-22 10:22:14] MOVE 44: S&S (purple) 105->42 [0.00ms]
+[2026-05-22 10:22:14] SCORE HelloWorld (red): Final=344.3, Time=92.3, Moves(9)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:14] SCORE S&S (purple): Final=450.3, Time=94.3, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 45: HelloWorld (red) 111->91 [0.00ms]
+[2026-05-22 10:22:15] SCORE HelloWorld (red): Final=347.3, Time=91.3, Moves(10)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.8, Time=98.8, Moves(11)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE S&S (purple): Final=450.3, Time=94.3, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:15] MOVE 46: Tiefes Verstarkendes Lernen (yellow) 85->110 [0.00ms]
+[2026-05-22 10:22:15] SCORE HelloWorld (red): Final=347.3, Time=91.3, Moves(10)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE group 99 (blue): Final=443.5, Time=87.5, Moves(10)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:15] SCORE S&S (purple): Final=450.3, Time=94.3, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:16] MOVE 47: group 99 (blue) 61->105 [0.00ms]
+[2026-05-22 10:22:16] SCORE HelloWorld (red): Final=347.3, Time=91.3, Moves(10)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE group 99 (blue): Final=450.2, Time=86.2, Moves(11)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:16] SCORE S&S (purple): Final=450.3, Time=94.3, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:16] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:17] MOVE 48: S&S (purple) 42->40 [0.00ms]
+[2026-05-22 10:22:17] SCORE HelloWorld (red): Final=347.3, Time=91.3, Moves(10)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE group 99 (blue): Final=450.2, Time=86.2, Moves(11)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:17] SCORE S&S (purple): Final=453.7, Time=93.7, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:18] MOVE 49: HelloWorld (red) 17->8 [0.00ms]
+[2026-05-22 10:22:18] SCORE HelloWorld (red): Final=448.3, Time=90.3, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE group 99 (blue): Final=450.2, Time=86.2, Moves(11)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Tiefes Verstarkendes Lernen (yellow): Final=436.7, Time=98.7, Moves(12)=0.0, Pins(1)=100.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE S&S (purple): Final=453.7, Time=93.7, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:18] MOVE 50: Tiefes Verstarkendes Lernen (yellow) 62->63 [0.00ms]
+[2026-05-22 10:22:18] SCORE HelloWorld (red): Final=448.3, Time=90.3, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE group 99 (blue): Final=450.2, Time=86.2, Moves(11)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE Tiefes Verstarkendes Lernen (yellow): Final=438.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:22:18] SCORE S&S (purple): Final=453.7, Time=93.7, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:19] MOVE 51: group 99 (blue) 105->114 [0.00ms]
+[2026-05-22 10:22:19] SCORE HelloWorld (red): Final=448.3, Time=90.3, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE group 99 (blue): Final=551.2, Time=85.2, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE Tiefes Verstarkendes Lernen (yellow): Final=438.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE S&S (purple): Final=453.7, Time=93.7, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:19] MOVE 52: S&S (purple) 72->9 [0.00ms]
+[2026-05-22 10:22:19] SCORE HelloWorld (red): Final=448.3, Time=90.3, Moves(11)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE group 99 (blue): Final=551.2, Time=85.2, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE Tiefes Verstarkendes Lernen (yellow): Final=438.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:22:19] SCORE S&S (purple): Final=459.4, Time=93.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:20] MOVE 53: HelloWorld (red) 104->79 [0.00ms]
+[2026-05-22 10:22:20] SCORE HelloWorld (red): Final=451.4, Time=89.4, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE group 99 (blue): Final=551.2, Time=85.2, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE Tiefes Verstarkendes Lernen (yellow): Final=438.6, Time=98.6, Moves(13)=0.0, Pins(1)=100.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE S&S (purple): Final=459.4, Time=93.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:20] MOVE 54: Tiefes Verstarkendes Lernen (yellow) 18->64 [0.01ms]
+[2026-05-22 10:22:20] SCORE HelloWorld (red): Final=451.4, Time=89.4, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE group 99 (blue): Final=551.2, Time=85.2, Moves(12)=0.0, Pins(2)=200.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE Tiefes Verstarkendes Lernen (yellow): Final=446.5, Time=98.5, Moves(14)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:20] SCORE S&S (purple): Final=459.4, Time=93.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:22] MOVE 55: group 99 (blue) 4->61 [0.00ms]
+[2026-05-22 10:22:22] SCORE HelloWorld (red): Final=451.4, Time=89.4, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE group 99 (blue): Final=561.9, Time=83.9, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE Tiefes Verstarkendes Lernen (yellow): Final=446.5, Time=98.5, Moves(14)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE S&S (purple): Final=459.4, Time=93.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:22] MOVE 56: S&S (purple) 95->31 [0.01ms]
+[2026-05-22 10:22:22] SCORE HelloWorld (red): Final=451.4, Time=89.4, Moves(12)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE group 99 (blue): Final=561.9, Time=83.9, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE Tiefes Verstarkendes Lernen (yellow): Final=446.5, Time=98.5, Moves(14)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:22] SCORE S&S (purple): Final=467.0, Time=93.0, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:22:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:23] MOVE 57: HelloWorld (red) 91->68 [0.00ms]
+[2026-05-22 10:22:23] SCORE HelloWorld (red): Final=454.5, Time=88.5, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE group 99 (blue): Final=561.9, Time=83.9, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE Tiefes Verstarkendes Lernen (yellow): Final=446.5, Time=98.5, Moves(14)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE S&S (purple): Final=467.0, Time=93.0, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:22:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:23] MOVE 58: Tiefes Verstarkendes Lernen (yellow) 15->44 [0.01ms]
+[2026-05-22 10:22:23] SCORE HelloWorld (red): Final=454.5, Time=88.5, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE group 99 (blue): Final=561.9, Time=83.9, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE Tiefes Verstarkendes Lernen (yellow): Final=456.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:23] SCORE S&S (purple): Final=467.0, Time=93.0, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:22:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:24] MOVE 59: group 99 (blue) 52->95 [0.01ms]
+[2026-05-22 10:22:24] SCORE HelloWorld (red): Final=454.5, Time=88.5, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:24] SCORE group 99 (blue): Final=566.7, Time=82.7, Moves(14)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:22:24] SCORE Tiefes Verstarkendes Lernen (yellow): Final=456.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:24] SCORE S&S (purple): Final=467.0, Time=93.0, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:22:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:25] MOVE 60: S&S (purple) 31->50 [0.00ms]
+[2026-05-22 10:22:25] SCORE HelloWorld (red): Final=454.5, Time=88.5, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:22:25] SCORE group 99 (blue): Final=566.7, Time=82.7, Moves(14)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:22:25] SCORE Tiefes Verstarkendes Lernen (yellow): Final=456.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:25] SCORE S&S (purple): Final=470.5, Time=92.5, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:26] MOVE 61: HelloWorld (red) 117->104 [0.00ms]
+[2026-05-22 10:22:26] SCORE HelloWorld (red): Final=457.7, Time=87.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE group 99 (blue): Final=566.7, Time=82.7, Moves(14)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE Tiefes Verstarkendes Lernen (yellow): Final=456.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE S&S (purple): Final=470.5, Time=92.5, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:26] MOVE 62: Tiefes Verstarkendes Lernen (yellow) 64->74 [0.00ms]
+[2026-05-22 10:22:26] SCORE HelloWorld (red): Final=457.7, Time=87.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE group 99 (blue): Final=566.7, Time=82.7, Moves(14)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE Tiefes Verstarkendes Lernen (yellow): Final=558.2, Time=98.2, Moves(16)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:26] SCORE S&S (purple): Final=470.5, Time=92.5, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:27] MOVE 63: group 99 (blue) 43->56 [0.01ms]
+[2026-05-22 10:22:27] SCORE HelloWorld (red): Final=457.7, Time=87.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE group 99 (blue): Final=569.3, Time=81.3, Moves(15)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE Tiefes Verstarkendes Lernen (yellow): Final=558.2, Time=98.2, Moves(16)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE S&S (purple): Final=470.5, Time=92.5, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:27] MOVE 64: S&S (purple) 106->115 [0.01ms]
+[2026-05-22 10:22:27] SCORE HelloWorld (red): Final=457.7, Time=87.7, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE group 99 (blue): Final=569.3, Time=81.3, Moves(15)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE Tiefes Verstarkendes Lernen (yellow): Final=558.2, Time=98.2, Moves(16)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:27] SCORE S&S (purple): Final=474.1, Time=92.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:28] MOVE 65: HelloWorld (red) 118->91 [0.00ms]
+[2026-05-22 10:22:28] SCORE HelloWorld (red): Final=464.9, Time=86.9, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE group 99 (blue): Final=569.3, Time=81.3, Moves(15)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE Tiefes Verstarkendes Lernen (yellow): Final=558.2, Time=98.2, Moves(16)=0.0, Pins(2)=200.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE S&S (purple): Final=474.1, Time=92.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:28] MOVE 66: Tiefes Verstarkendes Lernen (yellow) 63->64 [0.00ms]
+[2026-05-22 10:22:28] SCORE HelloWorld (red): Final=464.9, Time=86.9, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE group 99 (blue): Final=569.3, Time=81.3, Moves(15)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE Tiefes Verstarkendes Lernen (yellow): Final=560.1, Time=98.1, Moves(17)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:28] SCORE S&S (purple): Final=474.1, Time=92.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:29] MOVE 67: group 99 (blue) 56->62 [0.01ms]
+[2026-05-22 10:22:29] SCORE HelloWorld (red): Final=464.9, Time=86.9, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:29] SCORE group 99 (blue): Final=568.2, Time=80.2, Moves(16)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:29] SCORE Tiefes Verstarkendes Lernen (yellow): Final=560.1, Time=98.1, Moves(17)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:29] SCORE S&S (purple): Final=474.1, Time=92.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:30] MOVE 68: S&S (purple) 103->78 [0.01ms]
+[2026-05-22 10:22:30] SCORE HelloWorld (red): Final=464.9, Time=86.9, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:22:30] SCORE group 99 (blue): Final=568.2, Time=80.2, Moves(16)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:30] SCORE Tiefes Verstarkendes Lernen (yellow): Final=560.1, Time=98.1, Moves(17)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:30] SCORE S&S (purple): Final=477.7, Time=91.7, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:31] MOVE 69: HelloWorld (red) 113->89 [0.01ms]
+[2026-05-22 10:22:31] SCORE HelloWorld (red): Final=468.1, Time=86.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE group 99 (blue): Final=568.2, Time=80.2, Moves(16)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE Tiefes Verstarkendes Lernen (yellow): Final=560.1, Time=98.1, Moves(17)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE S&S (purple): Final=477.7, Time=91.7, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:31] MOVE 70: Tiefes Verstarkendes Lernen (yellow) 64->85 [0.01ms]
+[2026-05-22 10:22:31] SCORE HelloWorld (red): Final=468.1, Time=86.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE group 99 (blue): Final=568.2, Time=80.2, Moves(16)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.9, Time=97.9, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:31] SCORE S&S (purple): Final=477.7, Time=91.7, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:32] MOVE 71: group 99 (blue) 95->94 [0.02ms]
+[2026-05-22 10:22:32] SCORE HelloWorld (red): Final=468.1, Time=86.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:32] SCORE group 99 (blue): Final=569.0, Time=79.0, Moves(17)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:32] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.9, Time=97.9, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:32] SCORE S&S (purple): Final=477.7, Time=91.7, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:33] MOVE 72: S&S (purple) 40->15 [0.01ms]
+[2026-05-22 10:22:33] SCORE HelloWorld (red): Final=468.1, Time=86.1, Moves(16)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:22:33] SCORE group 99 (blue): Final=569.0, Time=79.0, Moves(17)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:33] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.9, Time=97.9, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:33] SCORE S&S (purple): Final=481.0, Time=91.0, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:34] MOVE 73: HelloWorld (red) 79->58 [0.01ms]
+[2026-05-22 10:22:34] SCORE HelloWorld (red): Final=471.2, Time=85.2, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE group 99 (blue): Final=569.0, Time=79.0, Moves(17)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.9, Time=97.9, Moves(18)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE S&S (purple): Final=481.0, Time=91.0, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:34] MOVE 74: Tiefes Verstarkendes Lernen (yellow) 85->96 [0.00ms]
+[2026-05-22 10:22:34] SCORE HelloWorld (red): Final=471.2, Time=85.2, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE group 99 (blue): Final=569.0, Time=79.0, Moves(17)=0.0, Pins(2)=200.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.7, Time=97.7, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:34] SCORE S&S (purple): Final=481.0, Time=91.0, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:35] MOVE 75: group 99 (blue) 83->117 [0.01ms]
+[2026-05-22 10:22:35] SCORE HelloWorld (red): Final=471.2, Time=85.2, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE group 99 (blue): Final=673.9, Time=77.9, Moves(18)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.7, Time=97.7, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE S&S (purple): Final=481.0, Time=91.0, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:35] MOVE 76: S&S (purple) 97->93 [0.01ms]
+[2026-05-22 10:22:35] SCORE HelloWorld (red): Final=471.2, Time=85.2, Moves(17)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE group 99 (blue): Final=673.9, Time=77.9, Moves(18)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.7, Time=97.7, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:35] SCORE S&S (purple): Final=488.6, Time=90.6, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:22:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:36] MOVE 77: HelloWorld (red) 104->77 [0.01ms]
+[2026-05-22 10:22:36] SCORE HelloWorld (red): Final=474.3, Time=84.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE group 99 (blue): Final=673.9, Time=77.9, Moves(18)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.7, Time=97.7, Moves(19)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE S&S (purple): Final=488.6, Time=90.6, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:22:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:36] MOVE 78: Tiefes Verstarkendes Lernen (yellow) 96->97 [0.01ms]
+[2026-05-22 10:22:36] SCORE HelloWorld (red): Final=474.3, Time=84.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE group 99 (blue): Final=673.9, Time=77.9, Moves(18)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.6, Time=97.6, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:36] SCORE S&S (purple): Final=488.6, Time=90.6, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:22:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:38] MOVE 79: group 99 (blue) 7->27 [0.00ms]
+[2026-05-22 10:22:38] SCORE HelloWorld (red): Final=474.3, Time=84.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE group 99 (blue): Final=676.6, Time=76.6, Moves(19)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.6, Time=97.6, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE S&S (purple): Final=488.6, Time=90.6, Moves(19)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:22:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:38] MOVE 80: S&S (purple) 9->7 [0.01ms]
+[2026-05-22 10:22:38] SCORE HelloWorld (red): Final=474.3, Time=84.3, Moves(18)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE group 99 (blue): Final=676.6, Time=76.6, Moves(19)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.6, Time=97.6, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:38] SCORE S&S (purple): Final=492.2, Time=90.2, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:39] MOVE 81: HelloWorld (red) 89->66 [0.00ms]
+[2026-05-22 10:22:39] SCORE HelloWorld (red): Final=477.3, Time=83.3, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE group 99 (blue): Final=676.6, Time=76.6, Moves(19)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE Tiefes Verstarkendes Lernen (yellow): Final=661.6, Time=97.6, Moves(20)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE S&S (purple): Final=492.2, Time=90.2, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:39] MOVE 82: Tiefes Verstarkendes Lernen (yellow) 24->28 [0.00ms]
+[2026-05-22 10:22:39] SCORE HelloWorld (red): Final=477.3, Time=83.3, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE group 99 (blue): Final=676.6, Time=76.6, Moves(19)=0.0, Pins(3)=300.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:39] SCORE S&S (purple): Final=492.2, Time=90.2, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:40] MOVE 83: group 99 (blue) 61->76 [0.01ms]
+[2026-05-22 10:22:40] SCORE HelloWorld (red): Final=477.3, Time=83.3, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:22:40] SCORE group 99 (blue): Final=677.5, Time=75.5, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:40] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:40] SCORE S&S (purple): Final=492.2, Time=90.2, Moves(20)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:41] MOVE 84: S&S (purple) 51->65 [0.01ms]
+[2026-05-22 10:22:41] SCORE HelloWorld (red): Final=477.3, Time=83.3, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE group 99 (blue): Final=677.5, Time=75.5, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE S&S (purple): Final=497.8, Time=89.8, Moves(21)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:41] MOVE 85: HelloWorld (red) 77->0 [0.00ms]
+[2026-05-22 10:22:41] SCORE HelloWorld (red): Final=590.8, Time=82.8, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE group 99 (blue): Final=677.5, Time=75.5, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE S&S (purple): Final=497.8, Time=89.8, Moves(21)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:41] MOVE 86: Tiefes Verstarkendes Lernen (yellow) 74->85 [0.01ms]
+[2026-05-22 10:22:41] SCORE HelloWorld (red): Final=590.8, Time=82.8, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE group 99 (blue): Final=677.5, Time=75.5, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.4, Time=97.4, Moves(22)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:41] SCORE S&S (purple): Final=497.8, Time=89.8, Moves(21)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:43] MOVE 87: group 99 (blue) 2->5 [0.00ms]
+[2026-05-22 10:22:43] SCORE HelloWorld (red): Final=590.8, Time=82.8, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE group 99 (blue): Final=678.2, Time=74.2, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.4, Time=97.4, Moves(22)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE S&S (purple): Final=497.8, Time=89.8, Moves(21)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:43] MOVE 88: S&S (purple) 78->57 [0.01ms]
+[2026-05-22 10:22:43] SCORE HelloWorld (red): Final=590.8, Time=82.8, Moves(20)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE group 99 (blue): Final=678.2, Time=74.2, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.4, Time=97.4, Moves(22)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:43] SCORE S&S (purple): Final=501.5, Time=89.5, Moves(22)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:44] MOVE 89: HelloWorld (red) 58->3 [0.01ms]
+[2026-05-22 10:22:44] SCORE HelloWorld (red): Final=699.9, Time=81.9, Moves(21)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE group 99 (blue): Final=678.2, Time=74.2, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.4, Time=97.4, Moves(22)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE S&S (purple): Final=501.5, Time=89.5, Moves(22)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:44] MOVE 90: Tiefes Verstarkendes Lernen (yellow) 85->96 [0.01ms]
+[2026-05-22 10:22:44] SCORE HelloWorld (red): Final=699.9, Time=81.9, Moves(21)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE group 99 (blue): Final=678.2, Time=74.2, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(23)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:44] SCORE S&S (purple): Final=501.5, Time=89.5, Moves(22)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:45] MOVE 91: group 99 (blue) 5->104 [0.00ms]
+[2026-05-22 10:22:45] SCORE HelloWorld (red): Final=699.9, Time=81.9, Moves(21)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:45] SCORE group 99 (blue): Final=696.9, Time=72.9, Moves(22)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:45] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(23)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:45] SCORE S&S (purple): Final=501.5, Time=89.5, Moves(22)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:22:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:46] MOVE 92: S&S (purple) 65->24 [0.01ms]
+[2026-05-22 10:22:46] SCORE HelloWorld (red): Final=699.9, Time=81.9, Moves(21)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE group 99 (blue): Final=696.9, Time=72.9, Moves(22)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(23)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE S&S (purple): Final=605.1, Time=89.1, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:22:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:46] MOVE 93: HelloWorld (red) 3->1 [0.00ms]
+[2026-05-22 10:22:46] SCORE HelloWorld (red): Final=699.2, Time=81.2, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE group 99 (blue): Final=696.9, Time=72.9, Moves(22)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(23)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE S&S (purple): Final=605.1, Time=89.1, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:22:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:46] MOVE 94: Tiefes Verstarkendes Lernen (yellow) 96->108 [0.00ms]
+[2026-05-22 10:22:46] SCORE HelloWorld (red): Final=699.2, Time=81.2, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE group 99 (blue): Final=696.9, Time=72.9, Moves(22)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(24)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:46] SCORE S&S (purple): Final=605.1, Time=89.1, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:22:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:48] MOVE 95: group 99 (blue) 94->119 [0.01ms]
+[2026-05-22 10:22:48] SCORE HelloWorld (red): Final=699.2, Time=81.2, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE group 99 (blue): Final=799.8, Time=71.8, Moves(23)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(24)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE S&S (purple): Final=605.1, Time=89.1, Moves(23)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:22:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:48] MOVE 96: S&S (purple) 109->107 [0.01ms]
+[2026-05-22 10:22:48] SCORE HelloWorld (red): Final=699.2, Time=81.2, Moves(22)=0.0, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE group 99 (blue): Final=799.8, Time=71.8, Moves(23)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(24)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:48] SCORE S&S (purple): Final=608.7, Time=88.7, Moves(24)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:22:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:49] MOVE 97: HelloWorld (red) 66->48 [0.00ms]
+[2026-05-22 10:22:49] SCORE HelloWorld (red): Final=702.3, Time=80.3, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE group 99 (blue): Final=799.8, Time=71.8, Moves(23)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.3, Time=97.3, Moves(24)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE S&S (purple): Final=608.7, Time=88.7, Moves(24)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:22:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:49] MOVE 98: Tiefes Verstarkendes Lernen (yellow) 108->109 [0.01ms]
+[2026-05-22 10:22:49] SCORE HelloWorld (red): Final=702.3, Time=80.3, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE group 99 (blue): Final=799.8, Time=71.8, Moves(23)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.2, Time=97.2, Moves(25)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:49] SCORE S&S (purple): Final=608.7, Time=88.7, Moves(24)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:22:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:50] MOVE 99: group 99 (blue) 104->112 [0.00ms]
+[2026-05-22 10:22:50] SCORE HelloWorld (red): Final=702.3, Time=80.3, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE group 99 (blue): Final=900.6, Time=70.6, Moves(24)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.2, Time=97.2, Moves(25)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE S&S (purple): Final=608.7, Time=88.7, Moves(24)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:22:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:50] MOVE 100: S&S (purple) 115->10 [0.01ms]
+[2026-05-22 10:22:50] SCORE HelloWorld (red): Final=702.3, Time=80.3, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE group 99 (blue): Final=900.6, Time=70.6, Moves(24)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.2, Time=97.2, Moves(25)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:50] SCORE S&S (purple): Final=722.5, Time=88.5, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:51] MOVE 101: HelloWorld (red) 48->38 [0.01ms]
+[2026-05-22 10:22:51] SCORE HelloWorld (red): Final=703.5, Time=79.5, Moves(24)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE group 99 (blue): Final=900.6, Time=70.6, Moves(24)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.2, Time=97.2, Moves(25)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE S&S (purple): Final=722.5, Time=88.5, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:51] MOVE 102: Tiefes Verstarkendes Lernen (yellow) 110->108 [0.00ms]
+[2026-05-22 10:22:51] SCORE HelloWorld (red): Final=703.5, Time=79.5, Moves(24)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE group 99 (blue): Final=900.6, Time=70.6, Moves(24)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.0, Time=97.0, Moves(26)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:51] SCORE S&S (purple): Final=722.5, Time=88.5, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:53] MOVE 103: group 99 (blue) 76->87 [0.00ms]
+[2026-05-22 10:22:53] SCORE HelloWorld (red): Final=703.5, Time=79.5, Moves(24)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE group 99 (blue): Final=899.3, Time=69.3, Moves(25)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.0, Time=97.0, Moves(26)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE S&S (purple): Final=722.5, Time=88.5, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:53] MOVE 104: S&S (purple) 15->14 [0.01ms]
+[2026-05-22 10:22:53] SCORE HelloWorld (red): Final=703.5, Time=79.5, Moves(24)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE group 99 (blue): Final=899.3, Time=69.3, Moves(25)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.0, Time=97.0, Moves(26)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE S&S (purple): Final=724.3, Time=88.3, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:53] MOVE 105: HelloWorld (red) 38->4 [0.01ms]
+[2026-05-22 10:22:53] SCORE HelloWorld (red): Final=808.9, Time=78.9, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE group 99 (blue): Final=899.3, Time=69.3, Moves(25)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=669.0, Time=97.0, Moves(26)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:53] SCORE S&S (purple): Final=724.3, Time=88.3, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:54] MOVE 106: Tiefes Verstarkendes Lernen (yellow) 109->110 [0.00ms]
+[2026-05-22 10:22:54] SCORE HelloWorld (red): Final=808.9, Time=78.9, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:54] SCORE group 99 (blue): Final=899.3, Time=69.3, Moves(25)=0.0, Pins(5)=500.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:54] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.8, Moves(27)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:54] SCORE S&S (purple): Final=724.3, Time=88.3, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:54] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:55] MOVE 107: group 99 (blue) 6->26 [0.00ms]
+[2026-05-22 10:22:55] SCORE HelloWorld (red): Final=808.9, Time=78.9, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE group 99 (blue): Final=901.7, Time=67.7, Moves(26)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.8, Moves(27)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE S&S (purple): Final=724.3, Time=88.3, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:55] MOVE 108: S&S (purple) 14->35 [0.00ms]
+[2026-05-22 10:22:55] SCORE HelloWorld (red): Final=808.9, Time=78.9, Moves(25)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE group 99 (blue): Final=901.7, Time=67.7, Moves(26)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.8, Moves(27)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:55] SCORE S&S (purple): Final=826.2, Time=88.2, Moves(27)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:56] MOVE 109: HelloWorld (red) 4->2 [0.01ms]
+[2026-05-22 10:22:56] SCORE HelloWorld (red): Final=808.2, Time=78.2, Moves(26)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE group 99 (blue): Final=901.7, Time=67.7, Moves(26)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.8, Moves(27)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE S&S (purple): Final=826.2, Time=88.2, Moves(27)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:56] MOVE 110: Tiefes Verstarkendes Lernen (yellow) 108->109 [0.01ms]
+[2026-05-22 10:22:56] SCORE HelloWorld (red): Final=808.2, Time=78.2, Moves(26)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE group 99 (blue): Final=901.7, Time=67.7, Moves(26)=0.0, Pins(5)=500.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(28)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:56] SCORE S&S (purple): Final=826.2, Time=88.2, Moves(27)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:57] MOVE 111: group 99 (blue) 87->88 [0.00ms]
+[2026-05-22 10:22:57] SCORE HelloWorld (red): Final=808.2, Time=78.2, Moves(26)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE group 99 (blue): Final=902.5, Time=66.5, Moves(27)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(28)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE S&S (purple): Final=826.2, Time=88.2, Moves(27)=0.0, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:57] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:57] MOVE 112: S&S (purple) 7->6 [0.01ms]
+[2026-05-22 10:22:57] SCORE HelloWorld (red): Final=808.2, Time=78.2, Moves(26)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE group 99 (blue): Final=902.5, Time=66.5, Moves(27)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(28)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:57] SCORE S&S (purple): Final=828.0, Time=88.0, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:57] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:58] MOVE 113: HelloWorld (red) 8->4 [0.01ms]
+[2026-05-22 10:22:58] SCORE HelloWorld (red): Final=807.5, Time=77.5, Moves(27)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE group 99 (blue): Final=902.5, Time=66.5, Moves(27)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(28)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE S&S (purple): Final=828.0, Time=88.0, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:58] MOVE 114: Tiefes Verstarkendes Lernen (yellow) 109->96 [0.00ms]
+[2026-05-22 10:22:58] SCORE HelloWorld (red): Final=807.5, Time=77.5, Moves(27)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE group 99 (blue): Final=902.5, Time=66.5, Moves(27)=0.0, Pins(5)=500.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(29)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:58] SCORE S&S (purple): Final=828.0, Time=88.0, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:59] MOVE 115: group 99 (blue) 88->89 [0.01ms]
+[2026-05-22 10:22:59] SCORE HelloWorld (red): Final=807.5, Time=77.5, Moves(27)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE group 99 (blue): Final=903.5, Time=65.5, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(29)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE S&S (purple): Final=828.0, Time=88.0, Moves(28)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:22:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:22:59] MOVE 116: S&S (purple) 6->14 [0.00ms]
+[2026-05-22 10:22:59] SCORE HelloWorld (red): Final=807.5, Time=77.5, Moves(27)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE group 99 (blue): Final=903.5, Time=65.5, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(29)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:22:59] SCORE S&S (purple): Final=829.9, Time=87.8, Moves(29)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:22:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:00] MOVE 117: HelloWorld (red) 102->77 [0.00ms]
+[2026-05-22 10:23:00] SCORE HelloWorld (red): Final=810.5, Time=76.5, Moves(28)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE group 99 (blue): Final=903.5, Time=65.5, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.7, Moves(29)=0.0, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE S&S (purple): Final=829.9, Time=87.8, Moves(29)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:00] MOVE 118: Tiefes Verstarkendes Lernen (yellow) 97->109 [0.00ms]
+[2026-05-22 10:23:00] SCORE HelloWorld (red): Final=810.5, Time=76.5, Moves(28)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE group 99 (blue): Final=903.5, Time=65.5, Moves(28)=0.0, Pins(5)=500.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.6, Moves(30)=0.1, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:00] SCORE S&S (purple): Final=829.9, Time=87.8, Moves(29)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:02] MOVE 119: group 99 (blue) 89->102 [0.01ms]
+[2026-05-22 10:23:02] SCORE HelloWorld (red): Final=810.5, Time=76.5, Moves(28)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE group 99 (blue): Final=904.3, Time=64.2, Moves(29)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.6, Moves(30)=0.1, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE S&S (purple): Final=829.9, Time=87.8, Moves(29)=0.0, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:02] MOVE 120: S&S (purple) 14->12 [0.01ms]
+[2026-05-22 10:23:02] SCORE HelloWorld (red): Final=810.5, Time=76.5, Moves(28)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE group 99 (blue): Final=904.3, Time=64.2, Moves(29)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.6, Moves(30)=0.1, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:02] SCORE S&S (purple): Final=931.7, Time=87.6, Moves(30)=0.1, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:23:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:03] MOVE 121: HelloWorld (red) 53->42 [0.00ms]
+[2026-05-22 10:23:03] SCORE HelloWorld (red): Final=811.9, Time=75.9, Moves(29)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE group 99 (blue): Final=904.3, Time=64.2, Moves(29)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.7, Time=96.6, Moves(30)=0.1, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE S&S (purple): Final=931.7, Time=87.6, Moves(30)=0.1, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:23:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:03] MOVE 122: Tiefes Verstarkendes Lernen (yellow) 96->97 [0.00ms]
+[2026-05-22 10:23:03] SCORE HelloWorld (red): Final=811.9, Time=75.9, Moves(29)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE group 99 (blue): Final=904.3, Time=64.2, Moves(29)=0.0, Pins(5)=500.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.5, Moves(31)=0.2, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:03] SCORE S&S (purple): Final=931.7, Time=87.6, Moves(30)=0.1, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:23:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:04] MOVE 123: group 99 (blue) 102->111 [0.01ms]
+[2026-05-22 10:23:04] SCORE HelloWorld (red): Final=811.9, Time=75.9, Moves(29)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE group 99 (blue): Final=1005.1, Time=63.0, Moves(30)=0.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.5, Moves(31)=0.2, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE S&S (purple): Final=931.7, Time=87.6, Moves(30)=0.1, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:23:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:04] MOVE 124: S&S (purple) 50->39 [0.01ms]
+[2026-05-22 10:23:04] SCORE HelloWorld (red): Final=811.9, Time=75.9, Moves(29)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE group 99 (blue): Final=1005.1, Time=63.0, Moves(30)=0.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.5, Moves(31)=0.2, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:04] SCORE S&S (purple): Final=933.8, Time=87.5, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:05] MOVE 125: HelloWorld (red) 42->15 [0.01ms]
+[2026-05-22 10:23:05] SCORE HelloWorld (red): Final=815.1, Time=75.0, Moves(30)=0.1, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE group 99 (blue): Final=1005.1, Time=63.0, Moves(30)=0.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.8, Time=96.5, Moves(31)=0.2, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE S&S (purple): Final=933.8, Time=87.5, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:05] MOVE 126: Tiefes Verstarkendes Lernen (yellow) 109->108 [0.01ms]
+[2026-05-22 10:23:05] SCORE HelloWorld (red): Final=815.1, Time=75.0, Moves(30)=0.1, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE group 99 (blue): Final=1005.1, Time=63.0, Moves(30)=0.1, Pins(6)=600.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.9, Time=96.4, Moves(32)=0.5, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:05] SCORE S&S (purple): Final=933.8, Time=87.5, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:06] MOVE 127: group 99 (blue) 27->50 [0.01ms]
+[2026-05-22 10:23:06] SCORE HelloWorld (red): Final=815.1, Time=75.0, Moves(30)=0.1, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE group 99 (blue): Final=1008.0, Time=61.8, Moves(31)=0.2, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.9, Time=96.4, Moves(32)=0.5, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE S&S (purple): Final=933.8, Time=87.5, Moves(31)=0.2, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:06] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:06] MOVE 128: S&S (purple) 29->27 [0.01ms]
+[2026-05-22 10:23:06] SCORE HelloWorld (red): Final=815.1, Time=75.0, Moves(30)=0.1, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE group 99 (blue): Final=1008.0, Time=61.8, Moves(31)=0.2, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.9, Time=96.4, Moves(32)=0.5, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:06] SCORE S&S (purple): Final=937.9, Time=87.4, Moves(32)=0.5, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:06] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:07] MOVE 129: HelloWorld (red) 15->7 [0.01ms]
+[2026-05-22 10:23:07] SCORE HelloWorld (red): Final=916.6, Time=74.4, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE group 99 (blue): Final=1008.0, Time=61.8, Moves(31)=0.2, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE Tiefes Verstarkendes Lernen (yellow): Final=668.9, Time=96.4, Moves(32)=0.5, Pins(3)=300.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE S&S (purple): Final=937.9, Time=87.4, Moves(32)=0.5, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:07] MOVE 130: Tiefes Verstarkendes Lernen (yellow) 44->54 [0.00ms]
+[2026-05-22 10:23:07] SCORE HelloWorld (red): Final=916.6, Time=74.4, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE group 99 (blue): Final=1008.0, Time=61.8, Moves(31)=0.2, Pins(6)=600.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE Tiefes Verstarkendes Lernen (yellow): Final=671.4, Time=96.3, Moves(33)=1.1, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:23:07] SCORE S&S (purple): Final=937.9, Time=87.4, Moves(32)=0.5, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:08] MOVE 131: group 99 (blue) 26->38 [0.01ms]
+[2026-05-22 10:23:08] SCORE HelloWorld (red): Final=916.6, Time=74.4, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE group 99 (blue): Final=1009.2, Time=60.7, Moves(32)=0.5, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE Tiefes Verstarkendes Lernen (yellow): Final=671.4, Time=96.3, Moves(33)=1.1, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE S&S (purple): Final=937.9, Time=87.4, Moves(32)=0.5, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:08] MOVE 132: S&S (purple) 39->14 [0.05ms]
+[2026-05-22 10:23:08] SCORE HelloWorld (red): Final=916.6, Time=74.4, Moves(31)=0.2, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE group 99 (blue): Final=1009.2, Time=60.7, Moves(32)=0.5, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE Tiefes Verstarkendes Lernen (yellow): Final=671.4, Time=96.3, Moves(33)=1.1, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:23:08] SCORE S&S (purple): Final=942.3, Time=87.2, Moves(33)=1.1, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:09] MOVE 133: HelloWorld (red) 7->3 [0.01ms]
+[2026-05-22 10:23:09] SCORE HelloWorld (red): Final=916.1, Time=73.6, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE group 99 (blue): Final=1009.2, Time=60.7, Moves(32)=0.5, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE Tiefes Verstarkendes Lernen (yellow): Final=671.4, Time=96.3, Moves(33)=1.1, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE S&S (purple): Final=942.3, Time=87.2, Moves(33)=1.1, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:09] MOVE 134: Tiefes Verstarkendes Lernen (yellow) 54->64 [0.01ms]
+[2026-05-22 10:23:09] SCORE HelloWorld (red): Final=916.1, Time=73.6, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE group 99 (blue): Final=1009.2, Time=60.7, Moves(32)=0.5, Pins(6)=600.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE Tiefes Verstarkendes Lernen (yellow): Final=674.5, Time=96.2, Moves(34)=2.3, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:23:09] SCORE S&S (purple): Final=942.3, Time=87.2, Moves(33)=1.1, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:10] MOVE 135: group 99 (blue) 38->78 [0.00ms]
+[2026-05-22 10:23:10] SCORE HelloWorld (red): Final=916.1, Time=73.6, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE group 99 (blue): Final=1016.7, Time=59.6, Moves(33)=1.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE Tiefes Verstarkendes Lernen (yellow): Final=674.5, Time=96.2, Moves(34)=2.3, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE S&S (purple): Final=942.3, Time=87.2, Moves(33)=1.1, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:10] MOVE 136: S&S (purple) 93->81 [0.01ms]
+[2026-05-22 10:23:10] SCORE HelloWorld (red): Final=916.1, Time=73.6, Moves(32)=0.5, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE group 99 (blue): Final=1016.7, Time=59.6, Moves(33)=1.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE Tiefes Verstarkendes Lernen (yellow): Final=674.5, Time=96.2, Moves(34)=2.3, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:23:10] SCORE S&S (purple): Final=945.4, Time=87.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:11] MOVE 137: HelloWorld (red) 77->58 [0.01ms]
+[2026-05-22 10:23:11] SCORE HelloWorld (red): Final=920.0, Time=72.9, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE group 99 (blue): Final=1016.7, Time=59.6, Moves(33)=1.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE Tiefes Verstarkendes Lernen (yellow): Final=674.5, Time=96.2, Moves(34)=2.3, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE S&S (purple): Final=945.4, Time=87.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:11] MOVE 138: Tiefes Verstarkendes Lernen (yellow) 64->74 [0.01ms]
+[2026-05-22 10:23:11] SCORE HelloWorld (red): Final=920.0, Time=72.9, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE group 99 (blue): Final=1016.7, Time=59.6, Moves(33)=1.1, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE Tiefes Verstarkendes Lernen (yellow): Final=778.5, Time=96.1, Moves(35)=4.4, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:11] SCORE S&S (purple): Final=945.4, Time=87.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:12] MOVE 139: group 99 (blue) 78->89 [0.01ms]
+[2026-05-22 10:23:12] SCORE HelloWorld (red): Final=920.0, Time=72.9, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE group 99 (blue): Final=1018.8, Time=58.5, Moves(34)=2.3, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE Tiefes Verstarkendes Lernen (yellow): Final=778.5, Time=96.1, Moves(35)=4.4, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE S&S (purple): Final=945.4, Time=87.1, Moves(34)=2.3, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:12] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:12] MOVE 140: S&S (purple) 81->70 [0.01ms]
+[2026-05-22 10:23:12] SCORE HelloWorld (red): Final=920.0, Time=72.9, Moves(33)=1.1, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE group 99 (blue): Final=1018.8, Time=58.5, Moves(34)=2.3, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE Tiefes Verstarkendes Lernen (yellow): Final=778.5, Time=96.1, Moves(35)=4.4, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:12] SCORE S&S (purple): Final=949.3, Time=87.0, Moves(35)=4.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:12] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:13] MOVE 141: HelloWorld (red) 68->48 [0.01ms]
+[2026-05-22 10:23:13] SCORE HelloWorld (red): Final=924.4, Time=72.1, Moves(34)=2.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE group 99 (blue): Final=1018.8, Time=58.5, Moves(34)=2.3, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE Tiefes Verstarkendes Lernen (yellow): Final=778.5, Time=96.1, Moves(35)=4.4, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE S&S (purple): Final=949.3, Time=87.0, Moves(35)=4.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:13] MOVE 142: Tiefes Verstarkendes Lernen (yellow) 74->85 [0.01ms]
+[2026-05-22 10:23:13] SCORE HelloWorld (red): Final=924.4, Time=72.1, Moves(34)=2.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE group 99 (blue): Final=1018.8, Time=58.5, Moves(34)=2.3, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE Tiefes Verstarkendes Lernen (yellow): Final=782.0, Time=96.0, Moves(36)=8.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:13] SCORE S&S (purple): Final=949.3, Time=87.0, Moves(35)=4.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:15] MOVE 143: group 99 (blue) 50->60 [0.01ms]
+[2026-05-22 10:23:15] SCORE HelloWorld (red): Final=924.4, Time=72.1, Moves(34)=2.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE group 99 (blue): Final=1021.7, Time=57.3, Moves(35)=4.4, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=782.0, Time=96.0, Moves(36)=8.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE S&S (purple): Final=949.3, Time=87.0, Moves(35)=4.4, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:23:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:15] MOVE 144: S&S (purple) 70->50 [0.00ms]
+[2026-05-22 10:23:15] SCORE HelloWorld (red): Final=924.4, Time=72.1, Moves(34)=2.3, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE group 99 (blue): Final=1021.7, Time=57.3, Moves(35)=4.4, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=782.0, Time=96.0, Moves(36)=8.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE S&S (purple): Final=956.8, Time=86.9, Moves(36)=8.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:15] MOVE 145: HelloWorld (red) 58->37 [0.01ms]
+[2026-05-22 10:23:15] SCORE HelloWorld (red): Final=929.8, Time=71.4, Moves(35)=4.4, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE group 99 (blue): Final=1021.7, Time=57.3, Moves(35)=4.4, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=782.0, Time=96.0, Moves(36)=8.0, Pins(4)=400.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE S&S (purple): Final=956.8, Time=86.9, Moves(36)=8.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:15] MOVE 146: Tiefes Verstarkendes Lernen (yellow) 36->63 [0.00ms]
+[2026-05-22 10:23:15] SCORE HelloWorld (red): Final=929.8, Time=71.4, Moves(35)=4.4, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE group 99 (blue): Final=1021.7, Time=57.3, Moves(35)=4.4, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE Tiefes Verstarkendes Lernen (yellow): Final=803.5, Time=95.9, Moves(37)=13.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:23:15] SCORE S&S (purple): Final=956.8, Time=86.9, Moves(36)=8.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:17] MOVE 147: group 99 (blue) 60->70 [0.00ms]
+[2026-05-22 10:23:17] SCORE HelloWorld (red): Final=929.8, Time=71.4, Moves(35)=4.4, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE group 99 (blue): Final=1026.1, Time=56.1, Moves(36)=8.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE Tiefes Verstarkendes Lernen (yellow): Final=803.5, Time=95.9, Moves(37)=13.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE S&S (purple): Final=956.8, Time=86.9, Moves(36)=8.0, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:17] MOVE 148: S&S (purple) 57->36 [0.00ms]
+[2026-05-22 10:23:17] SCORE HelloWorld (red): Final=929.8, Time=71.4, Moves(35)=4.4, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE group 99 (blue): Final=1026.1, Time=56.1, Moves(36)=8.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE Tiefes Verstarkendes Lernen (yellow): Final=803.5, Time=95.9, Moves(37)=13.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:23:17] SCORE S&S (purple): Final=1066.3, Time=86.8, Moves(37)=13.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:18] MOVE 149: HelloWorld (red) 37->26 [0.01ms]
+[2026-05-22 10:23:18] SCORE HelloWorld (red): Final=934.5, Time=70.6, Moves(36)=8.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE group 99 (blue): Final=1026.1, Time=56.1, Moves(36)=8.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE Tiefes Verstarkendes Lernen (yellow): Final=803.5, Time=95.9, Moves(37)=13.5, Pins(4)=400.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE S&S (purple): Final=1066.3, Time=86.8, Moves(37)=13.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:18] MOVE 150: Tiefes Verstarkendes Lernen (yellow) 63->64 [0.00ms]
+[2026-05-22 10:23:18] SCORE HelloWorld (red): Final=934.5, Time=70.6, Moves(36)=8.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE group 99 (blue): Final=1026.1, Time=56.1, Moves(36)=8.0, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE Tiefes Verstarkendes Lernen (yellow): Final=813.5, Time=95.9, Moves(38)=21.6, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:23:18] SCORE S&S (purple): Final=1066.3, Time=86.8, Moves(37)=13.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:19] MOVE 151: group 99 (blue) 70->81 [0.01ms]
+[2026-05-22 10:23:19] SCORE HelloWorld (red): Final=934.5, Time=70.6, Moves(36)=8.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE group 99 (blue): Final=1032.6, Time=55.1, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE Tiefes Verstarkendes Lernen (yellow): Final=813.5, Time=95.9, Moves(38)=21.6, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE S&S (purple): Final=1066.3, Time=86.8, Moves(37)=13.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:19] MOVE 152: S&S (purple) 50->39 [0.00ms]
+[2026-05-22 10:23:19] SCORE HelloWorld (red): Final=934.5, Time=70.6, Moves(36)=8.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE group 99 (blue): Final=1032.6, Time=55.1, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE Tiefes Verstarkendes Lernen (yellow): Final=813.5, Time=95.9, Moves(38)=21.6, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE S&S (purple): Final=1076.3, Time=86.6, Moves(38)=21.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:19] MOVE 153: HelloWorld (red) 26->6 [0.01ms]
+[2026-05-22 10:23:19] SCORE HelloWorld (red): Final=1043.4, Time=69.9, Moves(37)=13.5, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:19] SCORE group 99 (blue): Final=1032.6, Time=55.1, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:23:20] SCORE Tiefes Verstarkendes Lernen (yellow): Final=813.5, Time=95.9, Moves(38)=21.6, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:23:20] SCORE S&S (purple): Final=1076.3, Time=86.6, Moves(38)=21.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:20] MOVE 154: Tiefes Verstarkendes Lernen (yellow) 64->74 [0.01ms]
+[2026-05-22 10:23:20] SCORE HelloWorld (red): Final=1043.4, Time=69.9, Moves(37)=13.5, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:20] SCORE group 99 (blue): Final=1032.6, Time=55.1, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:23:20] SCORE Tiefes Verstarkendes Lernen (yellow): Final=926.3, Time=95.8, Moves(39)=32.5, Pins(5)=500.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:23:20] SCORE S&S (purple): Final=1076.3, Time=86.6, Moves(38)=21.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:21] MOVE 155: group 99 (blue) 81->92 [0.02ms]
+[2026-05-22 10:23:21] SCORE HelloWorld (red): Final=1043.4, Time=69.9, Moves(37)=13.5, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE group 99 (blue): Final=1041.5, Time=53.9, Moves(38)=21.6, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE Tiefes Verstarkendes Lernen (yellow): Final=926.3, Time=95.8, Moves(39)=32.5, Pins(5)=500.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE S&S (purple): Final=1076.3, Time=86.6, Moves(38)=21.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:21] MOVE 156: S&S (purple) 27->26 [0.00ms]
+[2026-05-22 10:23:21] SCORE HelloWorld (red): Final=1043.4, Time=69.9, Moves(37)=13.5, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE group 99 (blue): Final=1041.5, Time=53.9, Moves(38)=21.6, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE Tiefes Verstarkendes Lernen (yellow): Final=926.3, Time=95.8, Moves(39)=32.5, Pins(5)=500.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:23:21] SCORE S&S (purple): Final=1089.0, Time=86.5, Moves(39)=32.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:22] MOVE 157: HelloWorld (red) 91->80 [0.01ms]
+[2026-05-22 10:23:22] SCORE HelloWorld (red): Final=1052.8, Time=69.2, Moves(38)=21.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE group 99 (blue): Final=1041.5, Time=53.9, Moves(38)=21.6, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE Tiefes Verstarkendes Lernen (yellow): Final=926.3, Time=95.8, Moves(39)=32.5, Pins(5)=500.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE S&S (purple): Final=1089.0, Time=86.5, Moves(39)=32.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:22] MOVE 158: Tiefes Verstarkendes Lernen (yellow) 25->33 [0.01ms]
+[2026-05-22 10:23:22] SCORE HelloWorld (red): Final=1052.8, Time=69.2, Moves(38)=21.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE group 99 (blue): Final=1041.5, Time=53.9, Moves(38)=21.6, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE Tiefes Verstarkendes Lernen (yellow): Final=951.5, Time=95.7, Moves(40)=45.8, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:23:22] SCORE S&S (purple): Final=1089.0, Time=86.5, Moves(39)=32.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:23] MOVE 159: group 99 (blue) 92->105 [0.01ms]
+[2026-05-22 10:23:23] SCORE HelloWorld (red): Final=1052.8, Time=69.2, Moves(38)=21.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE group 99 (blue): Final=1053.2, Time=52.8, Moves(39)=32.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE Tiefes Verstarkendes Lernen (yellow): Final=951.5, Time=95.7, Moves(40)=45.8, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE S&S (purple): Final=1089.0, Time=86.5, Moves(39)=32.5, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:23] MOVE 160: S&S (purple) 26->25 [0.01ms]
+[2026-05-22 10:23:23] SCORE HelloWorld (red): Final=1052.8, Time=69.2, Moves(38)=21.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE group 99 (blue): Final=1053.2, Time=52.8, Moves(39)=32.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE Tiefes Verstarkendes Lernen (yellow): Final=951.5, Time=95.7, Moves(40)=45.8, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:23:23] SCORE S&S (purple): Final=1204.2, Time=86.4, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:24] MOVE 161: HelloWorld (red) 6->7 [0.01ms]
+[2026-05-22 10:23:24] SCORE HelloWorld (red): Final=1062.8, Time=68.4, Moves(39)=32.5, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE group 99 (blue): Final=1053.2, Time=52.8, Moves(39)=32.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE Tiefes Verstarkendes Lernen (yellow): Final=951.5, Time=95.7, Moves(40)=45.8, Pins(5)=500.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE S&S (purple): Final=1204.2, Time=86.4, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:24] MOVE 162: Tiefes Verstarkendes Lernen (yellow) 33->45 [0.01ms]
+[2026-05-22 10:23:24] SCORE HelloWorld (red): Final=1062.8, Time=68.4, Moves(39)=32.5, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE group 99 (blue): Final=1053.2, Time=52.8, Moves(39)=32.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE Tiefes Verstarkendes Lernen (yellow): Final=968.3, Time=95.6, Moves(41)=60.7, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:23:24] SCORE S&S (purple): Final=1204.2, Time=86.4, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:25] MOVE 163: group 99 (blue) 105->113 [0.00ms]
+[2026-05-22 10:23:25] SCORE HelloWorld (red): Final=1062.8, Time=68.4, Moves(39)=32.5, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE group 99 (blue): Final=1167.5, Time=51.7, Moves(40)=45.8, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE Tiefes Verstarkendes Lernen (yellow): Final=968.3, Time=95.6, Moves(41)=60.7, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE S&S (purple): Final=1204.2, Time=86.4, Moves(40)=45.8, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:25] MOVE 164: S&S (purple) 39->38 [0.01ms]
+[2026-05-22 10:23:25] SCORE HelloWorld (red): Final=1062.8, Time=68.4, Moves(39)=32.5, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE group 99 (blue): Final=1167.5, Time=51.7, Moves(40)=45.8, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE Tiefes Verstarkendes Lernen (yellow): Final=968.3, Time=95.6, Moves(41)=60.7, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:23:25] SCORE S&S (purple): Final=1220.9, Time=86.3, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:26] MOVE 165: HelloWorld (red) 48->31 [0.00ms]
+[2026-05-22 10:23:26] SCORE HelloWorld (red): Final=1079.6, Time=67.9, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE group 99 (blue): Final=1167.5, Time=51.7, Moves(40)=45.8, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE Tiefes Verstarkendes Lernen (yellow): Final=968.3, Time=95.6, Moves(41)=60.7, Pins(5)=500.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE S&S (purple): Final=1220.9, Time=86.3, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:26] MOVE 166: Tiefes Verstarkendes Lernen (yellow) 45->64 [0.00ms]
+[2026-05-22 10:23:26] SCORE HelloWorld (red): Final=1079.6, Time=67.9, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE group 99 (blue): Final=1167.5, Time=51.7, Moves(40)=45.8, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE Tiefes Verstarkendes Lernen (yellow): Final=987.0, Time=95.5, Moves(42)=75.5, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:26] SCORE S&S (purple): Final=1220.9, Time=86.3, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:27] MOVE 167: group 99 (blue) 62->71 [0.00ms]
+[2026-05-22 10:23:27] SCORE HelloWorld (red): Final=1079.6, Time=67.9, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE group 99 (blue): Final=1183.1, Time=50.5, Moves(41)=60.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE Tiefes Verstarkendes Lernen (yellow): Final=987.0, Time=95.5, Moves(42)=75.5, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE S&S (purple): Final=1220.9, Time=86.3, Moves(41)=60.7, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:27] MOVE 168: S&S (purple) 38->26 [0.00ms]
+[2026-05-22 10:23:27] SCORE HelloWorld (red): Final=1079.6, Time=67.9, Moves(40)=45.8, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE group 99 (blue): Final=1183.1, Time=50.5, Moves(41)=60.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE Tiefes Verstarkendes Lernen (yellow): Final=987.0, Time=95.5, Moves(42)=75.5, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:27] SCORE S&S (purple): Final=1237.7, Time=86.2, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:28] MOVE 169: HelloWorld (red) 31->18 [0.01ms]
+[2026-05-22 10:23:28] SCORE HelloWorld (red): Final=1095.8, Time=67.2, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE group 99 (blue): Final=1183.1, Time=50.5, Moves(41)=60.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE Tiefes Verstarkendes Lernen (yellow): Final=987.0, Time=95.5, Moves(42)=75.5, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE S&S (purple): Final=1237.7, Time=86.2, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:28] MOVE 170: Tiefes Verstarkendes Lernen (yellow) 85->96 [0.00ms]
+[2026-05-22 10:23:28] SCORE HelloWorld (red): Final=1095.8, Time=67.2, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE group 99 (blue): Final=1183.1, Time=50.5, Moves(41)=60.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE Tiefes Verstarkendes Lernen (yellow): Final=999.5, Time=95.3, Moves(43)=88.2, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:28] SCORE S&S (purple): Final=1237.7, Time=86.2, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:29] MOVE 171: group 99 (blue) 71->82 [0.01ms]
+[2026-05-22 10:23:29] SCORE HelloWorld (red): Final=1095.8, Time=67.2, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE group 99 (blue): Final=1198.8, Time=49.3, Moves(42)=75.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE Tiefes Verstarkendes Lernen (yellow): Final=999.5, Time=95.3, Moves(43)=88.2, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE S&S (purple): Final=1237.7, Time=86.2, Moves(42)=75.5, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:29] MOVE 172: S&S (purple) 107->94 [0.00ms]
+[2026-05-22 10:23:29] SCORE HelloWorld (red): Final=1095.8, Time=67.2, Moves(41)=60.7, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE group 99 (blue): Final=1198.8, Time=49.3, Moves(42)=75.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE Tiefes Verstarkendes Lernen (yellow): Final=999.5, Time=95.3, Moves(43)=88.2, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:29] SCORE S&S (purple): Final=1252.3, Time=86.1, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:30] MOVE 173: HelloWorld (red) 18->9 [0.01ms]
+[2026-05-22 10:23:30] SCORE HelloWorld (red): Final=1212.0, Time=66.5, Moves(42)=75.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE group 99 (blue): Final=1198.8, Time=49.3, Moves(42)=75.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE Tiefes Verstarkendes Lernen (yellow): Final=999.5, Time=95.3, Moves(43)=88.2, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE S&S (purple): Final=1252.3, Time=86.1, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:30] MOVE 174: Tiefes Verstarkendes Lernen (yellow) 64->85 [0.01ms]
+[2026-05-22 10:23:30] SCORE HelloWorld (red): Final=1212.0, Time=66.5, Moves(42)=75.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE group 99 (blue): Final=1198.8, Time=49.3, Moves(42)=75.5, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.0, Time=95.1, Moves(44)=96.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:30] SCORE S&S (purple): Final=1252.3, Time=86.1, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:31] MOVE 175: group 99 (blue) 82->107 [0.01ms]
+[2026-05-22 10:23:31] SCORE HelloWorld (red): Final=1212.0, Time=66.5, Moves(42)=75.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE group 99 (blue): Final=1212.5, Time=48.2, Moves(43)=88.2, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.0, Time=95.1, Moves(44)=96.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE S&S (purple): Final=1252.3, Time=86.1, Moves(43)=88.2, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:31] MOVE 176: S&S (purple) 94->82 [0.01ms]
+[2026-05-22 10:23:31] SCORE HelloWorld (red): Final=1212.0, Time=66.5, Moves(42)=75.5, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE group 99 (blue): Final=1212.5, Time=48.2, Moves(43)=88.2, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.0, Time=95.1, Moves(44)=96.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:31] SCORE S&S (purple): Final=1262.9, Time=86.0, Moves(44)=96.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:32] MOVE 177: HelloWorld (red) 9->5 [0.01ms]
+[2026-05-22 10:23:32] SCORE HelloWorld (red): Final=1224.4, Time=66.2, Moves(43)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE group 99 (blue): Final=1212.5, Time=48.2, Moves(43)=88.2, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.0, Time=95.1, Moves(44)=96.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE S&S (purple): Final=1262.9, Time=86.0, Moves(44)=96.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:32] MOVE 178: Tiefes Verstarkendes Lernen (yellow) 96->109 [0.01ms]
+[2026-05-22 10:23:32] SCORE HelloWorld (red): Final=1224.4, Time=66.2, Moves(43)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE group 99 (blue): Final=1212.5, Time=48.2, Moves(43)=88.2, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1113.0, Time=95.0, Moves(45)=100.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:32] SCORE S&S (purple): Final=1262.9, Time=86.0, Moves(44)=96.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:33] MOVE 179: group 99 (blue) 111->115 [0.00ms]
+[2026-05-22 10:23:33] SCORE HelloWorld (red): Final=1224.4, Time=66.2, Moves(43)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE group 99 (blue): Final=1220.0, Time=47.1, Moves(44)=96.9, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1113.0, Time=95.0, Moves(45)=100.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE S&S (purple): Final=1262.9, Time=86.0, Moves(44)=96.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:33] MOVE 180: S&S (purple) 82->71 [0.01ms]
+[2026-05-22 10:23:33] SCORE HelloWorld (red): Final=1224.4, Time=66.2, Moves(43)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE group 99 (blue): Final=1220.0, Time=47.1, Moves(44)=96.9, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1113.0, Time=95.0, Moves(45)=100.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE S&S (purple): Final=1267.8, Time=85.8, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:33] MOVE 181: HelloWorld (red) 80->70 [0.01ms]
+[2026-05-22 10:23:33] SCORE HelloWorld (red): Final=1234.8, Time=65.9, Moves(44)=96.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE group 99 (blue): Final=1220.0, Time=47.1, Moves(44)=96.9, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1113.0, Time=95.0, Moves(45)=100.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE S&S (purple): Final=1267.8, Time=85.8, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:33] MOVE 182: Tiefes Verstarkendes Lernen (yellow) 85->96 [0.01ms]
+[2026-05-22 10:23:33] SCORE HelloWorld (red): Final=1234.8, Time=65.9, Moves(44)=96.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE group 99 (blue): Final=1220.0, Time=47.1, Moves(44)=96.9, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.8, Time=94.9, Moves(46)=99.8, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:33] SCORE S&S (purple): Final=1267.8, Time=85.8, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:34] MOVE 183: group 99 (blue) 89->102 [0.00ms]
+[2026-05-22 10:23:34] SCORE HelloWorld (red): Final=1234.8, Time=65.9, Moves(44)=96.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:34] SCORE group 99 (blue): Final=1224.0, Time=46.0, Moves(45)=100.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:34] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.8, Time=94.9, Moves(46)=99.8, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:34] SCORE S&S (purple): Final=1267.8, Time=85.8, Moves(45)=100.0, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:35] MOVE 184: S&S (purple) 71->69 [0.00ms]
+[2026-05-22 10:23:35] SCORE HelloWorld (red): Final=1234.8, Time=65.9, Moves(44)=96.9, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE group 99 (blue): Final=1224.0, Time=46.0, Moves(45)=100.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.8, Time=94.9, Moves(46)=99.8, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE S&S (purple): Final=1271.6, Time=85.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:35] MOVE 185: HelloWorld (red) 70->60 [0.00ms]
+[2026-05-22 10:23:35] SCORE HelloWorld (red): Final=1239.6, Time=65.6, Moves(45)=100.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE group 99 (blue): Final=1224.0, Time=46.0, Moves(45)=100.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.8, Time=94.9, Moves(46)=99.8, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE S&S (purple): Final=1271.6, Time=85.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:35] MOVE 186: Tiefes Verstarkendes Lernen (yellow) 74->85 [0.00ms]
+[2026-05-22 10:23:35] SCORE HelloWorld (red): Final=1239.6, Time=65.6, Moves(45)=100.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE group 99 (blue): Final=1224.0, Time=46.0, Moves(45)=100.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.2, Time=94.8, Moves(47)=99.4, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:35] SCORE S&S (purple): Final=1271.6, Time=85.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:36] MOVE 187: group 99 (blue) 102->111 [0.00ms]
+[2026-05-22 10:23:36] SCORE HelloWorld (red): Final=1239.6, Time=65.6, Moves(45)=100.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE group 99 (blue): Final=1324.8, Time=45.0, Moves(46)=99.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.2, Time=94.8, Moves(47)=99.4, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE S&S (purple): Final=1271.6, Time=85.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:36] MOVE 188: S&S (purple) 69->59 [0.00ms]
+[2026-05-22 10:23:36] SCORE HelloWorld (red): Final=1239.6, Time=65.6, Moves(45)=100.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE group 99 (blue): Final=1324.8, Time=45.0, Moves(46)=99.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.2, Time=94.8, Moves(47)=99.4, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE S&S (purple): Final=1273.0, Time=85.6, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:36] MOVE 189: HelloWorld (red) 60->51 [0.00ms]
+[2026-05-22 10:23:36] SCORE HelloWorld (red): Final=1241.2, Time=65.4, Moves(46)=99.8, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE group 99 (blue): Final=1324.8, Time=45.0, Moves(46)=99.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1112.2, Time=94.8, Moves(47)=99.4, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE S&S (purple): Final=1273.0, Time=85.6, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:36] MOVE 190: Tiefes Verstarkendes Lernen (yellow) 96->84 [0.00ms]
+[2026-05-22 10:23:36] SCORE HelloWorld (red): Final=1241.2, Time=65.4, Moves(46)=99.8, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE group 99 (blue): Final=1324.8, Time=45.0, Moves(46)=99.8, Pins(8)=800.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1111.4, Time=94.8, Moves(48)=98.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:36] SCORE S&S (purple): Final=1273.0, Time=85.6, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:37] MOVE 191: group 99 (blue) 30->41 [0.01ms]
+[2026-05-22 10:23:37] SCORE HelloWorld (red): Final=1241.2, Time=65.4, Moves(46)=99.8, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE group 99 (blue): Final=1325.3, Time=44.0, Moves(47)=99.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1111.4, Time=94.8, Moves(48)=98.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE S&S (purple): Final=1273.0, Time=85.6, Moves(47)=99.4, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:37] MOVE 192: S&S (purple) 59->49 [0.01ms]
+[2026-05-22 10:23:37] SCORE HelloWorld (red): Final=1241.2, Time=65.4, Moves(46)=99.8, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE group 99 (blue): Final=1325.3, Time=44.0, Moves(47)=99.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1111.4, Time=94.8, Moves(48)=98.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:37] SCORE S&S (purple): Final=1274.1, Time=85.5, Moves(48)=98.6, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:38] MOVE 193: HelloWorld (red) 51->30 [0.01ms]
+[2026-05-22 10:23:38] SCORE HelloWorld (red): Final=1244.7, Time=65.3, Moves(47)=99.4, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE group 99 (blue): Final=1325.3, Time=44.0, Moves(47)=99.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1111.4, Time=94.8, Moves(48)=98.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE S&S (purple): Final=1274.1, Time=85.5, Moves(48)=98.6, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:38] MOVE 194: Tiefes Verstarkendes Lernen (yellow) 85->96 [0.01ms]
+[2026-05-22 10:23:38] SCORE HelloWorld (red): Final=1244.7, Time=65.3, Moves(47)=99.4, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE group 99 (blue): Final=1325.3, Time=44.0, Moves(47)=99.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.1, Time=94.6, Moves(49)=97.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:38] SCORE S&S (purple): Final=1274.1, Time=85.5, Moves(48)=98.6, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:39] MOVE 195: group 99 (blue) 41->51 [0.00ms]
+[2026-05-22 10:23:39] SCORE HelloWorld (red): Final=1244.7, Time=65.3, Moves(47)=99.4, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE group 99 (blue): Final=1325.3, Time=42.7, Moves(48)=98.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.1, Time=94.6, Moves(49)=97.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE S&S (purple): Final=1274.1, Time=85.5, Moves(48)=98.6, Pins(7)=700.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:39] MOVE 196: S&S (purple) 49->38 [0.01ms]
+[2026-05-22 10:23:39] SCORE HelloWorld (red): Final=1244.7, Time=65.3, Moves(47)=99.4, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE group 99 (blue): Final=1325.3, Time=42.7, Moves(48)=98.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.1, Time=94.6, Moves(49)=97.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:39] SCORE S&S (purple): Final=1274.8, Time=85.3, Moves(49)=97.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:40] MOVE 197: HelloWorld (red) 30->17 [0.01ms]
+[2026-05-22 10:23:40] SCORE HelloWorld (red): Final=1245.7, Time=65.0, Moves(48)=98.6, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE group 99 (blue): Final=1325.3, Time=42.7, Moves(48)=98.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1110.1, Time=94.6, Moves(49)=97.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE S&S (purple): Final=1274.8, Time=85.3, Moves(49)=97.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:40] MOVE 198: Tiefes Verstarkendes Lernen (yellow) 84->74 [0.01ms]
+[2026-05-22 10:23:40] SCORE HelloWorld (red): Final=1245.7, Time=65.0, Moves(48)=98.6, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE group 99 (blue): Final=1325.3, Time=42.7, Moves(48)=98.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1108.7, Time=94.5, Moves(50)=96.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:40] SCORE S&S (purple): Final=1274.8, Time=85.3, Moves(49)=97.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:41] MOVE 199: group 99 (blue) 51->60 [0.00ms]
+[2026-05-22 10:23:41] SCORE HelloWorld (red): Final=1245.7, Time=65.0, Moves(48)=98.6, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE group 99 (blue): Final=1325.1, Time=41.5, Moves(49)=97.6, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1108.7, Time=94.5, Moves(50)=96.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE S&S (purple): Final=1274.8, Time=85.3, Moves(49)=97.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:41] MOVE 200: S&S (purple) 38->37 [0.00ms]
+[2026-05-22 10:23:41] SCORE HelloWorld (red): Final=1245.7, Time=65.0, Moves(48)=98.6, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE group 99 (blue): Final=1325.1, Time=41.5, Moves(49)=97.6, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1108.7, Time=94.5, Moves(50)=96.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE S&S (purple): Final=1275.4, Time=85.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:41] MOVE 201: HelloWorld (red) 17->8 [0.00ms]
+[2026-05-22 10:23:41] SCORE HelloWorld (red): Final=1346.3, Time=64.7, Moves(49)=97.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE group 99 (blue): Final=1325.1, Time=41.5, Moves(49)=97.6, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1108.7, Time=94.5, Moves(50)=96.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE S&S (purple): Final=1275.4, Time=85.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:41] MOVE 202: Tiefes Verstarkendes Lernen (yellow) 96->84 [0.00ms]
+[2026-05-22 10:23:41] SCORE HelloWorld (red): Final=1346.3, Time=64.7, Moves(49)=97.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE group 99 (blue): Final=1325.1, Time=41.5, Moves(49)=97.6, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1107.0, Time=94.4, Moves(51)=94.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:41] SCORE S&S (purple): Final=1275.4, Time=85.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:42] MOVE 203: group 99 (blue) 107->106 [0.00ms]
+[2026-05-22 10:23:42] SCORE HelloWorld (red): Final=1346.3, Time=64.7, Moves(49)=97.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE group 99 (blue): Final=1324.7, Time=40.5, Moves(50)=96.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1107.0, Time=94.4, Moves(51)=94.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE S&S (purple): Final=1275.4, Time=85.2, Moves(50)=96.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:42] MOVE 204: S&S (purple) 26->47 [0.00ms]
+[2026-05-22 10:23:42] SCORE HelloWorld (red): Final=1346.3, Time=64.7, Moves(49)=97.6, Pins(8)=800.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE group 99 (blue): Final=1324.7, Time=40.5, Moves(50)=96.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1107.0, Time=94.4, Moves(51)=94.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:42] SCORE S&S (purple): Final=1273.7, Time=85.1, Moves(51)=94.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:43] MOVE 205: HelloWorld (red) 32->19 [0.00ms]
+[2026-05-22 10:23:43] SCORE HelloWorld (red): Final=1346.8, Time=64.6, Moves(50)=96.2, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE group 99 (blue): Final=1324.7, Time=40.5, Moves(50)=96.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1107.0, Time=94.4, Moves(51)=94.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE S&S (purple): Final=1273.7, Time=85.1, Moves(51)=94.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:43] MOVE 206: Tiefes Verstarkendes Lernen (yellow) 84->95 [0.00ms]
+[2026-05-22 10:23:43] SCORE HelloWorld (red): Final=1346.8, Time=64.6, Moves(50)=96.2, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE group 99 (blue): Final=1324.7, Time=40.5, Moves(50)=96.2, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1105.0, Time=94.3, Moves(52)=92.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:43] SCORE S&S (purple): Final=1273.7, Time=85.1, Moves(51)=94.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:44] MOVE 207: group 99 (blue) 60->69 [0.00ms]
+[2026-05-22 10:23:44] SCORE HelloWorld (red): Final=1346.8, Time=64.6, Moves(50)=96.2, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE group 99 (blue): Final=1324.0, Time=39.4, Moves(51)=94.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1105.0, Time=94.3, Moves(52)=92.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE S&S (purple): Final=1273.7, Time=85.1, Moves(51)=94.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:44] MOVE 208: S&S (purple) 37->56 [0.00ms]
+[2026-05-22 10:23:44] SCORE HelloWorld (red): Final=1346.8, Time=64.6, Moves(50)=96.2, Pins(8)=800.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE group 99 (blue): Final=1324.0, Time=39.4, Moves(51)=94.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1105.0, Time=94.3, Moves(52)=92.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE S&S (purple): Final=1271.7, Time=85.0, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:44] MOVE 209: HelloWorld (red) 55->44 [0.01ms]
+[2026-05-22 10:23:44] SCORE HelloWorld (red): Final=1346.8, Time=64.2, Moves(51)=94.6, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE group 99 (blue): Final=1324.0, Time=39.4, Moves(51)=94.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1105.0, Time=94.3, Moves(52)=92.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE S&S (purple): Final=1271.7, Time=85.0, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:44] MOVE 210: Tiefes Verstarkendes Lernen (yellow) 109->84 [0.00ms]
+[2026-05-22 10:23:44] SCORE HelloWorld (red): Final=1346.8, Time=64.2, Moves(51)=94.6, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE group 99 (blue): Final=1324.0, Time=39.4, Moves(51)=94.6, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1102.8, Time=94.2, Moves(53)=90.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:44] SCORE S&S (purple): Final=1271.7, Time=85.0, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:45] MOVE 211: group 99 (blue) 117->120 [0.01ms]
+[2026-05-22 10:23:45] SCORE HelloWorld (red): Final=1346.8, Time=64.2, Moves(51)=94.6, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:45] SCORE group 99 (blue): Final=1320.9, Time=38.2, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:45] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1102.8, Time=94.2, Moves(53)=90.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:45] SCORE S&S (purple): Final=1271.7, Time=85.0, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:46] MOVE 212: S&S (purple) 14->26 [0.01ms]
+[2026-05-22 10:23:46] SCORE HelloWorld (red): Final=1346.8, Time=64.2, Moves(51)=94.6, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE group 99 (blue): Final=1320.9, Time=38.2, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1102.8, Time=94.2, Moves(53)=90.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE S&S (purple): Final=1269.5, Time=84.9, Moves(53)=90.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:46] MOVE 213: HelloWorld (red) 44->32 [0.01ms]
+[2026-05-22 10:23:46] SCORE HelloWorld (red): Final=1346.6, Time=63.9, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE group 99 (blue): Final=1320.9, Time=38.2, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1102.8, Time=94.2, Moves(53)=90.6, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE S&S (purple): Final=1269.5, Time=84.9, Moves(53)=90.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:46] MOVE 214: Tiefes Verstarkendes Lernen (yellow) 95->107 [0.01ms]
+[2026-05-22 10:23:46] SCORE HelloWorld (red): Final=1346.6, Time=63.9, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE group 99 (blue): Final=1320.9, Time=38.2, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1100.4, Time=94.1, Moves(54)=88.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:46] SCORE S&S (purple): Final=1269.5, Time=84.9, Moves(53)=90.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:47] MOVE 215: group 99 (blue) 106->117 [0.00ms]
+[2026-05-22 10:23:47] SCORE HelloWorld (red): Final=1346.6, Time=63.9, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE group 99 (blue): Final=1419.8, Time=37.2, Moves(53)=90.6, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1100.4, Time=94.1, Moves(54)=88.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE S&S (purple): Final=1269.5, Time=84.9, Moves(53)=90.6, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:47] MOVE 216: S&S (purple) 26->37 [0.00ms]
+[2026-05-22 10:23:47] SCORE HelloWorld (red): Final=1346.6, Time=63.9, Moves(52)=92.7, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE group 99 (blue): Final=1419.8, Time=37.2, Moves(53)=90.6, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1100.4, Time=94.1, Moves(54)=88.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE S&S (purple): Final=1267.0, Time=84.7, Moves(54)=88.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:47] MOVE 217: HelloWorld (red) 19->18 [0.00ms]
+[2026-05-22 10:23:47] SCORE HelloWorld (red): Final=1346.5, Time=63.9, Moves(53)=90.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE group 99 (blue): Final=1419.8, Time=37.2, Moves(53)=90.6, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1100.4, Time=94.1, Moves(54)=88.2, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE S&S (purple): Final=1267.0, Time=84.7, Moves(54)=88.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:47] MOVE 218: Tiefes Verstarkendes Lernen (yellow) 107->109 [0.00ms]
+[2026-05-22 10:23:47] SCORE HelloWorld (red): Final=1346.5, Time=63.9, Moves(53)=90.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE group 99 (blue): Final=1419.8, Time=37.2, Moves(53)=90.6, Pins(9)=900.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1097.7, Time=94.0, Moves(55)=85.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:47] SCORE S&S (purple): Final=1267.0, Time=84.7, Moves(54)=88.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:49] MOVE 219: group 99 (blue) 69->80 [0.01ms]
+[2026-05-22 10:23:49] SCORE HelloWorld (red): Final=1346.5, Time=63.9, Moves(53)=90.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE group 99 (blue): Final=1418.2, Time=36.0, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1097.7, Time=94.0, Moves(55)=85.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE S&S (purple): Final=1267.0, Time=84.7, Moves(54)=88.2, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:49] MOVE 220: S&S (purple) 37->48 [0.00ms]
+[2026-05-22 10:23:49] SCORE HelloWorld (red): Final=1346.5, Time=63.9, Moves(53)=90.6, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE group 99 (blue): Final=1418.2, Time=36.0, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1097.7, Time=94.0, Moves(55)=85.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE S&S (purple): Final=1262.3, Time=84.6, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:49] MOVE 221: HelloWorld (red) 18->9 [0.01ms]
+[2026-05-22 10:23:49] SCORE HelloWorld (red): Final=1446.0, Time=63.8, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE group 99 (blue): Final=1418.2, Time=36.0, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1097.7, Time=94.0, Moves(55)=85.7, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE S&S (purple): Final=1262.3, Time=84.6, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:49] MOVE 222: Tiefes Verstarkendes Lernen (yellow) 84->95 [0.01ms]
+[2026-05-22 10:23:49] SCORE HelloWorld (red): Final=1446.0, Time=63.8, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE group 99 (blue): Final=1418.2, Time=36.0, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1094.8, Time=93.8, Moves(56)=83.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:49] SCORE S&S (purple): Final=1262.3, Time=84.6, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:50] MOVE 223: group 99 (blue) 80->91 [0.01ms]
+[2026-05-22 10:23:50] SCORE HelloWorld (red): Final=1446.0, Time=63.8, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE group 99 (blue): Final=1416.5, Time=34.8, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1094.8, Time=93.8, Moves(56)=83.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE S&S (purple): Final=1262.3, Time=84.6, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:50] MOVE 224: S&S (purple) 48->57 [0.00ms]
+[2026-05-22 10:23:50] SCORE HelloWorld (red): Final=1446.0, Time=63.8, Moves(54)=88.2, Pins(9)=900.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE group 99 (blue): Final=1416.5, Time=34.8, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1094.8, Time=93.8, Moves(56)=83.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:50] SCORE S&S (purple): Final=1259.5, Time=84.5, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:51] MOVE 225: HelloWorld (red) 32->19 [0.01ms]
+[2026-05-22 10:23:51] SCORE HelloWorld (red): Final=1445.1, Time=63.4, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE group 99 (blue): Final=1416.5, Time=34.8, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1094.8, Time=93.8, Moves(56)=83.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE S&S (purple): Final=1259.5, Time=84.5, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:51] MOVE 226: Tiefes Verstarkendes Lernen (yellow) 95->107 [0.01ms]
+[2026-05-22 10:23:51] SCORE HelloWorld (red): Final=1445.1, Time=63.4, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE group 99 (blue): Final=1416.5, Time=34.8, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1091.8, Time=93.8, Moves(57)=80.1, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:51] SCORE S&S (purple): Final=1259.5, Time=84.5, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:52] MOVE 227: group 99 (blue) 113->118 [0.00ms]
+[2026-05-22 10:23:52] SCORE HelloWorld (red): Final=1445.1, Time=63.4, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE group 99 (blue): Final=1412.7, Time=33.7, Moves(56)=83.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1091.8, Time=93.8, Moves(57)=80.1, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE S&S (purple): Final=1259.5, Time=84.5, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:52] MOVE 228: S&S (purple) 57->66 [0.01ms]
+[2026-05-22 10:23:52] SCORE HelloWorld (red): Final=1445.1, Time=63.4, Moves(55)=85.7, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE group 99 (blue): Final=1412.7, Time=33.7, Moves(56)=83.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1091.8, Time=93.8, Moves(57)=80.1, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE S&S (purple): Final=1256.5, Time=84.4, Moves(57)=80.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:52] MOVE 229: HelloWorld (red) 19->18 [0.01ms]
+[2026-05-22 10:23:52] SCORE HelloWorld (red): Final=1444.3, Time=63.3, Moves(56)=83.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE group 99 (blue): Final=1412.7, Time=33.7, Moves(56)=83.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1091.8, Time=93.8, Moves(57)=80.1, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE S&S (purple): Final=1256.5, Time=84.4, Moves(57)=80.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:52] MOVE 230: Tiefes Verstarkendes Lernen (yellow) 108->95 [0.01ms]
+[2026-05-22 10:23:52] SCORE HelloWorld (red): Final=1444.3, Time=63.3, Moves(56)=83.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE group 99 (blue): Final=1412.7, Time=33.7, Moves(56)=83.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1088.6, Time=93.6, Moves(58)=77.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:52] SCORE S&S (purple): Final=1256.5, Time=84.4, Moves(57)=80.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:52] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:53] MOVE 231: group 99 (blue) 91->104 [0.00ms]
+[2026-05-22 10:23:53] SCORE HelloWorld (red): Final=1444.3, Time=63.3, Moves(56)=83.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE group 99 (blue): Final=1411.2, Time=33.1, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1088.6, Time=93.6, Moves(58)=77.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE S&S (purple): Final=1256.5, Time=84.4, Moves(57)=80.1, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:53] MOVE 232: S&S (purple) 66->65 [0.00ms]
+[2026-05-22 10:23:53] SCORE HelloWorld (red): Final=1444.3, Time=63.3, Moves(56)=83.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE group 99 (blue): Final=1411.2, Time=33.1, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1088.6, Time=93.6, Moves(58)=77.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE S&S (purple): Final=1253.3, Time=84.3, Moves(58)=77.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:53] MOVE 233: HelloWorld (red) 18->17 [0.01ms]
+[2026-05-22 10:23:53] SCORE HelloWorld (red): Final=1441.3, Time=63.2, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE group 99 (blue): Final=1411.2, Time=33.1, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1088.6, Time=93.6, Moves(58)=77.0, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE S&S (purple): Final=1253.3, Time=84.3, Moves(58)=77.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:53] MOVE 234: Tiefes Verstarkendes Lernen (yellow) 107->108 [0.00ms]
+[2026-05-22 10:23:53] SCORE HelloWorld (red): Final=1441.3, Time=63.2, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE group 99 (blue): Final=1411.2, Time=33.1, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1085.4, Time=93.5, Moves(59)=73.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE S&S (purple): Final=1253.3, Time=84.3, Moves(58)=77.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}
+[2026-05-22 10:23:53] MOVE 235: group 99 (blue) 104->113 [0.00ms]
+[2026-05-22 10:23:53] SCORE HelloWorld (red): Final=1441.3, Time=63.2, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE group 99 (blue): Final=2509.9, Time=32.9, Moves(58)=77.0, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:23:53] SCORE Tiefes Verstarkendes Lernen (yellow): Final=1085.4, Time=93.5, Moves(59)=73.9, Pins(6)=600.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:23:53] SCORE S&S (purple): Final=1253.3, Time=84.3, Moves(58)=77.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:23:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '5 (turn timeout)'], 'blue': ['43 (turn timeout)']}

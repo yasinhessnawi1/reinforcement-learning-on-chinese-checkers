@@ -1,0 +1,6 @@
+game_number,game_id,player1,player2,player3,player4,player5,player6,status,joined,final_scores,time_scores,distance_scores,pin_scores,move_scores,valid_moves,skipped_turns,winner
+R5G1,NA,Hexagram,LosTurcos,Gruppe 69,Deepseekers,Gruppe 1,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R5G2,NA,Gruppe 67,jat,Erlend Og Linor,NA,NA,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R5G3,NA,StockWish,Apollo,group 99,AlphaZeroClue,Group 16,CybSec,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R5G4,NA,PCS,RL,Gruppe 2,Tiefes Verstarkendes Lernen,S&S,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None
+R5G5,NA,HelloWorld,The bandits,Gruppe 10,Group7,Robert,NA,NOT_CREATED,NA,NA,NA,NA,NA,NA,0,0,None

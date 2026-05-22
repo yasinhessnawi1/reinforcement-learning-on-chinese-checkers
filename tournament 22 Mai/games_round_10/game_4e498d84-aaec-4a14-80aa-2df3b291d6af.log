@@ -1,0 +1,759 @@
+[2026-05-22 11:12:27] GAME CREATED
+[2026-05-22 11:12:30] PLAYER JOINED: AlphaZeroClue as red
+[2026-05-22 11:12:32] PLAYER JOINED: Gruppe 2 as blue
+[2026-05-22 11:12:41] PLAYER JOINED: The bandits as yellow
+[2026-05-22 11:12:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 11:12:41] PLAYER START: Gruppe 2 (blue)
+[2026-05-22 11:12:41] PLAYER START: The bandits (yellow)
+[2026-05-22 11:12:41] GAME START — turn order ['red', 'yellow', 'blue']
+[2026-05-22 11:12:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 11:12:41] PLAYER START: Gruppe 2 (blue)
+[2026-05-22 11:12:41] PLAYER START: The bandits (yellow)
+[2026-05-22 11:12:41] PLAYER START: AlphaZeroClue (red)
+[2026-05-22 11:12:41] PLAYER START: Gruppe 2 (blue)
+[2026-05-22 11:12:41] PLAYER START: The bandits (yellow)
+[2026-05-22 11:12:43] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE Gruppe 2 (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE The bandits (yellow): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:43] TURN TIMEOUT: Player with colour red exceeded 2s at move 1. Turn skipped.
+[2026-05-22 11:12:43] MOVE 2: The bandits (yellow) 13->26 [0.02ms]
+[2026-05-22 11:12:43] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE Gruppe 2 (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE The bandits (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:12:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:43] MOVE 3: Gruppe 2 (blue) 3->37 [0.01ms]
+[2026-05-22 11:12:43] SCORE AlphaZeroClue (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE Gruppe 2 (blue): Final=287.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:43] SCORE The bandits (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:12:43] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:44] MOVE 4: AlphaZeroClue (red) 115->102 [0.00ms]
+[2026-05-22 11:12:44] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:44] SCORE Gruppe 2 (blue): Final=287.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:44] SCORE The bandits (yellow): Final=281.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 11:12:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:45] MOVE 5: The bandits (yellow) 11->38 [0.01ms]
+[2026-05-22 11:12:45] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:45] SCORE Gruppe 2 (blue): Final=287.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:45] SCORE The bandits (yellow): Final=289.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:12:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:45] MOVE 6: Gruppe 2 (blue) 0->14 [0.00ms]
+[2026-05-22 11:12:45] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:45] SCORE Gruppe 2 (blue): Final=295.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:12:45] SCORE The bandits (yellow): Final=289.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:12:45] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)']}
+[2026-05-22 11:12:47] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:47] SCORE Gruppe 2 (blue): Final=295.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:12:47] SCORE The bandits (yellow): Final=289.7, Time=99.7, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 11:12:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)']}
+[2026-05-22 11:12:47] TURN TIMEOUT: Player with colour red exceeded 2s at move 7. Turn skipped.
+[2026-05-22 11:12:47] MOVE 8: The bandits (yellow) 24->47 [0.00ms]
+[2026-05-22 11:12:47] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:47] SCORE Gruppe 2 (blue): Final=295.1, Time=99.1, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:12:47] SCORE The bandits (yellow): Final=293.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 11:12:47] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)']}
+[2026-05-22 11:12:48] MOVE 9: Gruppe 2 (blue) 5->16 [0.00ms]
+[2026-05-22 11:12:48] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:48] SCORE Gruppe 2 (blue): Final=298.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:12:48] SCORE The bandits (yellow): Final=293.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 11:12:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)']}
+[2026-05-22 11:12:50] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:50] SCORE Gruppe 2 (blue): Final=298.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:12:50] SCORE The bandits (yellow): Final=293.6, Time=99.6, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 11:12:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)']}
+[2026-05-22 11:12:50] TURN TIMEOUT: Player with colour red exceeded 2s at move 10. Turn skipped.
+[2026-05-22 11:12:50] MOVE 11: The bandits (yellow) 36->17 [0.01ms]
+[2026-05-22 11:12:50] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:50] SCORE Gruppe 2 (blue): Final=298.6, Time=98.6, Moves(3)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:12:50] SCORE The bandits (yellow): Final=301.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:12:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)']}
+[2026-05-22 11:12:51] MOVE 12: Gruppe 2 (blue) 7->29 [0.00ms]
+[2026-05-22 11:12:51] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:51] SCORE Gruppe 2 (blue): Final=302.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:12:51] SCORE The bandits (yellow): Final=301.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:12:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)']}
+[2026-05-22 11:12:53] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE Gruppe 2 (blue): Final=302.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE The bandits (yellow): Final=301.5, Time=99.5, Moves(4)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 11:12:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:53] TURN TIMEOUT: Player with colour red exceeded 2s at move 13. Turn skipped.
+[2026-05-22 11:12:53] MOVE 14: The bandits (yellow) 35->56 [0.00ms]
+[2026-05-22 11:12:53] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE Gruppe 2 (blue): Final=302.0, Time=98.0, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE The bandits (yellow): Final=305.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:53] MOVE 15: Gruppe 2 (blue) 6->15 [0.01ms]
+[2026-05-22 11:12:53] SCORE AlphaZeroClue (red): Final=283.1, Time=99.1, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE Gruppe 2 (blue): Final=303.3, Time=97.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:53] SCORE The bandits (yellow): Final=305.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:55] MOVE 16: AlphaZeroClue (red) 116->103 [0.00ms]
+[2026-05-22 11:12:55] SCORE AlphaZeroClue (red): Final=285.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:55] SCORE Gruppe 2 (blue): Final=303.3, Time=97.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:55] SCORE The bandits (yellow): Final=305.4, Time=99.4, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:56] MOVE 17: The bandits (yellow) 25->27 [0.00ms]
+[2026-05-22 11:12:56] SCORE AlphaZeroClue (red): Final=285.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:56] SCORE Gruppe 2 (blue): Final=303.3, Time=97.3, Moves(5)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 11:12:56] SCORE The bandits (yellow): Final=309.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:12:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:56] MOVE 18: Gruppe 2 (blue) 29->40 [0.01ms]
+[2026-05-22 11:12:56] SCORE AlphaZeroClue (red): Final=285.3, Time=97.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 11:12:56] SCORE Gruppe 2 (blue): Final=304.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:12:56] SCORE The bandits (yellow): Final=309.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:12:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:58] MOVE 19: AlphaZeroClue (red) 111->91 [0.01ms]
+[2026-05-22 11:12:58] SCORE AlphaZeroClue (red): Final=287.5, Time=95.5, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:12:58] SCORE Gruppe 2 (blue): Final=304.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:12:58] SCORE The bandits (yellow): Final=309.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 11:12:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:58] MOVE 20: The bandits (yellow) 46->48 [0.01ms]
+[2026-05-22 11:12:58] SCORE AlphaZeroClue (red): Final=287.5, Time=95.5, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:12:58] SCORE Gruppe 2 (blue): Final=304.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:12:58] SCORE The bandits (yellow): Final=312.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:12:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:12:59] MOVE 21: Gruppe 2 (blue) 15->11 [0.01ms]
+[2026-05-22 11:12:59] SCORE AlphaZeroClue (red): Final=287.5, Time=95.5, Moves(3)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:12:59] SCORE Gruppe 2 (blue): Final=304.5, Time=96.5, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:12:59] SCORE The bandits (yellow): Final=312.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:12:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:00] MOVE 22: AlphaZeroClue (red) 120->79 [0.00ms]
+[2026-05-22 11:13:00] SCORE AlphaZeroClue (red): Final=297.8, Time=93.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:00] SCORE Gruppe 2 (blue): Final=304.5, Time=96.5, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:00] SCORE The bandits (yellow): Final=312.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 11:13:00] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:01] MOVE 23: The bandits (yellow) 10->35 [0.00ms]
+[2026-05-22 11:13:01] SCORE AlphaZeroClue (red): Final=297.8, Time=93.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:01] SCORE Gruppe 2 (blue): Final=304.5, Time=96.5, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 11:13:01] SCORE The bandits (yellow): Final=316.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:01] MOVE 24: Gruppe 2 (blue) 2->50 [0.00ms]
+[2026-05-22 11:13:01] SCORE AlphaZeroClue (red): Final=297.8, Time=93.8, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:13:01] SCORE Gruppe 2 (blue): Final=316.2, Time=96.2, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:01] SCORE The bandits (yellow): Final=316.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:03] MOVE 25: AlphaZeroClue (red) 112->69 [0.01ms]
+[2026-05-22 11:13:03] SCORE AlphaZeroClue (red): Final=303.9, Time=91.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE Gruppe 2 (blue): Final=316.2, Time=96.2, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE The bandits (yellow): Final=316.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 11:13:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:03] MOVE 26: The bandits (yellow) 23->66 [0.00ms]
+[2026-05-22 11:13:03] SCORE AlphaZeroClue (red): Final=303.9, Time=91.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE Gruppe 2 (blue): Final=316.2, Time=96.2, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE The bandits (yellow): Final=324.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:13:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:03] MOVE 27: Gruppe 2 (blue) 40->78 [0.01ms]
+[2026-05-22 11:13:03] SCORE AlphaZeroClue (red): Final=303.9, Time=91.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE Gruppe 2 (blue): Final=324.0, Time=96.0, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:03] SCORE The bandits (yellow): Final=324.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:13:03] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:05] MOVE 28: AlphaZeroClue (red) 103->40 [0.01ms]
+[2026-05-22 11:13:05] SCORE AlphaZeroClue (red): Final=314.1, Time=90.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE Gruppe 2 (blue): Final=324.0, Time=96.0, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE The bandits (yellow): Final=324.3, Time=98.3, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 11:13:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:05] MOVE 29: The bandits (yellow) 47->92 [0.00ms]
+[2026-05-22 11:13:05] SCORE AlphaZeroClue (red): Final=314.1, Time=90.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE Gruppe 2 (blue): Final=324.0, Time=96.0, Moves(9)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE The bandits (yellow): Final=336.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:13:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:05] MOVE 30: Gruppe 2 (blue) 78->116 [0.00ms]
+[2026-05-22 11:13:05] SCORE AlphaZeroClue (red): Final=314.1, Time=90.1, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE Gruppe 2 (blue): Final=429.8, Time=95.8, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:13:05] SCORE The bandits (yellow): Final=336.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:13:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:07] MOVE 31: AlphaZeroClue (red) 117->81 [0.00ms]
+[2026-05-22 11:13:07] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:07] SCORE Gruppe 2 (blue): Final=429.8, Time=95.8, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:13:07] SCORE The bandits (yellow): Final=336.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 11:13:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:08] MOVE 32: The bandits (yellow) 26->51 [0.00ms]
+[2026-05-22 11:13:08] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:08] SCORE Gruppe 2 (blue): Final=429.8, Time=95.8, Moves(10)=0.0, Pins(1)=100.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:13:08] SCORE The bandits (yellow): Final=343.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:08] MOVE 33: Gruppe 2 (blue) 8->67 [0.00ms]
+[2026-05-22 11:13:08] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:08] SCORE Gruppe 2 (blue): Final=441.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:08] SCORE The bandits (yellow): Final=343.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:08] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)']}
+[2026-05-22 11:13:10] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:10] SCORE Gruppe 2 (blue): Final=441.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:10] SCORE The bandits (yellow): Final=343.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:10] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:10] TURN TIMEOUT: Player with colour red exceeded 2s at move 34. Turn skipped.
+[2026-05-22 11:13:11] MOVE 35: The bandits (yellow) 66->93 [0.01ms]
+[2026-05-22 11:13:11] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE Gruppe 2 (blue): Final=441.3, Time=95.3, Moves(11)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE The bandits (yellow): Final=355.6, Time=97.6, Moves(12)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:11] MOVE 36: Gruppe 2 (blue) 1->65 [0.00ms]
+[2026-05-22 11:13:11] SCORE AlphaZeroClue (red): Final=320.1, Time=88.1, Moves(7)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE Gruppe 2 (blue): Final=455.1, Time=95.1, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE The bandits (yellow): Final=355.6, Time=97.6, Moves(12)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:11] MOVE 37: AlphaZeroClue (red) 79->39 [0.00ms]
+[2026-05-22 11:13:11] SCORE AlphaZeroClue (red): Final=327.6, Time=87.6, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE Gruppe 2 (blue): Final=455.1, Time=95.1, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:11] SCORE The bandits (yellow): Final=355.6, Time=97.6, Moves(12)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:13:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:12] MOVE 38: The bandits (yellow) 27->28 [0.00ms]
+[2026-05-22 11:13:12] SCORE AlphaZeroClue (red): Final=327.6, Time=87.6, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Gruppe 2 (blue): Final=455.1, Time=95.1, Moves(12)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE The bandits (yellow): Final=357.3, Time=97.3, Moves(13)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:12] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:12] MOVE 39: Gruppe 2 (blue) 37->77 [0.00ms]
+[2026-05-22 11:13:12] SCORE AlphaZeroClue (red): Final=327.6, Time=87.6, Moves(8)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE Gruppe 2 (blue): Final=462.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:12] SCORE The bandits (yellow): Final=357.3, Time=97.3, Moves(13)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:12] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:14] MOVE 40: AlphaZeroClue (red) 119->112 [0.01ms]
+[2026-05-22 11:13:14] SCORE AlphaZeroClue (red): Final=329.8, Time=85.8, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Gruppe 2 (blue): Final=462.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE The bandits (yellow): Final=357.3, Time=97.3, Moves(13)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:13:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:14] MOVE 41: The bandits (yellow) 92->94 [0.00ms]
+[2026-05-22 11:13:14] SCORE AlphaZeroClue (red): Final=329.8, Time=85.8, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE Gruppe 2 (blue): Final=462.4, Time=94.4, Moves(13)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:14] SCORE The bandits (yellow): Final=361.0, Time=97.0, Moves(14)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:13:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:15] MOVE 42: Gruppe 2 (blue) 9->27 [0.00ms]
+[2026-05-22 11:13:15] SCORE AlphaZeroClue (red): Final=329.8, Time=85.8, Moves(9)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 11:13:15] SCORE Gruppe 2 (blue): Final=465.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:15] SCORE The bandits (yellow): Final=361.0, Time=97.0, Moves(14)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:13:15] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:17] MOVE 43: AlphaZeroClue (red) 113->46 [0.00ms]
+[2026-05-22 11:13:17] SCORE AlphaZeroClue (red): Final=338.1, Time=84.1, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE Gruppe 2 (blue): Final=465.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE The bandits (yellow): Final=361.0, Time=97.0, Moves(14)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:13:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:17] MOVE 44: The bandits (yellow) 93->95 [0.00ms]
+[2026-05-22 11:13:17] SCORE AlphaZeroClue (red): Final=338.1, Time=84.1, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE Gruppe 2 (blue): Final=465.9, Time=93.9, Moves(14)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE The bandits (yellow): Final=464.8, Time=96.8, Moves(15)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:17] MOVE 45: Gruppe 2 (blue) 77->89 [0.00ms]
+[2026-05-22 11:13:17] SCORE AlphaZeroClue (red): Final=338.1, Time=84.1, Moves(10)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE Gruppe 2 (blue): Final=467.5, Time=93.5, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:17] SCORE The bandits (yellow): Final=464.8, Time=96.8, Moves(15)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:17] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:19] MOVE 46: AlphaZeroClue (red) 102->37 [0.00ms]
+[2026-05-22 11:13:19] SCORE AlphaZeroClue (red): Final=348.1, Time=82.1, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE Gruppe 2 (blue): Final=467.5, Time=93.5, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:19] SCORE The bandits (yellow): Final=464.8, Time=96.8, Moves(15)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 11:13:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:19] MOVE 47: The bandits (yellow) 94->107 [0.01ms]
+[2026-05-22 11:13:20] SCORE AlphaZeroClue (red): Final=348.1, Time=82.1, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE Gruppe 2 (blue): Final=467.5, Time=93.5, Moves(15)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE The bandits (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:13:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:20] MOVE 48: Gruppe 2 (blue) 4->7 [0.00ms]
+[2026-05-22 11:13:20] SCORE AlphaZeroClue (red): Final=348.1, Time=82.1, Moves(11)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE Gruppe 2 (blue): Final=468.9, Time=92.9, Moves(16)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:20] SCORE The bandits (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:13:20] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:22] MOVE 49: AlphaZeroClue (red) 40->4 [0.00ms]
+[2026-05-22 11:13:22] SCORE AlphaZeroClue (red): Final=452.3, Time=80.3, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE Gruppe 2 (blue): Final=468.9, Time=92.9, Moves(16)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE The bandits (yellow): Final=566.5, Time=96.5, Moves(16)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:13:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:22] MOVE 50: The bandits (yellow) 17->82 [0.00ms]
+[2026-05-22 11:13:22] SCORE AlphaZeroClue (red): Final=452.3, Time=80.3, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE Gruppe 2 (blue): Final=468.9, Time=92.9, Moves(16)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE The bandits (yellow): Final=574.2, Time=96.2, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:22] MOVE 51: Gruppe 2 (blue) 11->103 [0.00ms]
+[2026-05-22 11:13:22] SCORE AlphaZeroClue (red): Final=452.3, Time=80.3, Moves(12)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE Gruppe 2 (blue): Final=484.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:22] SCORE The bandits (yellow): Final=574.2, Time=96.2, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:24] MOVE 52: AlphaZeroClue (red) 112->71 [0.00ms]
+[2026-05-22 11:13:24] SCORE AlphaZeroClue (red): Final=458.5, Time=78.5, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:24] SCORE Gruppe 2 (blue): Final=484.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:24] SCORE The bandits (yellow): Final=574.2, Time=96.2, Moves(17)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:13:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:24] MOVE 53: The bandits (yellow) 38->61 [0.00ms]
+[2026-05-22 11:13:24] SCORE AlphaZeroClue (red): Final=458.5, Time=78.5, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:24] SCORE Gruppe 2 (blue): Final=484.8, Time=92.8, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:24] SCORE The bandits (yellow): Final=582.0, Time=96.0, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:13:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:25] MOVE 54: Gruppe 2 (blue) 103->111 [0.00ms]
+[2026-05-22 11:13:25] SCORE AlphaZeroClue (red): Final=458.5, Time=78.5, Moves(13)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE Gruppe 2 (blue): Final=586.5, Time=92.5, Moves(18)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:25] SCORE The bandits (yellow): Final=582.0, Time=96.0, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:13:25] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:26] MOVE 55: AlphaZeroClue (red) 81->41 [0.00ms]
+[2026-05-22 11:13:26] SCORE AlphaZeroClue (red): Final=464.7, Time=76.7, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:26] SCORE Gruppe 2 (blue): Final=586.5, Time=92.5, Moves(18)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:26] SCORE The bandits (yellow): Final=582.0, Time=96.0, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 11:13:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:27] MOVE 56: The bandits (yellow) 56->57 [0.00ms]
+[2026-05-22 11:13:27] SCORE AlphaZeroClue (red): Final=464.7, Time=76.7, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE Gruppe 2 (blue): Final=586.5, Time=92.5, Moves(18)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE The bandits (yellow): Final=583.7, Time=95.7, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:27] MOVE 57: Gruppe 2 (blue) 7->93 [0.00ms]
+[2026-05-22 11:13:27] SCORE AlphaZeroClue (red): Final=464.7, Time=76.7, Moves(14)=0.0, Pins(1)=100.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE Gruppe 2 (blue): Final=602.3, Time=92.3, Moves(19)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:27] SCORE The bandits (yellow): Final=583.7, Time=95.7, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:27] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:29] MOVE 58: AlphaZeroClue (red) 118->113 [0.07ms]
+[2026-05-22 11:13:29] SCORE AlphaZeroClue (red): Final=466.8, Time=74.8, Moves(15)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE Gruppe 2 (blue): Final=602.3, Time=92.3, Moves(19)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE The bandits (yellow): Final=583.7, Time=95.7, Moves(19)=0.0, Pins(2)=200.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 11:13:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:29] MOVE 59: The bandits (yellow) 35->108 [0.00ms]
+[2026-05-22 11:13:29] SCORE AlphaZeroClue (red): Final=466.8, Time=74.8, Moves(15)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE Gruppe 2 (blue): Final=602.3, Time=92.3, Moves(19)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:29] SCORE The bandits (yellow): Final=705.4, Time=95.4, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:29] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:30] MOVE 60: Gruppe 2 (blue) 27->66 [0.01ms]
+[2026-05-22 11:13:30] SCORE AlphaZeroClue (red): Final=466.8, Time=74.8, Moves(15)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE Gruppe 2 (blue): Final=609.7, Time=91.7, Moves(20)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:30] SCORE The bandits (yellow): Final=705.4, Time=95.4, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:32] MOVE 61: AlphaZeroClue (red) 91->79 [0.00ms]
+[2026-05-22 11:13:32] SCORE AlphaZeroClue (red): Final=467.0, Time=73.0, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 2 (blue): Final=609.7, Time=91.7, Moves(20)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE The bandits (yellow): Final=705.4, Time=95.4, Moves(20)=0.0, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:32] MOVE 62: The bandits (yellow) 12->25 [0.00ms]
+[2026-05-22 11:13:32] SCORE AlphaZeroClue (red): Final=467.0, Time=73.0, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 2 (blue): Final=609.7, Time=91.7, Moves(20)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE The bandits (yellow): Final=707.0, Time=95.0, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:32] MOVE 63: Gruppe 2 (blue) 93->106 [0.00ms]
+[2026-05-22 11:13:32] SCORE AlphaZeroClue (red): Final=467.0, Time=73.0, Moves(16)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE Gruppe 2 (blue): Final=611.5, Time=91.5, Moves(21)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:13:32] SCORE The bandits (yellow): Final=707.0, Time=95.0, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:13:32] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:34] MOVE 64: AlphaZeroClue (red) 114->94 [0.01ms]
+[2026-05-22 11:13:34] SCORE AlphaZeroClue (red): Final=469.2, Time=71.2, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Gruppe 2 (blue): Final=611.5, Time=91.5, Moves(21)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE The bandits (yellow): Final=707.0, Time=95.0, Moves(21)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 11:13:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:34] MOVE 65: The bandits (yellow) 25->26 [0.01ms]
+[2026-05-22 11:13:34] SCORE AlphaZeroClue (red): Final=469.2, Time=71.2, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE Gruppe 2 (blue): Final=611.5, Time=91.5, Moves(21)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:13:34] SCORE The bandits (yellow): Final=708.6, Time=94.6, Moves(22)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:34] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:35] MOVE 66: Gruppe 2 (blue) 106->114 [0.01ms]
+[2026-05-22 11:13:35] SCORE AlphaZeroClue (red): Final=469.2, Time=71.2, Moves(17)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 11:13:35] SCORE Gruppe 2 (blue): Final=712.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:35] SCORE The bandits (yellow): Final=708.6, Time=94.6, Moves(22)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:37] MOVE 67: AlphaZeroClue (red) 79->35 [0.01ms]
+[2026-05-22 11:13:37] SCORE AlphaZeroClue (red): Final=471.3, Time=69.3, Moves(18)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE Gruppe 2 (blue): Final=712.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE The bandits (yellow): Final=708.6, Time=94.6, Moves(22)=0.0, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:37] MOVE 68: The bandits (yellow) 57->80 [0.00ms]
+[2026-05-22 11:13:37] SCORE AlphaZeroClue (red): Final=471.3, Time=69.3, Moves(18)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE Gruppe 2 (blue): Final=712.9, Time=90.9, Moves(22)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE The bandits (yellow): Final=716.4, Time=94.4, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:37] MOVE 69: Gruppe 2 (blue) 50->93 [0.00ms]
+[2026-05-22 11:13:37] SCORE AlphaZeroClue (red): Final=471.3, Time=69.3, Moves(18)=0.0, Pins(1)=100.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE Gruppe 2 (blue): Final=720.7, Time=90.7, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:37] SCORE The bandits (yellow): Final=716.4, Time=94.4, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:37] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:39] MOVE 70: AlphaZeroClue (red) 35->104 [0.00ms]
+[2026-05-22 11:13:39] SCORE AlphaZeroClue (red): Final=461.6, Time=67.6, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Gruppe 2 (blue): Final=720.7, Time=90.7, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE The bandits (yellow): Final=716.4, Time=94.4, Moves(23)=0.0, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 11:13:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:39] MOVE 71: The bandits (yellow) 48->72 [0.01ms]
+[2026-05-22 11:13:39] SCORE AlphaZeroClue (red): Final=461.6, Time=67.6, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE Gruppe 2 (blue): Final=720.7, Time=90.7, Moves(23)=0.0, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:39] SCORE The bandits (yellow): Final=728.2, Time=94.2, Moves(24)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:39] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:40] MOVE 72: Gruppe 2 (blue) 14->27 [0.00ms]
+[2026-05-22 11:13:40] SCORE AlphaZeroClue (red): Final=461.6, Time=67.6, Moves(19)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:13:40] SCORE Gruppe 2 (blue): Final=722.3, Time=90.3, Moves(24)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:13:40] SCORE The bandits (yellow): Final=728.2, Time=94.2, Moves(24)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:41] MOVE 73: AlphaZeroClue (red) 113->2 [0.01ms]
+[2026-05-22 11:13:41] SCORE AlphaZeroClue (red): Final=579.8, Time=65.8, Moves(20)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE Gruppe 2 (blue): Final=722.3, Time=90.3, Moves(24)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:13:41] SCORE The bandits (yellow): Final=728.2, Time=94.2, Moves(24)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:41] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:42] MOVE 74: The bandits (yellow) 108->109 [0.01ms]
+[2026-05-22 11:13:42] SCORE AlphaZeroClue (red): Final=579.8, Time=65.8, Moves(20)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:42] SCORE Gruppe 2 (blue): Final=722.3, Time=90.3, Moves(24)=0.0, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:13:42] SCORE The bandits (yellow): Final=727.9, Time=93.9, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:42] MOVE 75: Gruppe 2 (blue) 27->118 [0.00ms]
+[2026-05-22 11:13:42] SCORE AlphaZeroClue (red): Final=579.8, Time=65.8, Moves(20)=0.0, Pins(2)=200.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 11:13:42] SCORE Gruppe 2 (blue): Final=838.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:42] SCORE The bandits (yellow): Final=727.9, Time=93.9, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:42] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:44] MOVE 76: AlphaZeroClue (red) 37->14 [0.00ms]
+[2026-05-22 11:13:44] SCORE AlphaZeroClue (red): Final=582.0, Time=64.0, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE Gruppe 2 (blue): Final=838.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE The bandits (yellow): Final=727.9, Time=93.9, Moves(25)=0.0, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:13:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:44] MOVE 77: The bandits (yellow) 26->27 [0.00ms]
+[2026-05-22 11:13:44] SCORE AlphaZeroClue (red): Final=582.0, Time=64.0, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE Gruppe 2 (blue): Final=838.1, Time=90.1, Moves(25)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE The bandits (yellow): Final=729.7, Time=93.7, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:13:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:44] MOVE 78: Gruppe 2 (blue) 66->113 [0.00ms]
+[2026-05-22 11:13:44] SCORE AlphaZeroClue (red): Final=582.0, Time=64.0, Moves(21)=0.0, Pins(2)=200.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE Gruppe 2 (blue): Final=945.8, Time=89.8, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:13:44] SCORE The bandits (yellow): Final=729.7, Time=93.7, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:13:44] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 79: AlphaZeroClue (red) 104->58 [0.00ms]
+[2026-05-22 11:13:46] SCORE AlphaZeroClue (red): Final=588.2, Time=62.2, Moves(22)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 2 (blue): Final=945.8, Time=89.8, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE The bandits (yellow): Final=729.7, Time=93.7, Moves(26)=0.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 80: The bandits (yellow) 27->52 [0.00ms]
+[2026-05-22 11:13:46] SCORE AlphaZeroClue (red): Final=588.2, Time=62.2, Moves(22)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 2 (blue): Final=945.8, Time=89.8, Moves(26)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE The bandits (yellow): Final=737.4, Time=93.4, Moves(27)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:46] MOVE 81: Gruppe 2 (blue) 93->106 [0.00ms]
+[2026-05-22 11:13:46] SCORE AlphaZeroClue (red): Final=588.2, Time=62.2, Moves(22)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE Gruppe 2 (blue): Final=947.7, Time=89.7, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:46] SCORE The bandits (yellow): Final=737.4, Time=93.4, Moves(27)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:13:46] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:48] MOVE 82: AlphaZeroClue (red) 94->83 [0.00ms]
+[2026-05-22 11:13:48] SCORE AlphaZeroClue (red): Final=588.3, Time=60.3, Moves(23)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Gruppe 2 (blue): Final=947.7, Time=89.7, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE The bandits (yellow): Final=737.4, Time=93.4, Moves(27)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:13:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:48] MOVE 83: The bandits (yellow) 82->84 [0.01ms]
+[2026-05-22 11:13:48] SCORE AlphaZeroClue (red): Final=588.3, Time=60.3, Moves(23)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE Gruppe 2 (blue): Final=947.7, Time=89.7, Moves(27)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:48] SCORE The bandits (yellow): Final=841.3, Time=93.3, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:48] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:49] MOVE 84: Gruppe 2 (blue) 118->119 [0.01ms]
+[2026-05-22 11:13:49] SCORE AlphaZeroClue (red): Final=588.3, Time=60.3, Moves(23)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:49] SCORE Gruppe 2 (blue): Final=947.4, Time=89.4, Moves(28)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:49] SCORE The bandits (yellow): Final=841.3, Time=93.3, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:49] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:50] MOVE 85: AlphaZeroClue (red) 58->48 [0.01ms]
+[2026-05-22 11:13:50] SCORE AlphaZeroClue (red): Final=588.6, Time=58.6, Moves(24)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE Gruppe 2 (blue): Final=947.4, Time=89.4, Moves(28)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:50] SCORE The bandits (yellow): Final=841.3, Time=93.3, Moves(28)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:50] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:51] MOVE 86: The bandits (yellow) 109->110 [0.00ms]
+[2026-05-22 11:13:51] SCORE AlphaZeroClue (red): Final=588.6, Time=58.6, Moves(24)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:51] SCORE Gruppe 2 (blue): Final=947.4, Time=89.4, Moves(28)=0.0, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:51] SCORE The bandits (yellow): Final=841.0, Time=93.0, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:51] MOVE 87: Gruppe 2 (blue) 106->115 [0.00ms]
+[2026-05-22 11:13:51] SCORE AlphaZeroClue (red): Final=588.6, Time=58.6, Moves(24)=0.0, Pins(2)=200.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:13:51] SCORE Gruppe 2 (blue): Final=1049.2, Time=89.1, Moves(29)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:13:51] SCORE The bandits (yellow): Final=841.0, Time=93.0, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:51] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:53] MOVE 88: AlphaZeroClue (red) 41->60 [0.00ms]
+[2026-05-22 11:13:53] SCORE AlphaZeroClue (red): Final=582.9, Time=56.9, Moves(25)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE Gruppe 2 (blue): Final=1049.2, Time=89.1, Moves(29)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE The bandits (yellow): Final=841.0, Time=93.0, Moves(29)=0.0, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:13:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:53] MOVE 89: The bandits (yellow) 28->40 [0.01ms]
+[2026-05-22 11:13:53] SCORE AlphaZeroClue (red): Final=582.9, Time=56.9, Moves(25)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE Gruppe 2 (blue): Final=1049.2, Time=89.1, Moves(29)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE The bandits (yellow): Final=842.7, Time=92.7, Moves(30)=0.1, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:13:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:53] MOVE 90: Gruppe 2 (blue) 65->66 [0.01ms]
+[2026-05-22 11:13:53] SCORE AlphaZeroClue (red): Final=582.9, Time=56.9, Moves(25)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE Gruppe 2 (blue): Final=1051.0, Time=88.9, Moves(30)=0.1, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:13:53] SCORE The bandits (yellow): Final=842.7, Time=92.7, Moves(30)=0.1, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:13:53] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:55] MOVE 91: AlphaZeroClue (red) 39->41 [0.00ms]
+[2026-05-22 11:13:55] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:55] SCORE Gruppe 2 (blue): Final=1051.0, Time=88.9, Moves(30)=0.1, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:13:55] SCORE The bandits (yellow): Final=842.7, Time=92.7, Moves(30)=0.1, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:13:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:55] MOVE 92: The bandits (yellow) 40->42 [0.01ms]
+[2026-05-22 11:13:55] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:55] SCORE Gruppe 2 (blue): Final=1051.0, Time=88.9, Moves(30)=0.1, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:13:55] SCORE The bandits (yellow): Final=846.8, Time=92.6, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:13:55] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:56] MOVE 93: Gruppe 2 (blue) 66->91 [0.00ms]
+[2026-05-22 11:13:56] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:56] SCORE Gruppe 2 (blue): Final=1054.7, Time=88.5, Moves(31)=0.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:13:56] SCORE The bandits (yellow): Final=846.8, Time=92.6, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:13:56] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)']}
+[2026-05-22 11:13:58] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 2 (blue): Final=1054.7, Time=88.5, Moves(31)=0.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE The bandits (yellow): Final=846.8, Time=92.6, Moves(31)=0.2, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:13:58] TURN TIMEOUT: Player with colour red exceeded 2s at move 94. Turn skipped.
+[2026-05-22 11:13:58] MOVE 95: The bandits (yellow) 61->82 [0.00ms]
+[2026-05-22 11:13:58] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 2 (blue): Final=1054.7, Time=88.5, Moves(31)=0.2, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE The bandits (yellow): Final=851.0, Time=92.4, Moves(32)=0.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:13:58] MOVE 96: Gruppe 2 (blue) 91->103 [0.00ms]
+[2026-05-22 11:13:58] SCORE AlphaZeroClue (red): Final=581.1, Time=55.1, Moves(26)=0.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 2 (blue): Final=1056.5, Time=88.0, Moves(32)=0.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE The bandits (yellow): Final=851.0, Time=92.4, Moves(32)=0.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:13:58] MOVE 97: AlphaZeroClue (red) 48->37 [0.00ms]
+[2026-05-22 11:13:58] SCORE AlphaZeroClue (red): Final=583.1, Time=55.1, Moves(27)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE Gruppe 2 (blue): Final=1056.5, Time=88.0, Moves(32)=0.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:13:58] SCORE The bandits (yellow): Final=851.0, Time=92.4, Moves(32)=0.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:13:58] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:13:59] MOVE 98: The bandits (yellow) 42->53 [0.01ms]
+[2026-05-22 11:13:59] SCORE AlphaZeroClue (red): Final=583.1, Time=55.1, Moves(27)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:59] SCORE Gruppe 2 (blue): Final=1056.5, Time=88.0, Moves(32)=0.5, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:13:59] SCORE The bandits (yellow): Final=853.3, Time=92.2, Moves(33)=1.1, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:13:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:13:59] MOVE 99: Gruppe 2 (blue) 103->112 [0.00ms]
+[2026-05-22 11:13:59] SCORE AlphaZeroClue (red): Final=583.1, Time=55.1, Moves(27)=0.0, Pins(2)=200.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:13:59] SCORE Gruppe 2 (blue): Final=1158.7, Time=87.5, Moves(33)=1.1, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:13:59] SCORE The bandits (yellow): Final=853.3, Time=92.2, Moves(33)=1.1, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:13:59] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:01] MOVE 100: AlphaZeroClue (red) 60->43 [0.00ms]
+[2026-05-22 11:14:01] SCORE AlphaZeroClue (red): Final=585.2, Time=53.2, Moves(28)=0.0, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:01] SCORE Gruppe 2 (blue): Final=1158.7, Time=87.5, Moves(33)=1.1, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:01] SCORE The bandits (yellow): Final=853.3, Time=92.2, Moves(33)=1.1, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:01] MOVE 101: The bandits (yellow) 52->54 [0.00ms]
+[2026-05-22 11:14:01] SCORE AlphaZeroClue (red): Final=585.2, Time=53.2, Moves(28)=0.0, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:01] SCORE Gruppe 2 (blue): Final=1158.7, Time=87.5, Moves(33)=1.1, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:01] SCORE The bandits (yellow): Final=858.1, Time=91.9, Moves(34)=2.3, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:01] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:02] MOVE 102: Gruppe 2 (blue) 89->102 [0.00ms]
+[2026-05-22 11:14:02] SCORE AlphaZeroClue (red): Final=585.2, Time=53.2, Moves(28)=0.0, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Gruppe 2 (blue): Final=1161.3, Time=87.0, Moves(34)=2.3, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE The bandits (yellow): Final=858.1, Time=91.9, Moves(34)=2.3, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:02] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:04] MOVE 103: AlphaZeroClue (red) 83->60 [0.00ms]
+[2026-05-22 11:14:04] SCORE AlphaZeroClue (red): Final=587.3, Time=51.3, Moves(29)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Gruppe 2 (blue): Final=1161.3, Time=87.0, Moves(34)=2.3, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE The bandits (yellow): Final=858.1, Time=91.9, Moves(34)=2.3, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:04] MOVE 104: The bandits (yellow) 80->63 [0.01ms]
+[2026-05-22 11:14:04] SCORE AlphaZeroClue (red): Final=587.3, Time=51.3, Moves(29)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Gruppe 2 (blue): Final=1161.3, Time=87.0, Moves(34)=2.3, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE The bandits (yellow): Final=863.9, Time=91.5, Moves(35)=4.4, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:05] MOVE 105: Gruppe 2 (blue) 67->77 [0.00ms]
+[2026-05-22 11:14:05] SCORE AlphaZeroClue (red): Final=587.3, Time=51.3, Moves(29)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:05] SCORE Gruppe 2 (blue): Final=1164.8, Time=86.4, Moves(35)=4.4, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:05] SCORE The bandits (yellow): Final=863.9, Time=91.5, Moves(35)=4.4, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:05] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:06] MOVE 106: AlphaZeroClue (red) 69->59 [0.00ms]
+[2026-05-22 11:14:06] SCORE AlphaZeroClue (red): Final=587.7, Time=49.6, Moves(30)=0.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Gruppe 2 (blue): Final=1164.8, Time=86.4, Moves(35)=4.4, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE The bandits (yellow): Final=863.9, Time=91.5, Moves(35)=4.4, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:07] MOVE 107: The bandits (yellow) 84->74 [0.00ms]
+[2026-05-22 11:14:07] SCORE AlphaZeroClue (red): Final=587.7, Time=49.6, Moves(30)=0.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Gruppe 2 (blue): Final=1164.8, Time=86.4, Moves(35)=4.4, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE The bandits (yellow): Final=867.1, Time=91.1, Moves(36)=8.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:07] MOVE 108: Gruppe 2 (blue) 77->89 [0.00ms]
+[2026-05-22 11:14:07] SCORE AlphaZeroClue (red): Final=587.7, Time=49.6, Moves(30)=0.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Gruppe 2 (blue): Final=1170.2, Time=86.3, Moves(36)=8.0, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE The bandits (yellow): Final=867.1, Time=91.1, Moves(36)=8.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 109: AlphaZeroClue (red) 59->40 [0.01ms]
+[2026-05-22 11:14:09] SCORE AlphaZeroClue (red): Final=589.9, Time=47.7, Moves(31)=0.2, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 2 (blue): Final=1170.2, Time=86.3, Moves(36)=8.0, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE The bandits (yellow): Final=867.1, Time=91.1, Moves(36)=8.0, Pins(4)=400.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 110: The bandits (yellow) 72->83 [0.00ms]
+[2026-05-22 11:14:09] SCORE AlphaZeroClue (red): Final=589.9, Time=47.7, Moves(31)=0.2, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 2 (blue): Final=1170.2, Time=86.3, Moves(36)=8.0, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE The bandits (yellow): Final=874.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:09] MOVE 111: Gruppe 2 (blue) 16->28 [0.00ms]
+[2026-05-22 11:14:09] SCORE AlphaZeroClue (red): Final=589.9, Time=47.7, Moves(31)=0.2, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Gruppe 2 (blue): Final=1177.6, Time=86.1, Moves(37)=13.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE The bandits (yellow): Final=874.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:11] MOVE 112: AlphaZeroClue (red) 37->25 [0.00ms]
+[2026-05-22 11:14:11] SCORE AlphaZeroClue (red): Final=588.4, Time=45.9, Moves(32)=0.5, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Gruppe 2 (blue): Final=1177.6, Time=86.1, Moves(37)=13.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE The bandits (yellow): Final=874.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:11] MOVE 113: The bandits (yellow) 82->84 [0.00ms]
+[2026-05-22 11:14:11] SCORE AlphaZeroClue (red): Final=588.4, Time=45.9, Moves(32)=0.5, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Gruppe 2 (blue): Final=1177.6, Time=86.1, Moves(37)=13.5, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE The bandits (yellow): Final=986.6, Time=91.0, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:11] MOVE 114: Gruppe 2 (blue) 28->39 [0.00ms]
+[2026-05-22 11:14:11] SCORE AlphaZeroClue (red): Final=588.4, Time=45.9, Moves(32)=0.5, Pins(2)=200.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Gruppe 2 (blue): Final=1187.3, Time=85.7, Moves(38)=21.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE The bandits (yellow): Final=986.6, Time=91.0, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:13] MOVE 115: AlphaZeroClue (red) 40->61 [0.00ms]
+[2026-05-22 11:14:13] SCORE AlphaZeroClue (red): Final=583.2, Time=44.1, Moves(33)=1.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Gruppe 2 (blue): Final=1187.3, Time=85.7, Moves(38)=21.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE The bandits (yellow): Final=986.6, Time=91.0, Moves(38)=21.6, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:13] MOVE 116: The bandits (yellow) 83->85 [0.00ms]
+[2026-05-22 11:14:13] SCORE AlphaZeroClue (red): Final=583.2, Time=44.1, Moves(33)=1.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Gruppe 2 (blue): Final=1187.3, Time=85.7, Moves(38)=21.6, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE The bandits (yellow): Final=1099.3, Time=90.8, Moves(39)=32.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:14] MOVE 117: Gruppe 2 (blue) 39->49 [0.00ms]
+[2026-05-22 11:14:14] SCORE AlphaZeroClue (red): Final=583.2, Time=44.1, Moves(33)=1.1, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE Gruppe 2 (blue): Final=1199.8, Time=85.4, Moves(39)=32.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE The bandits (yellow): Final=1099.3, Time=90.8, Moves(39)=32.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:14] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:16] MOVE 118: AlphaZeroClue (red) 14->6 [0.00ms]
+[2026-05-22 11:14:16] SCORE AlphaZeroClue (red): Final=684.4, Time=42.1, Moves(34)=2.3, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Gruppe 2 (blue): Final=1199.8, Time=85.4, Moves(39)=32.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE The bandits (yellow): Final=1099.3, Time=90.8, Moves(39)=32.5, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:16] MOVE 119: The bandits (yellow) 85->97 [0.00ms]
+[2026-05-22 11:14:16] SCORE AlphaZeroClue (red): Final=684.4, Time=42.1, Moves(34)=2.3, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Gruppe 2 (blue): Final=1199.8, Time=85.4, Moves(39)=32.5, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE The bandits (yellow): Final=1112.3, Time=90.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:16] MOVE 120: Gruppe 2 (blue) 49->58 [0.00ms]
+[2026-05-22 11:14:16] SCORE AlphaZeroClue (red): Final=684.4, Time=42.1, Moves(34)=2.3, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Gruppe 2 (blue): Final=1214.6, Time=84.8, Moves(40)=45.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE The bandits (yellow): Final=1112.3, Time=90.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:18] MOVE 121: AlphaZeroClue (red) 25->12 [0.01ms]
+[2026-05-22 11:14:18] SCORE AlphaZeroClue (red): Final=684.7, Time=40.3, Moves(35)=4.4, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE Gruppe 2 (blue): Final=1214.6, Time=84.8, Moves(40)=45.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE The bandits (yellow): Final=1112.3, Time=90.5, Moves(40)=45.8, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:18] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:19] MOVE 122: The bandits (yellow) 53->96 [0.00ms]
+[2026-05-22 11:14:19] SCORE AlphaZeroClue (red): Final=684.7, Time=40.3, Moves(35)=4.4, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Gruppe 2 (blue): Final=1214.6, Time=84.8, Moves(40)=45.8, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE The bandits (yellow): Final=1232.8, Time=90.2, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:19] MOVE 123: Gruppe 2 (blue) 58->67 [0.00ms]
+[2026-05-22 11:14:19] SCORE AlphaZeroClue (red): Final=684.7, Time=40.3, Moves(35)=4.4, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Gruppe 2 (blue): Final=1231.3, Time=84.7, Moves(41)=60.7, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE The bandits (yellow): Final=1232.8, Time=90.2, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:19] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:21] MOVE 124: AlphaZeroClue (red) 43->62 [0.00ms]
+[2026-05-22 11:14:21] SCORE AlphaZeroClue (red): Final=682.3, Time=38.3, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE Gruppe 2 (blue): Final=1231.3, Time=84.7, Moves(41)=60.7, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE The bandits (yellow): Final=1232.8, Time=90.2, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:21] MOVE 125: The bandits (yellow) 51->52 [0.00ms]
+[2026-05-22 11:14:21] SCORE AlphaZeroClue (red): Final=682.3, Time=38.3, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE Gruppe 2 (blue): Final=1231.3, Time=84.7, Moves(41)=60.7, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE The bandits (yellow): Final=1249.4, Time=89.9, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:21] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:22] MOVE 126: Gruppe 2 (blue) 67->77 [0.00ms]
+[2026-05-22 11:14:22] SCORE AlphaZeroClue (red): Final=682.3, Time=38.3, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Gruppe 2 (blue): Final=1247.6, Time=84.1, Moves(42)=75.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE The bandits (yellow): Final=1249.4, Time=89.9, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:23] MOVE 127: AlphaZeroClue (red) 71->30 [0.00ms]
+[2026-05-22 11:14:23] SCORE AlphaZeroClue (red): Final=694.1, Time=36.6, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE Gruppe 2 (blue): Final=1247.6, Time=84.1, Moves(42)=75.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE The bandits (yellow): Final=1249.4, Time=89.9, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:23] MOVE 128: The bandits (yellow) 96->109 [0.00ms]
+[2026-05-22 11:14:23] SCORE AlphaZeroClue (red): Final=694.1, Time=36.6, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE Gruppe 2 (blue): Final=1247.6, Time=84.1, Moves(42)=75.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE The bandits (yellow): Final=1262.0, Time=89.8, Moves(43)=88.2, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:23] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:24] MOVE 129: Gruppe 2 (blue) 115->120 [0.00ms]
+[2026-05-22 11:14:24] SCORE AlphaZeroClue (red): Final=694.1, Time=36.6, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Gruppe 2 (blue): Final=1259.9, Time=83.7, Moves(43)=88.2, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE The bandits (yellow): Final=1262.0, Time=89.8, Moves(43)=88.2, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:24] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:26] MOVE 130: AlphaZeroClue (red) 30->17 [0.00ms]
+[2026-05-22 11:14:26] SCORE AlphaZeroClue (red): Final=702.4, Time=34.8, Moves(38)=21.6, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Gruppe 2 (blue): Final=1259.9, Time=83.7, Moves(43)=88.2, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE The bandits (yellow): Final=1262.0, Time=89.8, Moves(43)=88.2, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:26] MOVE 131: The bandits (yellow) 54->64 [0.00ms]
+[2026-05-22 11:14:26] SCORE AlphaZeroClue (red): Final=702.4, Time=34.8, Moves(38)=21.6, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Gruppe 2 (blue): Final=1259.9, Time=83.7, Moves(43)=88.2, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE The bandits (yellow): Final=1272.5, Time=89.5, Moves(44)=96.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:26] MOVE 132: Gruppe 2 (blue) 102->117 [0.00ms]
+[2026-05-22 11:14:26] SCORE AlphaZeroClue (red): Final=702.4, Time=34.8, Moves(38)=21.6, Pins(3)=300.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Gruppe 2 (blue): Final=1370.4, Time=83.5, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE The bandits (yellow): Final=1272.5, Time=89.5, Moves(44)=96.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:28] MOVE 133: AlphaZeroClue (red) 61->42 [0.00ms]
+[2026-05-22 11:14:28] SCORE AlphaZeroClue (red): Final=715.5, Time=33.0, Moves(39)=32.5, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Gruppe 2 (blue): Final=1370.4, Time=83.5, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE The bandits (yellow): Final=1272.5, Time=89.5, Moves(44)=96.9, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:28] MOVE 134: The bandits (yellow) 64->108 [0.00ms]
+[2026-05-22 11:14:28] SCORE AlphaZeroClue (red): Final=715.5, Time=33.0, Moves(39)=32.5, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Gruppe 2 (blue): Final=1370.4, Time=83.5, Moves(44)=96.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE The bandits (yellow): Final=1377.4, Time=89.4, Moves(45)=100.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:28] MOVE 135: Gruppe 2 (blue) 77->115 [0.00ms]
+[2026-05-22 11:14:28] SCORE AlphaZeroClue (red): Final=715.5, Time=33.0, Moves(39)=32.5, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Gruppe 2 (blue): Final=1479.1, Time=83.1, Moves(45)=100.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE The bandits (yellow): Final=1377.4, Time=89.4, Moves(45)=100.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:30] MOVE 136: AlphaZeroClue (red) 60->50 [0.01ms]
+[2026-05-22 11:14:30] SCORE AlphaZeroClue (red): Final=728.9, Time=31.2, Moves(40)=45.8, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:30] SCORE Gruppe 2 (blue): Final=1479.1, Time=83.1, Moves(45)=100.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:30] SCORE The bandits (yellow): Final=1377.4, Time=89.4, Moves(45)=100.0, Pins(8)=800.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:30] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:31] MOVE 137: The bandits (yellow) 52->72 [0.01ms]
+[2026-05-22 11:14:31] SCORE AlphaZeroClue (red): Final=728.9, Time=31.2, Moves(40)=45.8, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE Gruppe 2 (blue): Final=1479.1, Time=83.1, Moves(45)=100.0, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE The bandits (yellow): Final=1381.0, Time=89.1, Moves(46)=99.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:31] MOVE 138: Gruppe 2 (blue) 89->102 [0.00ms]
+[2026-05-22 11:14:31] SCORE AlphaZeroClue (red): Final=728.9, Time=31.2, Moves(40)=45.8, Pins(3)=300.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE Gruppe 2 (blue): Final=1480.7, Time=82.9, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE The bandits (yellow): Final=1381.0, Time=89.1, Moves(46)=99.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:31] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 139: AlphaZeroClue (red) 42->52 [0.00ms]
+[2026-05-22 11:14:33] SCORE AlphaZeroClue (red): Final=740.0, Time=29.3, Moves(41)=60.7, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 2 (blue): Final=1480.7, Time=82.9, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE The bandits (yellow): Final=1381.0, Time=89.1, Moves(46)=99.8, Pins(8)=800.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 140: The bandits (yellow) 63->73 [0.00ms]
+[2026-05-22 11:14:33] SCORE AlphaZeroClue (red): Final=740.0, Time=29.3, Moves(41)=60.7, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 2 (blue): Final=1480.7, Time=82.9, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE The bandits (yellow): Final=1382.4, Time=89.0, Moves(47)=99.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:33] MOVE 141: Gruppe 2 (blue) 120->118 [0.00ms]
+[2026-05-22 11:14:33] SCORE AlphaZeroClue (red): Final=740.0, Time=29.3, Moves(41)=60.7, Pins(3)=300.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Gruppe 2 (blue): Final=1479.9, Time=82.6, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE The bandits (yellow): Final=1382.4, Time=89.0, Moves(47)=99.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:35] MOVE 142: AlphaZeroClue (red) 52->9 [0.00ms]
+[2026-05-22 11:14:35] SCORE AlphaZeroClue (red): Final=860.8, Time=27.3, Moves(42)=75.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Gruppe 2 (blue): Final=1479.9, Time=82.6, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE The bandits (yellow): Final=1382.4, Time=89.0, Moves(47)=99.4, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:35] MOVE 143: The bandits (yellow) 73->96 [0.00ms]
+[2026-05-22 11:14:35] SCORE AlphaZeroClue (red): Final=860.8, Time=27.3, Moves(42)=75.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Gruppe 2 (blue): Final=1479.9, Time=82.6, Moves(47)=99.4, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE The bandits (yellow): Final=1483.2, Time=88.6, Moves(48)=98.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:36] MOVE 144: Gruppe 2 (blue) 102->103 [0.00ms]
+[2026-05-22 11:14:36] SCORE AlphaZeroClue (red): Final=860.8, Time=27.3, Moves(42)=75.5, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Gruppe 2 (blue): Final=1478.8, Time=82.2, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE The bandits (yellow): Final=1483.2, Time=88.6, Moves(48)=98.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:38] MOVE 145: AlphaZeroClue (red) 12->13 [0.00ms]
+[2026-05-22 11:14:38] SCORE AlphaZeroClue (red): Final=873.9, Time=25.6, Moves(43)=88.2, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE Gruppe 2 (blue): Final=1478.8, Time=82.2, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE The bandits (yellow): Final=1483.2, Time=88.6, Moves(48)=98.6, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:38] MOVE 146: The bandits (yellow) 72->83 [0.00ms]
+[2026-05-22 11:14:38] SCORE AlphaZeroClue (red): Final=873.9, Time=25.6, Moves(43)=88.2, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE Gruppe 2 (blue): Final=1478.8, Time=82.2, Moves(48)=98.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE The bandits (yellow): Final=1484.1, Time=88.5, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:38] MOVE 147: Gruppe 2 (blue) 117->120 [0.00ms]
+[2026-05-22 11:14:38] SCORE AlphaZeroClue (red): Final=873.9, Time=25.6, Moves(43)=88.2, Pins(4)=400.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE Gruppe 2 (blue): Final=1477.6, Time=82.0, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE The bandits (yellow): Final=1484.1, Time=88.5, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:38] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:40] MOVE 148: AlphaZeroClue (red) 41->52 [0.00ms]
+[2026-05-22 11:14:40] SCORE AlphaZeroClue (red): Final=878.7, Time=23.7, Moves(44)=96.9, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Gruppe 2 (blue): Final=1477.6, Time=82.0, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE The bandits (yellow): Final=1484.1, Time=88.5, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}
+[2026-05-22 11:14:40] MOVE 149: The bandits (yellow) 83->85 [0.00ms]
+[2026-05-22 11:14:40] SCORE AlphaZeroClue (red): Final=878.7, Time=23.7, Moves(44)=96.9, Pins(4)=400.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Gruppe 2 (blue): Final=1477.6, Time=82.0, Moves(49)=97.6, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE The bandits (yellow): Final=2584.5, Time=88.3, Moves(50)=96.2, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {'red': ['1 (turn timeout)', '7 (turn timeout)', '10 (turn timeout)', '13 (turn timeout)', '34 (turn timeout)', '94 (turn timeout)']}

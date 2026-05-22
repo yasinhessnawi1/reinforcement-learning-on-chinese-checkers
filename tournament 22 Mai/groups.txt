@@ -1,0 +1,33 @@
+"AlphaZeroClue","Apollo","CybSec","Dandori","Deepseekers","Erlend Og Linor","Group 7","Group 16","group 99","Gruppe 1","Gruppe 2","Gruppe 10","Gruppe 67","Gruppe 69","HelloWorld","Hexagram","jat","LosTurcos","PCS","RL","Robert","S&S","SP","StockWish","The bandits","Tiefes Verstärkendes Lernen"
+
+
+
+Present on 22nd Mai
+
+"AlphaZeroClue" 2
+,"Apollo", 1
+"CybSec",
+"Deepseekers",3
+"Erlend Og Linor",2 
+"Group 7",2
+"Group 16",3
+"group 99", 1
+"Gruppe 1" 2
+,"Gruppe 2", 2
+"Gruppe 10",2 
+"Gruppe 67", 3
+"Gruppe 69",1
+"HelloWorld",1
+"Hexagram",3
+"jat",2
+"LosTurcos",2
+"PCS" 1
+,"RL",1
+"Robert",1
+"S&S" 2
+"StockWish" 1
+"The bandits" 3
+"Tiefes Verstärkendes Lernen" 3
+
+
+"AlphaZeroClue","Apollo","CybSec","Deepseekers","Erlend Og Linor","Group 7","Group 16","group 99","Gruppe 1", "Gruppe 2", "Gruppe 10", "Gruppe 67", "Gruppe 69", "HelloWorld", "Hexagram", "jat","LosTurcos","PCS","RL","Robert","S&S","StockWish","The bandits","Tiefes Verstärkendes Lernen"

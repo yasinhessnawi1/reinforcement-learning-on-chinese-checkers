@@ -1,0 +1,374 @@
+[2026-05-22 11:12:27] GAME CREATED
+[2026-05-22 11:12:28] PLAYER JOINED: Robert as yellow
+[2026-05-22 11:12:59] PLAYER JOINED: Group7 as purple
+[2026-05-22 11:14:02] PLAYER START (FORCE): Robert (yellow)
+[2026-05-22 11:14:02] PLAYER START (FORCE): Group7 (purple)
+[2026-05-22 11:14:02] GAME FORCE-STARTED — turn order ['yellow', 'purple']
+[2026-05-22 11:14:02] PLAYER START: Robert (yellow)
+[2026-05-22 11:14:02] PLAYER START: Group7 (purple)
+[2026-05-22 11:14:02] PLAYER START: Robert (yellow)
+[2026-05-22 11:14:02] PLAYER START: Group7 (purple)
+[2026-05-22 11:14:02] MOVE 1: Robert (yellow) 12->37 [0.00ms]
+[2026-05-22 11:14:02] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:14:02] SCORE Group7 (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 11:14:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:03] MOVE 2: Group7 (purple) 85->64 [0.00ms]
+[2026-05-22 11:14:03] SCORE Robert (yellow): Final=283.4, Time=99.4, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:14:03] SCORE Group7 (purple): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:14:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:03] MOVE 3: Robert (yellow) 37->38 [0.00ms]
+[2026-05-22 11:14:03] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:14:03] SCORE Group7 (purple): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 11:14:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:04] MOVE 4: Group7 (purple) 110->83 [0.01ms]
+[2026-05-22 11:14:04] SCORE Robert (yellow): Final=285.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Group7 (purple): Final=290.7, Time=98.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:04] MOVE 5: Robert (yellow) 10->39 [0.01ms]
+[2026-05-22 11:14:04] SCORE Robert (yellow): Final=296.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:14:04] SCORE Group7 (purple): Final=290.7, Time=98.7, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 11:14:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:05] MOVE 6: Group7 (purple) 84->82 [0.00ms]
+[2026-05-22 11:14:05] SCORE Robert (yellow): Final=296.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 11:14:05] SCORE Group7 (purple): Final=294.2, Time=98.2, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:14:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:05] MOVE 7: Robert (yellow) 39->50 [0.00ms]
+[2026-05-22 11:14:05] SCORE Robert (yellow): Final=298.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:14:05] SCORE Group7 (purple): Final=294.2, Time=98.2, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 11:14:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:05] MOVE 8: Group7 (purple) 96->71 [0.01ms]
+[2026-05-22 11:14:05] SCORE Robert (yellow): Final=298.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 11:14:05] SCORE Group7 (purple): Final=301.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:14:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:06] MOVE 9: Robert (yellow) 35->60 [0.01ms]
+[2026-05-22 11:14:06] SCORE Robert (yellow): Final=310.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Group7 (purple): Final=301.7, Time=97.7, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:06] MOVE 10: Group7 (purple) 82->40 [0.00ms]
+[2026-05-22 11:14:06] SCORE Robert (yellow): Final=310.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Group7 (purple): Final=309.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:06] MOVE 11: Robert (yellow) 24->49 [0.01ms]
+[2026-05-22 11:14:06] SCORE Robert (yellow): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:14:06] SCORE Group7 (purple): Final=309.0, Time=97.0, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 11:14:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:07] MOVE 12: Group7 (purple) 107->59 [0.00ms]
+[2026-05-22 11:14:07] SCORE Robert (yellow): Final=318.2, Time=98.2, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 11:14:07] SCORE Group7 (purple): Final=320.3, Time=96.3, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:14:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:08] MOVE 13: Robert (yellow) 23->35 [0.00ms]
+[2026-05-22 11:14:08] SCORE Robert (yellow): Final=319.9, Time=97.9, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:14:08] SCORE Group7 (purple): Final=320.3, Time=96.3, Moves(6)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 11:14:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:08] MOVE 14: Group7 (purple) 109->61 [0.00ms]
+[2026-05-22 11:14:08] SCORE Robert (yellow): Final=319.9, Time=97.9, Moves(7)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 11:14:08] SCORE Group7 (purple): Final=331.5, Time=95.5, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:14:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:09] MOVE 15: Robert (yellow) 35->41 [0.00ms]
+[2026-05-22 11:14:09] SCORE Robert (yellow): Final=331.4, Time=97.4, Moves(8)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Group7 (purple): Final=331.5, Time=95.5, Moves(7)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:09] MOVE 16: Group7 (purple) 95->29 [0.00ms]
+[2026-05-22 11:14:09] SCORE Robert (yellow): Final=331.4, Time=97.4, Moves(8)=0.0, Pins(0)=0.0, Dist=234.0, Win Bonus=0.0
+[2026-05-22 11:14:09] SCORE Group7 (purple): Final=342.9, Time=94.9, Moves(8)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:14:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:10] MOVE 17: Robert (yellow) 50->95 [0.00ms]
+[2026-05-22 11:14:10] SCORE Robert (yellow): Final=442.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:14:10] SCORE Group7 (purple): Final=342.9, Time=94.9, Moves(8)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:14:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:11] MOVE 18: Group7 (purple) 71->28 [0.04ms]
+[2026-05-22 11:14:11] SCORE Robert (yellow): Final=442.8, Time=96.8, Moves(9)=0.0, Pins(1)=100.0, Dist=246.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Group7 (purple): Final=350.2, Time=94.2, Moves(9)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:11] MOVE 19: Robert (yellow) 46->47 [0.00ms]
+[2026-05-22 11:14:11] SCORE Robert (yellow): Final=444.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:14:11] SCORE Group7 (purple): Final=350.2, Time=94.2, Moves(9)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:14:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:12] MOVE 20: Group7 (purple) 29->46 [0.00ms]
+[2026-05-22 11:14:12] SCORE Robert (yellow): Final=444.4, Time=96.4, Moves(10)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 11:14:12] SCORE Group7 (purple): Final=457.7, Time=93.7, Moves(10)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:14:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:12] MOVE 21: Robert (yellow) 49->71 [0.00ms]
+[2026-05-22 11:14:12] SCORE Robert (yellow): Final=452.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:14:12] SCORE Group7 (purple): Final=457.7, Time=93.7, Moves(10)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 11:14:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:13] MOVE 22: Group7 (purple) 28->24 [0.00ms]
+[2026-05-22 11:14:13] SCORE Robert (yellow): Final=452.0, Time=96.0, Moves(11)=0.0, Pins(1)=100.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Group7 (purple): Final=563.0, Time=93.0, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:13] MOVE 23: Robert (yellow) 13->26 [0.00ms]
+[2026-05-22 11:14:13] SCORE Robert (yellow): Final=453.6, Time=95.6, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:14:13] SCORE Group7 (purple): Final=563.0, Time=93.0, Moves(11)=0.0, Pins(2)=200.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 11:14:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:14] MOVE 24: Group7 (purple) 74->54 [0.00ms]
+[2026-05-22 11:14:14] SCORE Robert (yellow): Final=453.6, Time=95.6, Moves(12)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE Group7 (purple): Final=566.4, Time=92.4, Moves(12)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:14:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:14] MOVE 25: Robert (yellow) 41->52 [0.00ms]
+[2026-05-22 11:14:14] SCORE Robert (yellow): Final=455.0, Time=95.0, Moves(13)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:14:14] SCORE Group7 (purple): Final=566.4, Time=92.4, Moves(12)=0.0, Pins(2)=200.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 11:14:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:15] MOVE 26: Group7 (purple) 64->43 [0.00ms]
+[2026-05-22 11:14:15] SCORE Robert (yellow): Final=455.0, Time=95.0, Moves(13)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 11:14:15] SCORE Group7 (purple): Final=569.5, Time=91.5, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:14:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:16] MOVE 27: Robert (yellow) 71->72 [0.00ms]
+[2026-05-22 11:14:16] SCORE Robert (yellow): Final=456.5, Time=94.5, Moves(14)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:14:16] SCORE Group7 (purple): Final=569.5, Time=91.5, Moves(13)=0.0, Pins(2)=200.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:14:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:17] MOVE 28: Group7 (purple) 83->10 [0.00ms]
+[2026-05-22 11:14:17] SCORE Robert (yellow): Final=456.5, Time=94.5, Moves(14)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 11:14:17] SCORE Group7 (purple): Final=686.8, Time=90.8, Moves(14)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:14:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:17] MOVE 29: Robert (yellow) 26->73 [0.00ms]
+[2026-05-22 11:14:17] SCORE Robert (yellow): Final=472.0, Time=94.0, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:14:17] SCORE Group7 (purple): Final=686.8, Time=90.8, Moves(14)=0.0, Pins(3)=300.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 11:14:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:18] MOVE 30: Group7 (purple) 108->12 [0.00ms]
+[2026-05-22 11:14:18] SCORE Robert (yellow): Final=472.0, Time=94.0, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE Group7 (purple): Final=808.0, Time=90.0, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:14:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:18] MOVE 31: Robert (yellow) 25->37 [0.01ms]
+[2026-05-22 11:14:18] SCORE Robert (yellow): Final=473.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:14:18] SCORE Group7 (purple): Final=808.0, Time=90.0, Moves(15)=0.0, Pins(4)=400.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 11:14:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:19] MOVE 32: Group7 (purple) 43->39 [0.00ms]
+[2026-05-22 11:14:19] SCORE Robert (yellow): Final=473.5, Time=93.5, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 11:14:19] SCORE Group7 (purple): Final=815.1, Time=89.1, Moves(16)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:20] MOVE 33: Robert (yellow) 47->55 [0.00ms]
+[2026-05-22 11:14:20] SCORE Robert (yellow): Final=487.0, Time=93.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Group7 (purple): Final=815.1, Time=89.1, Moves(16)=0.0, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 11:14:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:20] MOVE 34: Group7 (purple) 54->43 [0.00ms]
+[2026-05-22 11:14:20] SCORE Robert (yellow): Final=487.0, Time=93.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:14:20] SCORE Group7 (purple): Final=816.4, Time=88.4, Moves(17)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:21] MOVE 35: Robert (yellow) 11->23 [0.00ms]
+[2026-05-22 11:14:21] SCORE Robert (yellow): Final=486.7, Time=92.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE Group7 (purple): Final=816.4, Time=88.4, Moves(17)=0.0, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 11:14:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:21] MOVE 36: Group7 (purple) 43->31 [0.01ms]
+[2026-05-22 11:14:21] SCORE Robert (yellow): Final=486.7, Time=92.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 11:14:21] SCORE Group7 (purple): Final=817.7, Time=87.7, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:14:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:22] MOVE 37: Robert (yellow) 23->70 [0.00ms]
+[2026-05-22 11:14:22] SCORE Robert (yellow): Final=502.3, Time=92.3, Moves(19)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Group7 (purple): Final=817.7, Time=87.7, Moves(18)=0.0, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:22] MOVE 38: Group7 (purple) 31->18 [0.00ms]
+[2026-05-22 11:14:22] SCORE Robert (yellow): Final=502.3, Time=92.3, Moves(19)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 11:14:22] SCORE Group7 (purple): Final=819.1, Time=87.1, Moves(19)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:23] MOVE 39: Robert (yellow) 60->108 [0.00ms]
+[2026-05-22 11:14:23] SCORE Robert (yellow): Final=611.8, Time=91.8, Moves(20)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:14:23] SCORE Group7 (purple): Final=819.1, Time=87.1, Moves(19)=0.0, Pins(4)=400.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 11:14:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:24] MOVE 40: Group7 (purple) 39->27 [0.00ms]
+[2026-05-22 11:14:24] SCORE Robert (yellow): Final=611.8, Time=91.8, Moves(20)=0.0, Pins(2)=200.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Group7 (purple): Final=820.3, Time=86.3, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:24] MOVE 41: Robert (yellow) 37->83 [0.00ms]
+[2026-05-22 11:14:24] SCORE Robert (yellow): Final=627.3, Time=91.3, Moves(21)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:24] SCORE Group7 (purple): Final=820.3, Time=86.3, Moves(20)=0.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 11:14:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:25] MOVE 42: Group7 (purple) 40->39 [0.00ms]
+[2026-05-22 11:14:25] SCORE Robert (yellow): Final=627.3, Time=91.3, Moves(21)=0.0, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:25] SCORE Group7 (purple): Final=821.5, Time=85.5, Moves(21)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:25] MOVE 43: Robert (yellow) 38->49 [0.00ms]
+[2026-05-22 11:14:25] SCORE Robert (yellow): Final=628.9, Time=90.9, Moves(22)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:25] SCORE Group7 (purple): Final=821.5, Time=85.5, Moves(21)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 11:14:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:26] MOVE 44: Group7 (purple) 39->14 [0.00ms]
+[2026-05-22 11:14:26] SCORE Robert (yellow): Final=628.9, Time=90.9, Moves(22)=0.0, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Group7 (purple): Final=824.9, Time=84.9, Moves(22)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:26] MOVE 45: Robert (yellow) 73->84 [0.01ms]
+[2026-05-22 11:14:26] SCORE Robert (yellow): Final=730.5, Time=90.5, Moves(23)=0.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:26] SCORE Group7 (purple): Final=824.9, Time=84.9, Moves(22)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:27] MOVE 46: Group7 (purple) 59->11 [0.01ms]
+[2026-05-22 11:14:27] SCORE Robert (yellow): Final=730.5, Time=90.5, Moves(23)=0.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 11:14:27] SCORE Group7 (purple): Final=932.3, Time=84.3, Moves(23)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:14:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:28] MOVE 47: Robert (yellow) 70->71 [0.01ms]
+[2026-05-22 11:14:28] SCORE Robert (yellow): Final=732.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Group7 (purple): Final=932.3, Time=84.3, Moves(23)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:28] MOVE 48: Group7 (purple) 14->13 [0.00ms]
+[2026-05-22 11:14:28] SCORE Robert (yellow): Final=732.0, Time=90.0, Moves(24)=0.0, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 11:14:28] SCORE Group7 (purple): Final=1033.6, Time=83.6, Moves(24)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:29] MOVE 49: Robert (yellow) 72->73 [0.01ms]
+[2026-05-22 11:14:29] SCORE Robert (yellow): Final=733.6, Time=89.6, Moves(25)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Group7 (purple): Final=1033.6, Time=83.6, Moves(24)=0.0, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 11:14:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:29] MOVE 50: Group7 (purple) 18->17 [0.01ms]
+[2026-05-22 11:14:29] SCORE Robert (yellow): Final=733.6, Time=89.6, Moves(25)=0.0, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 11:14:29] SCORE Group7 (purple): Final=1035.0, Time=83.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:30] MOVE 51: Robert (yellow) 52->74 [0.00ms]
+[2026-05-22 11:14:30] SCORE Robert (yellow): Final=841.2, Time=89.2, Moves(26)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:30] SCORE Group7 (purple): Final=1035.0, Time=83.0, Moves(25)=0.0, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:30] MOVE 52: Group7 (purple) 17->16 [0.01ms]
+[2026-05-22 11:14:30] SCORE Robert (yellow): Final=841.2, Time=89.2, Moves(26)=0.0, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 11:14:30] SCORE Group7 (purple): Final=1036.4, Time=82.4, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:31] MOVE 53: Robert (yellow) 55->64 [0.01ms]
+[2026-05-22 11:14:31] SCORE Robert (yellow): Final=842.8, Time=88.8, Moves(27)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE Group7 (purple): Final=1036.4, Time=82.4, Moves(26)=0.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:31] MOVE 54: Group7 (purple) 16->15 [0.00ms]
+[2026-05-22 11:14:31] SCORE Robert (yellow): Final=842.8, Time=88.8, Moves(27)=0.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 11:14:31] SCORE Group7 (purple): Final=1037.8, Time=81.8, Moves(27)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:32] MOVE 55: Robert (yellow) 64->110 [0.01ms]
+[2026-05-22 11:14:32] SCORE Robert (yellow): Final=944.5, Time=88.5, Moves(28)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Group7 (purple): Final=1037.8, Time=81.8, Moves(27)=0.0, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:32] MOVE 56: Group7 (purple) 15->14 [0.01ms]
+[2026-05-22 11:14:32] SCORE Robert (yellow): Final=944.5, Time=88.5, Moves(28)=0.0, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 11:14:32] SCORE Group7 (purple): Final=1039.1, Time=81.1, Moves(28)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:33] MOVE 57: Robert (yellow) 73->96 [0.00ms]
+[2026-05-22 11:14:33] SCORE Robert (yellow): Final=1046.2, Time=88.2, Moves(29)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Group7 (purple): Final=1039.1, Time=81.1, Moves(28)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:33] MOVE 58: Group7 (purple) 27->26 [0.00ms]
+[2026-05-22 11:14:33] SCORE Robert (yellow): Final=1046.2, Time=88.2, Moves(29)=0.0, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Group7 (purple): Final=1040.4, Time=80.4, Moves(29)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:33] MOVE 59: Robert (yellow) 36->37 [0.00ms]
+[2026-05-22 11:14:33] SCORE Robert (yellow): Final=1048.1, Time=88.0, Moves(30)=0.1, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] SCORE Group7 (purple): Final=1040.4, Time=80.4, Moves(29)=0.0, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:34] MOVE 60: Group7 (purple) 26->25 [0.00ms]
+[2026-05-22 11:14:34] SCORE Robert (yellow): Final=1048.1, Time=88.0, Moves(30)=0.1, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 11:14:34] SCORE Group7 (purple): Final=1141.9, Time=79.8, Moves(30)=0.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:34] MOVE 61: Robert (yellow) 37->38 [0.00ms]
+[2026-05-22 11:14:34] SCORE Robert (yellow): Final=1050.0, Time=87.8, Moves(31)=0.2, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:34] SCORE Group7 (purple): Final=1141.9, Time=79.8, Moves(30)=0.1, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:35] MOVE 62: Group7 (purple) 97->85 [0.00ms]
+[2026-05-22 11:14:35] SCORE Robert (yellow): Final=1050.0, Time=87.8, Moves(31)=0.2, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Group7 (purple): Final=1143.5, Time=79.3, Moves(31)=0.2, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:35] MOVE 63: Robert (yellow) 38->59 [0.00ms]
+[2026-05-22 11:14:35] SCORE Robert (yellow): Final=1054.0, Time=87.5, Moves(32)=0.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:35] SCORE Group7 (purple): Final=1143.5, Time=79.3, Moves(31)=0.2, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 11:14:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:36] MOVE 64: Group7 (purple) 85->64 [0.00ms]
+[2026-05-22 11:14:36] SCORE Robert (yellow): Final=1054.0, Time=87.5, Moves(32)=0.5, Pins(6)=600.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Group7 (purple): Final=1147.3, Time=78.8, Moves(32)=0.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:36] MOVE 65: Robert (yellow) 49->69 [0.00ms]
+[2026-05-22 11:14:36] SCORE Robert (yellow): Final=1058.5, Time=87.3, Moves(33)=1.1, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Group7 (purple): Final=1147.3, Time=78.8, Moves(32)=0.5, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:36] MOVE 66: Group7 (purple) 64->54 [0.00ms]
+[2026-05-22 11:14:36] SCORE Robert (yellow): Final=1058.5, Time=87.3, Moves(33)=1.1, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Group7 (purple): Final=1149.4, Time=78.3, Moves(33)=1.1, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:36] MOVE 67: Robert (yellow) 59->80 [0.00ms]
+[2026-05-22 11:14:36] SCORE Robert (yellow): Final=1063.4, Time=87.2, Moves(34)=2.3, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:36] SCORE Group7 (purple): Final=1149.4, Time=78.3, Moves(33)=1.1, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 11:14:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:37] MOVE 68: Group7 (purple) 54->53 [0.01ms]
+[2026-05-22 11:14:37] SCORE Robert (yellow): Final=1063.4, Time=87.2, Moves(34)=2.3, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Group7 (purple): Final=1151.8, Time=77.5, Moves(34)=2.3, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:37] MOVE 69: Robert (yellow) 69->92 [0.00ms]
+[2026-05-22 11:14:37] SCORE Robert (yellow): Final=1069.3, Time=86.9, Moves(35)=4.4, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:14:37] SCORE Group7 (purple): Final=1151.8, Time=77.5, Moves(34)=2.3, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 11:14:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:38] MOVE 70: Group7 (purple) 53->52 [0.00ms]
+[2026-05-22 11:14:38] SCORE Robert (yellow): Final=1069.3, Time=86.9, Moves(35)=4.4, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE Group7 (purple): Final=1155.4, Time=77.0, Moves(35)=4.4, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:38] MOVE 71: Robert (yellow) 80->105 [0.00ms]
+[2026-05-22 11:14:38] SCORE Robert (yellow): Final=1076.7, Time=86.7, Moves(36)=8.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:38] SCORE Group7 (purple): Final=1155.4, Time=77.0, Moves(35)=4.4, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 11:14:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:39] MOVE 72: Group7 (purple) 61->51 [0.00ms]
+[2026-05-22 11:14:39] SCORE Robert (yellow): Final=1076.7, Time=86.7, Moves(36)=8.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Group7 (purple): Final=1160.4, Time=76.4, Moves(36)=8.0, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:39] MOVE 73: Robert (yellow) 105->106 [0.00ms]
+[2026-05-22 11:14:39] SCORE Robert (yellow): Final=1084.0, Time=86.5, Moves(37)=13.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:39] SCORE Group7 (purple): Final=1160.4, Time=76.4, Moves(36)=8.0, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 11:14:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:40] MOVE 74: Group7 (purple) 52->50 [0.00ms]
+[2026-05-22 11:14:40] SCORE Robert (yellow): Final=1084.0, Time=86.5, Moves(37)=13.5, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Group7 (purple): Final=1169.3, Time=75.7, Moves(37)=13.5, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:40] MOVE 75: Robert (yellow) 92->93 [0.00ms]
+[2026-05-22 11:14:40] SCORE Robert (yellow): Final=1093.8, Time=86.2, Moves(38)=21.6, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:40] SCORE Group7 (purple): Final=1169.3, Time=75.7, Moves(37)=13.5, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 11:14:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:41] MOVE 76: Group7 (purple) 51->49 [0.01ms]
+[2026-05-22 11:14:41] SCORE Robert (yellow): Final=1093.8, Time=86.2, Moves(38)=21.6, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 11:14:41] SCORE Group7 (purple): Final=1180.7, Time=75.1, Moves(38)=21.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:41] MOVE 77: Robert (yellow) 71->82 [0.00ms]
+[2026-05-22 11:14:41] SCORE Robert (yellow): Final=1106.3, Time=85.8, Moves(39)=32.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:41] SCORE Group7 (purple): Final=1180.7, Time=75.1, Moves(38)=21.6, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 11:14:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:42] MOVE 78: Group7 (purple) 50->48 [0.02ms]
+[2026-05-22 11:14:42] SCORE Robert (yellow): Final=1106.3, Time=85.8, Moves(39)=32.5, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Group7 (purple): Final=1194.8, Time=74.3, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:42] MOVE 79: Robert (yellow) 82->109 [0.00ms]
+[2026-05-22 11:14:42] SCORE Robert (yellow): Final=1223.4, Time=85.6, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Group7 (purple): Final=1194.8, Time=74.3, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:42] MOVE 80: Group7 (purple) 49->47 [0.00ms]
+[2026-05-22 11:14:42] SCORE Robert (yellow): Final=1223.4, Time=85.6, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:42] SCORE Group7 (purple): Final=1211.6, Time=73.9, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:43] MOVE 81: Robert (yellow) 106->107 [0.00ms]
+[2026-05-22 11:14:43] SCORE Robert (yellow): Final=1340.1, Time=85.4, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:43] SCORE Group7 (purple): Final=1211.6, Time=73.9, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 11:14:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:43] MOVE 82: Group7 (purple) 47->36 [0.00ms]
+[2026-05-22 11:14:43] SCORE Robert (yellow): Final=1340.1, Time=85.4, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:43] SCORE Group7 (purple): Final=1328.0, Time=73.4, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:43] MOVE 83: Robert (yellow) 93->94 [0.01ms]
+[2026-05-22 11:14:43] SCORE Robert (yellow): Final=1356.8, Time=85.3, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:43] SCORE Group7 (purple): Final=1328.0, Time=73.4, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 11:14:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:44] MOVE 84: Group7 (purple) 48->47 [0.00ms]
+[2026-05-22 11:14:44] SCORE Robert (yellow): Final=1356.8, Time=85.3, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Group7 (purple): Final=1344.3, Time=72.9, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:44] MOVE 85: Robert (yellow) 83->85 [0.00ms]
+[2026-05-22 11:14:44] SCORE Robert (yellow): Final=1471.4, Time=85.1, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Group7 (purple): Final=1344.3, Time=72.9, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:44] MOVE 86: Group7 (purple) 10->23 [0.00ms]
+[2026-05-22 11:14:44] SCORE Robert (yellow): Final=1471.4, Time=85.1, Moves(43)=88.2, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Group7 (purple): Final=1356.6, Time=72.4, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:44] MOVE 87: Robert (yellow) 95->97 [0.00ms]
+[2026-05-22 11:14:44] SCORE Robert (yellow): Final=1479.9, Time=85.0, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:44] SCORE Group7 (purple): Final=1356.6, Time=72.4, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:45] MOVE 88: Group7 (purple) 12->10 [0.00ms]
+[2026-05-22 11:14:45] SCORE Robert (yellow): Final=1479.9, Time=85.0, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Group7 (purple): Final=1364.9, Time=72.0, Moves(44)=96.9, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:45] MOVE 89: Robert (yellow) 94->83 [0.00ms]
+[2026-05-22 11:14:45] SCORE Robert (yellow): Final=1482.9, Time=84.9, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Group7 (purple): Final=1364.9, Time=72.0, Moves(44)=96.9, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 11:14:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:45] MOVE 90: Group7 (purple) 14->12 [0.00ms]
+[2026-05-22 11:14:45] SCORE Robert (yellow): Final=1482.9, Time=84.9, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:45] SCORE Group7 (purple): Final=1469.6, Time=71.6, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 11:14:46] MOVE 91: Robert (yellow) 83->95 [0.00ms]
+[2026-05-22 11:14:46] SCORE Robert (yellow): Final=2584.6, Time=84.8, Moves(46)=99.8, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 11:14:46] SCORE Group7 (purple): Final=1469.6, Time=71.6, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 11:14:46] ALL WRONG MOVES BY COLOUR: {}

@@ -1,0 +1,1644 @@
+[2026-05-22 10:31:59] GAME CREATED
+[2026-05-22 10:31:59] PLAYER JOINED: Gruppe 69 as yellow
+[2026-05-22 10:32:00] PLAYER JOINED: The bandits as purple
+[2026-05-22 10:32:00] PLAYER JOINED: AlphaZeroClue as lawn green
+[2026-05-22 10:32:02] PLAYER JOINED: S&S as gray0
+[2026-05-22 10:32:05] PLAYER JOINED: Deepseekers as red
+[2026-05-22 10:32:05] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:32:05] PLAYER START: The bandits (purple)
+[2026-05-22 10:32:05] PLAYER START: AlphaZeroClue (lawn green)
+[2026-05-22 10:32:05] PLAYER START: S&S (gray0)
+[2026-05-22 10:32:05] PLAYER START: Deepseekers (red)
+[2026-05-22 10:32:05] GAME START — turn order ['yellow', 'gray0', 'purple', 'red', 'lawn green']
+[2026-05-22 10:32:05] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:32:05] PLAYER START: The bandits (purple)
+[2026-05-22 10:32:05] PLAYER START: AlphaZeroClue (lawn green)
+[2026-05-22 10:32:05] PLAYER START: S&S (gray0)
+[2026-05-22 10:32:05] PLAYER START: Deepseekers (red)
+[2026-05-22 10:32:05] MOVE 1: Gruppe 69 (yellow) 12->37 [0.01ms]
+[2026-05-22 10:32:05] SCORE Gruppe 69 (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE The bandits (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE AlphaZeroClue (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE S&S (gray0): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE Deepseekers (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:05] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:32:05] PLAYER START: The bandits (purple)
+[2026-05-22 10:32:05] PLAYER START: AlphaZeroClue (lawn green)
+[2026-05-22 10:32:05] PLAYER START: S&S (gray0)
+[2026-05-22 10:32:05] PLAYER START: Deepseekers (red)
+[2026-05-22 10:32:05] MOVE 2: S&S (gray0) 87->89 [0.02ms]
+[2026-05-22 10:32:05] SCORE Gruppe 69 (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE The bandits (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE AlphaZeroClue (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE S&S (gray0): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:05] SCORE Deepseekers (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:05] PLAYER START: Gruppe 69 (yellow)
+[2026-05-22 10:32:05] PLAYER START: The bandits (purple)
+[2026-05-22 10:32:05] PLAYER START: AlphaZeroClue (lawn green)
+[2026-05-22 10:32:05] PLAYER START: S&S (gray0)
+[2026-05-22 10:32:05] PLAYER START: Deepseekers (red)
+[2026-05-22 10:32:06] MOVE 3: The bandits (purple) 107->94 [0.00ms]
+[2026-05-22 10:32:06] SCORE Gruppe 69 (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:06] SCORE The bandits (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:32:06] SCORE AlphaZeroClue (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:06] SCORE S&S (gray0): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:06] SCORE Deepseekers (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:07] MOVE 4: Deepseekers (red) 117->83 [0.00ms]
+[2026-05-22 10:32:07] SCORE Gruppe 69 (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:07] SCORE The bandits (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:32:07] SCORE AlphaZeroClue (lawn green): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:32:07] SCORE S&S (gray0): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:07] SCORE Deepseekers (red): Final=286.9, Time=98.9, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:09] MOVE 5: AlphaZeroClue (lawn green) 45->64 [0.01ms]
+[2026-05-22 10:32:09] SCORE Gruppe 69 (yellow): Final=283.9, Time=99.9, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE The bandits (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE AlphaZeroClue (lawn green): Final=282.2, Time=98.2, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE S&S (gray0): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE Deepseekers (red): Final=286.9, Time=98.9, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:09] MOVE 6: Gruppe 69 (yellow) 37->48 [0.01ms]
+[2026-05-22 10:32:09] SCORE Gruppe 69 (yellow): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE The bandits (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE AlphaZeroClue (lawn green): Final=282.2, Time=98.2, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE S&S (gray0): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE Deepseekers (red): Final=286.9, Time=98.9, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:09] MOVE 7: S&S (gray0) 75->56 [0.01ms]
+[2026-05-22 10:32:09] SCORE Gruppe 69 (yellow): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE The bandits (purple): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE AlphaZeroClue (lawn green): Final=282.2, Time=98.2, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE S&S (gray0): Final=287.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE Deepseekers (red): Final=286.9, Time=98.9, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:09] MOVE 8: The bandits (purple) 109->82 [0.00ms]
+[2026-05-22 10:32:09] SCORE Gruppe 69 (yellow): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE The bandits (purple): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE AlphaZeroClue (lawn green): Final=282.2, Time=98.2, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE S&S (gray0): Final=287.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] SCORE Deepseekers (red): Final=286.9, Time=98.9, Moves(1)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:10] MOVE 9: Deepseekers (red) 120->104 [0.00ms]
+[2026-05-22 10:32:10] SCORE Gruppe 69 (yellow): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:10] SCORE The bandits (purple): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:10] SCORE AlphaZeroClue (lawn green): Final=282.2, Time=98.2, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:32:10] SCORE S&S (gray0): Final=287.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:10] SCORE Deepseekers (red): Final=294.3, Time=98.3, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:12] MOVE 10: AlphaZeroClue (lawn green) 22->43 [0.01ms]
+[2026-05-22 10:32:12] SCORE Gruppe 69 (yellow): Final=285.8, Time=99.8, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE The bandits (purple): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE AlphaZeroClue (lawn green): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE S&S (gray0): Final=287.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE Deepseekers (red): Final=294.3, Time=98.3, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:12] MOVE 11: Gruppe 69 (yellow) 24->49 [0.00ms]
+[2026-05-22 10:32:12] SCORE Gruppe 69 (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE The bandits (purple): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE AlphaZeroClue (lawn green): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE S&S (gray0): Final=287.3, Time=99.3, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE Deepseekers (red): Final=294.3, Time=98.3, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:12] MOVE 12: S&S (gray0) 65->26 [0.00ms]
+[2026-05-22 10:32:12] SCORE Gruppe 69 (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE The bandits (purple): Final=289.6, Time=99.6, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE AlphaZeroClue (lawn green): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE S&S (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE Deepseekers (red): Final=294.3, Time=98.3, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:12] MOVE 13: The bandits (purple) 74->31 [0.00ms]
+[2026-05-22 10:32:12] SCORE Gruppe 69 (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE The bandits (purple): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE AlphaZeroClue (lawn green): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE S&S (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] SCORE Deepseekers (red): Final=294.3, Time=98.3, Moves(2)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:13] MOVE 14: Deepseekers (red) 115->77 [0.00ms]
+[2026-05-22 10:32:13] SCORE Gruppe 69 (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:13] SCORE The bandits (purple): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:13] SCORE AlphaZeroClue (lawn green): Final=288.5, Time=96.5, Moves(2)=0.0, Pins(0)=0.0, Dist=192.0, Win Bonus=0.0
+[2026-05-22 10:32:13] SCORE S&S (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:13] SCORE Deepseekers (red): Final=301.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:15] MOVE 15: AlphaZeroClue (lawn green) 34->45 [0.00ms]
+[2026-05-22 10:32:15] SCORE Gruppe 69 (yellow): Final=293.7, Time=99.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE The bandits (purple): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE AlphaZeroClue (lawn green): Final=288.7, Time=94.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE S&S (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE Deepseekers (red): Final=301.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:15] MOVE 16: Gruppe 69 (yellow) 49->59 [0.00ms]
+[2026-05-22 10:32:15] SCORE Gruppe 69 (yellow): Final=295.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE The bandits (purple): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE AlphaZeroClue (lawn green): Final=288.7, Time=94.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE S&S (gray0): Final=294.9, Time=98.9, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE Deepseekers (red): Final=301.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:15] MOVE 17: S&S (gray0) 100->106 [0.00ms]
+[2026-05-22 10:32:15] SCORE Gruppe 69 (yellow): Final=295.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE The bandits (purple): Final=297.3, Time=99.3, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE AlphaZeroClue (lawn green): Final=288.7, Time=94.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE Deepseekers (red): Final=301.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:15] MOVE 18: The bandits (purple) 97->54 [0.00ms]
+[2026-05-22 10:32:15] SCORE Gruppe 69 (yellow): Final=295.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE The bandits (purple): Final=305.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE AlphaZeroClue (lawn green): Final=288.7, Time=94.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:15] SCORE Deepseekers (red): Final=301.7, Time=97.7, Moves(3)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:16] MOVE 19: Deepseekers (red) 116->105 [0.01ms]
+[2026-05-22 10:32:16] SCORE Gruppe 69 (yellow): Final=295.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:16] SCORE The bandits (purple): Final=305.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:16] SCORE AlphaZeroClue (lawn green): Final=288.7, Time=94.7, Moves(3)=0.0, Pins(0)=0.0, Dist=194.0, Win Bonus=0.0
+[2026-05-22 10:32:16] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:16] SCORE Deepseekers (red): Final=304.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:18] MOVE 20: AlphaZeroClue (lawn green) 55->73 [0.00ms]
+[2026-05-22 10:32:18] SCORE Gruppe 69 (yellow): Final=295.7, Time=99.7, Moves(4)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE The bandits (purple): Final=305.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE AlphaZeroClue (lawn green): Final=290.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE Deepseekers (red): Final=304.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:18] MOVE 21: Gruppe 69 (yellow) 35->60 [0.00ms]
+[2026-05-22 10:32:18] SCORE Gruppe 69 (yellow): Final=307.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE The bandits (purple): Final=305.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE AlphaZeroClue (lawn green): Final=290.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE S&S (gray0): Final=306.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE Deepseekers (red): Final=304.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:18] MOVE 22: S&S (gray0) 26->24 [0.00ms]
+[2026-05-22 10:32:18] SCORE Gruppe 69 (yellow): Final=307.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE The bandits (purple): Final=305.0, Time=99.0, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE AlphaZeroClue (lawn green): Final=290.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE S&S (gray0): Final=302.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE Deepseekers (red): Final=304.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:18] MOVE 23: The bandits (purple) 94->93 [0.00ms]
+[2026-05-22 10:32:18] SCORE Gruppe 69 (yellow): Final=307.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE The bandits (purple): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE AlphaZeroClue (lawn green): Final=290.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE S&S (gray0): Final=302.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE Deepseekers (red): Final=304.9, Time=96.9, Moves(4)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:18] MOVE 24: Deepseekers (red) 77->115 [0.00ms]
+[2026-05-22 10:32:18] SCORE Gruppe 69 (yellow): Final=307.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE The bandits (purple): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE AlphaZeroClue (lawn green): Final=290.8, Time=92.8, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE S&S (gray0): Final=302.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:18] SCORE Deepseekers (red): Final=296.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 25: AlphaZeroClue (lawn green) 73->72 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=307.5, Time=99.5, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=292.8, Time=92.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=302.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=296.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 26: Gruppe 69 (yellow) 10->58 [0.01ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=319.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=292.8, Time=92.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=302.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=296.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 27: S&S (gray0) 24->49 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=319.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=306.9, Time=98.9, Moves(5)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=292.8, Time=92.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=306.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=296.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 28: The bandits (purple) 31->18 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=319.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=308.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=292.8, Time=92.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=306.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=296.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 29: Deepseekers (red) 104->117 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=319.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=308.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=292.8, Time=92.8, Moves(5)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=306.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=292.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 30: AlphaZeroClue (lawn green) 32->31 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=319.4, Time=99.4, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=308.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=294.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=306.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=292.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:19] MOVE 31: Gruppe 69 (yellow) 48->70 [0.00ms]
+[2026-05-22 10:32:19] SCORE Gruppe 69 (yellow): Final=327.2, Time=99.2, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE The bandits (purple): Final=308.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE AlphaZeroClue (lawn green): Final=294.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE S&S (gray0): Final=306.4, Time=98.4, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:19] SCORE Deepseekers (red): Final=292.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:20] MOVE 32: S&S (gray0) 49->55 [0.00ms]
+[2026-05-22 10:32:20] SCORE Gruppe 69 (yellow): Final=327.2, Time=99.2, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE The bandits (purple): Final=308.9, Time=98.9, Moves(6)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE AlphaZeroClue (lawn green): Final=294.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE S&S (gray0): Final=418.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE Deepseekers (red): Final=292.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:20] MOVE 33: The bandits (purple) 96->49 [0.01ms]
+[2026-05-22 10:32:20] SCORE Gruppe 69 (yellow): Final=327.2, Time=99.2, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE The bandits (purple): Final=324.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE AlphaZeroClue (lawn green): Final=294.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE S&S (gray0): Final=418.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE Deepseekers (red): Final=292.7, Time=96.7, Moves(6)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:32:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:20] MOVE 34: Deepseekers (red) 114->51 [0.00ms]
+[2026-05-22 10:32:20] SCORE Gruppe 69 (yellow): Final=327.2, Time=99.2, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE The bandits (purple): Final=324.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE AlphaZeroClue (lawn green): Final=294.7, Time=92.7, Moves(6)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE S&S (gray0): Final=418.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:20] SCORE Deepseekers (red): Final=304.2, Time=96.2, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:32:22] MOVE 36: AlphaZeroClue (lawn green) 44->63 [0.00ms]
+[2026-05-22 10:32:22] SCORE Gruppe 69 (yellow): Final=327.2, Time=99.2, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE The bandits (purple): Final=324.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE AlphaZeroClue (lawn green): Final=296.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE S&S (gray0): Final=418.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE Deepseekers (red): Final=304.2, Time=96.2, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:22] MOVE 37: Gruppe 69 (yellow) 59->61 [0.01ms]
+[2026-05-22 10:32:22] SCORE Gruppe 69 (yellow): Final=331.1, Time=99.1, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE The bandits (purple): Final=324.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE AlphaZeroClue (lawn green): Final=296.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE S&S (gray0): Final=418.0, Time=98.0, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE Deepseekers (red): Final=304.2, Time=96.2, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:22] MOVE 38: S&S (gray0) 88->26 [0.01ms]
+[2026-05-22 10:32:22] SCORE Gruppe 69 (yellow): Final=331.1, Time=99.1, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE The bandits (purple): Final=324.8, Time=98.8, Moves(7)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE AlphaZeroClue (lawn green): Final=296.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE S&S (gray0): Final=425.6, Time=97.6, Moves(8)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:22] SCORE Deepseekers (red): Final=304.2, Time=96.2, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:23] MOVE 39: The bandits (purple) 84->73 [0.01ms]
+[2026-05-22 10:32:23] SCORE Gruppe 69 (yellow): Final=331.1, Time=99.1, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE The bandits (purple): Final=326.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE AlphaZeroClue (lawn green): Final=296.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE S&S (gray0): Final=425.6, Time=97.6, Moves(8)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE Deepseekers (red): Final=304.2, Time=96.2, Moves(7)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:32:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:23] MOVE 40: Deepseekers (red) 119->71 [0.00ms]
+[2026-05-22 10:32:23] SCORE Gruppe 69 (yellow): Final=331.1, Time=99.1, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE The bandits (purple): Final=326.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE AlphaZeroClue (lawn green): Final=296.9, Time=90.9, Moves(7)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE S&S (gray0): Final=425.6, Time=97.6, Moves(8)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:23] SCORE Deepseekers (red): Final=315.7, Time=95.7, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:25] MOVE 41: AlphaZeroClue (lawn green) 21->42 [0.00ms]
+[2026-05-22 10:32:25] SCORE Gruppe 69 (yellow): Final=331.1, Time=99.1, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE The bandits (purple): Final=326.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE AlphaZeroClue (lawn green): Final=303.1, Time=89.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE S&S (gray0): Final=425.6, Time=97.6, Moves(8)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE Deepseekers (red): Final=315.7, Time=95.7, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:25] MOVE 42: Gruppe 69 (yellow) 13->59 [0.00ms]
+[2026-05-22 10:32:25] SCORE Gruppe 69 (yellow): Final=339.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE The bandits (purple): Final=326.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE AlphaZeroClue (lawn green): Final=303.1, Time=89.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE S&S (gray0): Final=425.6, Time=97.6, Moves(8)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:25] SCORE Deepseekers (red): Final=315.7, Time=95.7, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:25] MOVE 43: S&S (gray0) 98->77 [0.01ms]
+[2026-05-22 10:32:25] SCORE Gruppe 69 (yellow): Final=339.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE The bandits (purple): Final=326.5, Time=98.5, Moves(8)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE AlphaZeroClue (lawn green): Final=303.1, Time=89.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE S&S (gray0): Final=433.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE Deepseekers (red): Final=315.7, Time=95.7, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:26] MOVE 44: The bandits (purple) 95->94 [0.00ms]
+[2026-05-22 10:32:26] SCORE Gruppe 69 (yellow): Final=339.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE The bandits (purple): Final=328.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE AlphaZeroClue (lawn green): Final=303.1, Time=89.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE S&S (gray0): Final=433.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE Deepseekers (red): Final=315.7, Time=95.7, Moves(8)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:32:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:26] MOVE 45: Deepseekers (red) 115->102 [0.00ms]
+[2026-05-22 10:32:26] SCORE Gruppe 69 (yellow): Final=339.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE The bandits (purple): Final=328.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE AlphaZeroClue (lawn green): Final=303.1, Time=89.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE S&S (gray0): Final=433.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:26] SCORE Deepseekers (red): Final=319.2, Time=95.2, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:28] MOVE 46: AlphaZeroClue (lawn green) 31->68 [0.00ms]
+[2026-05-22 10:32:28] SCORE Gruppe 69 (yellow): Final=339.0, Time=99.0, Moves(9)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE The bandits (purple): Final=328.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE AlphaZeroClue (lawn green): Final=313.2, Time=87.2, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE S&S (gray0): Final=433.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Deepseekers (red): Final=319.2, Time=95.2, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:28] MOVE 47: Gruppe 69 (yellow) 36->38 [0.00ms]
+[2026-05-22 10:32:28] SCORE Gruppe 69 (yellow): Final=342.9, Time=98.9, Moves(10)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE The bandits (purple): Final=328.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE AlphaZeroClue (lawn green): Final=313.2, Time=87.2, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE S&S (gray0): Final=433.3, Time=97.3, Moves(9)=0.0, Pins(1)=100.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:28] SCORE Deepseekers (red): Final=319.2, Time=95.2, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:29] MOVE 48: S&S (gray0) 56->14 [0.00ms]
+[2026-05-22 10:32:29] SCORE Gruppe 69 (yellow): Final=342.9, Time=98.9, Moves(10)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE The bandits (purple): Final=328.1, Time=98.1, Moves(9)=0.0, Pins(0)=0.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE AlphaZeroClue (lawn green): Final=313.2, Time=87.2, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE S&S (gray0): Final=440.8, Time=96.8, Moves(10)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Deepseekers (red): Final=319.2, Time=95.2, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:29] MOVE 49: The bandits (purple) 54->48 [0.00ms]
+[2026-05-22 10:32:29] SCORE Gruppe 69 (yellow): Final=342.9, Time=98.9, Moves(10)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE The bandits (purple): Final=340.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE AlphaZeroClue (lawn green): Final=313.2, Time=87.2, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE S&S (gray0): Final=440.8, Time=96.8, Moves(10)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Deepseekers (red): Final=319.2, Time=95.2, Moves(9)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:29] MOVE 50: Deepseekers (red) 112->92 [0.00ms]
+[2026-05-22 10:32:29] SCORE Gruppe 69 (yellow): Final=342.9, Time=98.9, Moves(10)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE The bandits (purple): Final=340.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE AlphaZeroClue (lawn green): Final=313.2, Time=87.2, Moves(9)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE S&S (gray0): Final=440.8, Time=96.8, Moves(10)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:29] SCORE Deepseekers (red): Final=322.6, Time=94.6, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:31] MOVE 51: AlphaZeroClue (lawn green) 64->104 [0.00ms]
+[2026-05-22 10:32:31] SCORE Gruppe 69 (yellow): Final=342.9, Time=98.9, Moves(10)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE The bandits (purple): Final=340.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE S&S (gray0): Final=440.8, Time=96.8, Moves(10)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Deepseekers (red): Final=322.6, Time=94.6, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:31] MOVE 52: Gruppe 69 (yellow) 60->64 [0.00ms]
+[2026-05-22 10:32:31] SCORE Gruppe 69 (yellow): Final=350.8, Time=98.8, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE The bandits (purple): Final=340.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE S&S (gray0): Final=440.8, Time=96.8, Moves(10)=0.0, Pins(1)=100.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:31] SCORE Deepseekers (red): Final=322.6, Time=94.6, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:32] MOVE 53: S&S (gray0) 106->62 [0.00ms]
+[2026-05-22 10:32:32] SCORE Gruppe 69 (yellow): Final=350.8, Time=98.8, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE The bandits (purple): Final=340.0, Time=98.0, Moves(10)=0.0, Pins(0)=0.0, Dist=242.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE S&S (gray0): Final=444.5, Time=96.5, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Deepseekers (red): Final=322.6, Time=94.6, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:32] MOVE 54: The bandits (purple) 73->30 [0.00ms]
+[2026-05-22 10:32:32] SCORE Gruppe 69 (yellow): Final=350.8, Time=98.8, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE The bandits (purple): Final=347.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE S&S (gray0): Final=444.5, Time=96.5, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:32] SCORE Deepseekers (red): Final=322.6, Time=94.6, Moves(10)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:32:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:33] MOVE 55: Deepseekers (red) 83->41 [0.00ms]
+[2026-05-22 10:32:33] SCORE Gruppe 69 (yellow): Final=350.8, Time=98.8, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE The bandits (purple): Final=347.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE S&S (gray0): Final=444.5, Time=96.5, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:33] SCORE Deepseekers (red): Final=330.0, Time=94.0, Moves(11)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)']}
+[2026-05-22 10:32:35] SCORE Gruppe 69 (yellow): Final=350.8, Time=98.8, Moves(11)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE The bandits (purple): Final=347.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE S&S (gray0): Final=444.5, Time=96.5, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Deepseekers (red): Final=330.0, Time=94.0, Moves(11)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:35] TURN TIMEOUT: Player with colour lawn green exceeded 2s at move 56. Turn skipped.
+[2026-05-22 10:32:35] MOVE 57: Gruppe 69 (yellow) 58->83 [0.01ms]
+[2026-05-22 10:32:35] SCORE Gruppe 69 (yellow): Final=362.6, Time=98.6, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE The bandits (purple): Final=347.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE S&S (gray0): Final=444.5, Time=96.5, Moves(11)=0.0, Pins(1)=100.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Deepseekers (red): Final=330.0, Time=94.0, Moves(11)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:35] MOVE 58: S&S (gray0) 62->53 [0.00ms]
+[2026-05-22 10:32:35] SCORE Gruppe 69 (yellow): Final=362.6, Time=98.6, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE The bandits (purple): Final=347.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE S&S (gray0): Final=446.1, Time=96.1, Moves(12)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Deepseekers (red): Final=330.0, Time=94.0, Moves(11)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:35] MOVE 59: The bandits (purple) 93->81 [0.00ms]
+[2026-05-22 10:32:35] SCORE Gruppe 69 (yellow): Final=362.6, Time=98.6, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE The bandits (purple): Final=349.7, Time=97.7, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE S&S (gray0): Final=446.1, Time=96.1, Moves(12)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:35] SCORE Deepseekers (red): Final=330.0, Time=94.0, Moves(11)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:32:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:36] MOVE 60: Deepseekers (red) 113->93 [0.00ms]
+[2026-05-22 10:32:36] SCORE Gruppe 69 (yellow): Final=362.6, Time=98.6, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE The bandits (purple): Final=349.7, Time=97.7, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE AlphaZeroClue (lawn green): Final=323.5, Time=85.5, Moves(10)=0.0, Pins(0)=0.0, Dist=238.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE S&S (gray0): Final=446.1, Time=96.1, Moves(12)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:36] SCORE Deepseekers (red): Final=333.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:38] MOVE 61: AlphaZeroClue (lawn green) 43->56 [0.00ms]
+[2026-05-22 10:32:38] SCORE Gruppe 69 (yellow): Final=362.6, Time=98.6, Moves(12)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE The bandits (purple): Final=349.7, Time=97.7, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE AlphaZeroClue (lawn green): Final=337.8, Time=83.8, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE S&S (gray0): Final=446.1, Time=96.1, Moves(12)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Deepseekers (red): Final=333.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:38] MOVE 62: Gruppe 69 (yellow) 70->97 [0.01ms]
+[2026-05-22 10:32:38] SCORE Gruppe 69 (yellow): Final=470.5, Time=98.5, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE The bandits (purple): Final=349.7, Time=97.7, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE AlphaZeroClue (lawn green): Final=337.8, Time=83.8, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE S&S (gray0): Final=446.1, Time=96.1, Moves(12)=0.0, Pins(1)=100.0, Dist=250.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Deepseekers (red): Final=333.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:38] MOVE 63: S&S (gray0) 14->43 [0.00ms]
+[2026-05-22 10:32:38] SCORE Gruppe 69 (yellow): Final=470.5, Time=98.5, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE The bandits (purple): Final=349.7, Time=97.7, Moves(12)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE AlphaZeroClue (lawn green): Final=337.8, Time=83.8, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE S&S (gray0): Final=453.6, Time=95.6, Moves(13)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:38] SCORE Deepseekers (red): Final=333.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:39] MOVE 64: The bandits (purple) 81->10 [0.00ms]
+[2026-05-22 10:32:39] SCORE Gruppe 69 (yellow): Final=470.5, Time=98.5, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE The bandits (purple): Final=463.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE AlphaZeroClue (lawn green): Final=337.8, Time=83.8, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE S&S (gray0): Final=453.6, Time=95.6, Moves(13)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Deepseekers (red): Final=333.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:39] MOVE 65: Deepseekers (red) 105->80 [0.00ms]
+[2026-05-22 10:32:39] SCORE Gruppe 69 (yellow): Final=470.5, Time=98.5, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE The bandits (purple): Final=463.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE AlphaZeroClue (lawn green): Final=337.8, Time=83.8, Moves(11)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE S&S (gray0): Final=453.6, Time=95.6, Moves(13)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:39] SCORE Deepseekers (red): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:41] MOVE 66: AlphaZeroClue (lawn green) 72->91 [0.00ms]
+[2026-05-22 10:32:41] SCORE Gruppe 69 (yellow): Final=470.5, Time=98.5, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE The bandits (purple): Final=463.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE AlphaZeroClue (lawn green): Final=344.1, Time=82.1, Moves(12)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE S&S (gray0): Final=453.6, Time=95.6, Moves(13)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Deepseekers (red): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:41] MOVE 67: Gruppe 69 (yellow) 25->27 [0.00ms]
+[2026-05-22 10:32:41] SCORE Gruppe 69 (yellow): Final=474.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE The bandits (purple): Final=463.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE AlphaZeroClue (lawn green): Final=344.1, Time=82.1, Moves(12)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE S&S (gray0): Final=453.6, Time=95.6, Moves(13)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Deepseekers (red): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:41] MOVE 68: S&S (gray0) 53->34 [0.00ms]
+[2026-05-22 10:32:41] SCORE Gruppe 69 (yellow): Final=474.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE The bandits (purple): Final=463.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE AlphaZeroClue (lawn green): Final=344.1, Time=82.1, Moves(12)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE S&S (gray0): Final=557.3, Time=95.3, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:41] SCORE Deepseekers (red): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:42] MOVE 69: The bandits (purple) 94->53 [0.00ms]
+[2026-05-22 10:32:42] SCORE Gruppe 69 (yellow): Final=474.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE The bandits (purple): Final=467.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE AlphaZeroClue (lawn green): Final=344.1, Time=82.1, Moves(12)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE S&S (gray0): Final=557.3, Time=95.3, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Deepseekers (red): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:42] MOVE 70: Deepseekers (red) 93->9 [0.00ms]
+[2026-05-22 10:32:42] SCORE Gruppe 69 (yellow): Final=474.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE The bandits (purple): Final=467.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE AlphaZeroClue (lawn green): Final=344.1, Time=82.1, Moves(12)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE S&S (gray0): Final=557.3, Time=95.3, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:42] SCORE Deepseekers (red): Final=451.9, Time=91.9, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:44] MOVE 71: AlphaZeroClue (lawn green) 56->65 [0.00ms]
+[2026-05-22 10:32:44] SCORE Gruppe 69 (yellow): Final=474.4, Time=98.4, Moves(14)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE The bandits (purple): Final=467.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE AlphaZeroClue (lawn green): Final=444.3, Time=80.3, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE S&S (gray0): Final=557.3, Time=95.3, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Deepseekers (red): Final=451.9, Time=91.9, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:44] MOVE 72: Gruppe 69 (yellow) 27->39 [0.00ms]
+[2026-05-22 10:32:44] SCORE Gruppe 69 (yellow): Final=476.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE The bandits (purple): Final=467.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE AlphaZeroClue (lawn green): Final=444.3, Time=80.3, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE S&S (gray0): Final=557.3, Time=95.3, Moves(14)=0.0, Pins(2)=200.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Deepseekers (red): Final=451.9, Time=91.9, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:44] MOVE 73: S&S (gray0) 43->32 [0.01ms]
+[2026-05-22 10:32:44] SCORE Gruppe 69 (yellow): Final=476.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE The bandits (purple): Final=467.1, Time=97.1, Moves(14)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE AlphaZeroClue (lawn green): Final=444.3, Time=80.3, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE S&S (gray0): Final=659.2, Time=95.2, Moves(15)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Deepseekers (red): Final=451.9, Time=91.9, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:44] MOVE 74: The bandits (purple) 53->43 [0.00ms]
+[2026-05-22 10:32:44] SCORE Gruppe 69 (yellow): Final=476.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE The bandits (purple): Final=466.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE AlphaZeroClue (lawn green): Final=444.3, Time=80.3, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE S&S (gray0): Final=659.2, Time=95.2, Moves(15)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:44] SCORE Deepseekers (red): Final=451.9, Time=91.9, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 75: Deepseekers (red) 9->25 [0.00ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=476.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=466.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=444.3, Time=80.3, Moves(13)=0.0, Pins(1)=100.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=659.2, Time=95.2, Moves(15)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=345.9, Time=91.9, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 76: AlphaZeroClue (lawn green) 91->93 [0.01ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=476.3, Time=98.3, Moves(15)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=466.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=440.3, Time=80.3, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=659.2, Time=95.2, Moves(15)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=345.9, Time=91.9, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 77: Gruppe 69 (yellow) 39->106 [0.01ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=488.1, Time=98.1, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=466.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=440.3, Time=80.3, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=659.2, Time=95.2, Moves(15)=0.0, Pins(3)=300.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=345.9, Time=91.9, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 78: S&S (gray0) 77->67 [0.01ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=488.1, Time=98.1, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=466.9, Time=96.9, Moves(15)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=440.3, Time=80.3, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=661.2, Time=95.2, Moves(16)=0.0, Pins(3)=300.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=345.9, Time=91.9, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 79: The bandits (purple) 30->119 [0.00ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=488.1, Time=98.1, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=458.8, Time=96.8, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=440.3, Time=80.3, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=661.2, Time=95.2, Moves(16)=0.0, Pins(3)=300.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=345.9, Time=91.9, Moves(15)=0.0, Pins(0)=0.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 80: Deepseekers (red) 102->58 [0.00ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=488.1, Time=98.1, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=458.8, Time=96.8, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=440.3, Time=80.3, Moves(14)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=661.2, Time=95.2, Moves(16)=0.0, Pins(3)=300.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=353.8, Time=91.8, Moves(16)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 81: AlphaZeroClue (lawn green) 63->62 [0.00ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=488.1, Time=98.1, Moves(16)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=458.8, Time=96.8, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=442.2, Time=80.2, Moves(15)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=661.2, Time=95.2, Moves(16)=0.0, Pins(3)=300.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=353.8, Time=91.8, Moves(16)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:45] MOVE 82: Gruppe 69 (yellow) 61->63 [0.00ms]
+[2026-05-22 10:32:45] SCORE Gruppe 69 (yellow): Final=492.0, Time=98.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE The bandits (purple): Final=458.8, Time=96.8, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE AlphaZeroClue (lawn green): Final=442.2, Time=80.2, Moves(15)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE S&S (gray0): Final=661.2, Time=95.2, Moves(16)=0.0, Pins(3)=300.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:32:45] SCORE Deepseekers (red): Final=353.8, Time=91.8, Moves(16)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:46] MOVE 83: S&S (gray0) 101->78 [0.00ms]
+[2026-05-22 10:32:46] SCORE Gruppe 69 (yellow): Final=492.0, Time=98.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE The bandits (purple): Final=458.8, Time=96.8, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE AlphaZeroClue (lawn green): Final=442.2, Time=80.2, Moves(15)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE S&S (gray0): Final=664.8, Time=94.8, Moves(17)=0.0, Pins(3)=300.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Deepseekers (red): Final=353.8, Time=91.8, Moves(16)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:46] MOVE 84: The bandits (purple) 119->30 [0.00ms]
+[2026-05-22 10:32:46] SCORE Gruppe 69 (yellow): Final=492.0, Time=98.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE The bandits (purple): Final=466.6, Time=96.6, Moves(17)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE AlphaZeroClue (lawn green): Final=442.2, Time=80.2, Moves(15)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE S&S (gray0): Final=664.8, Time=94.8, Moves(17)=0.0, Pins(3)=300.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:46] SCORE Deepseekers (red): Final=353.8, Time=91.8, Moves(16)=0.0, Pins(0)=0.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:47] MOVE 85: Deepseekers (red) 111->103 [0.00ms]
+[2026-05-22 10:32:47] SCORE Gruppe 69 (yellow): Final=492.0, Time=98.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE The bandits (purple): Final=466.6, Time=96.6, Moves(17)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE AlphaZeroClue (lawn green): Final=442.2, Time=80.2, Moves(15)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE S&S (gray0): Final=664.8, Time=94.8, Moves(17)=0.0, Pins(3)=300.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:47] SCORE Deepseekers (red): Final=355.0, Time=91.0, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:48] MOVE 86: AlphaZeroClue (lawn green) 33->111 [0.00ms]
+[2026-05-22 10:32:48] SCORE Gruppe 69 (yellow): Final=492.0, Time=98.0, Moves(17)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE The bandits (purple): Final=466.6, Time=96.6, Moves(17)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE AlphaZeroClue (lawn green): Final=458.3, Time=78.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE S&S (gray0): Final=664.8, Time=94.8, Moves(17)=0.0, Pins(3)=300.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:48] SCORE Deepseekers (red): Final=355.0, Time=91.0, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:48] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:49] MOVE 87: Gruppe 69 (yellow) 64->74 [0.00ms]
+[2026-05-22 10:32:49] SCORE Gruppe 69 (yellow): Final=593.9, Time=97.9, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE The bandits (purple): Final=466.6, Time=96.6, Moves(17)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE AlphaZeroClue (lawn green): Final=458.3, Time=78.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE S&S (gray0): Final=664.8, Time=94.8, Moves(17)=0.0, Pins(3)=300.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Deepseekers (red): Final=355.0, Time=91.0, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:49] MOVE 88: S&S (gray0) 67->69 [0.00ms]
+[2026-05-22 10:32:49] SCORE Gruppe 69 (yellow): Final=593.9, Time=97.9, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE The bandits (purple): Final=466.6, Time=96.6, Moves(17)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE AlphaZeroClue (lawn green): Final=458.3, Time=78.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE S&S (gray0): Final=668.4, Time=94.4, Moves(18)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Deepseekers (red): Final=355.0, Time=91.0, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:49] MOVE 89: The bandits (purple) 85->64 [0.00ms]
+[2026-05-22 10:32:49] SCORE Gruppe 69 (yellow): Final=593.9, Time=97.9, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE The bandits (purple): Final=470.3, Time=96.3, Moves(18)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE AlphaZeroClue (lawn green): Final=458.3, Time=78.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE S&S (gray0): Final=668.4, Time=94.4, Moves(18)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:49] SCORE Deepseekers (red): Final=355.0, Time=91.0, Moves(17)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:32:49] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:50] MOVE 90: Deepseekers (red) 58->14 [0.00ms]
+[2026-05-22 10:32:50] SCORE Gruppe 69 (yellow): Final=593.9, Time=97.9, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE The bandits (purple): Final=470.3, Time=96.3, Moves(18)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE AlphaZeroClue (lawn green): Final=458.3, Time=78.3, Moves(16)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE S&S (gray0): Final=668.4, Time=94.4, Moves(18)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:50] SCORE Deepseekers (red): Final=362.2, Time=90.2, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:50] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:52] MOVE 91: AlphaZeroClue (lawn green) 104->98 [0.00ms]
+[2026-05-22 10:32:52] SCORE Gruppe 69 (yellow): Final=593.9, Time=97.9, Moves(18)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE The bandits (purple): Final=470.3, Time=96.3, Moves(18)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE AlphaZeroClue (lawn green): Final=562.6, Time=76.6, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE S&S (gray0): Final=668.4, Time=94.4, Moves(18)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Deepseekers (red): Final=362.2, Time=90.2, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:52] MOVE 92: Gruppe 69 (yellow) 106->107 [0.00ms]
+[2026-05-22 10:32:52] SCORE Gruppe 69 (yellow): Final=695.8, Time=97.8, Moves(19)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE The bandits (purple): Final=470.3, Time=96.3, Moves(18)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE AlphaZeroClue (lawn green): Final=562.6, Time=76.6, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE S&S (gray0): Final=668.4, Time=94.4, Moves(18)=0.0, Pins(3)=300.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Deepseekers (red): Final=362.2, Time=90.2, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:52] MOVE 93: S&S (gray0) 69->70 [0.00ms]
+[2026-05-22 10:32:52] SCORE Gruppe 69 (yellow): Final=695.8, Time=97.8, Moves(19)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE The bandits (purple): Final=470.3, Time=96.3, Moves(18)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE AlphaZeroClue (lawn green): Final=562.6, Time=76.6, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE S&S (gray0): Final=670.1, Time=94.1, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:52] SCORE Deepseekers (red): Final=362.2, Time=90.2, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:52] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:53] MOVE 94: The bandits (purple) 108->12 [0.01ms]
+[2026-05-22 10:32:53] SCORE Gruppe 69 (yellow): Final=695.8, Time=97.8, Moves(19)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE The bandits (purple): Final=591.9, Time=95.9, Moves(19)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE AlphaZeroClue (lawn green): Final=562.6, Time=76.6, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE S&S (gray0): Final=670.1, Time=94.1, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Deepseekers (red): Final=362.2, Time=90.2, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:53] MOVE 95: Deepseekers (red) 14->6 [0.00ms]
+[2026-05-22 10:32:53] SCORE Gruppe 69 (yellow): Final=695.8, Time=97.8, Moves(19)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE The bandits (purple): Final=591.9, Time=95.9, Moves(19)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE AlphaZeroClue (lawn green): Final=562.6, Time=76.6, Moves(17)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE S&S (gray0): Final=670.1, Time=94.1, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:53] SCORE Deepseekers (red): Final=463.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:53] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:55] MOVE 96: AlphaZeroClue (lawn green) 98->75 [0.00ms]
+[2026-05-22 10:32:55] SCORE Gruppe 69 (yellow): Final=695.8, Time=97.8, Moves(19)=0.0, Pins(3)=300.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE The bandits (purple): Final=591.9, Time=95.9, Moves(19)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE AlphaZeroClue (lawn green): Final=560.8, Time=74.8, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE S&S (gray0): Final=670.1, Time=94.1, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Deepseekers (red): Final=463.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:55] MOVE 97: Gruppe 69 (yellow) 11->36 [0.00ms]
+[2026-05-22 10:32:55] SCORE Gruppe 69 (yellow): Final=699.7, Time=97.7, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE The bandits (purple): Final=591.9, Time=95.9, Moves(19)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE AlphaZeroClue (lawn green): Final=560.8, Time=74.8, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE S&S (gray0): Final=670.1, Time=94.1, Moves(19)=0.0, Pins(3)=300.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Deepseekers (red): Final=463.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:55] MOVE 98: S&S (gray0) 26->27 [0.01ms]
+[2026-05-22 10:32:55] SCORE Gruppe 69 (yellow): Final=699.7, Time=97.7, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE The bandits (purple): Final=591.9, Time=95.9, Moves(19)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE AlphaZeroClue (lawn green): Final=560.8, Time=74.8, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE S&S (gray0): Final=672.0, Time=94.0, Moves(20)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Deepseekers (red): Final=463.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:55] MOVE 99: The bandits (purple) 10->79 [0.00ms]
+[2026-05-22 10:32:55] SCORE Gruppe 69 (yellow): Final=699.7, Time=97.7, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE The bandits (purple): Final=481.9, Time=95.9, Moves(20)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE AlphaZeroClue (lawn green): Final=560.8, Time=74.8, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE S&S (gray0): Final=672.0, Time=94.0, Moves(20)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Deepseekers (red): Final=463.5, Time=89.5, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:55] MOVE 100: Deepseekers (red) 41->106 [0.00ms]
+[2026-05-22 10:32:55] SCORE Gruppe 69 (yellow): Final=699.7, Time=97.7, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE The bandits (purple): Final=481.9, Time=95.9, Moves(20)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE AlphaZeroClue (lawn green): Final=560.8, Time=74.8, Moves(18)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE S&S (gray0): Final=672.0, Time=94.0, Moves(20)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:55] SCORE Deepseekers (red): Final=451.4, Time=89.4, Moves(20)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:55] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 101: AlphaZeroClue (lawn green) 93->29 [0.14ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=699.7, Time=97.7, Moves(20)=0.0, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=481.9, Time=95.9, Moves(20)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=556.8, Time=74.8, Moves(19)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=672.0, Time=94.0, Moves(20)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=451.4, Time=89.4, Moves(20)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 102: Gruppe 69 (yellow) 23->24 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=701.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=481.9, Time=95.9, Moves(20)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=556.8, Time=74.8, Moves(19)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=672.0, Time=94.0, Moves(20)=0.0, Pins(3)=300.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=451.4, Time=89.4, Moves(20)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 103: S&S (gray0) 70->72 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=701.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=481.9, Time=95.9, Moves(20)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=556.8, Time=74.8, Moves(19)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=675.9, Time=93.9, Moves(21)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=451.4, Time=89.4, Moves(20)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 104: The bandits (purple) 82->61 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=701.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=485.8, Time=95.8, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=556.8, Time=74.8, Moves(19)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=675.9, Time=93.9, Moves(21)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=451.4, Time=89.4, Moves(20)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 105: Deepseekers (red) 106->114 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=701.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=485.8, Time=95.8, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=556.8, Time=74.8, Moves(19)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=675.9, Time=93.9, Moves(21)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=449.3, Time=89.3, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 106: AlphaZeroClue (lawn green) 111->93 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=701.5, Time=97.5, Moves(21)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=485.8, Time=95.8, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=550.7, Time=74.7, Moves(20)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=675.9, Time=93.9, Moves(21)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=449.3, Time=89.3, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 107: Gruppe 69 (yellow) 24->28 [0.00ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=709.3, Time=97.3, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=485.8, Time=95.8, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=550.7, Time=74.7, Moves(20)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=675.9, Time=93.9, Moves(21)=0.0, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=449.3, Time=89.3, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:56] MOVE 108: S&S (gray0) 72->33 [0.01ms]
+[2026-05-22 10:32:56] SCORE Gruppe 69 (yellow): Final=709.3, Time=97.3, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE The bandits (purple): Final=485.8, Time=95.8, Moves(21)=0.0, Pins(1)=100.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE AlphaZeroClue (lawn green): Final=550.7, Time=74.7, Moves(20)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:56] SCORE Deepseekers (red): Final=449.3, Time=89.3, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:56] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:57] MOVE 109: The bandits (purple) 110->85 [0.00ms]
+[2026-05-22 10:32:57] SCORE Gruppe 69 (yellow): Final=709.3, Time=97.3, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE The bandits (purple): Final=489.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE AlphaZeroClue (lawn green): Final=550.7, Time=74.7, Moves(20)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Deepseekers (red): Final=449.3, Time=89.3, Moves(21)=0.0, Pins(1)=100.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:57] MOVE 110: Deepseekers (red) 117->77 [0.00ms]
+[2026-05-22 10:32:57] SCORE Gruppe 69 (yellow): Final=709.3, Time=97.3, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE The bandits (purple): Final=489.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE AlphaZeroClue (lawn green): Final=550.7, Time=74.7, Moves(20)=0.0, Pins(2)=200.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:57] SCORE Deepseekers (red): Final=456.6, Time=88.6, Moves(22)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:57] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:59] MOVE 111: AlphaZeroClue (lawn green) 29->111 [0.00ms]
+[2026-05-22 10:32:59] SCORE Gruppe 69 (yellow): Final=709.3, Time=97.3, Moves(22)=0.0, Pins(3)=300.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE The bandits (purple): Final=489.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE AlphaZeroClue (lawn green): Final=558.8, Time=72.8, Moves(21)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Deepseekers (red): Final=456.6, Time=88.6, Moves(22)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:59] MOVE 112: Gruppe 69 (yellow) 38->40 [0.00ms]
+[2026-05-22 10:32:59] SCORE Gruppe 69 (yellow): Final=713.2, Time=97.2, Moves(23)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE The bandits (purple): Final=489.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE AlphaZeroClue (lawn green): Final=558.8, Time=72.8, Moves(21)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(22)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Deepseekers (red): Final=456.6, Time=88.6, Moves(22)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:32:59] MOVE 113: S&S (gray0) 27->70 [0.00ms]
+[2026-05-22 10:32:59] SCORE Gruppe 69 (yellow): Final=713.2, Time=97.2, Moves(23)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE The bandits (purple): Final=489.5, Time=95.5, Moves(22)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE AlphaZeroClue (lawn green): Final=558.8, Time=72.8, Moves(21)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(23)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:32:59] SCORE Deepseekers (red): Final=456.6, Time=88.6, Moves(22)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:32:59] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 114: The bandits (purple) 18->35 [0.01ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=713.2, Time=97.2, Moves(23)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=599.3, Time=95.3, Moves(23)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=558.8, Time=72.8, Moves(21)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(23)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=456.6, Time=88.6, Moves(22)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 115: Deepseekers (red) 25->26 [0.00ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=713.2, Time=97.2, Moves(23)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=599.3, Time=95.3, Moves(23)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=558.8, Time=72.8, Moves(21)=0.0, Pins(2)=200.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(23)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=458.5, Time=88.5, Moves(23)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 116: AlphaZeroClue (lawn green) 93->82 [0.00ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=713.2, Time=97.2, Moves(23)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=599.3, Time=95.3, Moves(23)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=556.7, Time=72.7, Moves(22)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(23)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=458.5, Time=88.5, Moves(23)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 117: Gruppe 69 (yellow) 46->95 [0.00ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=833.1, Time=97.1, Moves(24)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=599.3, Time=95.3, Moves(23)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=556.7, Time=72.7, Moves(22)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=781.8, Time=93.8, Moves(23)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=458.5, Time=88.5, Moves(23)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 118: S&S (gray0) 70->54 [0.01ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=833.1, Time=97.1, Moves(24)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=599.3, Time=95.3, Moves(23)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=556.7, Time=72.7, Moves(22)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=789.5, Time=93.5, Moves(24)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=458.5, Time=88.5, Moves(23)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:00] MOVE 119: The bandits (purple) 48->25 [0.00ms]
+[2026-05-22 10:33:00] SCORE Gruppe 69 (yellow): Final=833.1, Time=97.1, Moves(24)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE The bandits (purple): Final=703.0, Time=95.0, Moves(24)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE AlphaZeroClue (lawn green): Final=556.7, Time=72.7, Moves(22)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE S&S (gray0): Final=789.5, Time=93.5, Moves(24)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:33:00] SCORE Deepseekers (red): Final=458.5, Time=88.5, Moves(23)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:33:00] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:01] MOVE 120: Deepseekers (red) 114->105 [0.00ms]
+[2026-05-22 10:33:01] SCORE Gruppe 69 (yellow): Final=833.1, Time=97.1, Moves(24)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE The bandits (purple): Final=703.0, Time=95.0, Moves(24)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE AlphaZeroClue (lawn green): Final=556.7, Time=72.7, Moves(22)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE S&S (gray0): Final=789.5, Time=93.5, Moves(24)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:33:01] SCORE Deepseekers (red): Final=459.8, Time=87.8, Moves(24)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:33:01] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 121: AlphaZeroClue (lawn green) 20->58 [0.01ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=833.1, Time=97.1, Moves(24)=0.0, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=703.0, Time=95.0, Moves(24)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=571.0, Time=71.0, Moves(23)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=789.5, Time=93.5, Moves(24)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=459.8, Time=87.8, Moves(24)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 122: Gruppe 69 (yellow) 36->38 [0.00ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=836.9, Time=96.9, Moves(25)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=703.0, Time=95.0, Moves(24)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=571.0, Time=71.0, Moves(23)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=789.5, Time=93.5, Moves(24)=0.0, Pins(4)=400.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=459.8, Time=87.8, Moves(24)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 123: S&S (gray0) 54->93 [0.00ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=836.9, Time=96.9, Moves(25)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=703.0, Time=95.0, Moves(24)=0.0, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=571.0, Time=71.0, Moves(23)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=781.4, Time=93.4, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=459.8, Time=87.8, Moves(24)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 124: The bandits (purple) 43->16 [0.00ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=836.9, Time=96.9, Moves(25)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=711.0, Time=95.0, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=571.0, Time=71.0, Moves(23)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=781.4, Time=93.4, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=459.8, Time=87.8, Moves(24)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 125: Deepseekers (red) 71->96 [0.00ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=836.9, Time=96.9, Moves(25)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=711.0, Time=95.0, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=571.0, Time=71.0, Moves(23)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=781.4, Time=93.4, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=455.8, Time=87.8, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 126: AlphaZeroClue (lawn green) 75->87 [0.01ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=836.9, Time=96.9, Moves(25)=0.0, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=711.0, Time=95.0, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=570.9, Time=70.9, Moves(24)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=781.4, Time=93.4, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=455.8, Time=87.8, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:03] MOVE 127: Gruppe 69 (yellow) 83->84 [0.00ms]
+[2026-05-22 10:33:03] SCORE Gruppe 69 (yellow): Final=938.8, Time=96.8, Moves(26)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE The bandits (purple): Final=711.0, Time=95.0, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE AlphaZeroClue (lawn green): Final=570.9, Time=70.9, Moves(24)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE S&S (gray0): Final=781.4, Time=93.4, Moves(25)=0.0, Pins(4)=400.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:33:03] SCORE Deepseekers (red): Final=455.8, Time=87.8, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:03] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:04] MOVE 128: S&S (gray0) 86->69 [0.00ms]
+[2026-05-22 10:33:04] SCORE Gruppe 69 (yellow): Final=938.8, Time=96.8, Moves(26)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE The bandits (purple): Final=711.0, Time=95.0, Moves(25)=0.0, Pins(3)=300.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE AlphaZeroClue (lawn green): Final=570.9, Time=70.9, Moves(24)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE S&S (gray0): Final=793.2, Time=93.2, Moves(26)=0.0, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Deepseekers (red): Final=455.8, Time=87.8, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:04] MOVE 129: The bandits (purple) 85->81 [0.00ms]
+[2026-05-22 10:33:04] SCORE Gruppe 69 (yellow): Final=938.8, Time=96.8, Moves(26)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE The bandits (purple): Final=718.7, Time=94.7, Moves(26)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE AlphaZeroClue (lawn green): Final=570.9, Time=70.9, Moves(24)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE S&S (gray0): Final=793.2, Time=93.2, Moves(26)=0.0, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Deepseekers (red): Final=455.8, Time=87.8, Moves(25)=0.0, Pins(1)=100.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:04] MOVE 130: Deepseekers (red) 92->53 [0.00ms]
+[2026-05-22 10:33:04] SCORE Gruppe 69 (yellow): Final=938.8, Time=96.8, Moves(26)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE The bandits (purple): Final=718.7, Time=94.7, Moves(26)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE AlphaZeroClue (lawn green): Final=570.9, Time=70.9, Moves(24)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE S&S (gray0): Final=793.2, Time=93.2, Moves(26)=0.0, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:04] SCORE Deepseekers (red): Final=463.2, Time=87.2, Moves(26)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:33:04] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 131: AlphaZeroClue (lawn green) 45->37 [0.01ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=938.8, Time=96.8, Moves(26)=0.0, Pins(5)=500.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=718.7, Time=94.7, Moves(26)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=586.4, Time=70.4, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=793.2, Time=93.2, Moves(26)=0.0, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=463.2, Time=87.2, Moves(26)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 132: Gruppe 69 (yellow) 59->60 [0.00ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=940.7, Time=96.7, Moves(27)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=718.7, Time=94.7, Moves(26)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=586.4, Time=70.4, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=793.2, Time=93.2, Moves(26)=0.0, Pins(4)=400.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=463.2, Time=87.2, Moves(26)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 133: S&S (gray0) 33->70 [0.00ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=940.7, Time=96.7, Moves(27)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=718.7, Time=94.7, Moves(26)=0.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=586.4, Time=70.4, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=683.1, Time=93.1, Moves(27)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=463.2, Time=87.2, Moves(26)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 134: The bandits (purple) 25->54 [0.00ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=940.7, Time=96.7, Moves(27)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=602.6, Time=94.6, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=586.4, Time=70.4, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=683.1, Time=93.1, Moves(27)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=463.2, Time=87.2, Moves(26)=0.0, Pins(1)=100.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 135: Deepseekers (red) 80->59 [0.00ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=940.7, Time=96.7, Moves(27)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=602.6, Time=94.6, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=586.4, Time=70.4, Moves(25)=0.0, Pins(2)=200.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=683.1, Time=93.1, Moves(27)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=467.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:05] MOVE 136: AlphaZeroClue (lawn green) 68->33 [0.00ms]
+[2026-05-22 10:33:05] SCORE Gruppe 69 (yellow): Final=940.7, Time=96.7, Moves(27)=0.0, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE The bandits (purple): Final=602.6, Time=94.6, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE AlphaZeroClue (lawn green): Final=570.4, Time=70.4, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE S&S (gray0): Final=683.1, Time=93.1, Moves(27)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:33:05] SCORE Deepseekers (red): Final=467.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:33:05] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 137: Gruppe 69 (yellow) 60->43 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=944.6, Time=96.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.6, Time=94.6, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=570.4, Time=70.4, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=683.1, Time=93.1, Moves(27)=0.0, Pins(3)=300.0, Dist=290.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=467.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 138: S&S (gray0) 70->71 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=944.6, Time=96.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.6, Time=94.6, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=570.4, Time=70.4, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=685.0, Time=93.0, Moves(28)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=467.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 139: The bandits (purple) 16->39 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=944.6, Time=96.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.5, Time=94.5, Moves(28)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=570.4, Time=70.4, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=685.0, Time=93.0, Moves(28)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=467.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 140: Deepseekers (red) 96->73 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=944.6, Time=96.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.5, Time=94.5, Moves(28)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=570.4, Time=70.4, Moves(26)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=685.0, Time=93.0, Moves(28)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=471.1, Time=87.1, Moves(28)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 141: AlphaZeroClue (lawn green) 33->52 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=944.6, Time=96.5, Moves(28)=0.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.5, Time=94.5, Moves(28)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=578.3, Time=70.3, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=685.0, Time=93.0, Moves(28)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=471.1, Time=87.1, Moves(28)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 142: Gruppe 69 (yellow) 28->29 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=946.5, Time=96.4, Moves(29)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.5, Time=94.5, Moves(28)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=578.3, Time=70.3, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=685.0, Time=93.0, Moves(28)=0.0, Pins(3)=300.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=471.1, Time=87.1, Moves(28)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 143: S&S (gray0) 99->100 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=946.5, Time=96.4, Moves(29)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=602.5, Time=94.5, Moves(28)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=578.3, Time=70.3, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=687.0, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=471.1, Time=87.1, Moves(28)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 144: The bandits (purple) 39->18 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=946.5, Time=96.4, Moves(29)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=598.4, Time=94.4, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=578.3, Time=70.3, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=687.0, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=471.1, Time=87.1, Moves(28)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 145: Deepseekers (red) 59->50 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=946.5, Time=96.4, Moves(29)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=598.4, Time=94.4, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=578.3, Time=70.3, Moves(27)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=687.0, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=473.0, Time=87.0, Moves(29)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 146: AlphaZeroClue (lawn green) 58->57 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=946.5, Time=96.4, Moves(29)=0.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=598.4, Time=94.4, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=687.0, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=473.0, Time=87.0, Moves(29)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:06] MOVE 147: Gruppe 69 (yellow) 38->80 [0.00ms]
+[2026-05-22 10:33:06] SCORE Gruppe 69 (yellow): Final=954.4, Time=96.3, Moves(30)=0.1, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE The bandits (purple): Final=598.4, Time=94.4, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE S&S (gray0): Final=687.0, Time=92.9, Moves(29)=0.0, Pins(3)=300.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:06] SCORE Deepseekers (red): Final=473.0, Time=87.0, Moves(29)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:06] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:07] MOVE 148: S&S (gray0) 100->16 [0.00ms]
+[2026-05-22 10:33:07] SCORE Gruppe 69 (yellow): Final=954.4, Time=96.3, Moves(30)=0.1, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE The bandits (purple): Final=598.4, Time=94.4, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE S&S (gray0): Final=702.8, Time=92.7, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Deepseekers (red): Final=473.0, Time=87.0, Moves(29)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:07] MOVE 149: The bandits (purple) 18->56 [0.00ms]
+[2026-05-22 10:33:07] SCORE Gruppe 69 (yellow): Final=954.4, Time=96.3, Moves(30)=0.1, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE The bandits (purple): Final=606.2, Time=94.1, Moves(30)=0.1, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE S&S (gray0): Final=702.8, Time=92.7, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:07] SCORE Deepseekers (red): Final=473.0, Time=87.0, Moves(29)=0.0, Pins(1)=100.0, Dist=286.0, Win Bonus=0.0
+[2026-05-22 10:33:07] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:08] MOVE 150: Deepseekers (red) 51->8 [0.00ms]
+[2026-05-22 10:33:08] SCORE Gruppe 69 (yellow): Final=954.4, Time=96.3, Moves(30)=0.1, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE The bandits (purple): Final=606.2, Time=94.1, Moves(30)=0.1, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE S&S (gray0): Final=702.8, Time=92.7, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:08] SCORE Deepseekers (red): Final=580.5, Time=86.4, Moves(30)=0.1, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:08] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)']}
+[2026-05-22 10:33:10] SCORE Gruppe 69 (yellow): Final=954.4, Time=96.3, Moves(30)=0.1, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE The bandits (purple): Final=606.2, Time=94.1, Moves(30)=0.1, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE S&S (gray0): Final=702.8, Time=92.7, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Deepseekers (red): Final=580.5, Time=86.4, Moves(30)=0.1, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)']}
+[2026-05-22 10:33:10] TURN TIMEOUT: Player with colour lawn green exceeded 2s at move 152. Turn skipped.
+[2026-05-22 10:33:10] MOVE 153: Gruppe 69 (yellow) 29->31 [0.00ms]
+[2026-05-22 10:33:10] SCORE Gruppe 69 (yellow): Final=958.4, Time=96.2, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE The bandits (purple): Final=606.2, Time=94.1, Moves(30)=0.1, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE S&S (gray0): Final=702.8, Time=92.7, Moves(30)=0.1, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Deepseekers (red): Final=580.5, Time=86.4, Moves(30)=0.1, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)']}
+[2026-05-22 10:33:10] MOVE 154: S&S (gray0) 89->72 [0.00ms]
+[2026-05-22 10:33:10] SCORE Gruppe 69 (yellow): Final=958.4, Time=96.2, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE The bandits (purple): Final=606.2, Time=94.1, Moves(30)=0.1, Pins(2)=200.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE S&S (gray0): Final=714.7, Time=92.5, Moves(31)=0.2, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Deepseekers (red): Final=580.5, Time=86.4, Moves(30)=0.1, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)']}
+[2026-05-22 10:33:10] MOVE 155: The bandits (purple) 56->46 [0.00ms]
+[2026-05-22 10:33:10] SCORE Gruppe 69 (yellow): Final=958.4, Time=96.2, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE The bandits (purple): Final=708.0, Time=93.8, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE S&S (gray0): Final=714.7, Time=92.5, Moves(31)=0.2, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:10] SCORE Deepseekers (red): Final=580.5, Time=86.4, Moves(30)=0.1, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:33:10] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)']}
+[2026-05-22 10:33:11] MOVE 156: Deepseekers (red) 50->7 [0.00ms]
+[2026-05-22 10:33:11] SCORE Gruppe 69 (yellow): Final=958.4, Time=96.2, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE The bandits (purple): Final=708.0, Time=93.8, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE S&S (gray0): Final=714.7, Time=92.5, Moves(31)=0.2, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:11] SCORE Deepseekers (red): Final=687.9, Time=85.6, Moves(31)=0.2, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:33:11] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)']}
+[2026-05-22 10:33:13] SCORE Gruppe 69 (yellow): Final=958.4, Time=96.2, Moves(31)=0.2, Pins(5)=500.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE The bandits (purple): Final=708.0, Time=93.8, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE S&S (gray0): Final=714.7, Time=92.5, Moves(31)=0.2, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Deepseekers (red): Final=687.9, Time=85.6, Moves(31)=0.2, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:13] TURN TIMEOUT: Player with colour lawn green exceeded 2s at move 157. Turn skipped.
+[2026-05-22 10:33:13] MOVE 158: Gruppe 69 (yellow) 40->51 [0.00ms]
+[2026-05-22 10:33:13] SCORE Gruppe 69 (yellow): Final=960.6, Time=96.1, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE The bandits (purple): Final=708.0, Time=93.8, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE S&S (gray0): Final=714.7, Time=92.5, Moves(31)=0.2, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Deepseekers (red): Final=687.9, Time=85.6, Moves(31)=0.2, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:13] MOVE 159: S&S (gray0) 69->96 [0.00ms]
+[2026-05-22 10:33:13] SCORE Gruppe 69 (yellow): Final=960.6, Time=96.1, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE The bandits (purple): Final=708.0, Time=93.8, Moves(31)=0.2, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE S&S (gray0): Final=718.7, Time=92.2, Moves(32)=0.5, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:13] SCORE Deepseekers (red): Final=687.9, Time=85.6, Moves(31)=0.2, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:33:13] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:14] MOVE 160: The bandits (purple) 35->23 [0.01ms]
+[2026-05-22 10:33:14] SCORE Gruppe 69 (yellow): Final=960.6, Time=96.1, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE The bandits (purple): Final=708.0, Time=93.5, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE S&S (gray0): Final=718.7, Time=92.2, Moves(32)=0.5, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Deepseekers (red): Final=687.9, Time=85.6, Moves(31)=0.2, Pins(3)=300.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:14] MOVE 161: Deepseekers (red) 77->39 [0.00ms]
+[2026-05-22 10:33:14] SCORE Gruppe 69 (yellow): Final=960.6, Time=96.1, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE The bandits (purple): Final=708.0, Time=93.5, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE AlphaZeroClue (lawn green): Final=580.3, Time=70.2, Moves(28)=0.0, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE S&S (gray0): Final=718.7, Time=92.2, Moves(32)=0.5, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:14] SCORE Deepseekers (red): Final=695.5, Time=85.0, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:14] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:16] MOVE 162: AlphaZeroClue (lawn green) 111->115 [0.00ms]
+[2026-05-22 10:33:16] SCORE Gruppe 69 (yellow): Final=960.6, Time=96.1, Moves(32)=0.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE The bandits (purple): Final=708.0, Time=93.5, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE AlphaZeroClue (lawn green): Final=576.5, Time=68.4, Moves(29)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE S&S (gray0): Final=718.7, Time=92.2, Moves(32)=0.5, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Deepseekers (red): Final=695.5, Time=85.0, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:16] MOVE 163: Gruppe 69 (yellow) 80->92 [0.00ms]
+[2026-05-22 10:33:16] SCORE Gruppe 69 (yellow): Final=963.1, Time=96.0, Moves(33)=1.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE The bandits (purple): Final=708.0, Time=93.5, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE AlphaZeroClue (lawn green): Final=576.5, Time=68.4, Moves(29)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE S&S (gray0): Final=718.7, Time=92.2, Moves(32)=0.5, Pins(3)=300.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Deepseekers (red): Final=695.5, Time=85.0, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:16] MOVE 164: S&S (gray0) 78->80 [0.00ms]
+[2026-05-22 10:33:16] SCORE Gruppe 69 (yellow): Final=963.1, Time=96.0, Moves(33)=1.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE The bandits (purple): Final=708.0, Time=93.5, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE AlphaZeroClue (lawn green): Final=576.5, Time=68.4, Moves(29)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE S&S (gray0): Final=723.1, Time=92.0, Moves(33)=1.1, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:16] SCORE Deepseekers (red): Final=695.5, Time=85.0, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:16] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:17] MOVE 165: The bandits (purple) 61->13 [0.01ms]
+[2026-05-22 10:33:17] SCORE Gruppe 69 (yellow): Final=963.1, Time=96.0, Moves(33)=1.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE The bandits (purple): Final=820.3, Time=93.2, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE AlphaZeroClue (lawn green): Final=576.5, Time=68.4, Moves(29)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE S&S (gray0): Final=723.1, Time=92.0, Moves(33)=1.1, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Deepseekers (red): Final=695.5, Time=85.0, Moves(32)=0.5, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:17] MOVE 166: Deepseekers (red) 118->68 [0.00ms]
+[2026-05-22 10:33:17] SCORE Gruppe 69 (yellow): Final=963.1, Time=96.0, Moves(33)=1.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE The bandits (purple): Final=820.3, Time=93.2, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE AlphaZeroClue (lawn green): Final=576.5, Time=68.4, Moves(29)=0.0, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE S&S (gray0): Final=723.1, Time=92.0, Moves(33)=1.1, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:17] SCORE Deepseekers (red): Final=707.4, Time=84.3, Moves(33)=1.1, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:17] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:19] MOVE 167: AlphaZeroClue (lawn green) 115->118 [0.01ms]
+[2026-05-22 10:33:19] SCORE Gruppe 69 (yellow): Final=963.1, Time=96.0, Moves(33)=1.1, Pins(5)=500.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE The bandits (purple): Final=820.3, Time=93.2, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE AlphaZeroClue (lawn green): Final=572.7, Time=66.6, Moves(30)=0.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE S&S (gray0): Final=723.1, Time=92.0, Moves(33)=1.1, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Deepseekers (red): Final=707.4, Time=84.3, Moves(33)=1.1, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:19] MOVE 168: Gruppe 69 (yellow) 92->94 [0.00ms]
+[2026-05-22 10:33:19] SCORE Gruppe 69 (yellow): Final=968.1, Time=95.8, Moves(34)=2.3, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE The bandits (purple): Final=820.3, Time=93.2, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE AlphaZeroClue (lawn green): Final=572.7, Time=66.6, Moves(30)=0.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE S&S (gray0): Final=723.1, Time=92.0, Moves(33)=1.1, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Deepseekers (red): Final=707.4, Time=84.3, Moves(33)=1.1, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:19] MOVE 169: S&S (gray0) 93->111 [0.00ms]
+[2026-05-22 10:33:19] SCORE Gruppe 69 (yellow): Final=968.1, Time=95.8, Moves(34)=2.3, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE The bandits (purple): Final=820.3, Time=93.2, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE AlphaZeroClue (lawn green): Final=572.7, Time=66.6, Moves(30)=0.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE S&S (gray0): Final=716.1, Time=91.8, Moves(34)=2.3, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:19] SCORE Deepseekers (red): Final=707.4, Time=84.3, Moves(33)=1.1, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:19] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 170: The bandits (purple) 79->77 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=968.1, Time=95.8, Moves(34)=2.3, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=825.4, Time=93.2, Moves(34)=2.3, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=572.7, Time=66.6, Moves(30)=0.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=716.1, Time=91.8, Moves(34)=2.3, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=707.4, Time=84.3, Moves(33)=1.1, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 171: Deepseekers (red) 103->91 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=968.1, Time=95.8, Moves(34)=2.3, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=825.4, Time=93.2, Moves(34)=2.3, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=572.7, Time=66.6, Moves(30)=0.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=716.1, Time=91.8, Moves(34)=2.3, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=710.6, Time=84.3, Moves(34)=2.3, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 172: AlphaZeroClue (lawn green) 37->47 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=968.1, Time=95.8, Moves(34)=2.3, Pins(5)=500.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=825.4, Time=93.2, Moves(34)=2.3, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=574.8, Time=66.6, Moves(31)=0.2, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=716.1, Time=91.8, Moves(34)=2.3, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=710.6, Time=84.3, Moves(34)=2.3, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 173: Gruppe 69 (yellow) 51->61 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=972.1, Time=95.7, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=825.4, Time=93.2, Moves(34)=2.3, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=574.8, Time=66.6, Moves(31)=0.2, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=716.1, Time=91.8, Moves(34)=2.3, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=710.6, Time=84.3, Moves(34)=2.3, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 174: S&S (gray0) 76->40 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=972.1, Time=95.7, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=825.4, Time=93.2, Moves(34)=2.3, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=574.8, Time=66.6, Moves(31)=0.2, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=729.9, Time=91.5, Moves(35)=4.4, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=710.6, Time=84.3, Moves(34)=2.3, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:20] MOVE 175: The bandits (purple) 81->10 [0.00ms]
+[2026-05-22 10:33:20] SCORE Gruppe 69 (yellow): Final=972.1, Time=95.7, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE The bandits (purple): Final=941.2, Time=92.9, Moves(35)=4.4, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE AlphaZeroClue (lawn green): Final=574.8, Time=66.6, Moves(31)=0.2, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE S&S (gray0): Final=729.9, Time=91.5, Moves(35)=4.4, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:20] SCORE Deepseekers (red): Final=710.6, Time=84.3, Moves(34)=2.3, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:33:20] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:21] MOVE 176: Deepseekers (red) 39->3 [0.00ms]
+[2026-05-22 10:33:21] SCORE Gruppe 69 (yellow): Final=972.1, Time=95.7, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE The bandits (purple): Final=941.2, Time=92.9, Moves(35)=4.4, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE AlphaZeroClue (lawn green): Final=574.8, Time=66.6, Moves(31)=0.2, Pins(2)=200.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE S&S (gray0): Final=729.9, Time=91.5, Moves(35)=4.4, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE Deepseekers (red): Final=818.1, Time=83.7, Moves(35)=4.4, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:21] MOVE 177: AlphaZeroClue (lawn green) 62->75 [0.00ms]
+[2026-05-22 10:33:21] SCORE Gruppe 69 (yellow): Final=972.1, Time=95.7, Moves(35)=4.4, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE The bandits (purple): Final=941.2, Time=92.9, Moves(35)=4.4, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE AlphaZeroClue (lawn green): Final=688.7, Time=66.2, Moves(32)=0.5, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE S&S (gray0): Final=729.9, Time=91.5, Moves(35)=4.4, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE Deepseekers (red): Final=818.1, Time=83.7, Moves(35)=4.4, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:21] MOVE 178: Gruppe 69 (yellow) 43->110 [0.00ms]
+[2026-05-22 10:33:21] SCORE Gruppe 69 (yellow): Final=1081.6, Time=95.6, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE The bandits (purple): Final=941.2, Time=92.9, Moves(35)=4.4, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE AlphaZeroClue (lawn green): Final=688.7, Time=66.2, Moves(32)=0.5, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE S&S (gray0): Final=729.9, Time=91.5, Moves(35)=4.4, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:21] SCORE Deepseekers (red): Final=818.1, Time=83.7, Moves(35)=4.4, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:21] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:22] MOVE 179: S&S (gray0) 40->29 [0.00ms]
+[2026-05-22 10:33:22] SCORE Gruppe 69 (yellow): Final=1081.6, Time=95.6, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE The bandits (purple): Final=941.2, Time=92.9, Moves(35)=4.4, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE AlphaZeroClue (lawn green): Final=688.7, Time=66.2, Moves(32)=0.5, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE S&S (gray0): Final=735.3, Time=91.4, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE Deepseekers (red): Final=818.1, Time=83.7, Moves(35)=4.4, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:22] MOVE 180: The bandits (purple) 30->28 [0.00ms]
+[2026-05-22 10:33:22] SCORE Gruppe 69 (yellow): Final=1081.6, Time=95.6, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE The bandits (purple): Final=948.6, Time=92.7, Moves(36)=8.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE AlphaZeroClue (lawn green): Final=688.7, Time=66.2, Moves(32)=0.5, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE S&S (gray0): Final=735.3, Time=91.4, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE Deepseekers (red): Final=818.1, Time=83.7, Moves(35)=4.4, Pins(4)=400.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:22] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:22] MOVE 181: Deepseekers (red) 53->30 [0.00ms]
+[2026-05-22 10:33:22] SCORE Gruppe 69 (yellow): Final=1081.6, Time=95.6, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE The bandits (purple): Final=948.6, Time=92.7, Moves(36)=8.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE AlphaZeroClue (lawn green): Final=688.7, Time=66.2, Moves(32)=0.5, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE S&S (gray0): Final=735.3, Time=91.4, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:22] SCORE Deepseekers (red): Final=825.0, Time=83.1, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:23] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:24] MOVE 182: AlphaZeroClue (lawn green) 47->86 [0.00ms]
+[2026-05-22 10:33:24] SCORE Gruppe 69 (yellow): Final=1081.6, Time=95.6, Moves(36)=8.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE The bandits (purple): Final=948.6, Time=92.7, Moves(36)=8.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE AlphaZeroClue (lawn green): Final=791.4, Time=64.3, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE S&S (gray0): Final=735.3, Time=91.4, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE Deepseekers (red): Final=825.0, Time=83.1, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:24] MOVE 183: Gruppe 69 (yellow) 31->43 [0.00ms]
+[2026-05-22 10:33:24] SCORE Gruppe 69 (yellow): Final=1089.0, Time=95.5, Moves(37)=13.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE The bandits (purple): Final=948.6, Time=92.7, Moves(36)=8.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE AlphaZeroClue (lawn green): Final=791.4, Time=64.3, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE S&S (gray0): Final=735.3, Time=91.4, Moves(36)=8.0, Pins(3)=300.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:33:24] SCORE Deepseekers (red): Final=825.0, Time=83.1, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:24] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:25] MOVE 184: S&S (gray0) 29->33 [0.00ms]
+[2026-05-22 10:33:25] SCORE Gruppe 69 (yellow): Final=1089.0, Time=95.5, Moves(37)=13.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE The bandits (purple): Final=948.6, Time=92.7, Moves(36)=8.0, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE AlphaZeroClue (lawn green): Final=791.4, Time=64.3, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE S&S (gray0): Final=846.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE Deepseekers (red): Final=825.0, Time=83.1, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:25] MOVE 185: The bandits (purple) 54->25 [0.00ms]
+[2026-05-22 10:33:25] SCORE Gruppe 69 (yellow): Final=1089.0, Time=95.5, Moves(37)=13.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE The bandits (purple): Final=1070.1, Time=92.5, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE AlphaZeroClue (lawn green): Final=791.4, Time=64.3, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE S&S (gray0): Final=846.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:25] SCORE Deepseekers (red): Final=825.0, Time=83.1, Moves(36)=8.0, Pins(4)=400.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:25] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:26] MOVE 186: Deepseekers (red) 73->51 [0.01ms]
+[2026-05-22 10:33:26] SCORE Gruppe 69 (yellow): Final=1089.0, Time=95.5, Moves(37)=13.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:26] SCORE The bandits (purple): Final=1070.1, Time=92.5, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:26] SCORE AlphaZeroClue (lawn green): Final=791.4, Time=64.3, Moves(33)=1.1, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:33:26] SCORE S&S (gray0): Final=846.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:26] SCORE Deepseekers (red): Final=833.8, Time=82.3, Moves(37)=13.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:26] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:28] MOVE 187: AlphaZeroClue (lawn green) 52->89 [0.00ms]
+[2026-05-22 10:33:28] SCORE Gruppe 69 (yellow): Final=1089.0, Time=95.5, Moves(37)=13.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE The bandits (purple): Final=1070.1, Time=92.5, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE AlphaZeroClue (lawn green): Final=802.8, Time=62.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE S&S (gray0): Final=846.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE Deepseekers (red): Final=833.8, Time=82.3, Moves(37)=13.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:28] MOVE 188: Gruppe 69 (yellow) 43->85 [0.00ms]
+[2026-05-22 10:33:28] SCORE Gruppe 69 (yellow): Final=1203.0, Time=95.4, Moves(38)=21.6, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE The bandits (purple): Final=1070.1, Time=92.5, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE AlphaZeroClue (lawn green): Final=802.8, Time=62.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE S&S (gray0): Final=846.6, Time=91.1, Moves(37)=13.5, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE Deepseekers (red): Final=833.8, Time=82.3, Moves(37)=13.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:28] MOVE 189: S&S (gray0) 16->22 [0.00ms]
+[2026-05-22 10:33:28] SCORE Gruppe 69 (yellow): Final=1203.0, Time=95.4, Moves(38)=21.6, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE The bandits (purple): Final=1070.1, Time=92.5, Moves(37)=13.5, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE AlphaZeroClue (lawn green): Final=802.8, Time=62.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE S&S (gray0): Final=960.4, Time=90.8, Moves(38)=21.6, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE Deepseekers (red): Final=833.8, Time=82.3, Moves(37)=13.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:28] MOVE 190: The bandits (purple) 64->56 [0.00ms]
+[2026-05-22 10:33:28] SCORE Gruppe 69 (yellow): Final=1203.0, Time=95.4, Moves(38)=21.6, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE The bandits (purple): Final=1093.7, Time=92.1, Moves(38)=21.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE AlphaZeroClue (lawn green): Final=802.8, Time=62.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE S&S (gray0): Final=960.4, Time=90.8, Moves(38)=21.6, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:28] SCORE Deepseekers (red): Final=833.8, Time=82.3, Moves(37)=13.5, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:28] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:29] MOVE 191: Deepseekers (red) 91->31 [0.00ms]
+[2026-05-22 10:33:29] SCORE Gruppe 69 (yellow): Final=1203.0, Time=95.4, Moves(38)=21.6, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:29] SCORE The bandits (purple): Final=1093.7, Time=92.1, Moves(38)=21.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:29] SCORE AlphaZeroClue (lawn green): Final=802.8, Time=62.5, Moves(34)=2.3, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:29] SCORE S&S (gray0): Final=960.4, Time=90.8, Moves(38)=21.6, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:29] SCORE Deepseekers (red): Final=853.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:29] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 192: AlphaZeroClue (lawn green) 42->40 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1203.0, Time=95.4, Moves(38)=21.6, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1093.7, Time=92.1, Moves(38)=21.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=807.1, Time=60.8, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=960.4, Time=90.8, Moves(38)=21.6, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=853.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 193: Gruppe 69 (yellow) 61->62 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1215.7, Time=95.2, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1093.7, Time=92.1, Moves(38)=21.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=807.1, Time=60.8, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=960.4, Time=90.8, Moves(38)=21.6, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=853.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 194: S&S (gray0) 96->108 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1215.7, Time=95.2, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1093.7, Time=92.1, Moves(38)=21.6, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=807.1, Time=60.8, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=969.2, Time=90.7, Moves(39)=32.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=853.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 195: The bandits (purple) 56->47 [0.01ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1215.7, Time=95.2, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1104.4, Time=92.0, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=807.1, Time=60.8, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=969.2, Time=90.7, Moves(39)=32.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=853.2, Time=81.6, Moves(38)=21.6, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 196: Deepseekers (red) 6->15 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1215.7, Time=95.2, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1104.4, Time=92.0, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=807.1, Time=60.8, Moves(35)=4.4, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=969.2, Time=90.7, Moves(39)=32.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=761.9, Time=81.5, Moves(39)=32.5, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 197: AlphaZeroClue (lawn green) 65->56 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1215.7, Time=95.2, Moves(39)=32.5, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1104.4, Time=92.0, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=708.6, Time=60.7, Moves(36)=8.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=969.2, Time=90.7, Moves(39)=32.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=761.9, Time=81.5, Moves(39)=32.5, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:31] MOVE 198: Gruppe 69 (yellow) 62->83 [0.00ms]
+[2026-05-22 10:33:31] SCORE Gruppe 69 (yellow): Final=1232.8, Time=95.0, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE The bandits (purple): Final=1104.4, Time=92.0, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE AlphaZeroClue (lawn green): Final=708.6, Time=60.7, Moves(36)=8.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE S&S (gray0): Final=969.2, Time=90.7, Moves(39)=32.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:33:31] SCORE Deepseekers (red): Final=761.9, Time=81.5, Moves(39)=32.5, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:31] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:32] MOVE 199: S&S (gray0) 72->54 [0.00ms]
+[2026-05-22 10:33:32] SCORE Gruppe 69 (yellow): Final=1232.8, Time=95.0, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE The bandits (purple): Final=1104.4, Time=92.0, Moves(39)=32.5, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE AlphaZeroClue (lawn green): Final=708.6, Time=60.7, Moves(36)=8.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE S&S (gray0): Final=986.3, Time=90.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE Deepseekers (red): Final=761.9, Time=81.5, Moves(39)=32.5, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:32] MOVE 200: The bandits (purple) 12->11 [0.01ms]
+[2026-05-22 10:33:32] SCORE Gruppe 69 (yellow): Final=1232.8, Time=95.0, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE The bandits (purple): Final=1117.5, Time=91.7, Moves(40)=45.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE AlphaZeroClue (lawn green): Final=708.6, Time=60.7, Moves(36)=8.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE S&S (gray0): Final=986.3, Time=90.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:32] SCORE Deepseekers (red): Final=761.9, Time=81.5, Moves(39)=32.5, Pins(3)=300.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:33:32] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:33] MOVE 201: Deepseekers (red) 15->4 [0.01ms]
+[2026-05-22 10:33:33] SCORE Gruppe 69 (yellow): Final=1232.8, Time=95.0, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:33] SCORE The bandits (purple): Final=1117.5, Time=91.7, Moves(40)=45.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:33] SCORE AlphaZeroClue (lawn green): Final=708.6, Time=60.7, Moves(36)=8.0, Pins(3)=300.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:33:33] SCORE S&S (gray0): Final=986.3, Time=90.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:33] SCORE Deepseekers (red): Final=876.5, Time=80.7, Moves(40)=45.8, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:33] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:35] MOVE 202: AlphaZeroClue (lawn green) 19->42 [0.00ms]
+[2026-05-22 10:33:35] SCORE Gruppe 69 (yellow): Final=1232.8, Time=95.0, Moves(40)=45.8, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE The bandits (purple): Final=1117.5, Time=91.7, Moves(40)=45.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE AlphaZeroClue (lawn green): Final=716.3, Time=58.8, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE S&S (gray0): Final=986.3, Time=90.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE Deepseekers (red): Final=876.5, Time=80.7, Moves(40)=45.8, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:35] MOVE 203: Gruppe 69 (yellow) 94->96 [0.00ms]
+[2026-05-22 10:33:35] SCORE Gruppe 69 (yellow): Final=1349.6, Time=94.9, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE The bandits (purple): Final=1117.5, Time=91.7, Moves(40)=45.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE AlphaZeroClue (lawn green): Final=716.3, Time=58.8, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE S&S (gray0): Final=986.3, Time=90.5, Moves(40)=45.8, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE Deepseekers (red): Final=876.5, Time=80.7, Moves(40)=45.8, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:35] MOVE 204: S&S (gray0) 54->44 [0.00ms]
+[2026-05-22 10:33:35] SCORE Gruppe 69 (yellow): Final=1349.6, Time=94.9, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE The bandits (purple): Final=1117.5, Time=91.7, Moves(40)=45.8, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE AlphaZeroClue (lawn green): Final=716.3, Time=58.8, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE S&S (gray0): Final=1103.1, Time=90.4, Moves(41)=60.7, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE Deepseekers (red): Final=876.5, Time=80.7, Moves(40)=45.8, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:35] MOVE 205: The bandits (purple) 47->36 [0.01ms]
+[2026-05-22 10:33:35] SCORE Gruppe 69 (yellow): Final=1349.6, Time=94.9, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE The bandits (purple): Final=1234.1, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE AlphaZeroClue (lawn green): Final=716.3, Time=58.8, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE S&S (gray0): Final=1103.1, Time=90.4, Moves(41)=60.7, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:35] SCORE Deepseekers (red): Final=876.5, Time=80.7, Moves(40)=45.8, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:33:35] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:36] MOVE 206: Deepseekers (red) 30->17 [0.00ms]
+[2026-05-22 10:33:36] SCORE Gruppe 69 (yellow): Final=1349.6, Time=94.9, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:36] SCORE The bandits (purple): Final=1234.1, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:36] SCORE AlphaZeroClue (lawn green): Final=716.3, Time=58.8, Moves(37)=13.5, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:33:36] SCORE S&S (gray0): Final=1103.1, Time=90.4, Moves(41)=60.7, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:36] SCORE Deepseekers (red): Final=892.5, Time=79.8, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:36] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:38] MOVE 207: AlphaZeroClue (lawn green) 89->52 [0.00ms]
+[2026-05-22 10:33:38] SCORE Gruppe 69 (yellow): Final=1349.6, Time=94.9, Moves(41)=60.7, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE The bandits (purple): Final=1234.1, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE AlphaZeroClue (lawn green): Final=710.5, Time=56.9, Moves(38)=21.6, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE S&S (gray0): Final=1103.1, Time=90.4, Moves(41)=60.7, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE Deepseekers (red): Final=892.5, Time=79.8, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:38] MOVE 208: Gruppe 69 (yellow) 63->73 [0.00ms]
+[2026-05-22 10:33:38] SCORE Gruppe 69 (yellow): Final=1366.3, Time=94.8, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE The bandits (purple): Final=1234.1, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE AlphaZeroClue (lawn green): Final=710.5, Time=56.9, Moves(38)=21.6, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE S&S (gray0): Final=1103.1, Time=90.4, Moves(41)=60.7, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE Deepseekers (red): Final=892.5, Time=79.8, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:38] MOVE 209: S&S (gray0) 111->103 [0.00ms]
+[2026-05-22 10:33:38] SCORE Gruppe 69 (yellow): Final=1366.3, Time=94.8, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE The bandits (purple): Final=1234.1, Time=91.4, Moves(41)=60.7, Pins(7)=700.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE AlphaZeroClue (lawn green): Final=710.5, Time=56.9, Moves(38)=21.6, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE S&S (gray0): Final=1119.8, Time=90.3, Moves(42)=75.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE Deepseekers (red): Final=892.5, Time=79.8, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:38] MOVE 210: The bandits (purple) 77->66 [0.00ms]
+[2026-05-22 10:33:38] SCORE Gruppe 69 (yellow): Final=1366.3, Time=94.8, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE The bandits (purple): Final=1250.7, Time=91.2, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE AlphaZeroClue (lawn green): Final=710.5, Time=56.9, Moves(38)=21.6, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE S&S (gray0): Final=1119.8, Time=90.3, Moves(42)=75.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:38] SCORE Deepseekers (red): Final=892.5, Time=79.8, Moves(41)=60.7, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:38] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:39] MOVE 211: Deepseekers (red) 17->9 [0.00ms]
+[2026-05-22 10:33:39] SCORE Gruppe 69 (yellow): Final=1366.3, Time=94.8, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:39] SCORE The bandits (purple): Final=1250.7, Time=91.2, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:39] SCORE AlphaZeroClue (lawn green): Final=710.5, Time=56.9, Moves(38)=21.6, Pins(3)=300.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:33:39] SCORE S&S (gray0): Final=1119.8, Time=90.3, Moves(42)=75.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:39] SCORE Deepseekers (red): Final=1008.7, Time=79.2, Moves(42)=75.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:39] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:41] MOVE 212: AlphaZeroClue (lawn green) 118->120 [0.00ms]
+[2026-05-22 10:33:41] SCORE Gruppe 69 (yellow): Final=1366.3, Time=94.8, Moves(42)=75.5, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE The bandits (purple): Final=1250.7, Time=91.2, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE AlphaZeroClue (lawn green): Final=717.5, Time=55.0, Moves(39)=32.5, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE S&S (gray0): Final=1119.8, Time=90.3, Moves(42)=75.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE Deepseekers (red): Final=1008.7, Time=79.2, Moves(42)=75.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:41] MOVE 213: Gruppe 69 (yellow) 96->109 [0.01ms]
+[2026-05-22 10:33:41] SCORE Gruppe 69 (yellow): Final=1378.9, Time=94.7, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE The bandits (purple): Final=1250.7, Time=91.2, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE AlphaZeroClue (lawn green): Final=717.5, Time=55.0, Moves(39)=32.5, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE S&S (gray0): Final=1119.8, Time=90.3, Moves(42)=75.5, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE Deepseekers (red): Final=1008.7, Time=79.2, Moves(42)=75.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:41] MOVE 214: S&S (gray0) 103->91 [0.00ms]
+[2026-05-22 10:33:41] SCORE Gruppe 69 (yellow): Final=1378.9, Time=94.7, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE The bandits (purple): Final=1250.7, Time=91.2, Moves(42)=75.5, Pins(7)=700.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE AlphaZeroClue (lawn green): Final=717.5, Time=55.0, Moves(39)=32.5, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE S&S (gray0): Final=1134.3, Time=90.0, Moves(43)=88.2, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:41] SCORE Deepseekers (red): Final=1008.7, Time=79.2, Moves(42)=75.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:41] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:42] MOVE 215: The bandits (purple) 28->27 [0.01ms]
+[2026-05-22 10:33:42] SCORE Gruppe 69 (yellow): Final=1378.9, Time=94.7, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE The bandits (purple): Final=1265.1, Time=90.9, Moves(43)=88.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE AlphaZeroClue (lawn green): Final=717.5, Time=55.0, Moves(39)=32.5, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE S&S (gray0): Final=1134.3, Time=90.0, Moves(43)=88.2, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE Deepseekers (red): Final=1008.7, Time=79.2, Moves(42)=75.5, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:42] MOVE 216: Deepseekers (red) 51->28 [0.01ms]
+[2026-05-22 10:33:42] SCORE Gruppe 69 (yellow): Final=1378.9, Time=94.7, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE The bandits (purple): Final=1265.1, Time=90.9, Moves(43)=88.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE AlphaZeroClue (lawn green): Final=717.5, Time=55.0, Moves(39)=32.5, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE S&S (gray0): Final=1134.3, Time=90.0, Moves(43)=88.2, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:42] SCORE Deepseekers (red): Final=1024.7, Time=78.4, Moves(43)=88.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:42] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:44] MOVE 217: AlphaZeroClue (lawn green) 82->61 [0.01ms]
+[2026-05-22 10:33:44] SCORE Gruppe 69 (yellow): Final=1378.9, Time=94.7, Moves(43)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE The bandits (purple): Final=1265.1, Time=90.9, Moves(43)=88.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE AlphaZeroClue (lawn green): Final=729.0, Time=53.2, Moves(40)=45.8, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE S&S (gray0): Final=1134.3, Time=90.0, Moves(43)=88.2, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE Deepseekers (red): Final=1024.7, Time=78.4, Moves(43)=88.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:44] MOVE 218: Gruppe 69 (yellow) 73->96 [0.00ms]
+[2026-05-22 10:33:44] SCORE Gruppe 69 (yellow): Final=1489.5, Time=94.6, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE The bandits (purple): Final=1265.1, Time=90.9, Moves(43)=88.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE AlphaZeroClue (lawn green): Final=729.0, Time=53.2, Moves(40)=45.8, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE S&S (gray0): Final=1134.3, Time=90.0, Moves(43)=88.2, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE Deepseekers (red): Final=1024.7, Time=78.4, Moves(43)=88.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:44] MOVE 219: S&S (gray0) 91->104 [0.00ms]
+[2026-05-22 10:33:44] SCORE Gruppe 69 (yellow): Final=1489.5, Time=94.6, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE The bandits (purple): Final=1265.1, Time=90.9, Moves(43)=88.2, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE AlphaZeroClue (lawn green): Final=729.0, Time=53.2, Moves(40)=45.8, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE S&S (gray0): Final=1142.9, Time=90.0, Moves(44)=96.9, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE Deepseekers (red): Final=1024.7, Time=78.4, Moves(43)=88.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:44] MOVE 220: The bandits (purple) 10->20 [0.00ms]
+[2026-05-22 10:33:44] SCORE Gruppe 69 (yellow): Final=1489.5, Time=94.6, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE The bandits (purple): Final=1159.7, Time=90.8, Moves(44)=96.9, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE AlphaZeroClue (lawn green): Final=729.0, Time=53.2, Moves(40)=45.8, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE S&S (gray0): Final=1142.9, Time=90.0, Moves(44)=96.9, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE Deepseekers (red): Final=1024.7, Time=78.4, Moves(43)=88.2, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:33:44] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:44] MOVE 221: Deepseekers (red) 3->37 [0.00ms]
+[2026-05-22 10:33:44] SCORE Gruppe 69 (yellow): Final=1489.5, Time=94.6, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:44] SCORE The bandits (purple): Final=1159.7, Time=90.8, Moves(44)=96.9, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=729.0, Time=53.2, Moves(40)=45.8, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1142.9, Time=90.0, Moves(44)=96.9, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=927.3, Time=78.4, Moves(44)=96.9, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:45] MOVE 222: AlphaZeroClue (lawn green) 61->82 [0.00ms]
+[2026-05-22 10:33:45] SCORE Gruppe 69 (yellow): Final=1489.5, Time=94.6, Moves(44)=96.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE The bandits (purple): Final=1159.7, Time=90.8, Moves(44)=96.9, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=743.7, Time=53.1, Moves(41)=60.7, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1142.9, Time=90.0, Moves(44)=96.9, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=927.3, Time=78.4, Moves(44)=96.9, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:45] MOVE 223: Gruppe 69 (yellow) 83->64 [0.00ms]
+[2026-05-22 10:33:45] SCORE Gruppe 69 (yellow): Final=1492.5, Time=94.5, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE The bandits (purple): Final=1159.7, Time=90.8, Moves(44)=96.9, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=743.7, Time=53.1, Moves(41)=60.7, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1142.9, Time=90.0, Moves(44)=96.9, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=927.3, Time=78.4, Moves(44)=96.9, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:45] MOVE 224: S&S (gray0) 108->45 [0.00ms]
+[2026-05-22 10:33:45] SCORE Gruppe 69 (yellow): Final=1492.5, Time=94.5, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE The bandits (purple): Final=1159.7, Time=90.8, Moves(44)=96.9, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=743.7, Time=53.1, Moves(41)=60.7, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1255.8, Time=89.8, Moves(45)=100.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=927.3, Time=78.4, Moves(44)=96.9, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:45] MOVE 225: The bandits (purple) 20->10 [0.00ms]
+[2026-05-22 10:33:45] SCORE Gruppe 69 (yellow): Final=1492.5, Time=94.5, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE The bandits (purple): Final=1276.7, Time=90.7, Moves(45)=100.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=743.7, Time=53.1, Moves(41)=60.7, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1255.8, Time=89.8, Moves(45)=100.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=927.3, Time=78.4, Moves(44)=96.9, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:45] MOVE 226: Deepseekers (red) 31->18 [0.00ms]
+[2026-05-22 10:33:45] SCORE Gruppe 69 (yellow): Final=1492.5, Time=94.5, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE The bandits (purple): Final=1276.7, Time=90.7, Moves(45)=100.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE AlphaZeroClue (lawn green): Final=743.7, Time=53.1, Moves(41)=60.7, Pins(3)=300.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE S&S (gray0): Final=1255.8, Time=89.8, Moves(45)=100.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:45] SCORE Deepseekers (red): Final=932.3, Time=78.3, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:45] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:46] MOVE 227: AlphaZeroClue (lawn green) 40->78 [0.00ms]
+[2026-05-22 10:33:46] SCORE Gruppe 69 (yellow): Final=1492.5, Time=94.5, Moves(45)=100.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE The bandits (purple): Final=1276.7, Time=90.7, Moves(45)=100.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE AlphaZeroClue (lawn green): Final=765.4, Time=51.9, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE S&S (gray0): Final=1255.8, Time=89.8, Moves(45)=100.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE Deepseekers (red): Final=932.3, Time=78.3, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:46] MOVE 228: Gruppe 69 (yellow) 85->108 [0.00ms]
+[2026-05-22 10:33:46] SCORE Gruppe 69 (yellow): Final=1492.2, Time=94.4, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE The bandits (purple): Final=1276.7, Time=90.7, Moves(45)=100.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE AlphaZeroClue (lawn green): Final=765.4, Time=51.9, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE S&S (gray0): Final=1255.8, Time=89.8, Moves(45)=100.0, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE Deepseekers (red): Final=932.3, Time=78.3, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:46] MOVE 229: S&S (gray0) 45->3 [0.00ms]
+[2026-05-22 10:33:46] SCORE Gruppe 69 (yellow): Final=1492.2, Time=94.4, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE The bandits (purple): Final=1276.7, Time=90.7, Moves(45)=100.0, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE AlphaZeroClue (lawn green): Final=765.4, Time=51.9, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE S&S (gray0): Final=1145.5, Time=89.7, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:46] SCORE Deepseekers (red): Final=932.3, Time=78.3, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:46] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:47] MOVE 230: The bandits (purple) 27->38 [0.00ms]
+[2026-05-22 10:33:47] SCORE Gruppe 69 (yellow): Final=1492.2, Time=94.4, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE The bandits (purple): Final=1276.5, Time=90.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE AlphaZeroClue (lawn green): Final=765.4, Time=51.9, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE S&S (gray0): Final=1145.5, Time=89.7, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE Deepseekers (red): Final=932.3, Time=78.3, Moves(45)=100.0, Pins(4)=400.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:33:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:47] MOVE 231: Deepseekers (red) 37->48 [0.00ms]
+[2026-05-22 10:33:47] SCORE Gruppe 69 (yellow): Final=1492.2, Time=94.4, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE The bandits (purple): Final=1276.5, Time=90.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE AlphaZeroClue (lawn green): Final=765.4, Time=51.9, Moves(42)=75.5, Pins(3)=300.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE S&S (gray0): Final=1145.5, Time=89.7, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE Deepseekers (red): Final=930.1, Time=78.2, Moves(46)=99.8, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:47] MOVE 232: AlphaZeroClue (lawn green) 56->37 [0.00ms]
+[2026-05-22 10:33:47] SCORE Gruppe 69 (yellow): Final=1492.2, Time=94.4, Moves(46)=99.8, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE The bandits (purple): Final=1276.5, Time=90.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE AlphaZeroClue (lawn green): Final=774.1, Time=51.9, Moves(43)=88.2, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE S&S (gray0): Final=1145.5, Time=89.7, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE Deepseekers (red): Final=930.1, Time=78.2, Moves(46)=99.8, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}
+[2026-05-22 10:33:47] MOVE 233: Gruppe 69 (yellow) 64->85 [0.00ms]
+[2026-05-22 10:33:47] SCORE Gruppe 69 (yellow): Final=2593.7, Time=94.3, Moves(47)=99.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:33:47] SCORE The bandits (purple): Final=1276.5, Time=90.7, Moves(46)=99.8, Pins(7)=700.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE AlphaZeroClue (lawn green): Final=774.1, Time=51.9, Moves(43)=88.2, Pins(3)=300.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE S&S (gray0): Final=1145.5, Time=89.7, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:33:47] SCORE Deepseekers (red): Final=930.1, Time=78.2, Moves(46)=99.8, Pins(4)=400.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:33:47] ALL WRONG MOVES BY COLOUR: {'lawn green': ['35 (illegal move)', '56 (turn timeout)', '151 (illegal move)', '152 (turn timeout)', '157 (turn timeout)']}

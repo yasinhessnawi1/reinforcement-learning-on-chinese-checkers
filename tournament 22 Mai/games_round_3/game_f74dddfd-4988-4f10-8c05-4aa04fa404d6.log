@@ -1,0 +1,532 @@
+[2026-05-22 10:25:36] GAME CREATED
+[2026-05-22 10:25:49] PLAYER JOINED: CybSec as red
+[2026-05-22 10:25:49] PLAYER JOINED: Deepseekers as blue
+[2026-05-22 10:25:49] PLAYER START: CybSec (red)
+[2026-05-22 10:25:49] PLAYER START: Deepseekers (blue)
+[2026-05-22 10:25:49] GAME START — turn order ['red', 'blue']
+[2026-05-22 10:25:49] PLAYER START: CybSec (red)
+[2026-05-22 10:25:49] PLAYER START: Deepseekers (blue)
+[2026-05-22 10:25:49] MOVE 1: CybSec (red) 113->105 [0.00ms]
+[2026-05-22 10:25:49] SCORE CybSec (red): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:25:49] SCORE Deepseekers (blue): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:25:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:50] MOVE 2: Deepseekers (blue) 4->17 [0.00ms]
+[2026-05-22 10:25:50] SCORE CybSec (red): Final=281.8, Time=99.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:25:50] SCORE Deepseekers (blue): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:25:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:50] MOVE 3: CybSec (red) 116->103 [0.00ms]
+[2026-05-22 10:25:50] SCORE CybSec (red): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:25:50] SCORE Deepseekers (blue): Final=283.3, Time=99.3, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:25:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:51] MOVE 4: Deepseekers (blue) 3->18 [0.00ms]
+[2026-05-22 10:25:51] SCORE CybSec (red): Final=285.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=186.0, Win Bonus=0.0
+[2026-05-22 10:25:51] SCORE Deepseekers (blue): Final=286.6, Time=98.6, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:25:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:51] MOVE 5: CybSec (red) 115->106 [0.00ms]
+[2026-05-22 10:25:51] SCORE CybSec (red): Final=289.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:25:51] SCORE Deepseekers (blue): Final=286.6, Time=98.6, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:25:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:52] MOVE 6: Deepseekers (blue) 0->14 [0.01ms]
+[2026-05-22 10:25:52] SCORE CybSec (red): Final=289.2, Time=99.2, Moves(3)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:25:52] SCORE Deepseekers (blue): Final=294.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:25:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:52] MOVE 7: CybSec (red) 120->102 [0.01ms]
+[2026-05-22 10:25:53] SCORE CybSec (red): Final=296.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:25:53] SCORE Deepseekers (blue): Final=294.0, Time=98.0, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:25:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:53] MOVE 8: Deepseekers (blue) 5->16 [0.01ms]
+[2026-05-22 10:25:53] SCORE CybSec (red): Final=296.7, Time=98.7, Moves(4)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:25:53] SCORE Deepseekers (blue): Final=297.5, Time=97.5, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:25:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:54] MOVE 9: CybSec (red) 112->90 [0.01ms]
+[2026-05-22 10:25:54] SCORE CybSec (red): Final=300.1, Time=98.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:25:54] SCORE Deepseekers (blue): Final=297.5, Time=97.5, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:25:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:54] MOVE 10: Deepseekers (blue) 7->29 [0.01ms]
+[2026-05-22 10:25:54] SCORE CybSec (red): Final=300.1, Time=98.1, Moves(5)=0.0, Pins(0)=0.0, Dist=202.0, Win Bonus=0.0
+[2026-05-22 10:25:54] SCORE Deepseekers (blue): Final=300.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:25:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:55] MOVE 11: CybSec (red) 114->92 [0.01ms]
+[2026-05-22 10:25:55] SCORE CybSec (red): Final=303.7, Time=97.7, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:25:55] SCORE Deepseekers (blue): Final=300.8, Time=96.8, Moves(5)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:25:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:55] MOVE 12: Deepseekers (blue) 6->26 [0.01ms]
+[2026-05-22 10:25:55] SCORE CybSec (red): Final=303.7, Time=97.7, Moves(6)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:25:55] SCORE Deepseekers (blue): Final=304.1, Time=96.1, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:25:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:56] MOVE 13: CybSec (red) 119->114 [0.01ms]
+[2026-05-22 10:25:56] SCORE CybSec (red): Final=307.5, Time=97.5, Moves(7)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:25:56] SCORE Deepseekers (blue): Final=304.1, Time=96.1, Moves(6)=0.0, Pins(0)=0.0, Dist=208.0, Win Bonus=0.0
+[2026-05-22 10:25:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:56] MOVE 14: Deepseekers (blue) 8->28 [0.00ms]
+[2026-05-22 10:25:56] SCORE CybSec (red): Final=307.5, Time=97.5, Moves(7)=0.0, Pins(0)=0.0, Dist=210.0, Win Bonus=0.0
+[2026-05-22 10:25:56] SCORE Deepseekers (blue): Final=307.6, Time=95.6, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:25:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:56] MOVE 15: CybSec (red) 103->78 [0.00ms]
+[2026-05-22 10:25:56] SCORE CybSec (red): Final=311.1, Time=97.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:25:56] SCORE Deepseekers (blue): Final=307.6, Time=95.6, Moves(7)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:25:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:57] MOVE 16: Deepseekers (blue) 9->31 [0.01ms]
+[2026-05-22 10:25:57] SCORE CybSec (red): Final=311.1, Time=97.1, Moves(8)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:25:57] SCORE Deepseekers (blue): Final=311.2, Time=95.2, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:25:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:57] MOVE 17: CybSec (red) 111->68 [0.00ms]
+[2026-05-22 10:25:57] SCORE CybSec (red): Final=318.8, Time=96.8, Moves(9)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:25:57] SCORE Deepseekers (blue): Final=311.2, Time=95.2, Moves(8)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:25:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:58] MOVE 18: Deepseekers (blue) 17->40 [0.00ms]
+[2026-05-22 10:25:58] SCORE CybSec (red): Final=318.8, Time=96.8, Moves(9)=0.0, Pins(0)=0.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:25:58] SCORE Deepseekers (blue): Final=314.6, Time=94.6, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:25:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:58] MOVE 19: CybSec (red) 105->80 [0.00ms]
+[2026-05-22 10:25:58] SCORE CybSec (red): Final=322.6, Time=96.6, Moves(10)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:25:58] SCORE Deepseekers (blue): Final=314.6, Time=94.6, Moves(9)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:25:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:58] MOVE 20: Deepseekers (blue) 16->39 [0.00ms]
+[2026-05-22 10:25:58] SCORE CybSec (red): Final=322.6, Time=96.6, Moves(10)=0.0, Pins(0)=0.0, Dist=226.0, Win Bonus=0.0
+[2026-05-22 10:25:58] SCORE Deepseekers (blue): Final=318.2, Time=94.2, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:25:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:59] MOVE 21: CybSec (red) 118->115 [0.00ms]
+[2026-05-22 10:25:59] SCORE CybSec (red): Final=324.4, Time=96.4, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:25:59] SCORE Deepseekers (blue): Final=318.2, Time=94.2, Moves(10)=0.0, Pins(0)=0.0, Dist=224.0, Win Bonus=0.0
+[2026-05-22 10:25:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:59] MOVE 22: Deepseekers (blue) 29->50 [0.00ms]
+[2026-05-22 10:25:59] SCORE CybSec (red): Final=324.4, Time=96.4, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:25:59] SCORE Deepseekers (blue): Final=321.7, Time=93.7, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:25:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:25:59] MOVE 23: CybSec (red) 102->77 [0.00ms]
+[2026-05-22 10:25:59] SCORE CybSec (red): Final=328.2, Time=96.2, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:25:59] SCORE Deepseekers (blue): Final=321.7, Time=93.7, Moves(11)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:25:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:00] MOVE 24: Deepseekers (blue) 40->59 [0.01ms]
+[2026-05-22 10:26:00] SCORE CybSec (red): Final=328.2, Time=96.2, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:26:00] SCORE Deepseekers (blue): Final=325.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:26:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:00] MOVE 25: CybSec (red) 92->51 [0.00ms]
+[2026-05-22 10:26:00] SCORE CybSec (red): Final=335.9, Time=95.9, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:26:00] SCORE Deepseekers (blue): Final=325.2, Time=93.2, Moves(12)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:26:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:01] MOVE 26: Deepseekers (blue) 28->92 [0.00ms]
+[2026-05-22 10:26:01] SCORE CybSec (red): Final=335.9, Time=95.9, Moves(13)=0.0, Pins(0)=0.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:26:01] SCORE Deepseekers (blue): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:26:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:01] MOVE 27: CybSec (red) 90->28 [0.00ms]
+[2026-05-22 10:26:01] SCORE CybSec (red): Final=347.4, Time=95.4, Moves(14)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:26:01] SCORE Deepseekers (blue): Final=336.6, Time=92.6, Moves(13)=0.0, Pins(0)=0.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:26:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:02] MOVE 28: Deepseekers (blue) 39->104 [0.00ms]
+[2026-05-22 10:26:02] SCORE CybSec (red): Final=347.4, Time=95.4, Moves(14)=0.0, Pins(0)=0.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:26:02] SCORE Deepseekers (blue): Final=348.0, Time=92.0, Moves(14)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:26:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:02] MOVE 29: CybSec (red) 77->39 [0.00ms]
+[2026-05-22 10:26:02] SCORE CybSec (red): Final=355.1, Time=95.1, Moves(15)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:26:02] SCORE Deepseekers (blue): Final=348.0, Time=92.0, Moves(14)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:26:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:03] MOVE 30: Deepseekers (blue) 104->113 [0.01ms]
+[2026-05-22 10:26:03] SCORE CybSec (red): Final=355.1, Time=95.1, Moves(15)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:26:03] SCORE Deepseekers (blue): Final=449.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:26:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:03] MOVE 31: CybSec (red) 117->79 [0.00ms]
+[2026-05-22 10:26:03] SCORE CybSec (red): Final=362.8, Time=94.8, Moves(16)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:26:03] SCORE Deepseekers (blue): Final=449.2, Time=91.2, Moves(15)=0.0, Pins(1)=100.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:26:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:04] MOVE 32: Deepseekers (blue) 14->37 [0.00ms]
+[2026-05-22 10:26:04] SCORE CybSec (red): Final=362.8, Time=94.8, Moves(16)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:26:04] SCORE Deepseekers (blue): Final=452.6, Time=90.6, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:26:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:04] MOVE 33: CybSec (red) 79->41 [0.00ms]
+[2026-05-22 10:26:04] SCORE CybSec (red): Final=370.6, Time=94.6, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:26:04] SCORE Deepseekers (blue): Final=452.6, Time=90.6, Moves(16)=0.0, Pins(1)=100.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:26:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:05] MOVE 34: Deepseekers (blue) 26->47 [0.00ms]
+[2026-05-22 10:26:05] SCORE CybSec (red): Final=370.6, Time=94.6, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:26:05] SCORE Deepseekers (blue): Final=455.8, Time=89.8, Moves(17)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:26:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:05] MOVE 35: CybSec (red) 106->93 [0.00ms]
+[2026-05-22 10:26:05] SCORE CybSec (red): Final=372.3, Time=94.3, Moves(18)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:26:05] SCORE Deepseekers (blue): Final=455.8, Time=89.8, Moves(17)=0.0, Pins(1)=100.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:26:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:06] MOVE 36: Deepseekers (blue) 18->43 [0.01ms]
+[2026-05-22 10:26:06] SCORE CybSec (red): Final=372.3, Time=94.3, Moves(18)=0.0, Pins(0)=0.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:26:06] SCORE Deepseekers (blue): Final=459.4, Time=89.4, Moves(18)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:26:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:06] MOVE 37: CybSec (red) 115->112 [0.00ms]
+[2026-05-22 10:26:06] SCORE CybSec (red): Final=374.0, Time=94.0, Moves(19)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:26:06] SCORE Deepseekers (blue): Final=459.4, Time=89.4, Moves(18)=0.0, Pins(1)=100.0, Dist=270.0, Win Bonus=0.0
+[2026-05-22 10:26:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:06] MOVE 38: Deepseekers (blue) 31->54 [0.00ms]
+[2026-05-22 10:26:06] SCORE CybSec (red): Final=374.0, Time=94.0, Moves(19)=0.0, Pins(0)=0.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:26:06] SCORE Deepseekers (blue): Final=462.8, Time=88.8, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:26:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:07] MOVE 39: CybSec (red) 39->16 [0.00ms]
+[2026-05-22 10:26:07] SCORE CybSec (red): Final=377.7, Time=93.7, Moves(20)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:26:07] SCORE Deepseekers (blue): Final=462.8, Time=88.8, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:26:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:07] MOVE 40: Deepseekers (blue) 43->64 [0.00ms]
+[2026-05-22 10:26:07] SCORE CybSec (red): Final=377.7, Time=93.7, Moves(20)=0.0, Pins(0)=0.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:26:07] SCORE Deepseekers (blue): Final=466.3, Time=88.3, Moves(20)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:26:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:07] MOVE 41: CybSec (red) 51->30 [0.00ms]
+[2026-05-22 10:26:07] SCORE CybSec (red): Final=381.5, Time=93.5, Moves(21)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:26:07] SCORE Deepseekers (blue): Final=466.3, Time=88.3, Moves(20)=0.0, Pins(1)=100.0, Dist=278.0, Win Bonus=0.0
+[2026-05-22 10:26:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:08] MOVE 42: Deepseekers (blue) 37->56 [0.00ms]
+[2026-05-22 10:26:08] SCORE CybSec (red): Final=381.5, Time=93.5, Moves(21)=0.0, Pins(0)=0.0, Dist=288.0, Win Bonus=0.0
+[2026-05-22 10:26:08] SCORE Deepseekers (blue): Final=469.8, Time=87.8, Moves(21)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:26:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:08] MOVE 43: CybSec (red) 93->70 [0.00ms]
+[2026-05-22 10:26:08] SCORE CybSec (red): Final=385.3, Time=93.3, Moves(22)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:26:08] SCORE Deepseekers (blue): Final=469.8, Time=87.8, Moves(21)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:26:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:09] MOVE 44: Deepseekers (blue) 54->63 [0.00ms]
+[2026-05-22 10:26:09] SCORE CybSec (red): Final=385.3, Time=93.3, Moves(22)=0.0, Pins(0)=0.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:26:09] SCORE Deepseekers (blue): Final=471.4, Time=87.4, Moves(22)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:26:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:09] MOVE 45: CybSec (red) 80->61 [0.00ms]
+[2026-05-22 10:26:09] SCORE CybSec (red): Final=389.1, Time=93.1, Moves(23)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:09] SCORE Deepseekers (blue): Final=471.4, Time=87.4, Moves(22)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:26:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:09] MOVE 46: Deepseekers (blue) 64->115 [0.00ms]
+[2026-05-22 10:26:09] SCORE CybSec (red): Final=389.1, Time=93.1, Moves(23)=0.0, Pins(0)=0.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:09] SCORE Deepseekers (blue): Final=581.0, Time=87.0, Moves(23)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:26:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:10] MOVE 47: CybSec (red) 16->7 [0.00ms]
+[2026-05-22 10:26:10] SCORE CybSec (red): Final=490.8, Time=92.8, Moves(24)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:26:10] SCORE Deepseekers (blue): Final=581.0, Time=87.0, Moves(23)=0.0, Pins(2)=200.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:26:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:10] MOVE 48: Deepseekers (blue) 63->73 [0.01ms]
+[2026-05-22 10:26:10] SCORE CybSec (red): Final=490.8, Time=92.8, Moves(24)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:26:10] SCORE Deepseekers (blue): Final=582.4, Time=86.4, Moves(24)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:10] MOVE 49: CybSec (red) 70->29 [0.00ms]
+[2026-05-22 10:26:10] SCORE CybSec (red): Final=498.6, Time=92.6, Moves(25)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:26:10] SCORE Deepseekers (blue): Final=582.4, Time=86.4, Moves(24)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:11] MOVE 50: Deepseekers (blue) 115->117 [0.00ms]
+[2026-05-22 10:26:11] SCORE CybSec (red): Final=498.6, Time=92.6, Moves(25)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:26:11] SCORE Deepseekers (blue): Final=581.9, Time=85.9, Moves(25)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:11] MOVE 51: CybSec (red) 114->106 [0.00ms]
+[2026-05-22 10:26:11] SCORE CybSec (red): Final=500.4, Time=92.4, Moves(26)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:26:11] SCORE Deepseekers (blue): Final=581.9, Time=85.9, Moves(25)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:26:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:11] MOVE 52: Deepseekers (blue) 73->83 [0.00ms]
+[2026-05-22 10:26:11] SCORE CybSec (red): Final=500.4, Time=92.4, Moves(26)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:26:11] SCORE Deepseekers (blue): Final=583.4, Time=85.4, Moves(26)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:26:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:12] MOVE 53: CybSec (red) 112->73 [0.00ms]
+[2026-05-22 10:26:12] SCORE CybSec (red): Final=508.2, Time=92.2, Moves(27)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:26:12] SCORE Deepseekers (blue): Final=583.4, Time=85.4, Moves(26)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:26:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:12] MOVE 54: Deepseekers (blue) 83->94 [0.00ms]
+[2026-05-22 10:26:12] SCORE CybSec (red): Final=508.2, Time=92.2, Moves(27)=0.0, Pins(1)=100.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:26:12] SCORE Deepseekers (blue): Final=584.9, Time=84.9, Moves(27)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:26:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:12] MOVE 55: CybSec (red) 106->64 [0.00ms]
+[2026-05-22 10:26:12] SCORE CybSec (red): Final=516.0, Time=92.0, Moves(28)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:26:12] SCORE Deepseekers (blue): Final=584.9, Time=84.9, Moves(27)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:26:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:13] MOVE 56: Deepseekers (blue) 94->106 [0.00ms]
+[2026-05-22 10:26:13] SCORE CybSec (red): Final=516.0, Time=92.0, Moves(28)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:26:13] SCORE Deepseekers (blue): Final=586.4, Time=84.4, Moves(28)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:26:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:13] MOVE 57: CybSec (red) 64->54 [0.00ms]
+[2026-05-22 10:26:13] SCORE CybSec (red): Final=517.6, Time=91.6, Moves(29)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:26:13] SCORE Deepseekers (blue): Final=586.4, Time=84.4, Moves(28)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:26:13] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:14] MOVE 58: Deepseekers (blue) 106->114 [0.00ms]
+[2026-05-22 10:26:14] SCORE CybSec (red): Final=517.6, Time=91.6, Moves(29)=0.0, Pins(1)=100.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:26:14] SCORE Deepseekers (blue): Final=687.8, Time=83.8, Moves(29)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:26:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:14] MOVE 59: CybSec (red) 41->5 [0.00ms]
+[2026-05-22 10:26:14] SCORE CybSec (red): Final=623.6, Time=91.5, Moves(30)=0.1, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:26:14] SCORE Deepseekers (blue): Final=687.8, Time=83.8, Moves(29)=0.0, Pins(3)=300.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:26:14] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:15] MOVE 60: Deepseekers (blue) 2->9 [0.00ms]
+[2026-05-22 10:26:15] SCORE CybSec (red): Final=623.6, Time=91.5, Moves(30)=0.1, Pins(2)=200.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:26:15] SCORE Deepseekers (blue): Final=691.4, Time=83.3, Moves(30)=0.1, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:26:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:15] MOVE 61: CybSec (red) 73->63 [0.00ms]
+[2026-05-22 10:26:15] SCORE CybSec (red): Final=625.4, Time=91.2, Moves(31)=0.2, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:26:15] SCORE Deepseekers (blue): Final=691.4, Time=83.3, Moves(30)=0.1, Pins(3)=300.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:26:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:15] MOVE 62: Deepseekers (blue) 9->17 [0.01ms]
+[2026-05-22 10:26:15] SCORE CybSec (red): Final=625.4, Time=91.2, Moves(31)=0.2, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:26:15] SCORE Deepseekers (blue): Final=692.9, Time=82.7, Moves(31)=0.2, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:26:15] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:16] MOVE 63: CybSec (red) 54->43 [0.00ms]
+[2026-05-22 10:26:16] SCORE CybSec (red): Final=627.6, Time=91.1, Moves(32)=0.5, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:26:16] SCORE Deepseekers (blue): Final=692.9, Time=82.7, Moves(31)=0.2, Pins(3)=300.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:26:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:16] MOVE 64: Deepseekers (blue) 17->42 [0.00ms]
+[2026-05-22 10:26:16] SCORE CybSec (red): Final=627.6, Time=91.1, Moves(32)=0.5, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:26:16] SCORE Deepseekers (blue): Final=696.7, Time=82.2, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:26:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:16] MOVE 65: CybSec (red) 43->3 [0.00ms]
+[2026-05-22 10:26:16] SCORE CybSec (red): Final=734.0, Time=90.9, Moves(33)=1.1, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:26:16] SCORE Deepseekers (blue): Final=696.7, Time=82.2, Moves(32)=0.5, Pins(3)=300.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:26:16] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:17] MOVE 66: Deepseekers (blue) 1->6 [0.00ms]
+[2026-05-22 10:26:17] SCORE CybSec (red): Final=734.0, Time=90.9, Moves(33)=1.1, Pins(3)=300.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:26:17] SCORE Deepseekers (blue): Final=700.8, Time=81.7, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:26:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:17] MOVE 67: CybSec (red) 29->17 [0.00ms]
+[2026-05-22 10:26:17] SCORE CybSec (red): Final=737.0, Time=90.7, Moves(34)=2.3, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:26:17] SCORE Deepseekers (blue): Final=700.8, Time=81.7, Moves(33)=1.1, Pins(3)=300.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:26:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:17] MOVE 68: Deepseekers (blue) 6->14 [0.00ms]
+[2026-05-22 10:26:17] SCORE CybSec (red): Final=737.0, Time=90.7, Moves(34)=2.3, Pins(3)=300.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:26:17] SCORE Deepseekers (blue): Final=703.4, Time=81.1, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:26:17] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:18] MOVE 69: CybSec (red) 30->1 [0.00ms]
+[2026-05-22 10:26:18] SCORE CybSec (red): Final=843.0, Time=90.6, Moves(35)=4.4, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:26:18] SCORE Deepseekers (blue): Final=703.4, Time=81.1, Moves(34)=2.3, Pins(3)=300.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:26:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:18] MOVE 70: Deepseekers (blue) 56->66 [0.00ms]
+[2026-05-22 10:26:18] SCORE CybSec (red): Final=843.0, Time=90.6, Moves(35)=4.4, Pins(4)=400.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:26:18] SCORE Deepseekers (blue): Final=707.1, Time=80.7, Moves(35)=4.4, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:26:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:18] MOVE 71: CybSec (red) 61->51 [0.01ms]
+[2026-05-22 10:26:18] SCORE CybSec (red): Final=848.2, Time=90.3, Moves(36)=8.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:26:18] SCORE Deepseekers (blue): Final=707.1, Time=80.7, Moves(35)=4.4, Pins(3)=300.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:26:18] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:19] MOVE 72: Deepseekers (blue) 92->104 [0.00ms]
+[2026-05-22 10:26:19] SCORE CybSec (red): Final=848.2, Time=90.3, Moves(36)=8.0, Pins(4)=400.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:26:19] SCORE Deepseekers (blue): Final=712.1, Time=80.1, Moves(36)=8.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:26:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:19] MOVE 73: CybSec (red) 17->8 [0.00ms]
+[2026-05-22 10:26:19] SCORE CybSec (red): Final=955.7, Time=90.2, Moves(37)=13.5, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:26:19] SCORE Deepseekers (blue): Final=712.1, Time=80.1, Moves(36)=8.0, Pins(3)=300.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:26:19] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:20] MOVE 74: Deepseekers (blue) 104->112 [0.00ms]
+[2026-05-22 10:26:20] SCORE CybSec (red): Final=955.7, Time=90.2, Moves(37)=13.5, Pins(5)=500.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:26:20] SCORE Deepseekers (blue): Final=819.1, Time=79.5, Moves(37)=13.5, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:26:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:20] MOVE 75: CybSec (red) 28->16 [0.00ms]
+[2026-05-22 10:26:20] SCORE CybSec (red): Final=965.7, Time=90.1, Moves(38)=21.6, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:26:20] SCORE Deepseekers (blue): Final=819.1, Time=79.5, Moves(37)=13.5, Pins(4)=400.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:26:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:20] MOVE 76: Deepseekers (blue) 42->52 [0.00ms]
+[2026-05-22 10:26:20] SCORE CybSec (red): Final=965.7, Time=90.1, Moves(38)=21.6, Pins(5)=500.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:26:20] SCORE Deepseekers (blue): Final=828.6, Time=79.0, Moves(38)=21.6, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:26:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:20] MOVE 77: CybSec (red) 68->58 [0.00ms]
+[2026-05-22 10:26:20] SCORE CybSec (red): Final=978.4, Time=89.9, Moves(39)=32.5, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:26:20] SCORE Deepseekers (blue): Final=828.6, Time=79.0, Moves(38)=21.6, Pins(4)=400.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:26:20] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:21] MOVE 78: Deepseekers (blue) 50->89 [0.00ms]
+[2026-05-22 10:26:21] SCORE CybSec (red): Final=978.4, Time=89.9, Moves(39)=32.5, Pins(5)=500.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:26:21] SCORE Deepseekers (blue): Final=847.0, Time=78.5, Moves(39)=32.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:26:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:21] MOVE 79: CybSec (red) 51->41 [0.00ms]
+[2026-05-22 10:26:21] SCORE CybSec (red): Final=993.5, Time=89.7, Moves(40)=45.8, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:26:21] SCORE Deepseekers (blue): Final=847.0, Time=78.5, Moves(39)=32.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:26:21] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:22] MOVE 80: Deepseekers (blue) 66->77 [0.00ms]
+[2026-05-22 10:26:22] SCORE CybSec (red): Final=993.5, Time=89.7, Moves(40)=45.8, Pins(5)=500.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:26:22] SCORE Deepseekers (blue): Final=861.8, Time=78.1, Moves(40)=45.8, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:26:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:22] MOVE 81: CybSec (red) 78->67 [0.00ms]
+[2026-05-22 10:26:22] SCORE CybSec (red): Final=1010.1, Time=89.5, Moves(41)=60.7, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:26:22] SCORE Deepseekers (blue): Final=861.8, Time=78.1, Moves(40)=45.8, Pins(4)=400.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:26:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:22] MOVE 82: Deepseekers (blue) 59->78 [0.00ms]
+[2026-05-22 10:26:22] SCORE CybSec (red): Final=1010.1, Time=89.5, Moves(41)=60.7, Pins(5)=500.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:26:22] SCORE Deepseekers (blue): Final=880.3, Time=77.6, Moves(41)=60.7, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:26:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:22] MOVE 83: CybSec (red) 67->49 [0.01ms]
+[2026-05-22 10:26:22] SCORE CybSec (red): Final=1028.7, Time=89.2, Moves(42)=75.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:26:22] SCORE Deepseekers (blue): Final=880.3, Time=77.6, Moves(41)=60.7, Pins(4)=400.0, Dist=342.0, Win Bonus=0.0
+[2026-05-22 10:26:22] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:23] MOVE 84: Deepseekers (blue) 77->102 [0.01ms]
+[2026-05-22 10:26:23] SCORE CybSec (red): Final=1028.7, Time=89.2, Moves(42)=75.5, Pins(5)=500.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:26:23] SCORE Deepseekers (blue): Final=898.4, Time=77.0, Moves(42)=75.5, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:26:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:23] MOVE 85: CybSec (red) 58->39 [0.00ms]
+[2026-05-22 10:26:23] SCORE CybSec (red): Final=1045.2, Time=88.9, Moves(43)=88.2, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:26:23] SCORE Deepseekers (blue): Final=898.4, Time=77.0, Moves(42)=75.5, Pins(4)=400.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:26:23] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:24] MOVE 86: Deepseekers (blue) 89->111 [0.00ms]
+[2026-05-22 10:26:24] SCORE CybSec (red): Final=1045.2, Time=88.9, Moves(43)=88.2, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:26:24] SCORE Deepseekers (blue): Final=1014.6, Time=76.3, Moves(43)=88.2, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:26:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:24] MOVE 87: CybSec (red) 49->28 [0.00ms]
+[2026-05-22 10:26:24] SCORE CybSec (red): Final=1057.4, Time=88.5, Moves(44)=96.9, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:26:24] SCORE Deepseekers (blue): Final=1014.6, Time=76.3, Moves(43)=88.2, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:26:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:25] MOVE 88: Deepseekers (blue) 102->115 [0.00ms]
+[2026-05-22 10:26:25] SCORE CybSec (red): Final=1057.4, Time=88.5, Moves(44)=96.9, Pins(5)=500.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:26:25] SCORE Deepseekers (blue): Final=1124.5, Time=75.6, Moves(44)=96.9, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:26:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:25] MOVE 89: CybSec (red) 63->53 [0.00ms]
+[2026-05-22 10:26:25] SCORE CybSec (red): Final=1062.3, Time=88.3, Moves(45)=100.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:26:25] SCORE Deepseekers (blue): Final=1124.5, Time=75.6, Moves(44)=96.9, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:26:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:26] MOVE 90: Deepseekers (blue) 78->89 [0.01ms]
+[2026-05-22 10:26:26] SCORE CybSec (red): Final=1062.3, Time=88.3, Moves(45)=100.0, Pins(5)=500.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:26:26] SCORE Deepseekers (blue): Final=1129.2, Time=75.2, Moves(45)=100.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:26:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:26] MOVE 91: CybSec (red) 53->30 [0.00ms]
+[2026-05-22 10:26:26] SCORE CybSec (red): Final=1065.7, Time=87.9, Moves(46)=99.8, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:26:26] SCORE Deepseekers (blue): Final=1129.2, Time=75.2, Moves(45)=100.0, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:26:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:27] MOVE 92: Deepseekers (blue) 89->102 [0.00ms]
+[2026-05-22 10:26:27] SCORE CybSec (red): Final=1065.7, Time=87.9, Moves(46)=99.8, Pins(5)=500.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:26:27] SCORE Deepseekers (blue): Final=1130.4, Time=74.6, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:26:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:27] MOVE 93: CybSec (red) 41->18 [0.00ms]
+[2026-05-22 10:26:27] SCORE CybSec (red): Final=1069.2, Time=87.8, Moves(47)=99.4, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:26:27] SCORE Deepseekers (blue): Final=1130.4, Time=74.6, Moves(46)=99.8, Pins(6)=600.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:26:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:28] MOVE 94: Deepseekers (blue) 47->56 [0.00ms]
+[2026-05-22 10:26:28] SCORE CybSec (red): Final=1069.2, Time=87.8, Moves(47)=99.4, Pins(5)=500.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:26:28] SCORE Deepseekers (blue): Final=1131.4, Time=74.1, Moves(47)=99.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:26:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:28] MOVE 95: CybSec (red) 30->17 [0.00ms]
+[2026-05-22 10:26:28] SCORE CybSec (red): Final=1070.3, Time=87.7, Moves(48)=98.6, Pins(5)=500.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:26:28] SCORE Deepseekers (blue): Final=1131.4, Time=74.1, Moves(47)=99.4, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:26:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:28] MOVE 96: Deepseekers (blue) 56->66 [0.01ms]
+[2026-05-22 10:26:28] SCORE CybSec (red): Final=1070.3, Time=87.7, Moves(48)=98.6, Pins(5)=500.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:26:28] SCORE Deepseekers (blue): Final=1132.2, Time=73.5, Moves(48)=98.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:26:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:28] MOVE 97: CybSec (red) 17->9 [0.00ms]
+[2026-05-22 10:26:28] SCORE CybSec (red): Final=1171.0, Time=87.5, Moves(49)=97.6, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:28] SCORE Deepseekers (blue): Final=1132.2, Time=73.5, Moves(48)=98.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:26:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:29] MOVE 98: Deepseekers (blue) 66->77 [0.00ms]
+[2026-05-22 10:26:29] SCORE CybSec (red): Final=1171.0, Time=87.5, Moves(49)=97.6, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:29] SCORE Deepseekers (blue): Final=1132.6, Time=73.1, Moves(49)=97.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:26:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:29] MOVE 99: CybSec (red) 39->27 [0.00ms]
+[2026-05-22 10:26:29] SCORE CybSec (red): Final=1171.4, Time=87.2, Moves(50)=96.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:29] SCORE Deepseekers (blue): Final=1132.6, Time=73.1, Moves(49)=97.6, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:26:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:30] MOVE 100: Deepseekers (blue) 77->89 [0.00ms]
+[2026-05-22 10:26:30] SCORE CybSec (red): Final=1171.4, Time=87.2, Moves(50)=96.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:30] SCORE Deepseekers (blue): Final=1132.9, Time=72.6, Moves(50)=96.2, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:26:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:30] MOVE 101: CybSec (red) 28->6 [0.00ms]
+[2026-05-22 10:26:30] SCORE CybSec (red): Final=1273.6, Time=87.0, Moves(51)=94.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:26:30] SCORE Deepseekers (blue): Final=1132.9, Time=72.6, Moves(50)=96.2, Pins(6)=600.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:26:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:30] MOVE 102: Deepseekers (blue) 14->39 [0.00ms]
+[2026-05-22 10:26:30] SCORE CybSec (red): Final=1273.6, Time=87.0, Moves(51)=94.6, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:26:30] SCORE Deepseekers (blue): Final=1134.8, Time=72.2, Moves(51)=94.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:26:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:30] MOVE 103: CybSec (red) 27->15 [0.00ms]
+[2026-05-22 10:26:30] SCORE CybSec (red): Final=1273.5, Time=86.8, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:26:30] SCORE Deepseekers (blue): Final=1134.8, Time=72.2, Moves(51)=94.6, Pins(6)=600.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:26:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:31] MOVE 104: Deepseekers (blue) 39->49 [0.00ms]
+[2026-05-22 10:26:31] SCORE CybSec (red): Final=1273.5, Time=86.8, Moves(52)=92.7, Pins(7)=700.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:26:31] SCORE Deepseekers (blue): Final=1134.5, Time=71.8, Moves(52)=92.7, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:26:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:31] MOVE 105: CybSec (red) 15->4 [0.00ms]
+[2026-05-22 10:26:31] SCORE CybSec (red): Final=1373.1, Time=86.5, Moves(53)=90.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:31] SCORE Deepseekers (blue): Final=1134.5, Time=71.8, Moves(52)=92.7, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:26:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:32] MOVE 106: Deepseekers (blue) 49->58 [0.00ms]
+[2026-05-22 10:26:32] SCORE CybSec (red): Final=1373.1, Time=86.5, Moves(53)=90.6, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:32] SCORE Deepseekers (blue): Final=1133.8, Time=71.2, Moves(53)=90.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:26:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:32] MOVE 107: CybSec (red) 5->2 [0.00ms]
+[2026-05-22 10:26:32] SCORE CybSec (red): Final=1370.6, Time=86.3, Moves(54)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:32] SCORE Deepseekers (blue): Final=1133.8, Time=71.2, Moves(53)=90.6, Pins(6)=600.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:26:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:32] MOVE 108: Deepseekers (blue) 58->67 [0.00ms]
+[2026-05-22 10:26:32] SCORE CybSec (red): Final=1370.6, Time=86.3, Moves(54)=88.2, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:32] SCORE Deepseekers (blue): Final=1132.9, Time=70.7, Moves(54)=88.2, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:26:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:32] MOVE 109: CybSec (red) 16->5 [0.00ms]
+[2026-05-22 10:26:32] SCORE CybSec (red): Final=1470.0, Time=86.3, Moves(55)=85.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:32] SCORE Deepseekers (blue): Final=1132.9, Time=70.7, Moves(54)=88.2, Pins(6)=600.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:26:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:33] MOVE 110: Deepseekers (blue) 67->77 [0.01ms]
+[2026-05-22 10:26:33] SCORE CybSec (red): Final=1470.0, Time=86.3, Moves(55)=85.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:33] SCORE Deepseekers (blue): Final=1131.9, Time=70.2, Moves(55)=85.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:26:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:33] MOVE 111: CybSec (red) 3->14 [0.00ms]
+[2026-05-22 10:26:33] SCORE CybSec (red): Final=1365.0, Time=86.0, Moves(56)=83.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:33] SCORE Deepseekers (blue): Final=1131.9, Time=70.2, Moves(55)=85.7, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:26:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:34] MOVE 112: Deepseekers (blue) 52->62 [0.00ms]
+[2026-05-22 10:26:34] SCORE CybSec (red): Final=1365.0, Time=86.0, Moves(56)=83.0, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:34] SCORE Deepseekers (blue): Final=1130.8, Time=69.8, Moves(56)=83.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:26:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:34] MOVE 113: CybSec (red) 14->0 [0.00ms]
+[2026-05-22 10:26:34] SCORE CybSec (red): Final=1463.9, Time=85.8, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:34] SCORE Deepseekers (blue): Final=1130.8, Time=69.8, Moves(56)=83.0, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:26:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:34] MOVE 114: Deepseekers (blue) 62->71 [0.00ms]
+[2026-05-22 10:26:34] SCORE CybSec (red): Final=1463.9, Time=85.8, Moves(57)=80.1, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:34] SCORE Deepseekers (blue): Final=1129.5, Time=69.4, Moves(57)=80.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:26:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:34] MOVE 115: CybSec (red) 9->31 [0.00ms]
+[2026-05-22 10:26:34] SCORE CybSec (red): Final=1356.6, Time=85.5, Moves(58)=77.0, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:26:34] SCORE Deepseekers (blue): Final=1129.5, Time=69.4, Moves(57)=80.1, Pins(6)=600.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:26:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:35] MOVE 116: Deepseekers (blue) 71->81 [0.00ms]
+[2026-05-22 10:26:35] SCORE CybSec (red): Final=1356.6, Time=85.5, Moves(58)=77.0, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:26:35] SCORE Deepseekers (blue): Final=1127.9, Time=68.9, Moves(58)=77.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:26:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:35] MOVE 117: CybSec (red) 18->9 [0.00ms]
+[2026-05-22 10:26:35] SCORE CybSec (red): Final=1455.2, Time=85.3, Moves(59)=73.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:35] SCORE Deepseekers (blue): Final=1127.9, Time=68.9, Moves(58)=77.0, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:26:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:36] MOVE 118: Deepseekers (blue) 81->92 [0.00ms]
+[2026-05-22 10:26:36] SCORE CybSec (red): Final=1455.2, Time=85.3, Moves(59)=73.9, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:36] SCORE Deepseekers (blue): Final=1126.5, Time=68.6, Moves(59)=73.9, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:26:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:36] MOVE 119: CybSec (red) 31->18 [0.00ms]
+[2026-05-22 10:26:36] SCORE CybSec (red): Final=1453.6, Time=85.0, Moves(60)=70.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:36] SCORE Deepseekers (blue): Final=1126.5, Time=68.6, Moves(59)=73.9, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:26:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:36] MOVE 120: Deepseekers (blue) 92->104 [0.00ms]
+[2026-05-22 10:26:36] SCORE CybSec (red): Final=1453.6, Time=85.0, Moves(60)=70.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:36] SCORE Deepseekers (blue): Final=1124.9, Time=68.3, Moves(60)=70.7, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:37] MOVE 121: CybSec (red) 5->14 [0.00ms]
+[2026-05-22 10:26:37] SCORE CybSec (red): Final=1347.9, Time=84.5, Moves(61)=67.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:37] SCORE Deepseekers (blue): Final=1124.9, Time=68.3, Moves(60)=70.7, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:37] MOVE 122: Deepseekers (blue) 104->103 [0.00ms]
+[2026-05-22 10:26:37] SCORE CybSec (red): Final=1347.9, Time=84.5, Moves(61)=67.4, Pins(8)=800.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:37] SCORE Deepseekers (blue): Final=1121.0, Time=67.7, Moves(61)=67.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:37] MOVE 123: CybSec (red) 18->3 [0.00ms]
+[2026-05-22 10:26:37] SCORE CybSec (red): Final=1446.4, Time=84.4, Moves(62)=64.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:37] SCORE Deepseekers (blue): Final=1121.0, Time=67.7, Moves(61)=67.4, Pins(6)=600.0, Dist=386.0, Win Bonus=0.0
+[2026-05-22 10:26:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:38] MOVE 124: Deepseekers (blue) 103->116 [0.00ms]
+[2026-05-22 10:26:38] SCORE CybSec (red): Final=1446.4, Time=84.4, Moves(62)=64.0, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:38] SCORE Deepseekers (blue): Final=1219.3, Time=67.3, Moves(62)=64.0, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:38] MOVE 125: CybSec (red) 14->15 [0.00ms]
+[2026-05-22 10:26:38] SCORE CybSec (red): Final=1442.8, Time=84.1, Moves(63)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:38] SCORE Deepseekers (blue): Final=1219.3, Time=67.3, Moves(62)=64.0, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:38] MOVE 126: Deepseekers (blue) 113->118 [0.00ms]
+[2026-05-22 10:26:38] SCORE CybSec (red): Final=1442.8, Time=84.1, Moves(63)=60.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:38] SCORE Deepseekers (blue): Final=1215.6, Time=66.9, Moves(63)=60.7, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:39] MOVE 127: CybSec (red) 15->28 [0.00ms]
+[2026-05-22 10:26:39] SCORE CybSec (red): Final=1437.1, Time=83.8, Moves(64)=57.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:39] SCORE Deepseekers (blue): Final=1215.6, Time=66.9, Moves(63)=60.7, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:39] MOVE 128: Deepseekers (blue) 111->113 [0.00ms]
+[2026-05-22 10:26:39] SCORE CybSec (red): Final=1437.1, Time=83.8, Moves(64)=57.3, Pins(9)=900.0, Dist=396.0, Win Bonus=0.0
+[2026-05-22 10:26:39] SCORE Deepseekers (blue): Final=1211.8, Time=66.6, Moves(64)=57.3, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:39] MOVE 129: CybSec (red) 28->16 [0.00ms]
+[2026-05-22 10:26:39] SCORE CybSec (red): Final=1435.4, Time=83.4, Moves(65)=53.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:39] SCORE Deepseekers (blue): Final=1211.8, Time=66.6, Moves(64)=57.3, Pins(7)=700.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:26:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:40] MOVE 130: Deepseekers (blue) 102->111 [0.00ms]
+[2026-05-22 10:26:40] SCORE CybSec (red): Final=1435.4, Time=83.4, Moves(65)=53.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:26:40] SCORE Deepseekers (blue): Final=1310.1, Time=66.1, Moves(65)=53.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:26:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:26:40] MOVE 131: CybSec (red) 16->5 [0.00ms]
+[2026-05-22 10:26:40] SCORE CybSec (red): Final=2533.8, Time=83.2, Moves(66)=50.6, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:26:40] SCORE Deepseekers (blue): Final=1310.1, Time=66.1, Moves(65)=53.9, Pins(8)=800.0, Dist=390.0, Win Bonus=0.0
+[2026-05-22 10:26:40] ALL WRONG MOVES BY COLOUR: {}

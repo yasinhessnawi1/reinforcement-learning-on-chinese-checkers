@@ -1,0 +1,929 @@
+[2026-05-22 10:41:57] GAME CREATED
+[2026-05-22 10:44:16] PLAYER JOINED: Hexagram as yellow
+[2026-05-22 10:44:21] PLAYER JOINED: StockWish as purple
+[2026-05-22 10:44:23] PLAYER JOINED: Gruppe 67 as red
+[2026-05-22 10:44:23] PLAYER START: Hexagram (yellow)
+[2026-05-22 10:44:23] PLAYER START: StockWish (purple)
+[2026-05-22 10:44:23] PLAYER START: Gruppe 67 (red)
+[2026-05-22 10:44:23] GAME START — turn order ['yellow', 'purple', 'red']
+[2026-05-22 10:44:23] PLAYER START: Hexagram (yellow)
+[2026-05-22 10:44:23] PLAYER START: StockWish (purple)
+[2026-05-22 10:44:23] PLAYER START: Gruppe 67 (red)
+[2026-05-22 10:44:24] PLAYER START: Hexagram (yellow)
+[2026-05-22 10:44:24] PLAYER START: StockWish (purple)
+[2026-05-22 10:44:24] PLAYER START: Gruppe 67 (red)
+[2026-05-22 10:44:24] MOVE 1: Hexagram (yellow) 13->26 [0.00ms]
+[2026-05-22 10:44:24] SCORE Hexagram (yellow): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE StockWish (purple): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE Gruppe 67 (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:24] MOVE 2: StockWish (purple) 108->83 [0.00ms]
+[2026-05-22 10:44:24] SCORE Hexagram (yellow): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE StockWish (purple): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:24] SCORE Gruppe 67 (red): Final=0.0, Time=0.0, Moves(0)=0.0, Pins(0)=0.0, Dist=0.0, Win Bonus=0.0
+[2026-05-22 10:44:24] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 3: Gruppe 67 (red) 116->105 [0.01ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=280.8, Time=98.8, Moves(1)=0.0, Pins(0)=0.0, Dist=182.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 4: Hexagram (yellow) 11->38 [0.00ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=288.8, Time=98.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=283.7, Time=99.7, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 5: StockWish (purple) 95->72 [0.00ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=288.8, Time=98.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=283.6, Time=99.6, Moves(1)=0.0, Pins(0)=0.0, Dist=184.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 6: Gruppe 67 (red) 115->102 [0.00ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=288.8, Time=98.8, Moves(2)=0.0, Pins(0)=0.0, Dist=190.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=287.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 7: Hexagram (yellow) 35->39 [0.00ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=296.7, Time=98.7, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=287.5, Time=99.5, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=287.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:25] MOVE 8: StockWish (purple) 96->71 [0.01ms]
+[2026-05-22 10:44:25] SCORE Hexagram (yellow): Final=296.7, Time=98.7, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE StockWish (purple): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:25] SCORE Gruppe 67 (red): Final=287.2, Time=99.2, Moves(2)=0.0, Pins(0)=0.0, Dist=188.0, Win Bonus=0.0
+[2026-05-22 10:44:25] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 9: Gruppe 67 (red) 120->104 [0.00ms]
+[2026-05-22 10:44:26] SCORE Hexagram (yellow): Final=296.7, Time=98.7, Moves(3)=0.0, Pins(0)=0.0, Dist=198.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE StockWish (purple): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 67 (red): Final=294.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 10: Hexagram (yellow) 25->50 [0.00ms]
+[2026-05-22 10:44:26] SCORE Hexagram (yellow): Final=304.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE StockWish (purple): Final=295.4, Time=99.4, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 67 (red): Final=294.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 11: StockWish (purple) 84->61 [0.00ms]
+[2026-05-22 10:44:26] SCORE Hexagram (yellow): Final=304.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE StockWish (purple): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 67 (red): Final=294.8, Time=98.8, Moves(3)=0.0, Pins(0)=0.0, Dist=196.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:26] MOVE 12: Gruppe 67 (red) 111->89 [0.01ms]
+[2026-05-22 10:44:26] SCORE Hexagram (yellow): Final=304.6, Time=98.6, Moves(4)=0.0, Pins(0)=0.0, Dist=206.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE StockWish (purple): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:44:26] SCORE Gruppe 67 (red): Final=298.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:26] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:27] MOVE 13: Hexagram (yellow) 39->81 [0.00ms]
+[2026-05-22 10:44:27] SCORE Hexagram (yellow): Final=312.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE StockWish (purple): Final=303.3, Time=99.3, Moves(4)=0.0, Pins(0)=0.0, Dist=204.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE Gruppe 67 (red): Final=298.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:27] MOVE 14: StockWish (purple) 83->60 [0.00ms]
+[2026-05-22 10:44:27] SCORE Hexagram (yellow): Final=312.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE StockWish (purple): Final=311.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE Gruppe 67 (red): Final=298.3, Time=98.3, Moves(4)=0.0, Pins(0)=0.0, Dist=200.0, Win Bonus=0.0
+[2026-05-22 10:44:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:27] MOVE 15: Gruppe 67 (red) 113->52 [0.01ms]
+[2026-05-22 10:44:27] SCORE Hexagram (yellow): Final=312.5, Time=98.5, Moves(5)=0.0, Pins(0)=0.0, Dist=214.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE StockWish (purple): Final=311.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE Gruppe 67 (red): Final=309.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:27] MOVE 16: Hexagram (yellow) 81->83 [0.00ms]
+[2026-05-22 10:44:27] SCORE Hexagram (yellow): Final=316.3, Time=98.3, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE StockWish (purple): Final=311.2, Time=99.2, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE Gruppe 67 (red): Final=309.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:27] MOVE 17: StockWish (purple) 71->49 [0.00ms]
+[2026-05-22 10:44:27] SCORE Hexagram (yellow): Final=316.3, Time=98.3, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE StockWish (purple): Final=319.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:27] SCORE Gruppe 67 (red): Final=309.9, Time=97.9, Moves(5)=0.0, Pins(0)=0.0, Dist=212.0, Win Bonus=0.0
+[2026-05-22 10:44:27] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:28] MOVE 18: Gruppe 67 (red) 114->92 [0.00ms]
+[2026-05-22 10:44:28] SCORE Hexagram (yellow): Final=316.3, Time=98.3, Moves(6)=0.0, Pins(0)=0.0, Dist=218.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE StockWish (purple): Final=319.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE Gruppe 67 (red): Final=313.4, Time=97.4, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:28] MOVE 19: Hexagram (yellow) 83->95 [0.00ms]
+[2026-05-22 10:44:28] SCORE Hexagram (yellow): Final=418.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE StockWish (purple): Final=319.1, Time=99.1, Moves(6)=0.0, Pins(0)=0.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE Gruppe 67 (red): Final=313.4, Time=97.4, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:28] MOVE 20: StockWish (purple) 60->37 [0.00ms]
+[2026-05-22 10:44:28] SCORE Hexagram (yellow): Final=418.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE StockWish (purple): Final=327.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE Gruppe 67 (red): Final=313.4, Time=97.4, Moves(6)=0.0, Pins(0)=0.0, Dist=216.0, Win Bonus=0.0
+[2026-05-22 10:44:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:28] MOVE 21: Gruppe 67 (red) 104->41 [0.00ms]
+[2026-05-22 10:44:28] SCORE Hexagram (yellow): Final=418.2, Time=98.2, Moves(7)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE StockWish (purple): Final=327.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:28] SCORE Gruppe 67 (red): Final=324.9, Time=96.9, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:28] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:29] MOVE 22: Hexagram (yellow) 95->96 [0.00ms]
+[2026-05-22 10:44:29] SCORE Hexagram (yellow): Final=418.0, Time=98.0, Moves(8)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE StockWish (purple): Final=327.0, Time=99.0, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE Gruppe 67 (red): Final=324.9, Time=96.9, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:29] MOVE 23: StockWish (purple) 109->84 [0.00ms]
+[2026-05-22 10:44:29] SCORE Hexagram (yellow): Final=418.0, Time=98.0, Moves(8)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE StockWish (purple): Final=330.9, Time=98.9, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE Gruppe 67 (red): Final=324.9, Time=96.9, Moves(7)=0.0, Pins(0)=0.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:29] MOVE 24: Gruppe 67 (red) 117->81 [0.00ms]
+[2026-05-22 10:44:29] SCORE Hexagram (yellow): Final=418.0, Time=98.0, Moves(8)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE StockWish (purple): Final=330.9, Time=98.9, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE Gruppe 67 (red): Final=332.5, Time=96.5, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:29] MOVE 25: Hexagram (yellow) 96->109 [0.00ms]
+[2026-05-22 10:44:29] SCORE Hexagram (yellow): Final=417.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE StockWish (purple): Final=330.9, Time=98.9, Moves(8)=0.0, Pins(0)=0.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:29] SCORE Gruppe 67 (red): Final=332.5, Time=96.5, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:29] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:30] MOVE 26: StockWish (purple) 85->39 [0.01ms]
+[2026-05-22 10:44:30] SCORE Hexagram (yellow): Final=417.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE StockWish (purple): Final=345.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:30] SCORE Gruppe 67 (red): Final=332.5, Time=96.5, Moves(8)=0.0, Pins(0)=0.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:30] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:31] MOVE 27: Gruppe 67 (red) 92->30 [0.01ms]
+[2026-05-22 10:44:31] SCORE Hexagram (yellow): Final=417.9, Time=97.9, Moves(9)=0.0, Pins(1)=100.0, Dist=220.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE StockWish (purple): Final=345.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE Gruppe 67 (red): Final=343.9, Time=95.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:31] MOVE 28: Hexagram (yellow) 50->51 [0.00ms]
+[2026-05-22 10:44:31] SCORE Hexagram (yellow): Final=419.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE StockWish (purple): Final=345.9, Time=97.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE Gruppe 67 (red): Final=343.9, Time=95.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:31] MOVE 29: StockWish (purple) 110->60 [0.00ms]
+[2026-05-22 10:44:31] SCORE Hexagram (yellow): Final=419.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE StockWish (purple): Final=361.8, Time=97.8, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:31] SCORE Gruppe 67 (red): Final=343.9, Time=95.9, Moves(9)=0.0, Pins(0)=0.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:31] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:32] MOVE 30: Gruppe 67 (red) 89->27 [0.00ms]
+[2026-05-22 10:44:32] SCORE Hexagram (yellow): Final=419.7, Time=97.7, Moves(10)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE StockWish (purple): Final=361.8, Time=97.8, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE Gruppe 67 (red): Final=355.4, Time=95.4, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:32] MOVE 31: Hexagram (yellow) 109->110 [0.01ms]
+[2026-05-22 10:44:32] SCORE Hexagram (yellow): Final=419.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE StockWish (purple): Final=361.8, Time=97.8, Moves(10)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE Gruppe 67 (red): Final=355.4, Time=95.4, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:32] MOVE 32: StockWish (purple) 60->83 [0.00ms]
+[2026-05-22 10:44:32] SCORE Hexagram (yellow): Final=419.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE StockWish (purple): Final=353.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE Gruppe 67 (red): Final=355.4, Time=95.4, Moves(10)=0.0, Pins(0)=0.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:32] MOVE 33: Gruppe 67 (red) 52->29 [0.01ms]
+[2026-05-22 10:44:32] SCORE Hexagram (yellow): Final=419.6, Time=97.6, Moves(11)=0.0, Pins(1)=100.0, Dist=222.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE StockWish (purple): Final=353.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:32] SCORE Gruppe 67 (red): Final=358.9, Time=94.9, Moves(11)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:32] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:33] MOVE 34: Hexagram (yellow) 51->73 [0.01ms]
+[2026-05-22 10:44:33] SCORE Hexagram (yellow): Final=427.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE StockWish (purple): Final=353.7, Time=97.7, Moves(11)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE Gruppe 67 (red): Final=358.9, Time=94.9, Moves(11)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:33] MOVE 35: StockWish (purple) 83->94 [0.00ms]
+[2026-05-22 10:44:33] SCORE Hexagram (yellow): Final=427.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE StockWish (purple): Final=353.5, Time=97.5, Moves(12)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE Gruppe 67 (red): Final=358.9, Time=94.9, Moves(11)=0.0, Pins(0)=0.0, Dist=264.0, Win Bonus=0.0
+[2026-05-22 10:44:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:33] MOVE 36: Gruppe 67 (red) 41->18 [0.01ms]
+[2026-05-22 10:44:33] SCORE Hexagram (yellow): Final=427.5, Time=97.5, Moves(12)=0.0, Pins(1)=100.0, Dist=230.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE StockWish (purple): Final=353.5, Time=97.5, Moves(12)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE Gruppe 67 (red): Final=362.5, Time=94.5, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:33] MOVE 37: Hexagram (yellow) 73->63 [0.01ms]
+[2026-05-22 10:44:33] SCORE Hexagram (yellow): Final=425.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE StockWish (purple): Final=353.5, Time=97.5, Moves(12)=0.0, Pins(0)=0.0, Dist=256.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE Gruppe 67 (red): Final=362.5, Time=94.5, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:33] MOVE 38: StockWish (purple) 84->83 [0.00ms]
+[2026-05-22 10:44:33] SCORE Hexagram (yellow): Final=425.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE StockWish (purple): Final=355.4, Time=97.4, Moves(13)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:33] SCORE Gruppe 67 (red): Final=362.5, Time=94.5, Moves(12)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:33] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 39: Gruppe 67 (red) 29->9 [0.00ms]
+[2026-05-22 10:44:34] SCORE Hexagram (yellow): Final=425.4, Time=97.4, Moves(13)=0.0, Pins(1)=100.0, Dist=228.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE StockWish (purple): Final=355.4, Time=97.4, Moves(13)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 67 (red): Final=466.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 40: Hexagram (yellow) 63->84 [0.00ms]
+[2026-05-22 10:44:34] SCORE Hexagram (yellow): Final=529.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE StockWish (purple): Final=355.4, Time=97.4, Moves(13)=0.0, Pins(0)=0.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 67 (red): Final=466.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 41: StockWish (purple) 83->60 [0.00ms]
+[2026-05-22 10:44:34] SCORE Hexagram (yellow): Final=529.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE StockWish (purple): Final=363.3, Time=97.3, Moves(14)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 67 (red): Final=466.0, Time=94.0, Moves(13)=0.0, Pins(1)=100.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:34] MOVE 42: Gruppe 67 (red) 112->104 [0.00ms]
+[2026-05-22 10:44:34] SCORE Hexagram (yellow): Final=529.3, Time=97.3, Moves(14)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE StockWish (purple): Final=363.3, Time=97.3, Moves(14)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:44:34] SCORE Gruppe 67 (red): Final=467.6, Time=93.6, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:34] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 43: Hexagram (yellow) 84->85 [0.01ms]
+[2026-05-22 10:44:35] SCORE Hexagram (yellow): Final=529.2, Time=97.2, Moves(15)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE StockWish (purple): Final=363.3, Time=97.3, Moves(14)=0.0, Pins(0)=0.0, Dist=266.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 67 (red): Final=467.6, Time=93.6, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 44: StockWish (purple) 60->50 [0.01ms]
+[2026-05-22 10:44:35] SCORE Hexagram (yellow): Final=529.2, Time=97.2, Moves(15)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE StockWish (purple): Final=365.1, Time=97.1, Moves(15)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 67 (red): Final=467.6, Time=93.6, Moves(14)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 45: Gruppe 67 (red) 104->62 [0.01ms]
+[2026-05-22 10:44:35] SCORE Hexagram (yellow): Final=529.2, Time=97.2, Moves(15)=0.0, Pins(2)=200.0, Dist=232.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE StockWish (purple): Final=365.1, Time=97.1, Moves(15)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 67 (red): Final=475.1, Time=93.1, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 46: Hexagram (yellow) 46->48 [0.00ms]
+[2026-05-22 10:44:35] SCORE Hexagram (yellow): Final=533.1, Time=97.1, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE StockWish (purple): Final=365.1, Time=97.1, Moves(15)=0.0, Pins(0)=0.0, Dist=268.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 67 (red): Final=475.1, Time=93.1, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:35] MOVE 47: StockWish (purple) 107->82 [0.00ms]
+[2026-05-22 10:44:35] SCORE Hexagram (yellow): Final=533.1, Time=97.1, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE StockWish (purple): Final=369.1, Time=97.1, Moves(16)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:35] SCORE Gruppe 67 (red): Final=475.1, Time=93.1, Moves(15)=0.0, Pins(1)=100.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:35] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:36] MOVE 48: Gruppe 67 (red) 62->53 [0.00ms]
+[2026-05-22 10:44:36] SCORE Hexagram (yellow): Final=533.1, Time=97.1, Moves(16)=0.0, Pins(2)=200.0, Dist=236.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE StockWish (purple): Final=369.1, Time=97.1, Moves(16)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE Gruppe 67 (red): Final=476.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:36] MOVE 49: Hexagram (yellow) 10->35 [0.00ms]
+[2026-05-22 10:44:36] SCORE Hexagram (yellow): Final=537.0, Time=97.0, Moves(17)=0.0, Pins(2)=200.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE StockWish (purple): Final=369.1, Time=97.1, Moves(16)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE Gruppe 67 (red): Final=476.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:36] MOVE 50: StockWish (purple) 94->71 [0.00ms]
+[2026-05-22 10:44:36] SCORE Hexagram (yellow): Final=537.0, Time=97.0, Moves(17)=0.0, Pins(2)=200.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE StockWish (purple): Final=373.0, Time=97.0, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:36] SCORE Gruppe 67 (red): Final=476.6, Time=92.6, Moves(16)=0.0, Pins(1)=100.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:36] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:36] MOVE 51: Gruppe 67 (red) 81->43 [0.00ms]
+[2026-05-22 10:44:36] SCORE Hexagram (yellow): Final=537.0, Time=97.0, Moves(17)=0.0, Pins(2)=200.0, Dist=240.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=373.0, Time=97.0, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=484.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:37] MOVE 52: Hexagram (yellow) 24->47 [0.01ms]
+[2026-05-22 10:44:37] SCORE Hexagram (yellow): Final=540.9, Time=96.9, Moves(18)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=373.0, Time=97.0, Moves(17)=0.0, Pins(0)=0.0, Dist=276.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=484.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:37] MOVE 53: StockWish (purple) 49->51 [0.01ms]
+[2026-05-22 10:44:37] SCORE Hexagram (yellow): Final=540.9, Time=96.9, Moves(18)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=368.9, Time=96.9, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=484.1, Time=92.1, Moves(17)=0.0, Pins(1)=100.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:37] MOVE 54: Gruppe 67 (red) 118->115 [0.00ms]
+[2026-05-22 10:44:37] SCORE Hexagram (yellow): Final=540.9, Time=96.9, Moves(18)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=368.9, Time=96.9, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=485.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:37] MOVE 55: Hexagram (yellow) 35->24 [0.00ms]
+[2026-05-22 10:44:37] SCORE Hexagram (yellow): Final=540.8, Time=96.8, Moves(19)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=368.9, Time=96.9, Moves(18)=0.0, Pins(0)=0.0, Dist=272.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=485.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:37] MOVE 56: StockWish (purple) 37->10 [0.00ms]
+[2026-05-22 10:44:37] SCORE Hexagram (yellow): Final=540.8, Time=96.8, Moves(19)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE StockWish (purple): Final=470.8, Time=96.8, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:37] SCORE Gruppe 67 (red): Final=485.7, Time=91.7, Moves(18)=0.0, Pins(1)=100.0, Dist=294.0, Win Bonus=0.0
+[2026-05-22 10:44:37] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 57: Gruppe 67 (red) 53->32 [0.00ms]
+[2026-05-22 10:44:38] SCORE Hexagram (yellow): Final=540.8, Time=96.8, Moves(19)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE StockWish (purple): Final=470.8, Time=96.8, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 67 (red): Final=487.2, Time=91.2, Moves(19)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:38] MOVE 58: Hexagram (yellow) 47->49 [0.00ms]
+[2026-05-22 10:44:38] SCORE Hexagram (yellow): Final=544.7, Time=96.7, Moves(20)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE StockWish (purple): Final=470.8, Time=96.8, Moves(19)=0.0, Pins(1)=100.0, Dist=274.0, Win Bonus=0.0
+[2026-05-22 10:44:38] SCORE Gruppe 67 (red): Final=487.2, Time=91.2, Moves(19)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:38] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 59: StockWish (purple) 39->35 [0.00ms]
+[2026-05-22 10:44:39] SCORE Hexagram (yellow): Final=544.7, Time=96.7, Moves(20)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE StockWish (purple): Final=576.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Gruppe 67 (red): Final=487.2, Time=91.2, Moves(19)=0.0, Pins(1)=100.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 60: Gruppe 67 (red) 119->116 [0.00ms]
+[2026-05-22 10:44:39] SCORE Hexagram (yellow): Final=544.7, Time=96.7, Moves(20)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE StockWish (purple): Final=576.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Gruppe 67 (red): Final=488.7, Time=90.7, Moves(20)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:39] MOVE 61: Hexagram (yellow) 49->47 [0.00ms]
+[2026-05-22 10:44:39] SCORE Hexagram (yellow): Final=540.6, Time=96.6, Moves(21)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE StockWish (purple): Final=576.0, Time=96.0, Moves(20)=0.0, Pins(2)=200.0, Dist=280.0, Win Bonus=0.0
+[2026-05-22 10:44:39] SCORE Gruppe 67 (red): Final=488.7, Time=90.7, Moves(20)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:39] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 62: StockWish (purple) 50->49 [0.00ms]
+[2026-05-22 10:44:40] SCORE Hexagram (yellow): Final=540.6, Time=96.6, Moves(21)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE StockWish (purple): Final=577.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Gruppe 67 (red): Final=488.7, Time=90.7, Moves(20)=0.0, Pins(1)=100.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 63: Gruppe 67 (red) 116->113 [0.00ms]
+[2026-05-22 10:44:40] SCORE Hexagram (yellow): Final=540.6, Time=96.6, Moves(21)=0.0, Pins(2)=200.0, Dist=244.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE StockWish (purple): Final=577.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Gruppe 67 (red): Final=490.2, Time=90.2, Moves(21)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 64: Hexagram (yellow) 48->50 [0.00ms]
+[2026-05-22 10:44:40] SCORE Hexagram (yellow): Final=544.5, Time=96.5, Moves(22)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE StockWish (purple): Final=577.8, Time=95.8, Moves(21)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Gruppe 67 (red): Final=490.2, Time=90.2, Moves(21)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:40] MOVE 65: StockWish (purple) 49->58 [0.00ms]
+[2026-05-22 10:44:40] SCORE Hexagram (yellow): Final=544.5, Time=96.5, Moves(22)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE StockWish (purple): Final=577.6, Time=95.6, Moves(22)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:40] SCORE Gruppe 67 (red): Final=490.2, Time=90.2, Moves(21)=0.0, Pins(1)=100.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:40] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:41] MOVE 66: Gruppe 67 (red) 113->93 [0.00ms]
+[2026-05-22 10:44:41] SCORE Hexagram (yellow): Final=544.5, Time=96.5, Moves(22)=0.0, Pins(2)=200.0, Dist=248.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE StockWish (purple): Final=577.6, Time=95.6, Moves(22)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE Gruppe 67 (red): Final=493.6, Time=89.6, Moves(22)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:41] MOVE 67: Hexagram (yellow) 50->70 [0.00ms]
+[2026-05-22 10:44:41] SCORE Hexagram (yellow): Final=548.4, Time=96.4, Moves(23)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE StockWish (purple): Final=577.6, Time=95.6, Moves(22)=0.0, Pins(2)=200.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE Gruppe 67 (red): Final=493.6, Time=89.6, Moves(22)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:41] MOVE 68: StockWish (purple) 51->50 [0.00ms]
+[2026-05-22 10:44:41] SCORE Hexagram (yellow): Final=548.4, Time=96.4, Moves(23)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE StockWish (purple): Final=579.5, Time=95.5, Moves(23)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:41] SCORE Gruppe 67 (red): Final=493.6, Time=89.6, Moves(22)=0.0, Pins(1)=100.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:41] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 69: Gruppe 67 (red) 102->90 [0.00ms]
+[2026-05-22 10:44:42] SCORE Hexagram (yellow): Final=548.4, Time=96.4, Moves(23)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE StockWish (purple): Final=579.5, Time=95.5, Moves(23)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 67 (red): Final=495.2, Time=89.2, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 70: Hexagram (yellow) 70->52 [0.00ms]
+[2026-05-22 10:44:42] SCORE Hexagram (yellow): Final=548.3, Time=96.3, Moves(24)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE StockWish (purple): Final=579.5, Time=95.5, Moves(23)=0.0, Pins(2)=200.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 67 (red): Final=495.2, Time=89.2, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 71: StockWish (purple) 71->49 [0.00ms]
+[2026-05-22 10:44:42] SCORE Hexagram (yellow): Final=548.3, Time=96.3, Moves(24)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE StockWish (purple): Final=587.5, Time=95.5, Moves(24)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 67 (red): Final=495.2, Time=89.2, Moves(23)=0.0, Pins(1)=100.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:42] MOVE 72: Gruppe 67 (red) 32->19 [0.00ms]
+[2026-05-22 10:44:42] SCORE Hexagram (yellow): Final=548.3, Time=96.3, Moves(24)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE StockWish (purple): Final=587.5, Time=95.5, Moves(24)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:42] SCORE Gruppe 67 (red): Final=496.7, Time=88.7, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:44:42] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 73: Hexagram (yellow) 52->70 [0.01ms]
+[2026-05-22 10:44:43] SCORE Hexagram (yellow): Final=548.1, Time=96.1, Moves(25)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE StockWish (purple): Final=587.5, Time=95.5, Moves(24)=0.0, Pins(2)=200.0, Dist=292.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 67 (red): Final=496.7, Time=88.7, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 74: StockWish (purple) 50->48 [0.00ms]
+[2026-05-22 10:44:43] SCORE Hexagram (yellow): Final=548.1, Time=96.1, Moves(25)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE StockWish (purple): Final=591.3, Time=95.3, Moves(25)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 67 (red): Final=496.7, Time=88.7, Moves(24)=0.0, Pins(1)=100.0, Dist=308.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 75: Gruppe 67 (red) 90->78 [0.01ms]
+[2026-05-22 10:44:43] SCORE Hexagram (yellow): Final=548.1, Time=96.1, Moves(25)=0.0, Pins(2)=200.0, Dist=252.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE StockWish (purple): Final=591.3, Time=95.3, Moves(25)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 67 (red): Final=498.2, Time=88.2, Moves(25)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 76: Hexagram (yellow) 70->71 [0.00ms]
+[2026-05-22 10:44:43] SCORE Hexagram (yellow): Final=550.0, Time=96.0, Moves(26)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE StockWish (purple): Final=591.3, Time=95.3, Moves(25)=0.0, Pins(2)=200.0, Dist=296.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 67 (red): Final=498.2, Time=88.2, Moves(25)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:43] MOVE 77: StockWish (purple) 61->60 [0.00ms]
+[2026-05-22 10:44:43] SCORE Hexagram (yellow): Final=550.0, Time=96.0, Moves(26)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE StockWish (purple): Final=593.2, Time=95.2, Moves(26)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:43] SCORE Gruppe 67 (red): Final=498.2, Time=88.2, Moves(25)=0.0, Pins(1)=100.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:43] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:44] MOVE 78: Gruppe 67 (red) 78->67 [0.00ms]
+[2026-05-22 10:44:44] SCORE Hexagram (yellow): Final=550.0, Time=96.0, Moves(26)=0.0, Pins(2)=200.0, Dist=254.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE StockWish (purple): Final=593.2, Time=95.2, Moves(26)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE Gruppe 67 (red): Final=499.7, Time=87.7, Moves(26)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:44:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:44] MOVE 79: Hexagram (yellow) 71->94 [0.00ms]
+[2026-05-22 10:44:44] SCORE Hexagram (yellow): Final=553.8, Time=95.8, Moves(27)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE StockWish (purple): Final=593.2, Time=95.2, Moves(26)=0.0, Pins(2)=200.0, Dist=298.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE Gruppe 67 (red): Final=499.7, Time=87.7, Moves(26)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:44:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:44] MOVE 80: StockWish (purple) 60->50 [0.00ms]
+[2026-05-22 10:44:44] SCORE Hexagram (yellow): Final=553.8, Time=95.8, Moves(27)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE StockWish (purple): Final=595.1, Time=95.1, Moves(27)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:44] SCORE Gruppe 67 (red): Final=499.7, Time=87.7, Moves(26)=0.0, Pins(1)=100.0, Dist=312.0, Win Bonus=0.0
+[2026-05-22 10:44:44] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 81: Gruppe 67 (red) 27->14 [0.00ms]
+[2026-05-22 10:44:45] SCORE Hexagram (yellow): Final=553.8, Time=95.8, Moves(27)=0.0, Pins(2)=200.0, Dist=258.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE StockWish (purple): Final=595.1, Time=95.1, Moves(27)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Gruppe 67 (red): Final=501.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 82: Hexagram (yellow) 94->95 [0.00ms]
+[2026-05-22 10:44:45] SCORE Hexagram (yellow): Final=655.7, Time=95.7, Moves(28)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE StockWish (purple): Final=595.1, Time=95.1, Moves(27)=0.0, Pins(2)=200.0, Dist=300.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Gruppe 67 (red): Final=501.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 83: StockWish (purple) 82->71 [0.00ms]
+[2026-05-22 10:44:45] SCORE Hexagram (yellow): Final=655.7, Time=95.7, Moves(28)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE StockWish (purple): Final=597.0, Time=95.0, Moves(28)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Gruppe 67 (red): Final=501.2, Time=87.2, Moves(27)=0.0, Pins(1)=100.0, Dist=314.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 84: Gruppe 67 (red) 105->61 [0.00ms]
+[2026-05-22 10:44:45] SCORE Hexagram (yellow): Final=655.7, Time=95.7, Moves(28)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE StockWish (purple): Final=597.0, Time=95.0, Moves(28)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Gruppe 67 (red): Final=508.7, Time=86.7, Moves(28)=0.0, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:45] MOVE 85: Hexagram (yellow) 95->96 [0.00ms]
+[2026-05-22 10:44:45] SCORE Hexagram (yellow): Final=655.6, Time=95.6, Moves(29)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE StockWish (purple): Final=597.0, Time=95.0, Moves(28)=0.0, Pins(2)=200.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:45] SCORE Gruppe 67 (red): Final=508.7, Time=86.7, Moves(28)=0.0, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:45] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 86: StockWish (purple) 58->57 [0.00ms]
+[2026-05-22 10:44:46] SCORE Hexagram (yellow): Final=655.6, Time=95.6, Moves(29)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE StockWish (purple): Final=599.0, Time=94.9, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 67 (red): Final=508.7, Time=86.7, Moves(28)=0.0, Pins(1)=100.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 87: Gruppe 67 (red) 30->17 [0.01ms]
+[2026-05-22 10:44:46] SCORE Hexagram (yellow): Final=655.6, Time=95.6, Moves(29)=0.0, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE StockWish (purple): Final=599.0, Time=94.9, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 67 (red): Final=510.1, Time=86.1, Moves(29)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 88: Hexagram (yellow) 96->109 [0.00ms]
+[2026-05-22 10:44:46] SCORE Hexagram (yellow): Final=655.5, Time=95.4, Moves(30)=0.1, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE StockWish (purple): Final=599.0, Time=94.9, Moves(29)=0.0, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 67 (red): Final=510.1, Time=86.1, Moves(29)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:46] MOVE 89: StockWish (purple) 49->58 [0.00ms]
+[2026-05-22 10:44:46] SCORE Hexagram (yellow): Final=655.5, Time=95.4, Moves(30)=0.1, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE StockWish (purple): Final=598.9, Time=94.8, Moves(30)=0.1, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:46] SCORE Gruppe 67 (red): Final=510.1, Time=86.1, Moves(29)=0.0, Pins(1)=100.0, Dist=324.0, Win Bonus=0.0
+[2026-05-22 10:44:46] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 90: Gruppe 67 (red) 67->49 [0.01ms]
+[2026-05-22 10:44:47] SCORE Hexagram (yellow): Final=655.5, Time=95.4, Moves(30)=0.1, Pins(3)=300.0, Dist=260.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE StockWish (purple): Final=598.9, Time=94.8, Moves(30)=0.1, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Gruppe 67 (red): Final=513.6, Time=85.6, Moves(30)=0.1, Pins(1)=100.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:47] MOVE 91: Hexagram (yellow) 24->25 [0.01ms]
+[2026-05-22 10:44:47] SCORE Hexagram (yellow): Final=657.6, Time=95.4, Moves(31)=0.2, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE StockWish (purple): Final=598.9, Time=94.8, Moves(30)=0.1, Pins(2)=200.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:47] SCORE Gruppe 67 (red): Final=513.6, Time=85.6, Moves(30)=0.1, Pins(1)=100.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:47] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:48] MOVE 92: StockWish (purple) 97->96 [0.00ms]
+[2026-05-22 10:44:48] SCORE Hexagram (yellow): Final=657.6, Time=95.4, Moves(31)=0.2, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE StockWish (purple): Final=600.1, Time=93.9, Moves(31)=0.2, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:48] SCORE Gruppe 67 (red): Final=513.6, Time=85.6, Moves(30)=0.1, Pins(1)=100.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:48] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 93: Gruppe 67 (red) 115->111 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=657.6, Time=95.4, Moves(31)=0.2, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.1, Time=93.9, Moves(31)=0.2, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=515.2, Time=85.0, Moves(31)=0.2, Pins(1)=100.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 94: Hexagram (yellow) 85->97 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=657.7, Time=95.2, Moves(32)=0.5, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.1, Time=93.9, Moves(31)=0.2, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=515.2, Time=85.0, Moves(31)=0.2, Pins(1)=100.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 95: StockWish (purple) 35->24 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=657.7, Time=95.2, Moves(32)=0.5, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.4, Time=93.9, Moves(32)=0.5, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=515.2, Time=85.0, Moves(31)=0.2, Pins(1)=100.0, Dist=330.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 96: Gruppe 67 (red) 111->102 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=657.7, Time=95.2, Moves(32)=0.5, Pins(3)=300.0, Dist=262.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.4, Time=93.9, Moves(32)=0.5, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=517.0, Time=84.5, Moves(32)=0.5, Pins(1)=100.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 97: Hexagram (yellow) 12->83 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=678.2, Time=95.1, Moves(33)=1.1, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.4, Time=93.9, Moves(32)=0.5, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=517.0, Time=84.5, Moves(32)=0.5, Pins(1)=100.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:49] MOVE 98: StockWish (purple) 24->11 [0.00ms]
+[2026-05-22 10:44:49] SCORE Hexagram (yellow): Final=678.2, Time=95.1, Moves(33)=1.1, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE StockWish (purple): Final=600.9, Time=93.8, Moves(33)=1.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:49] SCORE Gruppe 67 (red): Final=517.0, Time=84.5, Moves(32)=0.5, Pins(1)=100.0, Dist=332.0, Win Bonus=0.0
+[2026-05-22 10:44:49] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 99: Gruppe 67 (red) 18->5 [0.00ms]
+[2026-05-22 10:44:50] SCORE Hexagram (yellow): Final=678.2, Time=95.1, Moves(33)=1.1, Pins(3)=300.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE StockWish (purple): Final=600.9, Time=93.8, Moves(33)=1.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Gruppe 67 (red): Final=619.0, Time=83.9, Moves(33)=1.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 100: Hexagram (yellow) 83->95 [0.00ms]
+[2026-05-22 10:44:50] SCORE Hexagram (yellow): Final=781.4, Time=95.1, Moves(34)=2.3, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE StockWish (purple): Final=600.9, Time=93.8, Moves(33)=1.1, Pins(2)=200.0, Dist=306.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Gruppe 67 (red): Final=619.0, Time=83.9, Moves(33)=1.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:50] MOVE 101: StockWish (purple) 96->94 [0.00ms]
+[2026-05-22 10:44:50] SCORE Hexagram (yellow): Final=781.4, Time=95.1, Moves(34)=2.3, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE StockWish (purple): Final=606.0, Time=93.7, Moves(34)=2.3, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:50] SCORE Gruppe 67 (red): Final=619.0, Time=83.9, Moves(33)=1.1, Pins(2)=200.0, Dist=334.0, Win Bonus=0.0
+[2026-05-22 10:44:50] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 102: Gruppe 67 (red) 102->90 [0.00ms]
+[2026-05-22 10:44:51] SCORE Hexagram (yellow): Final=781.4, Time=95.1, Moves(34)=2.3, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE StockWish (purple): Final=606.0, Time=93.7, Moves(34)=2.3, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 67 (red): Final=621.6, Time=83.3, Moves(34)=2.3, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 103: Hexagram (yellow) 95->96 [0.00ms]
+[2026-05-22 10:44:51] SCORE Hexagram (yellow): Final=783.3, Time=95.0, Moves(35)=4.4, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE StockWish (purple): Final=606.0, Time=93.7, Moves(34)=2.3, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 67 (red): Final=621.6, Time=83.3, Moves(34)=2.3, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 104: StockWish (purple) 94->83 [0.00ms]
+[2026-05-22 10:44:51] SCORE Hexagram (yellow): Final=783.3, Time=95.0, Moves(35)=4.4, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE StockWish (purple): Final=608.0, Time=93.6, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 67 (red): Final=621.6, Time=83.3, Moves(34)=2.3, Pins(2)=200.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 105: Gruppe 67 (red) 19->18 [0.00ms]
+[2026-05-22 10:44:51] SCORE Hexagram (yellow): Final=783.3, Time=95.0, Moves(35)=4.4, Pins(4)=400.0, Dist=284.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE StockWish (purple): Final=608.0, Time=93.6, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 67 (red): Final=625.2, Time=82.8, Moves(35)=4.4, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:51] MOVE 106: Hexagram (yellow) 25->24 [0.00ms]
+[2026-05-22 10:44:51] SCORE Hexagram (yellow): Final=784.9, Time=94.9, Moves(36)=8.0, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE StockWish (purple): Final=608.0, Time=93.6, Moves(35)=4.4, Pins(2)=200.0, Dist=310.0, Win Bonus=0.0
+[2026-05-22 10:44:51] SCORE Gruppe 67 (red): Final=625.2, Time=82.8, Moves(35)=4.4, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:44:51] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 107: StockWish (purple) 83->37 [0.00ms]
+[2026-05-22 10:44:52] SCORE Hexagram (yellow): Final=784.9, Time=94.9, Moves(36)=8.0, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE StockWish (purple): Final=627.4, Time=93.4, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Gruppe 67 (red): Final=625.2, Time=82.8, Moves(35)=4.4, Pins(2)=200.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 108: Gruppe 67 (red) 93->82 [0.01ms]
+[2026-05-22 10:44:52] SCORE Hexagram (yellow): Final=784.9, Time=94.9, Moves(36)=8.0, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE StockWish (purple): Final=627.4, Time=93.4, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Gruppe 67 (red): Final=630.3, Time=82.3, Moves(36)=8.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 109: Hexagram (yellow) 24->35 [0.01ms]
+[2026-05-22 10:44:52] SCORE Hexagram (yellow): Final=790.3, Time=94.8, Moves(37)=13.5, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE StockWish (purple): Final=627.4, Time=93.4, Moves(36)=8.0, Pins(2)=200.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Gruppe 67 (red): Final=630.3, Time=82.3, Moves(36)=8.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:52] MOVE 110: StockWish (purple) 37->25 [0.00ms]
+[2026-05-22 10:44:52] SCORE Hexagram (yellow): Final=790.3, Time=94.8, Moves(37)=13.5, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE StockWish (purple): Final=734.9, Time=93.4, Moves(37)=13.5, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:52] SCORE Gruppe 67 (red): Final=630.3, Time=82.3, Moves(36)=8.0, Pins(2)=200.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:52] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 111: Gruppe 67 (red) 82->63 [0.00ms]
+[2026-05-22 10:44:53] SCORE Hexagram (yellow): Final=790.3, Time=94.8, Moves(37)=13.5, Pins(4)=400.0, Dist=282.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE StockWish (purple): Final=734.9, Time=93.4, Moves(37)=13.5, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Gruppe 67 (red): Final=639.1, Time=81.6, Moves(37)=13.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 112: Hexagram (yellow) 35->83 [0.00ms]
+[2026-05-22 10:44:53] SCORE Hexagram (yellow): Final=818.3, Time=94.7, Moves(38)=21.6, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE StockWish (purple): Final=734.9, Time=93.4, Moves(37)=13.5, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Gruppe 67 (red): Final=639.1, Time=81.6, Moves(37)=13.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:53] MOVE 113: StockWish (purple) 25->24 [0.01ms]
+[2026-05-22 10:44:53] SCORE Hexagram (yellow): Final=818.3, Time=94.7, Moves(38)=21.6, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE StockWish (purple): Final=742.8, Time=93.2, Moves(38)=21.6, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:53] SCORE Gruppe 67 (red): Final=639.1, Time=81.6, Moves(37)=13.5, Pins(2)=200.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:53] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:54] MOVE 114: Gruppe 67 (red) 49->39 [0.01ms]
+[2026-05-22 10:44:54] SCORE Hexagram (yellow): Final=818.3, Time=94.7, Moves(38)=21.6, Pins(4)=400.0, Dist=302.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE StockWish (purple): Final=742.8, Time=93.2, Moves(38)=21.6, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE Gruppe 67 (red): Final=648.6, Time=81.0, Moves(38)=21.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:54] MOVE 115: Hexagram (yellow) 83->84 [0.00ms]
+[2026-05-22 10:44:54] SCORE Hexagram (yellow): Final=931.0, Time=94.5, Moves(39)=32.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE StockWish (purple): Final=742.8, Time=93.2, Moves(38)=21.6, Pins(3)=300.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE Gruppe 67 (red): Final=648.6, Time=81.0, Moves(38)=21.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:54] MOVE 116: StockWish (purple) 50->46 [0.01ms]
+[2026-05-22 10:44:54] SCORE Hexagram (yellow): Final=931.0, Time=94.5, Moves(39)=32.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE StockWish (purple): Final=861.6, Time=93.1, Moves(39)=32.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:54] SCORE Gruppe 67 (red): Final=648.6, Time=81.0, Moves(38)=21.6, Pins(2)=200.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:54] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 117: Gruppe 67 (red) 90->78 [0.01ms]
+[2026-05-22 10:44:55] SCORE Hexagram (yellow): Final=931.0, Time=94.5, Moves(39)=32.5, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE StockWish (purple): Final=861.6, Time=93.1, Moves(39)=32.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 67 (red): Final=661.0, Time=80.5, Moves(39)=32.5, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 118: Hexagram (yellow) 84->85 [0.00ms]
+[2026-05-22 10:44:55] SCORE Hexagram (yellow): Final=944.2, Time=94.5, Moves(40)=45.8, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE StockWish (purple): Final=861.6, Time=93.1, Moves(39)=32.5, Pins(4)=400.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 67 (red): Final=661.0, Time=80.5, Moves(39)=32.5, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 119: StockWish (purple) 71->51 [0.00ms]
+[2026-05-22 10:44:55] SCORE Hexagram (yellow): Final=944.2, Time=94.5, Moves(40)=45.8, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE StockWish (purple): Final=878.7, Time=93.0, Moves(40)=45.8, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 67 (red): Final=661.0, Time=80.5, Moves(39)=32.5, Pins(2)=200.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:55] MOVE 120: Gruppe 67 (red) 61->40 [0.01ms]
+[2026-05-22 10:44:55] SCORE Hexagram (yellow): Final=944.2, Time=94.5, Moves(40)=45.8, Pins(5)=500.0, Dist=304.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE StockWish (purple): Final=878.7, Time=93.0, Moves(40)=45.8, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:55] SCORE Gruppe 67 (red): Final=677.7, Time=79.9, Moves(40)=45.8, Pins(2)=200.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:44:55] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:56] MOVE 121: Hexagram (yellow) 23->50 [0.01ms]
+[2026-05-22 10:44:56] SCORE Hexagram (yellow): Final=971.0, Time=94.3, Moves(41)=60.7, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE StockWish (purple): Final=878.7, Time=93.0, Moves(40)=45.8, Pins(4)=400.0, Dist=340.0, Win Bonus=0.0
+[2026-05-22 10:44:56] SCORE Gruppe 67 (red): Final=677.7, Time=79.9, Moves(40)=45.8, Pins(2)=200.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:44:56] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 122: StockWish (purple) 48->23 [0.01ms]
+[2026-05-22 10:44:57] SCORE Hexagram (yellow): Final=971.0, Time=94.3, Moves(41)=60.7, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE StockWish (purple): Final=996.6, Time=92.0, Moves(41)=60.7, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Gruppe 67 (red): Final=677.7, Time=79.9, Moves(40)=45.8, Pins(2)=200.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 123: Gruppe 67 (red) 39->27 [0.01ms]
+[2026-05-22 10:44:57] SCORE Hexagram (yellow): Final=971.0, Time=94.3, Moves(41)=60.7, Pins(5)=500.0, Dist=316.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE StockWish (purple): Final=996.6, Time=92.0, Moves(41)=60.7, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Gruppe 67 (red): Final=694.0, Time=79.4, Moves(41)=60.7, Pins(2)=200.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 124: Hexagram (yellow) 50->60 [0.00ms]
+[2026-05-22 10:44:57] SCORE Hexagram (yellow): Final=987.7, Time=94.2, Moves(42)=75.5, Pins(5)=500.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE StockWish (purple): Final=996.6, Time=92.0, Moves(41)=60.7, Pins(5)=500.0, Dist=344.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Gruppe 67 (red): Final=694.0, Time=79.4, Moves(41)=60.7, Pins(2)=200.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:57] MOVE 125: StockWish (purple) 51->50 [0.00ms]
+[2026-05-22 10:44:57] SCORE Hexagram (yellow): Final=987.7, Time=94.2, Moves(42)=75.5, Pins(5)=500.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE StockWish (purple): Final=1013.3, Time=91.9, Moves(42)=75.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:57] SCORE Gruppe 67 (red): Final=694.0, Time=79.4, Moves(41)=60.7, Pins(2)=200.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:44:57] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:58] MOVE 126: Gruppe 67 (red) 40->29 [0.01ms]
+[2026-05-22 10:44:58] SCORE Hexagram (yellow): Final=987.7, Time=94.2, Moves(42)=75.5, Pins(5)=500.0, Dist=318.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE StockWish (purple): Final=1013.3, Time=91.9, Moves(42)=75.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE Gruppe 67 (red): Final=710.4, Time=78.9, Moves(42)=75.5, Pins(2)=200.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:44:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:58] MOVE 127: Hexagram (yellow) 60->61 [0.01ms]
+[2026-05-22 10:44:58] SCORE Hexagram (yellow): Final=1002.4, Time=94.1, Moves(43)=88.2, Pins(5)=500.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE StockWish (purple): Final=1013.3, Time=91.9, Moves(42)=75.5, Pins(5)=500.0, Dist=346.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE Gruppe 67 (red): Final=710.4, Time=78.9, Moves(42)=75.5, Pins(2)=200.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:44:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:58] MOVE 128: StockWish (purple) 50->49 [0.00ms]
+[2026-05-22 10:44:58] SCORE Hexagram (yellow): Final=1002.4, Time=94.1, Moves(43)=88.2, Pins(5)=500.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE StockWish (purple): Final=1028.0, Time=91.8, Moves(43)=88.2, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:58] SCORE Gruppe 67 (red): Final=710.4, Time=78.9, Moves(42)=75.5, Pins(2)=200.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:44:58] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 129: Gruppe 67 (red) 29->16 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1002.4, Time=94.1, Moves(43)=88.2, Pins(5)=500.0, Dist=320.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1028.0, Time=91.8, Moves(43)=88.2, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=724.6, Time=78.4, Moves(43)=88.2, Pins(2)=200.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 130: Hexagram (yellow) 61->71 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1013.0, Time=94.1, Moves(44)=96.9, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1028.0, Time=91.8, Moves(43)=88.2, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=724.6, Time=78.4, Moves(43)=88.2, Pins(2)=200.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 131: StockWish (purple) 57->48 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1013.0, Time=94.1, Moves(44)=96.9, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1036.6, Time=91.7, Moves(44)=96.9, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=724.6, Time=78.4, Moves(43)=88.2, Pins(2)=200.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 132: Gruppe 67 (red) 14->6 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1013.0, Time=94.1, Moves(44)=96.9, Pins(5)=500.0, Dist=322.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1036.6, Time=91.7, Moves(44)=96.9, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=834.7, Time=77.8, Moves(44)=96.9, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 133: Hexagram (yellow) 71->73 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1020.0, Time=94.0, Moves(45)=100.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1036.6, Time=91.7, Moves(44)=96.9, Pins(5)=500.0, Dist=348.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=834.7, Time=77.8, Moves(44)=96.9, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:44:59] MOVE 134: StockWish (purple) 48->37 [0.00ms]
+[2026-05-22 10:44:59] SCORE Hexagram (yellow): Final=1020.0, Time=94.0, Moves(45)=100.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE StockWish (purple): Final=1041.6, Time=91.6, Moves(45)=100.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:44:59] SCORE Gruppe 67 (red): Final=834.7, Time=77.8, Moves(44)=96.9, Pins(3)=300.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:44:59] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 135: Gruppe 67 (red) 17->8 [0.00ms]
+[2026-05-22 10:45:00] SCORE Hexagram (yellow): Final=1020.0, Time=94.0, Moves(45)=100.0, Pins(5)=500.0, Dist=326.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE StockWish (purple): Final=1041.6, Time=91.6, Moves(45)=100.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 67 (red): Final=939.3, Time=77.3, Moves(45)=100.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 136: Hexagram (yellow) 73->84 [0.00ms]
+[2026-05-22 10:45:00] SCORE Hexagram (yellow): Final=1121.8, Time=93.9, Moves(46)=99.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE StockWish (purple): Final=1041.6, Time=91.6, Moves(45)=100.0, Pins(5)=500.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 67 (red): Final=939.3, Time=77.3, Moves(45)=100.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:00] MOVE 137: StockWish (purple) 37->35 [0.00ms]
+[2026-05-22 10:45:00] SCORE Hexagram (yellow): Final=1121.8, Time=93.9, Moves(46)=99.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE StockWish (purple): Final=1143.3, Time=91.5, Moves(46)=99.8, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:00] SCORE Gruppe 67 (red): Final=939.3, Time=77.3, Moves(45)=100.0, Pins(4)=400.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:00] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 138: Gruppe 67 (red) 43->31 [0.00ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1121.8, Time=93.9, Moves(46)=99.8, Pins(6)=600.0, Dist=328.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1143.3, Time=91.5, Moves(46)=99.8, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=940.6, Time=76.8, Moves(46)=99.8, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 139: Hexagram (yellow) 36->59 [0.01ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1129.3, Time=93.9, Moves(47)=99.4, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1143.3, Time=91.5, Moves(46)=99.8, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=940.6, Time=76.8, Moves(46)=99.8, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 140: StockWish (purple) 74->73 [0.00ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1129.3, Time=93.9, Moves(47)=99.4, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1144.8, Time=91.4, Moves(47)=99.4, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=940.6, Time=76.8, Moves(46)=99.8, Pins(4)=400.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 141: Gruppe 67 (red) 27->15 [0.00ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1129.3, Time=93.9, Moves(47)=99.4, Pins(6)=600.0, Dist=336.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1144.8, Time=91.4, Moves(47)=99.4, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=941.7, Time=76.3, Moves(47)=99.4, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 142: Hexagram (yellow) 59->60 [0.00ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1130.4, Time=93.8, Moves(48)=98.6, Pins(6)=600.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1144.8, Time=91.4, Moves(47)=99.4, Pins(6)=600.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=941.7, Time=76.3, Moves(47)=99.4, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:01] MOVE 143: StockWish (purple) 73->71 [0.00ms]
+[2026-05-22 10:45:01] SCORE Hexagram (yellow): Final=1130.4, Time=93.8, Moves(48)=98.6, Pins(6)=600.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE StockWish (purple): Final=1147.9, Time=91.3, Moves(48)=98.6, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:01] SCORE Gruppe 67 (red): Final=941.7, Time=76.3, Moves(47)=99.4, Pins(4)=400.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:01] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:02] MOVE 144: Gruppe 67 (red) 15->7 [0.01ms]
+[2026-05-22 10:45:02] SCORE Hexagram (yellow): Final=1130.4, Time=93.8, Moves(48)=98.6, Pins(6)=600.0, Dist=338.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE StockWish (purple): Final=1147.9, Time=91.3, Moves(48)=98.6, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE Gruppe 67 (red): Final=1042.3, Time=75.7, Moves(48)=98.6, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:02] MOVE 145: Hexagram (yellow) 38->82 [0.00ms]
+[2026-05-22 10:45:02] SCORE Hexagram (yellow): Final=1141.3, Time=93.7, Moves(49)=97.6, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE StockWish (purple): Final=1147.9, Time=91.3, Moves(48)=98.6, Pins(6)=600.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE Gruppe 67 (red): Final=1042.3, Time=75.7, Moves(48)=98.6, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:02] MOVE 146: StockWish (purple) 49->38 [0.00ms]
+[2026-05-22 10:45:02] SCORE Hexagram (yellow): Final=1141.3, Time=93.7, Moves(49)=97.6, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE StockWish (purple): Final=1148.8, Time=91.2, Moves(49)=97.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:02] SCORE Gruppe 67 (red): Final=1042.3, Time=75.7, Moves(48)=98.6, Pins(5)=500.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:02] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 147: Gruppe 67 (red) 16->3 [0.01ms]
+[2026-05-22 10:45:03] SCORE Hexagram (yellow): Final=1141.3, Time=93.7, Moves(49)=97.6, Pins(6)=600.0, Dist=350.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE StockWish (purple): Final=1148.8, Time=91.2, Moves(49)=97.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE Gruppe 67 (red): Final=1142.7, Time=75.1, Moves(49)=97.6, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 148: Hexagram (yellow) 82->94 [0.01ms]
+[2026-05-22 10:45:03] SCORE Hexagram (yellow): Final=1141.7, Time=93.4, Moves(50)=96.2, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE StockWish (purple): Final=1148.8, Time=91.2, Moves(49)=97.6, Pins(6)=600.0, Dist=360.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE Gruppe 67 (red): Final=1142.7, Time=75.1, Moves(49)=97.6, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:03] MOVE 149: StockWish (purple) 38->37 [0.00ms]
+[2026-05-22 10:45:03] SCORE Hexagram (yellow): Final=1141.7, Time=93.4, Moves(50)=96.2, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE StockWish (purple): Final=1149.3, Time=91.1, Moves(50)=96.2, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:03] SCORE Gruppe 67 (red): Final=1142.7, Time=75.1, Moves(49)=97.6, Pins(6)=600.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:03] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 150: Gruppe 67 (red) 63->13 [0.00ms]
+[2026-05-22 10:45:04] SCORE Hexagram (yellow): Final=1141.7, Time=93.4, Moves(50)=96.2, Pins(6)=600.0, Dist=352.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE StockWish (purple): Final=1149.3, Time=91.1, Moves(50)=96.2, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 67 (red): Final=1146.8, Time=74.6, Moves(50)=96.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 151: Hexagram (yellow) 94->95 [0.00ms]
+[2026-05-22 10:45:04] SCORE Hexagram (yellow): Final=1242.0, Time=93.4, Moves(51)=94.6, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE StockWish (purple): Final=1149.3, Time=91.1, Moves(50)=96.2, Pins(6)=600.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 67 (red): Final=1146.8, Time=74.6, Moves(50)=96.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 152: StockWish (purple) 37->36 [0.00ms]
+[2026-05-22 10:45:04] SCORE Hexagram (yellow): Final=1242.0, Time=93.4, Moves(51)=94.6, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE StockWish (purple): Final=1249.6, Time=91.0, Moves(51)=94.6, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 67 (red): Final=1146.8, Time=74.6, Moves(50)=96.2, Pins(6)=600.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 153: Gruppe 67 (red) 78->68 [0.00ms]
+[2026-05-22 10:45:04] SCORE Hexagram (yellow): Final=1242.0, Time=93.4, Moves(51)=94.6, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE StockWish (purple): Final=1249.6, Time=91.0, Moves(51)=94.6, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 67 (red): Final=1146.8, Time=74.2, Moves(51)=94.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:04] MOVE 154: Hexagram (yellow) 95->108 [0.00ms]
+[2026-05-22 10:45:04] SCORE Hexagram (yellow): Final=1240.1, Time=93.3, Moves(52)=92.7, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE StockWish (purple): Final=1249.6, Time=91.0, Moves(51)=94.6, Pins(7)=700.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:04] SCORE Gruppe 67 (red): Final=1146.8, Time=74.2, Moves(51)=94.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:04] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:05] MOVE 155: StockWish (purple) 71->70 [0.01ms]
+[2026-05-22 10:45:05] SCORE Hexagram (yellow): Final=1240.1, Time=93.3, Moves(52)=92.7, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:05] SCORE StockWish (purple): Final=1249.0, Time=90.3, Moves(52)=92.7, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:05] SCORE Gruppe 67 (red): Final=1146.8, Time=74.2, Moves(51)=94.6, Pins(6)=600.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:05] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 156: Gruppe 67 (red) 68->48 [0.00ms]
+[2026-05-22 10:45:06] SCORE Hexagram (yellow): Final=1240.1, Time=93.3, Moves(52)=92.7, Pins(7)=700.0, Dist=354.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE StockWish (purple): Final=1249.0, Time=90.3, Moves(52)=92.7, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 67 (red): Final=1148.4, Time=73.7, Moves(52)=92.7, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 157: Hexagram (yellow) 60->61 [0.00ms]
+[2026-05-22 10:45:06] SCORE Hexagram (yellow): Final=1239.8, Time=93.2, Moves(53)=90.6, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE StockWish (purple): Final=1249.0, Time=90.3, Moves(52)=92.7, Pins(7)=700.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 67 (red): Final=1148.4, Time=73.7, Moves(52)=92.7, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 158: StockWish (purple) 70->60 [0.01ms]
+[2026-05-22 10:45:06] SCORE Hexagram (yellow): Final=1239.8, Time=93.2, Moves(53)=90.6, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE StockWish (purple): Final=1248.6, Time=90.0, Moves(53)=90.6, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 67 (red): Final=1148.4, Time=73.7, Moves(52)=92.7, Pins(6)=600.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 159: Gruppe 67 (red) 48->37 [0.00ms]
+[2026-05-22 10:45:06] SCORE Hexagram (yellow): Final=1239.8, Time=93.2, Moves(53)=90.6, Pins(7)=700.0, Dist=356.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE StockWish (purple): Final=1248.6, Time=90.0, Moves(53)=90.6, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 67 (red): Final=1147.8, Time=73.2, Moves(53)=90.6, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:06] MOVE 160: Hexagram (yellow) 61->71 [0.00ms]
+[2026-05-22 10:45:06] SCORE Hexagram (yellow): Final=1239.4, Time=93.2, Moves(54)=88.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE StockWish (purple): Final=1248.6, Time=90.0, Moves(53)=90.6, Pins(7)=700.0, Dist=368.0, Win Bonus=0.0
+[2026-05-22 10:45:06] SCORE Gruppe 67 (red): Final=1147.8, Time=73.2, Moves(53)=90.6, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:06] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:07] MOVE 161: StockWish (purple) 60->50 [0.00ms]
+[2026-05-22 10:45:07] SCORE Hexagram (yellow): Final=1239.4, Time=93.2, Moves(54)=88.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE StockWish (purple): Final=1248.0, Time=89.8, Moves(54)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE Gruppe 67 (red): Final=1147.8, Time=73.2, Moves(53)=90.6, Pins(6)=600.0, Dist=384.0, Win Bonus=0.0
+[2026-05-22 10:45:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:07] MOVE 162: Gruppe 67 (red) 37->14 [0.00ms]
+[2026-05-22 10:45:07] SCORE Hexagram (yellow): Final=1239.4, Time=93.2, Moves(54)=88.2, Pins(7)=700.0, Dist=358.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE StockWish (purple): Final=1248.0, Time=89.8, Moves(54)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE Gruppe 67 (red): Final=1148.9, Time=72.7, Moves(54)=88.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:07] MOVE 163: Hexagram (yellow) 71->73 [0.00ms]
+[2026-05-22 10:45:07] SCORE Hexagram (yellow): Final=1240.7, Time=93.0, Moves(55)=85.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE StockWish (purple): Final=1248.0, Time=89.8, Moves(54)=88.2, Pins(7)=700.0, Dist=370.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE Gruppe 67 (red): Final=1148.9, Time=72.7, Moves(54)=88.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:07] MOVE 164: StockWish (purple) 50->39 [0.00ms]
+[2026-05-22 10:45:07] SCORE Hexagram (yellow): Final=1240.7, Time=93.0, Moves(55)=85.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE StockWish (purple): Final=1247.4, Time=89.7, Moves(55)=85.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:45:07] SCORE Gruppe 67 (red): Final=1148.9, Time=72.7, Moves(54)=88.2, Pins(6)=600.0, Dist=388.0, Win Bonus=0.0
+[2026-05-22 10:45:07] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 165: Gruppe 67 (red) 13->4 [0.00ms]
+[2026-05-22 10:45:08] SCORE Hexagram (yellow): Final=1240.7, Time=93.0, Moves(55)=85.7, Pins(7)=700.0, Dist=362.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE StockWish (purple): Final=1247.4, Time=89.7, Moves(55)=85.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 67 (red): Final=1249.8, Time=72.1, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 166: Hexagram (yellow) 73->74 [0.01ms]
+[2026-05-22 10:45:08] SCORE Hexagram (yellow): Final=1339.9, Time=92.9, Moves(56)=83.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE StockWish (purple): Final=1247.4, Time=89.7, Moves(55)=85.7, Pins(7)=700.0, Dist=372.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 67 (red): Final=1249.8, Time=72.1, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:08] MOVE 167: StockWish (purple) 39->38 [0.01ms]
+[2026-05-22 10:45:08] SCORE Hexagram (yellow): Final=1339.9, Time=92.9, Moves(56)=83.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE StockWish (purple): Final=1246.6, Time=89.6, Moves(56)=83.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:08] SCORE Gruppe 67 (red): Final=1249.8, Time=72.1, Moves(55)=85.7, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:08] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:09] MOVE 168: Gruppe 67 (red) 6->1 [0.00ms]
+[2026-05-22 10:45:09] SCORE Hexagram (yellow): Final=1339.9, Time=92.9, Moves(56)=83.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE StockWish (purple): Final=1246.6, Time=89.6, Moves(56)=83.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE Gruppe 67 (red): Final=1246.5, Time=71.6, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:09] MOVE 169: Hexagram (yellow) 47->48 [0.01ms]
+[2026-05-22 10:45:09] SCORE Hexagram (yellow): Final=1338.8, Time=92.8, Moves(57)=80.1, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE StockWish (purple): Final=1246.6, Time=89.6, Moves(56)=83.0, Pins(7)=700.0, Dist=374.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE Gruppe 67 (red): Final=1246.5, Time=71.6, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:09] MOVE 170: StockWish (purple) 38->37 [0.00ms]
+[2026-05-22 10:45:09] SCORE Hexagram (yellow): Final=1338.8, Time=92.8, Moves(57)=80.1, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE StockWish (purple): Final=1245.6, Time=89.5, Moves(57)=80.1, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:09] SCORE Gruppe 67 (red): Final=1246.5, Time=71.6, Moves(56)=83.0, Pins(7)=700.0, Dist=392.0, Win Bonus=0.0
+[2026-05-22 10:45:09] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 171: Gruppe 67 (red) 14->6 [0.00ms]
+[2026-05-22 10:45:10] SCORE Hexagram (yellow): Final=1338.8, Time=92.8, Moves(57)=80.1, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE StockWish (purple): Final=1245.6, Time=89.5, Moves(57)=80.1, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 67 (red): Final=1345.1, Time=71.0, Moves(57)=80.1, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 172: Hexagram (yellow) 48->47 [0.00ms]
+[2026-05-22 10:45:10] SCORE Hexagram (yellow): Final=1333.7, Time=92.6, Moves(58)=77.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE StockWish (purple): Final=1245.6, Time=89.5, Moves(57)=80.1, Pins(7)=700.0, Dist=376.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 67 (red): Final=1345.1, Time=71.0, Moves(57)=80.1, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 173: StockWish (purple) 72->71 [0.00ms]
+[2026-05-22 10:45:10] SCORE Hexagram (yellow): Final=1333.7, Time=92.6, Moves(58)=77.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE StockWish (purple): Final=1244.4, Time=89.4, Moves(58)=77.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 67 (red): Final=1345.1, Time=71.0, Moves(57)=80.1, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 174: Gruppe 67 (red) 9->2 [0.00ms]
+[2026-05-22 10:45:10] SCORE Hexagram (yellow): Final=1333.7, Time=92.6, Moves(58)=77.0, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE StockWish (purple): Final=1244.4, Time=89.4, Moves(58)=77.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 67 (red): Final=1341.6, Time=70.6, Moves(58)=77.0, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:10] MOVE 175: Hexagram (yellow) 47->48 [0.00ms]
+[2026-05-22 10:45:10] SCORE Hexagram (yellow): Final=1332.4, Time=92.5, Moves(59)=73.9, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE StockWish (purple): Final=1244.4, Time=89.4, Moves(58)=77.0, Pins(7)=700.0, Dist=378.0, Win Bonus=0.0
+[2026-05-22 10:45:10] SCORE Gruppe 67 (red): Final=1341.6, Time=70.6, Moves(58)=77.0, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:10] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:11] MOVE 176: StockWish (purple) 71->61 [0.00ms]
+[2026-05-22 10:45:11] SCORE Hexagram (yellow): Final=1332.4, Time=92.5, Moves(59)=73.9, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE StockWish (purple): Final=1243.2, Time=89.3, Moves(59)=73.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE Gruppe 67 (red): Final=1341.6, Time=70.6, Moves(58)=77.0, Pins(8)=800.0, Dist=394.0, Win Bonus=0.0
+[2026-05-22 10:45:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:11] MOVE 177: Gruppe 67 (red) 31->9 [0.00ms]
+[2026-05-22 10:45:11] SCORE Hexagram (yellow): Final=1332.4, Time=92.5, Moves(59)=73.9, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE StockWish (purple): Final=1243.2, Time=89.3, Moves(59)=73.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE Gruppe 67 (red): Final=1441.9, Time=70.0, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:11] MOVE 178: Hexagram (yellow) 48->47 [0.01ms]
+[2026-05-22 10:45:11] SCORE Hexagram (yellow): Final=1327.0, Time=92.3, Moves(60)=70.7, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE StockWish (purple): Final=1243.2, Time=89.3, Moves(59)=73.9, Pins(7)=700.0, Dist=380.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE Gruppe 67 (red): Final=1441.9, Time=70.0, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:11] MOVE 179: StockWish (purple) 37->25 [0.01ms]
+[2026-05-22 10:45:11] SCORE Hexagram (yellow): Final=1327.0, Time=92.3, Moves(60)=70.7, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE StockWish (purple): Final=1341.8, Time=89.1, Moves(60)=70.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:11] SCORE Gruppe 67 (red): Final=1441.9, Time=70.0, Moves(59)=73.9, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:11] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 180: Gruppe 67 (red) 5->0 [0.00ms]
+[2026-05-22 10:45:12] SCORE Hexagram (yellow): Final=1327.0, Time=92.3, Moves(60)=70.7, Pins(8)=800.0, Dist=364.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE StockWish (purple): Final=1341.8, Time=89.1, Moves(60)=70.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 67 (red): Final=1438.3, Time=69.7, Moves(60)=70.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 181: Hexagram (yellow) 47->48 [0.00ms]
+[2026-05-22 10:45:12] SCORE Hexagram (yellow): Final=1325.6, Time=92.3, Moves(61)=67.4, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE StockWish (purple): Final=1341.8, Time=89.1, Moves(60)=70.7, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 67 (red): Final=1438.3, Time=69.7, Moves(60)=70.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 182: StockWish (purple) 25->12 [0.00ms]
+[2026-05-22 10:45:12] SCORE Hexagram (yellow): Final=1325.6, Time=92.3, Moves(61)=67.4, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE StockWish (purple): Final=1338.4, Time=89.0, Moves(61)=67.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 67 (red): Final=1438.3, Time=69.7, Moves(60)=70.7, Pins(9)=900.0, Dist=398.0, Win Bonus=0.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
+[2026-05-22 10:45:12] MOVE 183: Gruppe 67 (red) 18->5 [0.00ms]
+[2026-05-22 10:45:12] SCORE Hexagram (yellow): Final=1325.6, Time=92.3, Moves(61)=67.4, Pins(8)=800.0, Dist=366.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE StockWish (purple): Final=1338.4, Time=89.0, Moves(61)=67.4, Pins(8)=800.0, Dist=382.0, Win Bonus=0.0
+[2026-05-22 10:45:12] SCORE Gruppe 67 (red): Final=2536.9, Time=69.5, Moves(61)=67.4, Pins(10)=1000.0, Dist=400.0, Win Bonus=1000.0
+[2026-05-22 10:45:12] ALL WRONG MOVES BY COLOUR: {}
