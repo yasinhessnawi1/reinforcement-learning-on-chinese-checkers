@@ -55,6 +55,26 @@ GAME_HARD_CAP = float(os.getenv("CC_GAME_HARD_CAP", "324.0"))         # default 
 RAW_POLICY_BUDGET_SEC = float(os.getenv("CC_RAW_POLICY_BUDGET", "1.0"))
 HEURISTIC_BUDGET_SEC = float(os.getenv("CC_HEURISTIC_BUDGET", "0.3"))
 
+# ---------------------------------------------------------------------------
+# Auto-start behaviour
+# ---------------------------------------------------------------------------
+# The tournament server has a quirk in start_game(): when ANY single player
+# sends `op=start`, it marks ALL players ready and immediately flips the game
+# to PLAYING. Slow starters get their first turns skipped at the 2s timeout.
+# Defence: we send `start` immediately the moment the game is READY_TO_START.
+#
+# Flip these flags here to change behaviour — no env vars required:
+#   AUTO_START = True   (default, tournament-correct)
+#     Send `op=start` immediately. We're always the fastest starter.
+#   AUTO_START = False
+#     Wait at "Press ENTER to send START..." (useful for local debugging).
+#   NO_AUTOSTART = True
+#     Don't send start at all — let an external harness do it. Overrides AUTO_START.
+#
+# Env-var overrides (uppercase = on):  CC_NO_AUTOSTART, CC_MANUAL_START.
+AUTO_START = True
+NO_AUTOSTART = False
+
 # Path to model checkpoint. Defaults to file next to this script.
 # Looks in this order: CC_MODEL env, tournament_model.pt next to script,
 # any best_model.pt in known experiment folders. The first found wins.
@@ -1288,24 +1308,23 @@ def main():
         print("Waiting for players...")
         time.sleep(0.5)
 
-    # CC_NO_AUTOSTART skips sending start ourselves — useful when an external
-    # harness sends start for all N players simultaneously (otherwise the
-    # first 2 players to send start auto-launch the game before the rest
-    # have joined).
-    no_autostart = os.getenv("CC_NO_AUTOSTART", "0") not in ("0", "", "false", "False")
+    # Resolve auto-start behaviour from the top-of-file flags + env overrides.
+    no_autostart = NO_AUTOSTART or (
+        os.getenv("CC_NO_AUTOSTART", "0") not in ("0", "", "false", "False"))
+    manual_start = (not AUTO_START) or (
+        os.getenv("CC_MANUAL_START", "0") not in ("0", "", "false", "False"))
     if no_autostart:
         print(f"PLAYER_ID={player_id}", flush=True)  # for harness
-    elif os.getenv("CC_AUTOSTART", "0") not in ("0", "", "false", "False"):
-        print("Auto-starting...")
-        rpc({"op": "start", "game_id": game_id, "player_id": player_id})
-        print("Sent START")
-    else:
+    elif manual_start:
         try:
             input("Press ENTER to send START...")
         except EOFError:
             pass
         rpc({"op": "start", "game_id": game_id, "player_id": player_id})
-        print("Sent START")
+        print("Sent START (manual)")
+    else:
+        rpc({"op": "start", "game_id": game_id, "player_id": player_id})
+        print("Sent START (auto, immediately on READY_TO_START)")
 
     while True:
         st = rpc({"op": "get_state", "game_id": game_id})
